@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-08-23T23:47:29.170Z",
+  "institutions": [
+    {
+      "id": "inep",
+      "name": "Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira"
+    }
+  ],
+  "exams": [
+    {
+      "id": "enem",
+      "institutionId": "inep",
+      "name": "ENEM",
+      "category": "vestibular"
+    }
+  ],
+  "editions": [
+    {
+      "id": "enem-2023",
+      "examId": "enem",
+      "label": "ENEM 2023",
+      "year": 2023
+    }
+  ],
+  "subjects": [
+    {
+      "id": "ciencias-humanas",
+      "name": "Ciências Humanas e suas Tecnologias"
+    },
+    {
+      "id": "ciencias-natureza",
+      "name": "Ciências da Natureza e suas Tecnologias"
+    },
+    {
+      "id": "linguagens",
+      "name": "Linguagens, Códigos e suas Tecnologias"
+    },
+    {
+      "id": "matematica",
+      "name": "Matemática e suas Tecnologias"
+    }
+  ],
+  "packages": [
+    {
+      "id": "enem-2023",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2023",
+      "url": "/data/enem/enem-2023.json",
+      "version": 1,
+      "sha256": "sha256:f8e7aeff9b3967af8a0ae53a3d0b86f18125a9216bd64e6869ce389a411e5c7e",
+      "byteSize": 357298,
+      "questionCount": 177,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    }
+  ]
+}
