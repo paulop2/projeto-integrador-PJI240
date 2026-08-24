@@ -4,11 +4,91 @@ PWA React mobile-first para estudar questões do ENEM mesmo sem conexão. O MVP 
 
 ## O MVP
 
-O Maratona apresenta questões em um feed vertical pensado para celular. Cada questão ocupa uma tela, possui um timer regressivo de três minutos e bloqueia as alternativas depois da resposta ou do fim do tempo. O estudante pode filtrar o conteúdo, acompanhar acertos, erros, timeouts, tempo médio e desempenho por matéria ou prova.
+O Maratona é uma plataforma de estudos para o ENEM que funciona como um feed de vídeos curtos: em vez de vídeos, cada tela apresenta uma questão. O objetivo é tornar o estudo mais simples, rápido e acessível pelo celular, inclusive sem internet.
 
-O uso não exige conta. As provas escolhidas pelo estudante são baixadas como pacotes e armazenadas no dispositivo, permitindo responder e consultar o progresso sem conexão. Quando há uma conta autenticada, os eventos criados offline são enviados em lotes ao recuperar a internet, sem duplicar respostas.
+### Como funciona
 
-O pacote inicial contém 177 questões reais do ENEM 2023 obtidas da API oficial do enem.dev. O catálogo, os pacotes e o modelo de progresso foram preparados para receber outras edições, vestibulares e concursos sem redesenhar a aplicação.
+O estudante entra na plataforma, baixa uma edição da prova — atualmente o ENEM 2023, com 177 questões reais — e começa a responder.
+
+Cada questão:
+
+- Ocupa uma tela do feed.
+- Tem um limite de três minutos.
+- Bloqueia as alternativas após a resposta ou quando o tempo acaba.
+- Informa se a resposta está certa ou errada.
+- Permite avançar deslizando para a próxima questão.
+
+O usuário também pode filtrar as questões por matéria e prova.
+
+### Funcionamento offline
+
+Um dos principais diferenciais é o suporte offline. O estudante escolhe qual prova deseja baixar e as questões e imagens ficam armazenadas no dispositivo, podendo ser acessadas sem conexão.
+
+A plataforma também:
+
+- Verifica se existe espaço disponível.
+- Identifica atualizações dos pacotes.
+- Permite remover provas baixadas.
+- Preserva respostas e timers após recarregar a página.
+
+### Conta e sincronização
+
+Criar uma conta é opcional. O estudante pode usar o aplicativo anonimamente.
+
+Com uma conta, ele pode:
+
+- Entrar com Google ou e-mail e senha.
+- Verificar seu e-mail e recuperar a senha.
+- Sincronizar o progresso entre dispositivos.
+- Continuar estudando offline e sincronizar quando a conexão voltar.
+
+As respostas são registradas primeiro no aparelho. Quando a internet retorna, o aplicativo envia os eventos pendentes em lotes, sem duplicá-los. O servidor identifica o usuário pela sessão e recalcula os resultados usando seu próprio gabarito.
+
+### Estatísticas
+
+A plataforma acompanha:
+
+- Questões visualizadas e respondidas.
+- Acertos, erros e timeouts.
+- Taxa de acerto.
+- Tempo médio de resposta.
+- Desempenho por matéria e prova.
+- Sequência de dias estudados.
+
+### Tecnologias
+
+O frontend foi desenvolvido como uma PWA usando React e TypeScript. A arquitetura utiliza:
+
+- IndexedDB para progresso, sessões e fila de sincronização.
+- Cache Storage para provas e imagens offline.
+- Cloudflare Pages e Pages Functions para hospedagem e backend.
+- Cloudflare D1 como banco de dados.
+- Better Auth para autenticação.
+- Resend para verificação e recuperação de senha.
+- API oficial do enem.dev como fonte das questões.
+
+### Escopo atual
+
+O MVP implementa questões de escolha única do ENEM. O catálogo, os pacotes e o modelo de progresso foram preparados para receber futuramente:
+
+- Fuvest, Unicamp, ITA e IME.
+- Concursos e olimpíadas.
+- Questões discursivas, numéricas, de múltipla escolha e certo ou errado.
+- Explicações e resoluções.
+- Repetição espaçada.
+
+### Resumo para apresentar
+
+> Nosso projeto é uma plataforma mobile de questões no formato de feed. O estudante baixa uma prova, responde questões com um timer de três minutos e acompanha seu desempenho. O aplicativo funciona offline e sincroniza o progresso entre dispositivos quando o usuário possui uma conta. Começamos com 177 questões reais do ENEM 2023, mas a arquitetura permite incluir outros vestibulares e concursos no futuro.
+
+### Sugestão de demonstração
+
+1. Mostrar as quatro questões demonstrativas.
+2. Abrir os filtros e baixar o ENEM 2023.
+3. Mostrar o feed com 177 questões.
+4. Responder uma questão e observar o feedback e o timer.
+5. Abrir as estatísticas.
+6. Desligar a internet e mostrar que o feed continua funcionando.
 
 ## Por que Cloudflare D1?
 
