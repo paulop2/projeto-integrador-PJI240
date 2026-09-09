@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-23T23:47:29.170Z",
+  "generatedAt": "2026-09-09T22:07:01.273Z",
   "institutions": [
     {
       "id": "inep",
@@ -16,6 +16,12 @@
     }
   ],
   "editions": [
+    {
+      "id": "enem-2022",
+      "examId": "enem",
+      "label": "ENEM 2022",
+      "year": 2022
+    },
     {
       "id": "enem-2023",
       "examId": "enem",
@@ -42,6 +48,26 @@
     }
   ],
   "packages": [
+    {
+      "id": "enem-2022",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2022",
+      "url": "/data/enem/enem-2022.json",
+      "version": 1,
+      "sha256": "sha256:5571d448b077d6f0aa3aa71b4b17a8cad2fc571a095b54ea8c3c66672ad4249b",
+      "byteSize": 367817,
+      "questionCount": 180,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
     {
       "id": "enem-2023",
       "institutionId": "inep",

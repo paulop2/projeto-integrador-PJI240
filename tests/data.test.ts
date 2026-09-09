@@ -1,6 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 
-import packageBody from '../public/data/enem/enem-2023.json?raw';
+import package2022Body from '../public/data/enem/enem-2022.json?raw';
+import package2023Body from '../public/data/enem/enem-2023.json?raw';
 import manifestBody from '../public/data/manifest.json?raw';
 
 import { catalogManifestSchema } from '../src/contracts/catalog';
@@ -38,6 +39,11 @@ const sha256 = async (body: string): Promise<string> => {
     .map((byte) => byte.toString(16).padStart(2, '0'))
     .join('');
 };
+
+const publishedPackageBodies = new Map([
+  ['enem-2022', package2022Body],
+  ['enem-2023', package2023Body],
+]);
 
 describe('ENEM normalization', () => {
   it('normalizes source fields without assuming five alternatives', () => {
@@ -189,13 +195,34 @@ describe('package and catalog generation', () => {
     expect(() => upsertEnemManifest(null, descriptor, 2024)).not.toThrow();
   });
 
-  it('ships a real imported edition whose manifest hash, size, and counts are valid', async () => {
+  it('ships both real imported editions with valid manifest hashes, sizes, and counts', async () => {
     const manifest = catalogManifestSchema.parse(JSON.parse(manifestBody));
-    const questionPackage = questionPackageSchema.parse(JSON.parse(packageBody));
-    const descriptor = manifest.packages[0];
+    expect(manifest.packages.map(({ id, questionCount }) => [id, questionCount])).toEqual([
+      ['enem-2022', 180],
+      ['enem-2023', 177],
+    ]);
 
-    expect(descriptor?.byteSize).toBe(new TextEncoder().encode(packageBody).byteLength);
-    expect(descriptor?.sha256).toBe(`sha256:${await sha256(packageBody)}`);
-    expect(descriptor?.questionCount).toBe(questionPackage.questions.length);
+    for (const descriptor of manifest.packages) {
+      const body = publishedPackageBodies.get(descriptor.id);
+      if (body === undefined) throw new Error(`missing test fixture for ${descriptor.id}`);
+      const questionPackage = questionPackageSchema.parse(JSON.parse(body));
+
+      expect(questionPackage.packageId).toBe(descriptor.id);
+      expect(questionPackage.institutionId).toBe(descriptor.institutionId);
+      expect(questionPackage.examId).toBe(descriptor.examId);
+      expect(questionPackage.editionId).toBe(descriptor.editionId);
+      expect(descriptor.byteSize).toBe(new TextEncoder().encode(body).byteLength);
+      expect(descriptor.sha256).toBe(`sha256:${await sha256(body)}`);
+      expect(descriptor.questionCount).toBe(questionPackage.questions.length);
+    }
+  });
+
+  it('keeps question ids unique across the published editions', () => {
+    const questionIds = [...publishedPackageBodies.values()].flatMap((body) =>
+      questionPackageSchema.parse(JSON.parse(body)).questions.map(({ id }) => id),
+    );
+
+    expect(questionIds).toHaveLength(357);
+    expect(new Set(questionIds).size).toBe(questionIds.length);
   });
 });
