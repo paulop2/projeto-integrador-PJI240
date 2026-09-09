@@ -112,7 +112,11 @@ npm run typecheck
 npm run build
 ```
 
-O catálogo fica em `public/data/manifest.json`. Consulte `docs/architecture/README.md` para contratos e limites dos módulos, `docs/backend/README.md` para D1/Better Auth/Resend e `docs/testing/README.md` para a matriz de testes e checklist manual.
+O catálogo fica em `public/data/manifest.json`. Consulte a documentação de
+[arquitetura](docs/architecture/README.md), a
+[política de seleção entre edições](docs/product/prova-ativa.md), a configuração
+de [backend](docs/backend/README.md) e a matriz de
+[testes](docs/testing/README.md).
 
 ## Testes
 
