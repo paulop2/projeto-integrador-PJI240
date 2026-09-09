@@ -11,9 +11,15 @@ export interface QuestionSourcePort {
 }
 
 export interface PackageSummary {
+  /** Stable package ID used by install and remove operations. */
   id: string;
+  institutionId: string;
+  examId: string;
+  editionId: string;
   label: string;
+  year: number | null;
   byteSize: number;
+  questionCount: number;
   state: 'available' | 'downloaded' | 'update-available';
 }
 

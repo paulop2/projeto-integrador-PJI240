@@ -1,21 +1,23 @@
 import { describe, expect, it, vi } from 'vitest';
 
 import type { CatalogManifest, ProgressEvent, SyncResponse } from '../src/contracts';
-import { FetchSyncTransport, MemoryOfflineStorage, MemoryPackageCache, OfflinePackageManager, SyncQueue, retryDelayMs } from '../src/offline';
+import { CatalogError, FetchSyncTransport, MemoryOfflineStorage, MemoryPackageCache, OfflinePackageManager, OfflinePackagePort, SyncQueue, retryDelayMs } from '../src/offline';
 
-const packageBody = (context = 'Quanto é 2 + 2?') => JSON.stringify({
+const editionPackageBody = (packageId: string, editionId: string, year: number, context: string) => JSON.stringify({
   schemaVersion: 1,
-  packageId: 'enem-2024',
+  packageId,
   institutionId: 'inep',
   examId: 'enem',
-  editionId: 'enem-2024',
+  editionId,
   questions: [{
-    id: 'enem-enem-2024-1', institutionId: 'inep', examId: 'enem', editionId: 'enem-2024', year: 2024,
+    id: `enem-${editionId}-1`, institutionId: 'inep', examId: 'enem', editionId, year,
     subjectId: 'matematica', kind: 'single-choice', context, files: [], alternativesIntroduction: null,
     alternatives: [{ id: 'a', label: 'A', text: '3', file: null }, { id: 'b', label: 'B', text: '4', file: null }],
     answer: { optionIds: ['b'] },
   }],
 });
+
+const packageBody = (context = 'Quanto é 2 + 2?') => editionPackageBody('enem-2024', 'enem-2024', 2024, context);
 
 const sha256 = async (body: string) => {
   const value = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(body));
@@ -33,7 +35,133 @@ async function manifest(body: string, version = 1): Promise<CatalogManifest> {
   };
 }
 
+async function multiEditionManifest(entries: Array<{ packageId: string; editionId: string; label: string; year: number; body: string; version: number }>): Promise<CatalogManifest> {
+  return {
+    schemaVersion: 1,
+    generatedAt: '2026-09-09T12:00:00-03:00',
+    institutions: [{ id: 'inep', name: 'INEP' }],
+    exams: [{ id: 'enem', institutionId: 'inep', name: 'ENEM', category: 'vestibular' }],
+    editions: entries.map(({ editionId, label, year }) => ({ id: editionId, examId: 'enem', label, year })),
+    subjects: [{ id: 'matematica', name: 'Matemática' }],
+    packages: await Promise.all(entries.map(async ({ packageId, editionId, body, version }) => ({
+      id: packageId,
+      institutionId: 'inep',
+      examId: 'enem',
+      editionId,
+      url: `/data/enem/${packageId}.json`,
+      version,
+      sha256: await sha256(body),
+      byteSize: new TextEncoder().encode(body).byteLength,
+      questionCount: 1,
+      subjectIds: ['matematica'],
+      questionKinds: ['single-choice'],
+    }))),
+  };
+}
+
 describe('offline packages', () => {
+  it('exposes complete catalog metadata for two editions and keeps lifecycle operations keyed by package ID', async () => {
+    const body2022 = editionPackageBody('enem-2022-completo', 'enem-2022', 2022, 'Questão de 2022');
+    const body2023 = editionPackageBody('enem-2023-completo', 'enem-2023', 2023, 'Questão de 2023');
+    const entries = [
+      { packageId: 'enem-2022-completo', editionId: 'enem-2022', label: 'ENEM — edição 2022', year: 2022, body: body2022, version: 1 },
+      { packageId: 'enem-2023-completo', editionId: 'enem-2023', label: 'ENEM — edição 2023', year: 2023, body: body2023, version: 1 },
+    ];
+    let catalog = await multiEditionManifest(entries);
+    const bodies = new Map(entries.map(({ packageId, body }) => [packageId, body]));
+    const storage = new MemoryOfflineStorage();
+    const cache = new MemoryPackageCache();
+    const fetcher = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input);
+      if (url.includes('manifest')) return Response.json(catalog);
+      const packageId = [...bodies.keys()].find((id) => url.includes(id));
+      return packageId ? new Response(bodies.get(packageId)) : new Response(null, { status: 404 });
+    });
+    const port = new OfflinePackagePort(new OfflinePackageManager(storage, cache, fetcher));
+
+    expect(await port.list()).toEqual([
+      {
+        id: 'enem-2022-completo', institutionId: 'inep', examId: 'enem', editionId: 'enem-2022',
+        label: 'ENEM — edição 2022', year: 2022, byteSize: new TextEncoder().encode(body2022).byteLength,
+        questionCount: 1, state: 'available',
+      },
+      {
+        id: 'enem-2023-completo', institutionId: 'inep', examId: 'enem', editionId: 'enem-2023',
+        label: 'ENEM — edição 2023', year: 2023, byteSize: new TextEncoder().encode(body2023).byteLength,
+        questionCount: 1, state: 'available',
+      },
+    ]);
+
+    await port.install('enem-2022-completo');
+    expect((await storage.listDownloads()).map(({ packageId }) => packageId)).toEqual(['enem-2022-completo']);
+    expect((await port.list()).map(({ id, state }) => [id, state])).toEqual([
+      ['enem-2022-completo', 'downloaded'],
+      ['enem-2023-completo', 'available'],
+    ]);
+
+    await port.install('enem-2023-completo');
+    const updatedBody2022 = editionPackageBody('enem-2022-completo', 'enem-2022', 2022, 'Questão de 2022 atualizada');
+    bodies.set('enem-2022-completo', updatedBody2022);
+    catalog = await multiEditionManifest([
+      { ...entries[0]!, body: updatedBody2022, version: 2 },
+      entries[1]!,
+    ]);
+    expect((await port.list()).map(({ id, state }) => [id, state])).toEqual([
+      ['enem-2022-completo', 'update-available'],
+      ['enem-2023-completo', 'downloaded'],
+    ]);
+
+    await port.install('enem-2022-completo');
+    expect((await storage.getDownload('enem-2022-completo'))?.version).toBe(2);
+    expect((await storage.getDownload('enem-2023-completo'))?.version).toBe(1);
+    await port.remove('enem-2022-completo');
+    expect((await port.list()).map(({ id, state }) => [id, state])).toEqual([
+      ['enem-2022-completo', 'available'],
+      ['enem-2023-completo', 'downloaded'],
+    ]);
+  });
+
+  it('reports a controlled error when no validated catalog is available', async () => {
+    const manager = new OfflinePackageManager(
+      new MemoryOfflineStorage(),
+      new MemoryPackageCache(),
+      async () => { throw new Error('offline'); },
+    );
+
+    await expect(new OfflinePackagePort(manager).list()).rejects.toEqual(expect.objectContaining({
+      name: 'CatalogError',
+      message: 'No validated catalog is available',
+    }));
+  });
+
+  it('reports a controlled error for inconsistent stored catalog metadata', async () => {
+    const body = packageBody();
+    const catalog = await manifest(body);
+    const storage = new MemoryOfflineStorage();
+    await storage.putCatalog({ ...catalog, editions: [] });
+    const manager = new OfflinePackageManager(
+      storage,
+      new MemoryPackageCache(),
+      async () => { throw new Error('offline'); },
+    );
+
+    await expect(new OfflinePackagePort(manager).list()).rejects.toBeInstanceOf(CatalogError);
+    await expect(new OfflinePackagePort(manager).list()).rejects.toThrow('Stored catalog is inconsistent');
+  });
+
+  it('reports malformed downloaded catalog JSON as a controlled error', async () => {
+    const manager = new OfflinePackageManager(
+      new MemoryOfflineStorage(),
+      new MemoryPackageCache(),
+      async () => new Response('{'),
+    );
+
+    await expect(manager.refreshCatalog()).rejects.toEqual(expect.objectContaining({
+      name: 'CatalogError',
+      message: 'Downloaded catalog is not valid JSON',
+    }));
+  });
+
   it('lists the initial catalog and downloads with a clean browser fetch receiver', async () => {
     const body = packageBody(); const catalog = await manifest(body);
     const receivers: unknown[] = [];

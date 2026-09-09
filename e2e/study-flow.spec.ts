@@ -9,10 +9,10 @@ async function mockQuestionAssets(context: BrowserContext) {
 
 async function installEditionFromCleanCatalog(page: Page) {
   await page.getByRole('button', { name: /Filtros/ }).click();
-  const download = page.getByRole('button', { name: /enem-2023: Baixar/i });
+  const download = page.getByRole('button', { name: /ENEM 2023: Baixar/i });
   await expect(download).toBeVisible();
   await download.click();
-  const remove = page.getByRole('button', { name: /enem-2023: Remover download/i });
+  const remove = page.getByRole('button', { name: /ENEM 2023: Remover download/i });
   await expect(remove).toBeVisible({ timeout: 30_000 });
   await expect(page.getByRole('region', { name: /Questão 1 de 177/ })).toBeVisible();
 }
@@ -94,8 +94,8 @@ test('baixa pelo catálogo limpo, usa após reload offline e remove a edição',
   await expect(page.getByText(installedContext, { exact: true }).first()).toBeVisible();
 
   await page.getByRole('button', { name: /Filtros/ }).click();
-  await page.getByRole('button', { name: /enem-2023: Remover download/i }).click();
-  await expect(page.getByRole('button', { name: /enem-2023: Baixar/i })).toBeVisible();
+  await page.getByRole('button', { name: /ENEM 2023: Remover download/i }).click();
+  await expect(page.getByRole('button', { name: /ENEM 2023: Baixar/i })).toBeVisible();
   await page.reload();
   await expect(page.getByText(/Uma ciclovia tem 12 km/).first()).toBeVisible();
   await context.setOffline(false);
@@ -196,7 +196,7 @@ test('sincroniza progresso anônimo após login/reconexão, replica no segundo d
   await expect(page.getByText(/As provas baixadas continuam disponíveis/)).toBeVisible();
   await page.getByRole('button', { name: 'Fechar conta' }).click();
   await page.getByRole('button', { name: /Filtros/ }).click();
-  await expect(page.getByRole('button', { name: /enem-2023: Remover download/i })).toBeVisible();
+  await expect(page.getByRole('button', { name: /ENEM 2023: Remover download/i })).toBeVisible();
   expect(await page.evaluate(async () => {
     const database = await new Promise<IDBDatabase>((resolve, reject) => {
       const opening = indexedDB.open('maratona-offline', 1);
