@@ -1,0 +1,73 @@
+name: Epic
+description: Defina um resultado de produto e organize suas sub-issues.
+title: "EPIC — "
+labels:
+  - epic
+projects:
+  - paulop2/5
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Epics descrevem resultados e limites. Depois de criar esta issue, adicione o prazo e relacione o trabalho executável como sub-issues nativas.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problema
+      description: Qual problema existe, para quem e por que importa agora?
+      placeholder: Descreva a situação atual e o impacto.
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Resultado esperado
+      description: Que mudança observável esta epic deve produzir?
+      placeholder: Ao concluir esta epic...
+    validations:
+      required: true
+
+  - type: textarea
+    id: success
+    attributes:
+      label: Medidas de sucesso
+      description: Como saberemos que o resultado foi atingido?
+      placeholder: Inclua métricas ou evidências observáveis.
+    validations:
+      required: true
+
+  - type: textarea
+    id: in_scope
+    attributes:
+      label: Dentro do escopo
+      placeholder: Liste os resultados e capacidades incluídos.
+    validations:
+      required: true
+
+  - type: textarea
+    id: out_of_scope
+    attributes:
+      label: Fora do escopo
+      placeholder: Liste limites e adiamentos explícitos.
+    validations:
+      required: true
+
+  - type: textarea
+    id: done
+    attributes:
+      label: Critérios de conclusão
+      description: Condições verificáveis para encerrar a epic.
+      placeholder: "- [ ] Resultado demonstrado por..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependências e riscos
+      description: Dependências externas, decisões abertas e riscos relevantes.
+      placeholder: Use "Nenhum conhecido" quando aplicável.
+    validations:
+      required: true
