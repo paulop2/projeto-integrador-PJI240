@@ -1,0 +1,33 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "pj240",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-09-08",
+  "compatibility_flags": ["nodejs_compat"],
+  "vars": {
+    "BETTER_AUTH_URL": "https://maratona.pvsouza.com"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "maratona-production",
+      "database_id": "5c08cbe5-d0f4-42a0-9f5c-1fc3772f24db",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "env": {
+    "preview": {
+      "vars": {
+        "BETTER_AUTH_URL": "https://preview.pj240.pages.dev"
+      },
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "maratona-preview",
+          "database_id": "c18ad044-57b4-4c3c-9668-e4af8f25e571",
+          "migrations_dir": "migrations"
+        }
+      ]
+    }
+  }
+}

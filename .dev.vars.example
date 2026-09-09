@@ -1,0 +1,5 @@
+BETTER_AUTH_SECRET=gere-um-segredo-com-pelo-menos-32-caracteres
+GOOGLE_CLIENT_ID=seu-client-id.apps.googleusercontent.com
+GOOGLE_CLIENT_SECRET=seu-client-secret
+RESEND_API_KEY=re_seu-token
+RESEND_FROM=Maratona <login@pvsouza.com>
