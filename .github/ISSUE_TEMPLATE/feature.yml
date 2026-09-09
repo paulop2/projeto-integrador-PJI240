@@ -1,0 +1,60 @@
+name: Feature
+description: Proponha uma entrega de valor vinculada a uma epic.
+labels:
+  - enhancement
+projects:
+  - paulop2/5
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Crie esta feature como sub-issue nativa da epic correspondente. O vínculo nativo é a fonte de verdade da hierarquia.
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Contexto e objetivo
+      description: Para quem é esta entrega e qual necessidade ela resolve?
+      placeholder: Como usuário..., quero..., para...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critérios de aceite
+      description: Liste comportamentos observáveis e verificáveis.
+      placeholder: "- [ ] Dado..., quando..., então..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: out_of_scope
+    attributes:
+      label: Fora do escopo
+      placeholder: Liste o que esta entrega não cobre.
+    validations:
+      required: true
+
+  - type: textarea
+    id: technical_notes
+    attributes:
+      label: Notas técnicas
+      description: Restrições, decisões ou pontos de integração já conhecidos.
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: Plano de verificação
+      description: Como cada critério será demonstrado?
+      placeholder: Testes automatizados, verificações manuais e evidências esperadas.
+    validations:
+      required: true
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependências
+      placeholder: Issues bloqueadoras ou "Nenhuma".
+    validations:
+      required: true

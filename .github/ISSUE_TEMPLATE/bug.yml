@@ -1,0 +1,76 @@
+name: Bug
+description: Relate um comportamento incorreto e reproduzível.
+title: "BUG — "
+labels:
+  - bug
+projects:
+  - paulop2/5
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Crie este bug como sub-issue nativa da epic correspondente. O vínculo nativo é a fonte de verdade da hierarquia.
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impacto
+      description: Quem é afetado, com que frequência e gravidade?
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Como reproduzir
+      description: Forneça dados, pré-condições e passos mínimos.
+      placeholder: |
+        1. Dado...
+        2. Quando...
+        3. Então...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportamento esperado
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Comportamento atual
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Ambiente
+      description: Versão, navegador, dispositivo, conectividade e outros dados relevantes.
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidências
+      description: Logs sem segredos, capturas, vídeos ou links relevantes.
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critérios de aceite da correção
+      placeholder: "- [ ] O cenário de reprodução deixa de falhar\n- [ ] Existe cobertura contra regressão"
+    validations:
+      required: true
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: Plano de verificação
+      description: Como a correção e os efeitos colaterais serão verificados?
+    validations:
+      required: true
