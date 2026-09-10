@@ -3,6 +3,7 @@ import type {
   CatalogManifest,
   DownloadedPackage,
   ExamEdition,
+  ForeignLanguagePreference,
   PackageDescriptor,
   ProgressEvent,
   StoredProgressChange,
@@ -26,6 +27,8 @@ export interface OfflineStorage {
   getActiveExamPreference(): Promise<ActiveExamPreference | null>;
   putActiveExamPreference(preference: ActiveExamPreference): Promise<void>;
   deleteActiveExamPreference(): Promise<void>;
+  getForeignLanguagePreference(): Promise<ForeignLanguagePreference | null>;
+  putForeignLanguagePreference(preference: ForeignLanguagePreference): Promise<void>;
   appendProgress(event: ProgressEvent, enqueue?: boolean): Promise<void>;
   listProgress(): Promise<ProgressEvent[]>;
   clearProgress(): Promise<void>;

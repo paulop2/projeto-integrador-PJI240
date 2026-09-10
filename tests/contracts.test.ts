@@ -14,6 +14,7 @@ const validQuestion = {
   editionId: 'enem-2024',
   year: 2024,
   subjectId: 'matematica',
+  language: null,
   kind: 'single-choice',
   context: 'Quanto é 1 + 1?',
   files: [],
@@ -34,6 +35,12 @@ describe('question contract', () => {
     expect(() =>
       questionSchema.parse({ ...validQuestion, answer: { optionIds: ['c'] } }),
     ).toThrow(/unknown alternative/);
+  });
+
+  it('accepts only supported foreign languages and upgrades legacy absence to no language', () => {
+    expect(questionSchema.parse({ ...validQuestion, language: 'ingles' }).language).toBe('ingles');
+    expect(() => questionSchema.parse({ ...validQuestion, language: 'frances' })).toThrow();
+    expect(questionSchema.parse({ ...validQuestion, language: undefined }).language).toBeNull();
   });
 });
 

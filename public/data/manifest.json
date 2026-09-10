@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-09T22:07:01.273Z",
+  "generatedAt": "2026-09-10T19:07:41.919Z",
   "institutions": [
     {
       "id": "inep",
@@ -54,10 +54,10 @@
       "examId": "enem",
       "editionId": "enem-2022",
       "url": "/data/enem/enem-2022.json",
-      "version": 1,
-      "sha256": "sha256:5571d448b077d6f0aa3aa71b4b17a8cad2fc571a095b54ea8c3c66672ad4249b",
-      "byteSize": 367817,
-      "questionCount": 180,
+      "version": 2,
+      "sha256": "sha256:9b22b2d3e6c1e9e85d650797861927729d24de85c8a445e62afaf117726f9af9",
+      "byteSize": 381816,
+      "questionCount": 185,
       "subjectIds": [
         "ciencias-humanas",
         "ciencias-natureza",
@@ -74,10 +74,10 @@
       "examId": "enem",
       "editionId": "enem-2023",
       "url": "/data/enem/enem-2023.json",
-      "version": 1,
-      "sha256": "sha256:f8e7aeff9b3967af8a0ae53a3d0b86f18125a9216bd64e6869ce389a411e5c7e",
-      "byteSize": 357298,
-      "questionCount": 177,
+      "version": 2,
+      "sha256": "sha256:cf2114451a64cee1082075d0d5bb2dcb09e4522e4d7e887ea9b89449502a6e9b",
+      "byteSize": 369981,
+      "questionCount": 182,
       "subjectIds": [
         "ciencias-humanas",
         "ciencias-natureza",

@@ -7,7 +7,7 @@ import { QuestionCard, type QuestionSession } from './QuestionCard';
 
 const question: Question = {
   id: 'enem-2024-1', institutionId: 'inep', examId: 'enem', editionId: 'enem-2024', year: 2024,
-  subjectId: 'matematica', kind: 'single-choice', context: 'Enunciado', files: [], alternativesIntroduction: null,
+  subjectId: 'matematica', language: null, kind: 'single-choice', context: 'Enunciado', files: [], alternativesIntroduction: null,
   alternatives: [
     { id: 'a', label: 'A', text: 'Um', file: null }, { id: 'b', label: 'B', text: 'Dois', file: null },
     { id: 'c', label: 'C', text: 'Três', file: null }, { id: 'd', label: 'D', text: 'Quatro', file: null },

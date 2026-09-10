@@ -53,7 +53,15 @@ describe('ENEM normalization', () => {
     expect(question.subjectId).toBe('ciencias-humanas');
     expect(question.alternatives).toHaveLength(4);
     expect(question.answer.optionIds).toEqual(['b']);
+    expect(question.language).toBeNull();
     expect(questionSchemaSafe(question)).toBe(true);
+  });
+
+  it('preserves legacy Spanish IDs and isolates English progress with a distinct ID', () => {
+    expect(normalizeEnemQuestion(sourceQuestion({ index: 1, language: 'espanhol' })).id)
+      .toBe('enem-enem-2024-1');
+    expect(normalizeEnemQuestion(sourceQuestion({ index: 1, language: 'ingles' })).id)
+      .toBe('enem-enem-2024-1-ingles');
   });
 
   it('rejects disagreement between answer fields', () => {
@@ -181,6 +189,33 @@ describe('ENEM API client', () => {
     expect(questions).toEqual([complete]);
     expect(fetchMock.mock.calls[1]?.[0].toString()).toContain('/questions/131');
   });
+
+  it('loads both official variants only for foreign-language positions', async () => {
+    const spanish = sourceQuestion({ index: 1, language: 'espanhol' });
+    const english = sourceQuestion({ index: 1, language: 'ingles', correctAlternative: 'A', alternatives: [
+      { letter: 'A', text: 'English answer', file: null, isCorrect: true },
+      { letter: 'B', text: 'Other answer', file: null, isCorrect: false },
+    ] });
+    const common = sourceQuestion({ index: 6, language: null });
+    const fetchMock = vi
+      .fn<typeof fetch>()
+      .mockResolvedValueOnce(Response.json({
+        metadata: { limit: 50, offset: 0, total: 2, hasMore: false },
+        questions: [spanish, common],
+      }))
+      .mockResolvedValueOnce(Response.json(english))
+      .mockResolvedValueOnce(Response.json(spanish));
+    const client = new EnemApiClient({ fetch: fetchMock, minIntervalMs: 0 });
+
+    const questions = await client.listQuestionsWithLanguageVariants(2024);
+
+    expect(questions.map(({ index, language }) => [index, language])).toEqual([
+      [1, 'ingles'], [1, 'espanhol'], [6, null],
+    ]);
+    expect(fetchMock).toHaveBeenCalledTimes(3);
+    expect(fetchMock.mock.calls[1]?.[0].toString()).toContain('language=ingles');
+    expect(fetchMock.mock.calls[2]?.[0].toString()).toContain('language=espanhol');
+  });
 });
 
 describe('package and catalog generation', () => {
@@ -198,8 +233,8 @@ describe('package and catalog generation', () => {
   it('ships both real imported editions with valid manifest hashes, sizes, and counts', async () => {
     const manifest = catalogManifestSchema.parse(JSON.parse(manifestBody));
     expect(manifest.packages.map(({ id, questionCount }) => [id, questionCount])).toEqual([
-      ['enem-2022', 180],
-      ['enem-2023', 177],
+      ['enem-2022', 185],
+      ['enem-2023', 182],
     ]);
 
     for (const descriptor of manifest.packages) {
@@ -222,7 +257,19 @@ describe('package and catalog generation', () => {
       questionPackageSchema.parse(JSON.parse(body)).questions.map(({ id }) => id),
     );
 
-    expect(questionIds).toHaveLength(357);
+    expect(questionIds).toHaveLength(367);
     expect(new Set(questionIds).size).toBe(questionIds.length);
+  });
+
+  it('publishes one common copy plus both language variants for positions 1-5', () => {
+    for (const [packageId, body] of publishedPackageBodies) {
+      const questions = questionPackageSchema.parse(JSON.parse(body)).questions;
+      const languageQuestions = questions.filter(({ language }) => language !== null);
+      expect(languageQuestions.filter(({ language }) => language === 'ingles')).toHaveLength(5);
+      expect(languageQuestions.filter(({ language }) => language === 'espanhol')).toHaveLength(5);
+      expect(questions.filter(({ language }) => language === null).map(({ id }) => id))
+        .not.toContain(`${packageId.replace('enem-', 'enem-enem-')}-1`);
+      expect(new Set(questions.map(({ id }) => id)).size).toBe(questions.length);
+    }
   });
 });

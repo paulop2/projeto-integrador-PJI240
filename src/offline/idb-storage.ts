@@ -1,5 +1,5 @@
-import { activeExamPreferenceSchema, catalogManifestSchema, downloadedPackageSchema, progressEventSchema, storedProgressChangeSchema } from '../contracts';
-import type { ActiveExamPreference, CatalogManifest, DownloadedPackage, ProgressEvent, StoredProgressChange } from '../contracts';
+import { activeExamPreferenceSchema, catalogManifestSchema, downloadedPackageSchema, foreignLanguagePreferenceSchema, progressEventSchema, storedProgressChangeSchema } from '../contracts';
+import type { ActiveExamPreference, CatalogManifest, DownloadedPackage, ForeignLanguagePreference, ProgressEvent, StoredProgressChange } from '../contracts';
 import type { StudySession } from '../app/ports';
 import type { OfflineStorage, OutboxRecord } from './types';
 
@@ -92,6 +92,13 @@ export class IndexedDbOfflineStorage implements OfflineStorage {
     await this.write('settings', 'readwrite', (store) => { store.put(activeExamPreferenceSchema.parse(preference), 'activeExam'); });
   }
   async deleteActiveExamPreference() { await this.write('settings', 'readwrite', (store) => { store.delete('activeExam'); }); }
+  async getForeignLanguagePreference() {
+    const parsed = foreignLanguagePreferenceSchema.safeParse(await this.read<unknown>('settings', 'foreignLanguage'));
+    return parsed.success ? parsed.data : null;
+  }
+  async putForeignLanguagePreference(preference: ForeignLanguagePreference) {
+    await this.write('settings', 'readwrite', (store) => { store.put(foreignLanguagePreferenceSchema.parse(preference), 'foreignLanguage'); });
+  }
 
   async appendProgress(event: ProgressEvent, enqueue = true) {
     const parsed = progressEventSchema.parse(event);

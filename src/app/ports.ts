@@ -1,4 +1,4 @@
-import type { ActiveExamSelection, ProgressEvent, Question } from '../contracts';
+import type { ActiveExamSelection, ForeignLanguage, ProgressEvent, Question } from '../contracts';
 
 /** Boundary implemented in memory here and by IndexedDB in the offline layer. */
 export interface ProgressPort {
@@ -8,6 +8,11 @@ export interface ProgressPort {
 
 export interface QuestionSourcePort {
   load(): Promise<Question[]>;
+}
+
+export interface ForeignLanguagePreferencePort {
+  load(): Promise<ForeignLanguage | null>;
+  save(language: ForeignLanguage): Promise<void>;
 }
 
 export interface PackageSummary {
@@ -69,4 +74,10 @@ export class MemoryStudySessionPort implements StudySessionPort {
   async save(questionId: string, session: StudySession) {
     this.sessions = { ...this.sessions, [questionId]: session };
   }
+}
+
+export class MemoryForeignLanguagePreferencePort implements ForeignLanguagePreferencePort {
+  constructor(private language: ForeignLanguage | null = null) {}
+  async load() { return this.language; }
+  async save(language: ForeignLanguage) { this.language = language; }
 }

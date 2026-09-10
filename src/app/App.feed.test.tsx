@@ -1,13 +1,13 @@
-import { render, screen, waitFor } from '@testing-library/react';
+import { render, screen, waitFor, within } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it, vi } from 'vitest';
 
-import type { Question } from '../contracts';
+import type { ForeignLanguage, Question } from '../contracts';
 import { App } from './App';
 import type { AuthPort } from './auth';
 import { demoQuestions } from './demoQuestions';
-import type { ActiveExamPort, ActiveExamState, PackagePort, QuestionSourcePort } from './ports';
-import { MemoryProgressPort, MemoryStudySessionPort } from './ports';
+import type { ActiveExamPort, ActiveExamState, ForeignLanguagePreferencePort, PackagePort, QuestionSourcePort } from './ports';
+import { MemoryForeignLanguagePreferencePort, MemoryProgressPort, MemoryStudySessionPort } from './ports';
 
 const question = (id: string, editionId: string, year: number, subjectId: string, context: string): Question => ({
   ...demoQuestions[0]!, id, editionId, year, subjectId, context,
@@ -133,5 +133,87 @@ describe('active edition feed', () => {
     await userEvent.click(await screen.findByRole('button', { name: 'Estudar ENEM 2022' }));
     expect(await screen.findByText('Matemática da edição 2022')).toBeInTheDocument();
     expect(screen.queryByText(/edição 2023/)).not.toBeInTheDocument();
+  });
+
+  it('requires one language, composes it with the subject filter, and restores it after reload', async () => {
+    const languageQuestions: Question[] = [
+      question('enem-enem-2023-6', 'enem-2023', 2023, 'matematica', 'Questão comum de matemática'),
+      { ...question('enem-enem-2023-1', 'enem-2023', 2023, 'linguagens', 'Questão em espanhol'), language: 'espanhol' },
+      { ...question('enem-enem-2023-1-ingles', 'enem-2023', 2023, 'linguagens', 'Questão em inglês'), language: 'ingles' },
+    ];
+    const questionSource: QuestionSourcePort = { load: vi.fn().mockResolvedValue(languageQuestions) };
+    const activeExamPort: ActiveExamPort = {
+      initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2023', editionId: 'enem-2023' }),
+      select: vi.fn(),
+    };
+    let saved: ForeignLanguage | null = null;
+    const preference: ForeignLanguagePreferencePort = {
+      load: vi.fn(async () => saved),
+      save: vi.fn(async (language) => { saved = language; }),
+    };
+    const props = {
+      progressPort: new MemoryProgressPort(), sessionPort: new MemoryStudySessionPort(), questionSource,
+      activeExamPort, foreignLanguagePreferencePort: preference, authPort, authRuntime,
+    };
+
+    const first = render(<App {...props} />);
+    expect(await screen.findByRole('heading', { name: 'Escolha o idioma estrangeiro para estudar.' })).toBeInTheDocument();
+    expect(screen.getAllByRole('radio')).toHaveLength(2);
+    expect(screen.queryByText(/Questão em inglês|Questão em espanhol|Questão comum/)).not.toBeInTheDocument();
+
+    await userEvent.click(screen.getByRole('radio', { name: 'Inglês' }));
+    expect(await screen.findByText('Questão em inglês')).toBeInTheDocument();
+    expect(screen.getByText('Questão comum de matemática')).toBeInTheDocument();
+    expect(screen.queryByText('Questão em espanhol')).not.toBeInTheDocument();
+
+    await userEvent.click(screen.getByRole('button', { name: /Filtros/ }));
+    await userEvent.selectOptions(screen.getByLabelText('Matéria'), 'linguagens');
+    expect(screen.queryByText('Questão comum de matemática')).not.toBeInTheDocument();
+    await userEvent.click(screen.getByRole('radio', { name: 'Espanhol' }));
+    expect(await screen.findByText('Questão em espanhol')).toBeInTheDocument();
+    expect(screen.queryByText('Questão em inglês')).not.toBeInTheDocument();
+    expect(preference.save).toHaveBeenLastCalledWith('espanhol');
+
+    first.unmount();
+    render(<App {...props} />);
+    expect(await screen.findByText('Questão em espanhol')).toBeInTheDocument();
+    expect(screen.queryByRole('heading', { name: 'Escolha o idioma estrangeiro para estudar.' })).not.toBeInTheDocument();
+  });
+
+  it('does not show a language control for an edition without variants', async () => {
+    const questionSource: QuestionSourcePort = { load: vi.fn().mockResolvedValue(editions['enem-2022']) };
+    const activeExamPort: ActiveExamPort = {
+      initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2022', editionId: 'enem-2022' }),
+      select: vi.fn(),
+    };
+
+    render(<App progressPort={new MemoryProgressPort()} sessionPort={new MemoryStudySessionPort()} questionSource={questionSource} activeExamPort={activeExamPort} foreignLanguagePreferencePort={new MemoryForeignLanguagePreferencePort('ingles')} authPort={authPort} authRuntime={authRuntime} />);
+
+    expect(await screen.findByText('Matemática da edição 2022')).toBeInTheDocument();
+    await userEvent.click(screen.getByRole('button', { name: /Filtros/ }));
+    expect(screen.queryByRole('group', { name: 'Idioma estrangeiro' })).not.toBeInTheDocument();
+  });
+
+  it('keeps stored answers isolated between language variant IDs', async () => {
+    const spanish = { ...question('enem-enem-2023-1', 'enem-2023', 2023, 'linguagens', 'Resposta em espanhol'), language: 'espanhol' as const };
+    const english = { ...question('enem-enem-2023-1-ingles', 'enem-2023', 2023, 'linguagens', 'Answer in English'), language: 'ingles' as const };
+    const sessions = new MemoryStudySessionPort();
+    await sessions.save(spanish.id, { startedAt: 1, selectedOptionId: 'c', outcome: 'correct' });
+    const activeExamPort: ActiveExamPort = {
+      initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2023', editionId: 'enem-2023' }),
+      select: vi.fn(),
+    };
+
+    render(<App progressPort={new MemoryProgressPort()} sessionPort={sessions} questionSource={{ load: vi.fn().mockResolvedValue([spanish, english]) }} activeExamPort={activeExamPort} foreignLanguagePreferencePort={new MemoryForeignLanguagePreferencePort('ingles')} authPort={authPort} authRuntime={authRuntime} />);
+
+    const englishCard = (await screen.findByText('Answer in English')).closest('article');
+    if (!englishCard) throw new Error('English question card was not rendered');
+    expect(within(englishCard).getAllByRole('radio').every((radio) => !(radio as HTMLInputElement).checked)).toBe(true);
+
+    await userEvent.click(screen.getByRole('button', { name: /Filtros/ }));
+    await userEvent.click(screen.getByRole('radio', { name: 'Espanhol' }));
+    const spanishCard = (await screen.findByText('Resposta em espanhol')).closest('article');
+    if (!spanishCard) throw new Error('Spanish question card was not rendered');
+    expect(within(spanishCard).getByRole('radio', { name: /9 km/ })).toBeChecked();
   });
 });

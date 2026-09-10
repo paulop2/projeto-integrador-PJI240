@@ -1,7 +1,7 @@
 import { BrowserPackageCache } from './cache-storage';
 import { IndexedDbOfflineStorage } from './idb-storage';
 import { OfflinePackageManager } from './package-manager';
-import { IndexedProgressPort, IndexedStudySessionPort, OfflineActiveExamPort, OfflinePackagePort, OfflineQuestionSourcePort } from './adapters';
+import { IndexedProgressPort, IndexedStudySessionPort, OfflineActiveExamPort, OfflineForeignLanguagePreferencePort, OfflinePackagePort, OfflineQuestionSourcePort } from './adapters';
 import { MemoryOfflineStorage } from './memory-storage';
 import { requestPersistentStorage } from './capacity';
 import { FetchSyncTransport, OnlineSyncCoordinator, SyncQueue } from './sync-queue';
@@ -16,6 +16,7 @@ export const offlineRuntime = {
   storage,
   progressPort: new IndexedProgressPort(storage),
   sessionPort: new IndexedStudySessionPort(storage),
+  foreignLanguagePreferencePort: new OfflineForeignLanguagePreferencePort(storage),
   questionSource: manager ? new OfflineQuestionSourcePort(manager) : undefined,
   packagePort: manager ? new OfflinePackagePort(manager) : undefined,
   activeExamPort: manager ? new OfflineActiveExamPort(manager) : undefined,

@@ -15,6 +15,12 @@ async function installEditionFromCleanCatalog(page: Page) {
   const remove = page.getByRole('button', { name: /Remover ENEM 2023 do dispositivo/i });
   await expect(remove).toBeVisible({ timeout: 30_000 });
   await page.getByRole('button', { name: 'Fechar provas' }).click();
+  await expect(page.getByRole('heading', { name: 'Escolha o idioma estrangeiro para estudar.' })).toBeVisible();
+  const language = page.getByRole('group', { name: 'Idioma estrangeiro' });
+  await expect(language.getByRole('radio')).toHaveCount(2);
+  await expect(language.getByRole('radio', { name: /Todos/i })).toHaveCount(0);
+  await language.getByRole('radio', { name: 'Espanhol' }).focus();
+  await page.keyboard.press('Space');
   await expect(page.getByRole('region', { name: /Questão 1 de 177/ })).toBeVisible();
 }
 
@@ -42,8 +48,8 @@ test('área Provas lista duas edições no mobile e funciona por teclado sem vio
   await expect(dialog).toBeVisible();
   await expect(dialog.getByRole('heading', { name: 'ENEM 2022' })).toBeVisible();
   await expect(dialog.getByRole('heading', { name: 'ENEM 2023' })).toBeVisible();
-  await expect(dialog.getByText('180')).toBeVisible();
-  await expect(dialog.getByText('177')).toBeVisible();
+  await expect(dialog.getByText('185')).toBeVisible();
+  await expect(dialog.getByText('182')).toBeVisible();
   await expect(dialog.getByRole('button', { name: 'Baixar ENEM 2022' })).toBeVisible();
   await expect(dialog.getByRole('button', { name: 'Baixar ENEM 2023' })).toBeVisible();
   await expect(dialog.getByRole('button', { name: /Estudar/ })).toHaveCount(0);

@@ -1,5 +1,7 @@
 import { z } from 'zod';
 
+import { foreignLanguageSchema } from './question';
+
 export const downloadedPackageSchema = z.object({
   packageId: z.string().min(1),
   version: z.number().int().positive(),
@@ -24,6 +26,12 @@ export const activeExamPreferenceSchema = z.discriminatedUnion('selectionRequire
 ]);
 
 export type ActiveExamPreference = z.infer<typeof activeExamPreferenceSchema>;
+
+export const foreignLanguagePreferenceSchema = z.object({
+  language: foreignLanguageSchema,
+});
+
+export type ForeignLanguagePreference = z.infer<typeof foreignLanguagePreferenceSchema>;
 
 export const pendingSyncItemSchema = z.object({
   eventId: z.string().uuid(),

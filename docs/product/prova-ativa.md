@@ -45,6 +45,25 @@ ser indicados por texto; cor e posição podem apenas reforçar a informação.
   instalado.
 - A remoção da prova ativa nunca ativa outra prova silenciosamente.
 
+## Idioma estrangeiro
+
+Quando o pacote da prova ativa contém variantes de língua estrangeira, o feed
+só fica disponível depois que o estudante escolhe exatamente um dos idiomas
+publicados. Não existe opção para combinar variantes. O feed reúne as questões
+comuns (`language: null`) e as questões do idioma escolhido, e depois aplica o
+filtro de matéria sobre esse conjunto.
+
+A preferência de idioma é local ao dispositivo e independente da preferência
+de prova ativa. Ela é restaurada offline e reaplicada ao trocar para outra
+edição que ofereça o mesmo idioma. Preferência ausente, inválida ou não
+disponível na edição ativa exige nova escolha; nunca agrega idiomas
+silenciosamente. Edições sem variantes ignoram a preferência sem apagá-la e não
+exibem o seletor.
+
+Trocar o idioma retorna o feed à primeira posição. Downloads, progresso e
+sessões permanecem intactos: variantes têm IDs distintos, enquanto questões
+comuns compartilham seus IDs estáveis entre escolhas de idioma.
+
 ## Inicialização e restauração
 
 Ao iniciar ou recarregar, inclusive offline, o aplicativo considera apenas os

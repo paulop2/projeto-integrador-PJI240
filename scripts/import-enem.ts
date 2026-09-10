@@ -96,14 +96,14 @@ export const run = async (options: CliOptions): Promise<void> => {
   const client = new EnemApiClient({
     ...(options.apiBaseUrl ? { baseUrl: options.apiBaseUrl } : {}),
   });
-  const sourceQuestions = await client.listQuestions(options.year, options.pageSize);
+  const sourceQuestions = await client.listQuestionsWithLanguageVariants(options.year, options.pageSize);
   if (sourceQuestions.length === 0) throw new Error(`a API não retornou questões para ${options.year}`);
 
   const incomplete = sourceQuestions.filter((question) => !isCompleteEnemQuestion(question));
   const importable = sourceQuestions.filter(isCompleteEnemQuestion);
   if (incomplete.length > 0) {
     process.stderr.write(
-      `Ignoradas questões incompletas na fonte enem.dev: ${incomplete.map(({ index }) => index).join(', ')}.\n`,
+      `Ignoradas questões incompletas na fonte enem.dev: ${incomplete.map(({ index, language }) => `${index}${language ? ` (${language})` : ''}`).join(', ')}.\n`,
     );
   }
 
