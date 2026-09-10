@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 
 import type { CatalogManifest, ProgressEvent, SyncResponse } from '../src/contracts';
-import { ActiveExamError, CatalogError, FetchSyncTransport, MemoryOfflineStorage, MemoryPackageCache, OfflineActiveExamPort, OfflinePackageManager, OfflinePackagePort, SyncQueue, retryDelayMs } from '../src/offline';
+import { ActiveExamError, CatalogError, FetchSyncTransport, MemoryOfflineStorage, MemoryPackageCache, OfflineActiveExamPort, OfflinePackageManager, OfflinePackagePort, OfflineQuestionSourcePort, SyncQueue, retryDelayMs } from '../src/offline';
 
 const editionPackageBody = (packageId: string, editionId: string, year: number, context: string) => JSON.stringify({
   schemaVersion: 1,
@@ -235,6 +235,28 @@ describe('offline packages', () => {
 });
 
 describe('active exam preference', () => {
+  it('loads only the exact active package and returns no feed without a valid selection', async () => {
+    const { entries, manager, storage } = await activeExamFixture();
+    const source = new OfflineQuestionSourcePort(manager);
+    const progress: ProgressEvent = {
+      type: 'question_viewed', eventId: '00000000-0000-4000-8000-000000000021', deviceId: '00000000-0000-4000-8000-000000000022',
+      questionId: 'enem-enem-2022-1', occurredAt: 10, localDay: '2026-09-10',
+    };
+    await storage.appendProgress(progress);
+    await storage.putSession(progress.questionId, { startedAt: 10, selectedOptionId: null, outcome: null });
+
+    expect((await source.load()).map(({ editionId }) => editionId)).toEqual(['enem-2022']);
+    await manager.selectActiveExam(entries[1]!.packageId, entries[1]!.editionId);
+    expect((await source.load()).map(({ editionId }) => editionId)).toEqual(['enem-2023']);
+    expect(await storage.listProgress()).toEqual([progress]);
+    expect(await storage.getSessions()).toEqual({
+      [progress.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null },
+    });
+
+    await storage.deleteActiveExamPreference();
+    await expect(source.load()).resolves.toEqual([]);
+  });
+
   it('persists a package and edition pair and restores it without a network', async () => {
     const { cache, entries, manager, storage } = await activeExamFixture();
     const port = new OfflineActiveExamPort(manager);

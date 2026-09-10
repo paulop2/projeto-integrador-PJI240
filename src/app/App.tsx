@@ -34,7 +34,8 @@ export function App({
   authPort = httpAuthPort,
   authRuntime = accountRuntime,
 }: { progressPort?: ProgressPort; sessionPort?: StudySessionPort; questionSource?: QuestionSourcePort; packagePort?: PackagePort; activeExamPort?: ActiveExamPort; authPort?: AuthPort; authRuntime?: AccountRuntime }) {
-  const [questions, setQuestions] = useState<Question[]>(demoQuestions);
+  const [questions, setQuestions] = useState<Question[]>(() => questionSource ? [] : demoQuestions);
+  const [questionsReady, setQuestionsReady] = useState(() => !questionSource);
   const [activeIndex, setActiveIndex] = useState(0);
   const [sessions, setSessions] = useState<Record<string, QuestionSession>>({});
   const [sessionsReady, setSessionsReady] = useState(false);
@@ -102,7 +103,9 @@ export function App({
   const reloadQuestions = useCallback(async () => {
     if (!questionSource) return;
     const loaded = await questionSource.load();
-    setQuestions(loaded.length ? loaded : demoQuestions);
+    setQuestions(loaded);
+    setActiveIndex(0);
+    setQuestionsReady(true);
   }, [questionSource]);
   useEffect(() => { void reloadQuestions(); }, [reloadQuestions]);
   useEffect(() => {
@@ -255,7 +258,7 @@ export function App({
       {authOpen && <AuthPanel user={authUser} initialMode={initialAuthMode} busy={authBusy} error={authError} message={authMessage} online={online} onClose={() => setAuthOpen(false)} onEmailLogin={emailLogin} onSignUp={signUp} onGoogle={googleLogin} onLogout={logout} onForgot={forgotPassword} onReset={resetPassword} onVerify={resendVerification} />}
       {examsOpen && packagePort && activeExamPort && <div id="exams-panel"><ExamsPanel packagePort={packagePort} activeExamPort={activeExamPort} online={online} onClose={() => setExamsOpen(false)} onContentChange={reloadQuestions} /></div>}
 
-      {sessionsReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} /> : sessionsReady ? (
+      {sessionsReady && questionsReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} /> : sessionsReady && questionsReady ? (
         <main className="empty-state"><span>∅</span><h1>Nenhuma questão por aqui</h1><p>Altere os filtros para continuar estudando.</p></main>
       ) : <main className="empty-state" aria-label="Carregando questões"><p>Carregando questões…</p></main>}
       <div className="swipe-hint" aria-hidden="true">Deslize para a próxima <span>↓</span></div>

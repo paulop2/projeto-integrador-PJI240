@@ -62,11 +62,15 @@ test('área Provas lista duas edições no mobile e funciona por teclado sem vio
   await expect(filters.getByLabel('Prova')).toHaveCount(0);
 });
 
-test('responde por teclado, persiste no reload e não tem violações graves de acessibilidade', async ({ page }) => {
+test('carrega uma prova acessível, responde por teclado e persiste no reload', async ({ page }) => {
+  await mockQuestionAssets(page.context());
   await page.goto('/');
-  await expect(page.getByRole('main', { name: 'Questões' })).toBeVisible();
+  await installEditionFromCleanCatalog(page);
   const firstQuestion = page.getByRole('region', { name: /Questão 1 de/ });
   await expect(firstQuestion.getByRole('timer')).toHaveAccessibleName(/restantes/);
+
+  const results = await new AxeBuilder({ page }).exclude('.swipe-hint').analyze();
+  expect(results.violations.filter(({ impact }) => impact === 'critical' || impact === 'serious')).toEqual([]);
 
   const firstOption = firstQuestion.getByRole('radio').first();
   await firstOption.focus();
@@ -81,7 +85,7 @@ test('responde por teclado, persiste no reload e não tem violações graves de 
       opening.onerror = () => reject(opening.error);
     });
     const stored = await new Promise<unknown>((resolve, reject) => {
-      const request = database.transaction('sessions').objectStore('sessions').get('enem-demo-2024-1');
+      const request = database.transaction('sessions').objectStore('sessions').get('enem-enem-2023-1');
       request.onsuccess = () => resolve(request.result);
       request.onerror = () => reject(request.error);
     });
@@ -91,14 +95,13 @@ test('responde por teclado, persiste no reload e não tem violações graves de 
 
   await page.reload();
   await expect(page.getByRole('region', { name: /Questão 1 de/ }).getByRole('group')).toHaveAttribute('disabled', '');
-
-  const results = await new AxeBuilder({ page }).exclude('.swipe-hint').analyze();
-  expect(results.violations.filter(({ impact }) => impact === 'critical' || impact === 'serious')).toEqual([]);
 });
 
 test('bloqueia a questão exatamente após os três minutos', async ({ page }) => {
   await page.clock.install();
+  await mockQuestionAssets(page.context());
   await page.goto('/');
+  await installEditionFromCleanCatalog(page);
   const firstQuestion = page.getByRole('region', { name: /Questão 1 de/ });
   await expect(firstQuestion.getByRole('timer')).toContainText('3:00');
   await page.clock.fastForward('03:01');
@@ -151,7 +154,8 @@ test('baixa pelo catálogo limpo, usa após reload offline e remove a edição',
   await page.getByRole('button', { name: 'Confirmar remoção' }).click();
   await expect(page.getByRole('button', { name: /Baixar ENEM 2023/i })).toBeVisible();
   await page.reload();
-  await expect(page.getByText(/Uma ciclovia tem 12 km/).first()).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Nenhuma questão por aqui' })).toBeVisible();
+  await expect(page.getByRole('main', { name: 'Questões' })).toHaveCount(0);
   await context.setOffline(false);
 });
 

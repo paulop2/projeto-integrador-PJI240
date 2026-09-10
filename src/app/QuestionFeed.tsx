@@ -20,6 +20,10 @@ export function QuestionFeed({ questions, activeIndex, sessions, onActiveIndex, 
   const feedRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
+    if (feedRef.current) feedRef.current.scrollTop = 0;
+  }, [questions]);
+
+  useEffect(() => {
     const root = feedRef.current;
     if (!root) return;
     const observer = new IntersectionObserver((entries) => {
