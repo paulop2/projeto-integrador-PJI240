@@ -1,5 +1,5 @@
-import { catalogManifestSchema, downloadedPackageSchema, progressEventSchema, storedProgressChangeSchema } from '../contracts';
-import type { CatalogManifest, DownloadedPackage, ProgressEvent, StoredProgressChange } from '../contracts';
+import { activeExamPreferenceSchema, catalogManifestSchema, downloadedPackageSchema, progressEventSchema, storedProgressChangeSchema } from '../contracts';
+import type { ActiveExamPreference, CatalogManifest, DownloadedPackage, ProgressEvent, StoredProgressChange } from '../contracts';
 import type { StudySession } from '../app/ports';
 import type { OfflineStorage, OutboxRecord } from './types';
 
@@ -74,6 +74,14 @@ export class IndexedDbOfflineStorage implements OfflineStorage {
   }
   async putDownload(download: DownloadedPackage) { await this.write('downloads', 'readwrite', (store) => { store.put(download); }); }
   async deleteDownload(packageId: string) { await this.write('downloads', 'readwrite', (store) => { store.delete(packageId); }); }
+  async getActiveExamPreference() {
+    const parsed = activeExamPreferenceSchema.safeParse(await this.read<unknown>('settings', 'activeExam'));
+    return parsed.success ? parsed.data : null;
+  }
+  async putActiveExamPreference(preference: ActiveExamPreference) {
+    await this.write('settings', 'readwrite', (store) => { store.put(activeExamPreferenceSchema.parse(preference), 'activeExam'); });
+  }
+  async deleteActiveExamPreference() { await this.write('settings', 'readwrite', (store) => { store.delete('activeExam'); }); }
 
   async appendProgress(event: ProgressEvent, enqueue = true) {
     const parsed = progressEventSchema.parse(event);

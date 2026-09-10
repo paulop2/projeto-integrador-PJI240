@@ -17,6 +17,21 @@ async function installEditionFromCleanCatalog(page: Page) {
   await expect(page.getByRole('region', { name: /Questão 1 de 177/ })).toBeVisible();
 }
 
+async function readActiveExamPreference(page: Page) {
+  return page.evaluate(async () => {
+    const database = await new Promise<IDBDatabase>((resolve, reject) => {
+      const opening = indexedDB.open('maratona-offline', 1);
+      opening.onsuccess = () => resolve(opening.result);
+      opening.onerror = () => reject(opening.error);
+    });
+    return new Promise<unknown>((resolve, reject) => {
+      const request = database.transaction('settings').objectStore('settings').get('activeExam');
+      request.onsuccess = () => { database.close(); resolve(request.result); };
+      request.onerror = () => reject(request.error);
+    });
+  });
+}
+
 test('responde por teclado, persiste no reload e não tem violações graves de acessibilidade', async ({ page }) => {
   await page.goto('/');
   await expect(page.getByRole('main', { name: 'Questões' })).toBeVisible();
@@ -78,6 +93,10 @@ test('baixa pelo catálogo limpo, usa após reload offline e remove a edição',
   }))).toEqual({ downloads: 0, packageCaches: 0 });
 
   await installEditionFromCleanCatalog(page);
+  await expect.poll(() => readActiveExamPreference(page)).toEqual({
+    selectionRequired: false,
+    selection: { packageId: 'enem-2023', editionId: 'enem-2023' },
+  });
   const installedContext = await page.getByRole('region', { name: /Questão 1 de 177/ }).locator('.question-copy p').first().innerText();
   expect(await page.evaluate(async () => ({
     packageCaches: (await caches.keys()).filter((name) => name.startsWith('maratona-package-')).length,
@@ -92,6 +111,10 @@ test('baixa pelo catálogo limpo, usa após reload offline e remove a edição',
   await expect(page.locator('.connection')).toHaveText('Offline');
   await page.reload();
   await expect(page.getByText(installedContext, { exact: true }).first()).toBeVisible();
+  await expect.poll(() => readActiveExamPreference(page)).toEqual({
+    selectionRequired: false,
+    selection: { packageId: 'enem-2023', editionId: 'enem-2023' },
+  });
 
   await page.getByRole('button', { name: /Filtros/ }).click();
   await page.getByRole('button', { name: /ENEM 2023: Remover download/i }).click();

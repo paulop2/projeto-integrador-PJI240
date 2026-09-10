@@ -11,6 +11,20 @@ export const downloadedPackageSchema = z.object({
 
 export type DownloadedPackage = z.infer<typeof downloadedPackageSchema>;
 
+export const activeExamSelectionSchema = z.object({
+  packageId: z.string().min(1),
+  editionId: z.string().min(1),
+});
+
+export type ActiveExamSelection = z.infer<typeof activeExamSelectionSchema>;
+
+export const activeExamPreferenceSchema = z.discriminatedUnion('selectionRequired', [
+  z.object({ selectionRequired: z.literal(false), selection: activeExamSelectionSchema }),
+  z.object({ selectionRequired: z.literal(true), selection: z.null() }),
+]);
+
+export type ActiveExamPreference = z.infer<typeof activeExamPreferenceSchema>;
+
 export const pendingSyncItemSchema = z.object({
   eventId: z.string().uuid(),
   attempt: z.number().int().nonnegative(),

@@ -1,4 +1,4 @@
-import type { ProgressEvent, Question } from '../contracts';
+import type { ActiveExamSelection, ProgressEvent, Question } from '../contracts';
 
 /** Boundary implemented in memory here and by IndexedDB in the offline layer. */
 export interface ProgressPort {
@@ -27,6 +27,16 @@ export interface PackagePort {
   list(): Promise<PackageSummary[]>;
   install(packageId: string): Promise<void>;
   remove(packageId: string): Promise<void>;
+}
+
+export type ActiveExamState =
+  | ({ status: 'active' } & ActiveExamSelection)
+  | { status: 'selection-required' }
+  | { status: 'empty' };
+
+export interface ActiveExamPort {
+  initialize(): Promise<ActiveExamState>;
+  select(packageId: string, editionId: string): Promise<ActiveExamState>;
 }
 
 export interface StudySession {

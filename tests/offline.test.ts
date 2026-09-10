@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 
 import type { CatalogManifest, ProgressEvent, SyncResponse } from '../src/contracts';
-import { CatalogError, FetchSyncTransport, MemoryOfflineStorage, MemoryPackageCache, OfflinePackageManager, OfflinePackagePort, SyncQueue, retryDelayMs } from '../src/offline';
+import { ActiveExamError, CatalogError, FetchSyncTransport, MemoryOfflineStorage, MemoryPackageCache, OfflineActiveExamPort, OfflinePackageManager, OfflinePackagePort, SyncQueue, retryDelayMs } from '../src/offline';
 
 const editionPackageBody = (packageId: string, editionId: string, year: number, context: string) => JSON.stringify({
   schemaVersion: 1,
@@ -57,6 +57,28 @@ async function multiEditionManifest(entries: Array<{ packageId: string; editionI
       questionKinds: ['single-choice'],
     }))),
   };
+}
+
+async function activeExamFixture() {
+  const entries = [
+    { packageId: 'enem-2022-completo', editionId: 'enem-2022', label: 'ENEM — edição 2022', year: 2022, body: editionPackageBody('enem-2022-completo', 'enem-2022', 2022, 'Questão de 2022'), version: 1 },
+    { packageId: 'enem-2023-completo', editionId: 'enem-2023', label: 'ENEM — edição 2023', year: 2023, body: editionPackageBody('enem-2023-completo', 'enem-2023', 2023, 'Questão de 2023'), version: 1 },
+  ];
+  const catalog = await multiEditionManifest(entries);
+  const bodies = new Map(entries.map(({ packageId, body }) => [packageId, body]));
+  const storage = new MemoryOfflineStorage();
+  const cache = new MemoryPackageCache();
+  const fetcher = vi.fn(async (input: RequestInfo | URL) => {
+    const url = String(input);
+    if (url.includes('manifest')) return Response.json(catalog);
+    const packageId = [...bodies.keys()].find((id) => url.includes(id));
+    return packageId ? new Response(bodies.get(packageId)) : new Response(null, { status: 404 });
+  });
+  const manager = new OfflinePackageManager(storage, cache, fetcher);
+  await manager.refreshCatalog();
+  await manager.install(entries[0]!.packageId);
+  await manager.install(entries[1]!.packageId);
+  return { cache, catalog, entries, manager, storage };
 }
 
 describe('offline packages', () => {
@@ -209,6 +231,74 @@ describe('offline packages', () => {
     await expect(manager.install('enem-2024')).rejects.toThrow(/byte size|integrity/);
     expect((await storage.getDownload('enem-2024'))?.version).toBe(1);
     expect((await manager.loadQuestions())[0]?.context).toBe('Quanto é 2 + 2?');
+  });
+});
+
+describe('active exam preference', () => {
+  it('persists a package and edition pair and restores it without a network', async () => {
+    const { cache, entries, manager, storage } = await activeExamFixture();
+    const port = new OfflineActiveExamPort(manager);
+
+    await expect(port.select(entries[1]!.packageId, entries[1]!.editionId)).resolves.toEqual({
+      status: 'active', packageId: 'enem-2023-completo', editionId: 'enem-2023',
+    });
+    expect(await storage.getActiveExamPreference()).toEqual({
+      selectionRequired: false,
+      selection: { packageId: 'enem-2023-completo', editionId: 'enem-2023' },
+    });
+
+    const reloadedOffline = new OfflineActiveExamPort(new OfflinePackageManager(storage, cache, async () => {
+      throw new Error('offline');
+    }));
+    await expect(reloadedOffline.initialize()).resolves.toEqual({
+      status: 'active', packageId: 'enem-2023-completo', editionId: 'enem-2023',
+    });
+  });
+
+  it('applies the startup policy for absent and obsolete preferences', async () => {
+    const { entries, manager, storage } = await activeExamFixture();
+    const port = new OfflineActiveExamPort(manager);
+
+    await storage.deleteActiveExamPreference();
+    await expect(port.initialize()).resolves.toEqual({ status: 'selection-required' });
+    expect(await storage.getActiveExamPreference()).toEqual({ selectionRequired: true, selection: null });
+
+    await manager.remove(entries[0]!.packageId);
+    await storage.putActiveExamPreference({
+      selectionRequired: false,
+      selection: { packageId: 'pacote-obsoleto', editionId: 'edicao-obsoleta' },
+    });
+    await expect(port.initialize()).resolves.toEqual({
+      status: 'active', packageId: 'enem-2023-completo', editionId: 'enem-2023',
+    });
+  });
+
+  it('rejects a package whose local cache is missing or corrupt without changing the valid selection', async () => {
+    const { cache, catalog, entries, manager, storage } = await activeExamFixture();
+    const previous = await storage.getActiveExamPreference();
+    await cache.putPackage(catalog.packages[1]!, new Response('corrompido'));
+
+    await expect(manager.selectActiveExam(entries[1]!.packageId, entries[1]!.editionId)).rejects.toBeInstanceOf(ActiveExamError);
+    await expect(manager.selectActiveExam(entries[0]!.packageId, entries[1]!.editionId)).rejects.toThrow(/not installed and intact/);
+    expect(await storage.getActiveExamPreference()).toEqual(previous);
+  });
+
+  it('invalidates the removed active exam and preserves unrelated offline data', async () => {
+    const { entries, manager, storage } = await activeExamFixture();
+    const event: ProgressEvent = {
+      type: 'question_viewed', eventId: '00000000-0000-4000-8000-000000000011', deviceId: '00000000-0000-4000-8000-000000000012',
+      questionId: 'enem-enem-2022-1', occurredAt: 10, localDay: '2026-09-09',
+    };
+    await storage.appendProgress(event);
+    await storage.putSession(event.questionId, { startedAt: 10, selectedOptionId: null, outcome: null });
+
+    await manager.remove(entries[0]!.packageId);
+
+    await expect(manager.restoreActiveExam()).resolves.toEqual({ status: 'selection-required' });
+    expect((await storage.listDownloads()).map(({ packageId }) => packageId)).toEqual(['enem-2023-completo']);
+    expect(await storage.listProgress()).toEqual([event]);
+    expect((await storage.listOutbox(10))[0]?.event).toEqual(event);
+    expect(await storage.getSessions()).toEqual({ [event.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null } });
   });
 });
 

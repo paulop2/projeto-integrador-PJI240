@@ -1,4 +1,5 @@
 import type {
+  ActiveExamPreference,
   CatalogManifest,
   DownloadedPackage,
   ExamEdition,
@@ -22,6 +23,9 @@ export interface OfflineStorage {
   getDownload(packageId: string): Promise<DownloadedPackage | null>;
   putDownload(download: DownloadedPackage): Promise<void>;
   deleteDownload(packageId: string): Promise<void>;
+  getActiveExamPreference(): Promise<ActiveExamPreference | null>;
+  putActiveExamPreference(preference: ActiveExamPreference): Promise<void>;
+  deleteActiveExamPreference(): Promise<void>;
   appendProgress(event: ProgressEvent, enqueue?: boolean): Promise<void>;
   listProgress(): Promise<ProgressEvent[]>;
   clearProgress(): Promise<void>;

@@ -1,4 +1,4 @@
-import type { CatalogManifest, DownloadedPackage, ProgressEvent, StoredProgressChange } from '../contracts';
+import type { ActiveExamPreference, CatalogManifest, DownloadedPackage, ProgressEvent, StoredProgressChange } from '../contracts';
 import type { StudySession } from '../app/ports';
 import type { OfflineStorage, OutboxRecord } from './types';
 
@@ -8,6 +8,7 @@ export class MemoryOfflineStorage implements OfflineStorage {
   private progress = new Map<string, ProgressEvent>();
   private outbox = new Map<string, OutboxRecord>();
   private sessions = new Map<string, StudySession>();
+  private activeExamPreference: ActiveExamPreference | null = null;
   private cursor: string | null = null;
 
   async getCatalog() { return this.catalog; }
@@ -16,6 +17,9 @@ export class MemoryOfflineStorage implements OfflineStorage {
   async getDownload(packageId: string) { return this.downloads.get(packageId) ?? null; }
   async putDownload(download: DownloadedPackage) { this.downloads.set(download.packageId, download); }
   async deleteDownload(packageId: string) { this.downloads.delete(packageId); }
+  async getActiveExamPreference() { return this.activeExamPreference; }
+  async putActiveExamPreference(preference: ActiveExamPreference) { this.activeExamPreference = preference; }
+  async deleteActiveExamPreference() { this.activeExamPreference = null; }
   async appendProgress(event: ProgressEvent, enqueue = true) {
     if (this.progress.has(event.eventId)) return;
     this.progress.set(event.eventId, event);

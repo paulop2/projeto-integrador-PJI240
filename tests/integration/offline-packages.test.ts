@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 
 import type { CatalogManifest, QuestionPackage } from '../../src/contracts';
-import { MemoryOfflineStorage, MemoryPackageCache, OfflinePackageManager } from '../../src/offline';
+import { MemoryOfflineStorage, MemoryPackageCache, OfflineActiveExamPort, OfflinePackageManager } from '../../src/offline';
 
 const encoder = new TextEncoder();
 
@@ -78,6 +78,9 @@ describe('offline package lifecycle integration', () => {
     const reloadedOffline = new OfflinePackageManager(storage, cache, async () => {
       throw new Error('offline');
     }, () => 200);
+    await expect(new OfflineActiveExamPort(reloadedOffline).initialize()).resolves.toEqual({
+      status: 'active', packageId: 'enem-2024', editionId: 'enem-2024',
+    });
     expect((await reloadedOffline.loadQuestions())[0]?.context).toBe('Versão inicial');
 
     await storage.putCatalog(manifestV2);
