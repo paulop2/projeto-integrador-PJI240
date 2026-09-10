@@ -15,7 +15,8 @@ O E2E inicia automaticamente `vite preview` em `127.0.0.1:4173`. Não são neces
 - pacote: instalação pela UI a partir de catálogo limpo, JSON e assets, capacidade, hash/tamanho, atualização atômica, rollback, reload em modo avião e remoção;
 - progresso: persistência da resposta e do deadline, timeout aos três minutos, fila/retry e limpeza no logout sem apagar provas;
 - sincronização: login por e-mail mockado no limite HTTP, sessão obrigatória, lote idempotente, reconexão e pull por um segundo contexto/dispositivo;
-- interface: viewport mobile, teclado, nomes acessíveis, bloqueio após resposta/timeout, modo avião e auditoria Axe de impactos `serious`/`critical`.
+- interface: viewport mobile, teclado, nomes acessíveis, bloqueio após resposta/timeout, modo avião e auditoria Axe de impactos `serious`/`critical`;
+- multi-edição: catálogo limpo → download de ENEM 2022 e 2023 pela UI → alternância da prova ativa com feed contendo só a escolhida → restauração após reload offline → remoção da ativa com escolha necessária → nova escolha e estudo offline, sem ativação silenciosa da outra edição.
 
 ## Checklist manual mobile
 
