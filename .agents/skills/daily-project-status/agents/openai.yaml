@@ -1,0 +1,7 @@
+interface:
+  display_name: "Daily Project Status"
+  short_description: "Find today's ready, blocked, and parallel GitHub issues"
+  default_prompt: "Use $daily-project-status to show the live project status and which issues I can assign to agents today."
+
+policy:
+  allow_implicit_invocation: true
