@@ -17,10 +17,7 @@ export class IndexedStudySessionPort implements StudySessionPort {
 
 export class OfflineQuestionSourcePort implements QuestionSourcePort {
   constructor(private readonly packages: OfflinePackageManager) {}
-  async load() {
-    await this.packages.restoreActiveExam();
-    return this.packages.loadQuestions();
-  }
+  load() { return this.packages.loadQuestions(); }
 }
 
 export class OfflineActiveExamPort implements ActiveExamPort {

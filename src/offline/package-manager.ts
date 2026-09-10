@@ -223,16 +223,17 @@ export class OfflinePackageManager {
   }
 
   async loadQuestions(): Promise<Question[]> {
+    const activeExam = await this.restoreActiveExam();
+    if (activeExam.status !== 'active') return [];
+
     const catalog = await this.getCatalog(false);
     if (!catalog) return [];
-    const downloads = new Map((await this.storage.listDownloads()).map((item) => [item.packageId, item]));
-    const questions: Question[] = [];
-    for (const current of catalog.packages) {
-      const download = downloads.get(current.id);
-      if (!download) continue;
-      const installed = await this.readInstalledPackage(current, download);
-      if (installed) questions.push(...installed.questions);
-    }
-    return questions;
+    const descriptor = catalog.packages.find(({ id, editionId }) =>
+      id === activeExam.packageId && editionId === activeExam.editionId);
+    if (!descriptor) return [];
+    const download = await this.storage.getDownload(descriptor.id);
+    if (!download) return [];
+    const installed = await this.readInstalledPackage(descriptor, download);
+    return installed?.questions ?? [];
   }
 }
