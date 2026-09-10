@@ -23,7 +23,17 @@ export class OfflineQuestionSourcePort implements QuestionSourcePort {
 export class OfflinePackagePort implements PackagePort {
   constructor(private readonly packages: OfflinePackageManager) {}
   async list() {
-    return (await this.packages.list()).map(({ descriptor, state }) => ({ id: descriptor.id, label: descriptor.editionId, byteSize: descriptor.byteSize, state }));
+    return (await this.packages.list()).map(({ descriptor, edition, state }) => ({
+      id: descriptor.id,
+      institutionId: descriptor.institutionId,
+      examId: descriptor.examId,
+      editionId: descriptor.editionId,
+      label: edition.label,
+      year: edition.year,
+      byteSize: descriptor.byteSize,
+      questionCount: descriptor.questionCount,
+      state,
+    }));
   }
   install(packageId: string) { return this.packages.install(packageId).then(() => undefined); }
   remove(packageId: string) { return this.packages.remove(packageId); }

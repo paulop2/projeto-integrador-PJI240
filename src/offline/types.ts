@@ -1,6 +1,7 @@
 import type {
   CatalogManifest,
   DownloadedPackage,
+  ExamEdition,
   PackageDescriptor,
   ProgressEvent,
   StoredProgressChange,
@@ -46,6 +47,7 @@ export type PackageState = 'available' | 'downloaded' | 'update-available';
 
 export interface PackageListing {
   descriptor: PackageDescriptor;
+  edition: ExamEdition;
   download: DownloadedPackage | null;
   state: PackageState;
 }

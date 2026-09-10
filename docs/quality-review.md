@@ -10,7 +10,7 @@ Esta terceira reauditoria independente validou as correções dos P1-A/B/C por i
 ### P1-A — E2E no seam real: resolvido
 
 - O teste de pacote parte de contexto limpo e comprova `downloads=0` e zero caches de pacote antes da ação.
-- A instalação ocorre pelo clique real em `enem-2023: Baixar`; não há escrita direta de catálogo, download ou JSON no IndexedDB/Cache Storage.
+- A instalação ocorre pelo clique real em `ENEM 2023: Baixar`; não há escrita direta de catálogo, download ou JSON no IndexedDB/Cache Storage.
 - Interceptar somente os assets remotos `enem.dev` com pixels determinísticos é um double da dependência externa, não um pré-seed do estado testado.
 - O E2E confirma 177 questões, Cache Storage, reload controlado, modo avião, conteúdo instalado, remoção e retorno ao fallback.
 - A jornada completa responde anonimamente, tenta sync indisponível, autentica pela UI, recupera conexão, envia a outbox, converge em um segundo `BrowserContext`, recarrega e exibe estatística sincronizada, depois faz logout, zera progresso e preserva o pacote.

@@ -31,6 +31,13 @@ const oldDescriptor = (descriptor: PackageDescriptor, download: DownloadedPackag
   byteSize: download.byteSize,
 });
 
+export class CatalogError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'CatalogError';
+  }
+}
+
 export class OfflinePackageManager {
   constructor(
     private readonly storage: OfflineStorage,
@@ -41,9 +48,22 @@ export class OfflinePackageManager {
   ) {}
 
   async refreshCatalog(url = '/data/manifest.json') {
-    const response = await invokeFetch(this.fetcher, url, { cache: 'no-store' });
-    if (!response.ok) throw new Error(`Catalog request failed (${response.status})`);
-    const manifest = catalogManifestSchema.parse(await response.json());
+    let response: Response;
+    try {
+      response = await invokeFetch(this.fetcher, url, { cache: 'no-store' });
+    } catch {
+      throw new CatalogError('Catalog request failed');
+    }
+    if (!response.ok) throw new CatalogError(`Catalog request failed (${response.status})`);
+    let payload: unknown;
+    try {
+      payload = await response.json();
+    } catch {
+      throw new CatalogError('Downloaded catalog is not valid JSON');
+    }
+    const parsed = catalogManifestSchema.safeParse(payload);
+    if (!parsed.success) throw new CatalogError('Downloaded catalog is inconsistent');
+    const manifest = parsed.data;
     await this.storage.putCatalog(manifest);
     return manifest;
   }
@@ -52,17 +72,31 @@ export class OfflinePackageManager {
     if (preferNetwork) {
       try { return await this.refreshCatalog(); } catch { /* offline: use the last validated catalog */ }
     }
-    return this.storage.getCatalog();
+    try {
+      const catalog = await this.storage.getCatalog();
+      if (!catalog) return null;
+      const parsed = catalogManifestSchema.safeParse(catalog);
+      if (!parsed.success) throw new CatalogError('Stored catalog is inconsistent');
+      return parsed.data;
+    } catch (error) {
+      if (error instanceof CatalogError) throw error;
+      throw new CatalogError('Stored catalog is inconsistent');
+    }
   }
 
   async list(preferNetwork = true): Promise<PackageListing[]> {
     const catalog = await this.getCatalog(preferNetwork);
-    if (!catalog) return [];
+    if (!catalog) throw new CatalogError('No validated catalog is available');
     const downloads = new Map((await this.storage.listDownloads()).map((item) => [item.packageId, item]));
+    const editions = new Map(catalog.editions.map((edition) => [edition.id, edition]));
     return catalog.packages.map((descriptor) => {
+      const edition = editions.get(descriptor.editionId);
+      if (!edition || edition.examId !== descriptor.examId) {
+        throw new CatalogError(`Package ${descriptor.id} has inconsistent edition metadata`);
+      }
       const download = downloads.get(descriptor.id) ?? null;
       const changed = download !== null && (download.version !== descriptor.version || download.sha256 !== descriptor.sha256);
-      return { descriptor, download, state: !download ? 'available' : changed ? 'update-available' : 'downloaded' };
+      return { descriptor, edition, download, state: !download ? 'available' : changed ? 'update-available' : 'downloaded' };
     });
   }
 
