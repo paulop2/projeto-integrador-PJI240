@@ -1,6 +1,7 @@
 import {
   catalogManifestSchema,
   questionPackageSchema,
+  type ActiveExamPreference,
   type ActiveExamSelection,
   type CatalogManifest,
   type DownloadedPackage,
@@ -153,12 +154,20 @@ export class OfflinePackageManager {
     const catalog = await this.getCatalog(false);
     const descriptor = catalog?.packages.find(({ id }) => id === packageId);
     const download = await this.storage.getDownload(packageId);
-    if (descriptor && download) await this.cache.deletePackage(oldDescriptor(descriptor, download));
-    await this.storage.deleteDownload(packageId);
-    if (!preference?.selectionRequired && preference?.selection.packageId === packageId) {
-      const eligible = await this.eligibleActiveExams();
-      if (eligible.length === 0) await this.storage.deleteActiveExamPreference();
-      else await this.storage.putActiveExamPreference({ selectionRequired: true, selection: null });
+    const removesActive = !preference?.selectionRequired && preference?.selection.packageId === packageId;
+    let nextPreference: ActiveExamPreference | null | undefined;
+    if (removesActive) {
+      const remaining = (await this.eligibleActiveExams()).filter(({ packageId: eligibleId }) => eligibleId !== packageId);
+      nextPreference = remaining.length === 0 ? null : { selectionRequired: true, selection: null };
+    }
+    await this.storage.removeDownload(packageId, nextPreference);
+    if (descriptor && download) {
+      try {
+        await this.cache.deletePackage(oldDescriptor(descriptor, download));
+      } catch {
+        // Download metadata is authoritative; an inaccessible stale cache must not
+        // turn a coherent removal into a partially failed user action.
+      }
     }
   }
 

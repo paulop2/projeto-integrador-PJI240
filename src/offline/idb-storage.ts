@@ -73,7 +73,17 @@ export class IndexedDbOfflineStorage implements OfflineStorage {
     return value === undefined ? null : downloadedPackageSchema.parse(value);
   }
   async putDownload(download: DownloadedPackage) { await this.write('downloads', 'readwrite', (store) => { store.put(download); }); }
-  async deleteDownload(packageId: string) { await this.write('downloads', 'readwrite', (store) => { store.delete(packageId); }); }
+  async removeDownload(packageId: string, nextActiveExamPreference?: ActiveExamPreference | null) {
+    const db = await this.open();
+    const transaction = db.transaction(nextActiveExamPreference === undefined ? ['downloads'] : ['downloads', 'settings'], 'readwrite');
+    transaction.objectStore('downloads').delete(packageId);
+    if (nextActiveExamPreference !== undefined) {
+      const settings = transaction.objectStore('settings');
+      if (nextActiveExamPreference === null) settings.delete('activeExam');
+      else settings.put(activeExamPreferenceSchema.parse(nextActiveExamPreference), 'activeExam');
+    }
+    await transactionDone(transaction);
+  }
   async getActiveExamPreference() {
     const parsed = activeExamPreferenceSchema.safeParse(await this.read<unknown>('settings', 'activeExam'));
     return parsed.success ? parsed.data : null;

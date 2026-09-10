@@ -97,4 +97,58 @@ describe('ExamsPanel', () => {
     expect(packagePort.remove).toHaveBeenCalledWith('enem-2022');
     expect(await screen.findByText('ENEM 2022 foi removida. Escolha outra prova para continuar.')).toHaveFocus();
   });
+
+  it('keeps the active exam selected when an update fails and allows retrying it', async () => {
+    const updateAvailable = { ...enem2023, state: 'update-available' as const };
+    const updated = { ...enem2023, state: 'downloaded' as const };
+    const { packagePort, activeExamPort } = ports([updateAvailable, { ...enem2022, state: 'downloaded' }]);
+    packagePort.list = vi.fn()
+      .mockResolvedValueOnce([updateAvailable, { ...enem2022, state: 'downloaded' }])
+      .mockResolvedValueOnce([updated, { ...enem2022, state: 'downloaded' }]);
+    packagePort.install = vi.fn()
+      .mockRejectedValueOnce(new Error('pacote inválido'))
+      .mockResolvedValueOnce(undefined);
+    const onContentChange = vi.fn().mockResolvedValue(undefined);
+    const user = userEvent.setup();
+    render(<ExamsPanel packagePort={packagePort} activeExamPort={activeExamPort} online onClose={vi.fn()} onContentChange={onContentChange} />);
+
+    const update = await screen.findByRole('button', { name: 'Atualizar ENEM 2023' });
+    await user.click(update);
+    expect(await screen.findByRole('alert')).toHaveTextContent('Não foi possível atualizar ENEM 2023. Tente novamente. pacote inválido');
+    expect(screen.getByText('Prova ativa:', { exact: false })).toHaveTextContent('Prova ativa: ENEM 2023');
+    expect(update).toBeEnabled();
+
+    await user.click(update);
+    expect(await screen.findByText('ENEM 2023 foi atualizada e continua ativa.')).toBeInTheDocument();
+    expect(packagePort.install).toHaveBeenCalledTimes(2);
+    expect(onContentChange).toHaveBeenCalledOnce();
+    expect(within(screen.getByRole('article', { name: 'ENEM 2023' })).getByText('Ativa')).toBeInTheDocument();
+  });
+
+  it('preserves the active feed when removing another exam fails and allows retrying it', async () => {
+    const downloaded2022 = { ...enem2022, state: 'downloaded' as const };
+    const { packagePort, activeExamPort } = ports([enem2023, downloaded2022]);
+    packagePort.list = vi.fn()
+      .mockResolvedValueOnce([enem2023, downloaded2022])
+      .mockResolvedValueOnce([enem2023]);
+    packagePort.remove = vi.fn()
+      .mockRejectedValueOnce(new Error('armazenamento ocupado'))
+      .mockResolvedValueOnce(undefined);
+    const onContentChange = vi.fn().mockResolvedValue(undefined);
+    const user = userEvent.setup();
+    render(<ExamsPanel packagePort={packagePort} activeExamPort={activeExamPort} online onClose={vi.fn()} onContentChange={onContentChange} />);
+
+    await user.click(await screen.findByRole('button', { name: 'Remover ENEM 2022 do dispositivo' }));
+    await user.click(screen.getByRole('button', { name: 'Confirmar remoção' }));
+    expect(await screen.findByRole('alert')).toHaveTextContent('Não foi possível remover ENEM 2022. Tente novamente. armazenamento ocupado');
+    expect(screen.getByRole('button', { name: 'Remover ENEM 2022 do dispositivo' })).toHaveFocus();
+    expect(onContentChange).not.toHaveBeenCalled();
+
+    await user.click(screen.getByRole('button', { name: 'Remover ENEM 2022 do dispositivo' }));
+    await user.click(screen.getByRole('button', { name: 'Confirmar remoção' }));
+    expect(await screen.findByText('ENEM 2022 foi removida. Sua prova ativa continua sendo ENEM 2023.')).toBeInTheDocument();
+    expect(screen.getByText('Prova ativa:', { exact: false })).toHaveTextContent('Prova ativa: ENEM 2023');
+    expect(packagePort.remove).toHaveBeenCalledTimes(2);
+    expect(onContentChange).toHaveBeenCalledOnce();
+  });
 });

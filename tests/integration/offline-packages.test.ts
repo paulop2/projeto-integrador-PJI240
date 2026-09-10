@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from 'vitest';
 
-import type { CatalogManifest, QuestionPackage } from '../../src/contracts';
+import type { CatalogManifest, ProgressEvent, QuestionPackage } from '../../src/contracts';
 import { MemoryOfflineStorage, MemoryPackageCache, OfflineActiveExamPort, OfflinePackageManager } from '../../src/offline';
 
 const encoder = new TextEncoder();
@@ -74,6 +74,13 @@ describe('offline package lifecycle integration', () => {
     await manager.refreshCatalog();
     await manager.install('enem-2024');
     expect([...cache.assets.keys()].some((url) => new URL(url).pathname === '/images/figure.png')).toBe(true);
+    const progress: ProgressEvent = {
+      type: 'question_viewed', eventId: '00000000-0000-4000-8000-000000000041', deviceId: '00000000-0000-4000-8000-000000000042',
+      questionId: 'enem-enem-2024-1', occurredAt: 10, localDay: '2026-09-10',
+    };
+    await storage.appendProgress(progress);
+    await storage.putSession(progress.questionId, { startedAt: 10, selectedOptionId: null, outcome: null });
+    const activePreference = await storage.getActiveExamPreference();
 
     const reloadedOffline = new OfflinePackageManager(storage, cache, async () => {
       throw new Error('offline');
@@ -88,15 +95,21 @@ describe('offline package lifecycle integration', () => {
     currentBody = `${v2}invalid`;
     await expect(manager.install('enem-2024')).rejects.toThrow(/byte size|integrity/);
     expect((await reloadedOffline.loadQuestions())[0]?.context).toBe('Versão inicial');
+    expect(await storage.getActiveExamPreference()).toEqual(activePreference);
 
     currentBody = v2;
     await manager.install('enem-2024');
     expect((await manager.loadQuestions())[0]?.context).toBe('Versão atualizada');
+    expect(await storage.getActiveExamPreference()).toEqual(activePreference);
+    expect(await storage.listProgress()).toEqual([progress]);
+    expect(await storage.getSessions()).toEqual({ [progress.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null } });
     expect(cache.packages.has(manifestV1.packages[0]!.sha256)).toBe(false);
 
     await manager.remove('enem-2024');
     expect(await manager.loadQuestions()).toEqual([]);
     expect(await storage.listDownloads()).toEqual([]);
+    expect(await storage.listProgress()).toEqual([progress]);
+    expect(await storage.getSessions()).toEqual({ [progress.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null } });
   });
 
   it('does not install when capacity is insufficient and ignores a corrupted cache on reload', async () => {

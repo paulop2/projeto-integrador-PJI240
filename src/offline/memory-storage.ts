@@ -16,7 +16,10 @@ export class MemoryOfflineStorage implements OfflineStorage {
   async listDownloads() { return [...this.downloads.values()]; }
   async getDownload(packageId: string) { return this.downloads.get(packageId) ?? null; }
   async putDownload(download: DownloadedPackage) { this.downloads.set(download.packageId, download); }
-  async deleteDownload(packageId: string) { this.downloads.delete(packageId); }
+  async removeDownload(packageId: string, nextActiveExamPreference?: ActiveExamPreference | null) {
+    this.downloads.delete(packageId);
+    if (nextActiveExamPreference !== undefined) this.activeExamPreference = nextActiveExamPreference;
+  }
   async getActiveExamPreference() { return this.activeExamPreference; }
   async putActiveExamPreference(preference: ActiveExamPreference) { this.activeExamPreference = preference; }
   async deleteActiveExamPreference() { this.activeExamPreference = null; }

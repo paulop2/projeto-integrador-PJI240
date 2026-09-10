@@ -22,7 +22,7 @@ export interface OfflineStorage {
   listDownloads(): Promise<DownloadedPackage[]>;
   getDownload(packageId: string): Promise<DownloadedPackage | null>;
   putDownload(download: DownloadedPackage): Promise<void>;
-  deleteDownload(packageId: string): Promise<void>;
+  removeDownload(packageId: string, nextActiveExamPreference?: ActiveExamPreference | null): Promise<void>;
   getActiveExamPreference(): Promise<ActiveExamPreference | null>;
   putActiveExamPreference(preference: ActiveExamPreference): Promise<void>;
   deleteActiveExamPreference(): Promise<void>;

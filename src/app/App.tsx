@@ -5,7 +5,7 @@ import type { ProgressEvent, Question } from '../contracts';
 import { offlineRuntime } from '../offline/runtime';
 import { demoQuestions } from './demoQuestions';
 import { ExamsPanel } from './ExamsPanel';
-import type { ActiveExamPort, PackagePort, ProgressPort, QuestionSourcePort, StudySessionPort } from './ports';
+import type { ActiveExamPort, ActiveExamState, PackagePort, ProgressPort, QuestionSourcePort, StudySessionPort } from './ports';
 import { calculateStats, localDay, makeId, outcomeFor, type LocalRecord } from './progress';
 import { QuestionFeed } from './QuestionFeed';
 import type { QuestionSession } from './QuestionCard';
@@ -36,6 +36,7 @@ export function App({
 }: { progressPort?: ProgressPort; sessionPort?: StudySessionPort; questionSource?: QuestionSourcePort; packagePort?: PackagePort; activeExamPort?: ActiveExamPort; authPort?: AuthPort; authRuntime?: AccountRuntime }) {
   const [questions, setQuestions] = useState<Question[]>(() => questionSource ? [] : demoQuestions);
   const [questionsReady, setQuestionsReady] = useState(() => !questionSource);
+  const [activeExam, setActiveExam] = useState<ActiveExamState | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
   const [sessions, setSessions] = useState<Record<string, QuestionSession>>({});
   const [sessionsReady, setSessionsReady] = useState(false);
@@ -102,11 +103,15 @@ export function App({
   }, [authRuntime, authUser]);
   const reloadQuestions = useCallback(async () => {
     if (!questionSource) return;
-    const loaded = await questionSource.load();
-    setQuestions(loaded);
+    const [loaded, nextActiveExam] = await Promise.all([
+      questionSource.load(),
+      activeExamPort?.initialize() ?? Promise.resolve(null),
+    ]);
+    setQuestions(nextActiveExam && nextActiveExam.status !== 'active' ? [] : loaded);
+    setActiveExam(nextActiveExam);
     setActiveIndex(0);
     setQuestionsReady(true);
-  }, [questionSource]);
+  }, [activeExamPort, questionSource]);
   useEffect(() => { void reloadQuestions(); }, [reloadQuestions]);
   useEffect(() => {
     let active = true;
@@ -258,7 +263,11 @@ export function App({
       {authOpen && <AuthPanel user={authUser} initialMode={initialAuthMode} busy={authBusy} error={authError} message={authMessage} online={online} onClose={() => setAuthOpen(false)} onEmailLogin={emailLogin} onSignUp={signUp} onGoogle={googleLogin} onLogout={logout} onForgot={forgotPassword} onReset={resetPassword} onVerify={resendVerification} />}
       {examsOpen && packagePort && activeExamPort && <div id="exams-panel"><ExamsPanel packagePort={packagePort} activeExamPort={activeExamPort} online={online} onClose={() => setExamsOpen(false)} onContentChange={reloadQuestions} /></div>}
 
-      {sessionsReady && questionsReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} /> : sessionsReady && questionsReady ? (
+      {sessionsReady && questionsReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} /> : sessionsReady && questionsReady && activeExam?.status === 'empty' ? (
+        <main className="empty-state" aria-label="Nenhuma prova baixada"><span aria-hidden="true">↓</span><h1>Baixe uma prova para começar a estudar.</h1><p>Escolha uma edição e ela ficará disponível também offline.</p>{packagePort && activeExamPort && <button className="primary-button" type="button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen(false); setExamsOpen(true); }}>Ver provas disponíveis</button>}</main>
+      ) : sessionsReady && questionsReady && activeExam?.status === 'selection-required' ? (
+        <main className="empty-state" aria-label="Escolha de prova necessária"><span aria-hidden="true">→</span><h1>Escolha uma prova baixada para continuar estudando.</h1><p>Nenhuma edição será combinada ou escolhida sem sua confirmação.</p>{packagePort && activeExamPort && <button className="primary-button" type="button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen(false); setExamsOpen(true); }}>Escolher prova</button>}</main>
+      ) : sessionsReady && questionsReady ? (
         <main className="empty-state"><span>∅</span><h1>Nenhuma questão por aqui</h1><p>Altere os filtros para continuar estudando.</p></main>
       ) : <main className="empty-state" aria-label="Carregando questões"><p>Carregando questões…</p></main>}
       <div className="swipe-hint" aria-hidden="true">Deslize para a próxima <span>↓</span></div>

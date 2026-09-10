@@ -1,6 +1,6 @@
 import { describe, expect, it, vi } from 'vitest';
 
-import type { CatalogManifest, ProgressEvent, SyncResponse } from '../src/contracts';
+import type { ActiveExamPreference, CatalogManifest, ProgressEvent, SyncResponse } from '../src/contracts';
 import { ActiveExamError, CatalogError, FetchSyncTransport, MemoryOfflineStorage, MemoryPackageCache, OfflineActiveExamPort, OfflinePackageManager, OfflinePackagePort, OfflineQuestionSourcePort, SyncQueue, retryDelayMs } from '../src/offline';
 
 const editionPackageBody = (packageId: string, editionId: string, year: number, context: string) => JSON.stringify({
@@ -216,6 +216,11 @@ describe('offline packages', () => {
     expect((await offlineManager.loadQuestions())[0]?.id).toBe('enem-enem-2024-1');
     await offlineManager.remove('enem-2024');
     expect(await offlineManager.loadQuestions()).toEqual([]);
+    expect(await offlineManager.restoreActiveExam()).toEqual({ status: 'empty' });
+    expect(await storage.getActiveExamPreference()).toBeNull();
+
+    await manager.install('enem-2024');
+    expect(await manager.restoreActiveExam()).toEqual({ status: 'active', packageId: 'enem-2024', editionId: 'enem-2024' });
   });
 
   it('marks changed hash/version and retains the installed package if validation fails', async () => {
@@ -230,6 +235,11 @@ describe('offline packages', () => {
     currentBody = `${secondBody}corrompido`;
     await expect(manager.install('enem-2024')).rejects.toThrow(/byte size|integrity/);
     expect((await storage.getDownload('enem-2024'))?.version).toBe(1);
+    expect((await manager.list(false))[0]?.state).toBe('update-available');
+    expect(await storage.getActiveExamPreference()).toEqual({
+      selectionRequired: false,
+      selection: { packageId: 'enem-2024', editionId: 'enem-2024' },
+    });
     expect((await manager.loadQuestions())[0]?.context).toBe('Quanto é 2 + 2?');
   });
 });
@@ -321,6 +331,57 @@ describe('active exam preference', () => {
     expect(await storage.listProgress()).toEqual([event]);
     expect((await storage.listOutbox(10))[0]?.event).toEqual(event);
     expect(await storage.getSessions()).toEqual({ [event.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null } });
+  });
+
+  it('removes a non-active exam without changing the feed, preference, progress, or sessions', async () => {
+    const { entries, manager, storage } = await activeExamFixture();
+    const source = new OfflineQuestionSourcePort(manager);
+    const event: ProgressEvent = {
+      type: 'question_viewed', eventId: '00000000-0000-4000-8000-000000000031', deviceId: '00000000-0000-4000-8000-000000000032',
+      questionId: 'enem-enem-2023-1', occurredAt: 10, localDay: '2026-09-10',
+    };
+    await storage.appendProgress(event);
+    await storage.putSession(event.questionId, { startedAt: 10, selectedOptionId: null, outcome: null });
+    const previousPreference = await storage.getActiveExamPreference();
+
+    await manager.remove(entries[1]!.packageId);
+
+    expect((await source.load()).map(({ editionId }) => editionId)).toEqual(['enem-2022']);
+    expect(await storage.getActiveExamPreference()).toEqual(previousPreference);
+    expect(await storage.listProgress()).toEqual([event]);
+    expect(await storage.getSessions()).toEqual({ [event.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null } });
+  });
+
+  it('keeps the active package intact when removal storage fails and succeeds on retry', async () => {
+    class FailsFirstRemovalStorage extends MemoryOfflineStorage {
+      private shouldFail = true;
+
+      override async removeDownload(packageId: string, nextActiveExamPreference?: ActiveExamPreference | null) {
+        if (this.shouldFail) {
+          this.shouldFail = false;
+          throw new Error('storage unavailable');
+        }
+        await super.removeDownload(packageId, nextActiveExamPreference);
+      }
+    }
+
+    const body = packageBody();
+    const catalog = await manifest(body);
+    const storage = new FailsFirstRemovalStorage();
+    const cache = new MemoryPackageCache();
+    const manager = new OfflinePackageManager(storage, cache, async (input) => new Response(String(input).includes('manifest') ? JSON.stringify(catalog) : body));
+    await manager.refreshCatalog();
+    await manager.install('enem-2024');
+
+    await expect(manager.remove('enem-2024')).rejects.toThrow('storage unavailable');
+    expect((await manager.loadQuestions())[0]?.context).toBe('Quanto é 2 + 2?');
+    expect(await storage.getActiveExamPreference()).toEqual({
+      selectionRequired: false,
+      selection: { packageId: 'enem-2024', editionId: 'enem-2024' },
+    });
+
+    await expect(manager.remove('enem-2024')).resolves.toBeUndefined();
+    expect(await manager.restoreActiveExam()).toEqual({ status: 'empty' });
   });
 });
 
