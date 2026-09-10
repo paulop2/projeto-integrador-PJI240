@@ -8,7 +8,7 @@ async function mockQuestionAssets(context: BrowserContext) {
 }
 
 async function installEditionFromCleanCatalog(page: Page) {
-  await page.getByRole('button', { name: 'Provas' }).click();
+  await page.getByRole('button', { name: 'Provas', exact: true }).click();
   const download = page.getByRole('button', { name: /Baixar ENEM 2023/i });
   await expect(download).toBeVisible();
   await download.click();
@@ -35,7 +35,7 @@ async function readActiveExamPreference(page: Page) {
 
 test('área Provas lista duas edições no mobile e funciona por teclado sem violações graves', async ({ page }) => {
   await page.goto('/');
-  const trigger = page.getByRole('button', { name: 'Provas' });
+  const trigger = page.getByRole('button', { name: 'Provas', exact: true });
   await trigger.click();
 
   const dialog = page.getByRole('dialog', { name: 'Provas' });
@@ -149,12 +149,12 @@ test('baixa pelo catálogo limpo, usa após reload offline e remove a edição',
     selection: { packageId: 'enem-2023', editionId: 'enem-2023' },
   });
 
-  await page.getByRole('button', { name: 'Provas' }).click();
+  await page.getByRole('button', { name: 'Provas', exact: true }).click();
   await page.getByRole('button', { name: /Remover ENEM 2023 do dispositivo/i }).click();
   await page.getByRole('button', { name: 'Confirmar remoção' }).click();
   await expect(page.getByRole('button', { name: /Baixar ENEM 2023/i })).toBeVisible();
   await page.reload();
-  await expect(page.getByRole('heading', { name: 'Nenhuma questão por aqui' })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Baixe uma prova para começar a estudar.' })).toBeVisible();
   await expect(page.getByRole('main', { name: 'Questões' })).toHaveCount(0);
   await context.setOffline(false);
 });
@@ -253,7 +253,7 @@ test('sincroniza progresso anônimo após login/reconexão, replica no segundo d
   await page.getByRole('button', { name: 'Sair' }).click();
   await expect(page.getByText(/As provas baixadas continuam disponíveis/)).toBeVisible();
   await page.getByRole('button', { name: 'Fechar conta' }).click();
-  await page.getByRole('button', { name: 'Provas' }).click();
+  await page.getByRole('button', { name: 'Provas', exact: true }).click();
   await expect(page.getByRole('button', { name: /Remover ENEM 2023 do dispositivo/i })).toBeVisible();
   expect(await page.evaluate(async () => {
     const database = await new Promise<IDBDatabase>((resolve, reject) => {

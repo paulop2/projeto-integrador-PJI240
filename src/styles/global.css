@@ -152,6 +152,7 @@ button:focus-visible, select:focus-visible, input:focus-visible + span { outline
 .swipe-hint span { color: var(--acid); }
 .empty-state { height: 100%; display: grid; place-content: center; text-align: center; padding: 24px; }
 .empty-state > span { color: var(--acid); font-size: 36px; }.empty-state h1 { margin: 12px 0 4px; }.empty-state p { color: var(--muted); }
+.empty-state .primary-button { justify-self: center; margin-top: 12px; }
 
 @media (min-width: 680px) {
   .topbar { padding-left: 32px; padding-right: 32px; }

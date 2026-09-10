@@ -80,4 +80,58 @@ describe('active edition feed', () => {
     expect(await screen.findByRole('heading', { name: 'Nenhuma questão por aqui' })).toBeInTheDocument();
     expect(screen.queryByText(/Uma ciclovia tem 12 km/)).not.toBeInTheDocument();
   });
+
+  it('shows onboarding instead of demo content when there are no downloaded exams', async () => {
+    const packagePort: PackagePort = {
+      list: vi.fn().mockResolvedValue([
+        { id: 'enem-2023', institutionId: 'inep', examId: 'enem', editionId: 'enem-2023', label: 'ENEM 2023', year: 2023, byteSize: 1, questionCount: 2, state: 'available' },
+      ]),
+      install: vi.fn(),
+      remove: vi.fn(),
+    };
+    const activeExamPort: ActiveExamPort = {
+      initialize: vi.fn().mockResolvedValue({ status: 'empty' }),
+      select: vi.fn(),
+    };
+    const questionSource: QuestionSourcePort = { load: vi.fn().mockResolvedValue(demoQuestions) };
+
+    render(<App progressPort={new MemoryProgressPort()} sessionPort={new MemoryStudySessionPort()} questionSource={questionSource} packagePort={packagePort} activeExamPort={activeExamPort} authPort={authPort} authRuntime={authRuntime} />);
+
+    expect(await screen.findByRole('heading', { name: 'Baixe uma prova para começar a estudar.' })).toBeInTheDocument();
+    expect(screen.queryByText(/Uma ciclovia tem 12 km/)).not.toBeInTheDocument();
+    await userEvent.click(screen.getByRole('button', { name: 'Ver provas disponíveis' }));
+    expect(await screen.findByRole('dialog', { name: 'Provas' })).toBeInTheDocument();
+  });
+
+  it('requires an explicit choice when multiple exams are downloaded and then loads only that edition', async () => {
+    let active: ActiveExamState = { status: 'selection-required' };
+    const packagePort: PackagePort = {
+      list: vi.fn().mockResolvedValue([
+        { id: 'enem-2022', institutionId: 'inep', examId: 'enem', editionId: 'enem-2022', label: 'ENEM 2022', year: 2022, byteSize: 1, questionCount: 2, state: 'downloaded' },
+        { id: 'enem-2023', institutionId: 'inep', examId: 'enem', editionId: 'enem-2023', label: 'ENEM 2023', year: 2023, byteSize: 1, questionCount: 2, state: 'downloaded' },
+      ]),
+      install: vi.fn(),
+      remove: vi.fn(),
+    };
+    const activeExamPort: ActiveExamPort = {
+      initialize: vi.fn(async () => active),
+      select: vi.fn(async (packageId, editionId) => {
+        active = { status: 'active', packageId, editionId };
+        return active;
+      }),
+    };
+    const questionSource: QuestionSourcePort = {
+      load: vi.fn(async () => active.status === 'active' ? editions[active.editionId] ?? [] : Object.values(editions).flat()),
+    };
+
+    render(<App progressPort={new MemoryProgressPort()} sessionPort={new MemoryStudySessionPort()} questionSource={questionSource} packagePort={packagePort} activeExamPort={activeExamPort} authPort={authPort} authRuntime={authRuntime} />);
+
+    expect(await screen.findByRole('heading', { name: 'Escolha uma prova baixada para continuar estudando.' })).toBeInTheDocument();
+    expect(screen.queryByText(/edição 2022|edição 2023/)).not.toBeInTheDocument();
+
+    await userEvent.click(screen.getByRole('button', { name: 'Escolher prova' }));
+    await userEvent.click(await screen.findByRole('button', { name: 'Estudar ENEM 2022' }));
+    expect(await screen.findByText('Matemática da edição 2022')).toBeInTheDocument();
+    expect(screen.queryByText(/edição 2023/)).not.toBeInTheDocument();
+  });
 });
