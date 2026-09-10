@@ -1,5 +1,5 @@
-import type { ActiveExamPort, PackagePort, ProgressPort, QuestionSourcePort, StudySession, StudySessionPort } from '../app/ports';
-import type { ProgressEvent } from '../contracts';
+import type { ActiveExamPort, ForeignLanguagePreferencePort, PackagePort, ProgressPort, QuestionSourcePort, StudySession, StudySessionPort } from '../app/ports';
+import type { ForeignLanguage, ProgressEvent } from '../contracts';
 import { OfflinePackageManager } from './package-manager';
 import type { OfflineStorage } from './types';
 
@@ -13,6 +13,12 @@ export class IndexedStudySessionPort implements StudySessionPort {
   constructor(private readonly storage: OfflineStorage) {}
   load() { return this.storage.getSessions(); }
   save(questionId: string, session: StudySession) { return this.storage.putSession(questionId, session); }
+}
+
+export class OfflineForeignLanguagePreferencePort implements ForeignLanguagePreferencePort {
+  constructor(private readonly storage: OfflineStorage) {}
+  async load() { return (await this.storage.getForeignLanguagePreference())?.language ?? null; }
+  save(language: ForeignLanguage) { return this.storage.putForeignLanguagePreference({ language }); }
 }
 
 export class OfflineQuestionSourcePort implements QuestionSourcePort {

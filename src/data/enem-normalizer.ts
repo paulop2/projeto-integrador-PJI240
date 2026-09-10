@@ -17,7 +17,7 @@ export const isCompleteEnemQuestion = (question: EnemApiQuestion): boolean =>
 export const normalizeEnemQuestion = (input: EnemApiQuestion): Question => {
   const source = enemApiQuestionSchema.parse(input);
   if (!isCompleteEnemQuestion(source)) {
-    throw new Error(`question ${source.index} has alternatives without text or file`);
+    throw new Error(`question ${source.index}${source.language ? ` (${source.language})` : ''} has alternatives without text or file`);
   }
   const alternatives = source.alternatives.map((alternative) => ({
     id: normalizeIdentifier(alternative.letter),
@@ -32,17 +32,20 @@ export const normalizeEnemQuestion = (input: EnemApiQuestion): Question => {
 
   if (flaggedAnswers.length !== 1 || flaggedAnswers[0] !== declaredAnswer) {
     throw new Error(
-      `question ${source.index} has an inconsistent answer (correctAlternative/isCorrect)`,
+      `question ${source.index}${source.language ? ` (${source.language})` : ''} has an inconsistent answer (correctAlternative/isCorrect)`,
     );
   }
 
   return {
-    id: `enem-enem-${source.year}-${source.index}`,
+    // The previously published questions 1-5 were the Spanish variant. Keep
+    // those IDs so existing progress remains attached to the same content.
+    id: `enem-enem-${source.year}-${source.index}${source.language === 'ingles' ? '-ingles' : ''}`,
     institutionId: 'inep',
     examId: 'enem',
     editionId: `enem-${source.year}`,
     year: source.year,
     subjectId: normalizeIdentifier(source.discipline),
+    language: source.language ?? null,
     kind: 'single-choice',
     context: source.context,
     files: source.files,
@@ -57,8 +60,10 @@ export const createEnemPackage = (
   sourceQuestions: readonly EnemApiQuestion[],
 ): QuestionPackage => {
   const questions = sourceQuestions
-    .map(normalizeEnemQuestion)
-    .sort((left, right) => Number(left.id.split('-').at(-1)) - Number(right.id.split('-').at(-1)));
+    .map((source) => ({ source, question: normalizeEnemQuestion(source) }))
+    .sort((left, right) => left.source.index - right.source.index
+      || (left.source.language ?? '').localeCompare(right.source.language ?? ''))
+    .map(({ question }) => question);
 
   if (questions.some((question) => question.year !== year)) {
     throw new Error(`source contains a question outside ENEM ${year}`);

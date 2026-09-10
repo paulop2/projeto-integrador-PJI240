@@ -1,7 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 
 import type { ActiveExamPreference, CatalogManifest, ProgressEvent, SyncResponse } from '../src/contracts';
-import { ActiveExamError, CatalogError, FetchSyncTransport, MemoryOfflineStorage, MemoryPackageCache, OfflineActiveExamPort, OfflinePackageManager, OfflinePackagePort, OfflineQuestionSourcePort, SyncQueue, retryDelayMs } from '../src/offline';
+import { ActiveExamError, CatalogError, FetchSyncTransport, MemoryOfflineStorage, MemoryPackageCache, OfflineActiveExamPort, OfflineForeignLanguagePreferencePort, OfflinePackageManager, OfflinePackagePort, OfflineQuestionSourcePort, SyncQueue, retryDelayMs } from '../src/offline';
 
 const editionPackageBody = (packageId: string, editionId: string, year: number, context: string) => JSON.stringify({
   schemaVersion: 1,
@@ -11,7 +11,7 @@ const editionPackageBody = (packageId: string, editionId: string, year: number, 
   editionId,
   questions: [{
     id: `enem-${editionId}-1`, institutionId: 'inep', examId: 'enem', editionId, year,
-    subjectId: 'matematica', kind: 'single-choice', context, files: [], alternativesIntroduction: null,
+    subjectId: 'matematica', language: null, kind: 'single-choice', context, files: [], alternativesIntroduction: null,
     alternatives: [{ id: 'a', label: 'A', text: '3', file: null }, { id: 'b', label: 'B', text: '4', file: null }],
     answer: { optionIds: ['b'] },
   }],
@@ -245,6 +245,17 @@ describe('offline packages', () => {
 });
 
 describe('active exam preference', () => {
+  it('restores the foreign-language preference from local storage', async () => {
+    const storage = new MemoryOfflineStorage();
+    const firstLoad = new OfflineForeignLanguagePreferencePort(storage);
+
+    await expect(firstLoad.load()).resolves.toBeNull();
+    await firstLoad.save('ingles');
+
+    const reloadedOffline = new OfflineForeignLanguagePreferencePort(storage);
+    await expect(reloadedOffline.load()).resolves.toBe('ingles');
+  });
+
   it('loads only the exact active package and returns no feed without a valid selection', async () => {
     const { entries, manager, storage } = await activeExamFixture();
     const source = new OfflineQuestionSourcePort(manager);

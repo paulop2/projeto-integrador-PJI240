@@ -19,6 +19,7 @@ function packagePayload(context: string, file: string | null = null): QuestionPa
       editionId: 'enem-2024',
       year: 2024,
       subjectId: 'matematica',
+      language: null,
       kind: 'single-choice',
       context,
       files: file ? [file] : [],

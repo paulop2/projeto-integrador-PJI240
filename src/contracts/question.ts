@@ -12,6 +12,10 @@ export const questionKindSchema = z.enum([
 
 export type QuestionKind = z.infer<typeof questionKindSchema>;
 
+export const foreignLanguageSchema = z.enum(['ingles', 'espanhol']);
+
+export type ForeignLanguage = z.infer<typeof foreignLanguageSchema>;
+
 export const alternativeSchema = z
   .object({
     id: idSchema,
@@ -42,6 +46,9 @@ export const questionSchema = z
     editionId: idSchema,
     year: z.number().int().min(1900).max(3000).nullable(),
     subjectId: idSchema,
+    // Older downloaded packages predate this field. Parsing them as common
+    // keeps the installed package usable until its atomic version-2 update.
+    language: foreignLanguageSchema.nullable().default(null),
     kind: questionKindSchema,
     context: z.string().trim().min(1).nullable(),
     files: z.array(z.string().trim().min(1)),

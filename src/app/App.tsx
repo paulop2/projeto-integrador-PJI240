@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 import { QUESTION_TIME_LIMIT_MS } from '../contracts';
-import type { ProgressEvent, Question } from '../contracts';
+import type { ForeignLanguage, ProgressEvent, Question } from '../contracts';
 import { offlineRuntime } from '../offline/runtime';
 import { demoQuestions } from './demoQuestions';
 import { ExamsPanel } from './ExamsPanel';
-import type { ActiveExamPort, ActiveExamState, PackagePort, ProgressPort, QuestionSourcePort, StudySessionPort } from './ports';
+import { ForeignLanguageSelector } from './ForeignLanguageSelector';
+import type { ActiveExamPort, ActiveExamState, ForeignLanguagePreferencePort, PackagePort, ProgressPort, QuestionSourcePort, StudySessionPort } from './ports';
 import { calculateStats, localDay, makeId, outcomeFor, type LocalRecord } from './progress';
 import { QuestionFeed } from './QuestionFeed';
 import type { QuestionSession } from './QuestionCard';
@@ -31,9 +32,10 @@ export function App({
   questionSource = offlineRuntime.questionSource,
   packagePort = offlineRuntime.packagePort,
   activeExamPort = offlineRuntime.activeExamPort,
+  foreignLanguagePreferencePort = offlineRuntime.foreignLanguagePreferencePort,
   authPort = httpAuthPort,
   authRuntime = accountRuntime,
-}: { progressPort?: ProgressPort; sessionPort?: StudySessionPort; questionSource?: QuestionSourcePort; packagePort?: PackagePort; activeExamPort?: ActiveExamPort; authPort?: AuthPort; authRuntime?: AccountRuntime }) {
+}: { progressPort?: ProgressPort; sessionPort?: StudySessionPort; questionSource?: QuestionSourcePort; packagePort?: PackagePort; activeExamPort?: ActiveExamPort; foreignLanguagePreferencePort?: ForeignLanguagePreferencePort; authPort?: AuthPort; authRuntime?: AccountRuntime }) {
   const [questions, setQuestions] = useState<Question[]>(() => questionSource ? [] : demoQuestions);
   const [questionsReady, setQuestionsReady] = useState(() => !questionSource);
   const [activeExam, setActiveExam] = useState<ActiveExamState | null>(null);
@@ -42,6 +44,9 @@ export function App({
   const [sessionsReady, setSessionsReady] = useState(false);
   const [records, setRecords] = useState<LocalRecord[]>([]);
   const [subject, setSubject] = useState('all');
+  const [foreignLanguage, setForeignLanguage] = useState<ForeignLanguage | null>(null);
+  const [languageReady, setLanguageReady] = useState(() => !questionSource);
+  const [languageError, setLanguageError] = useState<string | null>(null);
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [examsOpen, setExamsOpen] = useState(false);
   const [statsOpen, setStatsOpen] = useState(false);
@@ -103,15 +108,20 @@ export function App({
   }, [authRuntime, authUser]);
   const reloadQuestions = useCallback(async () => {
     if (!questionSource) return;
-    const [loaded, nextActiveExam] = await Promise.all([
+    const [loaded, nextActiveExam, savedLanguage] = await Promise.all([
       questionSource.load(),
       activeExamPort?.initialize() ?? Promise.resolve(null),
+      foreignLanguagePreferencePort.load(),
     ]);
     setQuestions(nextActiveExam && nextActiveExam.status !== 'active' ? [] : loaded);
     setActiveExam(nextActiveExam);
+    const available = new Set(loaded.map(({ language }) => language).filter((value): value is ForeignLanguage => value !== null));
+    setForeignLanguage(savedLanguage && available.has(savedLanguage) ? savedLanguage : null);
+    setLanguageError(null);
     setActiveIndex(0);
     setQuestionsReady(true);
-  }, [activeExamPort, questionSource]);
+    setLanguageReady(true);
+  }, [activeExamPort, foreignLanguagePreferencePort, questionSource]);
   useEffect(() => { void reloadQuestions(); }, [reloadQuestions]);
   useEffect(() => {
     let active = true;
@@ -141,11 +151,27 @@ export function App({
     return () => { window.removeEventListener('online', update); window.removeEventListener('offline', update); };
   }, [probeSession]);
 
-  const subjects = useMemo(() => [...new Set(questions.map(({ subjectId }) => subjectId))].sort(), [questions]);
-  const filtered = useMemo(() => questions.filter((question) =>
+  const availableLanguages = useMemo(() => [...new Set(
+    questions.map(({ language }) => language).filter((value): value is ForeignLanguage => value !== null),
+  )].sort(), [questions]);
+  const languageQuestions = useMemo(() => availableLanguages.length === 0
+    ? questions
+    : foreignLanguage === null
+      ? []
+      : questions.filter(({ language }) => language === null || language === foreignLanguage),
+  [availableLanguages.length, foreignLanguage, questions]);
+  const subjects = useMemo(() => [...new Set(languageQuestions.map(({ subjectId }) => subjectId))].sort(), [languageQuestions]);
+  const filtered = useMemo(() => languageQuestions.filter((question) =>
     subject === 'all' || question.subjectId === subject,
-  ), [questions, subject]);
-  useEffect(() => setActiveIndex(0), [subject]);
+  ), [languageQuestions, subject]);
+
+  const selectForeignLanguage = useCallback((language: ForeignLanguage) => {
+    setLanguageError(null);
+    void foreignLanguagePreferencePort.save(language).then(() => {
+      setForeignLanguage(language);
+      setActiveIndex(0);
+    }).catch(() => setLanguageError('Não foi possível salvar o idioma. Tente novamente.'));
+  }, [foreignLanguagePreferencePort]);
 
   const record = useCallback((event: ProgressEvent, outcome: LocalRecord['outcome']) => {
     setRecords((current) => [...current, { event, outcome }]);
@@ -256,18 +282,21 @@ export function App({
           <button className="filter-button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setExamsOpen(false); setFiltersOpen((open) => !open); }} aria-expanded={filtersOpen} aria-controls="filters">Filtros <span aria-hidden="true">⌄</span></button>
         </div>
         {filtersOpen && <section className="filters" id="filters" aria-label="Filtros de questões">
-        <label>Matéria<select value={subject} onChange={(event) => setSubject(event.target.value)}><option value="all">Todas</option>{subjects.map((value) => <option key={value}>{value.replaceAll('-', ' ')}</option>)}</select></label>
+        <label>Matéria<select value={subject} onChange={(event) => { setSubject(event.target.value); setActiveIndex(0); }}><option value="all">Todas</option>{subjects.map((value) => <option key={value}>{value.replaceAll('-', ' ')}</option>)}</select></label>
+        {availableLanguages.length > 0 && foreignLanguage !== null && <ForeignLanguageSelector compact available={availableLanguages} value={foreignLanguage} onChange={selectForeignLanguage} />}
       </section>}
       </header>
       {statsOpen && <StatsPanel stats={stats} onClose={() => setStatsOpen(false)} />}
       {authOpen && <AuthPanel user={authUser} initialMode={initialAuthMode} busy={authBusy} error={authError} message={authMessage} online={online} onClose={() => setAuthOpen(false)} onEmailLogin={emailLogin} onSignUp={signUp} onGoogle={googleLogin} onLogout={logout} onForgot={forgotPassword} onReset={resetPassword} onVerify={resendVerification} />}
       {examsOpen && packagePort && activeExamPort && <div id="exams-panel"><ExamsPanel packagePort={packagePort} activeExamPort={activeExamPort} online={online} onClose={() => setExamsOpen(false)} onContentChange={reloadQuestions} /></div>}
 
-      {sessionsReady && questionsReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} /> : sessionsReady && questionsReady && activeExam?.status === 'empty' ? (
+      {sessionsReady && questionsReady && languageReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} /> : sessionsReady && questionsReady && languageReady && activeExam?.status === 'empty' ? (
         <main className="empty-state" aria-label="Nenhuma prova baixada"><span aria-hidden="true">↓</span><h1>Baixe uma prova para começar a estudar.</h1><p>Escolha uma edição e ela ficará disponível também offline.</p>{packagePort && activeExamPort && <button className="primary-button" type="button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen(false); setExamsOpen(true); }}>Ver provas disponíveis</button>}</main>
-      ) : sessionsReady && questionsReady && activeExam?.status === 'selection-required' ? (
+      ) : sessionsReady && questionsReady && languageReady && activeExam?.status === 'selection-required' ? (
         <main className="empty-state" aria-label="Escolha de prova necessária"><span aria-hidden="true">→</span><h1>Escolha uma prova baixada para continuar estudando.</h1><p>Nenhuma edição será combinada ou escolhida sem sua confirmação.</p>{packagePort && activeExamPort && <button className="primary-button" type="button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen(false); setExamsOpen(true); }}>Escolher prova</button>}</main>
-      ) : sessionsReady && questionsReady ? (
+      ) : sessionsReady && questionsReady && languageReady && availableLanguages.length > 0 && foreignLanguage === null ? (
+        <main className="empty-state language-required" aria-labelledby="language-required-title"><span aria-hidden="true">文</span><h1 id="language-required-title">Escolha o idioma estrangeiro para estudar.</h1><ForeignLanguageSelector available={availableLanguages} value={foreignLanguage} onChange={selectForeignLanguage} />{languageError && <p className="language-error" role="alert">{languageError}</p>}</main>
+      ) : sessionsReady && questionsReady && languageReady ? (
         <main className="empty-state"><span>∅</span><h1>Nenhuma questão por aqui</h1><p>Altere os filtros para continuar estudando.</p></main>
       ) : <main className="empty-state" aria-label="Carregando questões"><p>Carregando questões…</p></main>}
       <div className="swipe-hint" aria-hidden="true">Deslize para a próxima <span>↓</span></div>

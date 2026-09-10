@@ -1,5 +1,7 @@
 import { z } from 'zod';
 
+import { foreignLanguageSchema, type ForeignLanguage } from '../contracts/question';
+
 const nullableContentSchema = z
   .string()
   .nullable()
@@ -16,7 +18,7 @@ export const enemApiQuestionSchema = z.object({
   title: z.string().trim().min(1),
   index: z.number().int().positive(),
   discipline: z.string().trim().min(1),
-  language: z.string().trim().min(1).nullable().optional(),
+  language: foreignLanguageSchema.nullable().optional(),
   year: z.number().int().min(1998).max(3000),
   context: nullableContentSchema,
   files: z.array(z.string().trim().min(1)),
@@ -119,7 +121,11 @@ export class EnemApiClient {
   async getQuestion(year: number, index: number, language?: string | null): Promise<EnemApiQuestion> {
     const url = new URL(`${this.#baseUrl}/exams/${year}/questions/${index}`);
     if (language) url.searchParams.set('language', language);
-    return enemApiQuestionSchema.parse(await this.#request(url));
+    const question = enemApiQuestionSchema.parse(await this.#request(url));
+    if (question.year !== year || question.index !== index || (language && question.language !== language)) {
+      throw new Error(`enem.dev returned a question that does not match ${year}/${index}${language ? `/${language}` : ''}`);
+    }
+    return question;
   }
 
   async listQuestions(year: number, pageSize = 50): Promise<EnemApiQuestion[]> {
@@ -166,5 +172,21 @@ export class EnemApiClient {
     }
 
     return questions;
+  }
+
+  async listQuestionsWithLanguageVariants(year: number, pageSize = 50): Promise<EnemApiQuestion[]> {
+    const listed = await this.listQuestions(year, pageSize);
+    const languageIndexes = [...new Set(
+      listed.filter(({ language }) => language !== null && language !== undefined).map(({ index }) => index),
+    )].sort((left, right) => left - right);
+    const languages: readonly ForeignLanguage[] = foreignLanguageSchema.options;
+    const variants: EnemApiQuestion[] = [];
+
+    for (const index of languageIndexes) {
+      for (const language of languages) variants.push(await this.getQuestion(year, index, language));
+    }
+
+    const common = listed.filter(({ language }) => language === null || language === undefined);
+    return [...variants, ...common];
   }
 }
