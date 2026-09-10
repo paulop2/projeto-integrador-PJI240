@@ -129,6 +129,21 @@ npm run test:e2e
 
 Os testes de navegador usam o build de produção e um viewport mobile. Integrações de login e sincronização usam fakes locais, portanto a suíte padrão não depende de credenciais Google, Resend ou Cloudflare.
 
+## Roadmap
+
+O trabalho é organizado em épicos no [Maratona — Roadmap](https://github.com/users/paulop2/projects/5), cada um associado a uma milestone. Cada épico é uma issue-pai cujas entregas são sub-issues executáveis no GitHub.
+
+| Épico | Milestone | Prazo | Status (Project) | Progresso |
+| --- | --- | --- | --- | --- |
+| [#1 — Catálogo, download e seleção de múltiplas provas](https://github.com/paulop2/projeto-integrador-PJI240/issues/1) | M1 — Catálogo e UX | 20/09/2026 | Ready | 10/10 sub-issues concluídas |
+| [#2 — Importação e normalização de novas bancas](https://github.com/paulop2/projeto-integrador-PJI240/issues/2) | M2 — Relatório Parcial | 30/09/2026 | Backlog | Não decomposto |
+| [#3 — Experiência de estudo e repetição espaçada](https://github.com/paulop2/projeto-integrador-PJI240/issues/3) | M3 — Construção Final | 18/10/2026 | Backlog | Não decomposto |
+| [#4 — Dashboard, estatísticas e gamificação](https://github.com/paulop2/projeto-integrador-PJI240/issues/4) | M3 — Construção Final | 18/10/2026 | Backlog | Não decomposto |
+| [#5 — Produção, autenticação e observabilidade](https://github.com/paulop2/projeto-integrador-PJI240/issues/5) | M4 — Testes e Vídeo | 01/11/2026 | Backlog | Não decomposto |
+| [#6 — Entregas acadêmicas e validação com estudantes](https://github.com/paulop2/projeto-integrador-PJI240/issues/6) | M5 — Entrega Final | 06/11/2026 | In Progress | Não decomposto |
+
+O épico #1 teve todas as sub-issues concluídas e aguarda o fechamento formal no Project. Os épicos #2 a #6 ainda precisam ser decompostos em sub-issues antes de iniciar a execução.
+
 ## Próximos passos
 
 Antes de disponibilizar o MVP publicamente:
