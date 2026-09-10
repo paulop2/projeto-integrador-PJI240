@@ -1,0 +1,7 @@
+interface:
+  display_name: "Implement GitHub Issue"
+  short_description: "Implement an issue through a verified pull request"
+  default_prompt: "Use $implement-github-issue to implement the specified GitHub issue in an isolated worktree."
+
+policy:
+  allow_implicit_invocation: true
