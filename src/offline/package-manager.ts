@@ -1,12 +1,14 @@
 import {
   catalogManifestSchema,
   questionPackageSchema,
+  type ActiveExamSelection,
   type CatalogManifest,
   type DownloadedPackage,
   type PackageDescriptor,
   type Question,
 } from '../contracts';
 import type { OfflineStorage, PackageCache, PackageListing } from './types';
+import type { ActiveExamState } from '../app/ports';
 import { requestPersistentStorage } from './capacity';
 import { invokeFetch, type Fetcher } from './fetcher';
 
@@ -35,6 +37,13 @@ export class CatalogError extends Error {
   constructor(message: string) {
     super(message);
     this.name = 'CatalogError';
+  }
+}
+
+export class ActiveExamError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.name = 'ActiveExamError';
   }
 }
 
@@ -135,15 +144,82 @@ export class OfflinePackageManager {
     const download: DownloadedPackage = { packageId, version: descriptor.version, sha256: descriptor.sha256, byteSize: descriptor.byteSize, downloadedAt: timestamp, lastVerifiedAt: timestamp };
     await this.storage.putDownload(download);
     if (previous) await this.cache.deletePackage(oldDescriptor(descriptor, previous));
+    await this.restoreActiveExam();
     return download;
   }
 
   async remove(packageId: string) {
+    const preference = await this.storage.getActiveExamPreference();
     const catalog = await this.getCatalog(false);
     const descriptor = catalog?.packages.find(({ id }) => id === packageId);
     const download = await this.storage.getDownload(packageId);
     if (descriptor && download) await this.cache.deletePackage(oldDescriptor(descriptor, download));
     await this.storage.deleteDownload(packageId);
+    if (!preference?.selectionRequired && preference?.selection.packageId === packageId) {
+      const eligible = await this.eligibleActiveExams();
+      if (eligible.length === 0) await this.storage.deleteActiveExamPreference();
+      else await this.storage.putActiveExamPreference({ selectionRequired: true, selection: null });
+    }
+  }
+
+  private async readInstalledPackage(descriptor: PackageDescriptor, download: DownloadedPackage) {
+    try {
+      const response = await this.cache.getPackage(oldDescriptor(descriptor, download));
+      if (!response) return null;
+      const bytes = await response.arrayBuffer();
+      if (bytes.byteLength !== download.byteSize || await digest(bytes) !== download.sha256) return null;
+      const parsed = questionPackageSchema.safeParse(JSON.parse(new TextDecoder().decode(bytes)));
+      if (!parsed.success) return null;
+      const value = parsed.data;
+      if (value.packageId !== descriptor.id || value.institutionId !== descriptor.institutionId || value.examId !== descriptor.examId || value.editionId !== descriptor.editionId) return null;
+      await this.storage.putDownload({ ...download, lastVerifiedAt: this.now() });
+      return value;
+    } catch {
+      return null;
+    }
+  }
+
+  private async eligibleActiveExams(): Promise<ActiveExamSelection[]> {
+    const catalog = await this.getCatalog(false);
+    if (!catalog) return [];
+    const downloads = new Map((await this.storage.listDownloads()).map((item) => [item.packageId, item]));
+    const eligible: ActiveExamSelection[] = [];
+    for (const current of catalog.packages) {
+      const download = downloads.get(current.id);
+      if (!download) continue;
+      if (await this.readInstalledPackage(current, download)) eligible.push({ packageId: current.id, editionId: current.editionId });
+    }
+    return eligible;
+  }
+
+  async restoreActiveExam(): Promise<ActiveExamState> {
+    const preference = await this.storage.getActiveExamPreference();
+    const eligible = await this.eligibleActiveExams();
+    if (preference && !preference.selectionRequired) {
+      const selection = eligible.find(({ packageId, editionId }) =>
+        packageId === preference.selection.packageId && editionId === preference.selection.editionId);
+      if (selection) return { status: 'active', ...selection };
+    }
+    if (preference?.selectionRequired && eligible.length > 0) return { status: 'selection-required' };
+    if (eligible.length === 0) {
+      await this.storage.deleteActiveExamPreference();
+      return { status: 'empty' };
+    }
+    if (eligible.length === 1) {
+      const selection = eligible[0]!;
+      await this.storage.putActiveExamPreference({ selectionRequired: false, selection });
+      return { status: 'active', ...selection };
+    }
+    await this.storage.putActiveExamPreference({ selectionRequired: true, selection: null });
+    return { status: 'selection-required' };
+  }
+
+  async selectActiveExam(packageId: string, editionId: string): Promise<ActiveExamState> {
+    const selection = (await this.eligibleActiveExams()).find((candidate) =>
+      candidate.packageId === packageId && candidate.editionId === editionId);
+    if (!selection) throw new ActiveExamError(`Package ${packageId} cannot be selected because it is not installed and intact`);
+    await this.storage.putActiveExamPreference({ selectionRequired: false, selection });
+    return { status: 'active', ...selection };
   }
 
   async loadQuestions(): Promise<Question[]> {
@@ -154,16 +230,8 @@ export class OfflinePackageManager {
     for (const current of catalog.packages) {
       const download = downloads.get(current.id);
       if (!download) continue;
-      const descriptor = oldDescriptor(current, download);
-      const response = await this.cache.getPackage(descriptor);
-      if (!response) continue;
-      const bytes = await response.arrayBuffer();
-      if (bytes.byteLength !== download.byteSize || await digest(bytes) !== download.sha256) continue;
-      const parsed = questionPackageSchema.safeParse(JSON.parse(new TextDecoder().decode(bytes)));
-      if (parsed.success) {
-        questions.push(...parsed.data.questions);
-        await this.storage.putDownload({ ...download, lastVerifiedAt: this.now() });
-      }
+      const installed = await this.readInstalledPackage(current, download);
+      if (installed) questions.push(...installed.questions);
     }
     return questions;
   }
