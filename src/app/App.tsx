@@ -4,7 +4,8 @@ import { QUESTION_TIME_LIMIT_MS } from '../contracts';
 import type { ProgressEvent, Question } from '../contracts';
 import { offlineRuntime } from '../offline/runtime';
 import { demoQuestions } from './demoQuestions';
-import type { PackagePort, PackageSummary, ProgressPort, QuestionSourcePort, StudySessionPort } from './ports';
+import { ExamsPanel } from './ExamsPanel';
+import type { ActiveExamPort, PackagePort, ProgressPort, QuestionSourcePort, StudySessionPort } from './ports';
 import { calculateStats, localDay, makeId, outcomeFor, type LocalRecord } from './progress';
 import { QuestionFeed } from './QuestionFeed';
 import type { QuestionSession } from './QuestionCard';
@@ -29,17 +30,18 @@ export function App({
   sessionPort = offlineRuntime.sessionPort,
   questionSource = offlineRuntime.questionSource,
   packagePort = offlineRuntime.packagePort,
+  activeExamPort = offlineRuntime.activeExamPort,
   authPort = httpAuthPort,
   authRuntime = accountRuntime,
-}: { progressPort?: ProgressPort; sessionPort?: StudySessionPort; questionSource?: QuestionSourcePort; packagePort?: PackagePort; authPort?: AuthPort; authRuntime?: AccountRuntime }) {
+}: { progressPort?: ProgressPort; sessionPort?: StudySessionPort; questionSource?: QuestionSourcePort; packagePort?: PackagePort; activeExamPort?: ActiveExamPort; authPort?: AuthPort; authRuntime?: AccountRuntime }) {
   const [questions, setQuestions] = useState<Question[]>(demoQuestions);
   const [activeIndex, setActiveIndex] = useState(0);
   const [sessions, setSessions] = useState<Record<string, QuestionSession>>({});
   const [sessionsReady, setSessionsReady] = useState(false);
   const [records, setRecords] = useState<LocalRecord[]>([]);
   const [subject, setSubject] = useState('all');
-  const [exam, setExam] = useState('all');
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [examsOpen, setExamsOpen] = useState(false);
   const [statsOpen, setStatsOpen] = useState(false);
   const resetToken = useMemo(() => new URLSearchParams(window.location.search).get('token'), []);
   const initialAuthMode: AuthMode = resetToken ? 'reset' : 'login';
@@ -49,9 +51,6 @@ export function App({
   const [authError, setAuthError] = useState<string | null>(null);
   const [authMessage, setAuthMessage] = useState<string | null>(() => new URLSearchParams(window.location.search).has('verified') ? 'E-mail verificado. Você já pode entrar.' : null);
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'synced' | 'pending'>('idle');
-  const [packages, setPackages] = useState<PackageSummary[]>([]);
-  const [packageBusy, setPackageBusy] = useState<string | null>(null);
-  const [packageError, setPackageError] = useState<string | null>(null);
   const [online, setOnline] = useState(() => navigator.onLine);
   const viewedKeys = useRef(new Set<string>());
   const terminalQuestions = useRef(new Set<string>());
@@ -119,10 +118,6 @@ export function App({
     });
     return () => { active = false; };
   }, [progressPort, questions]);
-  useEffect(() => {
-    if (!packagePort) return;
-    void packagePort.list().then(setPackages).catch((error: unknown) => setPackageError(error instanceof Error ? error.message : String(error)));
-  }, [packagePort]);
   useEffect(() => { void sessionPort.load().then((stored) => {
     setSessions(stored);
     terminalQuestions.current = new Set(Object.entries(stored).filter(([, session]) => session.outcome !== null).map(([id]) => id));
@@ -139,11 +134,10 @@ export function App({
   }, [probeSession]);
 
   const subjects = useMemo(() => [...new Set(questions.map(({ subjectId }) => subjectId))].sort(), [questions]);
-  const exams = useMemo(() => [...new Set(questions.map(({ examId }) => examId))].sort(), [questions]);
   const filtered = useMemo(() => questions.filter((question) =>
-    (subject === 'all' || question.subjectId === subject) && (exam === 'all' || question.examId === exam),
-  ), [exam, questions, subject]);
-  useEffect(() => setActiveIndex(0), [exam, subject]);
+    subject === 'all' || question.subjectId === subject,
+  ), [questions, subject]);
+  useEffect(() => setActiveIndex(0), [subject]);
 
   const record = useCallback((event: ProgressEvent, outcome: LocalRecord['outcome']) => {
     setRecords((current) => [...current, { event, outcome }]);
@@ -240,19 +234,6 @@ export function App({
     } finally { loggingOut.current = false; }
   }), [authAction, authPort, authRuntime]);
 
-  const changePackage = useCallback(async (item: PackageSummary) => {
-    if (!packagePort) return;
-    setPackageBusy(item.id); setPackageError(null);
-    try {
-      if (item.state === 'downloaded') await packagePort.remove(item.id);
-      else await packagePort.install(item.id);
-      setPackages(await packagePort.list());
-      await reloadQuestions();
-    } catch (error) {
-      setPackageError(error instanceof Error ? error.message : String(error));
-    } finally { setPackageBusy(null); }
-  }, [packagePort, reloadQuestions]);
-
   return (
     <div className="app-shell" id="top">
       <header className="topbar">
@@ -261,23 +242,18 @@ export function App({
         <div className="topbar-actions">
           <span className={`connection ${online ? '' : 'is-offline'}`} role="status" aria-label={online ? 'Conectado à internet' : 'Sem conexão; estudando offline'}><i /><span>{online ? 'Online' : 'Offline'}</span></span>
           {authUser && <span className="sync-status" role="status">{syncStatus === 'syncing' ? 'Sincronizando…' : syncStatus === 'pending' ? 'Sync pendente' : syncStatus === 'synced' ? 'Sincronizado' : ''}</span>}
-          <button className="icon-button" onClick={() => { setAuthOpen(false); setFiltersOpen(false); setStatsOpen((open) => !open); }} aria-label="Ver estatísticas" aria-expanded={statsOpen}>↗</button>
-          <button className="account-button" onClick={() => { setStatsOpen(false); setFiltersOpen(false); setAuthOpen(true); }} aria-label={authUser ? `Conta de ${authUser.name}` : 'Entrar ou criar conta'}>{authUser ? authUser.name.slice(0, 1).toUpperCase() : 'Entrar'}</button>
-          <button className="filter-button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen((open) => !open); }} aria-expanded={filtersOpen} aria-controls="filters">Filtros <span aria-hidden="true">⌄</span></button>
+          <button className="icon-button" onClick={() => { setAuthOpen(false); setExamsOpen(false); setFiltersOpen(false); setStatsOpen((open) => !open); }} aria-label="Ver estatísticas" aria-expanded={statsOpen}>↗</button>
+          <button className="account-button" onClick={() => { setStatsOpen(false); setExamsOpen(false); setFiltersOpen(false); setAuthOpen(true); }} aria-label={authUser ? `Conta de ${authUser.name}` : 'Entrar ou criar conta'}>{authUser ? authUser.name.slice(0, 1).toUpperCase() : 'Entrar'}</button>
+          <button className="exams-button" disabled={!packagePort || !activeExamPort} onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen(false); setExamsOpen((open) => !open); }} aria-expanded={examsOpen} aria-controls="exams-panel">Provas</button>
+          <button className="filter-button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setExamsOpen(false); setFiltersOpen((open) => !open); }} aria-expanded={filtersOpen} aria-controls="filters">Filtros <span aria-hidden="true">⌄</span></button>
         </div>
         {filtersOpen && <section className="filters" id="filters" aria-label="Filtros de questões">
-        <label>Prova<select value={exam} onChange={(event) => setExam(event.target.value)}><option value="all">Todas</option>{exams.map((value) => <option key={value}>{value}</option>)}</select></label>
         <label>Matéria<select value={subject} onChange={(event) => setSubject(event.target.value)}><option value="all">Todas</option>{subjects.map((value) => <option key={value}>{value.replaceAll('-', ' ')}</option>)}</select></label>
-        {packages.length > 0 && <div aria-label="Provas offline">
-          {packages.map((item) => <button key={item.id} type="button" disabled={packageBusy === item.id} onClick={() => void changePackage(item)}>
-            {item.label}: {packageBusy === item.id ? 'Aguarde…' : item.state === 'downloaded' ? 'Remover download' : item.state === 'update-available' ? 'Atualizar' : 'Baixar'}
-          </button>)}
-        </div>}
-        {packageError && <p role="alert">Não foi possível gerenciar a prova offline: {packageError}</p>}
       </section>}
       </header>
       {statsOpen && <StatsPanel stats={stats} onClose={() => setStatsOpen(false)} />}
       {authOpen && <AuthPanel user={authUser} initialMode={initialAuthMode} busy={authBusy} error={authError} message={authMessage} online={online} onClose={() => setAuthOpen(false)} onEmailLogin={emailLogin} onSignUp={signUp} onGoogle={googleLogin} onLogout={logout} onForgot={forgotPassword} onReset={resetPassword} onVerify={resendVerification} />}
+      {examsOpen && packagePort && activeExamPort && <div id="exams-panel"><ExamsPanel packagePort={packagePort} activeExamPort={activeExamPort} online={online} onClose={() => setExamsOpen(false)} onContentChange={reloadQuestions} /></div>}
 
       {sessionsReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} /> : sessionsReady ? (
         <main className="empty-state"><span>∅</span><h1>Nenhuma questão por aqui</h1><p>Altere os filtros para continuar estudando.</p></main>

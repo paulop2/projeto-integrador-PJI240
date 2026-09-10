@@ -8,12 +8,13 @@ async function mockQuestionAssets(context: BrowserContext) {
 }
 
 async function installEditionFromCleanCatalog(page: Page) {
-  await page.getByRole('button', { name: /Filtros/ }).click();
-  const download = page.getByRole('button', { name: /ENEM 2023: Baixar/i });
+  await page.getByRole('button', { name: 'Provas' }).click();
+  const download = page.getByRole('button', { name: /Baixar ENEM 2023/i });
   await expect(download).toBeVisible();
   await download.click();
-  const remove = page.getByRole('button', { name: /ENEM 2023: Remover download/i });
+  const remove = page.getByRole('button', { name: /Remover ENEM 2023 do dispositivo/i });
   await expect(remove).toBeVisible({ timeout: 30_000 });
+  await page.getByRole('button', { name: 'Fechar provas' }).click();
   await expect(page.getByRole('region', { name: /Questão 1 de 177/ })).toBeVisible();
 }
 
@@ -31,6 +32,35 @@ async function readActiveExamPreference(page: Page) {
     });
   });
 }
+
+test('área Provas lista duas edições no mobile e funciona por teclado sem violações graves', async ({ page }) => {
+  await page.goto('/');
+  const trigger = page.getByRole('button', { name: 'Provas' });
+  await trigger.click();
+
+  const dialog = page.getByRole('dialog', { name: 'Provas' });
+  await expect(dialog).toBeVisible();
+  await expect(dialog.getByRole('heading', { name: 'ENEM 2022' })).toBeVisible();
+  await expect(dialog.getByRole('heading', { name: 'ENEM 2023' })).toBeVisible();
+  await expect(dialog.getByText('180')).toBeVisible();
+  await expect(dialog.getByText('177')).toBeVisible();
+  await expect(dialog.getByRole('button', { name: 'Baixar ENEM 2022' })).toBeVisible();
+  await expect(dialog.getByRole('button', { name: 'Baixar ENEM 2023' })).toBeVisible();
+  await expect(dialog.getByRole('button', { name: /Estudar/ })).toHaveCount(0);
+  await expect(dialog.getByRole('button', { name: 'Fechar provas' })).toBeFocused();
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+
+  const results = await new AxeBuilder({ page }).exclude('.swipe-hint').analyze();
+  expect(results.violations.filter(({ impact }) => impact === 'critical' || impact === 'serious')).toEqual([]);
+
+  await page.keyboard.press('Escape');
+  await expect(dialog).not.toBeVisible();
+  await expect(trigger).toBeFocused();
+  await page.getByRole('button', { name: /Filtros/ }).click();
+  const filters = page.getByRole('region', { name: 'Filtros de questões' });
+  await expect(filters.getByLabel('Matéria')).toBeVisible();
+  await expect(filters.getByLabel('Prova')).toHaveCount(0);
+});
 
 test('responde por teclado, persiste no reload e não tem violações graves de acessibilidade', async ({ page }) => {
   await page.goto('/');
@@ -116,9 +146,10 @@ test('baixa pelo catálogo limpo, usa após reload offline e remove a edição',
     selection: { packageId: 'enem-2023', editionId: 'enem-2023' },
   });
 
-  await page.getByRole('button', { name: /Filtros/ }).click();
-  await page.getByRole('button', { name: /ENEM 2023: Remover download/i }).click();
-  await expect(page.getByRole('button', { name: /ENEM 2023: Baixar/i })).toBeVisible();
+  await page.getByRole('button', { name: 'Provas' }).click();
+  await page.getByRole('button', { name: /Remover ENEM 2023 do dispositivo/i }).click();
+  await page.getByRole('button', { name: 'Confirmar remoção' }).click();
+  await expect(page.getByRole('button', { name: /Baixar ENEM 2023/i })).toBeVisible();
   await page.reload();
   await expect(page.getByText(/Uma ciclovia tem 12 km/).first()).toBeVisible();
   await context.setOffline(false);
@@ -218,8 +249,8 @@ test('sincroniza progresso anônimo após login/reconexão, replica no segundo d
   await page.getByRole('button', { name: 'Sair' }).click();
   await expect(page.getByText(/As provas baixadas continuam disponíveis/)).toBeVisible();
   await page.getByRole('button', { name: 'Fechar conta' }).click();
-  await page.getByRole('button', { name: /Filtros/ }).click();
-  await expect(page.getByRole('button', { name: /ENEM 2023: Remover download/i })).toBeVisible();
+  await page.getByRole('button', { name: 'Provas' }).click();
+  await expect(page.getByRole('button', { name: /Remover ENEM 2023 do dispositivo/i })).toBeVisible();
   expect(await page.evaluate(async () => {
     const database = await new Promise<IDBDatabase>((resolve, reject) => {
       const opening = indexedDB.open('maratona-offline', 1);
