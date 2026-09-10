@@ -78,7 +78,7 @@ describe('multi-exam catalog, cache and persistence', () => {
     expect(questions.every(({ editionId }) => editionId === 'enem-2023')).toBe(true);
 
     await reloaded.selectActiveExam('enem-2022-completo', 'enem-2022');
-    expect((await reloaded.loadQuestions()).every(({ editionId }) => editionId === 'enem-2022')).toBe(true);
+    expect((await reloaded.loadQuestions()).map(({ editionId }) => editionId)).toEqual(['enem-2022', 'enem-2022']);
 
     const secondReload = new OfflinePackageManager(world.storage, world.cache, offlineFetcher);
     await expect(secondReload.restoreActiveExam()).resolves.toEqual({
@@ -132,8 +132,9 @@ describe('multi-exam catalog, cache and persistence', () => {
 
     const updatedBody = world.bodies.get('enem-2022-completo');
     if (!updatedBody) throw new Error('missing updated body');
-    world.bodies.set('enem-2022-completo', `${updatedBody}corrompida`);
-    await expect(world.manager.install('enem-2022-completo')).rejects.toThrow(/byte size|integrity/);
+    // Same byte length, different hash: this must fail the SHA-256 integrity check, not the byte-size check.
+    world.bodies.set('enem-2022-completo', updatedBody.replace('Resposta A', 'Resposta Z'));
+    await expect(world.manager.install('enem-2022-completo')).rejects.toThrow(/integrity/);
     expect((await world.storage.getDownload('enem-2022-completo'))?.version).toBe(1);
     expect((await world.manager.loadQuestions())[0]?.context).toContain('Matemática 2022');
     expect(await world.storage.getActiveExamPreference()).toEqual(previousPreference);

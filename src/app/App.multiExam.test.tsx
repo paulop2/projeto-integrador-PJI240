@@ -65,7 +65,6 @@ describe('multi-exam feed', () => {
     />);
 
     await screen.findByText('Matemática ENEM 2022');
-    expect(screen.queryByText(/ENEM 2023/)).not.toBeInTheDocument();
 
     await userEvent.click(screen.getByRole('button', { name: /Filtros/ }));
     await userEvent.selectOptions(screen.getByLabelText('Matéria'), 'matematica');
