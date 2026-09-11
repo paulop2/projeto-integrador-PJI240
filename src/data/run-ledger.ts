@@ -17,6 +17,13 @@ export interface StageCache {
   set(cacheKey: Sha256, outputs: readonly ArtifactRef[]): Promise<void>;
 }
 
+/**
+ * Deterministic ordering by UTF-16 code units. `localeCompare` depends on the host
+ * locale, which would make cache keys and `runId` vary across environments.
+ */
+const compareCodeUnits = (left: string, right: string): number =>
+  left < right ? -1 : left > right ? 1 : 0;
+
 export class MemoryStageCache implements StageCache {
   private readonly entries = new Map<string, readonly ArtifactRef[]>();
 
@@ -25,7 +32,8 @@ export class MemoryStageCache implements StageCache {
   }
 
   async set(cacheKey: Sha256, outputs: readonly ArtifactRef[]): Promise<void> {
-    if (!this.entries.has(cacheKey)) this.entries.set(cacheKey, [...outputs]);
+    // Last write wins so a re-execution can replace an entry whose outputs are stale.
+    this.entries.set(cacheKey, [...outputs]);
   }
 }
 
@@ -56,6 +64,7 @@ export class RunLedgerRecorder {
   private readonly config: Readonly<Record<string, string | number | boolean | null>>;
   private readonly inputs: readonly ArtifactRef[];
   private readonly stages: LedgerStage[] = [];
+  private readonly stageIds = new Set<string>();
 
   constructor(options: RunLedgerOptions) {
     if (options.toolchain.length === 0) {
@@ -69,9 +78,11 @@ export class RunLedgerRecorder {
   }
 
   async stage(spec: RunLedgerStage): Promise<StageResult> {
-    if (this.stages.some(({ id }) => id === spec.id)) {
+    // Reserve the id before the first await so concurrent calls cannot both record it.
+    if (this.stageIds.has(spec.id)) {
       throw new Error(`stage "${spec.id}" was already recorded in this run`);
     }
+    this.stageIds.add(spec.id);
 
     const inputs = spec.inputs ?? this.inputs;
     const cacheKey = await this.stageCacheKey(spec, inputs);
@@ -133,7 +144,7 @@ export class RunLedgerRecorder {
 
   private sortedToolchain(): readonly ToolchainComponent[] {
     return [...this.toolchain].sort((left, right) =>
-      `${left.name}@${left.version}`.localeCompare(`${right.name}@${right.version}`),
+      compareCodeUnits(`${left.name}@${left.version}`, `${right.name}@${right.version}`),
     );
   }
 
@@ -142,7 +153,7 @@ export class RunLedgerRecorder {
    * ledger is an ordered contract, so it is emitted by stage id instead.
    */
   private sortedStages(): readonly LedgerStage[] {
-    return [...this.stages].sort((left, right) => left.id.localeCompare(right.id));
+    return [...this.stages].sort((left, right) => compareCodeUnits(left.id, right.id));
   }
 
   private async outputsAvailable(outputs: readonly ArtifactRef[]): Promise<boolean> {
@@ -160,7 +171,7 @@ export class RunLedgerRecorder {
         outputs.push(ref);
       }
     }
-    return outputs.sort((left, right) => left.sha256.localeCompare(right.sha256));
+    return outputs.sort((left, right) => compareCodeUnits(left.sha256, right.sha256));
   }
 
   private async stageCacheKey(

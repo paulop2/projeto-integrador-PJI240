@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { randomUUID } from 'node:crypto';
-import { mkdir, readFile, rename, stat, writeFile } from 'node:fs/promises';
+import { link, mkdir, readFile, rename, rm, stat, writeFile } from 'node:fs/promises';
 import { dirname, resolve, sep } from 'node:path';
 
 import type { ArtifactRef, Sha256 } from '../src/contracts/ingestion';
@@ -10,9 +10,11 @@ import type { StageCache } from '../src/data/run-ledger';
 /**
  * Filesystem adapters for the ingestion artifact store and stage cache.
  *
- * Artifacts are written once with the exclusive `wx` flag, so an existing file is
- * never overwritten; a repeated write of the same bytes only verifies integrity.
- * The stage cache is a JSON index keyed by cache key and is written atomically.
+ * Artifacts are written to a unique temporary file and published with a hard link,
+ * which fails with `EEXIST` if the target already exists. The content address only
+ * appears after the bytes are fully written, so concurrent writers of the same bytes
+ * never observe a partially written artifact. The stage cache is a JSON index keyed
+ * by cache key and is written atomically.
  */
 
 export interface FileArtifactStorage extends ArtifactStorage {
@@ -59,7 +61,14 @@ export const createFileArtifactStorage = (root: string): FileArtifactStorage => 
     async write(uri, bytes) {
       const path = resolveUri(uri);
       await mkdir(dirname(path), { recursive: true });
-      await writeFile(path, bytes, { flag: 'wx' });
+      temporaryCounter += 1;
+      const temporary = `${path}.tmp-${process.pid}-${temporaryCounter}-${randomUUID()}`;
+      try {
+        await writeFile(temporary, bytes, { flag: 'wx' });
+        await link(temporary, path);
+      } finally {
+        await rm(temporary, { force: true });
+      }
     },
   };
 };
@@ -109,7 +118,8 @@ export const createFileStageCache = (indexPath: string): StageCache => {
     async set(cacheKey: Sha256, outputs: readonly ArtifactRef[]) {
       await withWriteLock(path, async () => {
         const index = await readIndex(path);
-        if (index[cacheKey]) return;
+        // Last write wins so a re-execution can replace an entry whose outputs are
+        // stale or missing; the artifacts themselves are still never overwritten.
         index[cacheKey] = [...outputs];
         await mkdir(dirname(path), { recursive: true });
         temporaryCounter += 1;

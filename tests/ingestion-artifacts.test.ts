@@ -338,7 +338,7 @@ describe('filesystem artifact storage', () => {
     }
   });
 
-  it('keeps the first stage-cache entry instead of overwriting it', async () => {
+  it('replaces a stage-cache entry with the most recent outputs', async () => {
     const root = await mkdtemp(join(tmpdir(), 'stage-cache-'));
     try {
       const cache = createFileStageCache(join(root, 'cache.json'));
@@ -346,7 +346,7 @@ describe('filesystem artifact storage', () => {
       const cacheKey = await sha256Text('cache');
       await cache.set(cacheKey, [artifact]);
       await cache.set(cacheKey, []);
-      expect(await cache.get(cacheKey)).toEqual([artifact]);
+      expect(await cache.get(cacheKey)).toEqual([]);
     } finally {
       await rm(root, { recursive: true, force: true });
     }
@@ -421,6 +421,99 @@ describe('filesystem artifact storage', () => {
       expect(second.executions.count).toBe(1);
       expect(second.stage.outputs).toEqual(first.stage.outputs);
       expect(await store.has(output.sha256)).toBe(true);
+    } finally {
+      await rm(root, { recursive: true, force: true });
+    }
+  });
+
+  it('replaces an obsolete cache entry after a missing output is re-executed', async () => {
+    const root = await mkdtemp(join(tmpdir(), 'stage-cache-replace-'));
+    try {
+      const storage = createFileArtifactStorage(root);
+      const store = new ArtifactStore(storage);
+      const cache = createFileStageCache(join(root, 'cache.json'));
+      const toolchain = [{ name: 'bluex-bootstrap', version: '1.0.0' }];
+      let body = '{"version":1}\n';
+
+      const runStage = () => {
+        const recorder = new RunLedgerRecorder({ store, cache, toolchain });
+        return recorder.stage({
+          id: 'normalize',
+          revision: '1',
+          execute: async () => [
+            await store.put({
+              kind: 'question-package',
+              mediaType: 'application/json',
+              bytes: encode(body),
+            }),
+          ],
+        });
+      };
+
+      const first = await runStage();
+      expect(first.disposition).toBe('executed');
+      const firstRef = first.outputs[0]!;
+
+      await rm(join(root, firstRef.uri), { force: true });
+
+      body = '{"version":2}\n';
+      const second = await runStage();
+      expect(second.disposition).toBe('executed');
+      const secondRef = second.outputs[0]!;
+      expect(secondRef.sha256).not.toBe(firstRef.sha256);
+      expect(await store.has(secondRef.sha256)).toBe(true);
+
+      const third = await runStage();
+      expect(third.disposition).toBe('reused');
+      expect(third.outputs).toEqual([secondRef]);
+    } finally {
+      await rm(root, { recursive: true, force: true });
+    }
+  });
+
+  it('stores identical bytes concurrently without spurious conflicts', async () => {
+    const root = await mkdtemp(join(tmpdir(), 'artifact-store-concurrent-'));
+    try {
+      const storage = createFileArtifactStorage(root);
+      const store = new ArtifactStore(storage);
+
+      for (let round = 0; round < 30; round += 1) {
+        const bytes = new Uint8Array(2 * 1024 * 1024);
+        for (let index = 0; index < bytes.length; index += 1) {
+          bytes[index] = (index + round) % 251;
+        }
+
+        const refs = await Promise.all(
+          Array.from({ length: 8 }, () =>
+            store.put({ kind: 'source-snapshot', mediaType: 'application/zip', bytes }),
+          ),
+        );
+        for (const ref of refs) {
+          expect(ref).toEqual(refs[0]);
+        }
+      }
+    } finally {
+      await rm(root, { recursive: true, force: true });
+    }
+  }, 60_000);
+
+  it('still rejects divergent bytes at an existing content address', async () => {
+    const root = await mkdtemp(join(tmpdir(), 'artifact-store-conflict-'));
+    try {
+      const storage = createFileArtifactStorage(root);
+      const store = new ArtifactStore(storage);
+      const bytes = encode('original bytes');
+      const ref = await store.put({
+        kind: 'source-snapshot',
+        mediaType: 'application/zip',
+        bytes,
+      });
+
+      await writeFile(join(root, ref.uri), encode('tampered bytes'));
+
+      await expect(
+        store.put({ kind: 'source-snapshot', mediaType: 'application/zip', bytes }),
+      ).rejects.toThrow(ArtifactConflictError);
     } finally {
       await rm(root, { recursive: true, force: true });
     }
