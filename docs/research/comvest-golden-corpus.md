@@ -80,10 +80,18 @@ motivo de cada adiamento.
 | Imagem com texto | `image-in-prompt` | `image-in-prompt`, `unexpected-alternative-count` | `2018/15.json`, `2019/53.json` |
 | Imagem como alternativa | `image-as-alternative` | `image-as-alternative` | `2019/63.json` |
 | Questão multidisciplinar | `multidisciplinary` | `multidisciplinary` | `2018/12.json` |
-| Questão anulada / sem gabarito | `empty-answer` | `empty-answer-2019`, `empty-answer-2021` | `2019/60.json`, `2021/day2/48.json` |
+| Questão sem gabarito (proxy de anulada no #31) | `empty-answer` | `empty-answer-2019`, `empty-answer-2021` | `2019/60.json`, `2021/day2/48.json` |
 | Quebra de questão entre páginas | Adiada para PDF/OCR | `deferred` | — |
+| Evidência da página original | Adiada para PDF/OCR | `deferred` | — |
+| Decisão humana aprovada | Adiada para a revisão | `deferred` | — |
 | Hifenização por quebra de linha | `hyphenation` | `hyphenation` | `2023/61.json` |
 | Caracteres problemáticos (PUA) | `problematic-characters` | `problematic-characters` | `2021/day1/35.json` |
+
+As categorias `hyphenation` e `problematic-characters` fixam a presença literal do
+artefato no texto (a quebra `adi-\ncionados` e os codepoints da área de uso privado que o
+BLUEX usa como marcadores). O normalizador atual preserva o enunciado verbatim; decidir
+juntar palavras quebradas pertence ao tratamento de layout das etapas de PDF/OCR. O valor
+do golden aqui é detectar corrupção de texto por regressões futuras.
 
 Anomalias do inventário [#31](https://github.com/paulop2/projeto-integrador-PJI240/issues/31):
 
@@ -118,6 +126,10 @@ normalizador puro e valida o formato com os schemas Zod.
 
 - O corpus contém o conteúdo bruto **apenas dos casos selecionados**; o restante do
   dataset permanece externo, como em #31.
+- Os testes reconferem os **metadados** de cada caso contra o inventário (resposta,
+  matérias, imagens, número, ano/dia) e replayam o normalizador, mas não reconferem o
+  texto integral offline: um erro de transcrição em `input.question` ou nas alternativas
+  não seria detectado pela suíte. A fidelidade dos bytes depende do snapshot fixado.
 - As categorias que o BLUEX não representa ficam explicitamente adiadas em `deferred`:
   "duas colunas" e "quebra de questão entre páginas" (layout), "evidência de página"
   (`page-evidence`) e "decisão humana aprovada" (`human-approval`). Elas pertencem às

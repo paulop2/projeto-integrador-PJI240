@@ -183,14 +183,18 @@ describe('Comvest golden corpus against the pinned inventory', () => {
       .sort();
     expect(selectedEmptyAnswers).toEqual(emptyAnswers);
 
-    const unexpected = inventory.summary.unexpectedAlternativeCounts.map((entry: any) => entry.file);
-    const threeAlternativeCase = corpus.cases.find(
-      ({ caseId }) => caseId === 'unexpected-alternative-count',
-    );
-    if (!threeAlternativeCase || threeAlternativeCase.kind !== 'question') {
-      throw new Error('missing 3-alternative case');
-    }
-    expect(unexpected).toContain(threeAlternativeCase.sourceFile);
+    const unexpected = inventory.summary.unexpectedAlternativeCounts
+      .map((entry: any) => entry.file)
+      .sort();
+    const unexpectedCases = corpus.cases
+      .filter(
+        (goldenCase): goldenCase is GoldenQuestionCase =>
+          goldenCase.kind === 'question' &&
+          goldenCase.coverage.includes('unexpected-alternative-count'),
+      )
+      .map(({ sourceFile }) => sourceFile)
+      .sort();
+    expect(unexpectedCases).toEqual(unexpected);
 
     const collision = corpus.cases.find(({ caseId }) => caseId === 'id-collision-2021');
     if (!collision || collision.kind !== 'batch') throw new Error('missing collision batch');
@@ -280,6 +284,12 @@ describe('Comvest golden corpus contract', () => {
     return draft;
   };
 
+  const questionCase = (draft: any, caseId: string) => {
+    const found = draft.cases.find((candidate: any) => candidate.caseId === caseId);
+    if (!found || found.kind !== 'question') throw new Error(`missing question case ${caseId}`);
+    return found;
+  };
+
   it('rejects a coverage entry that points to an unknown case', () => {
     const broken = mutate((draft) => {
       draft.coverage['simple-text'] = ['missing-case'];
@@ -289,14 +299,14 @@ describe('Comvest golden corpus contract', () => {
 
   it('rejects a case that references an unknown source file', () => {
     const broken = mutate((draft) => {
-      draft.cases[0].sourceFile = '2099/1.json';
+      questionCase(draft, 'simple-text').sourceFile = '2099/1.json';
     });
     expect(() => parseComvestGoldenCorpus(broken)).toThrow(/unknown sourceFile/);
   });
 
   it('rejects duplicate case ids', () => {
     const broken = mutate((draft) => {
-      draft.cases[1].caseId = draft.cases[0].caseId;
+      questionCase(draft, 'hyphenation').caseId = 'simple-text';
     });
     expect(() => parseComvestGoldenCorpus(broken)).toThrow(/caseIds must be unique/);
   });
