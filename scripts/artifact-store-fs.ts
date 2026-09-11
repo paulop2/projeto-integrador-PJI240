@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { randomUUID } from 'node:crypto';
 import { mkdir, readFile, rename, stat, writeFile } from 'node:fs/promises';
 import { dirname, resolve, sep } from 'node:path';
 
@@ -72,6 +73,31 @@ const readIndex = async (path: string): Promise<Record<string, ArtifactRef[]>> =
   }
 };
 
+/**
+ * Serializes read-modify-write cycles per resolved index path. Stages are expected
+ * to run in parallel, so two `set()` calls on the same cache would otherwise
+ * interleave their reads and writes and lose entries (or collide on the temporary
+ * file used for the atomic rename). The queue lives in this process; it does not
+ * coordinate across processes.
+ */
+const writeQueues = new Map<string, Promise<void>>();
+
+const withWriteLock = <T>(path: string, task: () => Promise<T>): Promise<T> => {
+  const previous = writeQueues.get(path) ?? Promise.resolve();
+  const run = previous.then(task, task);
+  const tail = run.then(
+    () => undefined,
+    () => undefined,
+  );
+  writeQueues.set(path, tail);
+  void tail.then(() => {
+    if (writeQueues.get(path) === tail) writeQueues.delete(path);
+  });
+  return run;
+};
+
+let temporaryCounter = 0;
+
 export const createFileStageCache = (indexPath: string): StageCache => {
   const path = resolve(indexPath);
 
@@ -81,13 +107,16 @@ export const createFileStageCache = (indexPath: string): StageCache => {
       return index[cacheKey] ?? null;
     },
     async set(cacheKey: Sha256, outputs: readonly ArtifactRef[]) {
-      const index = await readIndex(path);
-      if (index[cacheKey]) return;
-      index[cacheKey] = [...outputs];
-      await mkdir(dirname(path), { recursive: true });
-      const temporary = `${path}.tmp-${process.pid}`;
-      await writeFile(temporary, `${JSON.stringify(index, null, 2)}\n`);
-      await rename(temporary, path);
+      await withWriteLock(path, async () => {
+        const index = await readIndex(path);
+        if (index[cacheKey]) return;
+        index[cacheKey] = [...outputs];
+        await mkdir(dirname(path), { recursive: true });
+        temporaryCounter += 1;
+        const temporary = `${path}.tmp-${process.pid}-${temporaryCounter}-${randomUUID()}`;
+        await writeFile(temporary, `${JSON.stringify(index, null, 2)}\n`);
+        await rename(temporary, path);
+      });
     },
   };
 };

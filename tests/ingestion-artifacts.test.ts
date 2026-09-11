@@ -119,17 +119,18 @@ describe('ingestion artifact contract', () => {
     expect(() => runLedgerSchema.parse(ledger)).toThrow(/was not produced/);
   });
 
-  it('rejects duplicate stage ids and duplicate cache keys', async () => {
+  it('rejects duplicate stage ids even when their cache keys differ', async () => {
     const artifact = await validArtifact();
-    const cacheKey = await sha256Text('cache');
-    const stage = {
+    const cacheKeyA = await sha256Text('cache-a');
+    const cacheKeyB = await sha256Text('cache-b');
+    const stage = (cacheKey: string) => ({
       id: 'normalize',
       revision: '1',
       cacheKey,
-      disposition: 'reused',
+      disposition: 'reused' as const,
       inputs: [artifact],
       outputs: [artifact],
-    };
+    });
     const base = {
       schemaVersion: 1,
       runId: await sha256Text('run'),
@@ -138,7 +139,33 @@ describe('ingestion artifact contract', () => {
       inputs: [artifact],
       outputs: [artifact],
     };
-    expect(() => runLedgerSchema.parse({ ...base, stages: [stage, stage] })).toThrow(/unique/);
+    expect(() =>
+      runLedgerSchema.parse({ ...base, stages: [stage(cacheKeyA), stage(cacheKeyB)] }),
+    ).toThrow(/stage ids must be unique/);
+  });
+
+  it('rejects duplicate cache keys even when their stage ids differ', async () => {
+    const artifact = await validArtifact();
+    const cacheKey = await sha256Text('cache');
+    const stage = (id: string) => ({
+      id,
+      revision: '1',
+      cacheKey,
+      disposition: 'reused' as const,
+      inputs: [artifact],
+      outputs: [artifact],
+    });
+    const base = {
+      schemaVersion: 1,
+      runId: await sha256Text('run'),
+      toolchain: [{ name: 'bluex-bootstrap', version: '1.0.0' }],
+      config: {},
+      inputs: [artifact],
+      outputs: [artifact],
+    };
+    expect(() =>
+      runLedgerSchema.parse({ ...base, stages: [stage('normalize'), stage('classify')] }),
+    ).toThrow(/stage cache keys must be unique/);
   });
 });
 
@@ -320,6 +347,80 @@ describe('filesystem artifact storage', () => {
       await cache.set(cacheKey, [artifact]);
       await cache.set(cacheKey, []);
       expect(await cache.get(cacheKey)).toEqual([artifact]);
+    } finally {
+      await rm(root, { recursive: true, force: true });
+    }
+  });
+
+  it('persists every entry when stages write the cache concurrently', async () => {
+    const root = await mkdtemp(join(tmpdir(), 'stage-cache-concurrent-'));
+    try {
+      const storage = createFileArtifactStorage(root);
+      const store = new ArtifactStore(storage);
+      const cache = createFileStageCache(join(root, 'cache.json'));
+
+      const recorder = new RunLedgerRecorder({
+        store,
+        cache,
+        toolchain: [{ name: 'bluex-bootstrap', version: '1.0.0' }],
+        config: { layoutProfile: 'comvest-bluex-objective', layoutVersion: 1 },
+      });
+
+      const runStage = (id: string, body: string) =>
+        recorder.stage({
+          id,
+          revision: '1',
+          execute: async () => [
+            await store.put({
+              kind: 'question-package',
+              mediaType: 'application/json',
+              bytes: encode(body),
+            }),
+          ],
+        });
+
+      const results = await Promise.all([
+        runStage('normalize-a', '{"stage":"a"}\n'),
+        runStage('normalize-b', '{"stage":"b"}\n'),
+        runStage('normalize-c', '{"stage":"c"}\n'),
+      ]);
+      expect(results.map(({ disposition }) => disposition)).toEqual([
+        'executed',
+        'executed',
+        'executed',
+      ]);
+
+      const index = JSON.parse(await readFile(join(root, 'cache.json'), 'utf8'));
+      expect(Object.keys(index)).toHaveLength(3);
+
+      const ledgerRef = await recorder.finalize();
+      const ledger = runLedgerSchema.parse(
+        JSON.parse(decoder.decode((await store.read(ledgerRef))!)),
+      );
+      expect(ledger.stages.map(({ id }) => id)).toEqual(['normalize-a', 'normalize-b', 'normalize-c']);
+    } finally {
+      await rm(root, { recursive: true, force: true });
+    }
+  });
+
+  it('re-executes a stage when a cached output is missing from the store', async () => {
+    const root = await mkdtemp(join(tmpdir(), 'stage-cache-missing-'));
+    try {
+      const storage = createFileArtifactStorage(root);
+      const store = new ArtifactStore(storage);
+      const cache = createFileStageCache(join(root, 'cache.json'));
+
+      const first = await runPipeline(store, cache);
+      expect(first.stage.disposition).toBe('executed');
+      const output = first.stage.outputs[0]!;
+
+      await rm(join(root, output.uri), { force: true });
+
+      const second = await runPipeline(store, cache);
+      expect(second.stage.disposition).toBe('executed');
+      expect(second.executions.count).toBe(1);
+      expect(second.stage.outputs).toEqual(first.stage.outputs);
+      expect(await store.has(output.sha256)).toBe(true);
     } finally {
       await rm(root, { recursive: true, force: true });
     }

@@ -36,6 +36,12 @@ validado na gravação.
 | `byteSize` | inteiro ≥ 0 | Tamanho em bytes. |
 | `mediaType` | `tipo/subtipo` | Formato dos bytes (`application/json`, `application/zip`, ...). |
 
+O `sha256` é a identidade do artefato. Já `uri` e `byteSize` são, respectivamente, o
+localizador e o tamanho fornecidos pelo store e canônicos nas `ArtifactRef` que ele
+produz. O schema valida apenas o formato desses campos e não exige consistência
+cruzada entre `uri`/`byteSize` e `sha256`: a correspondência é verificada quando o
+store lê os bytes e reconfere o hash.
+
 ## Store endereçado por conteúdo
 
 Implementado em [`src/data/artifact-store.ts`](../../src/data/artifact-store.ts). O
@@ -136,8 +142,11 @@ npm test
 - O contrato cobre o mínimo para reprodutibilidade e auditoria. Findings, decisões
   humanas e classificação de questões publicadas/rejeitadas entram nas etapas de
   revisão e publicação, quando esses artefatos existirem.
-- A `StageCache` de arquivo é um índice JSON único, sem controle de concorrência entre
-  processos; a execução é single-process nesta fase. Limpeza de intermediários segue
-  como operação administrativa separada, nunca parte da publicação.
+- A `StageCache` de arquivo é um índice JSON único. Gravações dentro do mesmo processo
+  são serializadas por caminho (fila in-process) e usam arquivo temporário único, então
+  estágios executados em paralelo não perdem entradas nem colidem no `rename`. Entre
+  processos não há bloqueio: execuções concorrentes de processos distintos sobre o
+  mesmo índice ainda não são coordenadas. Limpeza de intermediários segue como
+  operação administrativa separada, nunca parte da publicação.
 - Extração de PDF/OCR e os Adapters por banca definem, nas próximas entregas, o que
   cada estágio grava; os hashes e a retomada já ficam garantidos por este contrato.

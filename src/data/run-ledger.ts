@@ -77,7 +77,7 @@ export class RunLedgerRecorder {
     const cacheKey = await this.stageCacheKey(spec, inputs);
     const cached = await this.cache.get(cacheKey);
 
-    if (cached !== null) {
+    if (cached !== null && (await this.outputsAvailable(cached))) {
       const outputs = [...cached];
       this.stages.push({
         id: spec.id,
@@ -116,7 +116,11 @@ export class RunLedgerRecorder {
       config: { ...this.config },
       inputs: [...this.inputs],
       outputs: this.collectOutputs(),
-      stages: this.stages.map((stage) => ({ ...stage, inputs: [...stage.inputs], outputs: [...stage.outputs] })),
+      stages: this.sortedStages().map((stage) => ({
+        ...stage,
+        inputs: [...stage.inputs],
+        outputs: [...stage.outputs],
+      })),
     });
 
     const body = `${canonicalJson(ledger as unknown as JsonValue)}\n`;
@@ -133,6 +137,19 @@ export class RunLedgerRecorder {
     );
   }
 
+  /**
+   * Stages are recorded in completion order, which varies under concurrency. The
+   * ledger is an ordered contract, so it is emitted by stage id instead.
+   */
+  private sortedStages(): readonly LedgerStage[] {
+    return [...this.stages].sort((left, right) => left.id.localeCompare(right.id));
+  }
+
+  private async outputsAvailable(outputs: readonly ArtifactRef[]): Promise<boolean> {
+    const present = await Promise.all(outputs.map((ref) => this.store.has(ref.sha256)));
+    return present.every(Boolean);
+  }
+
   private collectOutputs(): ArtifactRef[] {
     const seen = new Set<string>();
     const outputs: ArtifactRef[] = [];
@@ -143,7 +160,7 @@ export class RunLedgerRecorder {
         outputs.push(ref);
       }
     }
-    return outputs;
+    return outputs.sort((left, right) => left.sha256.localeCompare(right.sha256));
   }
 
   private async stageCacheKey(
@@ -156,7 +173,8 @@ export class RunLedgerRecorder {
         stage: { id: spec.id, revision: spec.revision },
         toolchain: this.sortedToolchain().map(({ name, version }) => ({ name, version })),
         config: { ...this.config },
-        inputs: inputs.map(({ sha256 }) => sha256).sort(),
+        // Input order is meaningful, so it is hashed as given.
+        inputs: inputs.map(({ sha256 }) => sha256),
       }),
     );
   }
@@ -168,7 +186,11 @@ export class RunLedgerRecorder {
         toolchain: this.sortedToolchain().map(({ name, version }) => ({ name, version })),
         config: { ...this.config },
         inputs: this.inputs.map(({ sha256 }) => sha256).sort(),
-        stages: this.stages.map(({ id, revision, cacheKey }) => ({ id, revision, cacheKey })),
+        stages: this.sortedStages().map(({ id, revision, cacheKey }) => ({
+          id,
+          revision,
+          cacheKey,
+        })),
       }),
     );
   }
