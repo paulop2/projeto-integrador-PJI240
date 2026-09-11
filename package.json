@@ -21,6 +21,7 @@
     "test:e2e": "playwright test",
     "test:e2e:install": "playwright install chromium",
     "import:enem": "vite-node --script scripts/import-enem.ts",
+    "inventory:comvest": "vite-node --script scripts/inventory-comvest.ts",
     "typecheck": "tsc --noEmit",
     "preview": "vite preview",
     "test:contracts": "vitest run tests/contracts.test.ts",
