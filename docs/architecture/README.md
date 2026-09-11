@@ -20,6 +20,8 @@ iteração anterior do produto.
 - [Pipeline de ingestão de vestibulares](vestibular-ingestion-pipeline.md):
   aquisição de PDFs e BLUEX, extração, OCR seletivo, revisão humana, normalização
   e extensão da Comvest para a Fuvest.
+- [Artefatos e run-ledger da ingestão](artifact-store.md): store endereçado por
+  conteúdo, imutabilidade, retomada determinística e contrato do `run-ledger`.
 
 ## Invariantes congeladas para a onda 1
 
