@@ -1,0 +1,1314 @@
+{
+  "schemaVersion": 1,
+  "corpusId": "comvest-bluex-golden",
+  "corpusVersion": 1,
+  "manifest": "docs/research/data/comvest-ingestion-manifest.json",
+  "reference": {
+    "kind": "bluex-objective",
+    "dataset": "Portuguese-Benchmark-Datasets/BLUEX",
+    "uri": "data/bluex_dataset.zip",
+    "revision": "6cdd69bd8dc8d0144e6bb01501ccae312720a0e6",
+    "sha256": "5a02d9fcd5714332ea14afd2c412fb1839a7af518b1c6bd29008ad9b8ccf55d2"
+  },
+  "coverage": {
+    "simple-text": [
+      "simple-text"
+    ],
+    "hyphenation": [
+      "hyphenation"
+    ],
+    "problematic-characters": [
+      "problematic-characters"
+    ],
+    "formula": [
+      "formula",
+      "empty-answer-2021"
+    ],
+    "table": [
+      "table"
+    ],
+    "image-in-prompt": [
+      "image-in-prompt",
+      "unexpected-alternative-count"
+    ],
+    "image-as-alternative": [
+      "image-as-alternative"
+    ],
+    "multidisciplinary": [
+      "multidisciplinary"
+    ],
+    "unexpected-alternative-count": [
+      "unexpected-alternative-count"
+    ],
+    "empty-answer": [
+      "empty-answer-2019",
+      "empty-answer-2021"
+    ],
+    "alternative-image-count-unsupported": [
+      "alternative-image-count-unsupported"
+    ],
+    "unreferenced-associated-image": [
+      "unreferenced-associated-image"
+    ],
+    "id-collision-2021": [
+      "id-collision-2021"
+    ],
+    "orphan-assets": [
+      "orphan-assets"
+    ]
+  },
+  "deferred": [
+    {
+      "category": "two-columns",
+      "reason": "layout is not representable from the linearized BLUEX text; it belongs to the PDF/OCR stage"
+    },
+    {
+      "category": "page-break",
+      "reason": "question boundaries across pages are not representable from the linearized BLUEX text; they belong to the PDF/OCR stage"
+    },
+    {
+      "category": "page-evidence",
+      "reason": "original page evidence is not available from BLUEX; the golden corpus keeps only the structured source and its expected result"
+    },
+    {
+      "category": "human-approval",
+      "reason": "the corpus replays the pure normalizer; the mandatory human-review gate over approved candidates arrives with the PDF/OCR stages"
+    }
+  ],
+  "questions": [
+    {
+      "sourceFile": "2021/day1/26.json",
+      "sourceId": "UNICAMP_2021_26",
+      "editionId": "comvest-2021-day1",
+      "input": {
+        "question": "Se f(x) = log10(x) e x > 0, então f(1/x) + f(100x) é igual a",
+        "number": 26,
+        "id": "UNICAMP_2021_26",
+        "alternatives": [
+          "a) 1",
+          "b) 2",
+          "c) 3",
+          "d) 4"
+        ],
+        "associated_images": [],
+        "answer": "B",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "mathematics"
+        ],
+        "TU": true,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2023/61.json",
+      "sourceId": "UNICAMP_2023_61",
+      "editionId": "comvest-2023",
+      "input": {
+        "question": "Um recipiente de 30 litros contém uma solução de 14 partes de \nálcool e 1 parte de água. Quantos litros de água devem ser adi-\ncionados para que se tenha uma solução com 70% de álcool?",
+        "number": 61,
+        "id": "UNICAMP_2023_61",
+        "alternatives": [
+          "a)  8 litros.",
+          "b)  10 litros.",
+          "c)  12 litros.",
+          "d)  14 litros."
+        ],
+        "associated_images": [],
+        "answer": "B",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "TU": false,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "subject": [
+          "mathematics"
+        ],
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2021/day1/35.json",
+      "sourceId": "UNICAMP_2021_35",
+      "editionId": "comvest-2021-day1",
+      "input": {
+        "question": "A  força  normal  aplicada  pela  agulha  de  um  toca-discos \n\nsobre  o  disco  tem  módulo  igual  a  |N| = 2,0x10^2 Newtons.  A \nárea  de  contato  entre  a  agulha  e  o  disco  é  igual  a \n1,6x10^(-3) mm^2.  Qual  é  a  pressão  exercida  pela  agulha \nsobre o disco? \nDado: 1,0 atm = 1,0 x10^5 N/m^2",
+        "number": 35,
+        "id": "UNICAMP_2021_35",
+        "alternatives": [
+          "a) 1,25 x 10^(-4) atm.",
+          "b) 3,20 x 10^(-3) atm.",
+          "c) 3,20 x 10^1 atm.",
+          "d) 1,25 x 10^2 atm."
+        ],
+        "associated_images": [],
+        "answer": "D",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "physics"
+        ],
+        "TU": true,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2019/38.json",
+      "sourceId": "UNICAMP_2019_38",
+      "editionId": "comvest-2019",
+      "input": {
+        "question": "\nNas questões seguintes, sempre que necessário, use\naceleração da gravidade g = 10 m/s2, aproxime π = 3,0 e\n1 atm =105 Pa.O físico inglês Stephen Hawking (1942-2018), além de\nsuas contribuições importantes para a cosmologia, a física\nteórica e sobre a origem do universo, nos últimos anos de\nsua vida passou a sugerir estratégias para salvar a raça\nhumana de uma possível extinção, entre elas, a mudança\npara outro planeta. Em abril de 2018, uma empresa\namericana, em colaboração com a Nasa, lançou o satélite\nTESS, que analisará cerca de vinte mil planetas fora do\nsistema solar. Esses planetas orbitam estrelas situadas a\nmenos de trezentos anos-luz da Terra, sendo que um\nano-luz é a distância que a luz percorre no vácuo em um\nano. Considere um ônibus espacial atual que viaja a uma\nvelocidade média v = 2,0 ×10⁴ km/s. O tempo que esse\nônibus levaria para chegar a um planeta a uma distância\nde 100 anos-luz é igual a\n(Dado: A velocidade da luz no vácuo é igual a\nc = 3,0 ×1 08 m/s.)",
+        "number": 38,
+        "id": "UNICAMP_2019_38",
+        "alternatives": [
+          "a) 66 anos.",
+          "b) 100 anos.",
+          "c) 600 anos.",
+          "d) 1500 anos."
+        ],
+        "associated_images": [],
+        "answer": "D",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "physics"
+        ],
+        "TU": false,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2019/18.json",
+      "sourceId": "UNICAMP_2019_18",
+      "editionId": "comvest-2019",
+      "input": {
+        "question": "Dois estudantes, de massa corporal em torno de 75 kg, da\nUniversidade de Northumbria, no Reino Unido, quase\nmorreram ao participar de um experimento científico no\nqual seriam submetidos a determinada dose de cafeína e a\num teste físico posterior. Por um erro técnico, ambos\nreceberam uma dose de cafeína 100 vezes maior que a\ndose planejada. A dose planejada era de 0,3 g de cafeína,\nequivalente a três xícaras de café. Sabe-se que a União\nEuropeia, onde o teste ocorreu, classifica a toxicidade de\numa dada substância conforme tabela a seguir.\nCategoria | DL50 (mg/kg de massa corporal)\nmuito tóxica | menor que 25\ntóxica | de 25 a 200\nnociva | de 200 a 2000\nConsiderando que a DL – dose necessária de uma dada\n50\nsubstância para matar 50% de uma população – da cafeína\né de 192 mg/kg, no teste realizado a dose aplicada foi\ncerca de",
+        "number": 18,
+        "id": "UNICAMP_2019_18",
+        "alternatives": [
+          "a) 100 vezes maior que a DL da cafeína, substância\n50\nque deve ser classificada como nociva.",
+          "b) duas vezes maior que a DL da cafeína, substância\n50\nque deve ser classificada como tóxica.",
+          "c) 100 vezes maior que a DL da cafeína, substância\n50\nque deve ser classificada como tóxica.",
+          "d) duas vezes maior que a DL da cafeína, substância\n50\nque deve ser classificada como nociva."
+        ],
+        "associated_images": [],
+        "answer": "B",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "mathematics"
+        ],
+        "TU": false,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2018/15.json",
+      "sourceId": "UNICAMP_2018_15",
+      "editionId": "comvest-2018",
+      "input": {
+        "question": "O  poema  abaixo  é  de  autoria  do  poeta  Augusto  de \nCampos, integrante do movimento concretista. \n [IMAGE 0] \n(Augusto de Campos, Viva Vaia. Poesia: 1949-1979. São Paulo: Ateliê Editorial, \n2000, p. 116-117.)\n \n \nNesse  poema,  nota-se  uma  técnica  de  composição  que \nconsiste",
+        "number": 15,
+        "id": "UNICAMP_2018_15",
+        "alternatives": [
+          "a)  na disposição arbitrária de anagramas, sem produzir uma \nrelação de sentido com o título do poema.",
+          "b)  na disposição exaustiva de anagramas, sem produzir uma \nrelação de sentido com o título do poema.",
+          "c)  na disposição arbitrária de anagramas, para produzir uma \nrelação de sentido com o título do poema.",
+          "d)  na  disposição  exaustiva  de  anagramas,  para  produzir \numa relação de sentido com o título do poema."
+        ],
+        "associated_images": [
+          "imgs/UNICAMP/2018/15/0.jpg"
+        ],
+        "answer": "D",
+        "has_associated_images": true,
+        "alternatives_type": "string",
+        "subject": [
+          "portuguese"
+        ],
+        "TU": true,
+        "IU": true,
+        "MR": false,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2019/63.json",
+      "sourceId": "UNICAMP_2019_63",
+      "editionId": "comvest-2019",
+      "input": {
+        "question": "Sejam a e b números reais positivos. Considere a função\nquadrática f(x) = x(ax+b), definida para todo número\nreal x. No plano cartesiano, qual figura corresponde ao\ngráfico de y = f(𝑥)?",
+        "number": 63,
+        "id": "UNICAMP_2019_63",
+        "alternatives": [
+          "a)[IMAGE 0]",
+          "b)[IMAGE 3]",
+          "c)[IMAGE 2]",
+          "d)[IMAGE 1]"
+        ],
+        "associated_images": [
+          "imgs/UNICAMP/2019/63/0.jpg",
+          "imgs/UNICAMP/2019/63/3.jpg",
+          "imgs/UNICAMP/2019/63/2.jpg",
+          "imgs/UNICAMP/2019/63/1.jpg"
+        ],
+        "answer": "B",
+        "has_associated_images": true,
+        "alternatives_type": "images",
+        "subject": [
+          "mathematics"
+        ],
+        "TU": false,
+        "IU": true,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2018/12.json",
+      "sourceId": "UNICAMP_2018_12",
+      "editionId": "comvest-2018",
+      "input": {
+        "question": "Transforma-se o amador na coisa amada, \nPor virtude do muito imaginar; \nNão tenho, logo, mais que desejar, \nPois em mim tenho a parte desejada. \n \nSe nela está minha alma transformada, \nQue mais deseja o corpo de alcançar? \nEm si somente pode descansar, \nPois com ele tal alma está liada. \n \n \nMas esta linda e pura semideia, \nQue, como o acidente em seu sujeito, \nAssim como a alma minha se conforma, \n \nEstá no pensamento como ideia; \nE o vivo e puro amor de que sou feito, \nComo a matéria simples busca a forma. \n \n(Luís  de  Camões,  Lírica:  redondilhas  e  sonetos,  Rio  de  Janeiro: \nEdiouro / São Paulo: Publifolha, 1997, p. 85.) \n \nUm dos aspectos mais importantes da lírica de Camões é a \nretomada renascentista de ideias do filósofo grego Platão. \nConsiderando  o  soneto  citado,  pode-se  dizer  que  o \nchamado “neoplatonismo” camoniano",
+        "number": 12,
+        "id": "UNICAMP_2018_12",
+        "alternatives": [
+          "a)  é afirmado nos dois primeiros quartetos, uma vez que a \nunião  entre  amador  e  pessoa  amada  resulta  em  uma \nalma única e perfeita.",
+          "b)  é confirmado nos dois últimos tercetos, uma vez que a \nbeleza  e  a  pureza  reúnem-se  finalmente  na  matéria \nsimples que deseja.",
+          "c)  é negado nos dois primeiros quartetos, uma vez que a \nconsequência da união entre amador e coisa amada é a \nausência de desejo.",
+          "d)  é contrariado nos dois últimos tercetos, uma vez que a \npureza  e  a  beleza  mantêm-se  em  harmonia  na  sua \ncondição de ideia."
+        ],
+        "associated_images": [],
+        "answer": "A",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "portuguese",
+          "history"
+        ],
+        "TU": true,
+        "IU": false,
+        "MR": false,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2019/53.json",
+      "sourceId": "UNICAMP_2019_53",
+      "editionId": "comvest-2019",
+      "input": {
+        "question": "A produção de celulose a partir da madeira vem crescendo\nno Brasil, tendo atingido um volume recorde em 2017, com\nexportações de 19,5 milhões de toneladas. As paredes das\ncélulas da madeira contêm celulose e lignina, sendo que a\nprimeira é o principal composto de interesse industrial,\nenquanto a segunda é um composto indesejável, que\nprecisa ser removido. Geralmente, a remoção da lignina\nenvolve digestão química com H_2S, um reagente altamente\npoluente.\nAs imagens apresentadas a seguir são fotos de\nmicroscopia eletrônica, em mesma escala, do tecido\nvegetal de dois tipos de madeira, que diferem com relação\nà parede celular.\n[IMAGE 0]\nCada tipo (I ou II) tem ainda dois subtipos, a ou b. O\ngráfico a seguir mostra dados sobre esses subtipos de\nmadeira coletados de plantas cultivadas na mesma área\ngeográfica (solo e clima similares).\n[IMAGE 1]\n(Adaptado de Gabriela Mello,Produção de celulose no Brasil cresce 3,8% em 2017\ne atinge volume recorde, diz Ibá. UOL, 31/09/2018.)\nConsiderando que as quatro amostras no gráfico provêm\nde plantas com o mesmo tempo de desenvolvimento, qual\ndelas seria mais desejável em termos industriais e\nambientais (tendo em vista a poluição e a extensão de área\nplantada)?",
+        "number": 53,
+        "id": "UNICAMP_2019_53",
+        "alternatives": [
+          "a) Subtipo Ia.",
+          "b) Subtipo Ib.",
+          "c) Subtipo IIa"
+        ],
+        "associated_images": [
+          "imgs/UNICAMP/2019/53/1.jpg",
+          "imgs/UNICAMP/2019/53/2.jpg"
+        ],
+        "answer": "C",
+        "has_associated_images": true,
+        "alternatives_type": "string",
+        "subject": [
+          "biology"
+        ],
+        "TU": false,
+        "IU": true,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2019/60.json",
+      "sourceId": "UNICAMP_2019_60",
+      "editionId": "comvest-2019",
+      "input": {
+        "question": "A nota final de um curso é dada pela média aritmética\nsimples entre as notas de duas provas e a de um trabalho.\nTodas as notas se distribuem entre 0 e 10 e a nota final\nmínima para aprovação é 7. Para um aluno ser aprovado, é\nnecessário que a média aritmética simples entre as notas\ndas provas seja maior ou igual a",
+        "number": 60,
+        "id": "UNICAMP_2019_60",
+        "alternatives": [
+          "a) 2,5.",
+          "b) 5,0.",
+          "c) 5,5.",
+          "d) 7,0"
+        ],
+        "associated_images": [],
+        "answer": null,
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "mathematics"
+        ],
+        "TU": false,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2021/day2/48.json",
+      "sourceId": "UNICAMP_2021_48",
+      "editionId": "comvest-2021-day2",
+      "input": {
+        "question": "Se  um  tetraedro  regular  e  um  cubo  têm  áreas  laterais \niguais, então a razão entre o comprimento da aresta do \ntetraedro e o comprimento da aresta do cubo é igual a",
+        "number": 48,
+        "id": "UNICAMP_2021_48",
+        "alternatives": [
+          "a) ⁴√2√3.",
+          "b) ³√2√3.",
+          "c) √2³√3.",
+          "d) √2³√3."
+        ],
+        "associated_images": [],
+        "answer": null,
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "mathematics"
+        ],
+        "TU": true,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2021/day1/41.json",
+      "sourceId": "UNICAMP_2021_41",
+      "editionId": "comvest-2021-day1",
+      "input": {
+        "question": "O  Brasil  ardeu  em  chamas  em  2020.  Muitas  soluções \nforam propostas, incluindo o uso do “boi bombeiro”, porém \nnem todas eliminam de fato um dos três componentes que \nmantêm o fogo: calor, combustível e comburente. A figura \na seguir representa três ações de bombeiros para extinguir \no fogo. \n [IMAGE 7] \nNas  alternativas  a  seguir,  o  componente  ausente  no \ntriângulo  representa  o  componente  eliminado  pela  ação \ndos  bombeiros  para  a  extinção  do  fogo.  Assinale  a \nalternativa que apresenta a correlação adequada entre as \nações A, B e C e o componente eliminado do triângulo do \nfogo em cada ação, respectivamente.",
+        "number": 41,
+        "id": "UNICAMP_2021_41",
+        "alternatives": [
+          "a) [IMAGE 11] [IMAGE 2] [IMAGE 0]",
+          "b) [IMAGE 3] [IMAGE 1] [IMAGE 9]",
+          "c) [IMAGE 5] [IMAGE 8] [IMAGE 10]",
+          "d) [IMAGE 4] [IMAGE 9] [IMAGE 6]"
+        ],
+        "associated_images": [
+          "imgs/UNICAMP/2021/day1/41/4.jpg",
+          "imgs/UNICAMP/2021/day1/41/6.jpg",
+          "imgs/UNICAMP/2021/day1/41/3.jpg",
+          "imgs/UNICAMP/2021/day1/41/5.jpg",
+          "imgs/UNICAMP/2021/day1/41/11.jpg",
+          "imgs/UNICAMP/2021/day1/41/8.jpg",
+          "imgs/UNICAMP/2021/day1/41/13.jpg",
+          "imgs/UNICAMP/2021/day1/41/1.jpg",
+          "imgs/UNICAMP/2021/day1/41/9.jpg",
+          "imgs/UNICAMP/2021/day1/41/7.jpg",
+          "imgs/UNICAMP/2021/day1/41/12.jpg",
+          "imgs/UNICAMP/2021/day1/41/10.jpg",
+          "imgs/UNICAMP/2021/day1/41/2.jpg"
+        ],
+        "answer": "D",
+        "has_associated_images": true,
+        "alternatives_type": "images",
+        "subject": [
+          "chemistry"
+        ],
+        "TU": true,
+        "IU": true,
+        "MR": false,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2021/day2/68.json",
+      "sourceId": "UNICAMP_2021_68",
+      "editionId": "comvest-2021-day2",
+      "input": {
+        "question": "Brasil - Produção Agrícola Municipal - 2017 \nCana-de-açúcar \n [IMAGE 0] \nBrasil - Produção Agrícola Municipal - 2017 \nManga \n [IMAGE 0] \n(Fonte:  Atlas  Escolar  do  IBGE.  Disponível  em  https://mapas.ibge.gov.br/ \nescolares/ensino-medio/brasil.html). Acessado em 10/09/2020. \nA produção agrícola nacional, para os mercados interno e \nexterno, aparece como ponto fundamental para o Produto \nInterno  Bruto  nacional.  Sobre  as  culturas  de  cana-de-\naçúcar e manga é correto afirmar:",
+        "number": 68,
+        "id": "UNICAMP_2021_68",
+        "alternatives": [
+          "a)  Pouco concentrada espacialmente, a cana-de-açúcar é \numa cultura permanente voltada para exportação.",
+          "b)  A  manga  é  uma  cultura  permanente,  que  tem \nimportante produção nas áreas irrigadas no Nordeste.",
+          "c)  A cana-de-açúcar é uma cultura temporária no litoral \nnordestino e permanente na região Sudeste.",
+          "d)  Inteiramente voltada para o mercado interno, a cultura \nda manga é uma cultura temporária na região Sudeste."
+        ],
+        "associated_images": [
+          "imgs/UNICAMP/2021/day2/68/1.jpg",
+          "imgs/UNICAMP/2021/day2/68/2.jpg"
+        ],
+        "answer": "B",
+        "has_associated_images": true,
+        "alternatives_type": "string",
+        "subject": [
+          "geography"
+        ],
+        "TU": true,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": true,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2021/day1/1.json",
+      "sourceId": "UNICAMP_2021_1",
+      "editionId": "comvest-2021-day1",
+      "input": {
+        "question": "Esses artifícios de montagem, mixagem e scratching dão \nao  rap  uma  variedade  de  formas  de  apropriação  que \nparecem tão volúveis e imaginativas quanto as das artes \nmaiores  -  como,  digamos,  as  exemplificadas  na  “Mona \nLisa de bigode” de Duchamp e nas múltiplas reduplicações \nde imagens comerciais pré-fabricadas de Andy Warhol. O \nrap também apresenta uma variedade de conteúdos. Não \napenas  utiliza  trechos  de  canções  populares,  como \ntambém  absorve  ecleticamente  elementos  da  música \nclássica,  de  apresentações  de  TV,  de  jingles  de \npublicidade e da música eletrônica de videogames. Ele se \napropria  até  mesmo  de  conteúdos  não  musicais,  como \nreportagens de jornais na TV e fragmentos de discursos de \nMalcom X e Martin Luther King. \n(Richard Shusterman, Vivendo a arte. São Paulo: Editora 34, 1998, p.149.) \n [IMAGE 0]\n(Marcel Duchamp, “Mona Lisa de Bigode”, 1919.) \n \nA emergência e a consolidação do rap como linguagem \nartística foram cercadas de polêmicas de natureza ética, \npolítica e cultural. Com base no excerto acima e no quadro \nde Marcel Duchamp, assinale a alternativa correta.",
+        "number": 1,
+        "id": "UNICAMP_2021_1",
+        "alternatives": [
+          "a)  Os  elementos  poéticos  do  rap  não  podem  ser \ncomparados  aos  procedimentos  das  artes  maiores, \npois sua preocupação é mais política do que artística.",
+          "b)  A incorporação das referências culturais nas canções \ndos Racionais Mc’s é comparável ao gesto de Marcel \nDuchamp  ao  pintar  um  bigode  na  Mona  Lisa,  de \nLeonardo  da  Vinci.  Ambos  são  apropriações \nimaginativas e críticas.",
+          "c)  O  modernismo  de  Marcel  Duchamp,  os  quadros  do \npintor norte-americano Andy Wahrol e as canções de \nrap  não  têm  valor  artístico,  pois  expressam  a \ndegradação  e  o  ecletismo  de  uma  sociedade  de \nmassas.",
+          "d)  O rap dos Racionais Mc's e as artes modernas não \nfazem distinção entre a cultura erudita e a de massa, \nmisturam  os  seus  elementos  e  produzem  obras \ndestituídas de crítica social."
+        ],
+        "associated_images": [
+          "imgs/UNICAMP/2021/day1/1/0.jpg"
+        ],
+        "answer": "B",
+        "has_associated_images": true,
+        "alternatives_type": "string",
+        "subject": [
+          "portuguese"
+        ],
+        "TU": true,
+        "IU": false,
+        "MR": false,
+        "ML": false,
+        "BK": false,
+        "PRK": false
+      }
+    },
+    {
+      "sourceFile": "2021/day2/1.json",
+      "sourceId": "UNICAMP_2021_1",
+      "editionId": "comvest-2021-day2",
+      "input": {
+        "question": "GÊNESIS (INTRO) \nDeus fez o mar, as árvore, as criança, o amor \nO homem me deu a favela, o crack, a trairagem \nAs arma, as bebida, as puta \nEu? \nEu tenho uma Bíblia velha, uma pistola automática \nUm sentimento de revolta \nEu tô tentando sobreviver no inferno \n(Racionais Mc's, Sobrevivendo no inferno. São Paulo: Companhia das Letras, \n2018, p. 45.) \n \n“Gênesis” é a segunda canção do álbum Sobrevivendo no \nInferno. É antecedida pela invocação de uma outra canção, \nintitulada “Jorge da Capadócia”, de Jorge Ben.  \nÉ  correto  afirmar  que  as  evocações  dos  elementos \nreligiosos nesse álbum",
+        "number": 1,
+        "id": "UNICAMP_2021_1",
+        "alternatives": [
+          "a)  legitimam a violência social a que estão submetidos os \npobres.",
+          "b)  dificultam  a  tomada  de  consciência  da  população \nnegra.",
+          "c)  articulam  as  esferas  ética  e  estética  da  experiência \nhumana na poesia.",
+          "d)  dissimulam a hipocrisia moral das pessoas religiosas."
+        ],
+        "associated_images": [],
+        "answer": "C",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "portuguese"
+        ],
+        "TU": true,
+        "IU": false,
+        "MR": false,
+        "ML": false,
+        "BK": true,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2021/day1/33.json",
+      "sourceId": "UNICAMP_2021_33",
+      "editionId": "comvest-2021-day1",
+      "input": {
+        "question": "Ao passar pelo sensor magnético, a velocidade linear de \num ponto de uma fita cassete é v  0,045 m/s. Depois de \npassar  pelo  sensor,  a  fita  é  enrolada  em  uma  bobina \ncircular  de  diâmetro  d  6,0 cm.  Em  quanto  tempo  a \nbobina completa uma volta? \n \na)  0,65 s.  c)  4,0 s. \n   \nb)  1,3 s.  d)  0,27 s.",
+        "number": 33,
+        "id": "UNICAMP_2021_33",
+        "alternatives": [
+          "a) 0,65 s.",
+          "b)  1,3 s.",
+          "c)  4,0 s.",
+          "d)  0,27 s."
+        ],
+        "associated_images": [],
+        "answer": "C",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "physics"
+        ],
+        "TU": true,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2021/day1/38.json",
+      "sourceId": "UNICAMP_2021_38",
+      "editionId": "comvest-2021-day1",
+      "input": {
+        "question": "Um  microchip  de  massa  m = 2,0 x 10^(-6) g  é  composto \nmajoritariamente  de  silício.  Durante  um  minuto  de \nfuncionamento, o circuito elétrico do dispositivo dissipa, na \nforma térmica, uma quantidade de energia  Q = 0,96 mJ.\nConsidere  que  o  calor  específico  do  silício  é \nc = 800 J/kg ºC.  Caso  não  houvesse  nenhum \nmecanismo  de  escoamento  de  calor  para  fora  do \ndispositivo, em quanto sua temperatura aumentaria após \nesse tempo de funcionamento? ",
+        "number": 38,
+        "id": "UNICAMP_2021_38",
+        "alternatives": [
+          "a) 4,8 x 10^1 ºC.",
+          "b) 1,6 x 10^2 ºC.",
+          "c) 6,0 x 10^2 ºC.",
+          "d) 1,2 x 10^3 ºC."
+        ],
+        "associated_images": [],
+        "answer": "C",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "physics"
+        ],
+        "TU": true,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    }
+  ],
+  "cases": [
+    {
+      "caseId": "simple-text",
+      "kind": "question",
+      "sourceFile": "2021/day1/26.json",
+      "coverage": [
+        "simple-text"
+      ],
+      "expected": {
+        "status": "published",
+        "rejection": null,
+        "question": {
+          "id": "comvest-comvest-2021-day1-UNICAMP_2021_26",
+          "institutionId": "unicamp",
+          "examId": "comvest",
+          "editionId": "comvest-2021-day1",
+          "year": 2021,
+          "subjectId": "mathematics",
+          "language": null,
+          "kind": "single-choice",
+          "context": "Se f(x) = log10(x) e x > 0, então f(1/x) + f(100x) é igual a",
+          "files": [],
+          "alternativesIntroduction": null,
+          "alternatives": [
+            {
+              "id": "a",
+              "label": "A",
+              "text": "1",
+              "file": null
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "text": "2",
+              "file": null
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "text": "3",
+              "file": null
+            },
+            {
+              "id": "d",
+              "label": "D",
+              "text": "4",
+              "file": null
+            }
+          ],
+          "answer": {
+            "optionIds": [
+              "b"
+            ]
+          }
+        },
+        "sourceSubjectIds": [
+          "mathematics"
+        ]
+      }
+    },
+    {
+      "caseId": "hyphenation",
+      "kind": "question",
+      "sourceFile": "2023/61.json",
+      "coverage": [
+        "hyphenation"
+      ],
+      "expected": {
+        "status": "published",
+        "rejection": null,
+        "question": {
+          "id": "comvest-comvest-2023-UNICAMP_2023_61",
+          "institutionId": "unicamp",
+          "examId": "comvest",
+          "editionId": "comvest-2023",
+          "year": 2023,
+          "subjectId": "mathematics",
+          "language": null,
+          "kind": "single-choice",
+          "context": "Um recipiente de 30 litros contém uma solução de 14 partes de \nálcool e 1 parte de água. Quantos litros de água devem ser adi-\ncionados para que se tenha uma solução com 70% de álcool?",
+          "files": [],
+          "alternativesIntroduction": null,
+          "alternatives": [
+            {
+              "id": "a",
+              "label": "A",
+              "text": "8 litros.",
+              "file": null
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "text": "10 litros.",
+              "file": null
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "text": "12 litros.",
+              "file": null
+            },
+            {
+              "id": "d",
+              "label": "D",
+              "text": "14 litros.",
+              "file": null
+            }
+          ],
+          "answer": {
+            "optionIds": [
+              "b"
+            ]
+          }
+        },
+        "sourceSubjectIds": [
+          "mathematics"
+        ]
+      }
+    },
+    {
+      "caseId": "problematic-characters",
+      "kind": "question",
+      "sourceFile": "2021/day1/35.json",
+      "coverage": [
+        "problematic-characters"
+      ],
+      "expected": {
+        "status": "published",
+        "rejection": null,
+        "question": {
+          "id": "comvest-comvest-2021-day1-UNICAMP_2021_35",
+          "institutionId": "unicamp",
+          "examId": "comvest",
+          "editionId": "comvest-2021-day1",
+          "year": 2021,
+          "subjectId": "physics",
+          "language": null,
+          "kind": "single-choice",
+          "context": "A  força  normal  aplicada  pela  agulha  de  um  toca-discos \n\nsobre  o  disco  tem  módulo  igual  a  |N| = 2,0x10^2 Newtons.  A \nárea  de  contato  entre  a  agulha  e  o  disco  é  igual  a \n1,6x10^(-3) mm^2.  Qual  é  a  pressão  exercida  pela  agulha \nsobre o disco? \nDado: 1,0 atm = 1,0 x10^5 N/m^2",
+          "files": [],
+          "alternativesIntroduction": null,
+          "alternatives": [
+            {
+              "id": "a",
+              "label": "A",
+              "text": "1,25 x 10^(-4) atm.",
+              "file": null
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "text": "3,20 x 10^(-3) atm.",
+              "file": null
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "text": "3,20 x 10^1 atm.",
+              "file": null
+            },
+            {
+              "id": "d",
+              "label": "D",
+              "text": "1,25 x 10^2 atm.",
+              "file": null
+            }
+          ],
+          "answer": {
+            "optionIds": [
+              "d"
+            ]
+          }
+        },
+        "sourceSubjectIds": [
+          "physics"
+        ]
+      }
+    },
+    {
+      "caseId": "formula",
+      "kind": "question",
+      "sourceFile": "2019/38.json",
+      "coverage": [
+        "formula"
+      ],
+      "expected": {
+        "status": "published",
+        "rejection": null,
+        "question": {
+          "id": "comvest-comvest-2019-UNICAMP_2019_38",
+          "institutionId": "unicamp",
+          "examId": "comvest",
+          "editionId": "comvest-2019",
+          "year": 2019,
+          "subjectId": "physics",
+          "language": null,
+          "kind": "single-choice",
+          "context": "Nas questões seguintes, sempre que necessário, use\naceleração da gravidade g = 10 m/s2, aproxime π = 3,0 e\n1 atm =105 Pa.O físico inglês Stephen Hawking (1942-2018), além de\nsuas contribuições importantes para a cosmologia, a física\nteórica e sobre a origem do universo, nos últimos anos de\nsua vida passou a sugerir estratégias para salvar a raça\nhumana de uma possível extinção, entre elas, a mudança\npara outro planeta. Em abril de 2018, uma empresa\namericana, em colaboração com a Nasa, lançou o satélite\nTESS, que analisará cerca de vinte mil planetas fora do\nsistema solar. Esses planetas orbitam estrelas situadas a\nmenos de trezentos anos-luz da Terra, sendo que um\nano-luz é a distância que a luz percorre no vácuo em um\nano. Considere um ônibus espacial atual que viaja a uma\nvelocidade média v = 2,0 ×10⁴ km/s. O tempo que esse\nônibus levaria para chegar a um planeta a uma distância\nde 100 anos-luz é igual a\n(Dado: A velocidade da luz no vácuo é igual a\nc = 3,0 ×1 08 m/s.)",
+          "files": [],
+          "alternativesIntroduction": null,
+          "alternatives": [
+            {
+              "id": "a",
+              "label": "A",
+              "text": "66 anos.",
+              "file": null
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "text": "100 anos.",
+              "file": null
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "text": "600 anos.",
+              "file": null
+            },
+            {
+              "id": "d",
+              "label": "D",
+              "text": "1500 anos.",
+              "file": null
+            }
+          ],
+          "answer": {
+            "optionIds": [
+              "d"
+            ]
+          }
+        },
+        "sourceSubjectIds": [
+          "physics"
+        ]
+      }
+    },
+    {
+      "caseId": "table",
+      "kind": "question",
+      "sourceFile": "2019/18.json",
+      "coverage": [
+        "table"
+      ],
+      "expected": {
+        "status": "published",
+        "rejection": null,
+        "question": {
+          "id": "comvest-comvest-2019-UNICAMP_2019_18",
+          "institutionId": "unicamp",
+          "examId": "comvest",
+          "editionId": "comvest-2019",
+          "year": 2019,
+          "subjectId": "mathematics",
+          "language": null,
+          "kind": "single-choice",
+          "context": "Dois estudantes, de massa corporal em torno de 75 kg, da\nUniversidade de Northumbria, no Reino Unido, quase\nmorreram ao participar de um experimento científico no\nqual seriam submetidos a determinada dose de cafeína e a\num teste físico posterior. Por um erro técnico, ambos\nreceberam uma dose de cafeína 100 vezes maior que a\ndose planejada. A dose planejada era de 0,3 g de cafeína,\nequivalente a três xícaras de café. Sabe-se que a União\nEuropeia, onde o teste ocorreu, classifica a toxicidade de\numa dada substância conforme tabela a seguir.\nCategoria | DL50 (mg/kg de massa corporal)\nmuito tóxica | menor que 25\ntóxica | de 25 a 200\nnociva | de 200 a 2000\nConsiderando que a DL – dose necessária de uma dada\n50\nsubstância para matar 50% de uma população – da cafeína\né de 192 mg/kg, no teste realizado a dose aplicada foi\ncerca de",
+          "files": [],
+          "alternativesIntroduction": null,
+          "alternatives": [
+            {
+              "id": "a",
+              "label": "A",
+              "text": "100 vezes maior que a DL da cafeína, substância\n50\nque deve ser classificada como nociva.",
+              "file": null
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "text": "duas vezes maior que a DL da cafeína, substância\n50\nque deve ser classificada como tóxica.",
+              "file": null
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "text": "100 vezes maior que a DL da cafeína, substância\n50\nque deve ser classificada como tóxica.",
+              "file": null
+            },
+            {
+              "id": "d",
+              "label": "D",
+              "text": "duas vezes maior que a DL da cafeína, substância\n50\nque deve ser classificada como nociva.",
+              "file": null
+            }
+          ],
+          "answer": {
+            "optionIds": [
+              "b"
+            ]
+          }
+        },
+        "sourceSubjectIds": [
+          "mathematics"
+        ]
+      }
+    },
+    {
+      "caseId": "image-in-prompt",
+      "kind": "question",
+      "sourceFile": "2018/15.json",
+      "coverage": [
+        "image-in-prompt"
+      ],
+      "expected": {
+        "status": "published",
+        "rejection": null,
+        "question": {
+          "id": "comvest-comvest-2018-UNICAMP_2018_15",
+          "institutionId": "unicamp",
+          "examId": "comvest",
+          "editionId": "comvest-2018",
+          "year": 2018,
+          "subjectId": "portuguese",
+          "language": null,
+          "kind": "single-choice",
+          "context": "O  poema  abaixo  é  de  autoria  do  poeta  Augusto  de \nCampos, integrante do movimento concretista. \n  \n(Augusto de Campos, Viva Vaia. Poesia: 1949-1979. São Paulo: Ateliê Editorial, \n2000, p. 116-117.)\n \n \nNesse  poema,  nota-se  uma  técnica  de  composição  que \nconsiste",
+          "files": [
+            "/data/comvest/assets/2018/15/0.jpg"
+          ],
+          "alternativesIntroduction": null,
+          "alternatives": [
+            {
+              "id": "a",
+              "label": "A",
+              "text": "na disposição arbitrária de anagramas, sem produzir uma \nrelação de sentido com o título do poema.",
+              "file": null
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "text": "na disposição exaustiva de anagramas, sem produzir uma \nrelação de sentido com o título do poema.",
+              "file": null
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "text": "na disposição arbitrária de anagramas, para produzir uma \nrelação de sentido com o título do poema.",
+              "file": null
+            },
+            {
+              "id": "d",
+              "label": "D",
+              "text": "na  disposição  exaustiva  de  anagramas,  para  produzir \numa relação de sentido com o título do poema.",
+              "file": null
+            }
+          ],
+          "answer": {
+            "optionIds": [
+              "d"
+            ]
+          }
+        },
+        "sourceSubjectIds": [
+          "portuguese"
+        ]
+      }
+    },
+    {
+      "caseId": "image-as-alternative",
+      "kind": "question",
+      "sourceFile": "2019/63.json",
+      "coverage": [
+        "image-as-alternative"
+      ],
+      "expected": {
+        "status": "published",
+        "rejection": null,
+        "question": {
+          "id": "comvest-comvest-2019-UNICAMP_2019_63",
+          "institutionId": "unicamp",
+          "examId": "comvest",
+          "editionId": "comvest-2019",
+          "year": 2019,
+          "subjectId": "mathematics",
+          "language": null,
+          "kind": "single-choice",
+          "context": "Sejam a e b números reais positivos. Considere a função\nquadrática f(x) = x(ax+b), definida para todo número\nreal x. No plano cartesiano, qual figura corresponde ao\ngráfico de y = f(𝑥)?",
+          "files": [],
+          "alternativesIntroduction": null,
+          "alternatives": [
+            {
+              "id": "a",
+              "label": "A",
+              "text": null,
+              "file": "/data/comvest/assets/2019/63/0.jpg"
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "text": null,
+              "file": "/data/comvest/assets/2019/63/1.jpg"
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "text": null,
+              "file": "/data/comvest/assets/2019/63/2.jpg"
+            },
+            {
+              "id": "d",
+              "label": "D",
+              "text": null,
+              "file": "/data/comvest/assets/2019/63/3.jpg"
+            }
+          ],
+          "answer": {
+            "optionIds": [
+              "b"
+            ]
+          }
+        },
+        "sourceSubjectIds": [
+          "mathematics"
+        ]
+      }
+    },
+    {
+      "caseId": "multidisciplinary",
+      "kind": "question",
+      "sourceFile": "2018/12.json",
+      "coverage": [
+        "multidisciplinary"
+      ],
+      "expected": {
+        "status": "published",
+        "rejection": null,
+        "question": {
+          "id": "comvest-comvest-2018-UNICAMP_2018_12",
+          "institutionId": "unicamp",
+          "examId": "comvest",
+          "editionId": "comvest-2018",
+          "year": 2018,
+          "subjectId": "portuguese",
+          "language": null,
+          "kind": "single-choice",
+          "context": "Transforma-se o amador na coisa amada, \nPor virtude do muito imaginar; \nNão tenho, logo, mais que desejar, \nPois em mim tenho a parte desejada. \n \nSe nela está minha alma transformada, \nQue mais deseja o corpo de alcançar? \nEm si somente pode descansar, \nPois com ele tal alma está liada. \n \n \nMas esta linda e pura semideia, \nQue, como o acidente em seu sujeito, \nAssim como a alma minha se conforma, \n \nEstá no pensamento como ideia; \nE o vivo e puro amor de que sou feito, \nComo a matéria simples busca a forma. \n \n(Luís  de  Camões,  Lírica:  redondilhas  e  sonetos,  Rio  de  Janeiro: \nEdiouro / São Paulo: Publifolha, 1997, p. 85.) \n \nUm dos aspectos mais importantes da lírica de Camões é a \nretomada renascentista de ideias do filósofo grego Platão. \nConsiderando  o  soneto  citado,  pode-se  dizer  que  o \nchamado “neoplatonismo” camoniano",
+          "files": [],
+          "alternativesIntroduction": null,
+          "alternatives": [
+            {
+              "id": "a",
+              "label": "A",
+              "text": "é afirmado nos dois primeiros quartetos, uma vez que a \nunião  entre  amador  e  pessoa  amada  resulta  em  uma \nalma única e perfeita.",
+              "file": null
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "text": "é confirmado nos dois últimos tercetos, uma vez que a \nbeleza  e  a  pureza  reúnem-se  finalmente  na  matéria \nsimples que deseja.",
+              "file": null
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "text": "é negado nos dois primeiros quartetos, uma vez que a \nconsequência da união entre amador e coisa amada é a \nausência de desejo.",
+              "file": null
+            },
+            {
+              "id": "d",
+              "label": "D",
+              "text": "é contrariado nos dois últimos tercetos, uma vez que a \npureza  e  a  beleza  mantêm-se  em  harmonia  na  sua \ncondição de ideia.",
+              "file": null
+            }
+          ],
+          "answer": {
+            "optionIds": [
+              "a"
+            ]
+          }
+        },
+        "sourceSubjectIds": [
+          "portuguese",
+          "history"
+        ]
+      }
+    },
+    {
+      "caseId": "unexpected-alternative-count",
+      "kind": "question",
+      "sourceFile": "2019/53.json",
+      "coverage": [
+        "unexpected-alternative-count",
+        "image-in-prompt"
+      ],
+      "expected": {
+        "status": "published",
+        "rejection": null,
+        "question": {
+          "id": "comvest-comvest-2019-UNICAMP_2019_53",
+          "institutionId": "unicamp",
+          "examId": "comvest",
+          "editionId": "comvest-2019",
+          "year": 2019,
+          "subjectId": "biology",
+          "language": null,
+          "kind": "single-choice",
+          "context": "A produção de celulose a partir da madeira vem crescendo\nno Brasil, tendo atingido um volume recorde em 2017, com\nexportações de 19,5 milhões de toneladas. As paredes das\ncélulas da madeira contêm celulose e lignina, sendo que a\nprimeira é o principal composto de interesse industrial,\nenquanto a segunda é um composto indesejável, que\nprecisa ser removido. Geralmente, a remoção da lignina\nenvolve digestão química com H_2S, um reagente altamente\npoluente.\nAs imagens apresentadas a seguir são fotos de\nmicroscopia eletrônica, em mesma escala, do tecido\nvegetal de dois tipos de madeira, que diferem com relação\nà parede celular.\n\nCada tipo (I ou II) tem ainda dois subtipos, a ou b. O\ngráfico a seguir mostra dados sobre esses subtipos de\nmadeira coletados de plantas cultivadas na mesma área\ngeográfica (solo e clima similares).\n\n(Adaptado de Gabriela Mello,Produção de celulose no Brasil cresce 3,8% em 2017\ne atinge volume recorde, diz Ibá. UOL, 31/09/2018.)\nConsiderando que as quatro amostras no gráfico provêm\nde plantas com o mesmo tempo de desenvolvimento, qual\ndelas seria mais desejável em termos industriais e\nambientais (tendo em vista a poluição e a extensão de área\nplantada)?",
+          "files": [
+            "/data/comvest/assets/2019/53/1.jpg",
+            "/data/comvest/assets/2019/53/2.jpg"
+          ],
+          "alternativesIntroduction": null,
+          "alternatives": [
+            {
+              "id": "a",
+              "label": "A",
+              "text": "Subtipo Ia.",
+              "file": null
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "text": "Subtipo Ib.",
+              "file": null
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "text": "Subtipo IIa",
+              "file": null
+            }
+          ],
+          "answer": {
+            "optionIds": [
+              "c"
+            ]
+          }
+        },
+        "sourceSubjectIds": [
+          "biology"
+        ]
+      }
+    },
+    {
+      "caseId": "empty-answer-2019",
+      "kind": "question",
+      "sourceFile": "2019/60.json",
+      "coverage": [
+        "empty-answer"
+      ],
+      "expected": {
+        "status": "rejected",
+        "question": null,
+        "rejection": {
+          "sourceId": "UNICAMP_2019_60",
+          "editionId": "comvest-2019",
+          "reason": "empty-answer",
+          "detail": "the source question has an empty answer"
+        },
+        "sourceSubjectIds": [
+          "mathematics"
+        ]
+      }
+    },
+    {
+      "caseId": "empty-answer-2021",
+      "kind": "question",
+      "sourceFile": "2021/day2/48.json",
+      "coverage": [
+        "empty-answer",
+        "formula"
+      ],
+      "expected": {
+        "status": "rejected",
+        "question": null,
+        "rejection": {
+          "sourceId": "UNICAMP_2021_48",
+          "editionId": "comvest-2021-day2",
+          "reason": "empty-answer",
+          "detail": "the source question has an empty answer"
+        },
+        "sourceSubjectIds": [
+          "mathematics"
+        ]
+      }
+    },
+    {
+      "caseId": "alternative-image-count-unsupported",
+      "kind": "question",
+      "sourceFile": "2021/day1/41.json",
+      "coverage": [
+        "alternative-image-count-unsupported"
+      ],
+      "expected": {
+        "status": "rejected",
+        "question": null,
+        "rejection": {
+          "sourceId": "UNICAMP_2021_41",
+          "editionId": "comvest-2021-day1",
+          "reason": "alternative-image-count-unsupported",
+          "detail": "alternative \"a\" references 3 images"
+        },
+        "sourceSubjectIds": [
+          "chemistry"
+        ]
+      }
+    },
+    {
+      "caseId": "unreferenced-associated-image",
+      "kind": "question",
+      "sourceFile": "2021/day2/68.json",
+      "coverage": [
+        "unreferenced-associated-image"
+      ],
+      "expected": {
+        "status": "rejected",
+        "question": null,
+        "rejection": {
+          "sourceId": "UNICAMP_2021_68",
+          "editionId": "comvest-2021-day2",
+          "reason": "unreferenced-associated-image",
+          "detail": "associated image not referenced by any [IMAGE n]: imgs/UNICAMP/2021/day2/68/2.jpg"
+        },
+        "sourceSubjectIds": [
+          "geography"
+        ]
+      }
+    },
+    {
+      "caseId": "id-collision-2021",
+      "kind": "batch",
+      "sourceFiles": [
+        "2021/day1/1.json",
+        "2021/day2/1.json"
+      ],
+      "coverage": [
+        "id-collision-2021"
+      ],
+      "availableImageFiles": [],
+      "expected": {
+        "packages": [
+          {
+            "editionId": "comvest-2021-day1",
+            "questionIds": [
+              "comvest-comvest-2021-day1-UNICAMP_2021_1"
+            ]
+          },
+          {
+            "editionId": "comvest-2021-day2",
+            "questionIds": [
+              "comvest-comvest-2021-day2-UNICAMP_2021_1"
+            ]
+          }
+        ],
+        "rejections": [],
+        "referencedAssets": [
+          "/data/comvest/assets/2021/day1/1/0.jpg"
+        ],
+        "ignoredAssets": []
+      }
+    },
+    {
+      "caseId": "orphan-assets",
+      "kind": "batch",
+      "sourceFiles": [
+        "2021/day1/33.json",
+        "2021/day1/35.json",
+        "2021/day1/38.json"
+      ],
+      "coverage": [
+        "orphan-assets"
+      ],
+      "availableImageFiles": [
+        "imgs/UNICAMP/2021/day1/33/0.jpg",
+        "imgs/UNICAMP/2021/day1/35/1.jpg",
+        "imgs/UNICAMP/2021/day1/38/1.jpg",
+        "imgs/UNICAMP/2021/day1/38/2.jpg",
+        "imgs/UNICAMP/2021/day1/38/3.jpg",
+        "imgs/UNICAMP/2021/day1/38/4.jpg"
+      ],
+      "expected": {
+        "packages": [
+          {
+            "editionId": "comvest-2021-day1",
+            "questionIds": [
+              "comvest-comvest-2021-day1-UNICAMP_2021_33",
+              "comvest-comvest-2021-day1-UNICAMP_2021_35",
+              "comvest-comvest-2021-day1-UNICAMP_2021_38"
+            ]
+          }
+        ],
+        "rejections": [],
+        "referencedAssets": [],
+        "ignoredAssets": [
+          {
+            "path": "imgs/UNICAMP/2021/day1/33/0.jpg",
+            "reason": "orphan-file"
+          },
+          {
+            "path": "imgs/UNICAMP/2021/day1/35/1.jpg",
+            "reason": "orphan-file"
+          },
+          {
+            "path": "imgs/UNICAMP/2021/day1/38/1.jpg",
+            "reason": "orphan-file"
+          },
+          {
+            "path": "imgs/UNICAMP/2021/day1/38/2.jpg",
+            "reason": "orphan-file"
+          },
+          {
+            "path": "imgs/UNICAMP/2021/day1/38/3.jpg",
+            "reason": "orphan-file"
+          },
+          {
+            "path": "imgs/UNICAMP/2021/day1/38/4.jpg",
+            "reason": "orphan-file"
+          }
+        ]
+      }
+    }
+  ]
+}

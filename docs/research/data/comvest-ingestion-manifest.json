@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "manifestId": "comvest-bluex-first-phase",
+  "manifestVersion": 1,
+  "generatedFrom": {
+    "inventory": "docs/research/data/comvest-unicamp-bluex-inventory.json",
+    "importReport": "docs/research/data/comvest-unicamp-import-report.json",
+    "research": "docs/research/comvest-unicamp-inventory.md"
+  },
+  "reference": {
+    "kind": "bluex-objective",
+    "dataset": "Portuguese-Benchmark-Datasets/BLUEX",
+    "uri": "data/bluex_dataset.zip",
+    "revision": "6cdd69bd8dc8d0144e6bb01501ccae312720a0e6",
+    "sha256": "5a02d9fcd5714332ea14afd2c412fb1839a7af518b1c6bd29008ad9b8ccf55d2"
+  },
+  "editions": [
+    {
+      "board": "comvest",
+      "phase": 1,
+      "acceptedKind": "single-choice",
+      "institutionId": "unicamp",
+      "institutionName": "Universidade Estadual de Campinas (Comvest)",
+      "examId": "comvest",
+      "examName": "Comvest — Vestibular Unicamp",
+      "editionId": "comvest-2018",
+      "editionLabel": "Vestibular Unicamp 2018",
+      "year": 2018,
+      "day": null,
+      "layoutProfile": {
+        "id": "comvest-bluex-objective",
+        "version": 1
+      },
+      "sourceQuestionsPath": "questions/UNICAMP/2018"
+    },
+    {
+      "board": "comvest",
+      "phase": 1,
+      "acceptedKind": "single-choice",
+      "institutionId": "unicamp",
+      "institutionName": "Universidade Estadual de Campinas (Comvest)",
+      "examId": "comvest",
+      "examName": "Comvest — Vestibular Unicamp",
+      "editionId": "comvest-2019",
+      "editionLabel": "Vestibular Unicamp 2019",
+      "year": 2019,
+      "day": null,
+      "layoutProfile": {
+        "id": "comvest-bluex-objective",
+        "version": 1
+      },
+      "sourceQuestionsPath": "questions/UNICAMP/2019"
+    },
+    {
+      "board": "comvest",
+      "phase": 1,
+      "acceptedKind": "single-choice",
+      "institutionId": "unicamp",
+      "institutionName": "Universidade Estadual de Campinas (Comvest)",
+      "examId": "comvest",
+      "examName": "Comvest — Vestibular Unicamp",
+      "editionId": "comvest-2020",
+      "editionLabel": "Vestibular Unicamp 2020",
+      "year": 2020,
+      "day": null,
+      "layoutProfile": {
+        "id": "comvest-bluex-objective",
+        "version": 1
+      },
+      "sourceQuestionsPath": "questions/UNICAMP/2020"
+    },
+    {
+      "board": "comvest",
+      "phase": 1,
+      "acceptedKind": "single-choice",
+      "institutionId": "unicamp",
+      "institutionName": "Universidade Estadual de Campinas (Comvest)",
+      "examId": "comvest",
+      "examName": "Comvest — Vestibular Unicamp",
+      "editionId": "comvest-2021-day1",
+      "editionLabel": "Vestibular Unicamp 2021 — dia 1",
+      "year": 2021,
+      "day": 1,
+      "layoutProfile": {
+        "id": "comvest-bluex-objective",
+        "version": 1
+      },
+      "sourceQuestionsPath": "questions/UNICAMP/2021/day1"
+    },
+    {
+      "board": "comvest",
+      "phase": 1,
+      "acceptedKind": "single-choice",
+      "institutionId": "unicamp",
+      "institutionName": "Universidade Estadual de Campinas (Comvest)",
+      "examId": "comvest",
+      "examName": "Comvest — Vestibular Unicamp",
+      "editionId": "comvest-2021-day2",
+      "editionLabel": "Vestibular Unicamp 2021 — dia 2",
+      "year": 2021,
+      "day": 2,
+      "layoutProfile": {
+        "id": "comvest-bluex-objective",
+        "version": 1
+      },
+      "sourceQuestionsPath": "questions/UNICAMP/2021/day2"
+    },
+    {
+      "board": "comvest",
+      "phase": 1,
+      "acceptedKind": "single-choice",
+      "institutionId": "unicamp",
+      "institutionName": "Universidade Estadual de Campinas (Comvest)",
+      "examId": "comvest",
+      "examName": "Comvest — Vestibular Unicamp",
+      "editionId": "comvest-2022",
+      "editionLabel": "Vestibular Unicamp 2022",
+      "year": 2022,
+      "day": null,
+      "layoutProfile": {
+        "id": "comvest-bluex-objective",
+        "version": 1
+      },
+      "sourceQuestionsPath": "questions/UNICAMP/2022"
+    },
+    {
+      "board": "comvest",
+      "phase": 1,
+      "acceptedKind": "single-choice",
+      "institutionId": "unicamp",
+      "institutionName": "Universidade Estadual de Campinas (Comvest)",
+      "examId": "comvest",
+      "examName": "Comvest — Vestibular Unicamp",
+      "editionId": "comvest-2023",
+      "editionLabel": "Vestibular Unicamp 2023",
+      "year": 2023,
+      "day": null,
+      "layoutProfile": {
+        "id": "comvest-bluex-objective",
+        "version": 1
+      },
+      "sourceQuestionsPath": "questions/UNICAMP/2023"
+    },
+    {
+      "board": "comvest",
+      "phase": 1,
+      "acceptedKind": "single-choice",
+      "institutionId": "unicamp",
+      "institutionName": "Universidade Estadual de Campinas (Comvest)",
+      "examId": "comvest",
+      "examName": "Comvest — Vestibular Unicamp",
+      "editionId": "comvest-2024",
+      "editionLabel": "Vestibular Unicamp 2024",
+      "year": 2024,
+      "day": null,
+      "layoutProfile": {
+        "id": "comvest-bluex-objective",
+        "version": 1
+      },
+      "sourceQuestionsPath": "questions/UNICAMP/2024"
+    }
+  ]
+}
