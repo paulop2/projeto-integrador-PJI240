@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T04:08:35.109Z",
+  "generatedAt": "2026-09-11T04:41:04.535Z",
   "institutions": [
     {
       "id": "inep",
@@ -9,6 +9,10 @@
     {
       "id": "unicamp",
       "name": "Universidade Estadual de Campinas (Comvest)"
+    },
+    {
+      "id": "usp",
+      "name": "Universidade de São Paulo (Fuvest)"
     }
   ],
   "exams": [
@@ -22,6 +26,12 @@
       "id": "enem",
       "institutionId": "inep",
       "name": "ENEM",
+      "category": "vestibular"
+    },
+    {
+      "id": "fuvest",
+      "institutionId": "usp",
+      "name": "Fuvest — Vestibular USP",
       "category": "vestibular"
     }
   ],
@@ -85,6 +95,48 @@
       "examId": "enem",
       "label": "ENEM 2023",
       "year": 2023
+    },
+    {
+      "id": "fuvest-2018",
+      "examId": "fuvest",
+      "label": "Vestibular USP 2018",
+      "year": 2018
+    },
+    {
+      "id": "fuvest-2019",
+      "examId": "fuvest",
+      "label": "Vestibular USP 2019",
+      "year": 2019
+    },
+    {
+      "id": "fuvest-2020",
+      "examId": "fuvest",
+      "label": "Vestibular USP 2020",
+      "year": 2020
+    },
+    {
+      "id": "fuvest-2021",
+      "examId": "fuvest",
+      "label": "Vestibular USP 2021",
+      "year": 2021
+    },
+    {
+      "id": "fuvest-2022",
+      "examId": "fuvest",
+      "label": "Vestibular USP 2022",
+      "year": 2022
+    },
+    {
+      "id": "fuvest-2023",
+      "examId": "fuvest",
+      "label": "Vestibular USP 2023",
+      "year": 2023
+    },
+    {
+      "id": "fuvest-2024",
+      "examId": "fuvest",
+      "label": "Vestibular USP 2024",
+      "year": 2024
     }
   ],
   "subjects": [
@@ -371,6 +423,177 @@
         "ciencias-natureza",
         "linguagens",
         "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "fuvest-2018",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "url": "/data/fuvest/fuvest-2018.json",
+      "version": 1,
+      "sha256": "sha256:20d95be7b4d83efa244db1b610f05fe03ec05f1873eba12262cc0c28dcaa72e7",
+      "byteSize": 179590,
+      "questionCount": 87,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "fuvest-2019",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2019",
+      "url": "/data/fuvest/fuvest-2019.json",
+      "version": 1,
+      "sha256": "sha256:4549cf3a9cd0209aea416bf20109f8179daa6f76c4907c8bd65e470a7d51e3ca",
+      "byteSize": 179122,
+      "questionCount": 90,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "fuvest-2020",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "url": "/data/fuvest/fuvest-2020.json",
+      "version": 1,
+      "sha256": "sha256:d48e57d00bfd937e7188ad930aa1c929b360ac23fade7a45190732bc20e77204",
+      "byteSize": 188011,
+      "questionCount": 89,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "fuvest-2021",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "url": "/data/fuvest/fuvest-2021.json",
+      "version": 1,
+      "sha256": "sha256:e70bb747701e5042aa035adbe16973b4fc4d7dc4de3ce567cbde54da36ac8d2f",
+      "byteSize": 183259,
+      "questionCount": 89,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "fuvest-2022",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "url": "/data/fuvest/fuvest-2022.json",
+      "version": 1,
+      "sha256": "sha256:39de68f3b998d3e7d74ad01e56e2c90ff84372c8c93225a23ff772cb7d9d9215",
+      "byteSize": 189374,
+      "questionCount": 88,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "philosophy",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "fuvest-2023",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2023",
+      "url": "/data/fuvest/fuvest-2023.json",
+      "version": 1,
+      "sha256": "sha256:4c2c5fbfb503baaf29908cb9093eb02218aa34a518bf897ad2f3045a85e7b9f9",
+      "byteSize": 185692,
+      "questionCount": 87,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "philosophy",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "fuvest-2024",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2024",
+      "url": "/data/fuvest/fuvest-2024.json",
+      "version": 1,
+      "sha256": "sha256:0a60131b9dab0888a03b45f1253a6da2a167fef6e9ef3b3d2888fbdcc40ab384",
+      "byteSize": 210312,
+      "questionCount": 90,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "philosophy",
+        "physics",
+        "portuguese"
       ],
       "questionKinds": [
         "single-choice"

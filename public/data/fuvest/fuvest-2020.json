@@ -1,0 +1,4527 @@
+{
+  "schemaVersion": 1,
+  "packageId": "fuvest-2020",
+  "institutionId": "usp",
+  "examId": "fuvest",
+  "editionId": "fuvest-2020",
+  "questions": [
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_1",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: \n \nTemperatura de fusão da sacarose à pressão ambiente = 186 °C; \nSolubilidade da sacarose a 20 °C = 1,97 kg/L de água.\n\nEm  Xangai,  uma  loja \nespecializada em café oferece \numa  opção  diferente  para \nadoçar  a  bebida.  A  chamada \nsweet  little  rain  consiste  em \numa xícara de café sobre a qual \né pendurado um algodão‐doce, \nmaterial  rico  em  sacarose,  o \nque  passa  a  impressão  de \nexistir  uma  nuvem  pairando \nsobre  o  café,  conforme \nilustrado na imagem. \nDisponível em https://www.boredpanda.com/. \nO café quente é então adicionado na xícara e, passado um \ntempo, gotículas começam a pingar sobre a bebida, simulando \numa chuva doce e reconfortante. A adição de café quente inicia \no processo descrito, pois",
+      "files": [
+        "/data/fuvest/assets/2020/1/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a  temperatura  do  café  é  suficiente  para  liquefazer  a \nsacarose do algodão‐doce, fazendo com que este goteje \nna forma de sacarose líquida.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o vapor de água que sai do café quente irá condensar na \nsuperfície do algodão‐doce, gotejando na forma de água \npura.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a  sacarose  que  evapora  do  café  quente  condensa  na \nsuperfície  do algodão‐doce e  goteja na  forma  de  uma \nsolução de sacarose em água.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o vapor de água encontra o algodão‐doce e solubiliza a \nsacarose, que goteja na forma de uma solução de sacarose \nem água.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o vapor de água encontra o algodão‐doce e vaporiza a \nsacarose, que goteja na forma de uma solução de sacarose \nem água.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_2",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e Adote: Entalpia de vaporização da água a 100 °C = 40 kJ/mol; \nMassa molar da água = 18 g/mol, Densidade da água = 1 g/mL. \nEquipamentos  domésticos  chamados  de  vaporizadores  para \nroupa  utilizam  o  vapor  de  água  gerado  por  um  sistema  de \nresistências elétricas a partir de água líquida. Um equipamento \ncom  potência  nominal  de  1.600  W  foi  utilizado  para  passar \nroupas por 20 minutos, consumindo 540 mL de água. Em relação \nao gasto total de energia do equipamento, o gasto de energia \nutilizado apenas para vaporizar a água, após ela já ter atingido a \ntemperatura de ebulição, equivale a, aproximadamente,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,04%.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0,062%.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "4,6%.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "40%.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "62%.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_3",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Pesquisadores (...) conseguiram controlar reações químicas de \num modo inovador. Usaram feixes de laser para promover um \nesbarrão entre dois átomos e uni‐los, criando uma molécula.   \nUtilizando pinças ópticas (feixes de laser altamente focados   \ncapazes  de  aprisionar  objetos  microscópicos),  os \npesquisadores empurraram um átomo do elemento químico   \ncésio (Cs) contra um átomo de sódio (Na) até que colidissem.   \nUm  terceiro  laser  foi  lançado  sobre  ambos,  fornecendo   \nenergia extra para criar a molécula NaCs. Na natureza, as   \nmoléculas formam‐se a partir da interação de átomos por  10 \nacaso. Por suas características químicas, césio e sódio jamais   \noriginariam uma molécula espontaneamente. (...)   \nMolécula criada em laboratório. Disponível em http://revistapesquisa.fapesp.br/. \nAdaptado. \nCom  base  nas  informações  do  texto  e  em  seus \nconhecimentos, é correto afirmar que",
+      "files": [
+        "/data/fuvest/assets/2020/3/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o Cs é um elemento químico radioativo e, devido a essa \ncaracterística química, a molécula de NaCs não se formaria \nsem  esse  modo  inovador  (L.2),  que  estabiliza  o \ndecaimento.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o raio atômico do Na é maior que o do Cs, portanto, a sua \nenergia de ionização também é maior. O esbarrão (L.3) entre \nos átomos retira um elétron do Na, permitindo a ligação.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o terceiro laser (L.8) usado no experimento serviu para \nretirar  um  nêutron  do  Cs,  tornando‐o  um  cátion  e \npossibilitando a reação com o Na.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "na  natureza,  com  esses  elementos  se  esbarrando  por \nacaso  (L.10‐11),  a  tendência  seria  formar  CsNa,  e  não \nNaCs, justificando o caráter inovador do experimento.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o Cs e o Na não formariam uma molécula espontaneamente \n(L.11‐12),  uma  vez  que  ambos  têm  grande  tendência  a \nformarem cátions e ligações iônicas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_4",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: \n \nMassas molares (g/mol): \nLicopeno = 537; betanina = 551.\nAo se preparar molho de tomate (considere apenas a fervura \nde tomate batido com água e azeite), é possível observar que \na fração aquosa (fase inferior) fica vermelha logo no início e a \nfração  oleosa  (fase  superior),  inicialmente  com  a  cor \ncaracterística  do  azeite,  começa  a  ficar  avermelhada \nconforme o preparo do molho. Por outro lado, ao se preparar \numa  sopa  de  beterraba  (considere  apenas  a  fervura  de \nbeterraba batida com água e azeite), a fração aquosa (fase \ninferior) fica com a cor rosada e a fração oleosa (fase superior) \npermanece com sua coloração típica durante todo o processo, \nnão tendo sua cor alterada. \n  \nConsiderando as  informações  apresentadas  no  texto e no \nquadro,  a  principal  razão  para  a  diferença  de  coloração \ndescrita é que a fração oleosa",
+      "files": [
+        "/data/fuvest/assets/2020/4/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "fica mais quente do que a aquosa, degradando a betanina; \no mesmo não é observado com o licopeno, devido à sua \ncadeia carbônica longa.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "está mais exposta ao ar, que oxida a betanina; o mesmo \nnão  é  observado  com  o  licopeno,  devido  à  grande \nquantidade de duplas ligações.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "é apolar e a betanina, polar, havendo pouca interação; o \nmesmo não é observado com o licopeno, que é apolar e \nirá interagir com o azeite.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "é apolar e a aquosa, polar, mantendo‐se separadas; o \nlicopeno age como um surfactante misturando as fases, \ncolorindo a oleosa, enquanto a betanina não.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "tem alta viscosidade, facilitando a difusão do licopeno, \ncomposto  de  menor  massa  molar;  o  mesmo  não  é \nobservado para a betanina, com maior massa.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_5",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Numa  determinada  condição  experimental  e  com  o \ncatalisador  adequado,  ocorre  uma  reação,  conforme \nrepresentada  no  gráfico,  que  relaciona  porcentagem  do \ncomposto pelo tempo de reação. \n  \nUma representação adequada para esse processo é:",
+      "files": [
+        "/data/fuvest/assets/2020/5/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "limoneno  ⇌  p-cimeno -> α-terpineno",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "limoneno  (com p-cimeno catalisador) -> α-terpineno",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "limoneno + p-cimeno ⇌ α-terpineno",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "limoneno  ( com α-terpineno catalisador) -> p-cimeno",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "limoneno -> p-cimeno -> α-terpineno",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_6",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: Número de Avogadro = 6 x 10^(23) \nOs  chamados  \"remédios  homeopáticos\"  são  produzidos \nseguindo  a  farmacotécnica  homeopática,  que  se  baseia  em \ndiluições sequenciais de determinados compostos naturais. A \ndosagem utilizada desses produtos é da ordem de poucos mL. \nUma das técnicas de diluição homeopática é chamada de diluição \ncentesimal (CH), ou seja, uma parte da solução é diluída em 99 \npartes de solvente e a \nsolução  resultante  é \nhomogeneizada  (ver \nesquema). \nAlguns desses produtos \nhomeopáticos são pro‐\nduzidos  com  até  200 \ndiluições  centesimais \nsequenciais (200CH). \n  \nConsiderando  uma  solução  de  partida  de  100 mL  com \nconcentração 1 mol/L de princípio ativo, a partir de qual diluição \ncentesimal a solução passa a não ter, em média, nem mesmo \numa molécula do princípio ativo?",
+      "files": [
+        "/data/fuvest/assets/2020/6/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "12ªdiluição (12CH).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "24ª diluição (24CH).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "51ª diluição (51CH).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "99ª diluição (99CH).",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "200ª diluição (200CH).",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_7",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O gás hélio disponível comercialmente pode ser gerado pelo \ndecaimento  radioativo,  sobretudo  do  urânio,  conforme \nesquematizado pela série de decaimento. Desde a formação \nda Terra, há 4,5 bilhões de anos, apenas metade do ²³⁸U \ndecaiu para a formação de He. \n \nCom base nessas informações e em seus conhecimentos, é \ncorreto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2020/7/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O decaimento de um átomo de ²³⁸U produz, ao final da \nsérie de decaimento, apenas um átomo de He.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O decaimento do ²³⁸U para ²³⁴U gera a mesma quantidade \nde He que o decaimento do ²³⁴U para ²³⁰th.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Daqui a 4,5 bilhões de anos, a quantidade de He no planeta \nTerra será o dobro da atual.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O decaimento do ²³⁸U para ²³⁴U gera a mesma quantidade \nde He que o decaimento do ²¹⁴Pb para ²¹⁴Po.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A produção de He ocorre pela sequência de decaimento a \npartir do ²⁰⁶Pb.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_9",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Quando o nosso corpo é lesionado por uma pancada, logo se \ncria um hematoma que, ao longo do tempo, muda de cor. \nInicialmente,  o  hematoma  torna‐se  avermelhado  pelo \nacúmulo de hemoglobina. Em seguida, surge uma coloração \nazulada, decorrente da perda do O  ligado ao Fe do grupo \n2\nheme.  Essa  coloração  torna‐se,  então,  esverdeada \n(biliverdina) e, após isso, surge um tom amarelado na pele \n(bilirrubina).  Essa  sequência  de  cores  ocorre  pela \ntransformação  do  grupo  heme  da  hemoglobina,  como \nrepresentado a seguir: \n  \nCom base nas informações e nas representações, é correto \nafirmar:",
+      "files": [
+        "/data/fuvest/assets/2020/9/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A conversão da biliverdina em bilirrubina ocorre por meio \nde uma redução.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A  biliverdina,  assim  como  a  hemoglobina,  é  capaz  de \ntransportar O  para as células do corpo, pois há oxigênio \n2\nligado na molécula.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "As três estruturas apresentadas contêm o grupo funcional \namida.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A  degradação  do  grupo  heme  para  a  formação  da \nbiliverdina produz duas cetonas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "O grupo heme, a biliverdina e a bilirrubina são isômeros.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_10",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  reação  de  cetonas  com  hidrazinas,  representada  pela \nequação química \n  \npode ser explorada para a quantificação de compostos cetônicos \ngerados, por exemplo, pela respiração humana. Para tanto, uma \nhidrazina  específica,  a  2,4‐dinitrofenilhidrazina,  é  utilizada \ncomo reagente, gerando um produto que possui cor intensa. \n  \nConsidere que a 2,4‐dinitrofenilhidrazina seja utilizada para \nquantificar o seguinte composto: \n  \nNesse caso, a estrutura do composto colorido formado será:",
+      "files": [
+        "/data/fuvest/assets/2020/10/0.jpg",
+        "/data/fuvest/assets/2020/10/1.jpg",
+        "/data/fuvest/assets/2020/10/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/10/3.png"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/10/4.png"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/10/5.png"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/10/6.png"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/10/7.png"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_11",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em supermercados, é comum encontrar alimentos chamados \nde  liofilizados,  como  frutas,  legumes  e  carnes.  Alimentos \nliofilizados  continuam  próprios  para  consumo  após  muito \ntempo, mesmo sem refrigeração. O termo \"liofilizado\", nesses \nalimentos, refere‐se ao processo de congelamento e posterior \ndesidratação por sublimação da água. Para que a sublimação \nda água ocorra, é necessária uma combinação de condições, \ncomo mostra o gráfico de pressão por temperatura, em que \nas linhas representam transições de fases.\n \nApesar de ser um processo que requer, industrialmente, uso \nde certa tecnologia, existem evidências de que os povos pré‐\ncolombianos que viviam nas regiões mais altas dos Andes \nconseguiam liofilizar alimentos, possibilitando estocá‐los por \nmais tempo. Assinale a alternativa que explica como ocorria o \nprocesso de liofilização natural:",
+      "files": [
+        "/data/fuvest/assets/2020/11/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A  sublimação  da  água  ocorria  devido  às  baixas \ntemperaturas e à alta pressão atmosférica nas montanhas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Os alimentos, após congelados naturalmente nos períodos \nfrios, eram levados para a parte mais baixa das montanhas, \nonde a pressão atmosférica era menor, o que possibilitava \na sublimação.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Os  alimentos  eram  expostos  ao  sol  para  aumentar  a \ntemperatura, e a baixa pressão atmosférica local favorecia \na solidificação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "As temperaturas eram baixas o suficiente nos períodos \nfrios  para  congelar  os  alimentos,  e  a  baixa  pressão \natmosférica  nas  altas  montanhas  possibilitava  a \nsublimação.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Os  alimentos,  após  congelados  naturalmente,  eram \nprensados  para  aumentar  a  pressão,  de  forma  que  a \nsublimação ocorresse.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_12",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote:  \nConsidere a seguinte relação entre pH do meio e coloração do indicador \nalaranjado de metila: \n  Menor que 3,3 -> vermelho\n 3,3 a 4,4 -> laranja \n Maior que 4,4 -> Amarelo\nPara exemplificar probabilidade, um grupo de estudantes fez \numa  atividade  envolvendo  química,  conforme  o \nprocedimento descrito. \nCada estudante recebeu um recipiente contendo 800 mL de \nágua  destilada  com  algumas  gotas  do  indicador  de  pH \nalaranjado de metila e soluções de HCl e NaOH em diversas \nconcentrações. \nCada estudante deveria jogar apenas uma vez dois dados, um \namarelo e um vermelho, ambos contendo os números de 1 a 6. \n• Ao jogar o dado vermelho, o estudante deveria adicionar ao \nrecipiente  100  mL  de  solução  do  ácido  clorídrico  na \nconcentração 10^(−n) mol/L, sendo n o número marcado no dado \n(por exemplo, se saísse o número 1 no dado, a solução seria \nde 10^(−1) mol/L; se saísse 6, a solução seria de 10^(−6) mol/L). \n• Ao jogar o dado amarelo, o estudante deveria executar o \nmesmo procedimento, mas substituindo o ácido por NaOH, \ntotalizando assim 1,0 L de solução.  \n• O estudante deveria observar a cor da solução ao final do \nexperimento. \nA  professora mostrou  a tabela  com  alguns  valores  de  pH \nresultantes  conforme  os  números  tirados  nos  dados.  Ela \npediu,  então,  aos  estudantes  que  utilizassem  seus \nconhecimentos e a tabela para prever em quais combinações \nde dados a cor final do indicador seria vermelha.\n  \nA probabilidade de, após realizar o procedimento descrito, a \nsolução final preparada por um estudante ser vermelha é de:",
+      "files": [
+        "/data/fuvest/assets/2020/12/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1/12",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1/6",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1/4",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "11/36",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "5/12",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_13",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Carros que saem da cidade A rumo a alguma das cidades \nturísticas E, F e G fazem caminhos diversos, passando por pelo \nmenos uma das cidades B, C e D, apenas no sentido indicado \npelas setas, como mostra a figura. Os números indicados nas \nsetas são as probabilidades, dentre esses carros, de se ir de \numa cidade a outra.\n  \nNesse cenário, a probabilidade de um carro ir de A a F é",
+      "files": [
+        "/data/fuvest/assets/2020/13/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,120.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0,216.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "0,264.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "0,336.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "0,384.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_14",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Se, em 15 anos, o salário mínimo teve um aumento nominal \nde 300% e a inflação foi de 100%, é correto afirmar que o \naumento real do salário mínimo, nesse período, foi de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "50%.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "100%.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "150%.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "200%.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "250%.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_15",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: \nπ = 3,14.\n \nO cilindro de papelão central de uma fita crepe tem raio \nexterno de 3 cm. A fita tem espessura de 0,01 cm e dá 100 \nvoltas  completas.  Considerando  que,  a  cada  volta,  o  raio \nexterno  do  rolo  é \naumentado  no  valor  da \nespessura  da  fita,  o \ncomprimento total da fita \né de, aproximadamente,",
+      "files": [
+        "/data/fuvest/assets/2020/15/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "9,4 m.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "11,0 m.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "18,8 m.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "22,0 m.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "25,1 m.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_16",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um objeto é formado por 4 hastes rígidas conectadas em seus \nextremos por articulações, cujos centros são os vértices de um \nparalelogramo. As hastes movimentam-se de tal forma que o \nparalelogramo permanece sempre no mesmo plano. A cada \nconfiguração desse objeto, associa-se θ, a medida do menor \nângulo interno do paralelogramo. A área da região delimitada \npelo paralelogramo quando θ = 90° é A.\n  \nPara que a área da região delimitada pelo paralelogramo seja \nA/2, o valor de θ é, necessariamente, igual a",
+      "files": [
+        "/data/fuvest/assets/2020/16/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "15°.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "22,5°.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "30°.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "45°.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "60°.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_17",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A menor esfera na qual um paralelepípedo reto‐retângulo de \nmedidas 7 cm × 4 cm × 4 cm está inscrito tem diâmetro de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "9 cm.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "10 cm.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "11 cm.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "12 cm.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "15 cm.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_18",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  dona  de  uma  lanchonete  observou  que,  vendendo  um \ncombo a R$ 10,00, 200 deles são vendidos por dia, e que, para \ncada redução de R$ 1,00 nesse preço, ela vende 100 combos \na mais. Nessas condições, qual é a máxima arrecadação diária \nque ela espera obter com a venda desse combo?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "R$ 2.000,00",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "R$ 3.200,00",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "R$ 3.600,00",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "R$ 4.000,00",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "R$ 4.800,00",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_19",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A função E de Euler determina, para cada número natural n, a \nquantidade  de  números  naturais  menores  do  que  n  cujo \nmáximo  divisor  comum  com  n  é  igual  a  1.  Por  exemplo, \nE (6) = 2  pois  os  números  menores  do  que  6  com  tal \npropriedade são 1 e 5. Qual o valor máximo de E(n), para n de \n20 a 25?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "19",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "20",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "22",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "24",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "25",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_20",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Se 3x^2 - 9x + 7 = (x-a)^3 - (x-b)^3, para todo número \nreal x, o valor de a+b é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "5.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "6.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "9.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "12.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_21",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma agência de turismo vendeu um total de 78 passagens \npara os destinos: Lisboa, Paris e Roma. Sabe-se que o número \nde passagens vendidas para Paris foi o dobro do número de \npassagens  vendidas  para  os  outros  dois  destinos \nconjuntamente.  Sabe-se  também  que,  para  Roma,  foram \nvendidas duas passagens a mais que a metade das vendidas \npara  Lisboa.  Qual  foi  o  total  de  passagens  vendidas, \nconjuntamente, para Paris e Roma?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "26",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "38",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "42",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "62",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "68",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_22",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um ponto (x,y) do plano cartesiano pertence ao conjunto F \nse é equidistante dos eixos OX e OY e (cid:1841)(cid:1851) e pertence ao círculo de \nequação x^2 + y^2 -2x -6y + 2 = 0. É correto afirmar que F",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "é um conjunto vazio.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "tem exatamente 2 pontos, um no primeiro quadrante e \noutro no segundo quadrante.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "tem exatamente 2 pontos, ambos no primeiro quadrante.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "tem  exatamente  3  pontos,  sendo  dois  no  primeiro \nquadrante e outro no segundo quadrante.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "tem  exatamente  4  pontos,  sendo  dois  no  primeiro \nquadrante e dois no segundo quadrante.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_23",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma cidade é dividida em dois Setores: o Setor Sul, com área \nde 10 km2, e o Setor Norte, com área de 30 km2. Após um final \nde  semana,  foram  divulgados  os  seguintes  totais \npluviométricos: \nDia  Sul  Norte \nsábado  7 mm  11 mm \ndomingo  9 mm  17 mm \nÉ correto afirmar que o total pluviométrico desse final de \nsemana na cidade inteira foi de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "15 mm.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "17 mm.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "22 mm.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "25 mm.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "28 mm.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_24",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Bill Waterson, Calvin and Hobbes. Disponível em https://www.gocomics.com/. \nAs possíveis soluções, em polegadas (inches, em inglês), para \no problema matemático proposto no quadrinho, no caso em \nque os pontos A, B e C estão em uma mesma reta, são",
+      "files": [
+        "/data/fuvest/assets/2020/24/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "10/3 e 10.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "10/3, 5 e 10",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "5/3,10/3 e 10",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "5/3 e 10",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "10/3 e 5",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_25",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Assigning  female  genders  to  digital  assistants  such  as \nApple's Siri and Amazon's Alexa is helping entrench harmful \ngender biases, according to a UN agency. \nResearch  released  by  Unesco  claims  that  the  often \nsubmissive and flirty responses offered by the systems to many \nqueries – including outright abusive ones – reinforce ideas of \nwomen as subservient. \n\"Because the speech of most voice assistants is female, it \nsends a signal that women are obliging, docile and eager‐to‐\nplease helpers, available at the touch of a button or with a \nblunt voice command like 'hey' or 'OK'\", the report said. \n\"The assistant holds no power of agency beyond what the \ncommander asks of it. It honours commands and responds to \nqueries  regardless  of  their  tone  or  hostility.  In  many \ncommunities, this  reinforces  commonly  held  gender  biases \nthat women are subservient and tolerant of poor treatment.\" \nThe Unesco publication was entitled \"I'd Blush if I Could\"; \na reference to the response Apple's Siri assistant offers to the \nphrase: \"You're a slut.\" Amazon's Alexa will respond: \"Well, \nthanks for the feedback.\" \nThe paper said such firms were \"staffed by overwhelmingly \nmale  engineering  teams\"  and  have  built  AI  (Artificial \nIntelligence)  systems  that  \"cause  their  feminised  digital \nassistants  to  greet  verbal  abuse  with  catch‐me‐if‐you‐can \nflirtation\". \nSaniye Gülser Corat, Unesco's director for gender equality, \nsaid: \"The world needs to pay much closer attention to how, \nwhen  and  whether  AI  technologies  are  gendered  and, \ncrucially, who is gendering them.\" \nThe Guardian, May, 2019. Adaptado.\nConforme  o  texto,  em  relação  às  mulheres,  um  efeito \ndecorrente  do  fato  de  assistentes  digitais  reforçarem \nestereótipos de gênero é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a inclusão de uma única voz nos dispositivos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a normalização de formas de assédio sexista.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o poder de influência positiva sobre as pessoas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o incremento de vendas e customização de robôs.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a busca por formas que reflitam problemas sociais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_26",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Assigning  female  genders  to  digital  assistants  such  as \nApple's Siri and Amazon's Alexa is helping entrench harmful \ngender biases, according to a UN agency. \nResearch  released  by  Unesco  claims  that  the  often \nsubmissive and flirty responses offered by the systems to many \nqueries – including outright abusive ones – reinforce ideas of \nwomen as subservient. \n\"Because the speech of most voice assistants is female, it \nsends a signal that women are obliging, docile and eager‐to‐\nplease helpers, available at the touch of a button or with a \nblunt voice command like 'hey' or 'OK'\", the report said. \n\"The assistant holds no power of agency beyond what the \ncommander asks of it. It honours commands and responds to \nqueries  regardless  of  their  tone  or  hostility.  In  many \ncommunities, this  reinforces  commonly  held  gender  biases \nthat women are subservient and tolerant of poor treatment.\" \nThe Unesco publication was entitled \"I'd Blush if I Could\"; \na reference to the response Apple's Siri assistant offers to the \nphrase: \"You're a slut.\" Amazon's Alexa will respond: \"Well, \nthanks for the feedback.\" \nThe paper said such firms were \"staffed by overwhelmingly \nmale  engineering  teams\"  and  have  built  AI  (Artificial \nIntelligence)  systems  that  \"cause  their  feminised  digital \nassistants  to  greet  verbal  abuse  with  catch‐me‐if‐you‐can \nflirtation\". \nSaniye Gülser Corat, Unesco's director for gender equality, \nsaid: \"The world needs to pay much closer attention to how, \nwhen  and  whether  AI  technologies  are  gendered  and, \ncrucially, who is gendering them.\" \nThe Guardian, May, 2019. Adaptado.\nSegundo  o  texto,  o  título  do  relatório  publicado  pela \nUnesco ‐ \"I´d  Blush  if  I  Could\"  ‐,  no  que  diz  respeito  aos \nassistentes digitais, indica",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "resposta padrão para comandos que incluem impropérios.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "capacidade tecnológica para selecionar temas sensíveis ao \ngrande público.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "preocupação dos fabricantes de dispositivos eletrônicos \ncom usuários conservadores.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "perda de controle das formas de interação entre seres \nhumanos e máquinas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "necessidade  de  elaboração  de  sistemas  integrados  de \nreconhecimento de voz.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_27",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Assigning  female  genders  to  digital  assistants  such  as \nApple's Siri and Amazon's Alexa is helping entrench harmful \ngender biases, according to a UN agency. \nResearch  released  by  Unesco  claims  that  the  often \nsubmissive and flirty responses offered by the systems to many \nqueries – including outright abusive ones – reinforce ideas of \nwomen as subservient. \n\"Because the speech of most voice assistants is female, it \nsends a signal that women are obliging, docile and eager‐to‐\nplease helpers, available at the touch of a button or with a \nblunt voice command like 'hey' or 'OK'\", the report said. \n\"The assistant holds no power of agency beyond what the \ncommander asks of it. It honours commands and responds to \nqueries  regardless  of  their  tone  or  hostility.  In  many \ncommunities, this  reinforces  commonly  held  gender  biases \nthat women are subservient and tolerant of poor treatment.\" \nThe Unesco publication was entitled \"I'd Blush if I Could\"; \na reference to the response Apple's Siri assistant offers to the \nphrase: \"You're a slut.\" Amazon's Alexa will respond: \"Well, \nthanks for the feedback.\" \nThe paper said such firms were \"staffed by overwhelmingly \nmale  engineering  teams\"  and  have  built  AI  (Artificial \nIntelligence)  systems  that  \"cause  their  feminised  digital \nassistants  to  greet  verbal  abuse  with  catch‐me‐if‐you‐can \nflirtation\". \nSaniye Gülser Corat, Unesco's director for gender equality, \nsaid: \"The world needs to pay much closer attention to how, \nwhen  and  whether  AI  technologies  are  gendered  and, \ncrucially, who is gendering them.\" \nThe Guardian, May, 2019. Adaptado.\nDe acordo com o texto, na opinião de Saniye Gülser Corat, \ntecnologias que envolvem Inteligência Artificial, entre outros \naspectos,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "são  desenvolvidas  segundo  normas  prescritas  em \nconvenções internacionais.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "devem  ser  monitoradas  por  empresas  multinacionais \ngeridas por mulheres.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "funcionam  melhor  quando  associadas  a  dispositivos \nsincronizados em escala mundial.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "dependem  de  atualização  constante  para  garantia  de \ndesempenho satisfatório.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "requerem avaliação ampla, quanto à possível presença de \nelementos tendenciosos em sua concepção.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_28",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Disponível em https://www.facebook.com/groups/englishmemes/. \n \nO efeito de comicidade que se obtém do meme decorre, \nsobretudo, da",
+      "files": [
+        "/data/fuvest/assets/2020/28/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "repetição da palavra \"never\".",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "ambiguidade gerada pela expressão \"buy her flowers\".",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "asserção \"your wife says\".",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "contradição presente na frase \"To be honest\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "pergunta \"is that true?\".",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_29",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Scientists have long touted DNA's potential as an ideal \nstorage medium; it's dense, easy to replicate, and stable over \nmillennia.  But  in  order  to  replace  existing  silicon‐chip  or \nmagnetic‐tape storage technologies, DNA will have to get a lot \ncheaper to predictably read, write, and package. \nThat's where scientists like Hyunjun Park come in. He and \nthe other cofounders of Catalog, an MIT DNA‐storage spinoff \nemerging out of stealth on Tuesday, are building a machine \nthat will write a terabyte of data a day, using 500 trillion \nmolecules of DNA.  \nIf  successful,  DNA  storage  could  be  the  answer  to  a \nuniquely  21st‐century  problem:  information  overload.  Five \nyears ago humans had produced 4.4 zettabytes of data; that's \nset to explode to 160 zettabytes (each year!) by 2025. Current \ninfrastructure can handle only a fraction of the coming data \ndeluge,  which  is  expected  to  consume  all  the  world's \nmicrochip‐grade silicon by 2040. \n\"Today's technology is already close to the physical limits \nof  scaling,\"  says  Victor  Zhirnov,  chief  scientist  of  the \nSemiconductor  Research  Corporation.  \"DNA  has  an \ninformation‐storage  density  several  orders  of  magnitude \nhigher than any other known storage technology.\" \nHow dense exactly? Imagine formatting every movie ever \nmade into DNA; it would be smaller than the size of a sugar \ncube. And it would last for 10,000 years. \nWired, June, 2018. Disponível em https://www.wired.com/. Adaptado.\nAfirma‐se no texto que, no futuro, a tecnologia de gravação \nem moléculas de DNA",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "será  utilizada  para  sequenciar  trilhões  de  moléculas \ndestinadas à pesquisa médica.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "deverá ter seu uso expandido no campo da genética e \náreas afins.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "continuará  sendo  inviável  comparada  a  tecnologias \nconvencionais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "terá de ser adaptada para o propósito de ler, codificar e \nguardar dados.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "poderá  ser  a  solução  para  o  problema  de  espaço  de \narmazenamento de informação digital.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_30",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Scientists have long touted DNA's potential as an ideal \nstorage medium; it's dense, easy to replicate, and stable over \nmillennia.  But  in  order  to  replace  existing  silicon‐chip  or \nmagnetic‐tape storage technologies, DNA will have to get a lot \ncheaper to predictably read, write, and package. \nThat's where scientists like Hyunjun Park come in. He and \nthe other cofounders of Catalog, an MIT DNA‐storage spinoff \nemerging out of stealth on Tuesday, are building a machine \nthat will write a terabyte of data a day, using 500 trillion \nmolecules of DNA.  \nIf  successful,  DNA  storage  could  be  the  answer  to  a \nuniquely  21st‐century  problem:  information  overload.  Five \nyears ago humans had produced 4.4 zettabytes of data; that's \nset to explode to 160 zettabytes (each year!) by 2025. Current \ninfrastructure can handle only a fraction of the coming data \ndeluge,  which  is  expected  to  consume  all  the  world's \nmicrochip‐grade silicon by 2040. \n\"Today's technology is already close to the physical limits \nof  scaling,\"  says  Victor  Zhirnov,  chief  scientist  of  the \nSemiconductor  Research  Corporation.  \"DNA  has  an \ninformation‐storage  density  several  orders  of  magnitude \nhigher than any other known storage technology.\" \nHow dense exactly? Imagine formatting every movie ever \nmade into DNA; it would be smaller than the size of a sugar \ncube. And it would last for 10,000 years. \nWired, June, 2018. Disponível em https://www.wired.com/. Adaptado.\nConforme o texto, cientistas preveem que, em pouco mais de \n20 anos,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a geração de dados pela humanidade chegará à marca de \n160 zettabytes.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a armazenagem de todos os dados produzidos esgotará o \nestoque mundial de microchips de silício.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a  densidade  das  moléculas  de  DNA  terá  aumentado \nexponencialmente.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o custo para gravação de dados digitais será maior que \nhoje.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "as  novas  tecnologias  de  informação  serão  bem  mais \nduradouras que as atuais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_31",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Harlem \n \nWhat happens to a dream deferred? \n \nDoes it dry up \nlike a raisin in the sun? \nOr fester like a sore— \nAnd then run? \nDoes it stink like rotten meat? \nOr crust and sugar over— \nlike a syrupy sweet? \n \nMaybe it just sags \nlike a heavy load. \n \nOr does it explode? \n \nLangston Hughes, Selected Poems of Langston Hughes (1990). \nDisponível em http://www.poetryfoundation.org/. \nAs tentativas de resposta do poeta à pergunta \"What happens \nto a dream deferred?\" evocam imagens de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "animosidade e revolta.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "remorso e compaixão.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "deterioração e destruição.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "empatia e complacência.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "aprisionamento e passividade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_32",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Cantiga de enganar \n (...)\nO mundo não tem sentido. \nO mundo e suas canções \nde timbre mais comovido \nestão calados, e a fala \nque de uma para outra sala \nouvimos em certo instante \né silêncio que faz eco \ne que volta a ser silêncio \nno negrume circundante. \nSilêncio: que quer dizer? \nQue diz a boca do mundo? \nMeu bem, o mundo é fechado, \nse não for antes vazio. \nO mundo é talvez: e é só. \nTalvez nem seja talvez. \nO mundo não vale a pena, \nmas a pena não existe. \nMeu bem, façamos de conta. \nDe sofrer e de olvidar, \nde lembrar e de fruir, \nde escolher nossas lembranças \ne revertê-las, acaso  \nse lembrem demais em nós. \nFaçamos, meu bem, de conta \n- mas a conta não existe -  \nque é tudo como se fosse, \nou que, se fora, não era. \n(...) \nEm Claro Enigma, a ideia de engano surge sob a perspectiva \ndo sujeito maduro, já afastado das ilusões, como se lê no \nverso-síntese \"Tu não me enganas, mundo, e não te engano a \nti.\" (\"Legado\"). O excerto de \"Cantiga de enganar\" apresenta \na relação do eu com o mundo mediada",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "pela música, que ressoa em canções líricas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "pela cor, brilhante na claridade solar.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "pela afirmação de valores sólidos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "pela memória, que corre fluida no tempo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "pelo despropósito de um faz-de-conta.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_33",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os textos literários são obras de discurso, a que falta a imediata \nreferencialidade  da  linguagem  corrente;  poéticos,  abolem, \n\"destroem\" o mundo circundante, cotidiano, graças à função \nirrealizante da imaginação que os constrói. E prendem-nos na \nteia de sua linguagem, a que devem o poder de apelo estético que \nnos enleia; seduz-nos o mundo outro, irreal, neles configurado \n(...). No entanto, da adesão a esse \"mundo de papel\", quando \nretornamos ao real, nossa experiência, ampliada e renovada pela \nexperiência  da  obra,  à  luz  do  que  nos  revelou,  possibilita \nredescobri-lo, sentindo-o e pensando-o de maneira diferente e \nnova. A ilusão, a mentira, o fingimento da ficção, aclara o real ao \ndesligar-se dele, transfigurando-o; e aclara-o já pelo insight que \nem nós provocou. \nBenedito Nunes, \"Ética e leitura\", de Crivo de Papel. \nO  que  eu  precisava  era  ler  um  romance  fantástico,  um \nromance besta, em que os homens e as mulheres fossem \ncriações absurdas, não andassem magoando-se, traindo-se. \nHistórias fáceis, sem almas complicadas. Infelizmente essas \nleituras já não me comovem. \nGraciliano Ramos, Angústia. \nRomance desagradável, abafado, ambiente sujo, povoado de \nratos, cheio de podridões, de lixo. Nenhuma concessão ao \ngosto do público. Solilóquio doido, enervante. \nGraciliano Ramos, Memórias do Cárcere, em nota a respeito de seu livro \nAngústia.\nO  argumento  de  Benedito  Nunes,  em  torno  da  natureza \nartística da literatura, leva a considerar que a obra só assume \nfunção transformadora se",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "estabelece um contraponto entre a fantasia e o mundo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "utiliza a linguagem para informar sobre o mundo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "instiga no leitor uma atitude reflexiva diante do mundo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "oferece ao leitor uma compensação anestesiante do mundo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "conduz o leitor a ignorar o mundo real.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_34",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os textos literários são obras de discurso, a que falta a imediata \nreferencialidade  da  linguagem  corrente;  poéticos,  abolem, \n\"destroem\" o mundo circundante, cotidiano, graças à função \nirrealizante da imaginação que os constrói. E prendem-nos na \nteia de sua linguagem, a que devem o poder de apelo estético que \nnos enleia; seduz-nos o mundo outro, irreal, neles configurado \n(...). No entanto, da adesão a esse \"mundo de papel\", quando \nretornamos ao real, nossa experiência, ampliada e renovada pela \nexperiência  da  obra,  à  luz  do  que  nos  revelou,  possibilita \nredescobri-lo, sentindo-o e pensando-o de maneira diferente e \nnova. A ilusão, a mentira, o fingimento da ficção, aclara o real ao \ndesligar-se dele, transfigurando-o; e aclara-o já pelo insight que \nem nós provocou. \nBenedito Nunes, \"Ética e leitura\", de Crivo de Papel. \nO  que  eu  precisava  era  ler  um  romance  fantástico,  um \nromance besta, em que os homens e as mulheres fossem \ncriações absurdas, não andassem magoando-se, traindo-se. \nHistórias fáceis, sem almas complicadas. Infelizmente essas \nleituras já não me comovem. \nGraciliano Ramos, Angústia. \nRomance desagradável, abafado, ambiente sujo, povoado de \nratos, cheio de podridões, de lixo. Nenhuma concessão ao \ngosto do público. Solilóquio doido, enervante. \nGraciliano Ramos, Memórias do Cárcere, em nota a respeito de seu livro \nAngústia.\nSe  o  discurso  literário  \"aclara  o  real  ao  desligar‐se  dele, \ntransfigurando‐o\", pode‐se dizer que Luís da Silva, o narrador‐\nprotagonista de Angústia, já não se comove com a leitura de \n\"histórias fáceis, sem almas complicadas\" porque",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "rejeita, como jornalista, a escrita de ficção.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "prefere alienar‐se com narrativas épicas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "é indiferente às histórias de fundo sentimental.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "está engajado na militância política.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "se afunda na negatividade própria do fracassado.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_35",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os textos literários são obras de discurso, a que falta a imediata \nreferencialidade  da  linguagem  corrente;  poéticos,  abolem, \n\"destroem\" o mundo circundante, cotidiano, graças à função \nirrealizante da imaginação que os constrói. E prendem-nos na \nteia de sua linguagem, a que devem o poder de apelo estético que \nnos enleia; seduz-nos o mundo outro, irreal, neles configurado \n(...). No entanto, da adesão a esse \"mundo de papel\", quando \nretornamos ao real, nossa experiência, ampliada e renovada pela \nexperiência  da  obra,  à  luz  do  que  nos  revelou,  possibilita \nredescobri-lo, sentindo-o e pensando-o de maneira diferente e \nnova. A ilusão, a mentira, o fingimento da ficção, aclara o real ao \ndesligar-se dele, transfigurando-o; e aclara-o já pelo insight que \nem nós provocou. \nBenedito Nunes, \"Ética e leitura\", de Crivo de Papel. \nO  que  eu  precisava  era  ler  um  romance  fantástico,  um \nromance besta, em que os homens e as mulheres fossem \ncriações absurdas, não andassem magoando-se, traindo-se. \nHistórias fáceis, sem almas complicadas. Infelizmente essas \nleituras já não me comovem. \nGraciliano Ramos, Angústia. \nRomance desagradável, abafado, ambiente sujo, povoado de \nratos, cheio de podridões, de lixo. Nenhuma concessão ao \ngosto do público. Solilóquio doido, enervante. \nGraciliano Ramos, Memórias do Cárcere, em nota a respeito de seu livro \nAngústia.\nPara Graciliano Ramos, Angústia não faz concessão ao gosto \ndo público na medida em que compõe uma atmosfera",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "dramática, ao representar as tensões de seu tempo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "grotesca, ao eliminar a expressão individual.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "satírica, ao reduzir os eventos ao plano do riso.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "ingênua, ao simular o equilíbrio entre sujeito e mundo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "alegórica, ao exaltar as imagens de sujeira.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_36",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia o trecho extraído de uma notícia veiculada na internet: \n\"O carro furou o pneu e bateu no meio fio, então eles foram \nobrigados a parar. O refém conseguiu acionar a população, \nque depois pegou dois dos três indivíduos e tentaram linchar \neles. O outro conseguiu fugir, mas foi preso momentos depois \npor uma viatura do 5º BPM\", afirmou o major. \nDisponível em https://www.gp1.com.br/. \nNo  português  do Brasil,  a  função  sintática  do  sujeito não \npossui, necessariamente, uma natureza de agente, ainda que \no verbo esteja na voz ativa, tal como encontrado em:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"O carro furou o pneu\".",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"e bateu no meio fio\".",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"O refém conseguiu acionar a população\".",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"tentaram linchar eles\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"afirmou o major\". \n \nTEXTO PARA AS QUESTÕES 37 E 38",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_37",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "amora \na palavra amora \nseria talvez menos doce \ne um pouco menos vermelha \nse não trouxesse em seu corpo \n(como um velado esplendor) \na memória da palavra amor \na palavra amargo \nseria talvez mais doce \ne um pouco menos acerba \nse não trouxesse em seu corpo \n(como uma sombra a espreitar) \na memória da palavra amar \nMarco Catalão, Sob a face neutra.\nÉ correto afirmar que o poema",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "aborda o tema da memória, considerada uma faculdade \nque torna o ser humano menos amargo e sombrio.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "enfoca a hesitação do eu lírico diante das palavras, o que \nvem expresso pela repetição da palavra \"talvez\".",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "apresenta natureza romântica, sendo as palavras \"amora\" \ne \"amargo\" metáforas do sentimento amoroso.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "possui reiterações sonoras que resultam em uma tensão \ninusitada entre os termos \"amor\" e \"amar\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "ressalta os significados das palavras tal como se verificam \nno seu uso mais corrente.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_38",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "amora \na palavra amora \nseria talvez menos doce \ne um pouco menos vermelha \nse não trouxesse em seu corpo \n(como um velado esplendor) \na memória da palavra amor \na palavra amargo \nseria talvez mais doce \ne um pouco menos acerba \nse não trouxesse em seu corpo \n(como uma sombra a espreitar) \na memória da palavra amar \nMarco Catalão, Sob a face neutra.\nTal como se lê no poema,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a palavra \"amora\" é substantivo, e \"amargo\", adjetivo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o verbo \"amar\" ameniza o amargor da palavra \"amargo\".",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o substantivo \"corpo\" apresenta sentido denotativo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o substantivo \"amor\" intensifica o dulçor da palavra \"amora\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o verbo \"amar\" e o substantivo \"amor\" são intercambiáveis.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_39",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma planta é perturbada na sua sesta* pelo exército que a \npisa. \nMas mais frágil fica a bota. \nGonçalo M. Tavares, 1: poemas. \n*sesta: repouso após o almoço.\nConsiderando  que  se  trata  de  um  texto  literário,  uma \ninterpretação que seja capaz de captar a sua complexidade \nabordará o poema como",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "uma defesa da natureza.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "um ataque às forças armadas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "uma defesa dos direitos humanos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "uma defesa da resistência civil.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "um ataque à passividade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_40",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma planta é perturbada na sua sesta* pelo exército que a \npisa. \nMas mais frágil fica a bota. \nGonçalo M. Tavares, 1: poemas. \n*sesta: repouso após o almoço.\nO ditado popular que se relaciona melhor com o poema é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Para bom entendedor, meia palavra basta.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Água mole em pedra dura tanto bate até que fura.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Quem com ferro fere, com ferro será ferido.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Um dia é da caça, o outro é do caçador.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Uma andorinha só não faz verão.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_41",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O Twitter é uma das redes sociais mais importantes no Brasil \ne no mundo. (...) Um estudo identificou que as fake news são \n70%  mais  propensas  a  serem  retweetadas  do  que  fatos \nverdadeiros. (...) Outra conclusão importante do trabalho diz \nrespeito  aos  famosos  bots:  ao  contrário  do  que  muitos \npensam, esses robôs não são os grandes responsáveis por \ndisseminar  notícias  falsas.  Nem  mesmo  comparando  com \noutros  robozinhos:  tanto  os  que  espalham  informações \nmentirosas quanto aqueles que divulgam dados verdadeiros \nalcançaram o mesmo número de pessoas. \nSuper Interessante, \"No Twitter, fake news se espalham 6 vezes mais rápido \nque notícias verdadeiras\". Maio/2019. \nNo  período  \"Nem  mesmo  comparando  com  outros \nrobozinhos: tanto os que espalham informações mentirosas \nquanto aqueles que divulgam dados verdadeiros alcançaram \no mesmo número de pessoas.\", os dois‐pontos são utilizados \npara introduzir uma",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "conclusão.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "concessão.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "explicação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "contradição.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "condição.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_42",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Agora, o Manuel Fulô, este, sim! Um sujeito pingadinho, quase \nmenino – \"pepino que encorujou desde pequeno\" – cara de \nbobo de fazenda, do segundo tipo –; porque toda fazenda tem \no seu bobo, que é, ou um velhote baixote, de barba rara no \nqueixo, ou um eterno rapazola, meio surdo, gago, glabro* e \nalvar**. Mas gostava de fechar a cara e roncar voz, todo \nenfarruscado, para mostrar brabeza, e só por descuido sorria, \num sorriso manhoso de dono de hotel. E, em suas feições de \ncaburé***  insalubre,  amigavam‐se  as  marcas  do  sangue \naimoré e do gálico herdado: cabelo preto, corrido, que boi \nlambeu; dentes de fio em meia‐lua; malares pontudos; lobo da \norelha aderente; testa curta, fugidia; olhinhos de viés e nariz \npeba, mongol. \nGuimarães Rosa, \"Corpo fechado\", de Sagarana. \n*sem pelos, sem barba **tolo ***mestiço \nO retrato de Manuel Fulô, tal como aparece no fragmento, \npermite afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "há clara antipatia do narrador para com a personagem, \nque por isso é caracterizada como \"bobo de fazenda\".",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "estão presentes traços de diferentes etnias, de modo a \nrefletir a mescla de culturas própria ao estilo do livro.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a expressão \"caburé insalubre\" denota o determinismo \nbiológico que norteia o livro.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "é irônico o trecho \"para mostrar brabeza\", pois ao fim da \nnarrativa Manuel Fulô sofre derrota na luta física.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "se apontam em sua fisionomia os \"olhinhos de viés\" para \ncaracterizar a personagem como ingênua.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_43",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O feminismo negro não é uma luta meramente identitária, até \nporque  branquitude  e  masculinidade  também  são \nidentidades.  Pensar  feminismos  negros  é  pensar  projetos \ndemocráticos. Hoje afirmo isso com muita tranquilidade, mas \n   minha experiência de vida foi marcada pelo incômodo de uma \n  incompreensão fundamental. Não que eu buscasse respostas \n  para tudo. Na maior parte da minha infância e adolescência, \n  não  tinha  consciência  de  mim.  Não  sabia  por  que  sentia \n  vergonha de levantar a mão quando a professora fazia uma \n  pergunta já supondo que eu não saberia a resposta. Por que \n  eu ficava isolada na hora do recreio. Por que os meninos \n  diziam na minha cara que não queriam formar par com a \n  \"neguinha\"  na  festa  junina.  Eu  me  sentia  estranha  e \n  inadequada,  e,  na  maioria  das  vezes,  fazia  as  coisas  no \n  automático, me esforçando para não ser notada. \nDjamila Ribeiro, Quem tem medo do feminismo negro?. \nO trecho que melhor define a \"incompreensão fundamental\" \n(L.6) referida pela autora é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"não que eu buscasse respostas para tudo\" (L.6-7).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"não tinha consciência de mim\" (L.8).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"Por que eu ficava isolada na hora do recreio\" (L.10-11).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"me esforçando para não ser notada\" (L.15).",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"sentia vergonha de levantar a mão\" (L.8-9).",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_44",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "E Sofia? interroga impaciente a leitora, tal qual Orgon: Et \nTartufe?  Ai,  amiga  minha,  a  resposta  é  naturalmente  a \nmesma, - também ela comia bem, dormia largo e fofo, - \ncoisas que, aliás, não impedem que uma pessoa ame, quando \n \nquer amar. Se esta última reflexão é o motivo secreto da vossa \npergunta, deixai que vos diga que sois muito indiscreta, e que   \neu não me quero senão com dissimulados.   \nRepito, comia bem, dormia largo e fofo. Chegara ao fim da   \ncomissão das Alagoas, com elogios da imprensa; a Atalaia   \nchamou-lhe \"o anjo da consolação\". E não se pense que este \nnome  a  alegrou,  posto  que  a  lisonjeasse;  ao  contrário,   \nresumindo em Sofia toda a ação da caridade, podia mortificar   \nas novas amigas, e fazer-lhe perder em um dia o trabalho de   \nlongos meses. Assim se explica o artigo que a mesma folha   \ntrouxe  no  número  seguinte,  nomeando, particularizando  e \nglorificando  as  outras  comissárias  -  \"estrelas  de  primeira \ngrandeza\". \nMachado de Assis, Quincas Borba.\nNo excerto, o autor recorre à intertextualidade, dialogando \ncom a comédia de Molière, Tartufo (1664), cuja personagem \ncentral é um impostor da fé. Tal é a fama da peça que o nome \npróprio se incorporou ao vocabulário, inclusive em português, \ncomo  substantivo  comum,  para  designar  o  \"indivíduo \nhipócrita\"  ou  o  \"falso  devoto\".  No  contexto  maior  do \nromance, sugere-se que a tartufice",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "se cola à imagem da leitora, indiscreta quanto aos amores \nalheios.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "é  ação  isolada  de  Sofia,  arrivista  social  e  benemérita \nfingida.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "diz respeito ao filósofo Quincas Borba, o que explica o \ntítulo do livro.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "se produz na imprensa, apesar de esta se esquivar da \neloquência vazia.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "se estende à sociedade, na qual o cinismo é o trunfo dos \nfortes.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_45",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "E Sofia? interroga impaciente a leitora, tal qual Orgon: Et \nTartufe?  Ai,  amiga  minha,  a  resposta  é  naturalmente  a \nmesma, - também ela comia bem, dormia largo e fofo, - \ncoisas que, aliás, não impedem que uma pessoa ame, quando \n \nquer amar. Se esta última reflexão é o motivo secreto da vossa \npergunta, deixai que vos diga que sois muito indiscreta, e que   \neu não me quero senão com dissimulados.   \nRepito, comia bem, dormia largo e fofo. Chegara ao fim da   \ncomissão das Alagoas, com elogios da imprensa; a Atalaia   \nchamou-lhe \"o anjo da consolação\". E não se pense que este \nnome  a  alegrou,  posto  que  a  lisonjeasse;  ao  contrário,   \nresumindo em Sofia toda a ação da caridade, podia mortificar   \nas novas amigas, e fazer-lhe perder em um dia o trabalho de   \nlongos meses. Assim se explica o artigo que a mesma folha   \ntrouxe  no  número  seguinte,  nomeando, particularizando  e \nglorificando  as  outras  comissárias  -  \"estrelas  de  primeira \ngrandeza\". \nMachado de Assis, Quincas Borba.\nConsiderando o contexto, o trecho \"E não se pense que este \nnome a alegrou, posto que a lisonjeasse\" (L.10‐11) pode ser \nreescrito, sem prejuízo de sentido, da seguinte maneira: E não \nse pense que este nome a alegrou,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "apesar de lisonjeá‐la.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "antes a lisonjeou.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "porque a lisonjeava.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a fim de lisonjeá‐la.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "tanto quanto a lisonjeava.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_46",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Hoje  fizeram  o  enterro  de  Bela.  Todos  na  Chácara  se \nconvenceram  de  que  ela  estava  morta,  menos  eu.  Se  eu \npudesse não deixaria enterrá‐la ainda. Disse isso mesmo a \nvovó, mas ela disse que não se pode fazer assim. Bela estava \nigualzinha à que ela era no dia em que chegou da Formação, \nsó um pouquinho mais magra. \nTodos dizem que o sofrimento da morte é a luta da alma \npara se largar do corpo. Eu perguntei a vovó: \"Como é que a \nalma dela saiu sem o menor sofrimento, sem ela fazer uma \ncaretinha que fosse?\". Vovó disse que tudo isso é mistério, que \nnunca  a  gente  pode  saber  essas  coisas  com  certeza.  Uns \nsofrem muito quando a alma se despega do corpo, outros \nmorrem de repente sem sofrer. \nHelena Morley, Minha Vida de Menina. \n \nPerguntas \nNuma incerta hora fria \nperguntei ao fantasma  \nque força nos prendia,  \nele a mim, que presumo \nestar livre de tudo \neu a ele, gasoso, \n(...) \nNo voo que desfere \nsilente e melancólico, \nrumo da eternidade, \nele apenas responde \n(se acaso é responder  \na mistérios, somar‐lhes  \num mistério mais alto): \nAmar, depois de perder. \nCarlos Drummond de Andrade, Claro Enigma. \nAs perguntas da menina e do poeta versam sobre a morte. É \ncorreto afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "ambos guardam uma dimensão transcendente e católica, \nde origem mineira.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "ambos  ouvem  respostas  que  lhes  esclarecem  em \ndefinitivo as dúvidas existenciais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a  menina  mostra  curiosidade  acerca  da  morte  como \nepisódio e o poeta especula o sentido filosófico da morte.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a menina está inquieta por conhecer o destino das almas, \nenquanto o poeta critica o ceticismo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "as  duas  respostas  reforçam  os  mistérios  da  vida  ao \nacolherem crenças populares.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_47",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A certa personagem desvanecida \nUm soneto começo em vosso gabo*: \nContemos esta regra por primeira, \nJá lá vão duas, e esta é a terceira, \nJá este quartetinho está no cabo. \nNa quinta torce agora a porca o rabo; \nA sexta vá também desta maneira: \nNa sétima entro já com grã** canseira, \nE saio dos quartetos muito brabo. \nAgora nos tercetos que direi? \nDirei que vós, Senhor, a mim me honrais \nGabando‐vos a vós, e eu fico um rei. \nNesta vida um soneto já ditei; \nSe desta agora escapo, nunca mais: \nLouvado seja Deus, que o acabei. \nGregório de Matos \n*louvor **grande \n \nTipo zero \nVocê é um tipo que não tem tipo \nCom todo tipo você se parece \nE sendo um tipo que assimila tanto tipo \nPassou a ser um tipo que ninguém esquece \nQuando você penetra num salão \nE se mistura com a multidão \nVocê se torna um tipo destacado \nDesconfiado todo mundo fica \nQue o seu tipo não se classifica \nVocê passa a ser um tipo desclassificado \nEu até hoje nunca vi nenhum \nTipo vulgar tão fora do comum \nQue fosse um tipo tão observado \nVocê ficou agora convencido \nQue o seu tipo já está batido \nMas o seu tipo é o tipo do tipo esgotado \nNoel Rosa \nO soneto de Gregório de Matos e o samba de Noel Rosa, \nembora distantes na forma e no tempo, aproximam‐se por \nironizarem",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o processo de composição do texto.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a própria inferioridade ante o retratado.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a singularidade de um caráter nulo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o sublime que se oculta na vulgaridade.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a intolerância para com os gênios.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_48",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Óbitos por cepas de bactérias resistentes a antibióticos \nvêm crescendo. Um estudo do governo britânico estima que, \nem escala global, os óbitos por cepas resistentes já cheguem \na 700 mil por ano. E as coisas têm piorado. Além das bactérias, \njá estão surgindo fungos resistentes, como a Candida auris. \nQualquer solução passa por um esforço multinacional de \nações  coordenadas.  O  crescente  número  de  governos \nisolacionistas  e  até  antidarwinistas  não  dá  razões  para \notimismo. Há urgência. O estudo britânico calcula que, se \nnada for feito, em 2050, as mortes por infecções resistentes \nchegarão a 10 milhões ao ano. \nHélio Schwartsman, \"Mortes anunciadas\". Folha de São Paulo, Abril/2019. \nAdaptado.\nO autor expressa preocupação com o fato de que as soluções \npara  o  problema  apontado  passam  por  um  esforço \nmultinacional,  em  face  ao  crescente  número  de  governos \nisolacionistas, porque",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "áreas  de  menor  índice  de  desenvolvimento \nsocioeconômico são as únicas atingidas devido à falta de \nrecursos empregados em saúde e educação.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "as cepas resistentes surgem exclusivamente nos países \nque  se  negam  a  aderir  a  acordos  sanitários  comuns, \nconstituindo ameaças globais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "desafios atuais em meio ambiente e saúde são globais e \nsoluções dependem da adesão de cada país aos protocolos \ninternacionais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o  comércio  internacional  é  o  principal  responsável  por \nespalhar  doenças  nesses  países,  tornando‐os  vulneráveis, \napesar de os programas de vacinação terem alcance mundial.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a pesquisa nesta área é de âmbito nacional e, portanto, \nnovas  drogas  não  terão  alcance  mundial,  mas  apenas \nregional.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_49",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Óbitos por cepas de bactérias resistentes a antibióticos \nvêm crescendo. Um estudo do governo britânico estima que, \nem escala global, os óbitos por cepas resistentes já cheguem \na 700 mil por ano. E as coisas têm piorado. Além das bactérias, \njá estão surgindo fungos resistentes, como a Candida auris. \nQualquer solução passa por um esforço multinacional de \nações  coordenadas.  O  crescente  número  de  governos \nisolacionistas  e  até  antidarwinistas  não  dá  razões  para \notimismo. Há urgência. O estudo britânico calcula que, se \nnada for feito, em 2050, as mortes por infecções resistentes \nchegarão a 10 milhões ao ano. \nHélio Schwartsman, \"Mortes anunciadas\". Folha de São Paulo, Abril/2019. \nAdaptado.\nVárias espécies do gênero Candida, que pertence ao grupo de \nfungos  unicelulares,  reproduzem‐se  por  brotamento \n(gemulação),  espalhando‐se  rapidamente.  No  grupo  dos \nfungos  pluricelulares,  a  rápida  colonização  de  novos \nambientes deve‐se, em grande parte, ao fato de que esse \ngrupo possui",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "esporos haploides que germinam e colonizam o ambiente.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "reprodução assexuada, produzindo descendentes que são \ngenotipicamente diferentes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "zigotos  haploides  que  crescem  aceleradamente  com \nmitoses sucessivas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "cistos de resistência que encapsulam adultos diploides.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "fases autotróficas, podendo viver sem disponibilidade de \nalimento externo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_50",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Boa parte da floresta amazônica brasileira cresce sobre solos \npobres. Sua exuberância, portanto, deve-se ao fato de que \numa grande proporção dos nutrientes advindos da própria \nfloresta retorna à vegetação. Quando se derruba a floresta de \numa  área  de  dezenas  de  quilômetros  quadrados  e,  em \nseguida, ateia-se fogo no local como preparo para o plantio, \nesse ciclo é interrompido, o que causa uma série de efeitos. \nIdentifique corretamente a relação dos efeitos mencionados \nem I, II e III com a derrubada e a queima da floresta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I - Diminuição de curto prazo da fertilidade do solo pela queima da vegetação. \nII - Perda de biodiversidade pelo efeito direto do fogo sobre os animais silvestres. \nIII -Diminuição da evaporação da água da chuva que \natinge o solo exposto.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I - Aumento de curto prazo da fertilidade do solo pelo efeito direto do calor do fogo sobre o solo superficial. \nII - Diminuição da diversidade de animais silvestres devido à remoção da vegetação. \nIII  - Diminuição  da  temperatura  do  solo  exposto \ncomo efeito direto da remoção da vegetação.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "I - Aumento de curto prazo da fertilidade do solo \npela deposição de cinzas. \nII - Perda de biodiversidade devido à remoção da vegetação. \nIII - Aumento temporário da evaporação da água da \nchuva que atinge o solo exposto.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I - Aumento de curto prazo da fertilidade do solo \npelo efeito direto do calor do fogo sobre o solo \nsuperficial.\n II - Perda de biodiversidade pelo efeito direto do \nfogo sobre a vegetação. \nIII - Diminuição temporária de absorção da água da \nchuva pelo solo exposto.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I - Aumento de longo prazo da fertilidade do solo \npela deposição de cinzas. \nII - Aumento da diversidade de animais silvestres devido à remoção da vegetação. \nIII - Aumento da erosão do solo exposto devido à remoção da vegetação.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_51",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Qual  das  curvas  representa  o  crescimento  de  um  inseto \nhemimetábolo, desde seu nascimento até a fase adulta?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/51/0.png"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/51/1.png"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/51/2.png"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/51/3.png"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/51/4.png"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_52",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Analise o esquema de uma célula adulta. \n  \n As  estruturas  I,  II,  III  e  IV  caracterizam‐se  pela  presença, \nrespectivamente, de",
+      "files": [
+        "/data/fuvest/assets/2020/52/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "glicídeo, lipídeo, água e ácido nucleico.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "proteína, glicídeo, água e ácido nucleico.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "lipídeo, proteína, glicídeo e ácido nucleico.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "lipídeo, glicídeo, ácido nucleico e água.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "glicídeo, proteína, ácido nucleico e água.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_53",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Analise a seguinte genealogia de uma doença: \n  \nFoi levantada a hipótese de que a doença possui padrão de \nherança dominante ligada ao cromossomo X. O que levou a tal \nconclusão foi a",
+      "files": [
+        "/data/fuvest/assets/2020/53/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "incidência da doença em mulheres e homens.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "transmissão  do  alelo  mutante  apenas  às  filhas  de  um \nhomem afetado.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "presença de pessoas afetadas em todas as gerações.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "transmissão do alelo mutante às filhas e aos filhos de uma \nmulher afetada.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "presença de pelo menos um dos genitores afetados.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_54",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Analise os esquemas simplificados das células 1 e 2: \n \nCélulas  como  as  representadas  em  1  e  2  podem  ser \nencontradas, respectivamente, no",
+      "files": [
+        "/data/fuvest/assets/2020/54/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "sangue e no fígado.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "osso e no pâncreas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "músculo esquelético e no pâncreas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "músculo cardíaco e no osso.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "pâncreas e no fígado.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_55",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere uma sequência de DNA com 100 pares de bases de \ncomprimento contendo 32 timinas. \nQuantas citosinas, guaninas e adeninas essa sequência terá, \nrespectivamente?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "32, 68, 68.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "68, 32, 68.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "68, 68, 32.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "32, 18, 18.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "18, 32, 18.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_56",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A combinação entre baixa biodiversidade, altas concentrações \nde poluentes e baixas concentrações de oxigênio dissolvido, \nque  é  verificada  nos  rios  que  passam  por  grandes  centros \nurbanos no Brasil, deve‐se principalmente à(ao)",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "descarte de garrafas PET e sacolas plásticas, aumentando \na cadeia de produção de microplásticos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "aumento  de  intervenções  de  engenharia,  como  a \nconstrução de pontes e dragagens.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "aquecimento  da  água  do  rio  devido  ao  aumento  da \ntemperatura média nas metrópoles.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "descarte  de  esgoto  doméstico  e  industrial  sem \ntratamento.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "ocorrência  mais  frequente  de  longos  períodos  de \nestiagem, aumentando a evaporação.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_57",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um paciente, com câncer sanguíneo (linfoma) e infectado por \nHIV, fez quimioterapia e recebeu um transplante de células‐\ntronco da medula óssea de um doador resistente ao HIV. Como \nresultado,  tanto  o  câncer  como  o  HIV  retroagiram  neste \npaciente. O receptor mais usado pelo HIV para entrar nas \ncélulas do corpo é o CCR5. Um pequeno número de pessoas \nresistentes  ao  HIV  tem  duas  cópias  mutadas  do  gene  do \nreceptor CCR5. Isso significa que o vírus não pode penetrar nas \ncélulas sanguíneas do corpo que costumam ser infectadas. O \npaciente  recebeu  células‐tronco  da  medula  óssea  de  um \ndoador que tem essa mutação genética específica, o que fez \ncom que também ficasse resistente ao HIV. \nDisponível em https://www.bbc.com/. Março/2019. Adaptado. \nA terapia celular a que o texto se refere",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "permitirá  que  eventuais  futuros  filhos  do  paciente \ntransplantado  também  possuam  células  resistentes  à \ninfecção pelo HIV.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "possibilitou  a  produção,  pelas  células  sanguíneas  do \npaciente após o transplante, de receptores CCR5 aos quais \no vírus HIV não se liga.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "promoveu  mutações  no  gene  CCR5  das  células  do \npaciente, ocasionando a produção de proteína à qual o HIV \nnão se liga.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "gerou novos alelos mutantes que interagem com o gene \ndo receptor CCR5 do paciente, ocasionando a resistência à \nentrada do HIV nas células do paciente.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "confirma que o alelo mutante que confere resistência à \ninfecção pelo HIV é dominante sobre o alelo selvagem do \ngene CCR5.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_58",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Pesquisadores  do  Museu  Nacional,  no  Rio  de  Janeiro, \nencontraram  o  crânio  e  uma  parte  do  fêmur  de  Luzia,  o \nesqueleto humano mais antigo descoberto na América que \nrevolucionou  as  teorias  científicas  sobre  a  ocupação  do \ncontinente. Os fósseis foram achados há alguns dias (não foi \ndivulgado  quando)  junto  aos  escombros  do  edifício, \nparcialmente destruído por um incêndio em 2 de setembro. O \ncrânio está fragmentado, porque a cola que mantinha os seus \npedaços juntos se foi com o calor, mas a equipe está bastante \notimista com suas condições. \nJúlia Barbon, Folha de São Paulo, Outubro/2018. Adaptado. \nO esqueleto de Luzia,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "adquirido por D. Pedro II em 1876, foi incorporado à sua \ncoleção  pessoal,  a  mesma  que  deu  origem  ao  Museu \nNacional no período republicano.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "descoberto na década de 1970 em Minas Gerais, permitiu \nquestionar a teoria de que a ocupação das Américas se deu \npor apenas uma onda migratória.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "estudado  por  diferentes  equipes  de  antropólogos, \ncomprovou  que  grupos  saídos  diretamente  da  África \nforam os primeiros habitantes das Américas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "encontrado na atual Serra da Capivara, no Estado do Piauí, \npertenceu à cultura que elaborou suas famosas pinturas \nrupestres.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "mantido em uma coleção particular fora do país, estava \nexposto para comemoração dos 150 anos da passagem de \nCharles Darwin pelo Brasil.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_59",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Afirmo, portanto, que tínhamos atingido já o ano bem farto \nda Encarnação do Filho de Deus, de 1348, quando, na mui \nexcelsa  cidade  de  Florença,  (...)  sobreveio  a  mortífera \npestilência. (...) apareciam no começo, tanto em homens como \nnas mulheres, ou na virilha ou na axila, algumas inchações (...) \nchamava‐as o populacho de bubões (...). \nGiovanni Boccaccio, Decamerão. \nA respeito da Peste Negra do século XIV, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Provocou  gravíssima  queda  demográfica,  que  afetou \ngrande parte da produção econômica europeia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Originou‐se no Oriente, penetrou no continente europeu \npelos portos e manteve‐se restrita à Península Itálica.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Foi  provocada  pela  fome  e  pela  desnutrição  dos \ncamponeses  e  favoreceu  o  processo  de  centralização \npolítica.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Foi  contida  pelo  caráter  de  subsistência  da  economia \neuropeia, que dificultava o contato humano e, assim, o \ncontágio.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Estimulou as investidas contra os territórios muçulmanos \nno movimento conhecido como Segunda Cruzada.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_60",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A imagem a seguir refere‐se às principais rotas de comércio \nda África do Norte e Ocidental, no século XV. \n \nEric Wolf, A Europa e os Povos sem História (trad.). São Paulo: Edusp, 2005. \nEm relação às rotas comerciais representadas no mapa, é \ncorreto afirmar que elas",
+      "files": [
+        "/data/fuvest/assets/2020/60/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "indicam que a melhoria das condições ambientais do Saara \npermitiu a construção de estradas pelo deserto.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "foram  construídas  pelo  poder  islâmico  do  Cairo,  que \npromoveu a unificação de toda a África do Norte.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "mostram a decadência econômica do comércio do Saara \noriental, em razão da crise do Império Egípcio.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "atingem a região ao sudoeste do Saara, local de origem do \nouro que chegava aos portos do Mediterrâneo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "representam o poder do Império de Songai, cuja capital \nera  Timbuctu,  que  unificou  todo  o  território  entre  o \nAtlântico e o mar Vermelho.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_61",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  chamada  \"questão  trabalhista\"  no  Brasil  foi  objeto  de \nconflitos, debates e regulamentações entre os anos 1920 e \n1946. Identifique uma das dimensões deste processo.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O liberalismo oligárquico atribuiu ao Estado, por meio da \nreforma de 1924, o papel de mediador entre o operariado \ne o patronato.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A Constituição de 1934 garantiu o direito à organização \nsindical e abriu espaço para a proteção dos direitos dos \ntrabalhadores.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O direito de greve e a regulamentação do salário mínimo \nforam algumas das novidades previstas na Consolidação \ndas Leis do Trabalho (1943).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A criação do sindicato único contribuiu para a emergência \nde  lideranças  combativas  ao  obrigar  todos  os \ntrabalhadores a se filiarem a tais associações.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A Carteira de Trabalho foi um instrumento de controle e \ndominação, que distinguia o trabalhador e esvaziava o \npoder dos sindicatos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_62",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A representação cartográfica a seguir refere‐se à viagem de \ncircunavegação,  iniciada  em  Sanlúcar  de  Barrameda,  na \nAndaluzia, em 20 de setembro de 1519, e comandada pelo \nportuguês Fernão de Magalhães, a serviço da monarquia da \nEspanha.  A  despeito  da  repercussão  da  viagem  para  o \ndesenvolvimento  dos  conhecimentos  náuticos  e  para  a \nexploração do Oceano Pacífico, Battista Agnese foi um dos \npoucos cartógrafos a registrar a empreitada de Magalhães. \n \nBattista Agnese, Atlas Portulano, 1545. Biblioteca Digital Mundial. \nDisponível em https://www.wdl.org/pt/. \nA representação cartográfica de Battista Agnese",
+      "files": [
+        "/data/fuvest/assets/2020/62/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "revelava a permanência das técnicas e sentidos simbólicos \nda cosmografia medieval, que orientaram os navegadores \nibéricos na época da expansão ultramarina.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "estava vinculada aos dogmas cristãos e procurava conciliar o \nregistro da viagem de Fernão de Magalhães com a perspectiva \nde Terra Plana ainda presente entre letrados cristãos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "estava baseada nos relatos dos navegadores, no acúmulo \nde  conhecimentos  acerca  das  rotas  marítimas  e  em \nestimativas de distâncias a partir de cálculos matemáticos \ne da planificação do globo terrestre.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "apresentava o Oceano Pacífico em suas reais dimensões \nde acordo com o entendimento de Fernão de Magalhães e \nde  Cristóvão  Colombo  e  em  desacordo  com  as \nperspectivas cristãs.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "estava  assentada  nos  conhecimentos  e  detalhamentos \ngeográficos bíblicos e nas formulações cosmológicas de \nPtolomeu,  fundamentais  para  o  sucesso  da  viagem  de \nFernão de Magalhães.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_63",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As  tentativas  holandesas  de  conquista  dos  territórios \nportugueses na América tinham por objetivo central",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a  apropriação  do  complexo  açucareiro  escravista  do \nAtlântico Sul, então monopolizado pelos portugueses.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a formação de núcleos de povoamento para absorverem a \ncrescente população protestante dos Países Baixos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a exploração das minas de ouro recém‐descobertas no interior, \nsomente acessíveis pelo controle de portos no Atlântico.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a ocupação de áreas até então pouco exploradas pelos \nportugueses, como o Maranhão e o Vale Amazônico.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a criação de uma base para a ocupação definitiva das áreas \nde mineração da América espanhola.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_64",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Ao  primeiro  brilho  da  alvorada  chegou  do  horizonte  uma \nnuvem negra, que era conduzida [pelo] senhor da tempestade \n(...). Surgiram então os deuses do abismo; Nergal destruiu as \nbarragens que represavam as águas do inferno; Ninurta, o \ndeus da guerra, pôs abaixo os diques (...). Por seis dias e seis \nnoites  os  ventos  sopraram;  enxurradas,  inundações  e \ntorrentes  assolaram  o  mundo;  a  tempestade  e  o  dilúvio \nexplodiam  em  fúria  como  dois  exércitos  em  guerra.  Na \nalvorada do sétimo dia o temporal (...) amainou (...) o dilúvio \nserenou (...) toda a humanidade havia virado argila (...). Na \nmontanha de Nisir o barco ficou preso (...). Na alvorada do \nsétimo dia eu soltei uma pomba e deixei que se fosse. Ela voou \npara longe, mas, não encontrando um lugar para pousar, \nretornou.  Então  soltei  um  corvo.  A  ave  viu  que  as  águas \nhaviam abaixado; ela comeu, (...) grasnou e não mais voltou \npara o barco. Eu então abri todas as portas e janelas, expondo \na nave aos quatro ventos. Preparei um sacrifício e derramei \nvinho sobre o topo da montanha em oferenda aos deuses (...). \nA Epopeia de Gilgamesh, São Paulo: Martins Fontes, 2001. \nCom base no texto, registrado aproximadamente no século VII a.C. \ne que se refere a um antigo mito da Mesopotâmia, bem como em \nseus conhecimentos, é possível dizer que a sociedade descrita era",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "mercantil, pacífica, politeísta e centralizada.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "agrária, militarizada, monoteísta e democrática.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "manufatureira, naval, monoteísta e federalizada.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "mercantil, guerreira, monoteísta e federalizada.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "agrária, guerreira, politeísta e centralizada.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_65",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Depois de 20 anos na escola \nNão é difícil aprender \nTodas as manhas do seu jogo sujo \nNão é assim que tem que ser \n \nVamos fazer nosso dever de casa \nE aí então vocês vão ver  \nSuas crianças derrubando reis \nFazer comédia no cinema com as suas leis \n \nSomos os filhos da revolução \nSomos burgueses sem religião \nSomos o futuro da nação \nGeração Coca‐Cola. \nDado Villa‐Lobos e Renato Russo, Geração Coca‐Cola, 1984. \nEsses versos",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "remetem  ao  período  da  Campanha  das  Diretas  Já  e \napresentam esperanças em relação à implantação de um \nregime democrático no Brasil.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "revelam  a  indignação  e  rebeldia  da  juventude  com  os \nrumos da chamada Nova República, especialmente contra \no Colégio Eleitoral e o bipartidarismo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "propõem um repúdio por parte da juventude brasileira em \nrelação às questões políticas e comportamentais durante \na transição democrática.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "oferecem uma visão positiva acerca do período militar no Brasil \ne demonstram ceticismo com respeito à transição democrática.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "reforçam a capacidade de mobilização e reivindicação da \njuventude pela liberdade de expressão e criação de novas \nuniversidades públicas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_66",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Documentos da Agência Central de Inteligência Americana \n(CIA) mostram que o Brasil quis liderar a Operação Condor e \nsó  não  conseguiu  porque  enfrentou  resistência  dos  outros \npaíses  membros  –  Argentina,  Chile,  Uruguai,  Paraguai  e \nBolívia. (...) Os documentos da CIA fazem parte do Projeto de \nDesclassificação Argentina (The Dirty War, 1976‐1983), do \ngoverno americano, e incluem mais de 40 mil páginas. Duas \ndezenas delas fazem menções ao Brasil (...). \nMarcelo Godoy, O Estado de São Paulo. Abril/2019. \nA respeito da Operação Condor, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Ainda que tivesse um alvo comum de repressão política, \nela não implicava o alinhamento automático dos regimes \nditatoriais de cada país.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Ao  encontrar  resistência  dos  demais  países  que  dela \nparticipavam, o Brasil passou a criticar publicamente suas \nações.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Em  vista  da  oposição  norte‐americana  à  iniciativa,  a \ncooperação entre os países membros não foi implantada.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O  governo  ditatorial  paraguaio  assumiu  a  posição  de \nliderança no acordo firmado entre seus países fundadores.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Limitou‐se à troca de informações sobre os opositores \npolíticos que buscaram exílio em cada um desses países.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_67",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A entrega pacífica do governo a um adversário pressupunha \num elevado nível de automoderação. O mesmo determinou a \nboa vontade de um governo em não usar os seus grandes \nrecursos  do  poder  na  humilhação  ou  destruição  de \npredecessores hostis ou opositores (...). As técnicas militares \nderam lugar às técnicas verbais do debate feitas de retórica e \nde persuasão, a maior parte das quais exigia mais contenção \ngeral, identificando, de modo nítido, esta mudança com um \navanço da civilização. \nNorbert Elias, A busca da excitação. Lisboa: Difel, 1992. \nO processo histórico britânico ofereceu, entre os séculos XVII \ne XIX, modelos institucionais e práticas políticas importantes. \nA respeito deles, é correto afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "os  debates  acalorados  no  Parlamento,  que \ndesencadearam uma série de lutas sociais no século XVIII, \nforam apenas superados no início do século XIX com a \ninstauração do Regime Parlamentar.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "após o turbulento século XVII, marcado por sucessivas \nlutas sociais e golpes de Estado, a pacificação entre as \nclasses  dominantes  ocorreu  com  o  fortalecimento  do \nRegime Parlamentar ao longo do século XVIII.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a  instauração  da  República  de  Cromwell  e  do \nparlamentarismo,  em  meados  do  século  XVIII,  foi \nresponsável  pelo  fim  das  turbulências  políticas \ncaracterísticas do absolutismo monárquico.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o avanço da civilização mencionado no texto ocorreu com \no  estabelecimento  do  princípio  da  tolerância  religiosa \nentre anglicanos, calvinistas e católicos pelo Parlamento \nno final do século XVIII.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o  estabelecimento  do  parlamento  bicameral,  com \nrepresentação para os nobres e para a burguesia enriquecida, \ne do direito de voto universal, ambos no século XVIII, foram \nresponsáveis pela contenção das lutas sociais na Grã‐Bretanha.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_68",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "De acordo com o historiador Martyn Lyons, \"nos temores \ncontemporâneos  em  relação  ao  acesso  ilimitado  a  sites \nperigosos  da  Internet,  e  às  dificuldades  enfrentadas  por \ngovernos de diversos países no policiamento da distribuição \nda  informação,  ouve‐se  o  eco  do  pânico  causado  pela \ninvenção da imprensa\". \nMartyn Lyons, A história da leitura de Gutenberg a Bill Gates, RJ: Casa da \nPalavra, 1999. \nEscolha  a  alternativa  que  demonstre  corretamente  os \nelementos  de  continuidade  e  de  descontinuidade  entre  a \n\"revolução  do  impresso\"  e  a  \"revolução  eletrônica\" \napontados pelo autor.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "As  chamadas  \"revolução  do  impresso\"  e  \"revolução \neletrônica\" não somente favoreceram a multiplicação e \ndemocratização do acesso à informação como também \nauxiliaram a formação de um público mais vasto e mais \ncrítico.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A implementação das novas tecnologias de comunicação \neliminou a diferença entre os usuários e os excluídos do \nuniverso da cultura escrita, tal como se prometera no \ninício de sua adoção.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A manutenção de índices elevados de circulação de fake \nnews nas redes sociais demonstra que a \"revolução da \ncomunicação\" depende de quem domina e de quem usa \nas tecnologias.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Diferentemente  do  Index  Librorum  Prohibitorum \npromulgado para a atuação da Inquisição no controle da \nexpansão  do  Protestantismo  durante  o  século  XVI,  os \natuais  marcos  regulatórios  da  Internet  limitam‐se  ao \ncontrole da pornografia.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "O  advento  da  tipografia  não  foi  necessariamente \nrevolucionário, pois não mudou a natureza nem o assunto \ndos livros; já a tecnologia digital suprimiu todas as formas \nanteriores de comunicação, da oral à impressa.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_69",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: Constante gravitacional: G = 9 x 10^(-13) km^3/(kg h^2); \n Raio da Lua = 1.740 km; Massa da Lua = 8 x 10^(22) kg;\n π = 3\nEm julho de 1969, os astronautas Neil Armstrong e Buzz Aldrin \nfizeram o primeiro pouso tripulado na superfície da Lua, enquanto \nseu colega Michael Collins permaneceu a bordo do módulo de \ncomando Columbia em órbita lunar. Considerando que o Columbia \nestivesse em uma órbita perfeitamente circular a uma altitude de \n260 km acima da superfície da Lua, o tempo decorrido (em horas \nterrestres - h) entre duas passagens do Columbia exatamente \nacima do mesmo ponto da superfície lunar seria de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,5 h.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2 h.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "4 h.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "8 h.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "72 h.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_70",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em  20  de  maio  de  2019,  as  unidades  de  base  do  Sistema \nInternacional de Unidades (SI) passaram a ser definidas a partir de \nvalores exatos de algumas constantes físicas. Entre elas, está a \nconstante de Planck h, que relaciona a energia E de um fóton \n(quantum de radiação eletromagnética) com a sua frequência f na \nforma E=hf. \nA unidade da constante de Planck em termos das unidades de base \ndo SI (quilograma, metro e segundo) é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "kg m^2/s",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "kg s/m^2",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "m^2 s/kg",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "kg s/m",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "kg m^2/s^3",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_71",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: \nVelocidade da luz no vácuo: c = 3x10^8 m/s;\nπ = 3;\n1 GHz = 10^9 Hz.\nA  transmissão  de  dados  de  telefonia  celular  por  meio  de \nondas eletromagnéticas está sujeita a perdas que aumentam \ncom a distância d entre a antena transmissora e a antena \nreceptora.  Uma  aproximação  frequentemente  usada  para \nexpressar a perda L, em decibéis (dB), do sinal em função de \nd, no espaço livre de obstáculos, é dada pela expressão \n\nem que λ é o comprimento de onda do sinal. O gráfico a seguir \nmostra L (em dB) versus d (em metros) para um determinado \ncomprimento de onda λ.\n  \nCom base no gráfico, a frequência do sinal é aproximadamente",
+      "files": [
+        "/data/fuvest/assets/2020/71/0.png",
+        "/data/fuvest/assets/2020/71/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "2,5 GHz.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "5 GHz.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "12 GHz.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "40 GHz.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "100 GHz.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_72",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um estímulo nervoso em um dos dedos do pé de um indivíduo \ndemora cerca de 30 ms para chegar ao cérebro. Nos membros \ninferiores, o pulso elétrico, que conduz a informação do estímulo, \né transmitido pelo nervo ciático, chegando à base do tronco em \n20 ms. Da base do tronco ao cérebro, o pulso é conduzido na \nmedula espinhal. Considerando que a altura média do brasileiro \né  de  1,70  m  e  supondo  uma  razão  média  de  0,6  entre  o \ncomprimento dos membros inferiores e a altura de uma pessoa, \npode-se concluir que as velocidades médias de propagação do \npulso nervoso desde os dedos do pé até o cérebro e da base do \ntronco até o cérebro são, respectivamente:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "51 m/s e 51 m/s",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "51 m/s e 57 m/s",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "57 m/s e 57 m/s",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "57 m/s e 68 m/s",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "68 m/s e 68 m/s",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_73",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  velocidade de  escape de  um corpo  celeste  é  a  mínima \nvelocidade  que  um  objeto  deve  ter  nas  proximidades  da \nsuperfície  desse  corpo  para  escapar  de  sua  atração \ngravitacional.  Com  base  nessa  informação  e  em  seus \nconhecimentos  sobre  a  interpretação  cinética  da \ntemperatura, considere as seguintes afirmações a respeito da \nrelação entre a velocidade de escape e a atmosfera de um \ncorpo celeste. \nI.  Corpos celestes com mesma velocidade de escape retêm \natmosferas  igualmente  densas,  independentemente  da \ntemperatura de cada corpo. \nII.  Moléculas de gás nitrogênio escapam da atmosfera de um \ncorpo celeste mais facilmente do que moléculas de gás \nhidrogênio. \nIII.  Comparando corpos celestes com temperaturas médias \niguais, aquele com a maior velocidade de escape tende a \nreter uma atmosfera mais densa. \nApenas é correto o que se afirma em",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "III.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I e II.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I e III.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_74",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: Despreze  a  massa  do  elástico,  as  forças dissipativas e as dimensões da pessoa;\n Aceleração da gravidade = 10 m/s^2.\nUm equipamento de bungee jumping está sendo projetado \npara ser utilizado em um viaduto de 30 m de altura. O elástico \nutilizado tem comprimento relaxado de 10 m. Qual deve ser o \nmínimo valor da constante elástica desse elástico para que ele \npossa ser utilizado com segurança no salto por uma pessoa \ncuja massa, somada à do equipamento de proteção a ela \nconectado, seja de 120 kg?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "30 N/m",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "80 N/m",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "90 N/m",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "160 N/m",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "180 N/m",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_75",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um fabricante projetou resistores para utilizar em uma lâmpada \nde resistência L. Cada um deles deveria ter resistência R. Após a \nfabricação,  ele  notou  que  alguns  deles  foram  projetados \nerroneamente,  de  forma  que  cada  um  deles  possui  uma \nresistência  Rd = R/2.  Tendo  em  vista  que  a  lâmpada \nqueimará se for percorrida por uma corrente elétrica superior \na V/(R+L), em qual(is) dos circuitos a lâmpada queimará?",
+      "files": [
+        "/data/fuvest/assets/2020/75/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1, apenas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2, apenas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1 e 3, apenas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2 e 3, apenas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "1, 2 e 3.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_76",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No  dia  10  de  abril  de  2019,  a  equipe  do  Event  Horizon \nTelescope (EHT, \"Telescópio Horizonte de Eventos\") divulgou \na primeira imagem de um buraco negro, localizado no centro \nda galáxia M87, obtida por um conjunto de telescópios com \ndiâmetro  efetivo  equivalente  ao  da  Terra,  de  12.700 km. \nDevido ao fenômeno físico da difração, instrumentos óticos \npossuem um limite de resolução angular, que corresponde à \nmínima separação angular entre dois objetos que podem ser \nidentificados separadamente quando observados à distância. \nO gráfico mostra o limite de resolução de um telescópio, \nmedido em radianos, como função do seu diâmetro, para \nondas luminosas de comprimento de onda de 1,3 mm, igual \nao daquelas captadas pelo EHT. Note a escala logarítmica dos \neixos do gráfico. \n \nSabe-se que o tamanho equivalente a um pixel na foto do \nburaco negro corresponde ao valor da menor distância entre \ndois  objetos  naquela  galáxia  para  que  eles  possam  ser \nidentificados  separadamente  pelo  EHT.  Com  base  nas \ninformações anteriores e na análise do gráfico, e sabendo que \na  distância  da  Terra  até  a  galáxia  M87  é  de  5 x 10^20 km, \nindique o valor mais próximo do tamanho do pixel.",
+      "files": [
+        "/data/fuvest/assets/2020/76/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "5 x 10^1 km",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "5 x 10^4 km",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "5 x 10^7 km",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "5 x 10^10 km",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "5 x 10^13 km",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_77",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um solenoide muito longo é percorrido por uma corrente \nelétrica I, conforme mostra a figura 1. \n Figura 1 :   \nEm  um  determinado  instante,  uma  partícula  de  carga  q \npositiva  desloca‐se  com  velocidade  instantânea  v \nperpendicular  ao  eixo  do  solenoide,  na  presença  de  um \ncampo elétrico na direção do eixo do solenoide. A figura 2 \nilustra essa situação, em uma seção reta definida por um \nplano que contém o eixo do solenoide. \n Figura 2 : \nO diagrama que representa corretamente as forças elétrica Fe\ne magnética Fb atuando sobre a partícula é:",
+      "files": [
+        "/data/fuvest/assets/2020/77/0.jpg",
+        "/data/fuvest/assets/2020/77/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/77/3.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/77/4.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/77/5.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/77/6.jpg"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2020/77/7.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_78",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um  drone  voando  na  horizontal,  em  relação  ao  solo  (como \nindicado pelo sentido da seta na figura), deixa cair um pacote de \nlivros.\n  \nA melhor descrição da trajetória realizada pelo pacote de \nlivros, segundo um observador em repouso no solo, é dada pelo \npercurso descrito na",
+      "files": [
+        "/data/fuvest/assets/2020/78/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "trajetória 1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "trajetória 2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "trajetória 3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "trajetória 4.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "trajetória 5.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_79",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um pêndulo simples é composto por uma haste metálica leve, \npresa a um eixo bem lubrificado, e por uma esfera pequena de \nmassa muito maior que a da haste, presa à sua extremidade \noposta. O período P para pequenas oscilações de um pêndulo \né proporcional à raiz quadrada da razão entre o comprimento \nda haste metálica e a aceleração da gravidade local. Considere \neste pêndulo nas três situações: \n1.  Em  um  laboratório  localizado  ao  nível  do  mar,  na \nAntártida, a uma temperatura de 0 °C. \n2.  No mesmo laboratório, mas agora a uma temperatura de \n250 K. \n3.  Em um laboratório no qual a temperatura é de 32 °F, em \numa base lunar, cuja aceleração da gravidade é igual a um \nsexto daquela da Terra. \nIndique a alternativa correta a respeito da comparação entre \nos períodos de oscilação P1 , P2  e P3  do pêndulo nas situações \n1, 2 e 3, respectivamente.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "P1  < P2  < P3",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "P1  = P2  < P3",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "P1  < P2  < P3",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "P1  < P2  < P3",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "P1  < P2  = P3",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_80",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Segundo o Instituto Nacional de Meteorologia (INMET), foram \nregistradas temperaturas reduzidas no mês de junho de 2016, \ntal como na madrugada do dia 13, em que se alcançou a \nmínima  de  3,5°C  na  estação  meteorológica  da  Serra  da \nCantareira, na cidade de São Paulo. Além disso, de acordo com \no Instituto, também ocorreram precipitações acima da média, \ncom mais de 200 mm no total daquele mês. \n \nDisponível em https://www.meteo.psu.edu/. Adaptado. \nAssociando  a  representação  esquemática  aos  eventos \ndescritos, analise as seguintes afirmações: \nI. O ar mais frio e denso eleva o ar mais quente, podendo originar \nnuvens com potencial para tempestades e precipitações. \nII. Instabilidades atmosféricas podem ser geradas em razão de o ar \nquente ser elevado rapidamente pelo sistema frontal. \nIII. O encontro de massas de ar estabiliza as condições atmosféricas \ncom o avanço e dissipação da massa de ar tropical. \nÉ correto apenas o que se afirma em",
+      "files": [
+        "/data/fuvest/assets/2020/80/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "I e II.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I e III.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "II e III.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_81",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um vídeo do astrônomo Carl Sagan em seu programa dos anos \n1980, Cosmos, conta a história de Eratóstenes, demonstrando \ncomo os gregos antigos já haviam descoberto que a Terra é \numa esfera (geoide). Para fazer isso, Eratóstenes observou a \nsombra de duas colunas no solstício de verão; uma coluna foi \ncolocada  em  Alexandria  e  outra  em  Siena  (atualmente \nAssuan), ambas no Egito. Ele notou que em Siena, ao meio dia, \no Sol ficava em seu ponto mais alto e a coluna lá instalada \nprojetava  uma  sombra  com  ângulo  diferente  daquela \nprojetada em Alexandria. Sagan explica então que, se a Terra \nfosse plana, ambas as estruturas produziriam sombras iguais, \nmas como o planeta é esférico, o sombreamento varia. \n  \nDisponível em https://revistagalileu.globo.com/. Adaptado. 2019. \n \n \nDisponível em https://www.youtube.com/. Adaptado. \nA esfericidade do Planeta Terra demonstrada por Eratóstenes \ne relembrada por Carl Sagan explica, em conjunto com outros \nfatores,",
+      "files": [
+        "/data/fuvest/assets/2020/81/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a ocorrência de dias mais longos e com maior insolação no \nHemisfério em que está ocorrendo o inverno e de dias \nmais curtos e com menor insolação no Hemisfério em que \nestá ocorrendo o verão.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a  ocorrência  das  estações  do  ano,  sendo  que,  no \nHemisfério Norte, há o solstício de verão em dezembro e, \nno Hemisfério Sul, o solstício de inverno em junho.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a existência de zonas climáticas, em razão das variações de \naltitude que intensificam a radiação solar nos polos Norte \ne Sul.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a  ocorrência das  estações do  ano, que caracterizam o \nEquinócio de primavera no Hemisfério Sul em março e o \nEquinócio de outono no Hemisfério Norte em setembro.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a  existência  de  zonas  climáticas,  em  função  da  maior \nintensidade da radiação solar na região equatorial quando \ncomparada à incidência nos polos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_82",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em  reportagem  publicada  em  2018,  a  revista  FAPESP \napresenta uma pesquisa da Superintendência de Controle de \nEndemias (SUCEN) que usou informações de data e local de \nmortes de macacos por um determinado vírus. A partir do \nestudo, construiu‐se um modelo epidemiológico que descreve \no  sentido  de  deslocamento  e  os  corredores  ecológicos \nfuncionais (corredores prováveis) do vírus. \n  \nDisponível em http://revistapesquisa.fapesp.br/.  \nCom base nas informações e no mapa, o corredor ecológico \nfuncional desse vírus, que atingiu a maior abrangência territorial \nno  Estado  de  São  Paulo  durante  o  ano  de  2017,  avançou \nprincipalmente por quais regiões e causou qual enfermidade?",
+      "files": [
+        "/data/fuvest/assets/2020/82/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Sul  de  Minas  Gerais  e  Vale  do  rio  Ribeira  de  Iguape; \nChikungunya.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Sul de Minas Gerais e São José do Rio Preto; Dengue.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Vale do rio Ribeira de Iguape e Região Metropolitana de \nSão Paulo; Zika.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Sul de Minas Gerais e Campinas; Febre Amarela.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Litoral de São Paulo e Vale do rio Ribeira de Iguape; Gripe.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_83",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O processo de desertificação é definido como a degradação \nambiental  e  socioambiental,  particularmente  nas  zonas \náridas, semiáridas e subúmidas, resultantes de vários fatores \ne vetores, incluindo as variações e alterações climáticas e as \natividades humanas. \nBRASIL, Ministério do Meio Ambiente. Disponível em http://www.mma.gov.br/. \nDentre as medidas mais adequadas para mitigação dos efeitos \nda desertificação encontra(m)‐se",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a construção de rodovias que permitam às populações \nmais  diretamente  atingidas  pela  seca  se  deslocarem \ndiariamente para áreas mais úmidas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o uso das áreas de meia encosta como alternativa para \nexpansão das áreas de produção de culturas temporárias \ne lavouras permanentes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o  plantio  de  espécies  exóticas  que  apresentam \ncrescimento  rápido  e  podem  reduzir  os  efeitos  da \ndesertificação e da seca, como o eucalipto, por exemplo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a prevenção, recuperação e reabilitação de terras parcial ou \ntotalmente degradadas com a recomposição de espécies \nnativas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "os programas de incentivo para a instalação de fossas \nsépticas  que  dispensam  a  implantação  de  um  sistema \nhídrico de saneamento básico.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_84",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Brasil: Estabelecimentos de agricultura familiar  \ne não familiar \n  \nHervé Théry e Neli Aparecida Mello‐Théry. Atlas do Brasil: disparidades e \ndinâmicas do território. 3ª edição, 2018. Adaptado. \nSobre a produção agrícola brasileira e os dados apresentados \nnos cartogramas, é correto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2020/84/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A  agricultura  familiar,  que  utiliza  a  maior  extensão  de \nterras agricultáveis do país, foi responsável pela produção \nda maior parte do volume agrícola exportado.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A agricultura familiar, que utiliza uma extensão de terras \nmenor que a agricultura não familiar, tem destaque na \nprodução de alimentos para o mercado interno.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A agricultura não familiar, que detém a maior extensão de \nterras agricultáveis do país, consiste em uma barreira ao \ndesenvolvimento das atividades ligadas ao agronegócio.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A agricultura não familiar, que apresenta o maior número \nde estabelecimentos rurais no país, é responsável pela \nprodução de parte das chamadas commodities brasileiras.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A concentração fundiária foi superada no país em função de \na agricultura familiar ocupar, com seus estabelecimentos, a \nmaior parte das terras.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_85",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "É  de  grande  relevância  aqui  o  fato  de  que  uma  grande \nproporção  do  trânsito  de  internet  do  mundo  passa  pelos \nEstados Unidos (...). Isso significa que a NSA (a agência de \nsegurança nacional dos EUA) poderia acessar uma quantidade \nalarmante de ligações telefônicas simplesmente escolhendo \nas instalações certas. O que é ainda mais inacreditável: essas \ninstalações não passam de alguns prédios, conhecidos como \n\"hotéis  de  telecomunicação\",  que  hospedam  os  principais \ncentros de conexão de internet e telefonia do planeta todo. \n \nStephen Graham, Cidades Sitiadas: o novo urbanismo militar, 2016. \nAdaptado. \nA respeito da configuração espacial e geopolítica retratada no \nexcerto e no mapa, é possível afirmar que",
+      "files": [
+        "/data/fuvest/assets/2020/85/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "essa é a razão do grande déficit econômico dos Estados \nUnidos  atualmente,  uma  vez  que  a  maior  parte  dos \nnegócios e transações é feita pela internet.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "essa situação explica o fato de que os Estados Unidos \ntenham, atualmente, a maior dívida pública do planeta, já \nque os custos com o tratamento de dados são muito altos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "em  um  mundo  cada  vez  mais  dependente  dos  fluxos \nimateriais de informação, a presença de objetos técnicos \nfixos torna‐se irrelevante para a posição geopolítica dos \nEstados Unidos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o mapa representa, por meio do \"trânsito de internet\" e \ndo fluxo de \"ligações telefônicas\", uma globalização que \nintegrou  completamente  tanto  os  norte‐americanos \nquanto as populações da África.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a  presença  de  fixos,  como  algumas  instalações  de \narmazenagem e conexão, influencia a orientação de fluxos \ne  dá  aos  EUA  uma  posição  de  destaque  no  contexto \ngeopolítico.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_86",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O Ciclone Tropical Idai atingiu o litoral de Moçambique na \nnoite  de  quinta‐feira  (21/03/2019),  provocando  grandes \ndanos na cidade de Beira. Cerca de 500 mil pessoas ficaram \nsem energia, afetando também o setor de comunicações. \n \nDisponível em https://www.climatempo.com.br/. Adaptado. \nEssa  notícia  refere‐se  ao  Ciclone  Tropical  que  atingiu \nprincipalmente  Moçambique,  Zimbábue  e  Malaui.  Eventos \ndessa magnitude e superiores – o Ciclone Idai atingiu apenas \na categoria 2 em uma escala de 1 a 5 – ocorrem em outros \nlocais do planeta e não repercutem da mesma forma, com a \nperda de centenas de vidas. Isso ocorre em função",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "da grande presença de populações não nativas, que não \ntêm tradição em lidar com eventos dessa natureza.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "do  relevo  de  planalto  que  caracteriza  Moçambique, \nZimbábue e Malaui, em especial na zona costeira.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "da  presença  de  rede  hidrográfica  e  florestas  que \ncontribuem para a formação de ciclones dessa natureza e \nmagnitude.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "da presença de águas superficiais do oceano Índico, com \ntemperaturas mais reduzidas que o habitual, em especial \nno Canal de Moçambique.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "das  características  socioeconômicas  da  região  com \npopulações vulneráveis e reduzida capacidade do poder \npúblico em prestar atendimento à população.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_87",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em Barcelona, em 2012 e 2013, a cada 15 minutos uma família \nrecebia  ordem  de  despejo.  Desde  então,  o  panorama  da \nhabitação mudou totalmente. \"(...) Estamos assistindo uma onda \nde especulação imobiliária (...) que agora se foca no aluguel\", \nexplica  Daniel  Pardo  da  Associação  de  Moradores  para  um \nTurismo  Sustentável.  \"Este  fenômeno  pôs  em  marcha  um \nprocesso  acelerado  e  violento  de  expulsão  de  inquilinos\", \nacrescenta.  Onde  a  pressão  da  especulação  imobiliária \ninternacional e a indústria do turismo causaram um aumento \nsubstancial nos preços dos aluguéis, os catalães têm hoje de \ngastar mais de 46% dos seus salários com o aluguel. Para os \njovens até os 35 anos, a taxa de esforço aumenta até os 65% (...). \n\"Não  queremos  que  os  habitantes  de  Barcelona  sejam \nsubstituídos por pessoas com maior poder de compra\", diz a \nporta‐voz do Sindicato dos Inquilinos. Só em Barcelona, 15 fundos \nde investimento imobiliário possuem 3.000 apartamentos. \n\"Os habitantes querem a sua cidade de volta\". Reportagem de Ulrike Prinz \npara o Goethe‐Institut Madrid. Maio/2018. Adaptado. \nOs conceitos que explicam as dinâmicas urbanas descritas no \nexcerto são:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Financeirização e Industrialização.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Gentrificação e Segregação.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Aglomeração e Conurbação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Industrialização e Segregação.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Conurbação e Gentrificação.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_88",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dois eventos marcaram a diplomacia brasileira em relação ao \nOriente Médio no início de 2019. Um deles foi o voto contra a \nresolução  da  ONU  que  pedia  a  desocupação  militar  das \nColinas de Golã e sua devolução à Síria. Outro evento foi o \nanúncio de transferência da embaixada brasileira de Tel Aviv \npara Jerusalém, mesmo não tendo sido levada adiante até \nsetembro de 2019. Em relação a esses eventos, é correto \nafirmar que eles representam",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I -uma aproximação do Brasil em relação à posição dos EUA.\nII -um potencial distanciamento do Brasil emrelação à \nposição  da  maioria  dos  países  do  Conselho  de Segurança da ONU.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I - um distanciamento do Brasil em relação à posição \nda  Palestina  e  uma  aproximação  em  relação  ao conjunto de países árabes.\nII - uma potencial aproximação do Brasil em relação à posição  da  maioria  dos  países  do  Conselho  de Segurança da ONU.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "I - um distanciamento do Brasil em relação à posição de  Israel  e  uma  aproximação  em  relação  aos palestinos.\nII um potencial distanciamento do Brasil emrelação à posição  da  maioria  dos  países  do  Conselho  de Segurança da ONU.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I - um distanciamento do Brasil em relação à posição \ndos EUA.\nII - uma potencial aproximação do Brasil em relação à \nposição  da  maioria  dos  países  do  Conselho  de Segurança da ONU.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I - uma aproximação do Brasil em relação à posição da Síria.\nII -um potencial distanciamento do Brasil emrelação à posição  da  maioria  dos  países  do  Conselho  de Segurança da ONU.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_89",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No  Brasil,  várias  cidades  registram  ocupação  irregular  de \nencostas em áreas sujeitas a deslizamentos de terra (também \nchamados  de  escorregamentos).  O  Instituto  de  Pesquisas \nTecnológicas (IPT) trabalha no levantamento, mapeamento, \nrecuperação  e  estabilização  dessas  áreas  de  risco.  Um \nexemplo deste trabalho foram aqueles executados desde a \ndécada de 1970 referentes aos deslizamentos dos morros de \nSantos e São Vicente-SP, cuja região é acometida há tempos \npor esses problemas, inclusive com a ocorrência de vítimas \nfatais. Para investigar os deslizamentos de terra nas áreas \nserranas  tropicais  brasileiras,  o  Instituto  realizou \nlevantamentos topográficos, geológicos e geomorfológicos, \nestudando  também  a  distribuição  dos  tipos  de  vegetação \nexistentes e as categorias de ocupação urbana dos morros. \nRepresentação de deslizamento de terra (escorregamento) na \nregião de Santos e São Vicente \n \nDisponível em https://www.ipt.br/. Adaptado. 2019. \nBaseando-se nas informações do texto e na figura, é correto \nafirmar que",
+      "files": [
+        "/data/fuvest/assets/2020/89/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "as características topográficas, geológicas e geomorfológicas \nde  uma  área  de  risco  estão  naturalmente  ligadas  aos \nescorregamentos, sendo que estradas de terra minimizam \na ocorrência de deslizamentos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a  ocorrência  de  escorregamentos  é  causada  pela  ação \nhumana,  cuja  ocupação  de  encostas  provoca  o \nempobrecimento de solo, que acaba sendo mobilizado \npela diminuição de fertilidade.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o  problema  da  ocupação  de  encostas  e  risco  de \nescorregamentos inclui o contato entre a rocha e o solo, \ncuja facilidade de deslizamento é aumentada em função \nda inclinação do terreno e da maior ocorrência de chuvas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "os deslizamentos de terra fazem parte de um conjunto de \nfenômenos naturais pontuais e incomuns na superfície da \ncrosta terrestre e, portanto, não participam da escultura \ndo relevo continental e do modelado.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "os escorregamentos são causados em especial pelo fato de o \nsolo tornar‐se mais leve que a rocha subjacente durante as \nchuvas prolongadas de verão, facilitando seu deslizamento \nao longo das encostas pouco ou nada inclinadas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2020-USP_2020_90",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Se  muita  gente  hoje  enxerga  a  Terra  como  um  sistema \ndinâmico  de  conexões  entre  atmosfera,  águas,  rochas  e \nbiodiversidade, isso se deve, em larga medida, a Alexander \nvon Humboldt (1769 - 1859). O vulcão Chimborazo (6.268 m \nde altitude), no atual Equador, foi utilizado por Humboldt \ncomo exemplo para apresentar com clareza, pela primeira \nvez, como cada faixa altitudinal em regiões montanhosas é um \nmicrocosmo de climas e biodiversidade.\n  \nDisponível em https://www1.folha.uol.com.br/ciencia/. Adaptado. \nRepresentação esquemática do vulcão Chimborazo \nDisponível em https://www.pinterest.com/. Adaptado. 2019. \nConsiderando a relação entre vegetação e altitude, da base \naté o topo das zonas do vulcão representado, é possível obter \na sequência:",
+      "files": [
+        "/data/fuvest/assets/2020/90/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Floresta  Temperada,  Floresta  de  Coníferas,  Floresta \nTropical, Exposição de Rocha, Tundra, Neve e Gelo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Floresta  Temperada,  Floresta  Tropical,  Floresta  de \nConíferas, Exposição de Rocha, Tundra, Neve e Gelo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Floresta  Tropical,  Floresta  de  Coníferas,  Floresta \nTemperada, Tundra, Exposição de Rocha, Neve e Gelo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Floresta  Tropical,  Floresta  Temperada,  Floresta  de \nConíferas, Tundra, Exposição de Rocha, Neve e Gelo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Floresta Tropical, Floresta de Coníferas, Tundra, Floresta \nTemperada, Exposição de Rocha, Neve e Gelo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    }
+  ]
+}

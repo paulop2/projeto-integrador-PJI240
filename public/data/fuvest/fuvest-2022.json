@@ -1,0 +1,4490 @@
+{
+  "schemaVersion": 1,
+  "packageId": "fuvest-2022",
+  "institutionId": "usp",
+  "examId": "fuvest",
+  "editionId": "fuvest-2022",
+  "questions": [
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_1",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: \nPopulação de três regiões brasileiras: Norte = 18 milhões; Nordeste = 58 \nmilhões; Centro-Oeste = 17 milhões.\nA deficiência na enzima G6PD é uma condição recessiva ligada \nao cromossomo X, que pode ser diagnosticada no teste do \npezinho expandido. Pessoas com deficiência nesta enzima são \nsuscetíveis  à  anemia  hemolítica  ao  serem  expostas  à \ncloroquina ou primaquina, drogas amplamente prescritas por \nmédicos no tratamento da malária. No Brasil, a prevalência de \ndeficiência em G6PD na população geral varia de acordo com \nas áreas mostradas no mapa: \n  \nDombrowski, J G et al. (2017), Malar J, 16:253, doi:10.1186/s12936-017-\n1889-6 e Monteiro, W M et al. (2014), Mem Inst Oswaldo Cruz, 109:5, 553-\n568, doi:10.1590/0074-0276140123. Adaptados. \nIndique a afirmação correta sobre a segurança da prescrição \nde cloroquina nesse contexto.",
+      "files": [
+        "/data/fuvest/assets/2022/1/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Não é necessário fazer o teste do pezinho expandido em \nfilhos  de  casais  da  região  Nordeste  do  Brasil  que \napresentem deficiência da G6PD, já que menos de 3% dos \ntestes serão positivos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Aproximadamente  8,5  milhões  de  pessoas  da  região \nCentro-Oeste do Brasil têm somente um alelo recessivo \npara a deficiência em G6PD, sendo assintomáticas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Cerca de 900 mil pessoas da região Norte do Brasil podem \ndesenvolver anemia hemolítica devido ao tratamento com \ncloroquina, sendo a maioria do sexo masculino.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Descendentes de casais que não apresentam deficiência \nem G6PD têm mais de 25% de chance de possuírem o alelo \nrecessivo e podem ser tratados com cloroquina em áreas \nonde a malária não seja endêmica.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Os pacientes do sexo masculino devem ser investigados \nquanto  à  presença  de  anemia  hemolítica  na  família \npaterna  caso  vivam  em  regiões  onde  a  malária  é \nendêmica.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_2",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Por mais bem informado que você possa ser, não dá para \nbaixar a guarda. Mas por que as notícias falsas – mesmo \naquelas mais improváveis – parecem tão convincentes para \ntantas pessoas? Van Bavel, professor de psicologia e ciência \nneural  da  Universidade  de  Nova  York,  se  especializou  em \nentender como as crenças políticas e identidades de grupo \ninfluenciam a mente, e descobriu que a identificação com \nposições políticas pode interferir em como o cérebro processa \nas informações.  \nTendemos a rejeitar fatos que ameaçam nosso senso de \nidentidade  e  sempre  buscar  informações  que  confirmem \nnossas próprias crenças, seja por meio de memórias seletivas, \nleituras  de  fontes  que  estão  do  nosso  lado  ou  mesmo \ninterpretando os fatos de determinada maneira. Isso tudo \nestá relacionado a não querermos ter nossas ideias, gostos, \nidentidade questionados, e por isso temos dificuldade em \naceitar o que contradiz aquilo em que acreditamos. \n \nAna Prado. \"A ciência explica por que caímos em fake news\". \nSuperinteressante. 15/06/2018. Adaptado. \nDe acordo com o texto,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "as  pessoas  bem  informadas  estão  protegidas  de \npolêmicas, uma vez que o modo como processam os fatos \ntornam suas opiniões mais convincentes.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o  posicionamento  político  garante  a  disseminação  de \nnotícias verdadeiras e resulta de crenças já estabelecidas \nsocialmente.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a rejeição a questionamentos impede que se admitam \npontos de vista antagônicos, em razão da tendência de se \nconfirmar crenças pessoais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "as  memórias  seletivas  auxiliam  na  rejeição  de  fatos \ncontrários à realidade, já que conduzem à interpretação \ndas reportagens de modo imparcial.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "os fatos hostis normalmente são preteridos por grande \nparte  da  sociedade,  embora  sejam  utilizados  como \nidentificador cultural.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_3",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Nas  histórias  em  quadrinhos,  o  Pantera  Negra  ganha \nhabilidades físicas e mentais sobre-humanas ao ingerir ou \naplicar sobre seu corpo uma solução da erva em formato de \ncoração, cujos efeitos perduram durante a vida do herói, mas \nnão são transmitidos aos descendentes. Essa planta cresce em \nWakanda,  região  da  África  equatorial  oriental,  onde  um \nmeteorito contendo um metal chamado Vibranium caiu há 10 \nmil anos e provocou mutações na planta. Uma explicação \ncoerente com o conhecimento científico para o que ocorreu \nnessa situação ficcional é que a erva",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "sofreu  mutações  em  células  somáticas  pela  ação  do \nVibranium na época em que o meteorito atingiu Wakanda.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "promoveu mutações no RNA das células do Pantera Negra.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "provocou mutações dominantes relacionadas aos super-\npoderes nas células germinativas do Pantera Negra.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "é uma planta característica de ambientes de tundra.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "estava em estação de floração quando o meteorito caiu, \ncausando mutações em suas células germinativas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_4",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Disponível em http://www.malvados.com.br/. \nConsiderando a ironia da tirinha, é possível inferir que",
+      "files": [
+        "/data/fuvest/assets/2022/4/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o serviço de transporte público é gerido pelo Estado.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a qualidade do transporte é uma forma de punição.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "os responsáveis pelo transporte são punidos no Brasil.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o brasileiro é um povo que tolera a criminalidade.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o transporte público é responsável pela mobilidade urbana.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_5",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O gráfico mostra dados coletados na cidade do Rio de Janeiro, \nentre fevereiro e abril de 2020, período que inclui o início das \nmedidas  de  restrição  de  circulação  na  cidade  por  causa  da \npandemia  de  COVID-19.  Para  cada  dia,  representado  por  um \nsímbolo no gráfico, foram coletadas duas grandezas: uma média \nda energia de vibração sísmica durante o dia (na abscissa) e o índice \n𝐹 (na ordenada), que é a fração de pessoas que saiu de casa \nalguma vez naquele dia. A energia sísmica média foi medida em \n(nm/s)2 na faixa de frequências que tem causas humanas. Os \ntriângulos  representam  domingos  e  feriados;  os  quadrados \nreferem-se aos sábados; e os círculos correspondem aos dias úteis \nda semana. Para cada um desses subconjuntos de dados, uma reta \nmédia foi obtida, expressando a relação aproximada entre as duas \ngrandezas medidas. \n \nDias, F L et al. (2020), Geophysical Research Letters, 47:16, \ndoi:10.1029/2020GL088748. Adaptado. \nSobre o estudo descrito, o que é possível inferir a partir dos dados \napresentados?",
+      "files": [
+        "/data/fuvest/assets/2022/5/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Em  nenhum  sábado,  a  energia  sísmica  média  registrada \nsuperou 380 (nm/s)2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Em todos os dias úteis da semana, pelo menos 20% das pessoas \npermaneceram o tempo todo em casa.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Em alguns dos dias de domingo ou feriado, a energia sísmica \nmédia foi maior do que 600 (nm/s)2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Em dias úteis da semana, a energia sísmica média foi maior ou \nigual do que em sábados, domingos e feriados, para o mesmo \nnúmero de pessoas que saiu de casa em um dia.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Aos  sábados,  uma  medição  de  energia  sísmica  média  de \n190 (nm/s)2 indica que mais de 60% das pessoas saíram de casa \nnesse dia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_6",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os mapas mostram uma parte do município de São Paulo. O \nmapa I refere-se à população vacinada contra Sars-Cov-2; o \nmapa II refere-se à taxa de mortalidade por COVID-19; e o \nmapa III refere-se ao Índice de Desenvolvimento Humano. \nTons  mais  claros  indicam  valores  menores  e  tons  mais \nescuros, valores maiores. \n \nDisponível em https://www.labcidade.fau.usp.br/. Maio/2021. Adaptado. \nA partir desses dados, é correto afirmar que",
+      "files": [
+        "/data/fuvest/assets/2022/6/2.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a efetividade da campanha de vacinação coincide com as \náreas de maior IDH.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a virulência das variantes de Sars-Cov-2 é menor em áreas \nde menor IDH.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "as  vacinas  em  áreas  de  menor  IDH  demandam  maior \ntempo para a resposta imunológica do indivíduo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a taxa de mortalidade varia porque a população no centro \ndo município é maior e mais agregada.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a prevalência das variantes de Sars-Cov-2 é maior em áreas \nde maior IDH.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_7",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um aumento no consumo de água e produtos agrícolas por \nparte da população brasileira geralmente vem atrelado a um \naumento  na  pressão  exercida  sobre  o  meio  ambiente. \nSelecione  a  alternativa  que  apresenta  duas  soluções \nsustentáveis, de amplo alcance nacional e economicamente \nviáveis,  para  diminuir  a  expansão  dos  cultivos  sobre  a \nvegetação  nativa  e  para  garantir  recursos  hídricos  de \nqualidade para as gerações futuras. \nI - Aumento da exportação de produtos agrope-\ncuários.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I - Aumento da exportação de produtos agrope-\ncuários.\nII - Criação em larga escala de represas de pequeno \nporte.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I  -  Aumento  progressivo  da  produtividade  dos \ncultivos já existentes.\nII  -  Programa  amplo  de  preservação  de  matas \nciliares.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "I  -  Diminuição  do  comércio  interno  de  produtos \nagrícolas.\nII - Aumento da utilização dos aquíferos para abas-\ntecimento dos cultivos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I - Aumento da exportação de produtos agrope-\ncuários.\nII  -  Programa  amplo  de  preservação  de  matas \nciliares.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I  -  Diminuição  do  comércio  interno  de  produtos \nagrícolas.\nII - Criação em larga escala de represas de pequeno \nporte.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_8",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os gráficos mostram três trajetórias distintas com relação ao \nnúmero de espécies animais e vegetais, após desmatamento \nde áreas da floresta Amazônica: \n  \nApós os desmatamentos, os gráficos I, II e III correspondem, \nrespectivamente, a uma área que foi",
+      "files": [
+        "/data/fuvest/assets/2022/8/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "usada para pastagem e depois para cultivo de soja; usada \npara  cultivo  de  soja  nos  primeiros  20  anos  e  depois \nabandonada; abandonada logo após o desmatamento.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "abandonada  logo  após  o  desmatamento;  usada  como \npastagem nos primeiros 20 anos e depois abandonada; \nusada para pastagem e depois para cultivo de soja.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "usada como pastagem nos primeiros 20 anos e depois \nabandonada;  abandonada  logo  após  o  desmatamento; \nusada para pastagem e depois para cultivo de soja.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "usada como pastagem nos primeiros 20 anos e depois \nabandonada; usada para pastagem e depois para cultivo \nde soja; abandonada logo após o desmatamento.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "usada  para  pastagem  e  depois  para  cultivo  de  soja; \nabandonada logo após o desmatamento; usada para cultivo \nde soja nos primeiros 20 anos e depois abandonada.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_9",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote:\nO volume celular do ciliado em seu habitat natural é o referencial 1. \n0% corresponde a água doce pura.\nO gráfico representa o volume celular de um protozoário ciliado \nem um gradiente de salinidade: \n \nA partir desses dados, é correto afirmar que o protozoário \nciliado é",
+      "files": [
+        "/data/fuvest/assets/2022/9/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "de água salobra e seu equilíbrio osmótico ocorre por difusão \npassiva em ambientes hiposmóticos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "de água doce e possui mecanismos de controle osmótico em \nambientes hiperosmóticos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "marinho  e  possui  mecanismos  de  controle  osmótico  em \nambientes hiperosmóticos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "de água doce e não possui mecanismos de controle osmótico \nem ambientes hiposmóticos.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "marinho e não possui mecanismos de controle osmótico em \nambientes hiposmóticos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_10",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O gráfico mostra linhas de tendência de cinco parâmetros da \nágua (eixo y), medidos por pesquisadores, durante os estágios \niniciais do processo de eutrofização de uma lagoa, a partir do \nmomento em que começou a haver aporte de esgoto não \ntratado  e  antes  de  haver  a  estabilização  do  sistema. \nEntretanto,  os  técnicos  da  companhia  de  saneamento \nnotaram que nem todas as tendências mostradas no gráfico \nestão corretas. \n \nSão corretas apenas as linhas de tendência representadas em",
+      "files": [
+        "/data/fuvest/assets/2022/10/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1, 2 e 3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1, 2 e 4.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2, 3 e 5.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2, 4 e 5.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "3, 4 e 5.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_11",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O gráfico representa a proporção de células em diferentes \nfases do ciclo celular de dois tecidos humanos (1 e 2), bem \ncomo o efeito do tratamento do tecido 2 com uma substância \nque afeta a divisão celular: \n \nOs  tecidos  1  e  2  e  uma  aplicação  médica  do  efeito  do \ntratamento são, respectivamente:",
+      "files": [
+        "/data/fuvest/assets/2022/11/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "muscular, tumoral e quimioterapia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "ósseo, ovariano e fertilização in vitro.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "nervoso, tumoral e transplante.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "epitelial, ósseo e transfusão sanguínea.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "tumoral, nervoso e radioterapia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_12",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Analise o esquema e as estruturas (X, Y e Z) da planta para \ncompletar a frase a seguir. \n \nÀs 14h de um dia ensolarado, em condições hídricas ótimas, a \nestrutura identificada por _I_ encontra-se _II_, possibilitando \na absorção de água do solo e entrada de CO , que é utilizado \n2\npela  estrutura  representada  por  _III_  para  realização  da \nfotossíntese. \nAs lacunas I, II e III podem ser preenchidas corretamente por:",
+      "files": [
+        "/data/fuvest/assets/2022/12/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I-Z, II-aberta, III-Y",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I-Z, II-fechada, III-X",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "I-Y, II-vazia, III-X",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I-X, II-cheia, III-Z",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I-X, II-vazia, III-Y",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_13",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O esquema a seguir representa o aparecimento de bactérias \nmutantes em uma colônia e o resultado de sua exposição a \nquatro diferentes condições de cultura: \n \nDisponível em https://edepot.wur.nl/376546/. Adaptado. \nAssinale a alternativa com a relação correta entre as mutações \ne as condições de cultura.",
+      "files": [
+        "/data/fuvest/assets/2022/13/2.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A  mutação  X  inativa  os  transportadores  de  glicose,  e  a \ncondição I tem esse açúcar como fonte exclusiva de carbono.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A  mutação  X  promove  melhor  eficiência  do  equilíbrio \nosmótico, e a condição III tem alta salinidade.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A mutação Y confere resistência ao antibiótico penicilina, e \no meio de cultura da condição II contém esse antibiótico.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "As  mutações  X  e  Y  conferem  vantagem  adaptativa  às \nbactérias na condição IV.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A frequência de novas mutações será maior na condição IV.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_14",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O quadrinho a seguir mostra uma paródia entre situações \ncotidianas e descobertas científicas. \n  \nQuais feitos científicos de Mendeleev, de Watson e Crick e de \nThomson estão relacionados com o quadrinho?",
+      "files": [
+        "/data/fuvest/assets/2022/14/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Proposição  de  um  modelo  atômico,  descoberta  da \nestrutura dos polímeros, descoberta da radioatividade.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Organização  dos  elementos  químicos  em  uma  Tabela \nPeriódica, descoberta da estrutura do DNA, proposição de \num modelo atômico.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Compreensão  da  reatividade  dos  elementos  químicos, \nrepresentação simbólica dos elementos, descoberta das \ninterações moleculares.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Definição  de  entalpia,  representação  simbólica  dos \nelementos, caracterização e propriedades dos coloides.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Balanceamento  de  equações  químicas,  descoberta  da \npilha, organização dos elementos químicos em uma Tabela \nPeriódica.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_15",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "philosophy",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No  texto  do  filósofo  francês  Maurice  Merleau-Ponty  é \nestabelecida  uma  conexão  entre  as  relações  sociais  e  a \nracionalidade dos indivíduos: \nA  sociedade  humana  não  é  uma  comunidade  de  espíritos \nracionais,  só  se  pode  compreendê-la  assim  nos  países \nfavorecidos, em que o equilíbrio vital e econômico foi obtido \nlocalmente e por certo tempo.  \nMaurice Merleau-Ponty, Fenomenologia da percepção, p.89. \nQual sentença, se tomada como verdadeira, reforça a posição \nexprimida pelo filósofo no trecho?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A racionalidade é uma potência espiritual que se impõe \nsobre as circunstâncias históricas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O equilíbrio vital e econômico é uma força irracional que \nse contrapõe aos espíritos racionais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Nos países favorecidos, as pessoas são naturalmente mais \nracionais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A racionalidade das relações sociais depende da estabilidade \nde circunstâncias históricas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Os espíritos racionais são responsáveis pelo equilíbrio vital \ne econômico dos países favorecidos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_16",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A figura sintetiza, de forma simplificada, a variação da pressão \nsanguínea (mmHg), da velocidade de circulação sanguínea \n(cm/s) e da área total (cm2) em relação aos diversos tipos de \nvasos  do  sistema  sanguíneo  humano  (artérias,  arteríolas, \ncapilares, vênulas e veias): \n  \nCom base na figura, é correto afirmar que",
+      "files": [
+        "/data/fuvest/assets/2022/16/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a  velocidade  aumenta  nas  vênulas,  o  que  permite  às \nhemoglobinas descarregarem o O . \n2",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a pressão sanguínea cai nos capilares, vênulas e veias pela \npresença de válvulas nesses vasos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a  pressão  diminui  a  partir  dos  capilares,  o  que  evita \nacidentes vasculares em vasos menores.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a área aumenta na região dos capilares, o que permite \nmaior eficiência nas trocas gasosas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a velocidade é inversamente proporcional à área por conta \ndo batimento sistólico do coração.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_17",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No  modelo  hegemônico,  quase  todo  o  treinamento  é \nreservado para o desenvolvimento muscular, sobrando muito \npouco  tempo  para  a  mobilidade,  a  flexibilidade,  o  treino \nrestaurativo, o relaxamento e o treinamento cardiovascular. Na \nteoria, seria algo em torno de 70% para o fortalecimento, 20% \npara o cárdio e 10% para a flexibilidade e outros. Na prática, \nmuitos alunos direcionam 100% do tempo para o fortalecimento.  \nComo  a  prática  cardiovascular  é  infinitamente  mais \nsignificativa e determinante para a nossa saúde orgânica como \num  todo,  podendo  ser  considerada  o  \"coração\"  de  um \ntreinamento  consciente  e  saudável,  essa  ordem  deveria  ser \nrevista. \nNuno Cobra Jr. \"Fitness não é saúde\". Uol. 06/05/2021. Adaptado.\nSem  alteração  de  sentido,  o  segundo  parágrafo  do  texto \npoderia ser reescrito da seguinte maneira:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Ainda que a prática cardiovascular seja infinitamente mais \nsignificativa e determinante para a nossa saúde orgânica \ncomo um todo, essa ordem deveria ser revista, podendo \nser  considerada  o  \"coração\"  de  um  treinamento \nconsciente e saudável.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Para  evitar  que  a  prática  cardiovascular  se  torne \ninfinitamente  mais  significativa  e  determinante  para  a \nnossa  saúde  orgânica  como  um  todo,  podendo  ser \nconsiderada o \"coração\" de um treinamento consciente e \nsaudável, essa ordem deveria ser revista.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Quando a prática cardiovascular for infinitamente mais \nsignificativa e determinante para a nossa saúde orgânica \ncomo um todo, essa ordem deveria ser revista, podendo \nser  considerada  o  \"coração\"  de  um  treinamento \nconsciente e saudável.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Quanto mais a prática cardiovascular é infinitamente mais \nsignificativa e determinante para a nossa saúde orgânica \ncomo um todo, podendo ser considerada o \"coração\" de \num  treinamento  consciente  e  saudável,  essa  ordem \ndeveria ser revista.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Essa ordem deveria ser revista: a prática cardiovascular é \ninfinitamente  mais  significativa  e  determinante  para  a \nnossa  saúde  orgânica  como  um  todo,  podendo  ser \nconsiderada o \"coração\" de um treinamento consciente e \nsaudável.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_18",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No  modelo  hegemônico,  quase  todo  o  treinamento  é \nreservado para o desenvolvimento muscular, sobrando muito \npouco  tempo  para  a  mobilidade,  a  flexibilidade,  o  treino \nrestaurativo, o relaxamento e o treinamento cardiovascular. Na \nteoria, seria algo em torno de 70% para o fortalecimento, 20% \npara o cárdio e 10% para a flexibilidade e outros. Na prática, \nmuitos alunos direcionam 100% do tempo para o fortalecimento.  \nComo  a  prática  cardiovascular  é  infinitamente  mais \nsignificativa e determinante para a nossa saúde orgânica como \num  todo,  podendo  ser  considerada  o  \"coração\"  de  um \ntreinamento  consciente  e  saudável,  essa  ordem  deveria  ser \nrevista. \nNuno Cobra Jr. \"Fitness não é saúde\". Uol. 06/05/2021. Adaptado.\nDentre as expressões destacadas, a que exerce a mesma função \nsintática  do  termo  sublinhado  em  \"o  treino  restaurativo,  o \nrelaxamento e o treinamento cardiovascular\" é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "um atleta de seleção precisa de treinamento intenso.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o amor ao esporte é fundamental para o atleta.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a população incorpora radicalmente atitudes saudáveis.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "muitas pessoas se beneficiam de alimentos verdes.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "todo tipo de atividade física faz bem à saúde mental.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_19",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Por narrativas paralelas entende-se um procedimento literário \nsegundo o qual dois ou mais fios narrativos pertencentes a níveis \ndistintos de realidade se desenrolam intercaladamente formando \num todo. Considerando-se a sua estrutura, as duas narrativas que \npodem ser identificadas com base nessa definição são:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Quincas Borba e Nove noites",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Campo geral e Terra sonâmbula",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Angústia e Campo geral",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Nove noites e Terra sonâmbula",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Quincas Borba e Angústia",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_20",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "I. \n \n         Suave mari magno* \n \nLembra-me que, em certo dia, \nNa rua, ao sol de verão,  \nEnvenenado morria \n        Um pobre cão. \n \nArfava, espumava e ria,  \nDe um riso espúrio e bufão, \nVentre e pernas sacudia  \n         Na convulsão. \n \nNenhum, nenhum curioso \nPassava, sem se deter, \n         Silencioso, \n \nJunto ao cão que ia morrer, \nComo se lhe desse gozo \n         Ver padecer. \n \n                                       Machado de Assis. Ocidentais. \n \n*Expressão latina, retirada de Lucrécio (Da natureza das coisas), a \nqual aparece no seguinte trecho: Suave, mari magno, turbantibus \naequora  ventis/  E  terra  magnum  alterius  spectare  laborem.  (\"É \nagradável, enquanto no mar revoltoso os ventos levantam as águas, \nobservar da terra os grandes esforços de um outro.\"). \n \nII. \n  Tão certo é que a paisagem depende do ponto de vista, e \nque o melhor modo de apreciar o chicote é ter-lhe o cabo \nna mão. \nMachado de Assis. Quincas Borba, cap. XVIII. \n \nIII. \n  Sofia soltou um grito de horror e acordou. Tinha ao pé do \nleito o marido: \n  – Que foi? perguntou ele. \n  – Ah! respirou Sofia. Gritei, não gritei? \n                                              (...) \n  – Sonhei que estavam matando você. \n  Palha ficou enternecido. Havê-la feito padecer por ele, \nainda que em sonhos, encheu-o de piedade, mas de uma \npiedade  gostosa,  um  sentimento  particular,  íntimo, \nprofundo, – que o faria desejar outros pesadelos, para que \no assassinassem aos olhos dela, e para que ela gritasse \nangustiada, convulsa, cheia de dor e de pavor. \n \nMachado de Assis. Quincas Borba, cap. CLXI.\nA visão do eu-lírico no texto I",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "volta-se nostálgica para as imagens de uma lembrança.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "centra-se com desprezo na figura do animal agonizante.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "apreende displicentemente o movimento dos transeuntes.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "ganha distância da cena para captar todos os seus aspectos.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "apresenta o espectador da crueldade como um ser incomum.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_21",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "I. \n \n         Suave mari magno* \n \nLembra-me que, em certo dia, \nNa rua, ao sol de verão,  \nEnvenenado morria \n        Um pobre cão. \n \nArfava, espumava e ria,  \nDe um riso espúrio e bufão, \nVentre e pernas sacudia  \n         Na convulsão. \n \nNenhum, nenhum curioso \nPassava, sem se deter, \n         Silencioso, \n \nJunto ao cão que ia morrer, \nComo se lhe desse gozo \n         Ver padecer. \n \n                                       Machado de Assis. Ocidentais. \n \n*Expressão latina, retirada de Lucrécio (Da natureza das coisas), a \nqual aparece no seguinte trecho: Suave, mari magno, turbantibus \naequora  ventis/  E  terra  magnum  alterius  spectare  laborem.  (\"É \nagradável, enquanto no mar revoltoso os ventos levantam as águas, \nobservar da terra os grandes esforços de um outro.\"). \n \nII. \n  Tão certo é que a paisagem depende do ponto de vista, e \nque o melhor modo de apreciar o chicote é ter-lhe o cabo \nna mão. \nMachado de Assis. Quincas Borba, cap. XVIII. \n \nIII. \n  Sofia soltou um grito de horror e acordou. Tinha ao pé do \nleito o marido: \n  – Que foi? perguntou ele. \n  – Ah! respirou Sofia. Gritei, não gritei? \n                                              (...) \n  – Sonhei que estavam matando você. \n  Palha ficou enternecido. Havê-la feito padecer por ele, \nainda que em sonhos, encheu-o de piedade, mas de uma \npiedade  gostosa,  um  sentimento  particular,  íntimo, \nprofundo, – que o faria desejar outros pesadelos, para que \no assassinassem aos olhos dela, e para que ela gritasse \nangustiada, convulsa, cheia de dor e de pavor. \n \nMachado de Assis. Quincas Borba, cap. CLXI.\nA analogia consiste em um recurso de expressão comumente \nutilizado para ilustrar um raciocínio por meio da semelhança \nque  se  observa  entre  dois  fatos  ou  ideias.  No  texto  II,  a \nanalogia construída a partir da imagem do chicote pretende \nsugerir que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o instrumento do castigo nem sempre cai em mãos justas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o apreço aos objetos independe do uso que se faz deles.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o cabo é metáfora de mérito, e a ponta, metáfora de culpa.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o mais fraco, por ser compassivo, é incapaz de desfrutar do \npoder.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o prazer verdadeiro se experimenta no lado dos dominantes.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_22",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "I. \n \n         Suave mari magno* \n \nLembra-me que, em certo dia, \nNa rua, ao sol de verão,  \nEnvenenado morria \n        Um pobre cão. \n \nArfava, espumava e ria,  \nDe um riso espúrio e bufão, \nVentre e pernas sacudia  \n         Na convulsão. \n \nNenhum, nenhum curioso \nPassava, sem se deter, \n         Silencioso, \n \nJunto ao cão que ia morrer, \nComo se lhe desse gozo \n         Ver padecer. \n \n                                       Machado de Assis. Ocidentais. \n \n*Expressão latina, retirada de Lucrécio (Da natureza das coisas), a \nqual aparece no seguinte trecho: Suave, mari magno, turbantibus \naequora  ventis/  E  terra  magnum  alterius  spectare  laborem.  (\"É \nagradável, enquanto no mar revoltoso os ventos levantam as águas, \nobservar da terra os grandes esforços de um outro.\"). \n \nII. \n  Tão certo é que a paisagem depende do ponto de vista, e \nque o melhor modo de apreciar o chicote é ter-lhe o cabo \nna mão. \nMachado de Assis. Quincas Borba, cap. XVIII. \n \nIII. \n  Sofia soltou um grito de horror e acordou. Tinha ao pé do \nleito o marido: \n  – Que foi? perguntou ele. \n  – Ah! respirou Sofia. Gritei, não gritei? \n                                              (...) \n  – Sonhei que estavam matando você. \n  Palha ficou enternecido. Havê-la feito padecer por ele, \nainda que em sonhos, encheu-o de piedade, mas de uma \npiedade  gostosa,  um  sentimento  particular,  íntimo, \nprofundo, – que o faria desejar outros pesadelos, para que \no assassinassem aos olhos dela, e para que ela gritasse \nangustiada, convulsa, cheia de dor e de pavor. \n \nMachado de Assis. Quincas Borba, cap. CLXI.\nNo texto III, ao analisar a interioridade de Palha, o narrador \ndescobre, no pensamento oculto do negociante,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a ternura que lhe inspira a mulher, capaz de toda abnegação.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a piedade que lhe causa a mulher, a quem só guarda desprezo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a vaidade que beira o sadismo, ao ver a mulher sofrer por ele.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o gozo vingativo, visto que a mulher o trai com Carlos Maria.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o remorso do infiel, pois ele trai a mulher com Maria Benedita.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_23",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Largo em sentir, em respirar sucinto, \nPeno, e calo, tão fino, e tão atento, \nQue fazendo disfarce do tormento \nMostro que o não padeço, e sei que o sinto. \n \nO mal, que fora encubro, ou que desminto, \nDentro no coração é que o sustento: \nCom que, para penar é sentimento, \nPara não se entender, é labirinto. \n  \nNinguém sufoca a voz nos seus retiros; \nDa tempestade é o estrondo efeito: \nLá tem ecos a terra, o mar suspiros. \n  \nMas oh do meu segredo alto conceito! \nPois não me chegam a vir à boca os tiros \nDos combates que vão dentro no peito. \nGregório de Matos e Guerra \n \nNo soneto, o eu lírico:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "expressa um conflito que confirma a imagem pública do \npoeta, conhecido pelo epíteto de \"o Boca do Inferno\".",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "opta  por  sufocar  a  própria  voz  como  estratégia \napaziguadora de suas perturbações de foro íntimo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "explora a censura que o autor sofreu em sua época, ao ser \nimpedido de dar expressão aos seus sentimentos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "estabelece, nos tercetos, um contraponto semântico entre \nas metáforas da natureza e da guerra.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "revela-se como um ser atormentado, ao mesmo tempo \nque omite a natureza de seu sofrimento.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_24",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Nun´Álvares Pereira \nQue auréola te cerca? \nÉ a espada que, volteando,  \nFaz que o ar alto perca \nSeu azul negro e brando.  \n \nMas que espada é que, erguida,  \nFaz esse halo no céu? \nÉ Excalibur, a ungida,  \nQue o Rei Artur te deu. \n \n´Sperança consumada,  \nS. Portugal em ser,  \nErgue a luz da tua espada \nPara a estrada se ver! \n \n                 Fernando Pessoa. In: \"A Coroa\", Parte I, Mensagem. \n \nA  primeira  parte  de  Mensagem,  organizada  como  um \ncorrelativo poético do Brasão das Armas de Portugal, perfila \numa  série  de  figuras  míticas  e  históricas  que  teriam  sido \nresponsáveis pela formação nacional portuguesa. A seleção \nde Nun´Álvares Pereira para ocupar o lugar da Coroa",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "sugere, pela imagem do halo de luz, que a verdadeira \nnobreza é de espírito.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "destaca, através da referência ao mito arturiano, o seu \nsangue bretão.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "distingue,  por  meio  do  substantivo  \"´sperança\",  um \nregente digno de seu posto.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "enaltece, pela repetição da palavra espada, a guerra como \nestrada para o futuro.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "indica,  associada  ao  adjetivo  \"consumada\",  uma  visão \ndesenganada da história.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_25",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A taxação de livros tem um efeito cascata que acaba \ncustando caro não apenas ao leitor, como também ao mercado \neditorial – que há anos não anda bem das pernas – e, em última \ninstância,  ao  desenvolvimento  econômico  do  país.  A  gente \nexplica. Taxar um produto significa, quase sempre, um aumento \nno valor do produto final. Isso porque ao menos uma parte desse \nimposto  será  repassada  ao  consumidor,  especialmente  se \nconsiderarmos que as editoras e livrarias enfrentam há anos uma \ncrise que agora está intensificada pela pandemia e não poderiam \nretirar o valor desse imposto de seu já apertado lucro. Livros mais \ncaros também resultam em queda de vendas, que, por sua vez, \nenfraquece ainda mais editoras e as impede de investir em novas \npublicações – especialmente aquelas de menor apelo comercial, \nmas igualmente importantes para a pluralidade de ideias. Já deu \npara perceber a confusão, não é? Mas, além disso, qual seria o \ncusto de uma sociedade com menos leitores e menos livros? \nTaís Ilhéu. \"Por que taxar os livros pode gerar retrocesso social e econômico \nno país\". Guia do Estudante. Setembro/2020. Adaptado.\nDe acordo com o texto, os eventos sequenciais aos quais \nalude a expressão \"efeito cascata\" são:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "livros mais caros, decréscimo de vendas, estímulo às editoras, \nsupressão de investimento em novas publicações.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "aumento  do  valor  do  produto  final,  queda  de  vendas, \nencolhimento das editoras, aumento do investimento em \nnovas obras.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "livros  mais  caros,  instabilidade  nas  vendas, \nenfraquecimento das editoras, expansão das publicações.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "aumento do valor do produto final, contração nas vendas, \nesgotamento das editoras, falta de investimento em novas \npublicações.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "livros mais caros, equilíbrio nas vendas, diminuição das \neditoras, carência de investimento em novas publicações.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_26",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A taxação de livros tem um efeito cascata *que* acaba \ncustando caro não apenas ao leitor, como também ao mercado \neditorial – *que* há anos não anda bem das pernas – e, em última \ninstância,  ao  desenvolvimento  econômico  do  país.  A  gente \nexplica. Taxar um produto significa, quase sempre, um aumento \nno valor do produto final. Isso porque ao menos uma parte desse \nimposto  será  repassada  ao  consumidor,  especialmente  se \nconsiderarmos que as editoras e livrarias enfrentam há anos uma \ncrise *que* agora está intensificada pela pandemia e não poderiam \nretirar o valor desse imposto de seu já apertado lucro. Livros mais \ncaros também resultam em queda de vendas, *que*, por sua vez, \nenfraquece ainda mais editoras e as impede de investir em novas \npublicações – especialmente aquelas de menor apelo comercial, \nmas igualmente importantes para a pluralidade de ideias. Já deu \npara perceber a confusão, não é? Mas, além disso, qual seria o \ncusto de uma sociedade com menos leitores e menos livros? \nTaís Ilhéu. \"Por que taxar os livros pode gerar retrocesso social e econômico \nno país\". Guia do Estudante. Setembro/2020. Adaptado.\nNo  texto,  os  pronomes  em  negrito( envoltos em *)  referem-se, \nrespectivamente, a:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "taxação de livros, mercado editorial, crise, queda de vendas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "taxação de livros, leitor, crise, queda de vendas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "efeito cascata, mercado editorial, crise, queda de vendas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "efeito cascata, mercado editorial, livrarias, livros.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "efeito cascata, leitor, crise, livros.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_27",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Chega um momento em que a tensão eu/mundo se exprime \nmediante uma perspectiva crítica, imanente à escrita, o que torna \no romance não mais uma variante literária da rotina social, mas \no seu avesso; logo, o oposto do discurso ideológico do homem \nmédio.  O  romancista  \"imitaria\"  a  vida,  sim,  mas  qual  vida? \nAquela cujo sentido dramático escapa a homens e mulheres \nentorpecidos ou automatizados por seus hábitos cotidianos. A \nvida como objeto de busca e construção, e não a vida como \nencadeamento de tempos vazios e inertes. Caso essa pobre vida-\nmorte deva ser tematizada, ela aparecerá como tal, degradada, \nsem a aura positiva com que as palavras \"realismo\" e \"realidade\" \nsão usadas nos discursos que fazem a apologia conformista da \n\"vida  como  ela  é\"...  A  escrita  da  resistência,  a  narrativa \natravessada pela tensão crítica, mostra, sem retórica nem alarde \nideológico,  que  essa  \"vida  como  ela  é\"  é,  quase  sempre,  o \nramerrão de um mecanismo alienante, precisamente o contrário \nda vida plena e digna de ser vivida. \nÉ nesse sentido que se pode dizer que a narrativa descobre a \nvida verdadeira, e que esta abraça e transcende a vida real. A \nliteratura, com ser ficção, resiste à mentira. É nesse horizonte que \no espaço da literatura, considerado em geral como lugar da \nfantasia, pode ser o lugar da verdade mais exigente. \nAlfredo Bosi. \"Narrativa e resistência\". Adaptado. \n \nO conceito de resistência, expresso pela tensão do indivíduo \nperante o mundo, adquire perspectiva crítica na escrita do \nromance quando o autor",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "rompe a superfície enganosa da realidade.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "forja um realismo rente à vida mesquinha.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "é neutro ao figurar a vacuidade do presente.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "conserva o discurso positivo da ordem.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "consegue sobrepor a fantasia à verdade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_28",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  escrita  faz  de  tal  modo  parte  de  nossa  civilização  que \npoderia  servir  de  definição  dela  própria.  A  história  da \nhumanidade se divide em duas imensas eras: antes e a partir \nda escrita. Talvez venha o dia de uma terceira era — depois da \nescrita. Vivemos os séculos da civilização escrita. Todas as \nnossas sociedades baseiam-se no escrito. A lei escrita substitui \na lei oral, o contrato escrito substitui a convenção verbal, a \nreligião escrita se seguiu à tradição lendária. E sobretudo não \nexiste história que não se funde sobre textos. \n  Charles Higounet. A história da escrita. Adaptado.\nA escrita poderia servir de definição da nossa civilização, uma \nvez que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a terceira era está prestes a acontecer.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o escrito respalda as atividades humanas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "as convenções verbais substituíram o escrito.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a oralidade deixou de ser usada em períodos remotos.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "os textos pararam de se modificar a partir da escrita.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_29",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  escrita  faz  de  tal  modo  parte  de  nossa  civilização  que \npoderia  servir  de  definição  dela  própria.  A  história  da \nhumanidade se divide em duas imensas eras: antes e a partir \nda escrita. Talvez venha o dia de uma terceira era — depois da \nescrita. Vivemos os séculos da civilização escrita. Todas as \nnossas sociedades baseiam-se no escrito. A lei escrita substitui \na lei oral, o contrato escrito substitui a convenção verbal, a \nreligião escrita se seguiu à tradição lendária. E sobretudo não \nexiste história que não se funde sobre textos. \n  Charles Higounet. A história da escrita. Adaptado.\nA  locução  conjuntiva  \"de  tal  modo…que\"  e  o  advérbio \n\"sobretudo\", respectivamente, expressam noção de:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "conformidade e dúvida.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "consequência e realce.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "condição e negação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "consequência e negação.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "condição e realce.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_30",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Atualmente, no Brasil, coexistem dois sistemas de placas de \nidentificação  de  automóveis:  o  padrão  Mercosul  (o  mais \nrecente) e aquele que se iniciou em 1990 (o sistema anterior, \nusado  ainda  pela  maioria  dos  carros  em  circulação).  No \nsistema anterior, utilizavam-se 3 letras (em um alfabeto de 26 \nletras)  seguidas  de  4  algarismos  (de  0  a  9).  No  padrão \nMercosul adotado no Brasil para automóveis, são usadas 4 \nletras e 3 algarismos, com 3 letras nas primeiras 3 posições e \na quarta letra na quinta posição, podendo haver repetições de \nletras ou de números. A figura ilustra os dois tipos de placas. \n  \nDessa forma, o número de placas possíveis do padrão Mercosul \nbrasileiro de automóveis é maior do que o do sistema anterior em",
+      "files": [
+        "/data/fuvest/assets/2022/30/2.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1,5 vezes.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2 vezes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2,6 vezes.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2,8 vezes.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "3 vezes.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_31",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O sistema de numeração conhecido como chinês científico (ou \nem barras) surgiu provavelmente há mais de dois milênios. O \nsistema  é  essencialmente  posicional,  de  base  10,  com  o \nprimeiro  algarismo  à  direita  representando  a  unidade.  A \nprimeira linha horizontal de símbolos da figura mostra como \nse representam os algarismos 1, 2, 3, 4, 5, 6, 7, 8 e 9 quando \naparecem em posições ímpares (unidades, centenas etc.), e a \nsegunda linha quando tais algarismos aparecem em posições \npares (dezenas, milhares etc.). Nesse sistema, passou-se a \nusar um círculo para representar o algarismo zero a partir da \nDinastia Sung (960-1126). \n \nHoward Eves, Introdução à História da Matemática. Tradução: Hygino H. \nDomingues. Editora Unicamp, 2011 (5ª ed.). \nAssinale a alternativa que representa o número 91625 nesse \nsistema de numeração.",
+      "files": [
+        "/data/fuvest/assets/2022/31/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/31/1.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/31/2.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/31/3.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/31/4.jpg"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/31/5.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_32",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um  vídeo  tem  três  minutos  de  duração.  Se  o  vídeo  for \nreproduzido, desde o seu início, com velocidade de 1,5 vezes \na velocidade original, o tempo de reprodução do vídeo inteiro \nserá de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1min30s.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1min50s.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2min00s.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2min30s.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "2min50s.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_33",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma indústria produz três modelos de cadeiras (indicadas por \n𝑀1 ,𝑀2  e 𝑀3 ), cada um deles em duas opções de cores: preta \ne vermelha (indicadas por P e V, respectivamente). A tabela \nmostra  o  número  de  cadeiras  produzidas  semanalmente \nconforme a cor e o modelo: \n \nAs  porcentagens  de  cadeiras  com  defeito  são  de  2%  do \nmodelo 𝑀1 , 5% do modelo 𝑀2  e 8% do modelo 𝑀3 . As cadeiras \nque não apresentam defeito são denominadas boas. \nA  tabela  que  indica  o  número  de  cadeiras  produzidas \nsemanalmente com defeito (D) e boas (B), de acordo com a \ncor, é:",
+      "files": [
+        "/data/fuvest/assets/2022/33/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/33/1.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/33/2.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/33/3.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/33/4.jpg"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/33/5.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_34",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os  funcionários  de  um  salão  de  beleza  compraram  um \npresente  no  valor  de  R$  200,00  para  a  recepcionista  do \nestabelecimento. No momento da divisão igualitária do valor, \ndois deles desistiram de participar e, por causa disso, cada \npessoa que ficou no grupo precisou pagar R$ 5,00 a mais que \na quantia originalmente prevista. O valor pago por pessoa que \npermaneceu na divisão do custo do presente foi:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "R$ 10,00",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "R$ 15,00",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "R$ 20,00",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "R$ 25,00",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "R$ 40,00",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_35",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma empresa construiu um poço para  armazenar água de \nreúso.  O  custo  para  construir  o  primeiro  metro  foi  de \nR$ 1.000,00, e cada novo metro custou R$ 200,00 a mais do que \no imediatamente anterior. Se o custo total da construção foi de \nR$ 48.600,00, a profundidade do poço é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "15 m",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "18 m",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "21 m",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "24 m",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "27 m",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_36",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: \nEm poliedros convexos, vale a relação de Euler 𝐹−𝐴+𝑉 = 2, em que 𝐹 \né o número de faces, 𝐴 é o número de arestas e 𝑉 é o número de vértices \ndo poliedro.\nUm deltaedro é um poliedro cujas faces são todas triângulos \nequiláteros. Se um deltaedro convexo possui 8 vértices, então \no número de faces desse deltaedro é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "4",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "6",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "8",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "10",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "12",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_37",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A figura mostra um quadrado e um círculo, ambos com centro no \nponto 𝑂. O quadrado tem lado medindo 1 unidade de medida \n(u.m.) e o círculo tem raio igual a 2 u.m. O ponto 𝐴 está sobre o \ncontorno do quadrado, o ponto 𝐵 está sobre o contorno do círculo, \ne o segmento 𝐴𝐵 tem tamanho 2 u.m. \n  \nQuando o ângulo 𝜃 = 𝐴𝑂𝐵 for máximo, seu cosseno será:",
+      "files": [
+        "/data/fuvest/assets/2022/37/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1/8",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1/4",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1/2",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "√2/2",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "√3/2",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_38",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Suponha que o polinômio p(x) = x^3 +𝑚x -2, em que 𝑚 é \num número real, tenha uma raiz real dupla 𝑎 e uma raiz real \nsimples 𝑏. O valor da soma de 𝑚 com 𝑎 é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "-1",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "-2",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "-3",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "-4",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_39",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Quatro  tanques  cilíndricos  são  vistos  de  cima  (em  planta \nbaixa) conforme a figura. Todos têm 10 m de raio e seus \ncentros  se  posicionam  em  vértices  dos  dois  quadrados \ntracejados adjacentes, ambos com 30 m de lado. Uma fita de \nisolamento, esticada e paralela ao solo, envolve os 4 tanques, \ndando uma volta completa (linha em laranja na figura). \n  \nO comprimento da fita, em metros, é:",
+      "files": [
+        "/data/fuvest/assets/2022/39/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "20𝜋 +30(3 +√2)",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "20𝜋 +30(4+√2)",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "25𝜋 +15(4+√2)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "25𝜋 +30(4+√2)",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "25𝜋 +30(4 +2√2)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_40",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em fevereiro de 2021, um grupo de físicos da Universidade \nFederal de Minas Gerais (UFMG) publicou um artigo que foi \ncapa  da  importante  revista  Nature.  O  texto  a  seguir  foi \nretirado de uma reportagem do site da UFMG sobre o artigo:  \nO  nanoscópio,  prossegue  Ado  Jorio  (professor  da  UFMG), \nilumina a amostra com um microscópio óptico usual. O foco \nda luz tem o tamanho de um círculo de 1 micrômetro de \ndiâmetro. \"O que o nanoscópio faz é inserir uma nanoantena, \nque tem uma ponta com diâmetro de 10 nanômetros, dentro \ndesse foco de 1 micrômetro e escanear essa ponta. A imagem \ncom resolução nanométrica é formada por esse processo de \nescaneamento  da  nanoantena,  que  localiza  o  campo \neletromagnético da luz em seu ápice\", afirma o professor. \nItamar Rigueira Jr. \"Nanoscópio da UFMG possibilita compreender estrutura que \ntorna grafeno supercondutor\". Adaptado. Disponível em \nhttps://ufmg.br/comunicacao/noticias/. \nGadelha A C et al. (2021), Nature, 590, 405-409, doi: 10.1038/s41586-021-03252-5. \nCom base nos dados mencionados no texto, a razão entre o \ndiâmetro do foco da luz de um microscópio óptico usual e o \ndiâmetro da ponta da nanoantena utilizada no nanoscópio é \nda ordem de:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,0001",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0,01",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "100",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "10000",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_41",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  quantidade  de  bactérias  em  um  líquido  é  diretamente \nproporcional à medida da turbidez desse líquido. O gráfico \nmostra, em escala logarítmica, o crescimento da turbidez 𝑥 de \num líquido ao longo do tempo 𝑡 (medido em minutos), isto é, \nmostra log10(𝑥) em função de 𝑡. Os dados foram coletados de \n30 em 30 minutos, e uma curva de interpolação foi obtida \npara inferir valores intermediários. \n  \nDisponível em https://fankhauserblog.wordpress.com/. \nCom  base  no  gráfico,  em  quantas  vezes  a  população  de \nbactérias aumentou, do instante 𝑡0  para o instante 𝑡1 ?",
+      "files": [
+        "/data/fuvest/assets/2022/41/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "2",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "4",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "5",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "10",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "100",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_42",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Fatbergs  are  a \ngrowing scourge infesting \ncities around the world—\nsome are more than 800 \nfeet long and weigh more \nthan  four  humpback \nwhales. These gross globs, \nwhich  can  cause  sewer \nsystems to block up and even overflow, have been plaguing the \nU.S., Great Britain and Australia for the past decade, forcing \ngovernments and utilities companies to send workers down into \nthe sewers armed with water hoses, vacuums and scrapers with \nthe unenviable task of prying them loose. \n\"It is hard not to think of [fatbergs] as a tangible symbol of the \nway we live now, the ultimate product of our disposable, out of \nsight, out of mind culture,\" wrote journalist Tim Adams in The \nGuardian.  \nAt their core, fatbergs are the accumulation of oil and grease \nthat's been poured down the drain, congealing around flushed \nnonbiological waste like tampons, condoms and baby wipes. \nWhen fat sticks to the side of sewage pipes, the wipes and other \ndetritus get stuck, accumulating layer upon layer of gunk in a sort \nof slimy snowball effect. \nFatbergs also collect other kinds of debris—London fatbergs \nhave been cracked open to reveal pens, false teeth and even \nwatches. \nRestaurants are a big contributor to fatbergs: Thames Water, \nthe London utilities company, found nine out of 10 fast-food \neateries lacked adequate grease traps to stop fat from entering \nthe  sewers.  Homeowners  also  contribute  to  the  problem  by \npouring grease and fat down the sink. \nEven  though  its  component  materials  are  soft,  fatbergs \nthemselves can be tough as rocks. Researchers have found a host \nof dangerous bacteria in fatbergs, including listeria and e.coli. \nFatbergs are notorious for their fetid smell, which can make \neven the hardiest sewer workers gag, and chipping away at one \ncan release noxious gases.  \nThe key to fatberg prevention is remembering the four Ps: \nPee, poo, puke and (toilet) paper are the only things that should \nbe flushed. \nNewsweek, 14 March, 2019. Adaptado.\nO texto informa que, na opinião do jornalista Tim Adams, os \nfatbergs",
+      "files": [
+        "/data/fuvest/assets/2022/42/2.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "integram a paisagem londrina, causando impacto em razão \nde suas dimensões.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "constituem  representação  real  dos  hábitos  humanos \natuais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "simbolizam  aspectos  culturais  submetidos  a  análises \nracionais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "desafiam o repertório tecnológico da engenharia de águas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "demonstram incentivo para que moradores consolidem \nseus costumes.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_43",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Fatbergs  are  a \ngrowing scourge infesting \ncities around the world—\nsome are more than 800 \nfeet long and weigh more \nthan  four  humpback \nwhales. These gross globs, \nwhich  can  cause  sewer \nsystems to block up and even overflow, have been plaguing the \nU.S., Great Britain and Australia for the past decade, forcing \ngovernments and utilities companies to send workers down into \nthe sewers armed with water hoses, vacuums and scrapers with \nthe unenviable task of prying them loose. \n\"It is hard not to think of [fatbergs] as a tangible symbol of the \nway we live now, the ultimate product of our disposable, out of \nsight, out of mind culture,\" wrote journalist Tim Adams in The \nGuardian.  \nAt their core, fatbergs are the accumulation of oil and grease \nthat's been poured down the drain, congealing around flushed \nnonbiological waste like tampons, condoms and baby wipes. \nWhen fat sticks to the side of sewage pipes, the wipes and other \ndetritus get stuck, accumulating layer upon layer of gunk in a sort \nof slimy snowball effect. \nFatbergs also collect other kinds of debris—London fatbergs \nhave been cracked open to reveal pens, false teeth and even \nwatches. \nRestaurants are a big contributor to fatbergs: Thames Water, \nthe London utilities company, found nine out of 10 fast-food \neateries lacked adequate grease traps to stop fat from entering \nthe  sewers.  Homeowners  also  contribute  to  the  problem  by \npouring grease and fat down the sink. \nEven  though  its  component  materials  are  soft,  fatbergs \nthemselves can be tough as rocks. Researchers have found a host \nof dangerous bacteria in fatbergs, including listeria and e.coli. \nFatbergs are notorious for their fetid smell, which can make \neven the hardiest sewer workers gag, and chipping away at one \ncan release noxious gases.  \nThe key to fatberg prevention is remembering the four Ps: \nPee, poo, puke and (toilet) paper are the only things that should \nbe flushed. \nNewsweek, 14 March, 2019. Adaptado.\nDe acordo com o texto, o processo de bloqueio do fluxo de \nesgoto, provocado pelos fatbergs, ocorre",
+      "files": [
+        "/data/fuvest/assets/2022/43/2.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "por falha no sistema de limpeza das galerias a cargo das \nprefeituras.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "por conta do diâmetro estreito dos canos antigos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "pela solidificação da água na tubulação, em virtude das \nbaixas temperaturas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "pela aderência da gordura e outros detritos nas laterais da \ntubulação.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "pelo descolamento de placas de concreto dentro da rede \nde abastecimento de água.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_44",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Fatbergs  are  a \ngrowing scourge infesting \ncities around the world—\nsome are more than 800 \nfeet long and weigh more \nthan  four  humpback \nwhales. These gross globs, \nwhich  can  cause  sewer \nsystems to block up and even overflow, have been plaguing the \nU.S., Great Britain and Australia for the past decade, forcing \ngovernments and utilities companies to send workers down into \nthe sewers armed with water hoses, vacuums and scrapers with \nthe unenviable task of prying them loose. \n\"It is hard not to think of [fatbergs] as a tangible symbol of the \nway we live now, the ultimate product of our disposable, out of \nsight, out of mind culture,\" wrote journalist Tim Adams in The \nGuardian.  \nAt their core, fatbergs are the accumulation of oil and grease \nthat's been poured down the drain, congealing around flushed \nnonbiological waste like tampons, condoms and baby wipes. \nWhen fat sticks to the side of sewage pipes, the wipes and other \ndetritus get stuck, accumulating layer upon layer of gunk in a sort \nof slimy snowball effect. \nFatbergs also collect other kinds of debris—London fatbergs \nhave been cracked open to reveal pens, false teeth and even \nwatches. \nRestaurants are a big contributor to fatbergs: Thames Water, \nthe London utilities company, found nine out of 10 fast-food \neateries lacked adequate grease traps to stop fat from entering \nthe  sewers.  Homeowners  also  contribute  to  the  problem  by \npouring grease and fat down the sink. \nEven  though  its  component  materials  are  soft,  fatbergs \nthemselves can be tough as rocks. Researchers have found a host \nof dangerous bacteria in fatbergs, including listeria and e.coli. \nFatbergs are notorious for their fetid smell, which can make \neven the hardiest sewer workers gag, and chipping away at one \ncan release noxious gases.  \nThe key to fatberg prevention is remembering the four Ps: \nPee, poo, puke and (toilet) paper are the only things that should \nbe flushed. \nNewsweek, 14 March, 2019. Adaptado.\nConsiderado o contexto, os quatro elementos associados à \nprevenção dos fatbergs têm em comum o fato de",
+      "files": [
+        "/data/fuvest/assets/2022/42/2.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "conterem pouca gordura.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "ocorrerem em quantidade reduzida.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "serem considerados matéria orgânica.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "terem sua frequência controlada.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "estarem livres de bactérias.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_45",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "If you take a look at my smartphone, you'll know that I like \nto order out. But am I helping the small local businesses? You \nwould think that if you own a restaurant you'd be thrilled to \nhave  an  outsourced  service  that  would  take  care  of  your \ndelivery operations while leveraging their marketing might to \nexpand your businesses' brand. However, restaurant owners \nhave complained of lack of quality control once their food goes \nout the door. They don't like that the delivery people are the \nface of their product when it gets into the customer's hand. \nSome of the delivery services have been accused of listing \nrestaurants on their apps without the owners' permission, and \noftentimes publish menu items and prices that are incorrect or \nout of date. \nBut there is another reason why restaurant owners aren't \nfond of delivery services. It's the costs, which, for some, are \nbecoming unsustainable. Even with the increased revenues \nfrom  the  delivery  services,  the  fees  wind  up  killing  a \nrestaurant's margins to the extent that it's at best marginally \nprofitable. Therefore, some restaurants are pushing harder to \ndrive orders from their own websites and offering special deals \nfor customers that use their in-house delivery people. \nThe simple fact is that these delivery apps are here to stay. \nThey are enormously popular and have significantly grown. I \nbelieve  that  restaurant  owners  that  resist  these  apps  are \nhurting their brands by missing out on potential customers. \nThe good news is that the delivery platforms are not as evil as \nsome would portray them. They have some skin in the game. \nThey are competing against other services. They want their \nlisted restaurants to profit. Maybe instead of fighting, the \nnation's restaurant industry needs to proactively embrace the \ndelivery service industry and figure out ways to profitably work \ntogether. \nThe Guardian. 02 December, 2020. Adaptado.\nDe acordo com o texto, para os proprietários de restaurante, a \nprincipal vantagem dos aplicativos de entrega de comida é que eles",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "procuram oferecer taxas atraentes para a utilização de sua \ntecnologia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "demonstram preocupação crescente com a qualidade do \nserviço que oferecem.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "melhoram  a  avaliação  dos  restaurantes  pela  imprensa \nespecializada.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "garantem que suas listas de restaurantes e menus sejam \natualizadas de modo criterioso.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "possuem  uma  estrutura  de  marketing  que  possibilita \nexpansão do círculo de clientes.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_46",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "If you take a look at my smartphone, you'll know that I like \nto order out. But am I helping the small local businesses? You \nwould think that if you own a restaurant you'd be thrilled to \nhave  an  outsourced  service  that  would  take  care  of  your \ndelivery operations while leveraging their marketing might to \nexpand your businesses' brand. However, restaurant owners \nhave complained of lack of quality control once their food goes \nout the door. They don't like that the delivery people are the \nface of their product when it gets into the customer's hand. \nSome of the delivery services have been accused of listing \nrestaurants on their apps without the owners' permission, and \noftentimes publish menu items and prices that are incorrect or \nout of date. \nBut there is another reason why restaurant owners aren't \nfond of delivery services. It's the costs, which, for some, are \nbecoming unsustainable. Even with the increased revenues \nfrom  the  delivery  services,  the  fees  wind  up  killing  a \nrestaurant's margins to the extent that it's at best marginally \nprofitable. Therefore, some restaurants are pushing harder to \ndrive orders from their own websites and offering special deals \nfor customers that use their in-house delivery people. \nThe simple fact is that these delivery apps are here to stay. \nThey are enormously popular and have significantly grown. I \nbelieve  that  restaurant  owners  that  resist  these  apps  are \nhurting their brands by missing out on potential customers. \nThe good news is that the delivery platforms are not as evil as \nsome would portray them. They have some skin in the game. \nThey are competing against other services. They want their \nlisted restaurants to profit. Maybe instead of fighting, the \nnation's restaurant industry needs to proactively embrace the \ndelivery service industry and figure out ways to profitably work \ntogether. \nThe Guardian. 02 December, 2020. Adaptado.\nSegundo o texto, uma das soluções encontradas pelos donos \nde restaurante para amenizar os problemas com os serviços \nde entrega é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o contato telefônico com clientes para ouvir comentários \ne reclamações.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a verificação constante das páginas dos aplicativos para \nevitar erros e imprecisões.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o oferecimento de vantagens para clientes que usam os \nserviços de entrega do próprio restaurante.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a listagem de seus restaurantes em diversos aplicativos \npara encorajar a competição entre eles.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a disseminação, junto aos clientes, de uma imagem relativa \naos serviços de aplicativos como incompetentes.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_47",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "If you take a look at my smartphone, you'll know that I like \nto order out. But am I helping the small local businesses? You \nwould think that if you own a restaurant you'd be thrilled to \nhave  an  outsourced  service  that  would  take  care  of  your \ndelivery operations while leveraging their marketing might to \nexpand your businesses' brand. However, restaurant owners \nhave complained of lack of quality control once their food goes \nout the door. They don't like that the delivery people are the \nface of their product when it gets into the customer's hand. \nSome of the delivery services have been accused of listing \nrestaurants on their apps without the owners' permission, and \noftentimes publish menu items and prices that are incorrect or \nout of date. \nBut there is another reason why restaurant owners aren't \nfond of delivery services. It's the costs, which, for some, are \nbecoming unsustainable. Even with the increased revenues \nfrom  the  delivery  services,  the  fees  wind  up  killing  a \nrestaurant's margins to the extent that it's at best marginally \nprofitable. Therefore, some restaurants are pushing harder to \ndrive orders from their own websites and offering special deals \nfor customers that use their in-house delivery people. \nThe simple fact is that these delivery apps are here to stay. \nThey are enormously popular and have significantly grown. I \nbelieve  that  restaurant  owners  that  resist  these  apps  are \nhurting their brands by missing out on potential customers. \nThe good news is that the delivery platforms are not as evil as \nsome would portray them. They have some skin in the game. \nThey are competing against other services. They want their \nlisted restaurants to profit. Maybe instead of fighting, the \nnation's restaurant industry needs to proactively embrace the \ndelivery service industry and figure out ways to profitably work \ntogether. \nThe Guardian. 02 December, 2020. Adaptado.\nEm \"I believe that restaurant owners that resist these apps are \nhurting their brands by missing out on potential customers\" \n(3º parágrafo), a expressão sublinhada pode ser substituída, \nsem prejuízo de sentido, por:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "harming.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "deceiving.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "challenging.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "losing.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "disturbing.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_48",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Lying, thinking \nLast night \nHow to find my soul a home \nWhere water is not thirsty \nAnd bread loaf is not stone \nI came up with one thing \nAnd I don't believe I'm wrong \nThat nobody, \nBut nobody \nCan make it out here alone \n           Alone - Maya Angelou \nOs versos do poema",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "afirmam os sentimentos de autonomia e autossuficiência.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "mostram a derrota diante das dificuldades.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "expressam o resultado das reflexões feitas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "indicam a distância intransponível entre amigos.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "mostram arrependimento em relação às decisões do passado.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_49",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considerando  os  elementos  visuais  e  verbais  da  figura,  é \npossível interpretar a fala da mulher como",
+      "files": [
+        "/data/fuvest/assets/2022/49/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "sinal  da  sua  insatisfação  com  o  local  escolhido para o \nencontro.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "sentimento de inferioridade, por não possuir um telefone \ncelular.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "constatação de que relações pessoais acarretam exclusão \ndas redes sociais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "resposta aos apelos pela troca equitativa de informações.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "expressão  sarcástica  em  protesto  pela  ausência  de \ninterlocução.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_50",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: \nConsidere que o calor específico e a densidade do café e do leite sejam idênticos.\nUm bom café deve ser preparado a uma temperatura pouco \nacima  de  80oC.  Para  evitar  queimaduras  na  boca,  deve  ser \nconsumido a uma temperatura mais baixa. Uma xícara contém \n60 mL de café a uma temperatura de 80oC. Qual a quantidade de \nleite gelado (a uma temperatura de 5oC) deve ser misturada ao \ncafé para que a temperatura final do café com leite seja de 65oC?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "5 mL",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "10 mL",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "15 mL",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "20 mL",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "25 mL",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_51",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma criança deixa cair de uma mesma altura duas maçãs, uma \ndelas  duas  vezes  mais  pesada  do  que  a  outra.  Ignorando  a \nresistência do ar e desprezando as dimensões das maçãs frente à \naltura inicial, o que é correto afirmar a respeito das energias \ncinéticas das duas maçãs na iminência de atingirem o solo?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A maçã mais pesada possui tanta energia cinética quanto \na maçã mais leve.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A maçã mais pesada possui o dobro da energia cinética da \nmaçã mais leve.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A maçã mais pesada possui a metade da energia cinética \nda maçã mais leve.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A  maçã  mais  pesada  possui  o  quádruplo  da  energia \ncinética da maçã mais leve.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A maçã mais pesada possui um quarto da energia cinética \nda maçã mais leve.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_52",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma bola de bilhar vermelha está inicialmente em repouso a \n40 cm de duas das bordas (lateral e superior da figura) de uma \nmesa de bilhar, como mostra a figura. Uma bola branca de \nmesma massa e tamanho é lançada em direção à vermelha \ncom velocidade 𝑣⃗0  paralela à borda lateral. \nAs duas bolas colidem e, algum tempo depois, a bola vermelha \nestá prestes a cair na caçapa posicionada na junção das duas \nbordas.  No  mesmo  instante,  a  bola  branca  toca  a  borda \nsuperior  da  mesa  a  uma  distância  d  da  bola  vermelha, \nconforme figura. \n \nO valor de d é aproximadamente:",
+      "files": [
+        "/data/fuvest/assets/2022/52/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "20 cm",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "40 cm",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "60 cm",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "80 cm",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "100 cm \nNote e adote:\nDespreze efeitos dissipativos (como deslizamentos com atrito) e considere a \ncolisão entre as bolas como sendo perfeitamente elástica. \nConsidere que o diâmetro das bolas seja muito menor que as distâncias \nmencionadas e que não ocorram outras colisões intermediárias.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_53",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: Despreze efeitos de atrito, Aceleração da gravidade: g = 10 m/s^2\n \nConsidere  a  situação  indi-\ncada na figura, em que um \nmotor, com o auxílio de uma \npolia,  ergue  verticalmente \numa caixa de massa 12 kg. A \ncaixa contém materiais frá-\ngeis e deve ser erguida com \nvelocidade constante. Qual é \na magnitude da força vertical \nque  o  motor  deve  exercer \npara realizar a tarefa?",
+      "files": [
+        "/data/fuvest/assets/2022/53/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0N",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "30 N",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "60 N",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "120 N",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "240 N",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_55",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um componente eletrônico tem curva característica mostrada no \ngráfico a seguir: \n  \nA resistência elétrica do componente na região em que ele se \ncomporta como um resistor ôhmico vale aproximadamente:",
+      "files": [
+        "/data/fuvest/assets/2022/55/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,4 Ω",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0,6 Ω",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "0,8 Ω",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1,0 Ω",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "1,2 Ω",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_56",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote:\nDespreze a resistência do ar. \nAceleração da gravidade: g = 10 m/s^2.\nO  canhão  de  Newton,  esquematizado  na  figura,  é  um \nexperimento  mental  imaginado  por  Isaac  Newton  para \nmostrar que sua lei da gravitação era universal. Disparando o \ncanhão horizontalmente do alto de uma montanha, a bala \ncairia na Terra em virtude da força da gravidade. Com uma \nmaior  velocidade  inicial,  a  bala  iria  mais  longe  antes  de \nretornar à Terra. Com a velocidade certa, o projétil daria uma \nvolta completa em torno da Terra, sempre \"caindo\" sob ação \nda gravidade, mas nunca alcançando a Terra. Newton concluiu \nque  esse  movimento  orbital  seria  da  mesma  natureza  do \nmovimento da Lua em torno da Terra. \n  \nQual deveria ser a velocidade inicial de um projétil lançado \nhorizontalmente  do  alto  do  Everest  (a  uma  distância \naproximada de 6.400 km do centro da Terra) para colocá-lo \nem órbita em torno da Terra?",
+      "files": [
+        "/data/fuvest/assets/2022/56/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "8 km/s",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "11,2 km/s",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "80 km/s",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "112 km/s",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "8.000 km/s",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_57",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: \nO valor obtido, embora da ordem de magnitude correta, não é o mesmo \ncalculado por estimativas mais precisas.\nEm virtude do movimento das placas tectônicas, a distância entre \na América do Sul e a África aumenta, nos dias atuais, cerca de \n2,0 cm a cada ano. Supondo que essa velocidade tivesse sido \nconstante ao longo do tempo, e tomando uma distância atual de \ncerca  de  5.000 km  entre  os  limites  dessas  duas  massas \ncontinentais, indique a melhor estimativa para quanto tempo \nteria transcorrido desde quando ambas estavam unidas em um \núnico supercontinente.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "250.000 anos",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2.500.000 anos",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "25.000.000 anos",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "250.000.000 anos",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "2.500.000.000 anos",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_58",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma mancha de petróleo com mais de 3000 km de extensão se \nespalhou por praias e manguezais da costa da região nordeste e \nparte do sudeste, atingindo áreas marinhas protegidas como o \nParque Nacional Marinho de Abrolhos, um dos principais bancos \nde corais e berço de biodiversidade do Atlântico Sul. Desde que \nfoi detectada pela primeira vez, no dia 30 de agosto de 2019, a \nmancha de petróleo atingiu cerca de 900 locais em mais de 127 \nmunicípios em 11 estados. A origem do petróleo está estimada \nem algum local a leste do litoral do estado de Pernambuco, \ndistante, aproximadamente, 600 km da linha de costa. \nDisponível em https://www.wwf.org.br/. 2019. Adaptado. \nCom base em seus conhecimentos sobre o litoral brasileiro e \nas correntes marítimas superficiais que margeiam a costa, \nassinale  a  alternativa  correta  que  aponta  o  fator  que \ncontribuiu para a dispersão do petróleo.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "As reentrâncias e os recortes do litoral brasileiro, com sua \ngeomorfologia costeira, foram responsáveis pelo impacto \nambiental causado pelo derramamento de petróleo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A  presença  de  correntes  marítimas  frias  em  superfície, \ncaracterísticas  dessa  região,  com  elevado  potencial  de \ntransporte de sedimentos, acentuou a dispersão do petróleo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A corrente marítima das Falkland (Malvinas), que margeia a \ncosta brasileira até o litoral da região nordeste, com águas \nfrias em superfície, potencializou a dispersão do petróleo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A  reduzida  profundidade  média  do  litoral  brasileiro \nfavoreceu a dispersão do petróleo ao longo da costa de \nnorte  a  sul,  resultando  em  impactos  negativos,  em \nespecial para a fauna marinha.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A corrente marítima do Brasil, que é caracterizada pelo \nmovimento  de  águas  superficiais  quentes  ao  longo  da \nlinha  de  costa  e  provenientes  do  Atlântico  Equatorial, \nespalhou o petróleo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_59",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A escala cartográfica expressa as dimensões presentes em um \nmapa e a sua correspondência no terreno, ou seja, é uma \nabstração adotada que permite transpor a realidade terrestre \npara  o  mapa  mantendo  as  proporções.  Considerando  a \ndistância de 6 cm entre dois municípios em um mapa com \nescala numérica de 1 : 1.000.000, qual é a distância, em linha \nreta, entre eles?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,6 km",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "6 km",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "6,6 km",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "60 km",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "600 km",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_60",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Eventos  climáticos  extremos  marcaram  este  ano  com  vários \nexemplos no mundo, atingindo populações inteiras, tanto em \nambientes rurais como urbanos. Dentre esses eventos, pode-se \ndestacar as inundações na Alemanha no mês de julho, com \nregiões acometidas por fortes chuvas. \n  \nÁrea urbana de Schuld, Oeste da Alemanha, antes (à esquerda) e depois (à \ndireita) da inundação de julho/2021. Disponível em https://www.dw.com/. \nUm dos motivos que podem ser relacionados ao evento de \ninundação da área destacada é:",
+      "files": [
+        "/data/fuvest/assets/2022/60/0.jpg",
+        "/data/fuvest/assets/2022/60/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O fato de o rio meandrante desviar da área urbana instalada \nnas suas margens, pois o vale estreito é periodicamente \ninundado, em especial nos eventos climáticos extremos, \nque submergem os morros na cidade.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A extensão do assentamento urbano que não respeitou os \nlimites  do  canal  fluvial,  acabando  por  aterrá-lo,  o  que \nlevou à inundação diante de um evento climático extremo, \njá que os rios não podem ser encobertos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A área urbana, que se encontra em um fundo de vale plano \nonde há a presença de um canal de rio meandrante, o qual \npode ter suas águas periodicamente extravasadas para a \nplanície de inundação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O  insucesso  da  prevenção  da  inundação  por  meio  da \nretificação  do  rio,  pois  se  esperava  que,  mesmo  com \nvolumes excessivos de chuvas, as águas do canal fluvial \nnão poderiam ser extravasadas para as margens.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Como a área urbana se encontra em um fundo de vale \nrugoso,  existe  maior  facilidade  para  o  assentamento, \nporém com o risco de o rio entrelaçado desviar seu curso \núnico, causando inundações laterais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_61",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O mapa mostra a topografia, os aspectos da paisagem e o tipo \nde cobertura vegetal da superfície numa determinada área, \ncom um observador que, localizado próximo ao leito do rio, vê \na paisagem direcionando seu olhar para o quadrante nordeste. \n  \nO cenário a ser visto pelo observador, considerando os aspectos \nevidenciados no mapa, é:",
+      "files": [
+        "/data/fuvest/assets/2022/61/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/61/1.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/61/3.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/61/5.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/61/2.jpg"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/61/4.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_62",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No dia 23 de março de 2021 o mega navio Ever Given, de \n220.000 toneladas e 400 m de comprimento, encalhou no Canal \nde Suez no Egito em rota para o porto de Rotterdam, Holanda, \nficando  atravessado  e  preso  pelas  extremidades.  O  navio \nreflutuou no dia 29 do mesmo mês em razão das condições de \nvento e maré, além da operação promovida por rebocadores. \n \n \nDisponível em https://www.noaa.gov/, https://edition.cnn.com/ e \nhttps://www.tide-forecast.com/. Adaptados. \nCom base nos dados fornecidos e em seus conhecimentos, pode-\nse atribuir o reflutuamento do Ever Given às seguintes condições:",
+      "files": [
+        "/data/fuvest/assets/2022/62/0.jpg",
+        "/data/fuvest/assets/2022/62/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Formação de um gradiente de pressão entre Ásia e África, \ncom ventos de Sudoeste e rebaixamento do nível da água \ndo mar pela maré de quadratura.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Formação de um gradiente de pressão entre Europa e \nÁfrica, com ventos de Noroeste e elevação do nível da \nágua do mar pela maré de sizígia.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Formação de um gradiente de pressão entre Europa e \nÁfrica, com ventos de Sudeste e elevação do nível da água \ndo mar pela maré de quadratura.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Formação  de  um  gradiente  de  pressão  entre  África  e \nEuropa, com ventos de Nordeste e rebaixamento do nível \nda água do mar pela maré de sizígia.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Formação de um gradiente de pressão entre Ásia e Europa, \ncom predomínio de calmarias e vazante do nível da água \ndo mar pela maré neutra.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_63",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma  forma  de  conservação  do  Cerrado  é  a  prática  de \nqueimadas controladas que simulam o ciclo natural do fogo. \nObserve  a  imagem  que  retrata  os  efeitos  visuais  de  uma \nqueimada  controlada  em  um  trecho  de  Cerrado  da  Estação \nEcológica de Santa Bárbara, no interior do estado de São Paulo. \n  \nNessa área foram conduzidos experimentos com queimadas \ncontroladas,  e  os  resultados  sugerem  que  essa  prática  é \nbenéfica para a flora, cujas plantas rebrotam rapidamente \ndepois da passagem do fogo. Nos grupos vegetais em que as \nqueimadas produziram mais efeitos positivos foi registrado \naté um discreto aumento de espécies vegetais. Antes das \nqueimadas, os pesquisadores contabilizaram 38 espécies de \ngramíneas  e  68  de  outras  ervas.  Depois,  esses  números \nsubiram para 44 e 74, respectivamente.  \nDurigan G et al. (2020), Front. For. Glob. Change, 3:13, \ndoi:10.3389/ffgc.2020.00013. Adaptado.  \nNo bioma Cerrado, de acordo com a informação do texto, a \nprática de queimadas controladas",
+      "files": [
+        "/data/fuvest/assets/2022/63/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "contribui para a manutenção da biodiversidade local.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "constitui uma técnica de ponta para o plantio agrícola.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "é uma técnica tradicional denominada agricultura itinerante.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "tem como objetivo permitir a pecuária extensiva.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "apresenta desvantagem em termos de ganho para a flora.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_64",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Fonte: El trabajo de cuidados y los trabajadores del cuidado para um futuro com \ntrabajo decente / OIT (2019). Adaptado. \nConforme definição da Organização Internacional do Trabalho \n(OIT), o trabalho de cuidado envolve dois tipos de atividades: as \ndiretas, como alimentar um bebê ou cuidar de um doente, e as \nindiretas,  como  cozinhar  ou  limpar.  O  gráfico  apresenta  a \ndesigualdade  de  gênero  no  trabalho  de  cuidado  no  mundo, \nexpressa pela diferença entre homens e mulheres quanto ao \ntempo e à remuneração. A partir dos dados apresentados, é \ncorreto afirmar que as regiões com maior e menor desigualdade \nsão, respectivamente:",
+      "files": [
+        "/data/fuvest/assets/2022/64/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "África; Europa/Ásia Central",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Américas; África",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Américas; Ásia/Pacífico",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Países Árabes; Américas",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "África; Ásia/Pacífico",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_65",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto 1 \nMinha pele, Luanda \nAntessala, Aruanda \nTipo T'Challa, Wakanda \nVeneno Black Mamba \nBandoleiro em bando \nQué o comando dessas banda? \n'Sa noite cês vão ver mais sangue \nDo que Hotel Ruanda \nTexto 2 \nNão sei onde ela tinha ido à escola, mas ela sabia ler e escrever. \nSaber escrever era algo perigoso se você tinha um pai exilado no \nBurundi. Logo começam a suspeitar que está se correspondendo \ncom os tutsis que preparam seu retorno a Ruanda, que você é \numa  espiã  dando  informações  aos  que  estão  desse  lado  da \nfronteira e poderia facilitar a volta dos tutsis. \nEsses  textos  foram  retirados,  respectivamente,  da  música \n\"Pantera Negra\", de Emicida, e do livro \"A mulher de pés \ndescalços\", de Scholastique Mukasonga, e fazem referência à \nguerra civil em Ruanda. Sobre esse conflito, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Ocorrido  no  início  do  século  XX,  teve  como  principal \nestopim a disputa por recursos minerais no território de \nRuanda, na divisa com Senegal.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Ex-colônia  belga  e  inglesa,  Ruanda  conquistou  sua \nindependência  com  auxílio  norte-americano  nos  anos \n2000, desencadeando a guerra civil.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Trata-se  de  um  conflito  resultante  da  disputa  entre \ndiferentes grupos religiosos, que resultou na morte de \nmais de 800 mil Hutus e Tutsis.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Apoiados  pelos  russos  e  pelos  franceses,  os  Tutsis \ntomaram o poder com um golpe de estado na década de \n1970, iniciando as tensões que resultaram na guerra civil.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Ocorrido na década de 1990, teve como origem a disputa \nétnico-cultural (Tutsis e Hutus) nos territórios de Ruanda e \nBurundi.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_66",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A pandemia da COVID-19 acendeu o alerta sobre os impactos \nque  a  rápida  disseminação  de  enfermidades  produz  em  um \nmundo  cada  vez  mais  globalizado.  Além  disso,  ressaltou  a \nimportância das pesquisas científicas na descoberta, tratamento \ne controle de doenças tropicais negligenciadas, muitas delas \nrecorrentes em diferentes países do mundo. Os mapas a seguir \nindicam  as  taxas  de  incidência  de  doenças  tropicais \nnegligenciadas (total de casos por milhão de habitantes) e o \nProduto Interno Bruto (PIB) per capita dos respectivos países. \n  \nFabrício Marques. \"Uma agenda para as doenças esquecidas\". Revista \nPesquisa FAPESP, abril/2021. Adaptado. \nEm relação à incidência de doenças tropicais negligenciadas, \né correto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2022/66/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Na África, é maior nos países com os maiores PIB per \ncapita, em especial na região subsaariana.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Na Ásia, é menor nos países com os menores PIB per \ncapita, com destaque para Ásia Setentrional.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Na América do Sul, é menor nos países da América Platina, \ncom os menores PIB per capita da região.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Na  América  do  Norte,  com  elevado  PIB  per  capita,  a \nincidência é menor em comparação ao Oriente Médio.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Na Oceania, apesar do PIB per capita elevado, verifica-se \nalta incidência, com destaque para a Austrália.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_67",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A escassez global de semicondutores continua a ter estranhas \nrepercussões, sobretudo do ponto de vista geopolítico. Há um \nano  as  indústrias  lutam  para  se  abastecer  com  chips \neletrônicos  que  equipam  aparelhos  do  dia  a  dia,  de \ncomputadores  a  torradeiras,  passando  pelas  máquinas  de \nlavar e consoles de videogames. O episódio atual, no entanto, \nsurge em um contexto marcado por um questionamento geral \na respeito dos benefícios da globalização e do declínio da \natividade industrial no Ocidente. \nEvgeny Morzorov. \"Devemos temer um colapso eletrônico?\". Le Monde \nDiplomatique Brasil, agosto/2021. Adaptado. \nO texto refere-se a uma questão geopolítica contemporânea: \na disputa pelos semicondutores na indústria mundial. Sobre \nesse assunto, indique a alternativa correta:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A  produção  de  semicondutores  está  concentrada  no \nsudeste asiático, nos países da 1ª e 2ª geração dos Tigres \nAsiáticos, tais como Taiwan, Coreia do Sul, Cingapura e \nIndonésia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Nos  últimos  20  anos,  EUA  e  Europa  vêm  perdendo \ndestaque na produção de semicondutores em decorrência \nda  queda  acentuada  de  investimentos  em  pesquisa  e \ninovação.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A crise da falta de semicondutores revela um dos efeitos \nnegativos  da  globalização:  a  independência  da  cadeia \nprodutiva  em  escala  mundial,  pouco  suscetível  a \ndesequilíbrios de oferta e demanda.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A Nova Divisão Internacional do Trabalho indica o predomínio \ngeoeconômico  dos  países  do  sudeste  asiático,  principais \nprodutores de semicondutores, que têm ampliado, através da \nChina, sua participação nesse setor desde sua democratização.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A  escassez  de  semicondutores  é  resultado  de  uma \ninterrupção momentânea da produção, em especial no \nsudeste asiático, devido à falta de matéria-prima, que é o \ninício da cadeia produtiva.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_68",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A produção do vidro tem por base a modificação da estrutura \ncristalina do quartzo (SiO2) por meio do seu aquecimento e da \nadição de óxidos alcalinos, dentre eles o Na2O. Esse processo \nadiciona cátions sódio à estrutura do quartzo, tornando-a \namorfa.  Alguns  vidros,  como  os  utilizados  em  telas  de \nsmartphones, passam ainda por processo de troca iônica para \naumentar a resistência a quedas e riscos. Para isso, o vidro é \nbanhado  em  uma  solução  salina  contendo  íons  potássio. \nDessa forma, o potássio substitui o sódio na estrutura, sem \nque o volume do vidro se altere. \nCom base nessas informações, é correto afirmar que os íons \npotássio",
+      "files": [
+        "/data/fuvest/assets/2022/68/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "são maiores do que os íons sódio, dessa forma, a estrutura \ntorna-se  mais  preenchida  e  mais  resistente  ao  choque \nfísico.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "são mais resistentes ao choque físico do que os íons sódio, \ne esse caráter é conferido ao vidro.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "são menores do que os íons sódio, tornando a estrutura \nmenos preenchida e o vidro mais flexível.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "fazem com que a estrutura do vidro deixe de ser amorfa \nquando substituem os íons sódio, tornando o vidro menos \nresistente ao choque físico.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "têm o mesmo tamanho que os íons sódio, visto que ambos \nsão  metais  alcalinos,  permitindo  sua  completa \nsubstituição no vidro.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_69",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma das formulações para os adesivos \"silicones\" usados na \nconstrução  civil  é  chamada  de  \"silicone  acético\".  Essa \nnomenclatura é utilizada porque o componente ativo libera \nácido acético durante a formação do precursor, espécie que \npromoverá  a  polimerização,  como  representado \ngenericamente a seguir. \n  \n(R = cadeia orgânica) \nConsiderando  essas  informações,  qual  dos  componentes \nativos a seguir faria com que a formulação fosse considerada \ncomo \"silicone acético\"?",
+      "files": [
+        "/data/fuvest/assets/2022/69/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/69/1.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/69/2.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/69/3.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/69/4.jpg"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/69/5.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_70",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Oxigênio (O2) e ozônio (O3) estão em constante processo de \nconsumo e produção na estratosfera, como representado pelas \nequações químicas a seguir. As reações I e II ilustram etapas da \nprodução de ozônio a partir de oxigênio, e a reação III mostra a \nrestauração de oxigênio a partir de ozônio, as variações ΔH são dadas em kcal/mol de O2. \nI O2  → 2O.  ΔH=-118 \nII 2O2 + 2O → 2O3  ΔH=ΔHb\nIII 2O3 → 3O2   ΔH=+21\nA reação global balanceada, composta pelas etapas I e II, que \nrepresenta a formação de ozônio é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "3O → O3",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "4O2  → 4O3",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2O3 → 3O2",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "3O2 → 2O3",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "3O3  → 2O2",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_71",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Oxigênio (O2) e ozônio (O3) estão em constante processo de \nconsumo e produção na estratosfera, como representado pelas \nequações químicas a seguir. As reações I e II ilustram etapas da \nprodução de ozônio a partir de oxigênio, e a reação III mostra a \nrestauração de oxigênio a partir de ozônio, as variações ΔH são dadas em kcal/mol de O2. \nI O2  → 2O.  ΔH=-118 \nII 2O2 + 2O → 2O3  ΔH=ΔH_II\nIII 2O3 → 3O2   ΔH=+21\nO ΔH_II , relacionado à reação II, pode ser calculado a partir dos \ndados fornecidos para as reações I e III. O valor de ΔH_II , em \nkcal/mol de O2 consumido, é igual a:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "-90,5",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "-55,0",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "+27,5",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "+48,5",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "+55,0",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_72",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote:\nConstante de Planck: h =  6,63 x 10^(-34)J.s\nAlguns  equipamentos  de  visão  noturna  têm  seu \nfuncionamento  baseado  no  efeito  fotoelétrico,  uma  das \nprimeiras descobertas que contribuíram para o surgimento da \nmecânica  quântica.  Nesses  equipamentos,  fótons  de \nfrequência  f  emitidos  por  um  objeto  incidem  sobre  uma \nsuperfície metálica. Elétrons são então liberados da superfície \ne  acelerados  por  um  campo  elétrico.  Em  seguida,  o  sinal \neletrônico é amplificado e produz uma imagem do objeto. \nDiferentemente  do  que  a  física  clássica  prevê,  apenas  os \nelétrons com energia hf acima de uma certa energia mínima \nE  são liberados da superfície metálica. \n0\nConsiderando  a  incidência  de  fótons  com  frequência  da \nordem de 1014 Hz, a ordem de grandeza do valor limite de E  \n0\npara que o equipamento funcione deve ser:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "10^(-50) J",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "10^(-40) J",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "10^(-30) J",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "10^(-20) J",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "10^(-10) J",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_74",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: Desconsidere  a  presença  de  quaisquer\noutros  íons  e  considere  que  a\nconcentração no plasma é determinante para a precipitação do oxalato.\nCálculos renais, conhecidos popularmente por \"pedras nos rins\", \nconsistem principalmente em oxalato de cálcio, CaC2O4 , espécie \ncuja  constante  de  solubilidade  (Kps)  é  de  aproximadamente \n2 x 10^(-9). Os íons oxalato, presentes em muitos vegetais, reagem \ncom os íons cálcio para formar oxalato de cálcio, que pode \ngradualmente se acumular nos rins. Supondo que a concentração \nde  íons  cálcio  no  plasma  sanguíneo  seja  de  cerca  de \n5 x 10^(-3) mol/L, qual seria a concentração mínima, em mol/L, de \níons oxalato para que CaC2O4  precipitasse?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "4 x 10^(-13)",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "10 x 10^(-12)",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "4 x 10^(-7)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2,5 x 10^(-6)",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "1 x 10^(-5)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_75",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um marcador radioativo (²⁴Na) foi injetado em um ponto de \num  cano  de  água  subterrâneo  e,  na  sequência,  com  um \ndetector sobre o solo, foi medida a radioatividade ao longo do \npercurso do cano. A figura a seguir esquematiza o local de \ninjeção do marcador e o perfil da radioatividade detectada ao \nlongo do cano. \n \nAssinale  a  alternativa  que  melhor  explica  o  perfil  da \nradioatividade.",
+      "files": [
+        "/data/fuvest/assets/2022/75/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "No trecho 2 o cano está completamente entupido, por isso \na radioatividade diminui no trecho 3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "No trecho 2 há uma fissura no cano, o que resulta em \nacúmulo de marcador nesse trecho do solo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O marcador radioativo flui no sentido contrário ao fluxo da \nágua, acumulando-se no meio do cano.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "No trecho 3 a radioatividade é menor porque foi consu-\nmida por reações químicas ao longo do trecho 2.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "No trecho 2 a radioatividade diminui devido ao fato de a \nmeia-vida do marcador ser curta. \nNote e adote: \nTempo de meia-vida do 24Na = 15 horas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_76",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O hidróxido de alumínio (Al(OH)3), ao precipitar em solução \naquosa, forma um sólido gelatinoso que pode ser usado como \nagente floculante no tratamento de água. Essa precipitação pode \nocorrer pela adição de um hidróxido solúvel a uma solução \naquosa ácida contendo um sal de alumínio solúvel, como o AlCl3.\nEntretanto, adicionando-se excesso de hidróxido ao meio, há a \nformação  de  íons  Al(OH)4⁻,  espécie  solúvel  em  água,  e  o \nprecipitado se solubiliza novamente. Dessa forma, dependendo \ndo pH do meio, uma dentre as espécies Al(OH)4⁻(aq), Al(OH)3(s) \ne Al³⁺(aq) estará presente na solução em quantidade maior que \nas demais, como exemplificado no esquema. \n \nA alternativa que mostra corretamente qual das espécies estará \nem quantidade maior que as duas outras em cada faixa de pH é:",
+      "files": [
+        "/data/fuvest/assets/2022/76/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/76/1.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/76/2.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/76/3.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/76/4.jpg"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2022/76/5.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_77",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Para o monitoramento ambiental no entorno de um posto de \ngasolina, coletou-se uma amostra de solo que foi submetida de \nforma integral à análise de naftaleno, um composto presente na \ngasolina. A concentração encontrada foi de 2,0 mg de naftaleno \npor kg de solo úmido. Sabendo que essa amostra de solo contém \n20% de água, qual é o resultado dessa análise por kg de solo seco?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,4 mg/kg",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1,6 mg/kg",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2,0 mg/kg",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2,2 mg/kg",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "2,5 mg/kg",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_78",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O  cátion  Ba²⁺ pode  apresentar  toxicidade  aos  humanos, \ndependendo de sua concentração e forma química. Por exemplo, \nBaSO4  é pouco tóxico, sendo usado como contraste radiológico, \npor ser insolúvel em solução aquosa, enquanto BaCO3  e Ba(NO3)2  \nsão  muito  tóxicos,  pois  liberam  Ba²⁺  no  organismo.  Em  um \nlaboratório  foram  feitos  dois  testes  de  solubilidade  para \nidentificar  o  conteúdo  de  três  frascos  não  rotulados  que \npoderiam ser de Ba(NO3)2 ,BaCO3 ou BaSO4. Os resultados dos \ndois testes de solubilidade são apresentados a seguir. \nFrasco | teste 1 Adição de H2O destilada à temperatura ambiente | teste 2 Adição de HCl diluído à temperatura ambiente\n1 | Insolúvel, não houve liberação de gás | Insolúvel, não houve liberação de gás\n2 | Insolúvel, não houve liberação de gás | Solúvel, houve liberação de gás incolor\n3 | Solúvel, não houve liberação de gás | Solúvel, não houve liberação de gás\nConsiderando  os  ensaios  realizados,  indique  quais  são  os \ncompostos contidos nos frascos 1, 2 e 3, respectivamente.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1- BaSO4, 2- BaCO3, 3- Ba(NO3)2",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1- BaCO3, 2- BaSO4, 3- Ba(NO3)2",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1- Ba(NO3)2, 2- BaCO3, 3- BaSO4",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1- BaSO4, 2- Ba(NO3)2, 3- BaCO3",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "1- BaCO3, 2- Ba(NO3)2, 3- BaSO4",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_79",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Ao opor operários sob vigilância e operários a domicílio, a \nfábrica reduziu os seus custos sem se ver necessariamente \nobrigada a adotar uma tecnologia mais eficaz. O argumento \nda superioridade tecnológica não é, portanto, nem necessário \nnem suficiente para explicar o advento e o êxito da fábrica. \nStephen Marglin. \"Origens e funções do parcelamento das tarefas\". Revista \nde Administração de Empresas, v.18, nº4. Rio de Janeiro, 1978, p.14. \nAdaptado. \nDe acordo com o economista norte-americano, o triunfo da \norganização econômica fabril deve ser compreendido",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "por  meio  do  maciço  investimento  na  tecnologia  das \ngrandes máquinas, diminuindo os custos da produção.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "pela capacidade de controlar e padronizar as diferentes \netapas do processo produtivo por meio da disciplina.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "pelo  processo  de  concentração  de  operários,  que \nestimulou a disputa por vagas e a diminuição dos salários.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "através da substituição das formas artesanais das oficinas \ndomésticas pela estrutura de guildas e corporações.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "por meio de estratégias de gestão que incidiam na divisão \ndo trabalho e na introdução de bônus por produtividade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_80",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Cândido Portinari. \"Os retirantes\" (1944). In: Marília Balbi. Portinari: pintor do \nBrasil. São Paulo: Boitempo, 2003, p. 142. \nIdentifique  a  alternativa  mais  adequada  para  expressar  as \nrelações entre arte e sociedade no quadro:",
+      "files": [
+        "/data/fuvest/assets/2022/80/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A obra retrata o êxodo rural de um grupo de nordestinos, \nfugindo da fome, da seca e da miséria.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O  quadro  critica  a  incapacidade  da  SUDENE  em  propor \npolíticas públicas para a população nordestina.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A pintura veicula uma mensagem de esperança, ao opor o céu \nazul aos tons terrosos para designar a aridez da paisagem.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A  imagem  do  grupo  com  corpos  esquálidos  e  doentes \nevidencia uma visão preconceituosa sobre os nordestinos.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A tela expressa fortes convicções religiosas, ao retratar o \ncalvário dos nordestinos como uma passagem bíblica.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_81",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Antônio  Vicente  Mendes  Maciel,  Conselheiro  de \nalcunha, (...) era cearense e nasceu (...) a 13 de março de 1830. \n(...) Aprendeu a ler, escrever e contar. (...) Andou estudando \nlatim, enxertando frases da língua de Horácio nos seus longos \n\"conselhos\",  geralmente  baseados  na  Bíblia  sagrada,  que \nconhecia  razoavelmente.  (...)  Era  apenas  um  peregrino, \nacompanhado de numeroso séquito; pequenos agricultores, \nnegros  13  de  Maio,  caboclos  de  aldeamentos,  gente  sem \nrecursos, doentes. (...)  \nEm  1893  (...)  Antônio  Vicente  se  estabeleceu  em \nCanudos (...). Rebatizou a localidade, dando-lhe o nome de \nBelo  Monte.  Criou  um  clima  de  tranquilidade  local. \nRespeitavam-no. Seu monarquismo era utopia.  \nDe  vários  pontos  do  sertão  apareciam  os \nconselheiristas  (...).  Caminhavam  para  lá  movidos  pela  fé. \nQueriam morar ali, sem pensar em conquistar novas terras. \nNem restaurar a monarquia. Cá de fora, não entenderam \nassim. Interesses políticos e patrimoniais deram novos rumos \ne destino sangrento ao sertão do Conselheiro. (...) \nJosé Calazans. \"O Bom Jesus do sertão\". Caderno Mais, Folha de S. Paulo. \nSão Paulo, 21/09/1997. \n \nO texto sugere que Antonio Conselheiro",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "representou  a  luta  da  Igreja  Católica  contra  o  regime \nrepublicano recém-instaurado no Brasil.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "fez uso da sua educação formal para colocar em xeque os \ndogmas do catolicismo no Brasil.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "defendeu a restauração da Monarquia por identificar-se \ncom os interesses políticos e patrimoniais das elites locais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "atraiu  pessoas  pobres  do  sertão  nordestino  com \nmensagens de fé e de acolhimento na comunidade.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "liderou  uma  insurreição  contra  as  estruturas  sociais  e \npolíticas implementadas pela República.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_82",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Se vamos à essência da nossa formação, veremos que na \nrealidade  nos  constituímos  para  fornecer  açúcar,  tabaco, \nalguns outros gêneros; mais tarde ouro e diamantes; depois, \nalgodão, e em seguida café, para o comércio europeu. \nCaio Prado Jr. Formação do Brasil Contemporâneo. São Paulo: Companhia \ndas Letras, 2011, p. 29. \nSobre o sentido da colonização do Brasil, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Permitiu  o  desenvolvimento  de  um  extenso  parque \nindustrial.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Caracterizou-se  pela  forte  presença  da  mão  de  obra \nassalariada.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Esteve voltado, principalmente, para o mercado externo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Baseou-se na produção de manufaturas têxteis ou alimentares.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Garantiu a expansão da pequena propriedade agrícola.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_83",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A revolta dos Malês, ocorrida em Salvador em 1835,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "foi uma revolta organizada por escravizados e libertos, \ncontra a escravidão e a imposição da religião católica.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "expressava  as  aspirações  de  liberdade  dos  escravos \nurbanos impedidos de comprar as suas cartas de alforria.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "externava a indignação da população urbana branca com \nas práticas da violência e dos castigos públicos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "reivindicava  mais  autonomia  para  as  províncias, \ncontrapondo-se à política centralizadora empregada pelos \ngestores imperiais.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "fracassou em decorrência das dificuldades encontradas na \narregimentação de escravos dos engenhos do Recôncavo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_84",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A respeito da Guerra do Peloponeso no séc. V a.C., é correto \nafirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O  conflito  resultou  das  disputas  comerciais  e  militares \nentre  a  Liga  de  Delos,  liderada  pela  cidade-estado  de \nAtenas, e os interesses assírios.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A guerra afetou a autonomia política e administrativa das \ncidades-estados, dando lugar à organização imperial.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A hegemonia ateniense foi dissolvida com o triunfo da Liga \ndo  Peloponeso  e  as  colônias  na  Ásia  Menor  foram \ndevolvidas aos persas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A guerra marcou a decadência do militarismo espartano \nfrente  aos  exércitos  atenienses,  que  defendiam  a \ndemocracia.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "O desabastecimento de escravos e a desorganização da \nprodução  agrícola  contribuíram  para  a  perda  da \nhegemonia grega no Mediterrâneo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_85",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leonardo da Vinci: Leben und Werk. Stuttgart, Zürich: Belser Verlag, 1989, p. 171. \nO \"Homem Vitruviano\" foi desenhado por Leonardo da Vinci \n(1452-1519)  com  base  em  um  tratado  sobre  Arquitetura \nescrito e ilustrado por Marcus Vitruvius no século I a.C., na \nRoma Antiga. A obra ganhou versões impressas e traduções \nnos séculos XV e XVI. \nO desenho de Da Vinci expressa propostas do movimento \nRenascentista ao",
+      "files": [
+        "/data/fuvest/assets/2022/85/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "buscar perpetuar obras da Antiguidade Clássica por meio \nda cópia e da salvaguarda.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "censurar os estudos da anatomia humana herdados da \nAntiguidade Clássica.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "retomar  a  percepção  da  simetria  e  das  proporções \nhumanas como ideal do Belo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "apoiar-se no legado da Antiguidade greco-romana para \nreafirmar o teocentrismo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "separar  a  arte  do  pensamento  humanista  e  do \nconhecimento matemático.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_86",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A noção de ditadura variou ao longo da História e dependeu das \ncaracterísticas políticas de cada sociedade. \nA esse respeito, assinale a alternativa correta:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Na  Roma  Antiga,  durante  o  período  republicano,  a \nditadura era uma magistratura de caráter extraordinário, \ndelimitada  legalmente  e  estabelecida  por  um  período \ndeterminado, com uma finalidade definida.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Com o golpe do 18 Brumário (1799), instaurou-se uma \nditadura  parlamentar  na  França,  sob  o  comando  de \nNapoleão  Bonaparte,  cujo  objetivo  fundamental  era \nreescrever a Constituição francesa.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A ditadura militar brasileira, estabelecida em 1964, teve \ncomo característica o poder exclusivo das Forças Armadas \ne  o  fechamento  das  instâncias  parlamentares  durante \ntoda a sua vigência.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O conceito da ditadura do proletariado foi elaborado por \nKarl  Marx,  defendido  por  anarquistas  e  comunistas,  e \nprevia  a  instauração  permanente  de  um  regime \nautoritário, como o da antiga União Soviética.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A  ditadura  nazista  caracterizava-se  por  um  complexo \narranjo institucional baseado na articulação política entre \no  Poder  Executivo,  as  Forças  Armadas,  o  Parlamento \nalemão e os poderes legislativos municipais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_87",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Martín  Fierro  acredita  na  importância  da  contribuição \nintelectual  da  América,  prévia  tesourada  a  todo  cordão \numbilical.  Acentuar  e  generalizar  para  as  demais \nmanifestações  intelectuais  o  movimento  de  independência \niniciado,  no  idioma,  por  Ruben  Darío,  não  significa, \nentretanto, que haveremos de renunciar, nem muito menos \nque finjamos desconhecer que todas as manhãs nos servimos \nde um creme dental sueco, de umas toalhas francesas e de um \nsabonete inglês. \nMartín Fierro tem fé em nossa fonética, em nossa visão, \nem nossas maneiras, em nosso ouvido, em nossa capacidade \ndigestiva e de assimilação. \n\"Manifesto Martín Fierro\", de Oliverio Girondo, 15/5/1924. In: Jorge \nSchwartz, Vanguardas latino-americanas: polêmicas, manifestos e textos \ncríticos. São Paulo: EDUSP; Iluminuras; FAPESP, 1995, p. 116. \nA revista de vanguarda literária Martín Fierro foi fundada em \nBuenos  Aires,  na  Argentina,  em  1924.  O  \"Manifesto\", \npublicado  no  seu  nº  4,  apresentava  sintonias  com  o \nmovimento modernista paulistano, ao",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "propor a  ruptura com tradições  estéticas  e  valorizar  a \nautonomia criativa local, sem desprezar os intercâmbios \ncom a Europa.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "defender a obediência aos modelos artísticos da França e \nda Inglaterra, reconhecendo sua contribuição intelectual.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "repudiar  o  movimento  de  independência  iniciado,  na \nlíngua espanhola, pelo poeta nicaraguense Ruben Darío.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "buscar  inspiração  nos  modos  de  expressão  popular  e \nartística originários da América e revolucionar os hábitos \nde consumo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "condenar a inquietação intelectual e a experimentação \nliterária em favor da cultura de massas e do conformismo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_88",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Robert Capa. Omaha Beach, 6 de junho de 1944. In: Robert Capa. São Paulo, Cosac \nNaify, 2012; foto 39. \n \nYevgeny Khaldei. Berlim, maio de 1945. In: Letícia Yazbek, Aventuras da História. \nDisponível em https://aventurasnahistoria.uol.com.br/noticias/historia-hoje/. \nAs fotos de Robert Capa e de Yevgeny Khaldei foram produzidas \npara documentar eventos da Segunda Guerra Mundial. Referem-\nse, respectivamente,",
+      "files": [
+        "/data/fuvest/assets/2022/88/0.jpg",
+        "/data/fuvest/assets/2022/88/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "ao desembarque dos Aliados para libertar a França da \nocupação nazista e ao avanço decisivo das forças Aliadas \nfrente à Alemanha.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "aos conflitos no Canal da Mancha, que deram início à Primeira \nGuerra Mundial, e à tomada de Berlim pelas tropas soviéticas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "à fuga de membros da Resistência francesa para a Inglaterra \napós a invasão nazista e ao início da construção do Muro de \nBerlim.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "às batalhas no Mediterrâneo, que deram início à Segunda \nGuerra Mundial, e à incorporação da Alemanha à \"cortina de \nferro\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "ao confronto entre a República de Vichy e a Resistência \nfrancesa e à vitória da União Soviética sobre os Aliados.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_89",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "philosophy",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No cerne da ideologia Bannon há uma série de contrastes \nextraordinariamente  simplificadores  entre  bom  e  mau, \nsagrado e profano. Essa série semiótica cria perigosos outros, \ncuja existência contínua ameaça a boa gente que constitui o \nque Bannon descreve como a \"verdadeira América\"(...). Numa \nordem  social  democrática,  o  conflito  entre  oponentes \npartidários  é  agonístico,  não  antagonístico.  Bannon  vê  de \noutra forma. Não há espaço para a cortesia em seu universo \n(...). \nJeffrey Alexander. \"Vociferando contra o iluminismo: A ideologia de Steve \nBannon\". Sociologia & Antropologia, vol. 08, n. 3, set-dez, 2018. \n \nO antagonismo é a luta entre inimigos, enquanto o agonismo \nrepresenta a luta entre adversários. (...) o propósito da política \ndemocrática  é  transformar  antagonismo  em  agonismo.  Isso \ndemanda oferecer canais por meio dos quais às paixões coletivas \nserão dados mecanismos de expressarem-se sobre questões que, \nainda que permitindo possibilidade suficiente de identificação, \nnão construirão o opositor como inimigo, mas como adversário. \nChantal Mouffe. \"Por um modelo agonístico de democracia\". Revista de \nSociologia e Política, Curitiba, n. 25, nov. 2005, p. 11-23. \nA primeira citação foi retirada de um texto em que o sociólogo \nJeffrey  Alexander  desenvolve  o  que  compreende  ser  a \nideologia de Steve Bannon, assessor do ex-presidente norte-\namericano Donald Trump. A segunda citação foi extraída de \num  artigo  em  que  a  cientista  política  Chantal  Mouffe \ndesenvolve a noção de \"pluralismo agonístico\". A partir da \nperspectiva apresentada nas citações, é correto afirmar que a \nideologia de Steve Bannon",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "defende uma ordem social agonística baseada na divisão \nentre grupos e nos conflitos entre inimigos políticos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "sustenta uma ordem social baseada em consensos e que \nnão admite conflitos entre adversários.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "defende a possibilidade de conflitos entre adversários, \nmas não admite a lógica antagonística da aniquilação e \nexclusão do inimigo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "defende uma ordem social dividida entre bom e mau e que \ntransforma o antagonismo em agonismo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "sustenta  uma  ordem  social  antagonística  fundada  na \ndivisão da sociedade entre lados opostos que devem ser \nentendidos como inimigos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2022-USP_2022_90",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2022",
+      "year": 2022,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O IPHAN - Instituto do Patrimônio Histórico e Artístico \nNacional e a Prefeitura da Cidade do Rio de Janeiro envidaram \nesforços no sentido de deixar exposta para a contemplação da \npopulação parte do Sítio Arqueológico do Cais do Valongo, \ncom o objetivo de apresentar ao visitante, através daquele \npequeno,  mas  representativo  espaço,  a  materialização  do \nmomento mais trágico da nossa história, fazendo com que ele \nnão seja esquecido. (...) \nA  história  do  Cais  do  Valongo  e  do  seu  entorno  está \nindissoluvelmente ligada à história universal, por ter sido a \nporta de entrada do maior volume de africanos escravizados \nnas  Américas.  O  Rio  de  Janeiro  era,  então,  a  mais  afro-\natlântica das cidades costeiras do território brasileiro (...). \nDisponível em http://portal.iphan.gov.br/. \nO texto integra a proposta elaborada pelo IPHAN, em 2016, \npara inscrição do Sítio Arqueológico do Cais do Valongo na \nlista  do  Patrimônio  Mundial.  Com  base  no  documento,  a \nhistória do Cais do Valongo se entrelaça à história universal, \npois se relaciona ao",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "tráfico  de  africanos  escravizados  para  a  América  de \ncolonização portuguesa.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Rio de Janeiro como única cidade escravista das Américas \nna época colonial.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "trabalho  de  escavação  realizado  por  arqueólogos \nestrangeiros no passado.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "fluxo de  escravizados  do  Brasil  para outras  partes das \nAméricas, após as independências.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "esforço do IPHAN para silenciar a história da escravidão no \nmundo atlântico.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}

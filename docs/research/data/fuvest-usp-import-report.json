@@ -1,0 +1,422 @@
+{
+  "generatedBy": "scripts/import-fuvest.ts",
+  "board": "fuvest",
+  "provenance": {
+    "dataset": "BLUEX",
+    "institution": "usp",
+    "phase": "first",
+    "commit": "6cdd69bd8dc8d0144e6bb01501ccae312720a0e6",
+    "zip": {
+      "fileName": "bluex_dataset.zip",
+      "sha256": "5a02d9fcd5714332ea14afd2c412fb1839a7af518b1c6bd29008ad9b8ccf55d2",
+      "expected": "5a02d9fcd5714332ea14afd2c412fb1839a7af518b1c6bd29008ad9b8ccf55d2",
+      "verified": true
+    }
+  },
+  "summary": {
+    "sourceQuestionCount": 630,
+    "publishedQuestionCount": 620,
+    "rejectedQuestionCount": 10,
+    "referencedAssetCount": 440,
+    "ignoredAssetCount": 52,
+    "editions": [
+      {
+        "editionId": "fuvest-2018",
+        "year": 2018,
+        "day": null,
+        "questionCount": 87,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "fuvest-2019",
+        "year": 2019,
+        "day": null,
+        "questionCount": 90,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "fuvest-2020",
+        "year": 2020,
+        "day": null,
+        "questionCount": 89,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "fuvest-2021",
+        "year": 2021,
+        "day": null,
+        "questionCount": 89,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "fuvest-2022",
+        "year": 2022,
+        "day": null,
+        "questionCount": 88,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "philosophy",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "fuvest-2023",
+        "year": 2023,
+        "day": null,
+        "questionCount": 87,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "philosophy",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "fuvest-2024",
+        "year": 2024,
+        "day": null,
+        "questionCount": 90,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "philosophy",
+          "physics",
+          "portuguese"
+        ]
+      }
+    ]
+  },
+  "rejections": [
+    {
+      "sourceFile": "2018/19.json",
+      "sourceId": "USP_2018_19",
+      "editionId": "fuvest-2018",
+      "reason": "image-reference-missing",
+      "detail": "[IMAGE 1] has no associated image"
+    },
+    {
+      "sourceFile": "2018/21.json",
+      "sourceId": "USP_2018_21",
+      "editionId": "fuvest-2018",
+      "reason": "image-reference-missing",
+      "detail": "[IMAGE 1] has no associated image"
+    },
+    {
+      "sourceFile": "2018/25.json",
+      "sourceId": "USP_2018_25",
+      "editionId": "fuvest-2018",
+      "reason": "image-reference-missing",
+      "detail": "[IMAGE 1] has no associated image"
+    },
+    {
+      "sourceFile": "2020/8.json",
+      "sourceId": "USP_2020_8",
+      "editionId": "fuvest-2020",
+      "reason": "alternative-image-count-unsupported",
+      "detail": "alternative \"a\" references 2 images"
+    },
+    {
+      "sourceFile": "2021/25.json",
+      "sourceId": "USP_2021_25",
+      "editionId": "fuvest-2021",
+      "reason": "unknown-answer",
+      "detail": "answer \"A\" does not match any alternative"
+    },
+    {
+      "sourceFile": "2022/54.json",
+      "sourceId": "USP_2022_54",
+      "editionId": "fuvest-2022",
+      "reason": "empty-answer",
+      "detail": "the source question has an empty answer"
+    },
+    {
+      "sourceFile": "2022/73.json",
+      "sourceId": "USP_2022_73",
+      "editionId": "fuvest-2022",
+      "reason": "unreferenced-associated-image",
+      "detail": "associated image not referenced by any [IMAGE n]: imgs/USP/2022/73/0.jpg"
+    },
+    {
+      "sourceFile": "2023/23.json",
+      "sourceId": "USP_2023_23",
+      "editionId": "fuvest-2023",
+      "reason": "image-reference-missing",
+      "detail": "[IMAGE 1] has no associated image"
+    },
+    {
+      "sourceFile": "2023/59.json",
+      "sourceId": "USP_2023_59",
+      "editionId": "fuvest-2023",
+      "reason": "image-reference-missing",
+      "detail": "[IMAGE 1] has no associated image"
+    },
+    {
+      "sourceFile": "2023/6.json",
+      "sourceId": "USP_2023_6",
+      "editionId": "fuvest-2023",
+      "reason": "image-reference-missing",
+      "detail": "[IMAGE 1] has no associated image"
+    }
+  ],
+  "ignoredAssets": [
+    {
+      "path": "imgs/USP/2018/19/0.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/19/1.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/19/2.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/19/3.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/19/4.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/19/5.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2018/21/0.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/21/1.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/21/2.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/21/3.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/21/4.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2018/25/0.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/25/1.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/25/2.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/25/3.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2018/25/4.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2020/8/1.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2020/8/10.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2020/8/2.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2020/8/3.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2020/8/4.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2020/8/5.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2020/8/6.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2020/8/7.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2020/8/8.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2020/8/9.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2021/25/0.png",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2022/44/2.png",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2022/54/0.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2022/73/0.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2022/73/1.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2022/73/2.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2022/73/3.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2022/73/4.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2022/73/5.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2023/23/0.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/23/1.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/23/2.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/23/3.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/23/4.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2023/59/0.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/59/1.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/59/2.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/59/3.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/59/4.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/59/5.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/USP/2023/6/0.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/6/1.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/6/2.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/6/3.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/6/4.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/USP/2023/6/5.jpg",
+      "reason": "rejected-question-image"
+    }
+  ]
+}

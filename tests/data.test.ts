@@ -23,6 +23,12 @@ const comvestPackageBodies = import.meta.glob('../public/data/comvest/*.json', {
   eager: true,
 }) as Record<string, string>;
 
+const fuvestPackageBodies = import.meta.glob('../public/data/fuvest/*.json', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+}) as Record<string, string>;
+
 const sourceQuestion = (overrides: Partial<EnemApiQuestion> = {}): EnemApiQuestion => ({
   title: 'Questão 7 - ENEM 2024',
   index: 7,
@@ -372,6 +378,100 @@ describe('Comvest published package', () => {
     }
 
     const publishedAssets = listPublishedAssets(join('public', 'data', 'comvest', 'assets')).map(
+      (file) => file.replace(/^public/, ''),
+    );
+    expect(publishedAssets).toHaveLength(referenced.size);
+    expect(publishedAssets.every((file) => referenced.has(file))).toBe(true);
+  });
+});
+
+const parsePublishedFuvest = () =>
+  [...Object.entries(fuvestPackageBodies)].map(([file, body]) => {
+    const questionPackage = questionPackageSchema.parse(JSON.parse(body));
+    return { file, body, questionPackage };
+  });
+
+describe('Fuvest published package', () => {
+  it('ships the seven Fuvest editions with valid manifest hashes, sizes and counts', async () => {
+    const manifest = catalogManifestSchema.parse(JSON.parse(manifestBody));
+    const descriptors = manifest.packages.filter(({ examId }) => examId === 'fuvest');
+    const expectedCounts = new Map([
+      ['fuvest-2018', 87],
+      ['fuvest-2019', 90],
+      ['fuvest-2020', 89],
+      ['fuvest-2021', 89],
+      ['fuvest-2022', 88],
+      ['fuvest-2023', 87],
+      ['fuvest-2024', 90],
+    ]);
+
+    expect(descriptors).toHaveLength(7);
+    expect(descriptors.map(({ id, questionCount }) => [id, questionCount])).toEqual([
+      ...expectedCounts.entries(),
+    ]);
+
+    for (const descriptor of descriptors) {
+      const body = fuvestPackageBodies[`../public/data/fuvest/${descriptor.id}.json`];
+      if (body === undefined) throw new Error(`missing published package ${descriptor.id}`);
+      const questionPackage = questionPackageSchema.parse(JSON.parse(body));
+
+      expect(questionPackage.packageId).toBe(descriptor.id);
+      expect(questionPackage.institutionId).toBe('usp');
+      expect(questionPackage.examId).toBe('fuvest');
+      expect(questionPackage.editionId).toBe(descriptor.id);
+      expect(descriptor.byteSize).toBe(new TextEncoder().encode(body).byteLength);
+      expect(descriptor.sha256).toBe(`sha256:${await sha256(body)}`);
+      expect(descriptor.questionCount).toBe(questionPackage.questions.length);
+      expect(questionPackage.questions.every(({ kind }) => kind === 'single-choice')).toBe(true);
+    }
+  });
+
+  it('keeps Fuvest ids unique and never collides with ENEM, Comvest or within Fuvest', () => {
+    const fuvestIds = parsePublishedFuvest().flatMap(({ questionPackage }) =>
+      questionPackage.questions.map(({ id }) => id),
+    );
+    const comvestIds = parsePublishedComvest().flatMap(({ questionPackage }) =>
+      questionPackage.questions.map(({ id }) => id),
+    );
+    const enemIds = [...publishedPackageBodies.values()].flatMap((body) =>
+      questionPackageSchema.parse(JSON.parse(body)).questions.map(({ id }) => id),
+    );
+
+    expect(fuvestIds).toHaveLength(620);
+    expect(new Set(fuvestIds).size).toBe(fuvestIds.length);
+    expect(new Set([...fuvestIds, ...comvestIds, ...enemIds]).size).toBe(
+      fuvestIds.length + comvestIds.length + enemIds.length,
+    );
+    expect(fuvestIds).toContain('fuvest-fuvest-2018-USP_2018_1');
+    expect(fuvestIds).not.toContain('fuvest-fuvest-2022-USP_2022_54');
+    expect(fuvestIds).not.toContain('fuvest-fuvest-2021-USP_2021_25');
+  });
+
+  it('publishes image alternatives, every referenced asset locally and no orphan asset', () => {
+    const questions = parsePublishedFuvest().flatMap(({ questionPackage }) =>
+      questionPackage.questions,
+    );
+    const referenced = new Set<string>();
+    let imageAlternatives = 0;
+    for (const question of questions) {
+      for (const file of question.files) referenced.add(file);
+      for (const { text, file } of question.alternatives) {
+        if (file) {
+          referenced.add(file);
+          if (text === null) imageAlternatives += 1;
+        }
+      }
+      const texts = [question.context ?? '', ...question.alternatives.map(({ text }) => text ?? '')];
+      expect(texts.join('\n')).not.toContain('[IMAGE');
+    }
+
+    expect(imageAlternatives).toBeGreaterThan(0);
+    for (const file of referenced) {
+      expect(file.startsWith('/data/fuvest/assets/')).toBe(true);
+      expect(existsSync(join('public', file))).toBe(true);
+    }
+
+    const publishedAssets = listPublishedAssets(join('public', 'data', 'fuvest', 'assets')).map(
       (file) => file.replace(/^public/, ''),
     );
     expect(publishedAssets).toHaveLength(referenced.size);
