@@ -15,6 +15,12 @@ iteração anterior do produto.
 - **Backend** deriva identidade da sessão, aceita `SyncRequest` sem `userId`, trata
   `eventId` como chave idempotente e calcula o resultado usando seu próprio gabarito.
 
+## Documentos de design
+
+- [Pipeline de ingestão de vestibulares](vestibular-ingestion-pipeline.md):
+  aquisição de PDFs e BLUEX, extração, OCR seletivo, revisão humana, normalização
+  e extensão da Comvest para a Fuvest.
+
 ## Invariantes congeladas para a onda 1
 
 - IDs de catálogo são dados configuráveis em kebab-case; não há enum de instituições.
