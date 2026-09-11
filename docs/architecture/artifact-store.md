@@ -61,9 +61,10 @@ sha256/<dois primeiros hex>/<64 hex>     ex.: sha256/5a/5a02…55d2
 | `read(ref)` | Lê os bytes e reconfere o hash; conteúdo corrompido gera `ArtifactIntegrityError`. |
 | `has(sha256)` | Indica se o endereço já está no store. |
 
-O adaptador de arquivos grava com a flag exclusiva `wx`: um arquivo existente nunca
-é substituído. Se dois processos disputarem o mesmo endereço, o segundo apenas
-verifica a integridade dos bytes já gravados.
+O adaptador de arquivos grava em um arquivo temporário único e publica com um hard
+link, que falha se o endereço já existir: um arquivo existente nunca é substituído e
+o endereço final só aparece depois da escrita completa. Se dois processos disputarem
+o mesmo endereço, o segundo apenas verifica a integridade dos bytes já gravados.
 
 ## run-ledger
 
