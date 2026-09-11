@@ -17,6 +17,9 @@
     "hyphenation": [
       "hyphenation"
     ],
+    "problematic-characters": [
+      "problematic-characters"
+    ],
     "formula": [
       "formula",
       "empty-answer-2021"
@@ -62,35 +65,72 @@
     {
       "category": "page-break",
       "reason": "question boundaries across pages are not representable from the linearized BLUEX text; they belong to the PDF/OCR stage"
+    },
+    {
+      "category": "page-evidence",
+      "reason": "original page evidence is not available from BLUEX; the golden corpus keeps only the structured source and its expected result"
+    },
+    {
+      "category": "human-approval",
+      "reason": "the corpus replays the pure normalizer; the mandatory human-review gate over approved candidates arrives with the PDF/OCR stages"
     }
   ],
   "questions": [
     {
-      "sourceFile": "2021/day1/33.json",
-      "sourceId": "UNICAMP_2021_33",
+      "sourceFile": "2021/day1/26.json",
+      "sourceId": "UNICAMP_2021_26",
       "editionId": "comvest-2021-day1",
       "input": {
-        "question": "Ao passar pelo sensor magnético, a velocidade linear de \num ponto de uma fita cassete é v  0,045 m/s. Depois de \npassar  pelo  sensor,  a  fita  é  enrolada  em  uma  bobina \ncircular  de  diâmetro  d  6,0 cm.  Em  quanto  tempo  a \nbobina completa uma volta? \n \na)  0,65 s.  c)  4,0 s. \n   \nb)  1,3 s.  d)  0,27 s.",
-        "number": 33,
-        "id": "UNICAMP_2021_33",
+        "question": "Se f(x) = log10(x) e x > 0, então f(1/x) + f(100x) é igual a",
+        "number": 26,
+        "id": "UNICAMP_2021_26",
         "alternatives": [
-          "a) 0,65 s.",
-          "b)  1,3 s.",
-          "c)  4,0 s.",
-          "d)  0,27 s."
+          "a) 1",
+          "b) 2",
+          "c) 3",
+          "d) 4"
         ],
         "associated_images": [],
-        "answer": "C",
+        "answer": "B",
         "has_associated_images": false,
         "alternatives_type": "string",
         "subject": [
-          "physics"
+          "mathematics"
         ],
         "TU": true,
         "IU": false,
         "MR": true,
         "ML": false,
         "BK": false,
+        "PRK": true
+      }
+    },
+    {
+      "sourceFile": "2023/61.json",
+      "sourceId": "UNICAMP_2023_61",
+      "editionId": "comvest-2023",
+      "input": {
+        "question": "Um recipiente de 30 litros contém uma solução de 14 partes de \nálcool e 1 parte de água. Quantos litros de água devem ser adi-\ncionados para que se tenha uma solução com 70% de álcool?",
+        "number": 61,
+        "id": "UNICAMP_2023_61",
+        "alternatives": [
+          "a)  8 litros.",
+          "b)  10 litros.",
+          "c)  12 litros.",
+          "d)  14 litros."
+        ],
+        "associated_images": [],
+        "answer": "B",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "TU": false,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "subject": [
+          "mathematics"
+        ],
         "PRK": true
       }
     },
@@ -501,6 +541,35 @@
       }
     },
     {
+      "sourceFile": "2021/day1/33.json",
+      "sourceId": "UNICAMP_2021_33",
+      "editionId": "comvest-2021-day1",
+      "input": {
+        "question": "Ao passar pelo sensor magnético, a velocidade linear de \num ponto de uma fita cassete é v  0,045 m/s. Depois de \npassar  pelo  sensor,  a  fita  é  enrolada  em  uma  bobina \ncircular  de  diâmetro  d  6,0 cm.  Em  quanto  tempo  a \nbobina completa uma volta? \n \na)  0,65 s.  c)  4,0 s. \n   \nb)  1,3 s.  d)  0,27 s.",
+        "number": 33,
+        "id": "UNICAMP_2021_33",
+        "alternatives": [
+          "a) 0,65 s.",
+          "b)  1,3 s.",
+          "c)  4,0 s.",
+          "d)  0,27 s."
+        ],
+        "associated_images": [],
+        "answer": "C",
+        "has_associated_images": false,
+        "alternatives_type": "string",
+        "subject": [
+          "physics"
+        ],
+        "TU": true,
+        "IU": false,
+        "MR": true,
+        "ML": false,
+        "BK": false,
+        "PRK": true
+      }
+    },
+    {
       "sourceFile": "2021/day1/38.json",
       "sourceId": "UNICAMP_2021_38",
       "editionId": "comvest-2021-day1",
@@ -534,7 +603,7 @@
     {
       "caseId": "simple-text",
       "kind": "question",
-      "sourceFile": "2021/day1/33.json",
+      "sourceFile": "2021/day1/26.json",
       "coverage": [
         "simple-text"
       ],
@@ -542,60 +611,119 @@
         "status": "published",
         "rejection": null,
         "question": {
-          "id": "comvest-comvest-2021-day1-UNICAMP_2021_33",
+          "id": "comvest-comvest-2021-day1-UNICAMP_2021_26",
           "institutionId": "unicamp",
           "examId": "comvest",
           "editionId": "comvest-2021-day1",
           "year": 2021,
-          "subjectId": "physics",
+          "subjectId": "mathematics",
           "language": null,
           "kind": "single-choice",
-          "context": "Ao passar pelo sensor magnético, a velocidade linear de \num ponto de uma fita cassete é v  0,045 m/s. Depois de \npassar  pelo  sensor,  a  fita  é  enrolada  em  uma  bobina \ncircular  de  diâmetro  d  6,0 cm.  Em  quanto  tempo  a \nbobina completa uma volta? \n \na)  0,65 s.  c)  4,0 s. \n   \nb)  1,3 s.  d)  0,27 s.",
+          "context": "Se f(x) = log10(x) e x > 0, então f(1/x) + f(100x) é igual a",
           "files": [],
           "alternativesIntroduction": null,
           "alternatives": [
             {
               "id": "a",
               "label": "A",
-              "text": "0,65 s.",
+              "text": "1",
               "file": null
             },
             {
               "id": "b",
               "label": "B",
-              "text": "1,3 s.",
+              "text": "2",
               "file": null
             },
             {
               "id": "c",
               "label": "C",
-              "text": "4,0 s.",
+              "text": "3",
               "file": null
             },
             {
               "id": "d",
               "label": "D",
-              "text": "0,27 s.",
+              "text": "4",
               "file": null
             }
           ],
           "answer": {
             "optionIds": [
-              "c"
+              "b"
             ]
           }
         },
         "sourceSubjectIds": [
-          "physics"
+          "mathematics"
         ]
       }
     },
     {
       "caseId": "hyphenation",
       "kind": "question",
-      "sourceFile": "2021/day1/35.json",
+      "sourceFile": "2023/61.json",
       "coverage": [
         "hyphenation"
+      ],
+      "expected": {
+        "status": "published",
+        "rejection": null,
+        "question": {
+          "id": "comvest-comvest-2023-UNICAMP_2023_61",
+          "institutionId": "unicamp",
+          "examId": "comvest",
+          "editionId": "comvest-2023",
+          "year": 2023,
+          "subjectId": "mathematics",
+          "language": null,
+          "kind": "single-choice",
+          "context": "Um recipiente de 30 litros contém uma solução de 14 partes de \nálcool e 1 parte de água. Quantos litros de água devem ser adi-\ncionados para que se tenha uma solução com 70% de álcool?",
+          "files": [],
+          "alternativesIntroduction": null,
+          "alternatives": [
+            {
+              "id": "a",
+              "label": "A",
+              "text": "8 litros.",
+              "file": null
+            },
+            {
+              "id": "b",
+              "label": "B",
+              "text": "10 litros.",
+              "file": null
+            },
+            {
+              "id": "c",
+              "label": "C",
+              "text": "12 litros.",
+              "file": null
+            },
+            {
+              "id": "d",
+              "label": "D",
+              "text": "14 litros.",
+              "file": null
+            }
+          ],
+          "answer": {
+            "optionIds": [
+              "b"
+            ]
+          }
+        },
+        "sourceSubjectIds": [
+          "mathematics"
+        ]
+      }
+    },
+    {
+      "caseId": "problematic-characters",
+      "kind": "question",
+      "sourceFile": "2021/day1/35.json",
+      "coverage": [
+        "problematic-characters"
       ],
       "expected": {
         "status": "published",

@@ -85,16 +85,27 @@ describe('Comvest ingestion manifest', () => {
 });
 
 describe('Comvest golden corpus against the pinned inventory', () => {
-  it('covers every anomaly the inventory records for the selected cases', () => {
+  it('covers every category of the architecture test strategy or defers it explicitly', () => {
     for (const category of [
-      'unexpected-alternative-count',
+      'simple-text',
+      'formula',
+      'table',
+      'image-in-prompt',
+      'image-as-alternative',
+      'multidisciplinary',
       'empty-answer',
-      'id-collision-2021',
-      'orphan-assets',
+      'hyphenation',
+      'problematic-characters',
     ]) {
       expect(corpus.coverage[category]?.length ?? 0).toBeGreaterThan(0);
     }
-    expect(corpus.deferred.map(({ category }) => category)).toEqual(['two-columns', 'page-break']);
+
+    expect(corpus.deferred.map(({ category }) => category)).toEqual([
+      'two-columns',
+      'page-break',
+      'page-evidence',
+      'human-approval',
+    ]);
     expect(corpus.deferred.every(({ reason }) => reason.length > 0)).toBe(true);
   });
 
@@ -155,6 +166,44 @@ describe('Comvest golden corpus against the pinned inventory', () => {
     for (const sourceFile of selectedRejections) {
       expect(reportedRejections.has(sourceFile)).toBe(true);
     }
+  });
+
+  it('selects exactly the anomaly source files recorded in the inventory summary', () => {
+    const emptyAnswers = inventory.summary.emptyAnswers
+      .map((entry: any) => entry.file)
+      .sort();
+    const selectedEmptyAnswers = corpus.cases
+      .filter((goldenCase): goldenCase is GoldenQuestionCase => goldenCase.kind === 'question')
+      .filter(
+        (goldenCase) =>
+          goldenCase.expected.status === 'rejected' &&
+          goldenCase.expected.rejection.reason === 'empty-answer',
+      )
+      .map(({ sourceFile }) => sourceFile)
+      .sort();
+    expect(selectedEmptyAnswers).toEqual(emptyAnswers);
+
+    const unexpected = inventory.summary.unexpectedAlternativeCounts.map((entry: any) => entry.file);
+    const threeAlternativeCase = corpus.cases.find(
+      ({ caseId }) => caseId === 'unexpected-alternative-count',
+    );
+    if (!threeAlternativeCase || threeAlternativeCase.kind !== 'question') {
+      throw new Error('missing 3-alternative case');
+    }
+    expect(unexpected).toContain(threeAlternativeCase.sourceFile);
+
+    const collision = corpus.cases.find(({ caseId }) => caseId === 'id-collision-2021');
+    if (!collision || collision.kind !== 'batch') throw new Error('missing collision batch');
+    const duplicatePair = inventory.summary.duplicateIds.find(
+      (entry: any) => entry.id === 'UNICAMP_2021_1',
+    );
+    expect(duplicatePair?.files.slice().sort()).toEqual(collision.sourceFiles.slice().sort());
+
+    const orphanBatch = corpus.cases.find(({ caseId }) => caseId === 'orphan-assets');
+    if (!orphanBatch || orphanBatch.kind !== 'batch') throw new Error('missing orphan batch');
+    expect(orphanBatch.availableImageFiles.slice().sort()).toEqual(
+      inventory.summary.orphanImageFiles.slice().sort(),
+    );
   });
 });
 
@@ -221,5 +270,34 @@ describe('Comvest golden corpus replays through the normalizer', () => {
     expect(ids.length).toBeGreaterThan(0);
     expect(new Set(ids).size).toBe(ids.length);
     expect(idsByFile.get('2021/day1/1.json')).not.toBe(idsByFile.get('2021/day2/1.json'));
+  });
+});
+
+describe('Comvest golden corpus contract', () => {
+  const mutate = (change: (draft: any) => void) => {
+    const draft = structuredClone(JSON.parse(corpusBody));
+    change(draft);
+    return draft;
+  };
+
+  it('rejects a coverage entry that points to an unknown case', () => {
+    const broken = mutate((draft) => {
+      draft.coverage['simple-text'] = ['missing-case'];
+    });
+    expect(() => parseComvestGoldenCorpus(broken)).toThrow(/unknown case/);
+  });
+
+  it('rejects a case that references an unknown source file', () => {
+    const broken = mutate((draft) => {
+      draft.cases[0].sourceFile = '2099/1.json';
+    });
+    expect(() => parseComvestGoldenCorpus(broken)).toThrow(/unknown sourceFile/);
+  });
+
+  it('rejects duplicate case ids', () => {
+    const broken = mutate((draft) => {
+      draft.cases[1].caseId = draft.cases[0].caseId;
+    });
+    expect(() => parseComvestGoldenCorpus(broken)).toThrow(/caseIds must be unique/);
   });
 });

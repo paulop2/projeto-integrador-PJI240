@@ -38,16 +38,18 @@ ignorados). O corpus não duplica a edição inteira: contém apenas os casos de
 
 ## Manifesto
 
-`comvest-ingestion-manifest.json` é a instância de `source-manifest` da arquitetura
-para a Comvest. Cada item de `editions` traz os campos de `FirstPhaseIngestionSpec`
-(`board`, `phase`, `acceptedKind`, `institutionId`, `examId`, `editionId`, `year`,
-`layoutProfile`), mais `day` e `sourceQuestionsPath` para localizar o recorte do
-snapshot. A referência BLUEX (`reference`) é única e compartilhada pelas oito edições:
-instituição, exame, edições/anos, tipo aceito `single-choice` e commit + SHA-256.
+`comvest-ingestion-manifest.json` aproxima-se do artefato `source-manifest` da
+arquitetura para a Comvest. Cada item de `editions` traz os campos de
+`FirstPhaseIngestionSpec` (`board`, `phase`, `acceptedKind`, `institutionId`, `examId`,
+`editionId`, `year`, `layoutProfile`), mais `day` e `sourceQuestionsPath` para localizar
+o recorte do snapshot. A referência BLUEX (`reference`) é única e compartilhada pelas
+oito edições: instituição, exame, edições/anos, tipo aceito `single-choice` e commit +
+SHA-256.
 
 O manifesto cobre as oito edições de 2018 a 2024 (2021 separada em `day1` e `day2`),
-em linha com o inventário e o relatório de importação. Documentos oficiais de PDF e
-gabarito (`sources`) ainda não estão travados porque essa etapa está fora do escopo.
+em linha com o inventário e o relatório de importação. O campo `sources` do
+`FirstPhaseIngestionSpec` (documentos oficiais e gabaritos travados por hash) fica de
+fora porque o travamento do PDF pertence à etapa seguinte da arquitetura.
 
 ## Corpus de ouro
 
@@ -63,13 +65,15 @@ Dois tipos de caso:
 - `batch`: um subconjunto de `sourceFiles` executado por `createComvestPackages`, com o
   resultado esperado de pacotes, rejeições, assets referenciados e assets ignorados.
 
-O bloco `coverage` mapeia cada categoria de teste para os `caseId` que a cobrem.
+O bloco `coverage` mapeia cada categoria de teste para os `caseId` que a cobrem. O
+bloco `deferred` registra as categorias que o BLUEX não consegue representar e o
+motivo de cada adiamento.
 
 ### Cobertura alinhada à estratégia de testes
 
 | Categoria da arquitetura | Cobertura | Casos | Origem |
 | --- | --- | --- | --- |
-| Texto simples | `simple-text` | `simple-text` | `2021/day1/33.json` |
+| Texto simples | `simple-text` | `simple-text` | `2021/day1/26.json` |
 | Duas colunas | Adiada para PDF/OCR | `deferred` | — |
 | Fórmula | `formula` | `formula`, `empty-answer-2021` | `2019/38.json`, `2021/day2/48.json` |
 | Tabela | `table` | `table` | `2019/18.json` |
@@ -78,7 +82,8 @@ O bloco `coverage` mapeia cada categoria de teste para os `caseId` que a cobrem.
 | Questão multidisciplinar | `multidisciplinary` | `multidisciplinary` | `2018/12.json` |
 | Questão anulada / sem gabarito | `empty-answer` | `empty-answer-2019`, `empty-answer-2021` | `2019/60.json`, `2021/day2/48.json` |
 | Quebra de questão entre páginas | Adiada para PDF/OCR | `deferred` | — |
-| Caracteres e hifenização | `hyphenation` | `hyphenation` | `2021/day1/35.json` |
+| Hifenização por quebra de linha | `hyphenation` | `hyphenation` | `2023/61.json` |
+| Caracteres problemáticos (PUA) | `problematic-characters` | `problematic-characters` | `2021/day1/35.json` |
 
 Anomalias do inventário [#31](https://github.com/paulop2/projeto-integrador-PJI240/issues/31):
 
@@ -113,9 +118,10 @@ normalizador puro e valida o formato com os schemas Zod.
 
 - O corpus contém o conteúdo bruto **apenas dos casos selecionados**; o restante do
   dataset permanece externo, como em #31.
-- As categorias dependentes de extração de PDF ("duas colunas" e "quebra de questão
-  entre páginas") ficam explicitamente adiadas em `deferred`; elas não são
-  representáveis pelo BLUEX, que já entrega texto linearizado.
+- As categorias que o BLUEX não representa ficam explicitamente adiadas em `deferred`:
+  "duas colunas" e "quebra de questão entre páginas" (layout), "evidência de página"
+  (`page-evidence`) e "decisão humana aprovada" (`human-approval`). Elas pertencem às
+  etapas de PDF/OCR e de revisão da arquitetura.
 - O corpus valida a normalização a partir do BLUEX. A conferência frame-a-frame contra
   PDF/gabarito oficiais pertence às etapas seguintes da arquitetura.
 - Próximo passo natural: usar o mesmo corpus de aceitação para os Adapters Comvest/Fuvest
