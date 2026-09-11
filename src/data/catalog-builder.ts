@@ -9,6 +9,7 @@ import type {
 import { catalogManifestSchema } from '../contracts/catalog';
 import type { QuestionPackage } from '../contracts/question';
 import { questionPackageSchema } from '../contracts/question';
+import { comvestBoard, fuvestBoard, type BluexBoard } from './bluex-board';
 
 export const serializePackage = (questionPackage: QuestionPackage): string => {
   const validated = questionPackageSchema.parse(questionPackage);
@@ -120,7 +121,7 @@ export const upsertEnemManifest = (
   );
 };
 
-const COMVEST_SUBJECT_NAMES: Readonly<Record<string, string>> = {
+const VESTIBULAR_SUBJECT_NAMES: Readonly<Record<string, string>> = {
   mathematics: 'Matemática',
   portuguese: 'Língua Portuguesa',
   history: 'História',
@@ -132,42 +133,66 @@ const COMVEST_SUBJECT_NAMES: Readonly<Record<string, string>> = {
   philosophy: 'Filosofia',
 };
 
-export const comvestCatalogEntry = (
+/**
+ * Builds the catalog entry for any BLUEX first-phase board (Comvest/Fuvest)
+ * from its descriptor, so the exam-specific strings live in `bluex-board.ts`.
+ */
+export const bluexCatalogEntry = (
+  board: BluexBoard,
   editionId: string,
   year: number,
   day: number | null,
   subjectIds: readonly string[],
 ): CatalogEntry => ({
-  institution: { id: 'unicamp', name: 'Universidade Estadual de Campinas (Comvest)' },
+  institution: { id: board.institutionId, name: board.institutionName },
   exam: {
-    id: 'comvest',
-    institutionId: 'unicamp',
-    name: 'Comvest — Vestibular Unicamp',
+    id: board.examId,
+    institutionId: board.institutionId,
+    name: board.examName,
     category: 'vestibular',
   },
   edition: {
     id: editionId,
-    examId: 'comvest',
-    label:
-      day === null
-        ? `Vestibular Unicamp ${year}`
-        : `Vestibular Unicamp ${year} — dia ${day}`,
+    examId: board.examId,
+    label: board.editionLabel(year, day),
     year,
   },
   subjects: [...subjectIds]
     .sort()
-    .map((id) => ({ id, name: COMVEST_SUBJECT_NAMES[id] ?? id })),
+    .map((id) => ({ id, name: VESTIBULAR_SUBJECT_NAMES[id] ?? id })),
 });
 
-export const upsertComvestManifest = (
+export const upsertBluexManifest = (
   current: CatalogManifest | null,
   descriptor: PackageDescriptor,
+  board: BluexBoard,
   edition: { readonly year: number; readonly day: number | null },
   generatedAt = new Date().toISOString(),
 ): CatalogManifest =>
   upsertCatalogManifest(
     current,
     descriptor,
-    comvestCatalogEntry(descriptor.editionId, edition.year, edition.day, descriptor.subjectIds),
+    bluexCatalogEntry(board, descriptor.editionId, edition.year, edition.day, descriptor.subjectIds),
     generatedAt,
   );
+
+export const comvestCatalogEntry = (
+  editionId: string,
+  year: number,
+  day: number | null,
+  subjectIds: readonly string[],
+): CatalogEntry => bluexCatalogEntry(comvestBoard, editionId, year, day, subjectIds);
+
+export const upsertComvestManifest = (
+  current: CatalogManifest | null,
+  descriptor: PackageDescriptor,
+  edition: { readonly year: number; readonly day: number | null },
+  generatedAt = new Date().toISOString(),
+): CatalogManifest => upsertBluexManifest(current, descriptor, comvestBoard, edition, generatedAt);
+
+export const upsertFuvestManifest = (
+  current: CatalogManifest | null,
+  descriptor: PackageDescriptor,
+  edition: { readonly year: number; readonly day: number | null },
+  generatedAt = new Date().toISOString(),
+): CatalogManifest => upsertBluexManifest(current, descriptor, fuvestBoard, edition, generatedAt);

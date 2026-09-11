@@ -136,3 +136,75 @@ a manutenção da atribuição e a checagem de obras de terceiros embutidas em c
 questão permanecem pendentes de revisão editorial/sign-off do mantenedor antes de
 qualquer uso público amplo. A proveniência do dataset BLUEX é registrada por commit e
 SHA-256 e o relatório de importação acompanha as contagens e rejeições.
+
+# Fuvest/USP (1ª fase)
+
+Os pacotes `fuvest/fuvest-{ano}.json` foram gerados pelo importador
+`scripts/import-fuvest.ts` a partir do mesmo snapshot fixado do dataset **BLUEX**
+(`Portuguese-Benchmark-Datasets/BLUEX`), agora no recorte `questions/USP` e
+`imgs/USP` da 1ª fase objetiva. O importador reutiliza a lógica comum de
+`scripts/bluex-import.ts` e o normalizador parametrizado por banca
+(`src/data/bluex-normalizer.ts`); a Fuvest difere apenas na identidade, no prefixo
+de assets e na contagem esperada de cinco alternativas. O SHA-256 do ZIP é
+conferido antes de normalizar e o dataset bruto nunca é copiado para `public/data`.
+
+Comando de reprodução:
+
+```sh
+npm run import:fuvest -- --source "<BLUEX>/extracted" \
+  --zip "<BLUEX>/data/bluex_dataset.zip" \
+  --expected-sha256 5A02D9FCD5714332EA14AFD2C412FB1839A7AF518B1C6BD29008AD9B8CCF55D2 \
+  --commit 6cdd69bd8dc8d0144e6bb01501ccae312720a0e6 \
+  --report docs/research/data/fuvest-usp-import-report.json
+```
+
+| Item | Valor |
+| ---- | ----- |
+| Dataset | BLUEX (`Portuguese-Benchmark-Datasets/BLUEX`) |
+| Commit fixado | `6cdd69bd8dc8d0144e6bb01501ccae312720a0e6` |
+| SHA-256 do ZIP | `5A02D9FCD5714332EA14AFD2C412FB1839A7AF518B1C6BD29008AD9B8CCF55D2` |
+| Edições publicadas | 7 (2018 a 2024) |
+| Questões publicadas | 620 de 630 |
+| Rejeições | 10 (ver abaixo) |
+| Assets publicados | 440, referenciados por enunciados e alternativas |
+| Assets ignorados | 52, explicitados no relatório de importação |
+
+O identificador global segue literalmente `{examId}-{editionId}-{sourceQuestionId}`,
+por exemplo `fuvest-fuvest-2018-USP_2018_1`. Nenhum identificador colide entre as
+edições da Fuvest, com a Comvest ou com o ENEM.
+
+## Decisões e dados incompletos (sem conteúdo inventado)
+
+- **Gabarito ausente.** `USP_2022_54` tem `"answer": null` na fonte e foi rejeitada
+  (`empty-answer`), nunca completada por suposição.
+- **Sem alternativas.** `USP_2021_25` tem zero alternativas com gabarito `A` e foi
+  rejeitada (`unknown-answer`), pois o contrato exige pelo menos duas alternativas e
+  uma resposta correspondente.
+- **Alternativas-imagem órfãs de marcador.** `USP_2018_19`, `USP_2018_21`,
+  `USP_2018_25`, `USP_2023_6`, `USP_2023_23` e `USP_2023_59` referenciam
+  `[IMAGE 1..5]`, mas a fonte lista só um arquivo em `associated_images`. Foram
+  rejeitadas (`image-reference-missing`) para não exibir a figura errada.
+- **Múltiplas imagens na mesma alternativa.** `USP_2020_8` referencia duas imagens
+  em uma alternativa, o que o contrato `single-choice` não representa; a questão foi
+  rejeitada (`alternative-image-count-unsupported`) e suas 10 imagens ignoradas.
+- **Imagem associada sem marcador.** `USP_2022_73` tem uma imagem associada que
+  nenhum `[IMAGE n]` referencia; a questão foi rejeitada
+  (`unreferenced-associated-image`) em vez de representar o conteúdo incorretamente.
+- **Disciplina única.** O contrato carrega um único `subjectId`; uma questão
+  multidisciplinar mantém apenas a primeira matéria declarada pelo BLUEX
+  (`subject[0]`). A lista completa permanece no inventário de metadados.
+- **Assets ignorados.** 28 imagens órfãs no disco e as imagens de questões rejeitadas
+  não são publicadas; a decisão está registrada em
+  `docs/research/data/fuvest-usp-import-report.json`.
+- **Marcadores de imagem.** Todo `[IMAGE n]` é resolvido para o asset local
+  correspondente; nenhum marcador permanece no texto publicado, nenhuma imagem
+  referenciada fica órfã e toda imagem associada precisa ser referenciada por um
+  marcador ou a questão é rejeitada.
+
+## Atribuição e licenciamento
+
+O conteúdo das questões é de titularidade da **Fuvest / Vestibular USP**. A
+atribuição e a proveniência são preservadas em `fuvest/ATTRIBUTION.md`. Diferentemente
+da Comvest, não foi localizada nesta entrega uma autorização pública equivalente; a
+checagem de obras de terceiros embutidas em cada questão e o sign-off editorial do
+mantenedor permanecem pendentes antes de qualquer uso público amplo.

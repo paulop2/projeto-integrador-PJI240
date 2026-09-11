@@ -1,0 +1,4425 @@
+{
+  "schemaVersion": 1,
+  "packageId": "fuvest-2018",
+  "institutionId": "usp",
+  "examId": "fuvest",
+  "editionId": "fuvest-2018",
+  "questions": [
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_1",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um fabricante de acessórios de montanhismo quer projetar um\ncolchão de espuma apropriado para ser utilizado por alpinistas\nem regiões frias. Considere que a taxa de transferência de calor\nao solo por uma pessoa dormindo confortavelmente seja 90\nkcal/hora e que a transferência de calor entre a pessoa e o solo\nse dê exclusivamente pelo mecanismo de condução térmica\natravés da espuma do colchão. Nestas condições, o gráfico\nrepresenta a taxa de transferência de calor, em J/s, através da\nespuma do colchão, em função de sua espessura, em cm.\n\n\n\nConsiderando 1 cal = 4 J, a menor espessura do colchão, em cm,\npara que a pessoa durma confortavelmente é",
+      "files": [
+        "/data/fuvest/assets/2018/1/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1,0.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1,5.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2,2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2,8.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "3,9.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_2",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Câmeras digitais, como a esquematizada na figura, possuem\nmecanismos automáticos de focalização.\n\n\n\nEm uma câmera digital que utilize uma lente convergente com\n20 mm de distância focal, a distância, em mm, entre a lente e o\nsensor da câmera, quando um objeto a 2 m estiver\ncorretamente focalizado, é, aproximadamente,",
+      "files": [
+        "/data/fuvest/assets/2018/2/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "5.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "10.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "15.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "20.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_3",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: π = 3.\nCalor latente de vaporização da água: 2 x 10^6 J/kg.\nDensidade da água: 10^3 kg/m3.\n1 dia = 8,6 x 10^4 sFuracões são sistemas físicos que liberam uma enorme\nquantidade de energia por meio de diferentes tipos de\nprocessos, sendo um deles a condensação do vapor em água.\nDe acordo com o Laboratório Oceanográfico e Meteorológico\ndo Atlântico, um furacão produz, em média, 1,5 cm de chuva\npor dia em uma região plana de 660 km de raio. Nesse caso, a\nquantidade de energia por unidade de tempo envolvida no\nprocesso de condensação do vapor em água da chuva é,\naproximadamente,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "3,8 x 1015 W.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "4,6 x 1014 W.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2,1 x 1013 W.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1,2 x 1012 W.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "1,1 x 1011 W.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_4",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote:\nConsidere o ar em repouso e ignore sua resistência.\nIgnore as dimensões das pessoas envolvidas.\nVelocidade do som no ar: 360 m/s.\nAceleração da gravidade: 10 m/s2.\nEm uma tribo indígena de uma ilha tropical, o teste derradeiro\nde coragem de um jovem é deixar-se cair em um rio, do alto de\num penhasco. Um desses jovens se soltou verticalmente, a\npartir do repouso, de uma altura de 45 m em relação à\nsuperfície da água. O tempo decorrido, em segundos, entre o\ninstante em que o jovem iniciou sua queda e aquele em que um\nespectador, parado no alto do penhasco, ouviu o barulho do\nimpacto do jovem na água é, aproximadamente,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "3,1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "4,3.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "5,2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "6,2.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "7,0.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_5",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Ondas na superfície de líquidos têm velocidades que dependem\nda profundidade do líquido e da aceleração da gravidade, desde\nque se propaguem em águas rasas. O gráfico representa o\nmódulo v da velocidade da onda em função da profundidade h\nda água.\n\n\n\nUma onda no mar, onde a profundidade da água é 4,0 m, tem\ncomprimento de onda igual a 50 m. Na posição em que a\nprofundidade da água é 1,0 m, essa onda tem comprimento de\nonda, em m, aproximadamente igual a",
+      "files": [
+        "/data/fuvest/assets/2018/5/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "8.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "12.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "25.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "35.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "50.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_6",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote:\nAceleração da gravidade: 10 m/s^2.\nDesconsidere a massa dos motoristas e a resistência do ar.Uma caminhonete, de massa 2.000 kg, bateu na traseira de um\nsedã, de massa 1.000 kg, que estava parado no semáforo, em\numa rua horizontal. Após o impacto, os dois veículos deslizaram\ncomo um único bloco. Para a perícia, o motorista da\ncaminhonete alegou que estava a menos de 20 km/h quando o\nacidente ocorreu. A perícia constatou, analisando as marcas de\nfrenagem, que a caminhonete arrastou o sedã, em linha reta,\npor uma distância de 10 m. Com este dado e estimando que o\ncoeficiente de atrito cinético entre os pneus dos veículos e o\nasfalto, no local do acidente, era 0,5, a perícia concluiu que a\nvelocidade real da caminhonete, em km/h, no momento da\ncolisão era, aproximadamente,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "10.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "15.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "36.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "48.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "54.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_7",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote:\nAceleração da gravidade: 10 m/s^2\nDesconsidere qualquer tipo de atrito ou resistência ao movimento e\nignore a massa do balanço e as dimensões da pessoa.\nAs cordas são inextensíveis.\nO projeto para um balanço de corda única de um parque de\ndiversões exige que a corda do brinquedo tenha um\ncomprimento de 2,0 m. O projetista tem que escolher a corda\nadequada para o balanço, a partir de cinco ofertas disponíveis\nno mercado, cada uma delas com distintas tensões de ruptura.\nA tabela apresenta essas opções.\n\n\n\nEle tem também que incluir no projeto uma margem de\nsegurança; esse fator de segurança é tipicamente 7, ou seja, o\nbalanço deverá suportar cargas sete vezes a tensão no ponto\nmais baixo da trajetória. Admitindo que uma pessoa de 60 kg,\nao se balançar, parta do repouso, de uma altura de 1,2 m em\nrelação à posição de equilíbrio do balanço, as cordas que\npoderiam ser adequadas para o projeto são",
+      "files": [
+        "/data/fuvest/assets/2018/7/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I, II, III, IV e V.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II, III, IV e V, apenas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "III, IV e V, apenas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "IV e V, apenas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "V, apenas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_8",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O ano de 2017 marca o trigésimo aniversário de um grave\nacidente de contaminação radioativa, ocorrido em Goiânia em\n1987. Na ocasião, uma fonte radioativa, utilizada em um\nequipamento de radioterapia, foi retirada do prédio\nabandonado de um hospital e, posteriormente, aberta no ferro\nvelho para onde fora levada. O brilho azulado do pó de césio\n137 fascinou o dono do ferro-velho, que compartilhou porções\ndo material altamente radioativo com sua família e amigos, o\nque teve consequências trágicas. O tempo necessário para que\nmetade da quantidade de césio-137 existente em uma fonte se\ntransforme no elemento não radioativo bário-137 é trinta anos.\nEm relação a 1987, a fração de césio-137, em %, que existirá na\nfonte radioativa 120 anos após o acidente, será,\naproximadamente,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "3,1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "6,3.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "12,5.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "25,0.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "50,0.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_9",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Na figura, A e B representam duas placas metálicas; a diferença\nde potencial entre elas é VB – VA = 2,0 x 104 V. As linhas\ntracejadas 1 e 2 representam duas possíveis trajetórias de um\nelétron, no plano da figura.\n\n\n\nConsidere a carga do elétron igual a -1,6 x 10^-19 C e as seguintes\nafirmações com relação à energia cinética de um elétron que\nsai do ponto X na placa A e atinge a placa B:\n\nI. Se o elétron tiver velocidade inicial nula, sua energia\ncinética, ao atingir a placa B, será 3,2 x 10^-15 J.\nII. A variação da energia cinética do elétron é a mesma,\nindependentemente de ele ter percorrido as trajetórias 1\nou 2.\nIII. O trabalho realizado pela força elétrica sobre o elétron na\ntrajetória 2 é maior do que o realizado sobre o elétron na\ntrajetória 1.\n\nApenas é correto o que se afirma em",
+      "files": [
+        "/data/fuvest/assets/2018/9/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "III.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I e II.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I e III.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_10",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Atualmente são usados LEDs (Light Emitting Diode) na\niluminação doméstica. LEDs são dispositivos semicondutores\nque conduzem a corrente elétrica apenas em um sentido. Na\nfigura, há um circuito de alimentação de um LED (L) de 8 W, que\nopera com 4 V, sendo alimentado por uma fonte (F) de 6 V.\n\n\n\nO valor da resistência do resistor (R), em Ω, necessário para que\no LED opere com seus valores nominais é, aproximadamente,",
+      "files": [
+        "/data/fuvest/assets/2018/10/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1,0.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2,0.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "3,0.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "4,0.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "5,0.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_11",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em 2016, as lâmpadas incandescentes tiveram sua venda\ndefinitivamente proibida no país, por razões energéticas. Uma\nlâmpada fluorescente, considerada energeticamente eficiente,\nconsome 28 W de potência e pode produzir a mesma\nintensidade luminosa que uma lâmpada incandescente\nconsumindo a potência de 100 W. A vida útil média da lâmpada\nfluorescente é de 10.000 h e seu preço médio é de R$ 20,00,\nenquanto a lâmpada incandescente tem vida útil de 1.000 h e\ncada unidade custaria, hoje, R$ 4,00. O custo da energia é de\nR$ 0,25 por quilowatt-hora. O valor total, em reais, que pode\nser poupado usando uma lâmpada fluorescente, ao longo da sua\nvida útil, ao invés de usar lâmpadas incandescentes para obter a\nmesma intensidade luminosa, durante o mesmo período de\ntempo,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "90,00.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "140,00.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "200,00.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "250,00.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "290,00.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_12",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma das substâncias utilizadas em desinfetantes comerciais é\no perácido de fórmula CH3CO3H.\nA formulação de um dado desinfetante encontrado no\ncomércio consiste em uma solução aquosa na qual existem\nespécies químicas em equilíbrio, como representado a seguir.\n(Nessa representação, a fórmula do composto 1 não é\napresentada.)\n\n\n\nAo abrir um frasco desse desinfetante comercial, é possível\nsentir o odor característico de um produto de uso doméstico.\nEsse odor é de",
+      "files": [
+        "/data/fuvest/assets/2018/12/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "amônia, presente em produtos de limpeza, como limpa-\nvidros.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "álcool comercial, ou etanol, usado em limpeza doméstica.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "acetato de etila, ou etanoato de etila, presente em\nremovedores de esmalte.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "cloro, presente em produtos alvejantes.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "ácido acético, ou ácido etanoico, presente no vinagre.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_13",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma determinada quantidade de metano (CH4) é colocada para\nreagir com cloro (Cl2) em excesso, a 400 o\nC, gerando HCl (g) e\nos compostos organoclorados H3CCl, H2CCl2, HCCl3, CCl4, cujas\npropriedades são mostradas na tabela. A mistura obtida ao final\ndas reações químicas é então resfriada a 25 o\nC, e o líquido,\nformado por uma única fase e sem HCl, é coletado.\n\n\n\nA melhor técnica de separação dos organoclorados presentes\nna fase líquida e o primeiro composto a ser separado por essa\ntécnica são:",
+      "files": [
+        "/data/fuvest/assets/2018/13/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "decantação; H3CCl.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "destilação fracionada; CCl4.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "cristalização; HCCl3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "destilação fracionada; H2CCl2.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "decantação; CCl4.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_14",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A mandioca, uma das principais fontes de carboidratos da\nalimentação brasileira, possui algumas variedades conhecidas\npopularmente como \"mandioca brava\", devido a sua\ntoxicidade. Essa toxicidade se deve à grande quantidade de\ncianeto de hidrogênio (HCN) liberado quando o tecido vegetal\né rompido.\nApós cada etapa do processamento para a produção de farinha\nde mandioca seca, representado pelo esquema a seguir,\nquantificou-se o total de HCN nas amostras, conforme\nmostrado no gráfico que acompanha o esquema.\n\n\n\n\n\nO que ocorre com o HCN nas Etapas 2 e 3?\n| Etapa 2 | Etapa 3 |",
+      "files": [
+        "/data/fuvest/assets/2018/14/0.jpg",
+        "/data/fuvest/assets/2018/14/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "| HCN é insolúvel em água, formando um precipitado. | HCN é volatilizado durante a torração,\nsendo liberado no ar |",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "| HCN é insolúvel em água,formando uma única fase na manipueira.| HCN permanece na massa torrada, não sendo afetado pela temperatura |",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "| HCN é solúvel em água, sendo levado na manipueira.| HCN permanece na massa torrada, não sendo afetado pela temperatura.|",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "| HCN é solúvel em água, sendo levado na manipueira.| HCN é volatilizado durante a torração, sendo liberado no ar.|",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "| HCN é insolúvel em água, formando um precipitado.| A 160oC, a ligação C≡N é quebrada, degradando as moléculas de HCN.|",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_15",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote:\nClassificação de azeites por acidez (em %, massa do ácido oleico por 100\ng de azeite):\n\nTipo | Acidez\nExtra | virgem Menor que 0,8%\nVirgem | fino De 0,8% até 1,5%\nSemifino | Maior que 1,5% até 3,0%\nRefinado | Maior que 3,0\n\nÁcido oleico (ácido octadec-9-enoico)\nFórmula: C18H34O2\nMassa molar = 282,5 g mol^-1\n\n\n\nUm dos parâmetros que determina a qualidade do azeite de\noliva é sua acidez, normalmente expressa na embalagem na\nforma de porcentagem, e que pode ser associada diretamente\nao teor de ácido oleico em sua composição.\nUma amostra de 20,00 g de um azeite comercial foi adicionada\na 100 mL de uma solução contendo etanol e etoxietano\n(dietiléter), 1:1 em volume, com o indicador fenolftaleína. Sob\nconstante agitação, titulou-se com uma solução etanólica\ncontendo KOH 0,020 mol/L até a ________________ total. Para\nessa amostra, usaram-se 35,0 mL de base, o que permite\nconcluir que se trata de um azeite tipo ________________.\n\nAs palavras que completam corretamente as lacunas são:",
+      "files": [
+        "/data/fuvest/assets/2018/15/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "oxidação; semifino.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "neutralização; virgem fino.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "oxidação, virgem fino.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "neutralização; extra virgem.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "neutralização, semifino",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_16",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Analise a tabela periódica e as seguintes afirmações a respeito\ndo elemento químico enxofre (S):\n\nI. Tem massa atômica maior do que a do selênio (Se).\nII. Pode formar com o hidrogênio um composto molecular de\nfórmula H2S.\nIII. A energia necessária para remover um elétron da camada\nmais externa do enxofre é maior do que para o sódio (Na).\nIV. Pode formar com o sódio (Na) um composto iônico de\nfórmula Na3S.\n\nSão corretas apenas as afirmações",
+      "files": [
+        "/data/fuvest/assets/2018/16/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I e II.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I e III.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "II e III.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "II e IV.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "III e IV",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_17",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A energia liberada na combustão do etanol de cana-de-açúcar\npode ser considerada advinda da energia solar, uma vez que a\nprimeira etapa para a produção do etanol é a fotossíntese. As\ntransformações envolvidas na produção e no uso do etanol\ncombustível são representadas pelas seguintes equações\nquímicas:\n\n6CO2(g) + 6H2O(g) -> C6H12O6(aq) + 6O2(g)\nC6H12O6(aq) -> 2C2H5OH(aq) + 2CO2(g) ΔH = -70 kJ/mol\nC2H5OH(l) + 3O2(g) -> 2 CO2 (g) + 3 H2O (g) ΔH = -1.235 kJ/mol\n\nCom base nessas informações, podemos afirmar que o valor de\nΔH para a reação de fotossíntese é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "-1.305 kJ/mol.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "+1.305 kJ/mol.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "+2.400 kJ/mol.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "-2.540 kJ/mol.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "+2.540 kJ/mol.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_18",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote:\no aço é uma liga metálica majoritariamente formada pelo elemento ferro.\n\nUm método largamente aplicado para evitar a corrosão em\nestruturas de aço enterradas no solo, como tanques e dutos, é\na proteção catódica com um metal de sacrifício. Esse método\nconsiste em conectar a estrutura a ser protegida, por meio de\num fio condutor, a uma barra de um metal diferente e mais\nfacilmente oxidável, que, com o passar do tempo, vai sendo\ncorroído até que seja necessária sua substituição.\n\n\n\nUm experimento para identificar quais metais podem ser\nutilizados como metal de sacrifício consiste na adição de um\npedaço de metal a diferentes soluções contendo sais de outros\nmetais, conforme ilustrado, e cujos resultados são mostrados\nna tabela. O símbolo ( + ) indica que foi observada uma reação\nquímica e o ( - ) indica que não se observou qualquer reação\nquímica.\n\n\n\n\n\nDa análise desses resultados, conclui-se que pode(m) ser\nutilizado(s) como metal(is) de sacrifício para tanques de aço:",
+      "files": [
+        "/data/fuvest/assets/2018/18/0.jpg",
+        "/data/fuvest/assets/2018/18/1.jpg",
+        "/data/fuvest/assets/2018/18/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Al e Zn.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "somente Sn.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Al e Sn.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "somente Al.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Sn e Zn.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_20",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere as figuras pelas quais são representados diferentes\nsistemas contendo determinadas substâncias químicas. Nas\nfiguras, cada círculo representa um átomo, e círculos de\ntamanhos diferentes representam elementos químicos\ndiferentes.\n\n\n\nA respeito dessas representações, é correto afirmar que os\nsistemas",
+      "files": [
+        "/data/fuvest/assets/2018/20/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "3, 4 e 5 representam misturas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1, 2 e 5 representam substâncias puras.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2 e 5 representam, respectivamente, uma substância\nmolecular e uma mistura de gases nobres.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "6 e 4 representam, respectivamente, uma substância\nmolecular gasosa e uma substância simples.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "1 e 5 representam substâncias simples puras.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_22",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O hormônio melatonina é responsável pela sensação de\nsonolência. Em nosso organismo, a concentração de\nmelatonina começa a aumentar ao anoitecer, atinge o máximo\nno meio da noite e decresce com a luz do dia. A melatonina é\nsintetizada a partir do aminoácido triptofano, em quatro etapas\ncatalisadas por diferentes enzimas, sendo que a enzima 3 é\ndegradada em presença de luz.\n\n\n\nConsidere as seguintes afirmações a respeito desse processo:\nI. Na etapa 2, há perda de dióxido de carbono e, na etapa 3, a\nserotonina é transformada em uma amida.\nII. A manipulação de objetos que emitem luz, como celulares\ne tablets, pode interromper ou tornar muito lento o\nprocesso de transformação da serotonina em N-acetil-\nserotonina.\nIII. O aumento da concentração de triptofano na corrente\nsanguínea pode fazer com que a pessoa adormeça mais\nlentamente ao anoitecer.\n\nÉ correto o que se afirma em",
+      "files": [
+        "/data/fuvest/assets/2018/22/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I e II, apenas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I e III, apenas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "II e III, apenas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "III, apenas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I, II e III.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_23",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Neste texto, o autor descreve o fascínio que as descobertas em\nQuímica exerciam sobre ele, durante sua infância.\nEu adorava Química em parte por ela ser uma ciência de\ntransformações, de inúmeros compostos baseados em algumas\ndúzias de elementos, eles próprios fixos, invariáveis e eternos. A\nnoção de estabilidade e de invariabilidade dos elementos era\npsicologicamente crucial para mim, pois eu os via como pontos\nfixos, como âncoras em um mundo instável. Mas agora, com a\nradioatividade, chegavam transformações das mais incríveis.\n(...)\nA radioatividade não alterava as realidades da Química\nou a noção de elementos; não abalava a ideia de sua\nestabilidade e identidade. O que ela fazia era aludir a duas\nesferas no átomo – uma esfera relativamente superficial e\nacessível, que governava a reatividade e a combinação química,\ne uma esfera mais profunda, inacessível a todos os agentes\nquímicos e físicos usuais e suas energias relativamente\npequenas, onde qualquer mudança produzia uma alteração\nfundamental de identidade.\nOliver Sacks, Tio Tungstênio: Memórias de uma infância química.\n\nDe acordo com o autor,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o trecho \"eles próprios fixos, invariáveis e eternos\" (L. 3)\nremete à dificuldade para a quebra de ligações químicas,\nque são muito estáveis.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"esfera relativamente superficial\" (L. 12) e \"esfera mais\nprofunda\" (L. 14) dizem respeito, respectivamente, à\neletrosfera e ao núcleo dos átomos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"esfera relativamente superficial\" (L. 12) e \"esfera mais\nprofunda\" (L. 14) referem-se, respectivamente, aos elétrons\nda camada de valência, envolvidos nas reações químicas, e\naos elétrons das camadas internas dos átomos, que não\nestão envolvidos nas reações químicas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "as energias envolvidas nos processos de transformação de\num átomo em outro, como ocorre com materiais\nradioativos, são \"relativamente pequenas\" (L. 15-16).",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a expressão \"uma alteração fundamental de identidade\"\n(L. 16-17) relaciona-se à capacidade que um mesmo átomo\ntem de fazer ligações químicas diferentes, formando\ncompostos com propriedades distintas das dos átomos\nisolados",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_24",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em uma urna, há bolas amarelas, brancas e vermelhas. Sabe-\nse que:\n\nI. A probabilidade de retirar uma bola vermelha dessa urna é\no dobro da probabilidade de retirar uma bola amarela.\nII. Se forem retiradas 4 bolas amarelas dessa urna, a\nprobabilidade de retirar uma bola vermelha passa a ser 1/2.\nIII. Se forem retiradas 12 bolas vermelhas dessa urna, a\nprobabilidade de retirar uma bola branca passa a ser 1/2.\n\nA quantidade de bolas brancas na urna é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "8.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "10.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "12.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "14.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "16.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_26",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Doze pontos são assinalados sobre quatro segmentos de reta\nde forma que três pontos sobre três segmentos distintos nunca\nsão colineares, como na figura.\n\n\n\nO número de triângulos distintos que podem ser desenhados\ncom os vértices nos pontos assinalados é",
+      "files": [
+        "/data/fuvest/assets/2018/26/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "200.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "204.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "208.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "212.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "220.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_27",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dentre os candidatos que fizeram provas de matemática,\nportuguês e inglês num concurso, 20 obtiveram nota mínima\npara aprovação nas três disciplinas. Além disso, sabe-se que:\n\nI. 14 não obtiveram nota mínima em matemática;\nII. 16 não obtiveram nota mínima em português;\nIII. 12 não obtiveram nota mínima em inglês;\nIV. 5 não obtiveram nota mínima em matemática e em\nportuguês;\nV. 3 não obtiveram nota mínima em matemática e em inglês;\nVI. 7 não obtiveram nota mínima em português e em inglês e\nVII. 2 não obtiveram nota mínima em português, matemática\ne inglês.\n\nA quantidade de candidatos que participaram do concurso foi",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "44.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "46.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "47.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "48.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "49.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_28",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sejam D_f e D_g os maiores subconjuntos de R nos quais estão\ndefinidas, respectivamente, as funções reais\n\nf(x) = sqrt((x^3 + 2x^2 - 4x - 8)/x-2) e g(x) = sqrt(x^3 + 2x^2 - 4x - 8)/sqrt(x-2) \n\nConsidere, ainda, I_f e I_g as imagens de f e de g, respectivamente\n\nNessas condições,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "D_f = D_g e I_f = I_g.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "tanto D_f e D_g quanto I_f e I_g diferem em apenas um ponto.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "D_f e D_g diferem em apenas um ponto, I_f e I_g diferem em\nmais de um ponto.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "D_f e D_g diferem em mais de um ponto, I_f e I_g diferem em\napenas um ponto.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "tanto D_f e D_g quanto I_f e I_g diferem em mais de um ponto.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_29",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Prolongando1se os lados de um octógono convexo ABCDEFGH,\nobtém-se um polígono estrelado, conforme a figura.\n\n\n\nA soma α_1 + ... + α_8 vale",
+      "files": [
+        "/data/fuvest/assets/2018/29/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "180°",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "360°",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "540°",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "720°",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "900°",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_30",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Admitindo que a linha pontilhada represente o gráfico da\nfunção f(x) = sen(x) e que a linha contínua represente o\ngráfico da função g(x) = asen(βx) segue que",
+      "files": [
+        "/data/fuvest/assets/2018/30/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1 < a < 1 e 0 < β < 1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a > 1 e 0 < β < 1.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a = 1 e β > 1.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "0 < a < 1 e β > 1.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "0 < a < 1 e β = 1.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_31",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Maria quer comprar uma TV que está sendo vendida por\nR$ 1.500,00 à vista ou em 3 parcelas mensais sem juros de\nR$ 500,00. O dinheiro que Maria reservou para essa compra\nnão é suficiente para pagar à vista, mas descobriu que o banco\noferece uma aplicação financeira que rende 1% ao mês. Após\nfazer os cálculos, Maria concluiu que, se pagar a primeira\nparcela e, no mesmo dia, aplicar a quantia restante, conseguirá\npagar as duas parcelas que faltam sem ter que colocar nem tirar\num centavo sequer. Quanto Maria reservou para essa compra,\nem reais",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1.450,20",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1.480,20",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1.485,20",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1.495,20",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "1.490,20",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_32",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere o polinômio\n\nP(x) = x^n + a_(n_1) x^(n_1) + ... + a_1 x + a_0,\n\nem que a_0, ..., a_(n-1) ∈ ℝ. Sabe-se que as suas n raízes estão\nsobre a circunferência unitária e que a_0 < 0.\n\nO produto das n raízes de P(x), para qualquer inteiro n >= 1, é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0/",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "i^n",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "i^(n+1)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "(-1)^n",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "(-1)^(n+1)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_33",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O quadrilátero da figura está inscrito em uma circunferência de\nraio 1. A diagonal desenhada é um diâmetro dessa\ncircunferência.\n\n\n\nSendo x e y as medidas dos ângulos indicados na figura, a área\nda região cinza, em função de x e y, é:",
+      "files": [
+        "/data/fuvest/assets/2018/33/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "π + sen(2x) + sen(2y)",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "π - sen(2x) - sen(2y)",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "π - cos(2x) - cos(2y)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "π - (cos(2x) + cos(2y))/2",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "π - (sen(2x) + sen(2y))/2",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_34",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dois atletas correm com velocidades constantes em uma pista\nretilínea, partindo simultaneamente de extremos opostos, A e\nB. Um dos corredores parte de A, chega a B e volta para A. O\noutro corredor parte de B, chega a A e volta para B. Os\ncorredores cruzam-se duas vezes, a primeira vez a 800 metros\nde A e a segunda vez a 500 metros de B. O comprimento da\npista, em metros, é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1.000.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1.300.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1.600.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1.900.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "2.100.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_35",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Borboleta, lula e avestruz têm como principal excreta\nnitrogenado, respectivamente,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "ácido úrico, amônia e ácido úrico.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "ácido úrico, ureia e amônia.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "amônia, ácido úrico e amônia.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "amônia, ureia e ácido úrico.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "ureia, amônia e ácido úrico.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_36",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No sistema circulatório humano,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a veia cava superior transporta sangue pobre em oxigênio,\ncoletado da cabeça, dos braços e da parte superior do\ntronco, e chega ao átrio esquerdo do coração.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a veia cava inferior transporta sangue pobre em oxigênio,\ncoletado da parte inferior do tronco e dos membros\ninferiores, e chega ao átrio direito do coração.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a artéria pulmonar transporta sangue rico em oxigênio, do\ncoração até os pulmões.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "as veias pulmonares transportam sangue rico em oxigênio,\ndos pulmões até o átrio direito do coração.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a artéria aorta transporta sangue rico em oxigênio para o\ncorpo, por meio da circulação sistêmica, e sai do ventrículo\ndireito do coração.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_37",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No grupo dos fungos, são conhecidas perto de 100 mil espécies.\nEsse grupo tão diverso inclui espécies que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "são sapróbias, fundamentais na ciclagem dos nutrientes,\npois sintetizam açúcares a partir do dióxido de carbono do\nar.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "são parasitas, procariontes heterotróficos que absorvem\ncompostos orgânicos produzidos pelos organismos\nhospedeiros.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "são comestíveis, pertencentes a um grupo de fungos\nprimitivos que não formam corpos de frutificação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "formam, com as raízes de plantas, associações chamadas\nmicorrizas, mutuamente benéficas, pela troca de\nnutrientes.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "realizam respiração, na presença de oxigênio, e\nfotossíntese, na ausência desse gás, sendo, portanto,\nanaeróbias facultativas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_38",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Analise as três afirmações sobre o controle da respiração em\nhumanos.\n\nI. Impulsos nervosos estimulam a contração do diafragma e\ndos músculos intercostais, provocando a inspiração.\nII. A concentração de dióxido de carbono no sangue influencia\no ritmo respiratório.\nIII. O ritmo respiratório pode ser controlado voluntariamente,\nmas na maior parte do tempo tem controle involuntário.\n\nEstá correto o que se afirma em",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I, apenas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I e III, apenas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "III, apenas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "II e III, apenas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I, II e III.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_39",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A surdez é geneticamente heterogênea: pode ser causada por\nmutações em diferentes genes, localizados nos autossomos ou\nno cromossomo X ou, ainda, por mutações em genes\nmitocondriais.\n\n\nOs heredogramas representam quatro famílias, em que\nocorrem pessoas com surdez (bola e quadrado):\n\n\n\nA(s) família(s) em que o padrão de herança permite afastar a\npossibilidade de que a surdez tenha herança mitocondrial\né(são) apenas",
+      "files": [
+        "/data/fuvest/assets/2018/39/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2 e 3.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "3 e 4.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "4.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_40",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Muitas plantas adaptadas a ambientes terrestres secos e com\nalta intensidade luminosa apresentam folhas",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "pequenas com estômatos concentrados na parte inferior,\nmuitos tricomas claros, cutícula impermeável e parênquima\naquífero.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "grandes com estômatos concentrados na parte inferior,\npoucos tricomas claros, cutícula impermeável e parênquima\naerífero.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "pequenas com estômatos concentrados na parte superior,\nausência de tricomas, cera sobre a epiderme foliar e\nparênquima aquífero.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "grandes com estômatos igualmente distribuídos em ambas\nas partes, ausência de tricomas, ausência de cera sobre a\nepiderme foliar e parênquima aerífero.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "pequenas com estômatos concentrados na parte superior,\nmuitos tricomas claros, cera sobre a epiderme foliar e\nparênquima aerífero.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_41",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Células de embrião de drosófila (2n=8), que estavam em\ndivisão, foram tratadas com uma substância que inibe a\nformação do fuso, impedindo que a divisão celular prossiga.\nApós esse tratamento, quantos cromossomos e quantas\ncromátides, respectivamente, cada célula terá?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "4 e 4.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "4 e 8.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "8 e 8.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "8 e 16.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "16 e 16.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_42",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Analise as três afirmações seguintes sobre ciclos\nbiogeoquímicos.\n\nI. A respiração dos seres vivos e a queima de combustíveis\nfósseis e de vegetação restituem carbono à atmosfera.\nII. Diferentes tipos de bactérias participam da ciclagem do\nnitrogênio: as fixadoras, que transformam o gás nitrogênio\nem amônia, as nitrificantes, que produzem nitrito e nitrato,\ne as desnitrificantes, que devolvem o nitrogênio gasoso à\natmosfera.\nIII. Pelo processo da transpiração, as plantas bombeiam,\ncontinuamente, água do solo para a atmosfera, e esse vapor\nde água se condensa e contribui para a formação de nuvens,\nvoltando à terra como chuva.\n\nEstá correto o que se afirma em",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I, apenas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I e II, apenas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "II e III, apenas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "III, apenas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I, II e III.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_43",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O botulismo provocou a morte de 1,1 mil cabeças de gado, no\núltimo mês de agosto, numa fazenda em Mato Grosso do Sul. A\nsuspeita clínica inicial foi confirmada pelo exame das amostras\nde grãos úmidos de milho fornecidos aos animais,\ndemonstrando a presença da toxina botulínica, que é produzida\npela bactéria Clostridium botulinum.\n\nConsiderando que a toxina botulínica bloqueia a transmissão\nneuromuscular, a morte dos animais deve ter sido decorrente\nde",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "infecção generalizada.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "hemorragia interna.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "desidratação provocada por diarreia.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "acidente vascular cerebral.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "parada respiratória.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_44",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A levedura Saccharomyces cerevisiae pode obter energia na\nausência de oxigênio, de acordo com a equação\n\nC6H12O6 -> 2 CO2 + 2 CH3CH2OH + 2 ATP.\n\nProdutos desse processo são utilizados na indústria de\nalimentos e bebidas. Esse processo ocorre _____________ da\nlevedura e seus produtos são utilizados na produção de\n_____________.\n\nAs lacunas dessa frase devem ser preenchidas por:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "nas mitocôndrias; cerveja e vinagre.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "nas mitocôndrias; cerveja e pão.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "no citosol; cerveja e pão.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "no citosol; iogurte e vinagre.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "no citosol e nas mitocôndrias; cerveja e iogurte.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_45",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Nos cães labradores, a cor da pelagem preta, chocolate ou\ndourada depende da interação entre dois genes, um localizado\nno cromossomo 11 (alelos B e b) e o outro, no cromossomo 5\n(alelos E e e). O alelo dominante B é responsável pela síntese\ndo pigmento preto e o alelo recessivo b, pela produção do\npigmento chocolate. O alelo dominante E determina a\ndeposição do pigmento preto ou chocolate nos pelos; e o alelo\ne impede a deposição de pigmento no pelo.\n\nDentre 36 cães resultantes de cruzamentos de cães\nheterozigóticos nos dois lócus com cães duplo-homozigóticos\nrecessivos, quantos com pelagem preta, chocolate e dourada,\nrespectivamente, são esperados?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0, 0 e 36.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "9, 9 e 18.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "18, 9 e 9.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "18, 0 e 18.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "18, 18 e 0",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_46",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere estas três reações químicas realizadas por seres\nvivos:\n\nI. Fotossíntese\n6 H2O + 6 CO2 (luz ->) 6 O2 + C6H12O6\nII. Quimiossíntese metanogênica\nCO2 + 4H2 -> CH4 + 2H2O\nIII. Respiração celular\n6 O2 + C6H12O6 -> 6 H2O + 6 CO2\n\nA mudança no estado de oxidação do elemento carbono em\ncada reação e o tipo de organismo em que a reação ocorre são:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I:  redução, autotrófico; II:  redução, autotrófico; III: oxidação, heterotrófico, autotrófico.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I: oxidação, autotrófico; II:  oxidação, heterotrófico; III: oxidação, autotrófico.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "I:  redução, autotrófico; II: redução, heterotrófico e autotrófico; III: redução, heterotrófico e autotrófico.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I: oxidação, autotrófico e heterotrófico; II: redução, autotrófico; III: oxidação, autotrófico.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I: oxidação, heterotrófico. II: oxidação, autotrófico; III: redução, heterotrófico.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_47",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Nas últimas décadas, descobriu-se que os volumosos e\ninadequados descartes de resíduos plásticos e de outros\nmateriais sintéticos, mesmo quando realizados nos continentes,\npodem resultar em consideráveis depósitos em áreas distantes\nnos oceanos e mares, seja em seu fundo, na coluna d'água, ou\nna sua superfície. Como consequência, ocorrem mudanças\nfísicas, químicas e ecológicas nesses oceanos e mares, em que\nalguns desses depósitos já atingem a escala planetária, como é\no caso dos materiais plásticos flutuantes representados na\nfigura.\nwww.revistapesquisafapesp.br, maio de 2016\n\n\n\nOs depósitos flutuantes representados na figura apresentam-se",
+      "files": [
+        "/data/fuvest/assets/2018/47/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "com padrões concentrados na parte interna dos giros\noceânicos do Pacífico norte e sul, locais de menor atividade\ndas grandes correntes marinhas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "com maior acumulação no litoral de ambos os hemisférios,\ndevido à atuação de importantes correntes marinhas nessas\náreas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "mais volumosos no hemisfério norte, em função das\nmenores temperaturas de suas águas, o que faz aumentar a\nvelocidade de correntes, como a do Peru e a do Japão.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "com concentrações idênticas em ambos os hemisférios,\ndevido à forte atuação de importantes correntes marinhas\nque transitam do hemisfério norte ao sul.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "mais concentrados e abundantes no hemisfério norte,\ndevido à grande mobilidade de importantes correntes\nmarinhas, como a de Humboldt e a de Madagascar.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_48",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Às vésperas da Cúpula do G20, que teve início em 07 de julho\nde 2017, em Hamburgo, na Alemanha, a chanceler alemã,\nAngela Merkel, discursou no Parlamento e referiu-se a atores\npolíticos importantes no cenário mundial, conforme os trechos\ntranscritos a seguir.\n\nQuem pensa que os problemas deste mundo podem ser\nresolvidos com o isolacionismo e o protecionismo está\ncometendo um enorme erro. Somente juntos podemos\nencontrar as respostas certas às questões centrais dos nossos\ntempos (...) Não podemos esperar até que a última pessoa na\nTerra esteja convencida da evidência científica das mudanças\nclimáticas. Em outras palavras: o acordo climático (de Paris) é\nirreversível e não negociável.\nwww.jb.com.br/pais/notícias.\n\nAnalise as três afirmações seguintes, quanto aos objetivos e ao\nteor desses trechos do discurso.\n\nI. Podem ser entendidos como uma crítica à saída dos EUA do\nacordo sobre as mudanças climáticas construído na COP21\nde 2015, em Paris, à época assinado pelo ex-presidente\nBarack Obama. A saída foi justificada pelo atual presidente\nDonald Trump, afirmando que o acordo seria prejudicial à\neconomia americana.\nII. Trata-se de um elogio à recente postura de algumas\nautoridades do Reino Unido, o qual, em seu processo\ndenominado Brexit, pretende proteger a economia\nbritânica, mas sem afetar seus compromissos financeiros\ncom o acordo de Paris de 2015 e os relacionados com as\nquestões estratégicas coletivas da Comunidade Europeia.\nIII. Faz-se uma crítica direta à França, que, mesmo tendo sido a\nsede da COP21 de 2015, vem continuamente\ndesobedecendo a esse acordo, pois contraria as metas\nfirmadas de emissão de CO2 em suas atividades industriais.\n\nEstá correto o que se afirma em",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I, apenas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II, apenas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "I e III, apenas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "II e III, apenas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I, II e III.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_49",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Contemporaneamente, pode-se definir a sociedade mundial\ncomo a do petróleo, devido à participação desta matéria-prima\nem inúmeros produtos e atividades humanas. A utilização deste\nrecurso natural data de muitos séculos, mas sua exploração e\nbeneficiamento se expandiram somente a partir do século XX.\nA respeito desse recurso natural, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Houve uma forte redução do preço do barril, no início da\ndécada de 1970, por conta dos resultados das pesquisas\nenvolvendo novos procedimentos de extração e refino.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A estatização, no Brasil, do transporte e do refino de\npetróleo iniciou-se no final dos anos 1930 sob o governo de\nJuscelino Kubitschek.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O início de seu uso como fonte de energia se deu em 1920,\nna Inglaterra, com a descoberta de reservas pouco\nprofundas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "No final dos anos 1920, sete empresas petrolíferas mundiais\nconstituíram um cartel controlador da extração, transporte,\nrefino e distribuição do petróleo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Os Estados Unidos possuem reservas ilimitadas de petróleo,\no que ocasiona independência em relação aos países\nparticipantes da OPEP.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_50",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Países europeus, como França e Alemanha, têm valorizado,\nprincipalmente nas duas últimas décadas, o estabelecimento da\nmenor distância possível entre as áreas de produção agrícola e\nde consumo, o que se denomina circuito curto. Na França, o\ncircuito curto é reconhecido por integrar, no máximo, um\nintermediário entre o produtor e o consumidor, quando não se\ntrata de venda direta. No Brasil, ainda que não haja uma\ndefinição oficial, o circuito curto é identificado pela proximidade\nentre produtor e consumidor.\n\nMoacir R. Darolt et al. A diversidade dos circuitos curtos de alimentos\necológicos: ensinamentos do caso brasileiro e francês.\nAgriculturas, v.10, n.2. Adaptado.\n\nConsidere a definição apresentada e analise as três afirmações:\nI. A proximidade entre área de produção agrícola e de\nconsumo pode contribuir para a redução da emissão de CO2.\nII. O objetivo fundamental do circuito curto é a ampliação da\nlucratividade das grandes indústrias alimentícias, com\nganhos advindos da redução dos custos de transporte.\nIII. Com o circuito curto, são geradas novas relações sociais,\npelas quais se pode atingir o preço justo das mercadorias,\ntanto para o consumidor como para o produtor.\n\nEstá correto apenas o que se afirma em",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "I e II.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "II e III.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I e III.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_51",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O Brasil possui um território extenso, com 92% pertencentes à\nzona intertropical. As massas de ar que atuam em território\nbrasileiro possuem influências oceânicas e continentais. Sobre\nas características dessas massas de ar, é correto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2018/51/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "W representa a Massa Equatorial Atlântica de ar quente e\númido, responsável pela grande umidade na Amazônia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Y indica a Massa Polar Atlântica, que se desloca a partir do\nsul em direção ao norte do território brasileiro e tem como\ncaracterística a presença de ar frio, podendo atingir a região\nCentro-Oeste no inverno.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Z indica a Massa Tropical Continental, que tem como\ncaracterística a presença de ar quente e úmido,\nocasionando alagamentos no Centro-Oeste no inverno.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "X indica a Massa Equatorial Continental de ar quente e seco,\nque atua no nordeste do litoral brasileiro.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "V representa a Massa Temperada Atlântica de ar frio e seco,\nque atua no sul do litoral brasileiro.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_52",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No mundo virtual, milhões de pessoas falam, compram,\ncompartilham dados e se reúnem para tratar dos mais variados\nassuntos.\nNas figuras, os números mostram a movimentação média, em\n1 minuto, de algumas das principais empresas e ferramentas de\ninternet nos anos de 2015 e 2017.\n\n\n\nSobre a internet e os números mostrados nas figuras, é correto\nafirmar:",
+      "files": [
+        "/data/fuvest/assets/2018/52/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Após um crescimento até a primeira década do século XXI,\nas ferramentas na internet apresentaram estagnação de\nutilização nos últimos anos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Para todos os governos do mundo, independentemente do\nregime, a democratização da internet é uma ação\nestratégica.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O controle de dados e informações é descentralizado, o que\nconfere equanimidade aos países membros da ONU.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A internet está em constante e rápida mudança, com novas\nferramentas aparecendo com contribuições relevantes,\nenquanto outras vão perdendo espaço.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Empresas do ramo de serviços têm apresentado\ncrescimento acentuado, o que não é observado em relação\na empresas do ramo de entretenimento.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_53",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As casinhas eram alugadas por mês e as tinas por dia; e tudo\npago adiantado. O preço de cada tina, metendo a água,\nquinhentos réis; sabão à parte. As moradoras do cortiço tinham\npreferência e não pagavam nada para lavar.\n(...) E, mal vagava uma das casinhas, ou um quarto, um canto\nonde coubesse um colchão, surgia uma nuvem de pretendentes\na disputá-los.\nE aquilo se foi constituindo numa grande lavanderia, agitada e\nbarulhenta, com as suas cercas de varas, as suas hortaliças\nverdejantes e os seus jardinzinhos de três e quatro palmos, que\napareciam como manchas alegres por entre a negrura das\nlimosas tinas transbordantes e o revérbero das claras barracas\nde algodão cru, armadas sobre os lustrosos bancos de lavar.\n\nAluísio Azevedo, O cortiço\n\nNas cidades brasileiras, particularmente no último quartel do\nséculo XIX, novas formas urbanas são constituídas, como os\ncortiços e as favelas. Sobre esse fenômeno, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A expansão periférica no século XIX, na zona sul da cidade\ndo Rio de Janeiro, teve significativa presença de cortiços,\ndevido à chegada massiva de imigrantes japoneses.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A primeira favela carioca teve sua origem no forte\nempobrecimento da população no contexto da crise\ncafeeira na região serrana do Rio de Janeiro.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A maior concentração dos cortiços da cidade de São Paulo,\npresentes no último quartel do século XIX, localizava-se na\nporção mais central da aglomeração urbana.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "As primeiras favelas brasileiras se originaram devido à\nexpansão da atividade industrial, no centro da cidade de\nSão Paulo, no início do último quartel do século XIX.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Nas cidades do Vale do Paraíba, durante a expansão\ncafeeira, os cortiços eram muito frequentes, por conta da\npresença de imigrantes italianos empobrecidos",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_54",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O conceito de erosão apresenta definições mais amplas ou mais\nrestritas. A mais abrangente envolve os processos de\ndenudação da superfície terrestre de forma geral, incluindo\ndesde os processos de intemperismo de todos os tipos até os de\ntransporte e deposição de material. Outro conceito, mais\nrestrito, envolve apenas o deslocamento do material\nintemperizado, seja solo ou rocha, por agentes de transporte\ncomo a água corrente, o vento, o gelo ou a gravidade,\nproduzindo formas erosivas características.\n\nR. Fairbridge. The Encyclopedia of Geomorphology, 1968. Adaptado\n\nExemplo de processo ao qual se aplica o conceito mais restrito\nde erosão é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a formação de rochas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a oxidação de rochas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a formação de sulcos no solo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a formação de concreções no solo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o vulcanismo da crosta.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_55",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As primeiras práticas de agricultura datam de,\naproximadamente, 10.000 anos. Neste período, ocorreram\ninúmeras transformações na sua base técnica, mas é, no\ndecorrer da segunda metade do século XX, que a revolução\nagrícola contemporânea, fundada na elevada motorização-\nmecanização, na seleção de variedades de plantas e de raças de\nanimais e na ampla utilização de corretores de pH dos solos, de\nfertilizantes, de ração animal e de insumos químicos para as\nplantas e para os animais domésticos, progrediu vigorosamente\nnos países desenvolvidos e em alguns setores limitados dos\npaíses subdesenvolvidos.\n\nMarcel Mazoyer & Laurence Roudart. História das agriculturas\nno mundo: do neolítico à crise contemporânea,\nSão Paulo: Unesp; Brasília: NEAD, 2010. Adaptado\n\nAs transformações ocorridas na agricultura após meados do\nséculo XX foram reconhecidas como revolução verde, sobre a\nqual se pode afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Sua concepção foi desenvolvida no Japão e nos Tigres\nAsiáticos após a II Guerra Mundial.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Contribuiu para a ampliação da diversificação das espécies\ne do controle das sementes pelos pequenos agricultores.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Seus parâmetros produtivos estavam fundados, desde sua\norigem, em preservar e proteger a biodiversidade nas áreas\nde cultivo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Com sua expansão, na África e no sudeste Asiático, as\npopulações rurais puderam alcançar padrões de consumo\nsemelhantes aos das grandes metrópoles.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Foi baseada na inovação científica e está atrelada à grande\nprodução de grãos em extensas áreas de monocultura.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_56",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Observe os mapas referentes à delimitação da bacia\nhidrográfica do rio Xingu, com o detalhamento da parte sul,\nonde fica o Parque Indígena do Xingu (PIX).\n\n\n\nCom relação às áreas delimitadas nos mapas, está correto o que\nse afirma em:",
+      "files": [
+        "/data/fuvest/assets/2018/56/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Devido ao avanço do desmatamento nessa bacia\nhidrográfica nas últimas quatro décadas, processo iniciado\npela atividade pecuária ao longo dos rios e seguido pelo\navanço da monocultura de eucalipto, inviabilizam-se\nquaisquer ações de recuperação e de conservação do bioma\nAmazônico.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O Parque Indígena do Xingu, criado principalmente para\nproteger diversas etnias indígenas, atua hoje como inibidor\ndo avanço do desmatamento, função esperada para as\ndiversas unidades de conservação previstas pelo Sistema\nNacional de Unidades de Conservação.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Dentre as grandes bacias hidrográficas amazônicas, a bacia\nhidrográfica do rio Xingu, na disposição leste-oeste, é uma\ndas bacias da margem esquerda do rio Amazonas com\nimportante conectividade entre dois biomas brasileiros: a\nCaatinga e o bioma Amazônico, ambos biológica e\ngeologicamente diversos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O desmatamento, observado no mapa, é resultado da\nmonocultura de babaçu, praticada pelos indígenas que\nextraem seu óleo e vendem-no para indústrias de\ncosméticos.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "O avanço do desmatamento nessa área deve-se às\nmonoculturas de cana-de-açúcar e laranja, ambas\ncultivadas com variedades transgênicas adaptadas ao\nbioma Amazônico",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_57",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Estuários são ambientes aquáticos em que há a transição entre rio (água doce, com salinidade menor que 0,5 g de NaCl por kg de\nágua) e mar (água salgada, com salinidade maior que 30 g de NaCl por kg de água). Existem diferentes tipos de estuários, dos quais\ntrês deles são:\n\n1. Estuário bem misturado: ocorre quando há grandes variações de maré e fortes correntes, causando rápida mistura entre as\náguas.\n2. Estuário parcialmente misturado: ocorre quando o mar tem variações moderadas de maré e há mistura entre as águas, porém\ncom diferenças entre a região superficial e a profunda.\n3. Estuário do tipo cunha salina: ocorre quando o rio desemboca no mar, em que este tem pouca variação de maré, gerando\ngrande estratificação.\n\nMedidas de salinidade da água em função da profundidade foram realizadas em um ponto equivalente para esses três tipos de\nestuários, conforme mostrado no esquema a seguir, gerando os gráficos I, II e III.\n\n\n\n\n\n\n\nA alternativa que relaciona corretamente o gráfico com a respectiva descrição do tipo de estuário é:\n1 | 2 | 3",
+      "files": [
+        "/data/fuvest/assets/2018/57/0.jpg",
+        "/data/fuvest/assets/2018/57/1.jpg",
+        "/data/fuvest/assets/2018/57/2.jpg",
+        "/data/fuvest/assets/2018/57/3.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I | II | III",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II | I | III",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "II | I | III",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "III | I | II",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "III | II | I",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_58",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os Impérios helenísticos, amálgamas ecléticas de formas\ngregas e orientais, alargaram o espaço da civilização urbana da\nAntiguidade clássica, diluindo-lhe a substância [...].\nDe 200 a.C. em diante, o poder imperial romano avançou para\nleste [...] e nos meados do século II as suas legiões haviam\nesmagado todas as barreiras sérias de resistência do Oriente.\n\nP. Anderson. Passagens da Antiguidade ao feudalismo.\nPorto: Afrontamento, 1982\n\nNa região das formações sociais gregas,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a autonomia das cidades-estado manteve-se intocável,\napesar da centralização política implementada pelos\nimperadores helenísticos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "essas formações e os impérios helenísticos constituíram-se\ncom o avanço das conquistas espartanas no período\nposterior às guerras no Peloponeso, ao final do século V a.C.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a conquista romana caracterizou-se por uma forte ofensiva\nfrente à cultura helenística, impondo a língua latina e\ncerceando as escolas filosóficas gregas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o Oriente tornou-se área preponderante do Império\nRomano a partir do século III d.C., com a crise do\nescravismo, que afetou mais fortemente sua parte\nocidental.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "os espaços foram conquistados pelas tropas romanas, na\nGrécia e na Ásia Menor, em seu período de apogeu, devido\nàs lutas intestinas e às rivalidades entre cidades-estado.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_59",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um grande manto de florestas e várzeas cortado por clareiras\ncultivadas, mais ou menos férteis, tal é o aspecto da\nCristandade - algo diferente do Oriente muçulmano, mundo de\noásis em meio a desertos. Num local a madeira é rara e as\nárvores indicam a civilização, noutro a madeira é abundante e\nsinaliza a barbárie. A religião, que no Oriente nasceu ao abrigo\ndas palmeiras, cresceu no Ocidente em detrimento das árvores,\nrefúgio dos gênios pagãos que monges, santos e missionários\nabatem impiedosamente\n\nJ. Le Goff. A civilização do ocidente medieval.\nBauru: Edusc, 2005. Adaptado.\n\nAcerca das características da Cristandade e do Islã no período\nmedieval, pode-se afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o cristianismo se desenvolveu a partir do mundo rural,\nenquanto a religião muçulmana teve como base inicial as\ncidades e os povoados da península arábica.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a concentração humana assemelhava-se nas clareiras e nos\noásis, que se constituíam como células econômicas, sociais\ne culturais, tanto da Cristandade quanto do Islã.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a Cristandade é considerada o negativo do Islã, pela ausência\nde cidades, circuitos mercantis e transações monetárias, que\nabundavam nas formações sociais islâmicas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o clero cristão, defensor do monoteísmo estrito, combateu\nas práticas pagãs muçulmanas, arraigadas nas florestas e\nnas regiões desérticas da Cristandade ocidental.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a expansão econômica islâmica caracterizou-se pela\nampliação das fronteiras de cultivo, em detrimento das\nflorestas, em um movimento inverso àquele verificado no\nOcidente medieval.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_60",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A imagem representa a morte de Atahualpa, o último\nimperador inca, em 1533, após a conquista espanhola\ncomandada por Francisco Pizarro.\n\n\n\nAnalise as quatro afirmações seguintes, a respeito da empresa\ne da conquista colonial espanhola no Peru e da representação\npresente na imagem.\n\nI. A conquista foi favorecida pelo conflito interno entre os dois\nirmãos incas, Atahualpa e Huáscar, aproveitado pelas forças\nespanholas lideradas por Francisco Pizarro.\nII. A produção agrícola das plantations escravistas constituiu\nse na base econômica do vice-reinado do Peru, controlado\npelos espanhóis.\nIII. Do lado esquerdo da pintura, há uma movimentação\nconflituosa, na qual as mulheres incas são contidas por\nguardas espanhóis, contrastando com a expressão\nordenada e solene do lado direito, composto por religiosos\ne autoridades espanholas em torno do corpo do imperador\ninca.\nIV. A pintura revela o resgate de elementos históricos \nimportante para a construção do ideário nacionalista no\nséculo XIX, no processo pós-independência e de formação\ndo Estado nacional peruano -, mas retrata os personagens\nindígenas com trajes e feições europeus.\n\nEstão corretas apenas as afirmaçõe",
+      "files": [
+        "/data/fuvest/assets/2018/60/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I, II e III.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II, III e IV.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "I, III e IV.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I e II.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "III e IV.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_61",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A respeito dos espaços econômicos do açúcar e do ouro no\nBrasil colonial, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A pecuária no sertão nordestino surgiu em resposta às\ndemandas de transporte da economia mineradora.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A produção açucareira estimulou a formação de uma rede\nurbana mais ampla do que a atividade aurífera.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O custo relativo do frete dos metais preciosos viabilizou a\ninteriorização da colonização portuguesa.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A mão de obra escrava indígena foi mais empregada na\nexploração do ouro do que na produção de açúcar.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Ambas as atividades produziram efeitos similares sobre a\nformação de um mercado interno colonial.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_62",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Na edição de julho de 1818 do Correio Braziliense, o jornalista\nHipólito José da Costa, residente em Londres, publicou a\nseguinte avaliação sobre os dilemas então enfrentados pelo\nImpério português na América:\n\nA presença de S.M. [Sua Majestade Imperial] no Brasil lhe dará\nocasião para ter mais ou menos influência naqueles\nacontecimentos; a independência em que el-rei ali se acha das\nintrigas europeias o deixa em liberdade para decidir-se nas\nocorrências, segundo melhor convier a seus interesses. Se volta\npara Lisboa, antes daquela crise se decidir, não poderá tomar\nparte nos arranjamentos que a nova ordem de coisas deve\nocasionar na América.\n\nNesse excerto, o autor referia-se",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "aos desdobramentos da Revolução Pernambucana do ano\nanterior, que ameaçara o domínio português sobre o\ncentro-sul do Brasil.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "às demandas da Revolução Constitucionalista do Porto,\nexigindo a volta imediata do monarca a Portugal.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "à posição de independência de D. João VI em relação às\npressões da Santa Aliança para que interviesse nas guerras\ndo rio da Prata.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "às implicações que os movimentos de independência na\nAmérica espanhola traziam para a dominação portuguesa\nno Brasil.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "ao projeto de D. João VI para que seu filho D. Pedro se\ntornasse imperador do Brasil independente.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_63",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No que se refere à crise do colonialismo português na África na\nsegunda metade do século XX,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a Era das Revoluções, ao implicar a abolição do tráfico\ntransatlântico de escravos para as Américas, erodiu as bases\ndo domínio de Portugal sobre Angola e Moçambique.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Portugal, com um poder de segunda ordem no concerto\neuropeu, se viu alijado das deliberações da Conferência de\nBerlim, perdendo assim o domínio sobre suas colônias.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "as independências de Angola e de Moçambique foram\nmarcadas por um processo relativamente pacífico, que\nenvolveu ampla negociação com os poderes metropolitanos\nem Portugal.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o processo de independência das colônias portuguesas, ao\ncontrário do que ocorreu nas colônias inglesas e francesas,\nnão se relacionou às polarizações geopolíticas da Guerra\nFria.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o movimento de independência colonial foi decisivo para o\nprocesso de transformação política em Portugal, ao acelerar\na crise do regime autoritário nascido no período entre\nguerras.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_64",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "[...] a Declaração Universal representa um fato novo na história,\nna medida em que, pela primeira vez, um sistema de princípios\nfundamentais da conduta humana foi livre e expressamente\naceito, através de seus respectivos governos, pela maioria dos\nhomens que vive na Terra. Com essa declaração, um sistema de\nvalores é – pela primeira vez na história – universal, não em\nprincípio, mas de fato, na medida em que o consenso sobre sua\nvalidade e sua capacidade de reger os destinos da comunidade\nfutura de todos os homens foi explicitamente declarado. [...]\nSomente depois da Declaração Universal é que podemos ter a\ncerteza histórica de que a humanidade – toda a humanidade –\npartilha alguns valores comuns; e podemos, finalmente, crer na\nuniversalidade dos valores, no único sentido em que tal crença\né historicamente legítima, ou seja, no sentido em que universal\nsignifica não algo dado objetivamente, mas algo\nsubjetivamente acolhido pelo universo dos homens.\n\nN. Bobbio. A era dos direitos. Rio de Janeiro: Campus, 1992\n\nA Declaração Universal mencionada no texto",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "foi instituída no processo da Revolução Francesa e norteou\nos movimentos feministas, sufragistas e operários no\ndecorrer do século XIX.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "assemelhou-se ao universalismo cristão, que também\nresultou no estabelecimento de um conjunto de valores\npartilhado pela humanidade.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "desenvolveu-se com a inclusão de princípios universais\npelos legisladores norte-americanos e influenciou o\nabolicionismo nos Estados Unidos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "foi aprovada pela Organização das Nações Unidas e serviu\ncomo referência para grupos que lutaram pelos direitos de\nnegros, mulheres e homossexuais na década de 1960.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "originou-se do jusnaturalismo moderno e consolidou-se\ncom o movimento ilustrado e o despotismo esclarecido ao\nlongo do século XVIII",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_65",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Aqui no Chile estava se construindo, entre imensas dificuldades,\numa sociedade verdadeiramente justa, erguida sobre a base de\nnossa soberania, de nosso orgulho nacional, do heroísmo dos\nmelhores habitantes do Chile. Do nosso lado, do lado da\nrevolução chilena, estavam a constituição e a lei, a democracia\ne a esperança.\n\nPablo Neruda. Confesso que vivi. Memórias. Rio de Janeiro: Difel, 1980.\n\nNesse texto,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"soberania\" está relacionada às campanhas de privatização\ndas minas de estanho e salitre, que até então eram\nmantidas por capitais anglo-americanos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"heroísmo\" refere-se aos embates armados, travados com\nsetores da democracia cristã e com as comunidades\nindígenas dos araucanos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"a constituição e a lei\" é uma referência ao novo\nordenamento jurídico implantado após o golpe promovido\npela Unidade Popular.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"democracia\" alude a um traço peculiar da via chilena para\no socialismo, pois o presidente Salvador Allende chegou ao\npoder pelo voto.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"esperança\" traduz a expectativa resultante do apoio\neconômico e estratégico que havia sido obtido junto aos\nEstados Unidos e França.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_66",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O futurismo de Marinetti e o fascismo de Benito Mussolini têm\nem comum",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a constatação da falência cultural da Itália, que se agarrou\nao passado romano e ignorou os grandes avanços da\nPrimeira Revolução Industrial.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o desejo de proporcionar aos cidadãos italianos o acesso\naos bens de consumo e a implantação do Estado de bem-\nestar social.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o esforço de modernização cultural e a tentativa de demolir\nas edificações que restaram do passado romano.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a valorização e a adoção das bases e dos princípios das\nteorias revolucionárias anarquistas e socialistas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a glorificação da ideologia da guerra e da velocidade\nproporcionada pelos avanços técnicos e militares.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_67",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A operação era um pouco dolorosa e não durava mais que um\nminuto, mas era traumática. Seu significado simbólico estava\nclaro para todos: este é um sinal indelével, daqui não sairão\nmais; esta é a marca que se imprime nos escravos e nos animais\ndestinados ao matadouro, e vocês se tornaram isso. Vocês não\ntêm mais nome: este é o seu nome. A violência da tatuagem era\ngratuita, um fim em si mesmo, pura ofensa: não bastavam os\ntrês números de pano costurados nas calças, no casaco e no\nagasalho de inverno?\n\nPrimo Levi. Os afogados e os sobreviventes. Rio de Janeiro: Paz e Terra, 1990.\n\nEstá de acordo com o texto a seguinte afirmação:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A tatuagem era uma forma de tortura e uma mensagem\nnão verbal, que inscrevia a condenação no corpo do\nprisioneiro.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O uso de tatuagens era perturbador apenas para ciganos e\njudeus ortodoxos, pois violava o código moral e as leis\nreligiosas dessas comunidades.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O recurso de tatuar o prisioneiro, além de impor um\nsofrimento físico e moral, discriminava o tipo de\nremuneração.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O emprego das tatuagens funcionava como um código\nestético e de classificação dos prisioneiros nos campos de\nconcentração.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A tatuagem, assim como o trabalho voluntário, não tinham\nfinalidade produtiva, mas contribuíam para o entendimento\nentre os prisioneiro.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_68",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Tanto no desenvolvimento político como no científico, o\nsentimento de funcionamento defeituoso, que pode levar à\ncrise, é um pré-requisito para a revolução.\n\nT. S. Kuhn. A estrutura das revoluções científicas. São Paulo: Perspectiva, 1989.\n\nAnalise as quatro afirmações seguintes, acerca das revoluções\npolíticas e científicas da Época Moderna.\n\nI. A concepção heliocêntrica de Nicolau Copérnico,\nsustentada na obra Das revoluções das esferas celestes, de\n1543, reforçava a doutrina católica contra os postulados\nprotestantes.\nII. A Lei da Gravitação Universal, proposta por Isaac Newton\nno século XVII, reforçava as radicais perspectivas ateístas\nque haviam pautado as ações dos gruposrevolucionários na\nInglaterra à época da Revolução Puritana.\nIII. Às experiências com eletricidade realizadas por Benjamin\nFranklin no século XVIII, somou-se sua atuação no processo\nde emancipação política dos Estados Unidos da América.\nIV. Os estudos sobre o oxigênio e sobre a conservação da\nmatéria, feitos por Antoine Lavoisier ao final do século XVIII,\nestavam em consonância com a racionalização do\nconhecimento, característica da Ilustração.\n\nEstão corretas apenas as afirmações",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I, II e III.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II, III e IV.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "I, III e IV.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I e II.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "III e IV.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_69",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Examine o cartum.\n\n\n\nO efeito de humor presente no cartum decorre,\nprincipalmente, da",
+      "files": [
+        "/data/fuvest/assets/2018/69/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "semelhança entre a língua de origem e a local.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "falha de comunicação causada pelo uso do aparelho\neletrônico.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "falta de habilidade da personagem em operar o localizador\ngeográfico.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "discrepância entre situar-se geograficamente e dominar o\nidioma local.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "incerteza sobre o nome do ponto turístico onde as\npersonagens se encontram.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_70",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES 70 E 71\nUma obra de arte é um desafio; não a explicamos,\najustamo-nos a ela. Ao interpretá-la, fazemos uso dos nossos\npróprios objetivos e esforços, dotamo-la de um significado que\ntem sua origem nos nossos próprios modos de viver e de pensar.\nNuma palavra, qualquer gênero de arte que, de fato, nos afete,\ntorna-se, deste modo, arte moderna.\nAs obras de arte, porém, são como altitudes inacessíveis.\nNão nos dirigimos a elas diretamente, mas contornamo-las.\nCada geração as vê sob um ângulo diferente e sob uma nova\nvisão; nem se deve supor que um ponto de vista mais recente é\nmais eficiente do que um anterior. Cada aspecto surge na sua\naltura própria, que não pode ser antecipada nem prolongada;\ne, todavia, o seu significado não está perdido porque o\nsignificado que uma obra assume para uma geração posterior\né o resultado de uma série completa de interpretações anteriores.\n\nArnold Hauser, Teorias da arte. Adaptado\n\nDe acordo com o texto, a compreensão do significado de uma\nobra de arte pressupõe",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o reconhecimento de seu significado intrínseco.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a exclusividade do ponto de vista mais recente.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a consideração de seu caráter imutável.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o acúmulo de interpretações anteriores.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a explicação definitiva de seu sentido.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_71",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES 70 E 71\nUma obra de arte é um desafio; não a explicamos,\najustamo-nos a ela. Ao interpretá-la, fazemos uso dos nossos\npróprios objetivos e esforços, dotamo-la de um significado que\ntem sua origem nos nossos próprios modos de viver e de pensar.\nNuma palavra, qualquer gênero de arte que, de fato, nos afete,\ntorna-se, deste modo, arte moderna.\nAs obras de arte, porém, são como altitudes inacessíveis.\nNão nos dirigimos a elas diretamente, mas contornamo-las.\nCada geração as vê sob um ângulo diferente e sob uma nova\nvisão; nem se deve supor que um ponto de vista mais recente é\nmais eficiente do que um anterior. Cada aspecto surge na sua\naltura própria, que não pode ser antecipada nem prolongada;\ne, todavia, o seu significado não está perdido porque o\nsignificado que uma obra assume para uma geração posterior\né o resultado de uma série completa de interpretações anteriores.\n\nArnold Hauser, Teorias da arte. Adaptado\n\nNo trecho \"Numa palavra, qualquer gênero de arte que, de\nfato, nos afete, torna-se, deste modo, arte moderna\" (L. 5-6),\nas expressões sublinhadas podem ser substituídas, sem\nprejuízo do sentido do texto, respectivamente, por",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "realmente; portanto.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "invariavelmente; ainda.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "com efeito; todavia.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "com segurança; também.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "possivelmente; até.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_72",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTOS PARA AS QUESTÕES 72 E 73\nEste último capítulo é todo de negativas. Não alcancei a\ncelebridade do emplasto, não fui ministro, não fui califa, não\nconheci o casamento. Verdade é que, ao lado dessas faltas,\ncoube-me a boa fortuna de não comprar o pão com o suor do\nmeu rosto. Mais; não padeci a morte de dona Plácida, nem a\nsemidemência do Quincas Borba. Somadas umas coisas e\noutras, qualquer pessoa imaginará que não houve míngua nem\nsobra, e, conseguintemente, que saí quite com a vida. E\nimaginará mal; porque ao chegar a este outro lado do mistério,\nachei-me com um pequeno saldo, que é a derradeira negativa\ndeste capítulo de negativas: - Não tive filhos, não transmiti a\nnenhuma criatura o legado da nossa miséria.\n\nMachado de Assis, Memórias póstumas de Brás Cubas.\n\nNão sei por que até hoje todo o mundo diz que tinha\npena dos escravos. Eu não penso assim. Acho que se fosse\nobrigada a trabalhar o dia inteiro não seria infeliz. Ser obrigada\na ficar à toa é que seria castigo para mim. Mamãe às vezes diz\nque ela até deseja que eu fique preguiçosa; a minha esperteza\né que a amofina. Eu então respondo: \"Se eu fosse preguiçosa\nnão sei o que seria da senhora, meu pai e meus irmãos, sem\numa empregada em casa\".\n\nHelena Morley, Minha vida de menina.\n\nSão características dos narradores Brás Cubas e Helena,\nrespectivamente,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "malícia e ingenuidade.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "solidariedade e egoísmo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "apatia e determinação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "rebeldia e conformismo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "otimismo e pessimismo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_73",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTOS PARA AS QUESTÕES 72 E 73\nEste último capítulo é todo de negativas. Não alcancei a\ncelebridade do emplasto, não fui ministro, não fui califa, não\nconheci o casamento. Verdade é que, ao lado dessas faltas,\ncoube-me a boa fortuna de não comprar o pão com o suor do\nmeu rosto. Mais; não padeci a morte de dona Plácida, nem a\nsemidemência do Quincas Borba. Somadas umas coisas e\noutras, qualquer pessoa imaginará que não houve míngua nem\nsobra, e, conseguintemente, que saí quite com a vida. E\nimaginará mal; porque ao chegar a este outro lado do mistério,\nachei-me com um pequeno saldo, que é a derradeira negativa\ndeste capítulo de negativas: - Não tive filhos, não transmiti a\nnenhuma criatura o legado da nossa miséria.\n\nMachado de Assis, Memórias póstumas de Brás Cubas.\n\nNão sei por que até hoje todo o mundo diz que tinha\npena dos escravos. Eu não penso assim. Acho que se fosse\nobrigada a trabalhar o dia inteiro não seria infeliz. Ser obrigada\na ficar à toa é que seria castigo para mim. Mamãe às vezes diz\nque ela até deseja que eu fique preguiçosa; a minha esperteza\né que a amofina. Eu então respondo: \"Se eu fosse preguiçosa\nnão sei o que seria da senhora, meu pai e meus irmãos, sem\numa empregada em casa\".\n\nHelena Morley, Minha vida de menina.\n\nNos dois textos, obtém-se ênfase por meio do emprego de um\nmesmo recurso expressivo, como se pode verificar nos\nseguintes trechos:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"Este último capítulo é todo de negativas\" / \"Eu não penso\nassim\".",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"Não alcancei a celebridade do emplasto, não fui ministro,\nnão fui califa, não conheci o casamento\" / \"Não sei por que\naté hoje todo o mundo diz que tinha pena dos escravos\".",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"Verdade é que, ao lado dessas faltas, coube-me a boa\nfortuna de não comprar o pão com o suor do meu rosto\" /\n\"Ser obrigada a ficar à toa é que seria castigo para mim\".",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"qualquer pessoa imaginará que não houve míngua nem\nsobra\" / \"Mamãe às vezes diz que ela até deseja que eu\nfique preguiçosa\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"Não tive filhos, não transmiti a nenhuma criatura o legado\nda nossa miséria\" / \"Acho que se fosse obrigada a trabalhar\no dia inteiro não seria infeliz\".",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_74",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES 74 E 75\nVoltada para o encanto da vida livre do pequeno núcleo\naberto para o campo, a jovem Helena, familiar a todas as\nclasses sociais daquele âmbito, estava colocada num invejável\nponto de observação. (...)\nSem querer forçar um conflito que, a bem dizer, apenas\nse esboça, podemos atribuir parte desta grande versatilidade\npsicológica da protagonista aos ecos de uma formação\nbritânica, protestante, liberal, ressoando num ambiente de\ncorte ibérico e católico, mal saído do regime de trabalho\nescravo. Colorindo a apaixonada esfera de independência da\njuventude, reveste-se de acentuado sabor sociológico este caso\nda menina ruiva que, embora inteiramente identificada com o\nmeio de gente morena que é o seu, o único que conhece e ama,\nnão vacila em o criticar com precisão e finura notáveis, se essa\nlucidez não traduzisse a coexistência íntima de dois mundos\nculturais divergentes, que se contemplam e se julgam no\ninterior de um eu tornado harmonioso pelo equilíbrio mesmo de\nsuas contradições.\n\nAlexandre Eulálio, \"Livro que nasceu clássico\".\nIn: Helena Morley, Minha vida de menina.\n\nO trecho do romance Minha vida de menina que ilustra de\nmodo mais preciso o que, para o crítico Alexandre Eulálio,\nrepresenta \"a coexistência íntima de dois mundos culturais\ndivergentes\" é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"Se há uma coisa que me faz muita tristeza é gostar muito\nde uma pessoa, pensando que ela é boa e depois ver que é\nruim\".",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"Eu tinha muita inveja de ver meus irmãos montarem no\ncavalo em pelo, mas agora estou curada e não montarei\nnunca mais na minha vida\".",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"Já refleti muito desde ontem e vi que o único meio de ter\nvestido é vendendo o broche. Vou dormir ainda esta noite\ncom isto na cabeça e vou conversar com Nossa Senhora\ntudo direitinho\".",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"Se eu não ouvir missa no domingo, como quando estou na\nBoa Vista onde não há igreja e não posso ouvir no Bom\nSucesso, fico o dia todo com um prego na consciência me\naferroando\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"Este ano saiu à rua a procissão de Cinzas que há muitos\nanos não havia. Dizem que não saía há muito tempo por\nfalta de santos, porque muitos já estavam quebrados\".",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_75",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES 74 E 75\nVoltada para o encanto da vida livre do pequeno núcleo\naberto para o campo, a jovem Helena, familiar a todas as\nclasses sociais daquele âmbito, estava colocada num invejável\nponto de observação. (...)\nSem querer forçar um conflito que, a bem dizer, apenas\nse esboça, podemos atribuir parte desta grande versatilidade\npsicológica da protagonista aos ecos de uma formação\nbritânica, protestante, liberal, ressoando num ambiente de\ncorte ibérico e católico, mal saído do regime de trabalho\nescravo. Colorindo a apaixonada esfera de independência da\njuventude, reveste-se de acentuado sabor sociológico este caso\nda menina ruiva que, embora inteiramente identificada com o\nmeio de gente morena que é o seu, o único que conhece e ama,\nnão vacila em o criticar com precisão e finura notáveis, se essa\nlucidez não traduzisse a coexistência íntima de dois mundos\nculturais divergentes, que se contemplam e se julgam no\ninterior de um eu tornado harmonioso pelo equilíbrio mesmo de\nsuas contradições.\n\nAlexandre Eulálio, \"Livro que nasceu clássico\".\nIn: Helena Morley, Minha vida de menina.\n\nDe acordo com Alexandre Eulálio, a protagonista do romance\nMinha vida de menina",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "vivencia um conflito – uma ideia fortalecida por \"a bem\ndizer\" (L. 5).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "apresenta certo vínculo com o protestantismo – uma ideia\nsintetizada por \"ecos de uma formação britânica\" (L. 7-8).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "formou-se num meio alheio ao trabalho escravo – um fato\nreferido por \"num ambiente de corte ibérico e católico\"\n(L. 8-9).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "rejeita as influências do meio em que vive – uma\ncaracterística revelada por \"precisão e finura notáveis\"\n(L. 14).",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "tem a sua lucidez psicológica abalada pelas ambivalências\nde sua educação – um traço reiterado por \"equilíbrio\nmesmo de suas contradições\" (L. 17-18)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_76",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES 76 E 77\nO rumor crescia, condensando-se; o zunzum de todos os\ndias acentuava-se; já se não destacavam vozes dispersas, mas\num só ruído compacto que enchia todo o cortiço. Começavam a\nfazer compras na venda; ensarilhavam-se* discussões e\nrezingas**; ouviam-se gargalhadas e pragas; já se não falava,\ngritava-se. Sentia-se naquela fermentação sanguínea, naquela\ngula viçosa de plantas rasteiras que mergulham os pés\nvigorosos na lama preta e nutriente da vida, o prazer animal de\nexistir, a triunfante satisfação de respirar sobre a terra.\nDa porta da venda que dava para o cortiço iam e vinham\ncomo formigas; fazendo compras.\nDuas janelas do Miranda abriram-se. Apareceu numa a\nIsaura, que se dispunha a começar a limpeza da casa. -Nhá Dunga! gritou ela para baixo, a sacudir um pano\nde mesa; se você tem cuscuz de milho hoje, bata na porta,\nouviu?\n\nAluísio Azevedo, O cortiço.\n* ensarilhar-se: emaranhar-se.\n** rezinga: resmungo\n\nUma característica do Naturalismo presente no texto é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "forte apelo aos sentidos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "idealização do espaço.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "exaltação da natureza.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "realce de aspectos raciais.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "ênfase nas individualidades",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_77",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES 76 E 77\nO rumor crescia, condensando-se; o zunzum de todos os\ndias acentuava-se; já se não destacavam vozes dispersas, mas\num só ruído compacto que enchia todo o cortiço. Começavam a\nfazer compras na venda; ensarilhavam-se* discussões e\nrezingas**; ouviam-se gargalhadas e pragas; já se não falava,\ngritava-se. Sentia-se naquela fermentação sanguínea, naquela\ngula viçosa de plantas rasteiras que mergulham os pés\nvigorosos na lama preta e nutriente da vida, o prazer animal de\nexistir, a triunfante satisfação de respirar sobre a terra.\nDa porta da venda que dava para o cortiço iam e vinham\ncomo formigas; fazendo compras.\nDuas janelas do Miranda abriram-se. Apareceu numa a\nIsaura, que se dispunha a começar a limpeza da casa. -Nhá Dunga! gritou ela para baixo, a sacudir um pano\nde mesa; se você tem cuscuz de milho hoje, bata na porta,\nouviu?\n\nAluísio Azevedo, O cortiço.\n* ensarilhar-se: emaranhar-se.\n** rezinga: resmungo\n\nConstitui marca do registro informal da língua o trecho",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"mas um só ruído compacto\" (L. 2-3).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"ouviam-se gargalhadas\" (L. 5).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"o prazer animal de existir\" (L. 8-9).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"gritou ela para baixo\" (L. 14).",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"bata na porta\" (L. 15).",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_78",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTOS PARA AS QUESTÕES 78 E 79\n(...) procurei adivinhar o que se passa na alma duma\ncachorra. Será que há mesmo alma em cachorro? Não me\nimporto. O meu bicho morre desejando acordar num mundo\ncheio de preás. Exatamente o que todos nós desejamos. A\ndiferença é que eu quero que eles apareçam antes do sono, e\npadre Zé Leite pretende que eles nos venham em sonhos, mas\nno fundo todos somos como a minha cachorra Baleia e\nesperamos preás. (...)\n\nCarta de Graciliano Ramos a sua esposa.\n\n(...) Uma angústia apertou-lhe o pequeno coração.\nPrecisava vigiar as cabras: àquela hora cheiros de suçuarana\ndeviam andar pelas ribanceiras, rondar as moitas afastadas.\nFelizmente os meninos dormiam na esteira, por baixo do caritó\nonde sinha Vitória guardava o cachimbo.\n(...)\nBaleia queria dormir. Acordaria feliz, num mundo cheio\nde preás. E lamberia as mãos de Fabiano, um Fabiano enorme.\nAs crianças se espojariam com ela, rolariam com ela num pátio\nenorme, num chiqueiro enorme. O mundo ficaria todo cheio de\npreás, gordos, enormes.\n\nGraciliano Ramos, Vidas secas\n\nAs declarações de Graciliano Ramos na Carta e o excerto do\nromance permitem afirmar que a personagem Baleia, em Vidas\nsecas, representa",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o conformismo dos sertanejos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "os anseios comunitários de justiça social.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "os desejos incompatíveis com os de Fabiano.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a crença em uma vida sobrenatural.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o desdém por um mundo melhor.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_79",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTOS PARA AS QUESTÕES 78 E 79\n(...) procurei adivinhar o que se passa na alma duma\ncachorra. Será que há mesmo alma em cachorro? Não me\nimporto. O meu bicho morre desejando acordar num mundo\ncheio de preás. Exatamente o que todos nós desejamos. A\ndiferença é que eu quero que eles apareçam antes do sono, e\npadre Zé Leite pretende que eles nos venham em sonhos, mas\nno fundo todos somos como a minha cachorra Baleia e\nesperamos preás. (...)\n\nCarta de Graciliano Ramos a sua esposa.\n\n(...) Uma angústia apertou-lhe o pequeno coração.\nPrecisava vigiar as cabras: àquela hora cheiros de suçuarana\ndeviam andar pelas ribanceiras, rondar as moitas afastadas.\nFelizmente os meninos dormiam na esteira, por baixo do caritó\nonde sinha Vitória guardava o cachimbo.\n(...)\nBaleia queria dormir. Acordaria feliz, num mundo cheio\nde preás. E lamberia as mãos de Fabiano, um Fabiano enorme.\nAs crianças se espojariam com ela, rolariam com ela num pátio\nenorme, num chiqueiro enorme. O mundo ficaria todo cheio de\npreás, gordos, enormes.\n\nGraciliano Ramos, Vidas secas\n\nA comparação entre os fragmentos, respectivamente, da Carta\ne de Vidas secas, permite afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"será que há mesmo\" e \"acordaria feliz\" sugerem dúvida.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"procurei adivinhar\" e \"precisava vigiar\" significam\nnecessidade.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"no fundo todos somos\" e \"andar pelas ribanceiras\"\nindicam lugar.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\" padre Zé Leite pretende\" e \"Baleia queria dormir\" indicam\nintencionalidade.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"todos nós desejamos\" e \"dormiam na esteira\" indicam\npossibilidade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_80",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES DE 80 A 82\nSarapalha\n– Ô calorão, Primo!... E que dor de cabeça excomungada!\n– É um instantinho e passa... É só ter paciência....\n– É... passa... passa... passa... Passam umas mulheres\nvestidas de cor de água, sem olhos na cara, para não terem de\nolhar a gente... Só ela é que não passa, Primo Argemiro!... E eu\njá estou cansado de procurar, no meio das outras... Não vem!...\nFoi, rio abaixo, com o outro... Foram p'r'os infernos!...\n– Não foi, Primo Ribeiro. Não foram pelo rio... Foi trem-de\nferro que levou...\n– Não foi no rio, eu sei... No rio ninguém não anda... Só a\nmaleita é quem sobe e desce, olhando seus mosquitinhos e\npondo neles a benção... Mas, na estória... Como é mesmo a\nestória, Primo? Como é?...\n– O senhor bem que sabe, Primo... Tem paciência, que não é\nbom variar...\n– Mas, a estória, Primo!... Como é?... Conta outra vez...\n– O senhor já sabe as palavras todas de cabeça... \"Foi o\nmoço-bonito que apareceu, vestido com roupa de dia-de\ndomingo e com a viola enfeitada de fitas... E chamou a moça\np'ra ir se fugir com ele\"...\n– Espera, Primo, elas estão passando... Vão umas atrás das\noutras... Cada qual mais bonita... Mas eu não quero,\nnenhuma!... Quero só ela... Luísa...\n– Prima Luísa...\n– Espera um pouco, deixa ver se eu vejo... Me ajuda, Primo!\nMe ajuda a ver...\n– Não é nada, Primo Ribeiro... Deixa disso!\n– Não é mesmo não...\n– Pois então?!\n– Conta o resto da estória!...\n– ...\"Então, a moça, que não sabia que o moço-bonito era o\ncapeta, ajuntou suas roupinhas melhores numa trouxa, e foi\ncom ele na canoa, descendo o rio...\"\n\nGuimarães Rosa, Sagarana\n\nA novela Sarapalha apresenta uma estória dentro de outra, por\nmeio da qual a personagem masculina da narrativa principal\n(Primo Argemiro) alude a uma mulher da narrativa secundária\n(a moça levada pelo capeta). O mesmo procedimento ocorre\nem",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Duelo, com Cassiano e Silivana.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Minha gente, com Ramiro e a filha de Emílio.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A volta do marido pródigo, com Lalino e Maria Rita.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O burrinho pedrês, com Raymundão e a namorada de Silvino.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A hora e vez de Augusto Matraga, com Ovídio e Dionóra.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_81",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES DE 80 A 82\nSarapalha\n– Ô calorão, Primo!... E que dor de cabeça excomungada!\n– É um instantinho e passa... É só ter paciência....\n– É... passa... passa... passa... Passam umas mulheres\nvestidas de cor de água, sem olhos na cara, para não terem de\nolhar a gente... Só ela é que não passa, Primo Argemiro!... E eu\njá estou cansado de procurar, no meio das outras... Não vem!...\nFoi, rio abaixo, com o outro... Foram p'r'os infernos!...\n– Não foi, Primo Ribeiro. Não foram pelo rio... Foi trem-de\nferro que levou...\n– Não foi no rio, eu sei... No rio ninguém não anda... Só a\nmaleita é quem sobe e desce, olhando seus mosquitinhos e\npondo neles a benção... Mas, na estória... Como é mesmo a\nestória, Primo? Como é?...\n– O senhor bem que sabe, Primo... Tem paciência, que não é\nbom variar...\n– Mas, a estória, Primo!... Como é?... Conta outra vez...\n– O senhor já sabe as palavras todas de cabeça... \"Foi o\nmoço-bonito que apareceu, vestido com roupa de dia-de\ndomingo e com a viola enfeitada de fitas... E chamou a moça\np'ra ir se fugir com ele\"...\n– Espera, Primo, elas estão passando... Vão umas atrás das\noutras... Cada qual mais bonita... Mas eu não quero,\nnenhuma!... Quero só ela... Luísa...\n– Prima Luísa...\n– Espera um pouco, deixa ver se eu vejo... Me ajuda, Primo!\nMe ajuda a ver...\n– Não é nada, Primo Ribeiro... Deixa disso!\n– Não é mesmo não...\n– Pois então?!\n– Conta o resto da estória!...\n– ...\"Então, a moça, que não sabia que o moço-bonito era o\ncapeta, ajuntou suas roupinhas melhores numa trouxa, e foi\ncom ele na canoa, descendo o rio...\"\n\nGuimarães Rosa, Sagarana\n\nNo texto de Sarapalha, constitui exemplo de personificação o\nseguinte trecho:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"No rio ninguém não anda\" (L. 10).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"só a maleita é quem sobe e desce\" (L. 10-11).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"O senhor já sabe as palavras todas de cabeça\" (L. 17).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"e com a viola enfeitada de fitas\" (L. 19).",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"ajuntou suas roupinhas melhores numa trouxa\" (L. 32)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_82",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES DE 80 A 82\nSarapalha\n– Ô calorão, Primo!... E que dor de cabeça excomungada!\n– É um instantinho e passa... É só ter paciência....\n– É... passa... passa... passa... Passam umas mulheres\nvestidas de cor de água, sem olhos na cara, para não terem de\nolhar a gente... Só ela é que não passa, Primo Argemiro!... E eu\njá estou cansado de procurar, no meio das outras... Não vem!...\nFoi, rio abaixo, com o outro... Foram p'r'os infernos!...\n– Não foi, Primo Ribeiro. Não foram pelo rio... Foi trem-de\nferro que levou...\n– Não foi no rio, eu sei... No rio ninguém não anda... Só a\nmaleita é quem sobe e desce, olhando seus mosquitinhos e\npondo neles a benção... Mas, na estória... Como é mesmo a\nestória, Primo? Como é?...\n– O senhor bem que sabe, Primo... Tem paciência, que não é\nbom variar...\n– Mas, a estória, Primo!... Como é?... Conta outra vez...\n– O senhor já sabe as palavras todas de cabeça... \"Foi o\nmoço-bonito que apareceu, vestido com roupa de dia-de\ndomingo e com a viola enfeitada de fitas... E chamou a moça\np'ra ir se fugir com ele\"...\n– Espera, Primo, elas estão passando... Vão umas atrás das\noutras... Cada qual mais bonita... Mas eu não quero,\nnenhuma!... Quero só ela... Luísa...\n– Prima Luísa...\n– Espera um pouco, deixa ver se eu vejo... Me ajuda, Primo!\nMe ajuda a ver...\n– Não é nada, Primo Ribeiro... Deixa disso!\n– Não é mesmo não...\n– Pois então?!\n– Conta o resto da estória!...\n– ...\"Então, a moça, que não sabia que o moço-bonito era o\ncapeta, ajuntou suas roupinhas melhores numa trouxa, e foi\ncom ele na canoa, descendo o rio...\"\n\nGuimarães Rosa, Sagarana\n\nTendo como base o trecho \"só a maleita é quem sobe e desce,\nolhando seus mosquitinhos e pondo neles a benção...\", o termo\nem destaque foi empregado ironicamente por aludir ao inseto",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "causador da malária.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "causador da febre amarela.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "transmissor da doença de Chagas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "transmissor da malária.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "transmissor da febre amarela.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_83",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES 83 E 84\nOs bens e o sangue\nVIII\n(...)\nÓ filho pobre, e descorçoado*, e finito\nó inapto para as cavalhadas e os trabalhos brutais\ncom a faca, o formão, o couro... Ó tal como quiséramos\npara tristeza nossa e consumação das eras,\npara o fim de tudo que foi grande!\nÓ desejado,\nó poeta de uma poesia que se furta e se expande\nà maneira de um lago de pez** e resíduos letais...\nÉs nosso fim natural e somos teu adubo,\ntua explicação e tua mais singela virtude...\nPois carecia que um de nós nos recusasse\npara melhor servir-nos. Face a face\nte contemplamos, e é teu esse primeiro\ne úmido beijo em nossa boca de barro e de sarro.\n\nCarlos Drummond de Andrade, Claro enigma.\n* \"descorçoado\": assim como \"desacorçoado\", é uma variante de uso popular\nda palavra \"desacoroçoado\", que significa \"desanimado\".\n** \"pez\": piche\n\nConsidere as seguintes afirmações:\n\nI. Os familiares, que falam no poema, ironizam a condição\nfrágil do poeta.\nII. O passado é uma maldição da qual o poeta, como revela o\ntítulo do poema, não consegue se desvencilhar.\nIII. O trecho \"o fim de tudo que foi grande\" remete à ruína das\noligarquias, das quais Drummond é tributário.\nIV. A imagem de uma \"poesia que se furta e se expande/à\nmaneira de um lago de pez e resíduos letais...\" sintetiza o\npessimismo dos poemas de Claro enigma.\n\nEstão corretas:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I e II, apenas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I, II e III, apenas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "II e IV, apenas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "I, III e IV, apenas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I, II, III e IV.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_84",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES 83 E 84\nOs bens e o sangue\nVIII\n(...)\nÓ filho pobre, e descorçoado*, e finito\nó inapto para as cavalhadas e os trabalhos brutais\ncom a faca, o formão, o couro... Ó tal como quiséramos\npara tristeza nossa e consumação das eras,\npara o fim de tudo que foi grande!\nÓ desejado,\nó poeta de uma poesia que se furta e se expande\nà maneira de um lago de pez** e resíduos letais...\nÉs nosso fim natural e somos teu adubo,\ntua explicação e tua mais singela virtude...\nPois carecia que um de nós nos recusasse\npara melhor servir-nos. Face a face\nte contemplamos, e é teu esse primeiro\ne úmido beijo em nossa boca de barro e de sarro.\n\nCarlos Drummond de Andrade, Claro enigma.\n* \"descorçoado\": assim como \"desacorçoado\", é uma variante de uso popular\nda palavra \"desacoroçoado\", que significa \"desanimado\".\n** \"pez\": piche\n\nConsidere o tipo de relação estabelecida pela preposição\n\"para\" nos seguintes trechos do poema:\n\nI. \"ó inapto para as cavalhadas e os trabalhos brutais\".\nII. \"Ó tal como quiséramos para tristeza nossa e consumação\ndas eras\".\nIII. \"para o fim de tudo que foi grande\".\nIV. \"para melhor servir-nos\".\n\nA preposição \"para\" introduz uma oração com ideia de\nfinalidade apenas em",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "I e II.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "III.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "III e IV.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "IV.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_85",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Examine esta propaganda.\n\n\n\nPor ser empregado tanto na linguagem formal quanto na\nlinguagem informal, o termo \"legal\" pode ser lido, no contexto\nda propaganda, respectivamente, nos seguintes sentidos:",
+      "files": [
+        "/data/fuvest/assets/2018/85/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "lícito e bom.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "aceito e regulado.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "requintado e excepcional.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "viável e interessante.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "jurídico e autorizado.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_86",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES DE 86 A 88\n\nIt's a perilous time to be a statue. Not that it has ever\nbeen a particularly secure occupation, exposed as statues are to\nthe elements, bird droppings and political winds.\nJust ask Queen Victoria, whose rounded frame perches\natop hundreds of plinths across the Commonwealth, with an air\nof solemn, severe solidity. But in 1963 in Quebec, members of a\nseparatist paramilitary group stuck dynamite under the dress of\nher local statue. It exploded with a force so great that her head\nwas found 100 yards away.\nToday, the head is on display in a museum, with her body\npreserved in a room some miles away. The art historian Vincent\nGiguère said that \"the fact it's damaged is what makes it so\nimportant.\"\nThere's another reason to conserve the beheaded\nVictoria. Statues of women, standing alone and demanding\nattention in a public space, are extremely rare.\nTo be made a statue, a woman had to be a naked muse,\nroyalty or the mother of God. Or occasionally, an icon of war,\njustice or virtue: Boadicea in her chariot in London, the Statue\nof Liberty in New York.\nStill, of 925 public statues in Britain, only 158 are women\nstanding on their own. Of those, 110 are allegorical or mythical,\nand 29 are of Queen Victoria.\n\nJulia Baird, The New York Times. September 4, 2017. Adaptado.\n\nConforme o texto, o grau de importância atribuído à estátua da\nrainha Vitória, em Québec, reside no fato de a escultura",
+      "files": [
+        "/data/fuvest/assets/2018/86/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "estar em processo de restauração.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "ter sobrevivido às intempéries ao longo dos anos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "pertencer a um grupo de réplicas idênticas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "ser a primeira a retratar uma autoridade feminina.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "ter sofrido danos em sua estrutura",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_87",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES DE 86 A 88\n\nIt's a perilous time to be a statue. Not that it has ever\nbeen a particularly secure occupation, exposed as statues are to\nthe elements, bird droppings and political winds.\nJust ask Queen Victoria, whose rounded frame perches\natop hundreds of plinths across the Commonwealth, with an air\nof solemn, severe solidity. But in 1963 in Quebec, members of a\nseparatist paramilitary group stuck dynamite under the dress of\nher local statue. It exploded with a force so great that her head\nwas found 100 yards away.\nToday, the head is on display in a museum, with her body\npreserved in a room some miles away. The art historian Vincent\nGiguère said that \"the fact it's damaged is what makes it so\nimportant.\"\nThere's another reason to conserve the beheaded\nVictoria. Statues of women, standing alone and demanding\nattention in a public space, are extremely rare.\nTo be made a statue, a woman had to be a naked muse,\nroyalty or the mother of God. Or occasionally, an icon of war,\njustice or virtue: Boadicea in her chariot in London, the Statue\nof Liberty in New York.\nStill, of 925 public statues in Britain, only 158 are women\nstanding on their own. Of those, 110 are allegorical or mythical,\nand 29 are of Queen Victoria.\n\nJulia Baird, The New York Times. September 4, 2017. Adaptado.\n\nNo texto, a figura da rainha Vitória é associada ao conceito de",
+      "files": [
+        "/data/fuvest/assets/2018/87/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "firmeza.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "eloquência.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "longevidade.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "beleza.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "maternidade",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_88",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES DE 86 A 88\n\nIt's a perilous time to be a statue. Not that it has ever\nbeen a particularly secure occupation, exposed as statues are to\nthe elements, bird droppings and political winds.\nJust ask Queen Victoria, whose rounded frame perches\natop hundreds of plinths across the Commonwealth, with an air\nof solemn, severe solidity. But in 1963 in Quebec, members of a\nseparatist paramilitary group stuck dynamite under the dress of\nher local statue. It exploded with a force so great that her head\nwas found 100 yards away.\nToday, the head is on display in a museum, with her body\npreserved in a room some miles away. The art historian Vincent\nGiguère said that \"the fact it's damaged is what makes it so\nimportant.\"\nThere's another reason to conserve the beheaded\nVictoria. Statues of women, standing alone and demanding\nattention in a public space, are extremely rare.\nTo be made a statue, a woman had to be a naked muse,\nroyalty or the mother of God. Or occasionally, an icon of war,\njustice or virtue: Boadicea in her chariot in London, the Statue\nof Liberty in New York.\nStill, of 925 public statues in Britain, only 158 are women\nstanding on their own. Of those, 110 are allegorical or mythical,\nand 29 are of Queen Victoria.\n\nJulia Baird, The New York Times. September 4, 2017. Adaptado.\n\nNo texto, a referência ao número de estátuas expostas em\nespaços públicos na Grã-Bretanha indica",
+      "files": [
+        "/data/fuvest/assets/2018/88/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "ênfase em personalidades alegóricas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "escassez de monumentos do gênero feminino.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "desapreço por esculturas de corpo inteiro.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "falta de espaço em museus para peças de grande porte.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "preferência por figuras de destaque em batalhas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_89",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES 89 E 90\nAlgorithms are everywhere. They play the stockmarket,\ndecide whether you can have a mortgage and may one day\ndrive your car for you. They search the internet when\ncommanded, stick carefully chosen advertisements into the\nsites you visit and decide what prices to show you in online\nshops. (…) But what exactly are algorithms, and what makes\nthem so powerful?\nAn algorithm is, essentially, a brainless way of doing\nclever things. It is a set of precise steps that need no great\nmental effort to follow but which, if obeyed exactly and\nmechanically, will lead to some desirable outcome. Long\ndivision and column addition are examples that everyone is\nfamiliar with — if you follow the procedure, you are guaranteed\nto get the right answer. So is the strategy, rediscovered\nthousands of times every year by schoolchildren bored with\nlearning mathematical algorithms, for playing a perfect game\nof noughts and crosses. The brainlessness is key: each step\nshould be as simple and as free from ambiguity as possible.\nCooking recipes and driving directions are algorithms of a sort.\nBut instructions like \"stew the meat until tender\" or \"it's a few\nmiles down the road\" are too vague to follow without at least\nsome interpretation.\n(…)\n\nThe Economist, August 30, 2017\n\nNo texto, um exemplo associado ao fato de algoritmos estarem\npor toda parte é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o cartão de crédito.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o livre mercado.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a dieta.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o jogo de xadrez.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o comércio eletrônico",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2018-USP_2018_90",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO PARA AS QUESTÕES 89 E 90\nAlgorithms are everywhere. They play the stockmarket,\ndecide whether you can have a mortgage and may one day\ndrive your car for you. They search the internet when\ncommanded, stick carefully chosen advertisements into the\nsites you visit and decide what prices to show you in online\nshops. (…) But what exactly are algorithms, and what makes\nthem so powerful?\nAn algorithm is, essentially, a brainless way of doing\nclever things. It is a set of precise steps that need no great\nmental effort to follow but which, if obeyed exactly and\nmechanically, will lead to some desirable outcome. Long\ndivision and column addition are examples that everyone is\nfamiliar with — if you follow the procedure, you are guaranteed\nto get the right answer. So is the strategy, rediscovered\nthousands of times every year by schoolchildren bored with\nlearning mathematical algorithms, for playing a perfect game\nof noughts and crosses. The brainlessness is key: each step\nshould be as simple and as free from ambiguity as possible.\nCooking recipes and driving directions are algorithms of a sort.\nBut instructions like \"stew the meat until tender\" or \"it's a few\nmiles down the road\" are too vague to follow without at least\nsome interpretation.\n(…)\n\nThe Economist, August 30, 2017\n\nSegundo o texto, a execução de um algoritmo consiste em um\nprocesso que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "prevê a memorização de tabelas e fórmulas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "envolve mecanismos de seleção e detecção de erros.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "se apoia em um número infinito de etapas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "é incompatível com análises subjetivas e imprecisas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "alterna níveis altos e baixos de esforço intelectual.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,4532 @@
+{
+  "schemaVersion": 1,
+  "packageId": "fuvest-2021",
+  "institutionId": "usp",
+  "examId": "fuvest",
+  "editionId": "fuvest-2021",
+  "questions": [
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_1",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A figura ilustra graficamente uma região de um bairro, com ruas ortogonais entre si.\n O ponto X indica um condomínio residencial,  e o ponto Y indica a entrada de um parque. \nTrês moradores realizam caminhos diferentes para chegar ao ponto Y, partindo do ponto X, ilustrados com cores diferentes.\n S e a, b e c representam as distancias percorridas por esses moradores nesses caminhos, é correto afirmar que",
+      "files": [
+        "/data/fuvest/assets/2021/1/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a = b = c.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "b = c < a.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "c < b  < a.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "b < c = a.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "c < a = b.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_2",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Qual dos gráficos representa uma relação entre as grandezas x e y em que y sempre diminui na medida em que x aumenta?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/2/0.png"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/2/1.png"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/2/2.png"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/2/3.png"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/2/4.png"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_3",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O quadrinho aborda o tema de números primos, sobre os quais é correto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2021/3/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "todos os números primos são impares",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "existem, no máximo, 7 trilhões de números primos",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "todo número da forma 2^(n+ 1), n pertencendo aos naturais, é primo",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "entre 24 e 36, existem somente 2 números primos",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o número do quadrinho, 143, é um número primo",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_4",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Três triângulos equiláteros e dois quadrados formam uma figura plana, como ilustrado\n Seus centros são os vértices de um pentágono irregular, que está destacado na figura.\n Se T é a área de cada um dos triângulos e Q a área de cada um dos quadrados, a área desse pentágono é",
+      "files": [
+        "/data/fuvest/assets/2021/4/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "T + Q",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "(1/2)T + (1/2)Q",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "T + (1/2)Q",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "(1/3)T + (1/4)Q",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "(1/3)T + (1/2)Q",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_5",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um comerciante adotou como forma de pagamento uma máquina de cartões, \ncuja operadora cobra uma taxa de 6% em cada venda. Para continuar recebendo exatamente o mesmo valor por cada produto, \nele resolveu aplicar um reajuste nos preços de todos os produtos da loja. Se P era o valor de uma mercadoria antes da\n adoção da máquina, o novo valor V deve ser calculado por",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "V = P + 0,06",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "V = 0,94 · 1,06 · P",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "V = 1,6 · P",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "V = P/0,94",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "V = 0,94 · P",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_6",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma treinadora de basquete aplica o seguinte sistema de pontuação em seus treinos\n de arremesso à cesta: cada jogadora recebe 5 pontos por arremesso acertado e perde 2 pontos por arremesso errado.\n Ao fim de 50 arremessos, uma das jogadoras contabilizou 124 pontos. Qual é a diferença entre as quantidades \nde arremessos acertados e errados dessa jogadora?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "12",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "14",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "16",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "18",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "20",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_7",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Alice quer construir um paralelepípedo reto retângulo de dimensões 60 cm x 24 cm x 18 cm, com a menor quantidade possível de cubos idênticos cujas medidas das arestas são números naturais. Quantos cubos serão necessários para construir esse paralelepípedo?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "60",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "72",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "80",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "96",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "120",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_8",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um aplicativo de videoconferências estabelece, para cada reunião, \num código de 10 letras, usando um alfabeto completo de 26 letras. \nA quantidade de códigos distintos possíveis está entre",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "10 bilhões e 100 bilhões.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "100 bilhões e 1 trilhão.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1 trilhão e 10 trilhões.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "10 trilhões e 100 trilhões.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "100 trilhões e 1 quadrilhão.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_9",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Na figura, os segmentos AC e DE são paralelos entre si e perpendiculares ao segmento CD;\n o ponto B pertence ao segmento AC; F é o ponto médio do segmento AB e ABE é um triângulo equilátero.\n Além disso, o segmento BC mede 10 unidades de comprimento e o segmento AE mede 6 unidades de comprimento.\n A medida do segmento DF, em unidades de comprimento, é igual a",
+      "files": [
+        "/data/fuvest/assets/2021/9/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "14.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "15.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "16.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "17.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "18.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_10",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A região hachurada do plano cartesiano xOy contida no círculo de centro na origem O e raio 1, \nmostrada na figura, pode ser descrita por",
+      "files": [
+        "/data/fuvest/assets/2021/10/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "{(x,y); x^2 + y^2 ≤1 e y - x ≤ 1}.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "{(x,y); x^2 + y^2  ≥ 1 e y + x ≥ 1}.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "{(x, y); x^2 + y^2  ≤ 1 e y - x ≥ 1}.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "{(x,y); x^2 + y^2 ≤ 1 e y + x ≥ 1}.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "{(x,y); x^2 + y^2  ≥ 1 e y + x ≤ 1}.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_11",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Se f: ℝ → ℝ e g: ℝ → ℝ são funções dadas por f (x) = c + x^2, \nonde c ∈ ℝ, e g(x) = x, seus gráficos se intersectam quando, e somente quando,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "c ≤ 1/4",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "c ≥ 1/4",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "c ≤ 1/2",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "c ≥ 1/2",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "c ≤ 1",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_12",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um marceneiro possui um pedaço de madeira no formato de um triângulo retângulo, cujos catetos medem 12 cm e 35 cm.\n A partir desta peça, ele precisa extrair o maior quadrado possível, de tal forma que um dos ângulos retos do quadrado coincida \n com o ângulo reto do triângulo. A medida do lado do quadrado desejado pelo marceneiro está mais próxima de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "8,0 cm",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "8,5 cm",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "9,0 cm",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "9,5 cm",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "10,0 cm",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_13",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Suponha, para simplificar, que a Terra é perfeitamente esférica e que a linha do Equador mede 40.000 km.\n O trajeto que sai do Polo Norte, segue até a linha do Equador pelo meridiano de Greenwich, depois se desloca ao longo\nda linha do Equador até o meridiano 45ºL e então retorna ao Polo Norte por esse meridiano tem comprimento total de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "15.000 km.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "20.000 km.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "25.000 km.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "30.000 km.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "35.000 km.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_14",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sobre as projeções cartográficas apresentadas, suas formas e dimensões, é correto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2021/14/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Interesses geopolíticos e comerciais forçaram distorções na projeção de Mercator, para fazer parecer mais curto o caminho ao novo continente, elemento corrigido a partir do século XIX, na projeção de Gall-Peters.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "As três projeções apresentam distorções, uma vez que a Terra tem forma aproximada de um geoide e sua projeção num plano ficará distorcida.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "As projeções de Mercatore Gall-Peters apresentam distorções pela falta de recursos técnicos no período em que foram feitas, mas o avanço computacional do século XX permitiu o fim das distorções na projeção de Robinson.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A projeção de Gall-Peters não apresentava distorções no momento de sua elaboração, mas a descoberta da Antártica e da Oceania, logo após sua proposição, forçou a adaptação e induziu distorções.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Todas as projeções apresentam distorções, uma vez que o formato da Terra não era conhecido até o século XX, o que gerou dúvidas sobre como essa projeção deveria ser executada.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_15",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A criação do Banco da Amazônia e da Superintendência do Desenvolvimento da Amazônia (SUDAM) preconizou uma política de concessão de incentivos fiscais aos empresários, \nespecialmente das regiões mais ricas do país, para que deixassem de pagar 50% do imposto de renda, desde que o dinheiro fosse depositado naquele banco para financiar projetos de desenvolvimento no estado do Amazonas.\n Os investimentos orientaram-se de preferência para a agropecuária, de modo que um grande número de empresários e de empresas, especialmente do Sudeste do Brasil, sem tradição\n no ramo, tornaram-se proprietários de terras e empresários rurais. Em princípio a aquisição de terras pelos grandes capitalistas\n do Sudeste animou o mercado imobiliário.\n José de Sousa Martins. O Poder do Atraso. Adaptado.\n Assinale a alternativa que apresenta a combinação correta entre o período a que se refere o texto e as implicações, territoriais e sociais,\n observadas nas áreas onde a política de incentivos fiscais entrou em operação.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Período: Brasil Império. \nImplicações territoriais: Expansão dos sistemas agroflorestais e preservação da vegetação nativa. \nImplicações sociais: Aprovação do direito de sindicalização do trabalhador rural.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Período: Primeira República. \nImplicações territoriais: Expansão da área voltada a pecuária e redução da Mata Atlântica. \nImplicações sociais: Aumento no número de assalariados no campo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Período: Estado Novo. \nImplicações territoriais: Expansão da economia extrativista e concentração fundiária. \nImplicações sociais: Eliminação dos direitos trabalhistas na cidade e no campo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Período: Ditadura Militar. \nImplicações territoriais: Aumento da grilagem e avanço do desmatamento \nImplicações sociais: Aumento dos conflitos violentos no campo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Período: Nova República. \nImplicações territoriais: Aumento da área de vegetação nativa e reforma agrária massiva \nImplicações sociais: Melhora na distribuição fundiária e dos niveis de consumo interno.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_16",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Observe o mapa com dados de 2020:\n  \n Os países destacados em amarelo no mapa referem-se:",
+      "files": [
+        "/data/fuvest/assets/2021/16/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Ao bloco dos BRICS",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Aos novos integrantes da OCDE",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A países excluídos da OMC",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A países da OPEP",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A países membros da OTAN",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_17",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O terremoto indicado na figura ocorreu no estado da Bahia no dia 30/08/2020, com magnitude 4,6 na escala Richter, atingindo cidades do\n Vale do Jiquiriçá e do Recôncavo Baiano. Sobre terremotos em geral, e sobre este especificamente, é correto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2021/17/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "São gerados por intrusões e maremotos, cuja violência durante as movimentações provoca fissuras na superfície.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "São gerados em razão da presença de falhas geológicas e seu estudo traz conhecimento da geologia do território brasileiro.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Têm inicio pelo soerguimento da crosta, e o do dia 30/08/2020 teve sua origem na Bacia Amazônica.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Têm início com a divergência da crosta continental, e o do Recôncavo Baiano provocou impactos até na Serra Gaúcha.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "São gerados pela abertura de falhas, importante para o conhecimento do núcleo do planeta Terra explorado na região.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_18",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A linha de fronteira hoje possui um a definição essencialmente econômica - como a fronteira da lucratividade-mas adquire uma \nexpressão geográfica bastante acentuada em diferentes escalas espaciais. Isto é, basicamente, o que a fronteira do século XIX e a assim chamada fronteira urbana têm em com um. Na realidade, ambas estão associadas à acumulação \n e expansão do capital. Mas enquanto a fronteira do século XIX representou a realização de uma expansão geográfica absoluta na escala do território como a principal expressão \nespacial da acumulação de capital, a renovação urbana representa o exemplo mais desenvolvido da rediferenciação do espaço geográfico com vista ao mesmo resultado.\nNeil Smith. Gentrificação, a fronteira e a reestruturação do espaço urbano, 1986. Adaptado.\nO excerto relaciona a dinâmica geográfica dos Estados Unidos no século XIX à do final do século XX.\n As imagens correspondentes a cada um dos momentos apresentados pelo ex certo são identificadas em:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/18/0.png"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/18/1.png"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/18/2.png"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/18/3.png"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/18/4.png"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_19",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Henri Lefebvre. A revolução urbana. Adaptado \nO esquema apresenta a linha de urbanização da sociedade, que vai do 0 ao 100%. Considerando os referenciais \ntrazidos no esquema, fazem parte do contexto identificado na chamada \"zona crítica\":",
+      "files": [
+        "/data/fuvest/assets/2021/19/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Monetarismo; Revolução Industrial; lei Bill Aberdeen",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Comunismo; centralização do poder; New Deal",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Neoliberalismo; elevada urbanização; crise hipotecária de 2008",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Neocolonialismo; Revolução Agrária; quebra da Bolsa de Nova Iorque",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Mercantilismo; financeirização da economia; Acordo de Vestfália",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_20",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: \nOMC: Organização Mundial do Comércio\n PRONAF: Programa Nacional de Fortalecimento da Agricultura Familiar\n SAFs: Sistemas Agroflorestais \n UE: União Europeia\nO acordo entre o Mercosul e a União Europeia está sendo discutido há cerca de 20 anos\n e prevê, entre outros elementos, a redução progressiva das tarifas de exportação entre os blocos. \nO Brasil, que é um grande exportador de produtos de origem agrícola para o mercado europeu, teria redução tarifária para a exportação de produtos como carnes, açúcar e etanol, dentre outros. \n\nPara a ratificação do acordo, o parlamento europeu aprovou uma resolução que manifesta a importância do compromisso dos países do Mercosul com a implementação do Acordo de Paris.\n A relutância em ratificar o acordo entre Mercosul e União Europeia, por parte de alguns países da UE em 2020, deveu-se, entre outros fatores,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "à desigual condição climática para produção de vinhos nos dois continentes.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "as políticas de incentivo à agricultura familiar na América Latina e especialmente ao PRONAF no Brasil.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "à difusão de SAFs, criados com o propósito de produção para consumo humano no Cone Sul.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "às declarações que cogitaram a retirada do Brasil da OMC meses antes da aprovação da resolução.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "aos graves problemas ambientais no Brasil, tais como desmatamento e queimadas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_21",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O Sistema Aquifero Guarani abrange parte dos territórios da Argentina, do Brasil, do Paraguai e do Uruguai.\n Possui um volume acumulado de 37.000 km^3 e área estimada de 1.087.000 km^2. Na parte brasileira estende-se por oito Estados: Goiás, Mato Grosso, Mato Grosso do Sul, Minas Gerais, Paraná, Rio Grande do Sul, Santa Catarina e São Paulo.\nDisponível em https://www.mma.gov.br/.\nSobre os aquíferos e seus usos para atividades humanas, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Ocorrem em formações geológicas que contêm água em quantidades significativas que se movimentam no seu interior em condições naturais, permitindo seu uso para abastecimento público e estâncias turísticas de águas minerais e termais.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Consistem em reservatórios de águas superficiais formados a partir de processos de vulcanismo e tectonis mo em áreas de intensa atividade sismica; seus fluxos são passíveis de uso na produção de energia geotérmica obtida por meio do calor proveniente do interior do planeta Terra.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Os aquíferos apresentam volume de águas de grandes proporções, contudo, os custos de bombeamento e tratamento inviabilizam sua utilização e seus usos para atividades humanas, limitando-se atualmente à dessedentação animal.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Os aquiferos são formados pela ação dos ventos que acumulam areia na superfície, facilitando a infiltração e acúmulo de água nas camadas mais profundas; seus usos para atividades humanas dependem da escavação de poços muito profundos com uso de tecnologia indisponível no país.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Os aquíferos estão em profundidades que impossibilitam seu uso para atividades humanas, incluindo aqueles usos destinados a fins menos nobres, como lavagem de calçadas e praças.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_22",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O Monte Everest é o pico mais elevado do planeta, localizado na cordilheira do Himalaia, na fronteira da China e Nepal,\n com 8.848 metros de altitude. Possui cinco estações meteorológicas em diferentes altitudes funcionando desde 2019, entre elas a estação mais elevada do planeta (8.430 m),\n que registra dados valiosos para a climatologia. Esse projeto foi liderado pelo Dr. Paul Andrew Mayewski, geógrafo e climatologista, cuja equipe projetou e treinou\n por meses para instalar a estação meteorológica em tal condição adversa em menos de 90 minutos.\nDisponível em https://www.climadeensinar.com.br/. Adaptado.\nA dificuldade de instalação da estação na altitude citada deve-se",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "às elevadas condições de umidade provenientes do derretimento de neve.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "à ocorrência de chuvas intensas, que aumentam os riscos de avalanches.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "às temperaturas reduzidas e à baixa concentração de oxigênio nessa altitude.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "aos dias mais curtos nessa altitude, o que reduz o brilho solar.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "à elevada pressão atmosférica, que produz ventos intensos nessa altitude.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_23",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Segundo o Atlas de Serpentes Brasileiras, a jararaca (nome cientifico Bothrops jararaca) encontra-se com as ocorrências registradas em uma extensa faixa do Brasil relativa a diferentes\n Biomas, onde se alimenta de anfíbios, roedores e outros animais. A espécie ocorre nas áreas apontadas, sendo encontrada em \nzonas florestadas ou modificadas pela ação humana.\n \n Sobre as serpentes Bothrops jararaca e os principais biomas de ocorrência, é correto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2021/23/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "São típicas das áreas que alcançam até 500 m de altitude, nos Biomas do Pantanal, Pampa, Cerrado e Caatinga; as áreas do Pampa são as mais degradadas do país em função da urbanização crescente, ameaçando a ocorrência da jararaca.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "São generalizadas nos mais diversos biomas, concentrando se na Caatinga; esse bioma encontra-se atualmente como o mais ameaçado pela expansão das fronteiras agrícolas na produção para exportação.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "São típicas das áreas mais planas da faixa leste do Brasil, cujos terrenos são recobertos pelo Bioma do Cerrado; a ocorrência desta espécie deve-se às áreas com ocupação humana, o que atrai ratos que fazem parte da alimentação da jararaca.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Possuem área de ocorrência restrita ao Bioma da Amazônia, caracterizado pela ocorrência de sapos; nesse bioma, as planícies fluviais favorecem a proliferação da jararaca.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "São típicas da Mata Atlântica, podendo ocorrer também em áreas de Pampa, Cerrado e Caatinga e ocupar terrenos que alcançam até 1000 m de altitude; o Bioma da Mata Atlântica encontra-se atualmente ameaçado pela ocupação humana.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_24",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Na transição do Cerrado para a Mata Atlântica, ocorre uma substituição da vegetação, \nque resulta em mudanças na frequência de certas características das plantas.\n Identifique duas mudanças decorrentes dessa transição.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Aumento da frequência de caules e galhos tortuosos; aumento da frequência de plantas que apresentam folhas largas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Aumento da frequência de plantas que germinam e crescem melhor sob a luz direta do sol; diminuição da frequência de plantas que apresentam folhas largas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Diminuição da frequência de caules e galhos tortuosos; aumento da frequência de plantas que apresentam folhas largas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Diminuição da frequência de plantas epífitas; diminuição da frequência de plantas com adaptações a queimadas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Diminuição da frequência de plantas que germinam e crescem melhor sob a luz direta do sol; aumento da frequência de plantas com adaptações a queimadas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_26",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os gráficos mostram a variação nas taxas de emigração, imigração, mortalidade e\n natalidade de uma dada população de mamíferos ao longo de 20 anos.\n\n Com base nesses gráficos, o tamanho dessa população deve",
+      "files": [
+        "/data/fuvest/assets/2021/26/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "diminuir nos 5 primeiros anos e manter-se constante no restante do período considerado.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "manter-se constante nos 5 primeiros anos e diminuir no restante do período considerado.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "diminuir continuamente ao longo do período considerado.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "manter-se constante ao longo do período considerado.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "aumentar nos 5 primeiros anos e diminuir no restante do período considerado.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_27",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma variedade de milho (Milho Bt) foi modificada com a inserção de genes da bactéria Bacillus thuringiensis, que produzem proteínas Cry\n, tóxicas para insetos como as lagartas que atacam suas lavouras. Essas proteínas bloqueiam o trato digestório dos insetos, levando-os à morte.\n Em aves e mamíferos que também se alimentam de milho, as proteínas Cry são inativadas durante a digestão ácida, perdendo sua ação sobre esses animais.\nA alternativa que indica corretamente um aspecto positivo e um negativo dos efeitos desta modificação genética do milho para o ser humano é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Aspecto positivo: Aumento do valor nutricional do milho. Aspecto negativo: Possibilidade de desenvolvimento de alergia à proteína Cry em pessoas vulneráveis.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Aspecto positivo: Menor tempo de maturação dos grãos. Aspecto negativo: Possibilidade de invasão da vegetação nativa pela planta transgênica.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Aspecto positivo: Facilitação da polinização das plantas. Aspecto negativo: Risco de extinção local de das aves e mamíferos insetívoros.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Aspecto positivo: Economia de água pela redução da irrigação. Aspecto negativo: Maior exposição dos agricultores a agrotóxicos.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Aspecto positivo: Maior produtividade das lavouras de milho. Aspecto negativo: Possibilidade de surgimento de lagartas resistentes à proteína Cry.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_28",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A genealogia a seguir representa uma família em que aparecem pessoas afetadas por adrenoleucodistrofia. A mulher III.2 está grávida e ainda não sabe o sexo do bebê.\n\n A relação correta entre o padrão de herança desta forma de adrenoleucodistrofia e a probabilidade de que a criança seja afetada é:",
+      "files": [
+        "/data/fuvest/assets/2021/28/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Padrão de herança: ligado ao X recessivo.Probabilidade de ser afetada: 50% caso seja menino.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Padrão de herança: ligado ao X recessivo.Probabilidade de ser afetada: 25% caso seja menino.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Padrão de herança: ligado ao Y.Probabilidade de ser afetada: 100% caso seja menino.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Padrão de herança: autossômico recessivo.Probabilidade de ser afetada: 75% em qualquer caso.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Padrão de herança: autossômico recessivo.Probabilidade de ser afetada: 12,5% em qualquer caso.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_29",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere dois genes (A e B) localizados em cromossomos diferentes e seus respectivos alelos (A, a, B, b).\n Uma representação possível desses alelos durante a mitose, imediatamente antes da metáfase, é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/29/0.png"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/29/1.png"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/29/2.png"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/29/3.png"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/29/4.png"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_30",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O gás carbônico atmosférico reage com a água do mar conforme detalhado em (I):\n (I) CO2 + H20 ⇄ H2CO3 ⇄ HCO3⁻ + H⁺\nAs condições ambientais causadas pelo aumento de gás carbônico na atmosfera influenciam em processos caracterizados\n pela reação (II) durante o desenvolvimento de diversos organismos marinhos:\n (II) Ca²⁺ + CO3²⁻ ⇄ CaCO3\nTendo por base essas afirmações, assinale a alternativa correta:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O processo (I) resulta em diminuição da alcalinidade da água do mar, comprometendo a estruturação de recifes por interferir na formação dos esqueletos calcários dos corais, conforme a reação (II).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O processo (I) resulta em aumento da alcalinidade da água do mar, comprometendo processos de contração muscular de vertebrados marinhos por diminuir o cálcio livre disponível, como demonstrado em (ll).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O processo (I) não altera a alcalinidade da água do mar, mas compromete o processo de formação de conchas de moluscos marinhos, nos quais a estrutura básica é o carbonato de cálcio, produto da reação (II) .",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O processo (I) resulta em diminuição da alcalinidade da água do mar, aumentando o pH e beneficiando o processo demonstrado em (II), o que favorece o crescimento de recifes de algas calcárias.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "O processo (I) resulta em aumento da alcalinidade da água do mar, beneficiando os processos de fermentação por bactérias marinhas em regiões de recifes de coral, que são formados pelo processo (II).",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_31",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere três espécies de plantas (X, Y e Z) e suas características:\n- A planta X não possui flores, mas é polinizada pelo vento. Além disso, não possui frutos, mas suas sementes são dispersas por aves.\n- A planta Y não possui flores, nem sementes, nem frutos.\n- A planta Z possui flores e é polinizada por aves. Além disso, possui frutos e suas sementes são dispersas por aves.\nA que grupos pertencem as plantas X, Y  e Z, respectivamente?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Pteridófitas, angiospermas e gimnospermas",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Gimnospermas, pteridófitas e angiospermas",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Pteridófitas, gimnospermas e angiospermas",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Angiospermas, gimnospermas e pteridófitas",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Gimnospermas, angiospermas e pteridófitas",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_32",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A determinação do sexo em embriões de tartaruga-de-couro depende da temperatura a que o ovo foi exposto.\n Isso está relacionado à ação da enzima aromatase, que converte a testosterona em estradiol. A expressão gênica\n e a atividade dessa enzima nas gônadas são dependentes da temperatura, conforme indicado na figura.\n Sobre a determinação do sexo em tartarugas-de-couro, é correto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2021/32/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A atividade máxima da aromatase determina diferenciação sexual masculina.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O maior nível de transcrição do gene da aromatase coincide com a menor atividade da enzima.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Em temperaturas entre 28 e 30 °C, a maioria dos embriões diferenciam-se em fêmeas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Há equilíbrio no nascimento de machos e fêmeas a 26 °C.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A atividade da aromatase depende da quantidade de estradiol disponível.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_33",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No que diz respeito a infecções sexualmente transmissíveis (ISTs),\n identifique a relação correta entre grupo causador, um dos seus sintomas e se possui ou não vacina preventiva.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "IST: Gonorreia; Causador: Neisseria gonorrhoeae (bactéria); Um dos possíveis sintomas: Ardor na uretra e secreção purulenta; Possui vacina? Sim",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "IST: Hepatite C; Causador: HCV (bactéria); Um dos possíveis sintomas: Comprometimento da função do fígado; Possui vacina? Não",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "IST: AIDS; Causador: HIV (vírus); Um dos possíveis sintomas: Erupção cutânea; Possui vacina? Sim",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "IST: Sifilis; Causador: Treponema pallidum (verme); Um dos possíveis sintomas: Ferida na genitália externa (cancro); Possui vacina? Não",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "IST: Condiloma acuminado (crista de galo); Causador: HPV (vírus); Um dos possíveis sintomas: Verrugas na região genital; Possui vacina? Sim",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_34",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Canto V Estância 81\nE foi que, de doença crua e feia, \nA mais que eu nunca vi, desampararam\nMuitos a vida, e em terra estranha e alheia \nOs ossos para sempre sepultaram. \nQuem haverá que, sem ver, o creia? \nQue tão disformemente ali lhe incharam \nAs gengivas na boca, que crescia \nA carne e juntamente apodrecia?\n\nLuís Vaz de Camões, Os Lusíadas\n\nÉ correto afirmar que Camões, neste trecho, descreveu sintomas de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "peste bubônica, zoonose transmitida por ratos que assolou populações europeias e asiáticas no século XIV, propagada pelas viagens comerciais.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "escorbuto, deficiência em vitamina C, doença comum nas viagens ultra marinas europeias dos séculos XV e XVI, como a de Vasco da Gama em busca das Índias.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "malária, doença de ampla ocorrência nas viagens de exploradores para a África e Américas nos séculos XV e XVI.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "varíola, doença viral disseminada no Velho Mundo e trazida pelos navegantes dos séculos XV e XVI às colônias, onde dizimou populações nativas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "leishmaniose, parasitose transmitida por mosquitos e contraída pelos primeiros exploradores da Amazônia e dos Andes durante o século XVI.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_35",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A exploração da prata americana pelos espanhóis no século XVI \nteve grande importância na história mundial porque",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "incentivou a exploração metálica em outras regiões do globo, como Austrália e Ásia, além de facilitar a Revolução Industrial inglesa.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "contribuiu para o declínio do império asteca, além de causar impacto ambiental no litoral da América com a formação de cidades em áreas até então despovoadas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "acelerou a extinção de formas de acúmulo de capital mercantil em escala global, substituindo-o pelo capital industrial e financeiro.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "conectou o continente americano com partes do extremo oriente, onde a prata também era explorada, além de atrair grandes contingentes de africanos escravizados ao Caribe.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "aumentou a circulação de moeda nas redes mundiais da economia europeia, além de impactar as estruturas sociais indígenas pelo crescimento da exploração de seu trabalho.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_36",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A base física do Brasil, do principiar o século XVII, era profundamente diverso daquela que, mesmo numa interpretação \nliberal do Tratado de Tordesilhas, fora assentada no diploma de 1494. A expansão ao longo do litoral levara ao Oiapoc, no norte, e ao Prata, no sul. O rush do ouro estava determinando a ampliação do\n área oeste do mesmo modo por que a \"droga do sertão\" explicava a façanha da incorporação do mundo amazônico. Todo uma geografia nova, política,\n social e econômica se estava escrevendo na América portuguesa [...].\nArthur F. Reis. \"Os tratados de limites\". História geral do civilização brasileira, t.l, v.1, p.396.\nA partir da leitura do trecho e de seus conhecimentos, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Tratado de Tordesilhas representou uma permanente barreira à exploração econômica dos sertões portugueses da América, e só foi ultra passada no século XVIII por sertanistas que passaram a agir junto à coroa portuguesa.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A ocupação da Amazônia foi determinante na formação do território português da América porque as drogas do sertão puderam ser exploradas por longos períodos, ao contrário do efémero ouro de Minas Gerais, Goiás e Mato Grosso.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Embora a mineração tenha interiorizado a presença portuguesa no continente, a definição das fronteiras territoriais do Brasil só se completaria definitivamente muito depois, no começo do século XX.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Mesmo com o rush minerador, a economia colonial portuguesa continuou isolada em relação aos principais circuitos econômicos europeus de sua época, situação que só se alteraria na primeira década do século XIX.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A realidade econômica de Portugal e Espanha nos séculos XVII e XVIII tornou o Tratado de Tordesilhas obsoleto, uma vez que, nesse período, importava menos o comércio extrativista e mais a produção industrial.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_37",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A economia do Império do Brasil foi caracterizada por:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Prevalecimento do trabalho assalariado imigrante e investimentos estatais na indústria primária.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Desenvolvimento de relações comerciais e diplomáticas com países americanos, em detrimento das relações com os países europeus.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Conjugação entre desenvolvimento agrícola e industrial, responsável por tornar o Brasil a 4º maior economia do mundo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Crescimento progressivo da dívida externa e preponderancia de uma economia agroexportadora.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Redução contínua do tráfico de escravos e políticas públicas voltadas à alfabetização e capacitação profissional de trabalhadores pobres.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_38",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A Cabanagem foi uma revolta social ocorrida no norte do Brasil entre 1835 e 1840 e se insere em um contexto frequentemente chamado de \"Período Regencial\". Trata-se de uma revolta que, junto a outras do mesmo período, tipifica",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o impacto, no Brasil, de conflitos de fronteira com os  países hispânicos recém-formados na América.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a expansão de interesses imperialistas franceses e alemães em meio à geopolítica da Segunda Revolução Industrial.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a capacidade negociadora das elites imperiais em evitar que questões regionais desembocassem em conflitos armados.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a persistência, no contexto nacional brasileiro, de disputas entre jesuítas e governantes em torno da exploração do trabalho escravo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "o caráter violento e socialmente excludente do processo de formação do Estado nacional brasileiro.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_39",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma das folhas de ontem estampou (...) o programa da recepção presidencial em que, diante do corpo diplomático,\n da mais fina sociedade do Rio de Janeiro, aqueles que deviam dar do país o exemplo das maneiras mais distintas e dos costumes mais reservados elevaram o Corta-jaca à altura de uma instituição social.\n Mas o Corta-jaca de que eu ouvira falar há muito tempo, que vem a ser ele, Sr. Presidente? A mais baixo, a mais chula, a mais grosseira de todos os\n danças selvagens, a irmã gêmea do batuque, do cateretê e do samba. Mas nos recepções presidenciais o \"Corta-jaca\" é executado com todas as \nhonras da música de Wagner, e não se quer que a consciência deste país se revolte, que as nossas faces se enrubesçam e que a mocidade se ria!\n Discurso do senador Rui Barbosa, Diário do Congresso Nacional, 8/11/1914, p. 2789.\nA partir do texto, identifique a alternativa correta:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A crítica permite compreender que, a pesar da mudança de regime político, as elites republicanas permaneceram adeptas da cultura cosmopolita e europeia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O discurso elogia os esforços para compatibilizar a cultura republicana com as práticas e tradições dos grupos populares.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A eclosão da Primeira Guerra Mundial contribuiu para a difusão de uma politica cultural de caráter nacionalista e excludente.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O programa musical adotado na recepção revelava tendências modernistas ao conferir status de arte às danças populares.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "A apresentação do maxixe Corta-jaca indicava uma resposta para contornar a xenofobia e eugenia presentes na cultura oficial.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_40",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A ascensão de regimes autoritários na Europa nas primeiras décadas do século XX teve o amparo de milícias que arregimentaram\n uma legião de indivíduos de origem social heterogénea. Dentre estes grupos, destaca (m)-se:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A Tropa de Proteção (SS), que foi uma organização para militar incumbida de organizar as manifestações de massa em apoio ao nazismo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Os Camisas Negras, que usaram ações violentas, intimidação e assassinatos contra opositores políticos de Mussolini.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A Seção de Assalto (SA), que foi uma organização para militar responsável por assegurar os interesses nazistas nos territórios ocupados.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "As Falanges espanholas, que foram empregadas na realização de atentados contra monarquistas e membros da comunidade judaica.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "As milícias salazaristas, que atuaram para garantir a resistência contra os interesses portugueses na Ásia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_41",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A imagem é considerada uma das referências do movimento artístico e cultural denominado Renascimento. Analise-a atentamente.\n\nEssa imagem pode ser considera da renascentista porque",
+      "files": [
+        "/data/fuvest/assets/2021/41/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "representa as personagens de forma simbólica e recorre a temas da doutrina cristã.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "reforça a perspectiva teocêntrica, ao representara Virgem Maria no centro da composição pictórica.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "retoma o tema da pureza da alma feminina estabelecendo uma releitura da narrativa sobre o pecado original.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "adota o contraste dramático entre tons claros e escuros em sintonia com as tensões religiosas do período.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "utiliza a técnica da perspectiva tridimensional, que provoca a ilusão de profundidade e de espaço.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_42",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia com atenção os dados do quadro e da tabela, relativos à \nepidemia de gripe espanhola na cidade de São Paulo, em 1918.\n\n Considerando as informações apresentadas, é correto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2021/42/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A mortalidade gripal verificada nos distritos do Belenzinho e da Mooca foi resultado da alta concentração demográfica associada às condições de habitação e de serviços.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Os mais elevados índices de óbitos foram verificados entre os distritos que concentravam o maior contingente demográfico, independentemente do tipo de moradia e dos benefícios existentes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O número de óbitos gripais colhido no Bom Retiro atesta que não há correlação entre a topografia, o tipo de moradia e as origens sociais dos infectados.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Apesar da semelhança entre as condições sanitárias e residenciais nos distritos da Sé e da Liberdade, o índice de mortalidade verificado é significativa mente distinto.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Os dados indicam que a epidemia a lastrou-se por toda a cidade, com igual impacto sobre a população, não importando a classe, a profissão ou a topografia do distrito.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_43",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia o texto:\n\nA corrupção nos costumes das mulheres é ainda uma coisa prejudicial ao fim que se propõe o governo, e à boa conservação das leis do Estado (...). É o que aconteceu em Esparta (...)\n\nTais são os observações feitas entre os lacedemônios: no tempo da sua dominação as mulheres resolviam quase todas as questões. De resto, que diferença existe em que as mulheres governem, ou que os magistrados sejam governados por mulheres? (...) as mulheres dos lacedemônios, mesmo no caso de perigo, fizeram-lhes o maior mal possível\n\nAristóteles, A politica, Rio de Janeiro: Ediouro, s./d., p. 79-80\n\nÉ correto afirmar sobre as mulheres na Grécia Antiga:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Obtiveram o direito à educação e acesso às escolas filosóficas da cidade-Estado de Atenas durante o período clássico.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Em Esparta, recebiam educação física na infância, tinham direito à herança e administravam as propriedades na ausência dos maridos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Adquiriram poderes políticos como cidadãs apenas com o estabelecimento do Império Macedônico, sob a liderança de Alexandre Magno.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Em Atenas, podiam participar de algumas discussões na Eclésia e possuíam direitos políticos durante o período da democracia.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Tornaram-se legisladoras e integrantes do conselho dos mais velhos na cidade-Estado de Tebas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_44",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "[No Brasil], a transição do predominância indígena para a africana na composição da força\n de trabalho escrava ocorreu aos poucos ao longo de aproximadamente meio século. Quando os senhores de engenho, individualmente, acumulavam recursos financeiros\n suficientes, compravam alguns cativos africanos, e iam acrescentando outros à medida que capital e crédito tornavam-se disponíveis.\n Em fins do século XVI, a mão de obra dos engenhos era mista do ponto de vista racial, e a proporção \nfoi mudando crescentemente em favor dos africanos importados e sua prole.\nStuart Schwartz, Segredos internos. São Paulo: Companhia das Letras,1988, p 68.\n\nCom base na leitura do trecho e em seus conhecimentos, pode-se afirmar corretamente que, no Brasil,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a implementação da escravidão de origem africana não fez desaparecer a escravidão indígena, pois o emprego de ambas podia variar segundo épocas e regiões específicas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "do ponto de vista senhorial, valia a pena pagar mais caro por escravos africanos porque estes viviam mais do que os escravos indígenas, que eram mais baratos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o comércio de escravos africanos foi incompatível com o comércio de indígenas porque eram exercidos por diferentes traficantes, que concorriam entre si.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "havia créditos disponíveis para a compra de escravos africanos, mas não de escravos indígenas, pois a Igreja estava interessada na manutenção de boas relações com os nativos.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a escravização dos indígenas pelos portugueses foi inviabilizada pelo fato de que os povos nativos americanos eram contrários ao aprisionamento de seres humanos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_45",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere as seguintes afirmações:\nI. Uma pessoa em um trampolim é lançada para o alto. No ponto mais alto de sua trajetória, sua aceleração será nula, o que dá a sensação de \"gravidade zero\".\n\nII. A resultante das forças agindo sobre um carro andando em uma estrada em linha reta a uma velocidade constante tem módulo diferente de zero.\n\nIII. As forças peso e normal atuando sobre um livro em repouso em cima de uma mesa horizontal formam um par ação-reação.\n\nDe acordo com as Leis de Newton:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Somente as afirmações l e ll são corretas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Somente as afirmações l e lll são corretas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Somente as afirmações ll e Ill são corretas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Todas as afirmações são corretas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Nenhuma das afirmações é correta.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_46",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: Despreze o peso dos palitos em relação aos módulos das forças F e P.\nUm video bastante popular na Internet mostra um curioso experimento em que uma garrafa de água pendurada por uma corda é\n mantida suspensa por um palito de dente apoiado em uma mesa.\n\nO \"truque\" só é possível pelo uso de outros palitos, formando um tipo de treliça. A figura à direita da foto mostra uma visão lateral do conjunto, destacando duas das forças que atuam sobre o palito 1.\nNesta figura, F é a força que o palito 2 exerce sobre o palito 1 (aplicada a uma distância L do ponto A na borda da mesa), P é a componente vertical da força que a corda exerce sobre o palito 1 (aplicada a uma distância d do ponto A) e θ é o ângulo \nentre a direção da força F e a vertical. Para que o conjunto se mantenha estático, porém na iminência de rotacionar, a relação entre os módulos de F e P deve ser:",
+      "files": [
+        "/data/fuvest/assets/2021/46/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "|F| = |P|*d/(L*cos(θ))",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "|F| = |P|*d/(L*sen(θ))",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "|F| = |P|*cos(θ)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "|F| = |P|*L *cos(θ)/d",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "|F| = |P|*L *sen(θ)/d",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_47",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: π=3, aceleração da gravidade = 10 m/s^2.\nOs smartphones modernos vêm equipados com um acelerômetro, dispositivo que mede acelerações a que o aparelho está submetido.\nO gráfico foi gerado a partir de dados extraídos por um aplicativo do acelerômetro de um smartphone pendurado por um fio e colocado\n para oscilar sob a ação da gravidade. O gráfico mostra os dados de uma das componentes da aceleração \n(corrigidos por um valor de referência constante) em função do tempo.\n\nCom base nos dados do gráfico e considerando que o movimento do smartphone seja o de um pêndulo simples a ângulos pequenos, o comprimento do fio é de aproximadamente:",
+      "files": [
+        "/data/fuvest/assets/2021/47/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "5 cm",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "10 cm",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "50 cm",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "100 cm",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "150 cm",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_48",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: Densidade da água: 1kg/litro. 1 mês = 30 dias. Aceleração da gravidade: g = 10 m/s^2.\nUma comunidade rural tem um consumo de energia elétrica de 2 MWh por mês.\n Para suprir parte dessa demanda, os moradores têm interesse em instalar uma miniusina hidrelétrica em uma queda d'água de 15 m de altura com\n vazão de 10 litros por segundo. O restante do consumo seria complementado com painéis de \nenergia solar que produzem 40 kWh de energia por mês cada um.\nConsiderando que a miniusina hidrelétrica opere 24h por dia com 100% de eficiência,\n o número mínimo de painéis solares necessários para suprir a demanda da comunidade seria de:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "12",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "23",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "30",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "45",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "50",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_49",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: A velocidade da onda propagando-se em uma corda é diretamente proporcional à raiz quadrada da tensão sob a qual a corda está submetida.\n\nOndas estacionárias podem ser produzidas de diferentes formas,\n dentre elas esticando-se uma corda homogênea, fixa em dois pontos separados por uma distância L, e pondo-a a vibrar.\n A extremidade à direita é acoplada a um gerador de frequências, enquanto a outra extremidade está sujeita a uma força tensional produzida ao se pendurar à corda um objeto de massa m0 mantido em repouso.\n O arranjo experimental é ilustrado na figura. Ajustando a frequência do gerador para f1, obtém-se na corda\n uma onda estacionaria que vibra em seu primeiro harmônico.\n\n Ao trocarmos o objeto pendurado por outro de massa M, observa se que a frequência do gerador para que a corda continue a vibrar no primeiro harmônico deve ser ajustada para 2f1. Com isso, é correto concluir que a razão M/m0 deve ser:",
+      "files": [
+        "/data/fuvest/assets/2021/49/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1/4",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1/2",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "4",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_50",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um mol de um gás ideal percorre o processo cíclico ABCA em um diagrama P-V, conforme mostrado na figura,\n sendo que a etapa AB é isobárica, a etapa BC é isocórica e a etapa CA é isotérmica.\n\nConsidere as seguintes afirmações:\nI. O gás libera calor tanto na etapa BC quanto na etapa CA.\n\nII. O módulo do trabalho realizado pelo gás é não nulo tanto na etapa AB quanto na etapa BC. \n\nIII. O gás tem sua temperatura aumentada tanto na etapa AB quanto na etapa CA.\n\nÉ correto o que se afirma em:",
+      "files": [
+        "/data/fuvest/assets/2021/50/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Nenhuma delas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Apenas I.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Apenas II.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Apenas III.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Apenas I e II.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_51",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O olho humano constitui uma complexa estrutura capaz de controlar a luz recebida e produzir imagens nítidas. Em pessoas com visão normal, o olho é capaz \nde acomodar o cristalino para focalizar sobre a retina a luz que vem dos objetos, desde que não estejam muito próximos. Pessoas míopes, por outro lado, apresentam dificuldades em enxergar de\n longe. Ao focalizar objetos situados além do chamado ponto remoto (PR), a imagem forma-se à frente da retina, conforme ilustrado na figura.\n\n Neste caso, lentes corretivas são necessárias\n a fim de que o individuo observe o objeto de forma nítida.\nQual arranjo esquemático melhor descreve a correção realizada por uma lente receitada por um oftalmologista no caso de um indivíduo míope?",
+      "files": [
+        "/data/fuvest/assets/2021/51/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/51/1.png"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/51/2.png"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/51/3.png"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/51/4.png"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/51/5.png"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_52",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: O contato entre dois objetos metálicos permite a passagem de cargas elétricas entre um e outro.\n Suponha que o ar no entorno seja um isolante perfeito.\nDois balões negativamente carregados são utilizados para induzir cargas em latas metálicas,\n alinhadas e em contato, que, inicialmente, estavam eletricamente neutras.\n\n Conforme mostrado na figura, os balões estão próximos, mas jamais chegam a tocar as latas. Nessa configuração, \nas latas 1, 2 e 3 terão, respectivamente, carga total:",
+      "files": [
+        "/data/fuvest/assets/2021/52/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1: zero; 2: negativa; 3: zero.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1: positiva; 2: zero; 3. positiva.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1: zero; 2: positiva; 3: zero.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1: positiva; 2: negativa; 3. positiva.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "1: zero; 2: zero; 3: zero.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_53",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: Suponha que as lâmpadas funcionem de maneira ^ohmica, ou seja, da mesma forma que um resistor\nEm uma luminária de mesa, há duas lâmpadas que podem ser acesas individualmente ou ambas ao mesmo tempo, com cada\n uma funcionando sob a tensão nominal determinada pelo fabricante, de modo que a intensidade \nluminosa de cada lâmpada seja sempre a mesma. Entre os circuitos apresentados, indique aquele \n que corresponde a um arranjo que permite o funcionamento conforme essa descrição.",
+      "files": [
+        "/data/fuvest/assets/2021/53/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Circuito (1)",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Circuito (2)",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Circuito (3)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Circuito (4)",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Circuito (5)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_54",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma esfera metálica de massa m e carga elétrica +q descansa sobre um\n piso horizontal isolante, em uma região em que há um campo elétrico uniforme e também horizontal,\n de intensidade E, conforme mostrado na figura. Em certo instante, com auxílio de uma barra isolante, a esfera é erguida ao longo de uma linha vertical,\n com velocidade constante e contra a ação da gravidade, a uma altura total h, sem nunca abandonar a região de campo elétrico uniforme.\n\nAo longo do movimento descrito, os trabalhos realizados pela força gravitacional e pela força elétrica sobre a esfera são, respectivamente:",
+      "files": [
+        "/data/fuvest/assets/2021/54/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "mgh e qEh",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "-mgh e 0",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "0 e -qEh",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "-mgh e -qEh",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "mgh e 0",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_55",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A energia irradiada pelo Sol provém da conversão de massa em energia durante reações de fusão de núcleos de hidrogênio\n para produzir núcleos de hélio. Atualmente, essas reações permitem ao Sol emitir radiação luminosa a uma potència de aproximadamente\n 4 x 10^(26) W. Supondo que essa potência tenha sido mantida desde o nascimento do Sol, cerca de 5 x 10^9 anos atrás, a massa correspondente \naquela perdida pelo Sol até hoje é mais próxima de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "10^(7) kg.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "10^(17) kg.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "10^(27) kg.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "10^(37) kg.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "10^(47) kg.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_56",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As astronomers gaze into the depths of space, they do so with unease: They don’t know precisely what the universe is made of.Surprisingly, no one knows the stars’ exact chemical composition:\n how many carbon, nitrogen and oxygen atoms they have relative to hydrogen, the most common element.These numbers are crucial, because they affect how stars live and die, what types of planets form and even how readily life might arise on other worlds.Twenty years ago, astronomers expressed \nconfidence in the numbers they had been working with. Now, not so much. The problem lies not in the far corners of the cosmos, but much closer to home. Astonishingly, scientists don’t know exactly what the sun is made of. As a result, they don’t\n know what the other stars are made of, either.“The sun is a fundamental yardstick,” says Martin Asplund, an astrophysicist at the Max Planck Institute for Astrophysics in Garching, Germany. “When we determine the abundance of a certain element in a star or a galaxy or a gas cloud anywhere in the universe, we use the sun as a reference point.\n”The sun’s location in the Milky Way also makes it a good representative of the entire galaxy.most stars in the universe reside in giant galaxies like the Milky Way, which makes the sun a touchstone for the \nentire cosmos.For nearly a century, astronomers have judged stars normal or not by seeing whether their chemical compositions match the sun’s. Most stars near us do; some don’t.\nSegundo o texto, conhecer a composição de elementos químicos que constituem as estrelas é fundamental, pois ela, entre outros aspectos,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "fornece evidências da ligação entre as idades das estrelas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "sugere a existência de planetas rochosos formados por elementos pesados.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "influencia na possibilidade de presença de vida em outros locais do universo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "determina condições cosmológicas da evolução de aglomerados estelares.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "possibilita a síntese de moléculas em nuvens de gás e poeira cósmica.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_57",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As astronomers gaze into the depths of space, they do so with unease: They don’t know precisely what the universe is made of.Surprisingly, no one knows the stars’ exact chemical composition:\n how many carbon, nitrogen and oxygen atoms they have relative to hydrogen, the most common element.These numbers are crucial, because they affect how stars live and die, what types of planets form and even how readily life might arise on other worlds.Twenty years ago, astronomers expressed \nconfidence in the numbers they had been working with. Now, not so much. The problem lies not in the far corners of the cosmos, but much closer to home. Astonishingly, scientists don’t know exactly what the sun is made of. As a result, they don’t\n know what the other stars are made of, either.“The sun is a fundamental yardstick,” says Martin Asplund, an astrophysicist at the Max Planck Institute for Astrophysics in Garching, Germany. “When we determine the abundance of a certain element in a star or a galaxy or a gas cloud anywhere in the universe, we use the sun as a reference point.\n”The sun’s location in the Milky Way also makes it a good representative of the entire galaxy.most stars in the universe reside in giant galaxies like the Milky Way, which makes the sun a touchstone for the \nentire cosmos.For nearly a century, astronomers have judged stars normal or not by seeing whether their chemical compositions match the sun’s. Most stars near us do; some don’t.No texto, o astrofísico Martin Asplund emprega a frase \"The sun is a fundamental yardstick\" por considerar o Sol",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "um mistério",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "uma estrutura",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "um processo",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "um sistema",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "um parâmetro",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_58",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As astronomers gaze into the depths of space, they do so with unease: They don’t know precisely what the universe is made of.Surprisingly, no one knows the stars’ exact chemical composition:\n how many carbon, nitrogen and oxygen atoms they have relative to hydrogen, the most common element.These numbers are crucial, because they affect how stars live and die, what types of planets form and even how readily life might arise on other worlds.Twenty years ago, astronomers expressed \nconfidence in the numbers they had been working with. Now, not so much. The problem lies not in the far corners of the cosmos, but much closer to home. Astonishingly, scientists don’t know exactly what the sun is made of. As a result, they don’t\n know what the other stars are made of, either.“The sun is a fundamental yardstick,” says Martin Asplund, an astrophysicist at the Max Planck Institute for Astrophysics in Garching, Germany. “When we determine the abundance of a certain element in a star or a galaxy or a gas cloud anywhere in the universe, we use the sun as a reference point.\n”The sun’s location in the Milky Way also makes it a good representative of the entire galaxy.most stars in the universe reside in giant galaxies like the Milky Way, which makes the sun a touchstone for the \nentire cosmos.For nearly a century, astronomers have judged stars normal or not by seeing whether their chemical compositions match the sun’s. Most stars near us do; some don’t.Conforme o texto, um critério tradicionalmente utilizado por astrônomos para avaliar estrelas envolve",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "verificar se sua composição se assemelha à do Sol.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "selecionar galáxias compostas por estrelas padrão.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "calcular níveis de radiação estelar e de energia gravitacional.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "medir a densidade e grau de opacidade de nêutrons.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "testar a circulação atmosférica em torno dos astros.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_59",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto para a questão:\nI knew Tik Tok existed, but I didn't fully understand what it was until a few months ago. I also realized that something radical, yet largely in visible, is happening on the internet-with implications we still don't understand.\n\nWhen I was growing up, I took it for granted that the people who became famous enough to be listened to by a crowd had worked hard for that accolade and generally operated with the support of an institution or an established industry.\n\nThe idea that, as a teenager in my bedroom, might suddenly communicate with 100,000 people or more, would have seemed bizarre.\n\nToday's kids no longer see life in these hierarchical and institutional terms. Yes, their physical worlds are often constrained by parental controls, a lack of access to the outdoors and insane over-scheduling.\n\nBut despite that (or, more accurately, in reaction to that), they see the internet as a constantly evolving frontier, where it is still possible for a bold and lucky pioneer to grab some land or find a voice. Most voices on the internet never travel beyond a relatively small network, and much of the content that goes viral on platforms such as Tik Tok, YouTube or Instagram does so because of unseen institutions at work (for example, a public relations team aiming to boost a celebrity's profile).\n\nFame can suddenly appear - and then just as suddenly be taken away again, because the audience gets bored, the platform's algorithms change or the cultural trend that a breakout video has tapped into goes out of fashion.\n\nFor a teenager, social media can seem like a summer garden at dusk filled with fireflies: spots of lights suddenly flare up and then die down, moving in an unpredictable, capricious display Is this a bad thing? We will not know for several years.\n\nFinancial Times. 5 February 20 20. Adaptado.\n\n\nConforme o texto, um aspecto associado ao caráter efêmero da popularidade de um usuário da internet, relativo ao uso de plataformas como TikTok, é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a falta de conhecimento técnico dos adolescentes para o manejo de hardware.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a perda de interesse do público pelas publicações até então atrativas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a competição entre usuários com atitudes pouco éticas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a variedade limitada dos vídeos postados, em razão do tratamento precário das imagens.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a alta capacidade dos vídeos para viralizar entre grupos com interesses conflitantes.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_60",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto para a questão:\nI knew Tik Tok existed, but I didn't fully understand what it was until a few months ago. I also realized that something radical, yet largely in visible, is happening on the internet-with implications we still don't understand.\n\nWhen I was growing up, I took it for granted that the people who became famous enough to be listened to by a crowd had worked hard for that accolade and generally operated with the support of an institution or an established industry.\n\nThe idea that, as a teenager in my bedroom, might suddenly communicate with 100,000 people or more, would have seemed bizarre.\n\nToday's kids no longer see life in these hierarchical and institutional terms. Yes, their physical worlds are often constrained by parental controls, a lack of access to the outdoors and insane over-scheduling.\n\nBut despite that (or, more accurately, in reaction to that), they see the internet as a constantly evolving frontier, where it is still possible for a bold and lucky pioneer to grab some land or find a voice. Most voices on the internet never travel beyond a relatively small network, and much of the content that goes viral on platforms such as Tik Tok, YouTube or Instagram does so because of unseen institutions at work (for example, a public relations team aiming to boost a celebrity's profile).\n\nFame can suddenly appear - and then just as suddenly be taken away again, because the audience gets bored, the platform's algorithms change or the cultural trend that a breakout video has tapped into goes out of fashion.\n\nFor a teenager, social media can seem like a summer garden at dusk filled with fireflies: spots of lights suddenly flare up and then die down, moving in an unpredictable, capricious display Is this a bad thing? We will not know for several years.\n\nFinancial Times. 5 February 20 20. Adaptado.\n\nNo texto, a referência a um jardim de verão ao entardecer, repleto de vagalumes, sugere que, para os adolescentes, as mídias sociais",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "são fonte de pressão e tensão na família.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "favorecem a comunicação dos mais tímidos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "são pautadas por certa imprevisibilidade.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "garantem a funcionalidade de grupos.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "promovem igualdade de expressão.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_61",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "I ain't gonna work on Maggie's farm no more\nI ain't gonna work on Maggie's farm no more\nWell, I wake up in the morning \nFold my hands and pray for rain\nI got a head full of ideas\nThat are drivin' me insane\nIt's a shame the way she makes me scrub the floor \nI ain't gonna work on Maggie's farm no more\n\nI ain't gonna work for Maggie's brother no more \nI ain't gonna work for Maggie's brother no more \nWell, he hands you a nickel \nHe hands yo ua dime \nHe asks you with a grin \nIf you're havin' a good time \nThen he fines you every time you slam the door \nI ain't gonna work for Maggie's brother no more\n\nI ain't gonna work for Maggie's pa no more \nNo, I ain't gonna work for Maggie's pa no more \nWell, he puts his cigar o utin your face just for kicks \nHis bedroom windowit is made out of bricks \nThe National Guard stands around his door \nAh, I ain't gonna work for Maggie's pa no more, alright\n\nBob Dylan, \"Maggie's Farm\", do álbum Bringing it all back home, 1965.\n\nNestas estrofes, o conjunto de cenas descritas mostra que a principal dificuldade experimentada pela pessoa cuja história é contada na letra da música refere-se",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "ao relacionamento difícil com familiares e amigos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "à falta de criatividade diante das exigências do trabalho.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "às restrições impostas a sua liberdade e expressão pessoal.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "à competição por salários mais altos com colegas de trabalho.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "às dificuldades de viver fora de um grande centro urbano.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_62",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia os provérbios:\n\n1. Don't count your chickens before they lay eggs.\n2. Don't bite the hand that feeds you.\n3. Every cloud has a silver lining.\n\nA alternativa que melhor expressa a ideia contida em cada um dos três provérbios, na ordem em que aparecem, é:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Esperteza; desconfiança; foco.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Precipitação; ingratidão; esperança.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Observação; certeza; experiência.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Exagero; harmonia; desaprovação.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Orgulho; desprezo; teimosia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_63",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma última gargalhada estrondosa. E depois, o silência. O palhaço jazia imóvel no chão. Mas seu rosto continua sorrindo, para sempre. Porque a carreira original \ndo Coringa era para durar apenas 30 páginas. O tempo de evenenar Gotham, sequestrar Robin, enfiar um par de sopapos no Homem-Morcego e disparar o primeiro \"vou te matar\" na sua relação.\n Na briga final do Batman nº1, o \"horripilante bufão\" sofria um final digno de sua desumana ironia: ao tropeçar, cravava sua própria adaga no peito. Assim decidiram e desenharam seus pais, os artistas Bill Finger, Bob Kane e Jerry Robinson. Entretanto, o criminoso mostrou, já em sua primeira aventura, um  enorme talento para se rebelar contra a ordem estabelecida. Seu carisma seduziu a editora DC Comics, que impôs o acréscimo de um quadrinho. Já dentro da ambulância, vinha\n à tona \"um dado desconcertante\". E então um médico sentenciava: \"Continua vivo. E vai sobreviver!\".\nTommaso Koch. \"O Coringa completa 80 anos e na Espanha ganha duas HQs, que inspiram debates filosóficos sobre a liberdade\". El País. Junho/2020.\n\nNo fragmento \"AO TROPEÇAR, cravava sua própria adaga no peito\", a oração destacada em letras maiusculas abrange, simultaneamente, as noções de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "proporção e explicação.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "causa e proporção.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "tempo e consequência.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "explicação e consequência.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "tempo e causa.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_64",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma última gargalhada estrondosa. E depois, o silência. O palhaço jazia imóvel no chão. Mas seu rosto continua sorrindo, para sempre. Porque a carreira original \ndo Coringa era para durar apenas 30 páginas. O tempo de evenenar Gotham, sequestrar Robin, enfiar um par de sopapos no Homem-Morcego e disparar o primeiro \"vou te matar\" na sua relação.\n Na briga final do Batman nº1, o \"horripilante bufão\" sofria um final digno de sua desumana ironia: ao tropeçar, cravava sua própria adaga no peito. Assim decidiram e desenharam seus pais, os artistas Bill Finger, Bob Kane e Jerry Robinson. Entretanto, o criminoso mostrou, já em sua primeira aventura, um  enorme talento para se rebelar contra a ordem estabelecida. Seu carisma seduziu a editora DC Comics, que impôs o acréscimo de um quadrinho. Já dentro da ambulância, vinha\n à tona \"um dado desconcertante\". E então um médico sentenciava: \"Continua vivo. E vai sobreviver!\".\nTommaso Koch. \"O Coringa completa 80 anos e na Espanha ganha duas HQs, que inspiram debates filosóficos sobre a liberdade\". El País. Junho/2020.\n\nAs vírgulas em \"E depois, o silêncio.\" e em \"Mas seu rosto continua sorrindo, para sempre.\" são usadas, respectivamente, com a mesma finalidade que as virgulas em",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"Após a queda, tomaram mais cuidado.\" e \"Quanto mais espaço, mais liberdade.\".",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"Aos estrangeiros, ofereceram iguarias.\" e \"Limpavam a casa, e preparávamos as refeições.\".",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"Colheram trigo e nós, algodão.\" e \"Eles se encontraram nas férias, mas não viajaram.\".",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"Para meus amigos, o melhor.\" e \"Organizava tudo, cautelosamente.\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"Viu o espetáculo, considerado o maior fenômeno de bilheteria.\" e \"'Conheço muito bem', afirmou o rapaz.\".",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_65",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma última gargalhada estrondosa. E depois, o silência. O palhaço jazia imóvel no chão. Mas seu rosto continua sorrindo, para sempre. Porque a carreira original \ndo Coringa era para durar apenas 30 páginas. O tempo de evenenar Gotham, sequestrar Robin, enfiar um par de sopapos no Homem-Morcego e disparar o primeiro \"vou te matar\" na sua relação.\n Na briga final do Batman nº1, o \"horripilante bufão\" sofria um final digno de sua desumana ironia: ao tropeçar, cravava sua própria adaga no peito. Assim decidiram e desenharam seus pais, os artistas Bill Finger, Bob Kane e Jerry Robinson. Entretanto, o criminoso mostrou, já em sua primeira aventura, um  enorme talento para se rebelar contra a ordem estabelecida. Seu carisma seduziu a editora DC Comics, que impôs o acréscimo de um quadrinho. Já dentro da ambulância, vinha\n à tona \"um dado desconcertante\". E então um médico sentenciava: \"Continua vivo. E vai sobreviver!\".\nTommaso Koch. \"O Coringa completa 80 anos e na Espanha ganha duas HQs, que inspiram debates filosóficos sobre a liberdade\". El País. Junho/2020.\n\nEm \"Seu carisma seduziu a editora DC Comics, que impôs o acréscimo de um quadrinho.\", o vocábulo \"que\" possui a mesma função sintática desempenhada no texto por",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"imóvel\" em “O palhaço jazia imóvel (...)”",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"Robin\" em \"sequestrar Robin\"",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"seus pais\" em \"Assim decidiram e desenharam seus pais\"",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"se\" em \"talento para se rebelar\"",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"vivo\" em \"Continua vivo\"",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_66",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "- Posso furar os olhos do povo?\nEsta frase besta foi repetida muitas vezes e, em falta de coisa melhor, aceitei-a. Sem dúvida. As mulheres hoje\n não vivem como antigamente, escondidas, evitando os homens. Tudo é descoberto, cara a cara.\n Uma pessoa topa outra. Se gostou, gostou; se não gostou, até logo. E eu de fato não tinha visto nada. As aparências mentem. A terra não é redonda? Esta prova da inocência de Marina me pareceu considerável. Tantos indivíduos\n condenados injustamente neste mundo ruim! O retirante que fora encontrado violando a filha de quatro anos - estava aí um exemplo. As vizinhas tinham visto o homem \nafastando as pernas da menina, todo o mundo pensava que ele era um monstro. Engano. Quem pode lá jurar que isto é assim ou assado ? Procurei mesmo capacitar-me de que Julião Tavares não existia. Julião Tavares era uma sensação.\n Uma sensação desagradável, que eu pretendia afastar de minha casa quando me juntasse àquela sensação agradável que ali estava a choramingar.\nGraciliano Ramos, Angústia.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "se acomoda nos limites da vulgaridade.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "tenta imitar a retórica dos dominantes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "reproduz a lógica do determinismo social.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "atinge a neutralidade do espírito maduro.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "revira os lados contrários da opinião.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_67",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Terça é dia de Veneza revelar as atrações de seu festival anual, cuja \n779 edição começa no dia 2 de setembro, com a dra média \"Lacci\", do romano Daniele Luchetti, seguindo até 12/9, com 50 produções internacionais e uma expectativa (extraoficial) de colocar \"West Side Story\", de Steven Spielberg, na ribalta.\n\nRodrigo Fonseca. \"A espera dos rugidos de Veneza\". O Estado de S. Paulo.Julho/2020. Adaptado.\n\nUm processo de formação de palavras em língua portuguesa é o cruzamento vocabular, em que são misturadas pelo menos duas palavras na formação de uma terceira. A força expressiva\n dessa nova palavra resulta da síntese de significados e do inesperado da combinação, como é o caso de \"dramédia\" no texto. Ocorre esse mesmo tipo de formação em",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"deleitura\" e \"namorido\".",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"passatempo\" e \"micro vestido\".",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "\"hidrelétrica\" e \"sabiamente\".",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"arenista\" e \"girassol\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "\"planalto\" e \"multicor\".",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_68",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto para a questão:\nRomance LIII ou Das Palavras Aéreas\n\nAi, palavras, ai, palavras, \nque estranha potência, a vossa! \nAi, palavras, ai, palavras, \nsois de vento, ides no vento, \nno vento que não retorna, \ne, em tão rápida existência, \ntudo se forma e transforma! \n\nSois de vento, ides no vento, \ne quedais, com sorte no va! (...)\n\nAi, palavras, ai, palavras, \nque estranha potência, a vossa! \nPerdão podíeis ter sido! \n- sois madeira que se corta, \n- sois vin te degraus de escada, \n- sois um pedaço de corda... \n- sois povo pelas janelas, \ncortejo, bandeiras, tropa... \n\nAi, palavras, ai, palavras, \nque estranha potência, a vossa! \nÉreis um sopro na aragem... \n- sois um homem que se enforca!\n\nCecilia Meireles, Romanceiro da inconfidência.\n\nAo substituir a pessoa verbal utilizada para se referir ao substantivo \"palavras\" pela 3ª pessoa do plural, os verbos dos versos \"sois de vento, ides no vento,\" (v. 4) / \"Perdão podíeis ter sido!\" (v. 12) / \"Éreis um sopro na aragem...\" (v. 20) seriam conjugados conforme apresentado na alternativa:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "são, vão, podiam, eram.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "seriam, iriam, podiam, serão.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "eram, foram, poderiam, seriam.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "são, vão, poderiam, eram.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "eram, iriam, podiam, seriam.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_69",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto para a questão:\nRomance LIII ou Das Palavras Aéreas\n\nAi, palavras, ai, palavras, \nque estranha potência, a vossa! \nAi, palavras, ai, palavras, \nsois de vento, ides no vento, \nno vento que não retorna, \ne, em tão rápida existência, \ntudo se forma e transforma! \n\nSois de vento, ides no vento, \ne quedais, com sorte no va! (...)\n\nAi, palavras, ai, palavras, \nque estranha potência, a vossa! \nPerdão podíeis ter sido! \n- sois madeira que se corta, \n- sois vin te degraus de escada, \n- sois um pedaço de corda... \n- sois povo pelas janelas, \ncortejo, bandeiras, tropa... \n\nAi, palavras, ai, palavras, \nque estranha potência, a vossa! \nÉreis um sopro na aragem... \n- sois um homem que se enforca!\n\nCecilia Meireles, Romanceiro da inconfidência.\nA \"estranha potência\" que a voz lírica ressalta nas palavras decorre de uma combinação entre",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "fluidez nos ventos do presente e conteúdo fixo no passado",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "forma abstrata no espaço e presença concreta na história",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "leveza impalpável na arte e vigor nos documentos antigos",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "sonoridade ruidosa nos ares e significado estável no papel",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "lirismo irrefletido da poesia e peso justo dos acontecimentos",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_70",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Alferes, Ouro Preto em sombras \nEspera pelo batizado, \nAinda que tarde sobre a morte do sonhador\nAinda que tarde sobre as bocas do traidor. \nRaios de sol brilharão nos sinos: \nDez vias dar. \n\nAi Marília, as liras e o amor \nNão posso mais sufocar \nE a minha voz irá \nPra muito além do desterro e do sal, \nMaior que a voz do rei.\n \n\nAldir Blanc e João Bosco, trecho da canção \"Alferes\", de 1973.\nA imagem de Tiradentes - a quem Cecília Meireles qualificou \"o Alferes imortal, radiosa expressão dos mais altos sonhos desta cidade, do Brasil e do próprio mundo\", \nem palestra feita em Ouro Preto - torna a aparecer como símbolo da luta pela liberdade em vários momentos da cultura nacional. Os versos do letrista Aldir Blanc\n evocam, em novo contexto, o mártir sonhador para resistir ao discurso",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "da doutrina revolucionária de ligas politicamente engajadas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "da historiografia, que minimizou a importância de Tiradentes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "de autoritarismo e opressão, próprio da ditadura militar.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "os poetas árcades, que se dedicavam às suas liras amorosas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "da tirania portuguesa sobre os mineradores no ciclo do ouro.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_71",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "I\n\n- Traíste-me, Sem Medo. Tu traíste-me.\n\n(...) \n\nSabes o que tu és afinal, Sem Medo? És um ciumento. Chego a pensar se não és homossexual. Tu querias-me so, como tu. Um solitário do Mayombe. (...) Desprezo-te. (...) Nunca me verás atrás de uma garrafa vazia. (...) Cada sucesso que eu tiver, será a paga da tua bofetada, pois não serei um falhado como tu.\n\nPepetela, Moyombe. Adaptado.\n\nII\n\n- Peço-te perdão, Sem Medo. Não te compreendi, fui um imbecil. E quis igualar o inigualável.\n\nPepetela, Mayombe.\n\nEsses excertos de Mayombe referem-se a conversas entre as personagens Comissário e Sem Medo em momentos distintos do romance. Em I e II, as falas do Comissário revelam, respectivamente,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "incompatibilidade étnica entre ele e Sem Medo, por pertencerem a linhagens diferentes, e superação de sua hostilidade tribal.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "decepção, por Sem Medo não ter intercedido a seu favor na conversa com Ondina, e desespero diante do companheiro baleado.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "suspeita de traição de Ondina e tomada de consciência de que isso não passara de uma crise de ciúme dele.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "forte tensão homoafetiva entre ele e Sem Medo, e aceitação da verdadeira orientação sexual do companheiro.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "ira, diante do anticatolicismo de Sem Medo, e culpa que o atinge ao perceber que sua demonstração de coragem colocara o companheiro em risco.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_72",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto para a questão:\n\nLeusipo perguntou o que eu tinha ido fazer na aldeia. Preferi achar que o tom era amistoso e, no meu *paternalismo* ingênuo, comecei a lhe explicar o que era um romance. Eu tentava convencê-lo de que não havia motivo para preocupação. Tudo o que eu queria\n saber já era conhecido. E ele me perguntava \"Então, por que você quer saber, se já sabe? Tentei lhe explicar que pretendia escrever um livro e mais uma vez o que era um romance, o que era um livro de ficção se mostrava o que tinha nas mãos),\n que seria tudo *historinha*, sem nenhuma consequência na realidade. Ele seguia incrédulo. Fazia-se de *desentendido* mas na verdade só queria me intimidar. As minhas explicações sobre o romance eram inúteis. Eu tentava dizer que, para os brancos que não acreditam em deuses, a ficção servia de mitologia, era\n o equivalente dos mitos dos índios, e antes mesmo de terminar a frase, já não sabia se o idiota era ele ou eu. Ele não dizia nada a não ser: \"O que você quer com o passado?\". Repetia. E, diante da sua insistência *bovina* tive de me render à evidência de que eu não sabia responder à sua pergunta.\n\nBernardo Carvalho, Nove noites. Adaptado.\n\n\nSem prejuízo de sentido e fazendo as adaptações necessárias, é possível substituir \nas expressões em destaque (demarcadas com *) no texto, respectivamente, por",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "incompreensão; armação; inofensivo; irredutível.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "altivez; brincadeira; ofendido; mansa.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "ignorância; mentira; prejudicado; alienada.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "complacência; invenção; bobo; cega.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "arrogância; entretenimento; incapaz; animalesca.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_73",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto para a questão:\n\nLeusipo perguntou o que eu tinha ido fazer na aldeia. Preferi achar que o tom era amistoso e, no meu paternalismo ingênuo, comecei a lhe explicar o que era um romance. Eu tentava convencê-lo de que não havia motivo para preocupação. Tudo o que eu queria\n saber já era conhecido. E ele me perguntava \"Então, por que você quer saber, se já sabe? Tentei lhe explicar que pretendia escrever um livro e mais uma vez o que era um romance, o que era um livro de ficção se mostrava o que tinha nas mãos),\n que seria tudo historinha, sem nenhuma consequência na realidade. Ele seguia incrédulo. Fazia-se de desentendido mas na verdade só queria me intimidar. As minhas explicações sobre o romance eram inúteis. Eu tentava dizer que, para os brancos que não acreditam em deuses, a ficção servia de mitologia, era\n o equivalente dos mitos dos índios, e antes mesmo de terminar a frase, já não sabia se o idiota era ele ou eu. Ele não dizia nada a não ser: \"O que você quer com o passado?\". Repetia. E, diante da sua insistência bovina tive de me render à evidência de que eu não sabia responder à sua pergunta.\n\nBernardo Carvalho, Nove noites. Adaptado.\n\n\nAs respostas do narrador às perguntas de Leusipo são uma tentativa de disfarçar o caráter",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "fabular do romance, inspirado nas lendas e tradições dos Krahô.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "investigativo do romance, embasado em testemunhos dos Krahô.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "politico do romance, a respeito das condições de vida dos Krahô.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "etnográfico do romance, através do registro da cultura dos Krahô.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "biográfico do romance, relatando sua vivência junto aos Krahô.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_74",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto para a questão:\n\nLeusipo perguntou o que eu tinha ido fazer na aldeia. Preferi achar que o tom era amistoso e, no meu paternalismo ingênuo, comecei a lhe explicar o que era um romance. Eu tentava convencê-lo de que não havia motivo para preocupação. Tudo o que eu queria\n saber já era conhecido. E ele me perguntava \"Então, por que você quer saber, se já sabe? Tentei lhe explicar que pretendia escrever um livro e mais uma vez o que era um romance, o que era um livro de ficção se mostrava o que tinha nas mãos),\n que seria tudo historinha, sem nenhuma consequência na realidade. Ele seguia incrédulo. Fazia-se de desentendido mas na verdade só queria me intimidar. As minhas explicações sobre o romance eram inúteis. Eu tentava dizer que, para os brancos que não acreditam em deuses, a ficção servia de mitologia, era\n o equivalente dos mitos dos índios, e antes mesmo de terminar a frase, já não sabia se o idiota era ele ou eu. Ele não dizia nada a não ser: \"O que você quer com o passado?\". Repetia. E, diante da sua insistência bovina tive de me render à evidência de que eu não sabia responder à sua pergunta.\n\nBernardo Carvalho, Nove noites. Adaptado.\n\n\nNa cena apresentada, que explora o desconforto gerado pela difícil interlocução com o indígena, o narrador",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "abandona a ideia de investigar o passado, ao se ver encurralado por Leusipo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "explora a sua posição ameaçadora de homem branco, ao insistir em permanecer na aldeia.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "age com ousadia, ao procurar subjugar Leusipo a contribuir com o seu projeto.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "identifica-se com a sabedoria de Leusipo, ao preterir do papel interrogativo e se deixar questionar.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "sente-se frustrado com a reação de Leusipo, que não se deixa levar por sua diplomacia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_75",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Rubião fitava a enseada, - eram oito horas da manhã Quem o visse, com os polegares metidos no cordão do chambre, a janela de uma grande casa de Botafogo, cuidaria que ele admirava aquele pedaço de\n água quieta, mas em verdade vos digo que pensava em outra coisa. Cotejava o passado com o presente. Que era, há um ano? Professor. Que é agora! Capitalista. Olha para si, para as chinelas sumas chinelas de Túnis, que lhe deu recente amigo, Cristiano Palha), para a casa, para o jardim,\n para a enseada, para os morros e para o céu, e tudo, desde as chinelas até o céu, tudo entra na mesma sensação de propriedade.\n\n- Vejam como Deus escreve direito por linhas tortas, pensa ele. Se mana Piedade tem casado\n com Quincas Borba, apenas me daria uma esperança colateral. Não casou; ambos morreram, e aqui está tudo comigo, de modo que o que parecia uma desgraça...\n\nMachado de Assis, Quincas Borba.\nO primeiro capítulo de Quincas Borba já apresenta ao leitor um elemento que será fundamental na construção do romance:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a contemplação das paisagens naturais, como se lê em \"ele admirava aquele pedaço de água quieta\".",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a presença de um narrador-personagem, como se lê em \"em verdade vos digo que pensava em outra coisa\".",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a sobriedade do protagonista ao avaliar o seu percurso, como se lê em \"Cotejava o passado com o presente.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o sentido místico e fatalista que rege os destinos, como se lê em \"Deus escreve direito por linhas tortas\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a reversibilidade entre o cômico e o trágico, como se lê em \"de modo que o que parecia uma desgraça...\".",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_76",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Remissão\n\nTua memória, pasto de poesia,\ntua poesia, pasto dos vulgares,\nvão se engastando numa coisa fria \na que tu chamas: vida, e seus pesares.\n\nMas, pesares de qué? perguntaria, \nse esse travo de angústia nos cantores,\nse o que dorme no base do elegia\nvai correndo e secando pelos ares,\n\ne nada resta, mesmo, do que escreves \ne te forçou ao exílio das palavras, \nse não contentamento de escrever,\n\nenquanto o tempo, e suas formas breves \nou longas, que sutil interpretavas, \nse evapora no fundo do teu ser?\n\nCarlos Drummond de Andrade, Claro enigma. \n\nClaro enigma apresenta, por meio do lirismo reflexivo, o posicionamento do escritor perante a sua condição\n no mundo. Considerando-como representativo desse seu aspecto, o poema \"Remissão\"",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "traduz a melancolia e o recolhimento do eu lírico em face da sensação de incomunicabilidade com uma realidade indiferente à sua poesia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "revela uma perspectiva inconformada, mesclando-a, livre da indulgência dos anos anteriores, a um novo formalismo estético.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "propõe, como reação do poeta à vulgaridade do mundo, uma poética capaz de interferir na realidade pelo viés nostálgico.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "reflete a visão idealizada do trabalho do poeta e a consciência da perenidade da poesia, resistente à passagem do tempo.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "realiza a transição do lirismo social para o lirismo metafísico, caracterizado pela adesão ao conforto espiritual e ao escapismo imaginativo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_77",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O efeito de humor presente nas falas das personagens decorre",
+      "files": [
+        "/data/fuvest/assets/2021/77/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "da quebra de expectativa gerada pela polissemia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "da ambiguidade causada pela antonímia.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "do contraste provocado pela fonética.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "do contraste introduzido pela neologia.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "do estranhamento devido à morfologia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_78",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto para a questão:\n\nPsicanálise do açúcar\n\nO açúcar cristal, ou açúcar de usina, \nmostra a mais instável das brancuras: \nquem do Recife sabe direito o quanto, \ne o pouco desse quanto, que ela dura. \nSabe o mínimo do pouco que o cristal \nse estabiliza cristal sobre o açúcar, \npor cima do fundo antigo, de mascavo, \ndo mascavo barrento que se incuba; \ne sabe que tudo pode romper o mínimo \nem que o cristal é capaz de censura: \npois o tal fundo mascavo logo aflora \nquer inverno ou verão mele o açúcar.\n\nSó os banguês* que-ainda purgam ainda\no açúcar bruto com barro, de mistura; \na usina já não o purga: da infância, \nnão de depois de adulto, ela o educa; \nem enfermarias, com vácuos e turbinas, \nem mãos de metal de gente indústria, \na usina o leva a sublimar em cristal \no pardo do xarope: não o purga, cura. \nMas como a cana se cria ainda hoje, \nem mãos de barro de gente agricultura, \no barrento da pré-infância logo aflora \nquer inverno ou verão mele o açúcar.\n\nJoão Cabral de Melo Neto, A Educação pela Pedra.\n\n*banguê: engenho de açúcar primitivo movido a força animal.\n\nOs últimos quatro versos do poema rompem com a série de contrapontos entre a usina e o banguê, pois",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "negam haver diferença química entre o açúcar cristal e o açúcar mascavo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "esclarecem que a aparência do açúcar varia com a espécie de cana cultivada.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "revelam que na base de toda empresa açucareira está o trabalhador rural.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "denunciam a exploração do trabalho infantil nos canaviais nordestinos.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "explicam que a estação do ano define em qualquer processo o tipo de açúcar.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_79",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto para a questão:\n\nPsicanálise do açúcar\n\nO açúcar cristal, ou açúcar de usina, \nmostra a mais instável das brancuras: \nquem do Recife sabe direito o quanto, \ne o pouco desse quanto, que ela dura. \nSabe o mínimo do pouco que o cristal \nse estabiliza cristal sobre o açúcar, \npor cima do fundo antigo, de mascavo, \ndo mascavo barrento que se incuba; \ne sabe que tudo pode romper o mínimo \nem que o cristal é capaz de censura: \npois o tal fundo mascavo logo aflora \nquer inverno ou verão mele o açúcar.\n\nSó os banguês* que-ainda purgam ainda\no açúcar bruto com barro, de mistura; \na usina já não o purga: da infância, \nnão de depois de adulto, ela o educa; \nem enfermarias, com vácuos e turbinas, \nem mãos de metal de gente indústria, \na usina o leva a sublimar em cristal \no pardo do xarope: não o purga, cura. \nMas como a cana se cria ainda hoje, \nem mãos de barro de gente agricultura, \no barrento da pré-infância logo aflora \nquer inverno ou verão mele o açúcar.\n\nJoão Cabral de Melo Neto, A Educação pela Pedra.\n\n*banguê: engenho de açúcar primitivo movido a força animal.\n\nNa oração \"que ela dura\", o pronome ela",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "não tem referente.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "retoma a palavra \"usina\".",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "pode ser substituído por \"ele\", referindo-se a \"açúcar\".",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "refere-se à \"mais instável das brancuras\".",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "equivale à palavra \"censura\"",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_80",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto para a questão:\n\nPsicanálise do açúcar\n\nO açúcar cristal, ou açúcar de usina, \nmostra a mais instável das brancuras: \nquem do Recife sabe direito o quanto, \ne o pouco desse quanto, que ela dura. \nSabe o mínimo do pouco que o cristal \nse estabiliza cristal sobre o açúcar, \npor cima do fundo antigo, de mascavo, \ndo mascavo barrento que se incuba; \ne sabe que tudo pode romper o mínimo \nem que o cristal é capaz de censura: \npois o tal fundo mascavo logo aflora \nquer inverno ou verão mele o açúcar.\n\nSó os banguês* que-ainda purgam ainda\no açúcar bruto com barro, de mistura; \n|a usina já não o purga: da infância, \nnão de depois de adulto, ela o educa; \nem enfermarias, com vácuos e turbinas, \nem mãos de metal de gente indústria, \na usina o leva a sublimar em cristal \no pardo do xarope|: não o purga, cura. \nMas como a cana se cria ainda hoje, \nem mãos de barro de gente agricultura, \no barrento da pré-infância logo aflora \nquer inverno ou verão mele o açúcar.\n\nJoão Cabral de Melo Neto, A Educação pela Pedra.\n\n*banguê: engenho de açúcar primitivo movido a força animal.\n\nObserve o diagrama que mostra, de forma simplificada, o processo de fabricação do açúcar.\n\nConsiderando essas informações e seu conhecimento sobre separação de\n misturas e transformações químicas e físicas, no demarcado com | no poema, o termo sublimar é usado",
+      "files": [
+        "/data/fuvest/assets/2021/80/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "corretamente para mostrar como do líquido (xarope) é extraído o cristal de açúcar através do processo de evaporação do sólido e secagem.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "em um sentido amplo do processo, já que não corresponde ao que ocorre com o cristal de açúcar, e sim com o melaço, que se separa do xarope.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "metaforicamente, já que ocorre a precipitação do açúcar com o cozimento do xarope, que é separado por centrifugação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "incorretamente, já que a obtenção do açúcar a partir do xarope é uma reação química direta que não necessita de processo de separação.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "em seu sentido literal, já que o açúcar está na fase sólida, no xarope, e passa à fase vapor com o cozimento, formando então cristais de açúcar puro.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_81",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O meme abaixo brinca com conceitos de química em um jogo popular, cujo objetivo é \nque os jogadores descubram o impostor entre os tripulantes de naves e estações espaciais. Nele um dos elementos é\n considerado o impostor por sua característica química diferente.\n\nNesse contexto, é correto afirmar que o impostor seria o elemento:",
+      "files": [
+        "/data/fuvest/assets/2021/81/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "H, por ser um elemento com grande tendência a fazer ligação covalente em uma família com tendência a fazer ligação iônica.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Na, por ser o único que pode ser obtido em sua forma metálica, ao contrário dos demais membros da família, que formam apenas óxidos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "K, por ter raio atômico atipicamente grande, sendo maior do que os elementos abaixo dele na tabela periódica.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Cs, por pertencer à família 2 da tabela periódica, enquanto os demais pertencem à 1, formando cátions +2.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Fr, por reagir violentamente com a água, devido ao seu pequeno raio atômico, liberando muito calor, diferentemente dos demais elementos da família.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_82",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um experimento expôs uma barra de titânio (TI) pura e ligas desse material com 0,01% de diferentes metais nobres a soluções\n de ácido sulfúrico em ebulição para entender o efeito anticorrosivo desses metais no titânio. O resultado é mostrado na tabela a seguir:\n\nCom base nessas informações, é correto afirmar:",
+      "files": [
+        "/data/fuvest/assets/2021/82/0.png",
+        "/data/fuvest/assets/2021/82/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O aumento na concentração de ácido sulfúrico nos experimentos fez com que o titânio puro fosse mais corroído e o titânio com Pd, Rh e Pt fosse menos corroído.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Para Re, Cu e Au, espera-se que a reação com ácido sulfúrico mais concentrado demore muito para acontecer e, por isso, não foi possível medir.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A escala de potencial anticorrosivo, segundo esse experimento, é dada por Au > Cu > Re > Os > Ir > Ru > Pt > Pd > Rh.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Pd, Rh, Pt e Ru apresentaram os melhores resultados  como anticorrosivos, enquanto Cu e Au apresentaram os piores.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "titânio puro é muito resistente ao ácido, e a adição de outros metais não faz nenhuma diferença para a taxa de corrosão.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_83",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um dos indicadores de qualidade de mel é a presença do composto organico hidroximetilfurfural (HMF), formado a partir de certos açúcares,\n como a frutose (C6H12O6). A tabela resume os teores de HMF permitidos de acordo com a legislação brasileira e recomendações internacionais.\nUma das possíveis rotas para a formação do HMF a partir da frutose é mostrada, de forma simplificada, no esquema:\n\nNas setas, são mostradas as perdas de moléculas ou grupos químicos em cada etapa. Por exemplo, entre as espécies 1 e 2, ocorrem a saída de uma molécula de água e a formação de uma ligação dupla entre carbonos.\nDe acordo com o esquema mostrado, as perdas indicadas como I e ll correspondem a:",
+      "files": [
+        "/data/fuvest/assets/2021/83/0.png",
+        "/data/fuvest/assets/2021/83/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1 x H2O e 1 x -CH2",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2 x OH⁻",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2 x H2O",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1 x -CH2 e 1 x OH⁻",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "1 x H20 e 1 x OH⁻",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_84",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Note e adote: massa molar (g/mol): HMF = 126. Desconsidere qualquer possibilidade de contaminação do mel por fonte externa de HMF.\n\nUm dos indicadores de qualidade de mel é a presença do composto organico hidroximetilfurfural (HMF), formado a partir de certos açúcares,\n como a frutose (C6H12O6). A tabela resume os teores de HMF permitidos de acordo com a legislação brasileira e recomendações internacionais.\nUma das possíveis rotas para a formação do HMF a partir da frutose é mostrada, de forma simplificada, no esquema:\n\nNas setas, são mostradas as perdas de moléculas ou grupos químicos em cada etapa. Por exemplo, entre as espécies 1 e 2, ocorrem a saída de uma molécula de água e a formação de uma ligação dupla entre carbonos.\n\nUm frasco contendo 500 g de mel produzido no Brasil foi analisado e concluiu-se que 0,2 milimol de frutose foi convertido em HMF.\n Considerando apenas esse parâmetro de qualidade e tendo como referência os teores recomendados por órgãos \nnacionais e internacionais, mostrados na tabela, e correto afirmar que esse mel",
+      "files": [
+        "/data/fuvest/assets/2021/84/0.png",
+        "/data/fuvest/assets/2021/84/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "é recomendado como mel de mesa, assim como para outros usos que se façam necessários, segundo a legislação brasileira.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "não pode ser usado como mel de mesa, mas pode ser usado para fins industriais, segundo a legislação brasileira.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "pode ser usado para fins industriais, segundo a legislação brasileira, mas não deveria ser usado para nenhum fim, segundo a recomendação internacional.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "não pode ser usado nem como mel de mesa nem para fins industriais, segundo a legislação brasileira, mas poderia ser utilizado segundo a recomendação internacional.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "não pode ser usado para qualquer aplicação, tanto segundo a legislação brasileira quanto segundo a recomendação internacional.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_85",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Observe a representação a seguir, em que os círculos brancos representam uma espécie química (molécula ou íon molecular) e os círculos coloridos, outra.\n\nEssa representação pode ser corretamente associada à",
+      "files": [
+        "/data/fuvest/assets/2021/85/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "combustão de um hidrocarboneto com oxigênio em fase gasosa.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "formação de um polímero a partir de duas espécies de monômeros.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "fusão de uma mistura de dois sais com aumento da temperatura.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "solidificação da água pura com diminuição da temperatura.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "produção de anéis aromáticos em solvente orgânico.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_86",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No fragmento a seguir, o autor explora conceitos químicos na forma de poesia:\n \nSobre os conceitos mencionados, foram feitas as seguintes afirmações: \n\nI. A equação química mostrada na linha 2 pode ser associada à liberação de energia, pois corresponde à reação de fotossíntese com consumo de gás carbônico.\n\nII. A equação química apresentada na linha 6 representa uma reação na qual o número de oxidação das espécies é alterado, sendo associada a corrosão.\n\nIII. O modelo incompleto referido na linha 7 refere-se ao proposto por Thomson, que identificava a presença de partículas com carga negativa dentro de uma esfera.\n\nEstá correto o que se afirma no(s) item(ns):",
+      "files": [
+        "/data/fuvest/assets/2021/86/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "I, apenas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II, apenas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "l e lll, apenas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "II e III, apenas.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "I, II e III.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_87",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Para estudar equilibrio químico de íons Co²⁺ em solução, uma turma de estudantes\n realizou uma série de experimentos explorando a seguinte reação:\n\n Nesse equilibrio, o composto de cobalto com água, (Co(H2O)6]²⁺(aq), apresenta coloração vermelha,\n enquanto o composto com cloretos, [CoCℓ4]²⁻(aq), possui coloração azul. Para verificar o efeito de ânions de diferentes sais nessa mudança de cor, 7 ensaios diferentes foram realizados. Aos tubos contendo apenas alguns mL de uma solução de nitrato de cobalto II, \nde coloração vermelha, foram adicionadas pequenas quantidades de diferentes sais em \ncada tubo, como apresentado na tabela, com exceção do ensaio 1, no qual nenhum sal foi adicionado.\n\nApós agitação, os tubos foram deixados em repouso por um tempo, e a cor final foi observada.\n \n A alternativa que representa a cor final observada nos ensaios 5,6 e 7, respectivamente, é :",
+      "files": [
+        "/data/fuvest/assets/2021/87/0.png",
+        "/data/fuvest/assets/2021/87/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Azul, Azul, Vermelha",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Azul, Vermelha, Azul",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Vermelha, Azul, Azul",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Vermelha, Vermelha, Azul",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Vermelha, Azul, Vermelha",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_88",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A reação de Maillard, que ocorre entre aminoácidos e carboidratos redutores, é a responsável por formar espécies que geram compostos coloridos que\n conferem o sabor característico de diversos alimentos assados. Um exemplo é a reação entre a glicina e um carboidrato redutor mostrada na equação em que representa uma cadeia genérica:\n\nUm aminoácido específico (Composto 1), ao reagir com o carboidrato redutor, pode gerar o composto 2, levando à formação\n de acrilamida, uma espécie potencialmente carcinogénica, conforme mostrado na equação:\n\nA estrutura do aminoácido marcado como Composto 1 e que é capaz de gerar esse intermediário de espécies carcinogênicas é:",
+      "files": [
+        "/data/fuvest/assets/2021/88/0.png",
+        "/data/fuvest/assets/2021/88/1.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/88/2.png"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/88/3.png"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/88/4.png"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/88/5.png"
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": null,
+          "file": "/data/fuvest/assets/2021/88/6.png"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "e"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_89",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em aquários de água marinha, é comum o uso do equipamento chamado \"Skimmer\", aparato em\n que a água recebe uma torrente de bolhas de ar, como representado na figura, levando a matéria orgânica até a superfície, onde pode ser removida. Essa matéria orgânica\n eliminada é composta por moléculas orgânicas com parte apolar e parte polar, enquanto as bolhas formadas têm caráter apolar. Esse aparelho, no entanto, tem rendimento muito menor em aquários de água doce (retira menos quantidade de material orgânico por período de uso).\n\nConsiderando que todas as outras condições são mantidas, o menor rendimento desse aparato em água doce do que em água salgada pode ser explicado porque",
+      "files": [
+        "/data/fuvest/assets/2021/89/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a polaridade da molécula de água na água doce é maior do que na água salgada, tornando as partes apolares das moléculas orgânicas mais solúveis.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a menor concentração de sais na água doce torna as regiões apolares das moléculas orgânicas mais solúveis do que na água salgada, prejudicando a interação com as bolhas de ar.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a água doce é mais polar do que água salgada por ser mais concentrada em moléculas polares como a do açúcar, levando as partes polares das moléculas orgânicas a interagir mais com a água doce.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a reatividade de matéria orgânica em água salgada é maior do que em água doce, fazendo com que exista uma menor quantidade de material dissolvido para interação com as bolhas de ar.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "a concentração de sais na água marinha é maior, o que torna as partes apolares das moléculas orgânicas mais propensas a interagir com os sais dissolvidos, promovendo menor interação com as bolhas de ar.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "fuvest-fuvest-2021-USP_2021_90",
+      "institutionId": "usp",
+      "examId": "fuvest",
+      "editionId": "fuvest-2021",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A destilação é um processo utilizado para separar compostos presentes em uma mistura com base nas suas propriedades físicas como,\n por exemplo, a diferença de temperatura de ebulição, a um a dada pressão, entre os componentes da mistura. Recentemente esse termo passou a figurar em estudos de poluição ambiental, nos\n quais o termo \"destilação global\" é utilizado para explicar a presença de compostos voláteis, como os pesticidas organoclorados, em águas e gelos de regiões polares, ainda que estes compostos nunca tenham sido produzidos ou utilizados nessas regiões.\n Com base no princípio da técnica da destilação, como pode ser explicada a presença desses pesticidas na Antártica e no Ártico?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Eles são destilados nas águas aquecidas dos oceanos e levados pelas correntes marinhas para as regiões polares, onde se precipitam devido às águas frias dessas regiões.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Eles evaporam nas regiões mais quentes e são levados pelas correntes atmosféricas para regiões mais frias como os polos, onde se condensam e voltam para a superfície.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Após destilados, eles se tornam resistentes à degradação, de forma que alcançam todo o planeta, pela ação de correntes marinhas, inclusive as regiões polares.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Os pesticidas organoclorados destilados, por conta da eletronegatividade dos átomos de cloro, têm afinidade com o gelo, o que faz com que eles se acumulem na Antártica ou no Artico.",
+          "file": null
+        },
+        {
+          "id": "e",
+          "label": "E",
+          "text": "Por serem hidrofílicos, eles são condensados juntamente com a água nas regiões quentes do planeta e se precipitam nos polos juntamente com o gelo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}
