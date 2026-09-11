@@ -112,8 +112,9 @@ npm run typecheck
 npm run build
 ```
 
-O catálogo fica em `public/data/manifest.json`. Consulte a documentação de
-[arquitetura](docs/architecture/README.md), a
+O catálogo fica em `public/data/manifest.json`. Consulte o
+[catálogo de provas disponíveis](docs/product/catalogo-de-provas.md), a
+documentação de [arquitetura](docs/architecture/README.md), a
 [política de seleção entre edições](docs/product/prova-ativa.md), a configuração
 de [backend](docs/backend/README.md) e a matriz de
 [testes](docs/testing/README.md).
