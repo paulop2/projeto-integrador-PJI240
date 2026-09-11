@@ -1,0 +1,259 @@
+{
+  "generatedBy": "scripts/import-comvest.ts",
+  "provenance": {
+    "dataset": "BLUEX",
+    "institution": "unicamp",
+    "phase": "first",
+    "commit": "6cdd69bd8dc8d0144e6bb01501ccae312720a0e6",
+    "zip": {
+      "fileName": "bluex_dataset.zip",
+      "sha256": "5a02d9fcd5714332ea14afd2c412fb1839a7af518b1c6bd29008ad9b8ccf55d2",
+      "expected": "5a02d9fcd5714332ea14afd2c412fb1839a7af518b1c6bd29008ad9b8ccf55d2",
+      "verified": true
+    }
+  },
+  "summary": {
+    "sourceQuestionCount": 630,
+    "publishedQuestionCount": 627,
+    "rejectedQuestionCount": 3,
+    "referencedAssetCount": 334,
+    "ignoredAssetCount": 20,
+    "editions": [
+      {
+        "editionId": "comvest-2018",
+        "year": 2018,
+        "day": null,
+        "questionCount": 90,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "comvest-2019",
+        "year": 2019,
+        "day": null,
+        "questionCount": 89,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "comvest-2020",
+        "year": 2020,
+        "day": null,
+        "questionCount": 90,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "philosophy",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "comvest-2021-day1",
+        "year": 2021,
+        "day": 1,
+        "questionCount": 71,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "comvest-2021-day2",
+        "year": 2021,
+        "day": 2,
+        "questionCount": 71,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "comvest-2022",
+        "year": 2022,
+        "day": null,
+        "questionCount": 72,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "comvest-2023",
+        "year": 2023,
+        "day": null,
+        "questionCount": 72,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "physics",
+          "portuguese"
+        ]
+      },
+      {
+        "editionId": "comvest-2024",
+        "year": 2024,
+        "day": null,
+        "questionCount": 72,
+        "subjectIds": [
+          "biology",
+          "chemistry",
+          "english",
+          "geography",
+          "history",
+          "mathematics",
+          "philosophy",
+          "physics",
+          "portuguese"
+        ]
+      }
+    ]
+  },
+  "rejections": [
+    {
+      "sourceFile": "2019/60.json",
+      "sourceId": "UNICAMP_2019_60",
+      "editionId": "comvest-2019",
+      "reason": "empty-answer",
+      "detail": "the source question has an empty answer"
+    },
+    {
+      "sourceFile": "2021/day1/41.json",
+      "sourceId": "UNICAMP_2021_41",
+      "editionId": "comvest-2021-day1",
+      "reason": "alternative-image-count-unsupported",
+      "detail": "alternative \"a\" references 3 images"
+    },
+    {
+      "sourceFile": "2021/day2/48.json",
+      "sourceId": "UNICAMP_2021_48",
+      "editionId": "comvest-2021-day2",
+      "reason": "empty-answer",
+      "detail": "the source question has an empty answer"
+    }
+  ],
+  "ignoredAssets": [
+    {
+      "path": "imgs/UNICAMP/2021/day1/33/0.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/35/1.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/38/1.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/38/2.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/38/3.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/38/4.jpg",
+      "reason": "orphan-file"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/1.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/10.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/11.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/12.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/13.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/2.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/3.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/4.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/5.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/6.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/7.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/8.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day1/41/9.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
+      "path": "imgs/UNICAMP/2021/day2/68/2.jpg",
+      "reason": "unreferenced-associated-image"
+    }
+  ]
+}

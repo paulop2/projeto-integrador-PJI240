@@ -1,3 +1,6 @@
+import { existsSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
+
 import { describe, expect, it, vi } from 'vitest';
 
 import package2022Body from '../public/data/enem/enem-2022.json?raw';
@@ -13,6 +16,12 @@ import {
   isCompleteEnemQuestion,
   normalizeEnemQuestion,
 } from '../src/data/enem-normalizer';
+
+const comvestPackageBodies = import.meta.glob('../public/data/comvest/*.json', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+}) as Record<string, string>;
 
 const sourceQuestion = (overrides: Partial<EnemApiQuestion> = {}): EnemApiQuestion => ({
   title: 'Questão 7 - ENEM 2024',
@@ -232,12 +241,13 @@ describe('package and catalog generation', () => {
 
   it('ships both real imported editions with valid manifest hashes, sizes, and counts', async () => {
     const manifest = catalogManifestSchema.parse(JSON.parse(manifestBody));
-    expect(manifest.packages.map(({ id, questionCount }) => [id, questionCount])).toEqual([
+    const enemDescriptors = manifest.packages.filter(({ examId }) => examId === 'enem');
+    expect(enemDescriptors.map(({ id, questionCount }) => [id, questionCount])).toEqual([
       ['enem-2022', 185],
       ['enem-2023', 182],
     ]);
 
-    for (const descriptor of manifest.packages) {
+    for (const descriptor of enemDescriptors) {
       const body = publishedPackageBodies.get(descriptor.id);
       if (body === undefined) throw new Error(`missing test fixture for ${descriptor.id}`);
       const questionPackage = questionPackageSchema.parse(JSON.parse(body));
@@ -271,5 +281,99 @@ describe('package and catalog generation', () => {
         .not.toContain(`${packageId.replace('enem-', 'enem-enem-')}-1`);
       expect(new Set(questions.map(({ id }) => id)).size).toBe(questions.length);
     }
+  });
+});
+
+const parsePublishedComvest = () =>
+  [...Object.entries(comvestPackageBodies)].map(([file, body]) => {
+    const questionPackage = questionPackageSchema.parse(JSON.parse(body));
+    return { file, body, questionPackage };
+  });
+
+const listPublishedAssets = (root: string): string[] => {
+  const assets: string[] = [];
+  for (const entry of readdirSync(root, { withFileTypes: true })) {
+    const full = join(root, entry.name);
+    if (entry.isDirectory()) assets.push(...listPublishedAssets(full));
+    else assets.push(full.replaceAll('\\', '/'));
+  }
+  return assets.sort();
+};
+
+describe('Comvest published package', () => {
+  it('ships the eight Comvest editions with valid manifest hashes, sizes and counts', async () => {
+    const manifest = catalogManifestSchema.parse(JSON.parse(manifestBody));
+    const descriptors = manifest.packages.filter(({ examId }) => examId === 'comvest');
+    const expectedCounts = new Map([
+      ['comvest-2018', 90],
+      ['comvest-2019', 89],
+      ['comvest-2020', 90],
+      ['comvest-2021-day1', 71],
+      ['comvest-2021-day2', 71],
+      ['comvest-2022', 72],
+      ['comvest-2023', 72],
+      ['comvest-2024', 72],
+    ]);
+
+    expect(descriptors).toHaveLength(8);
+    expect(descriptors.map(({ id, questionCount }) => [id, questionCount])).toEqual([
+      ...expectedCounts.entries(),
+    ]);
+
+    for (const descriptor of descriptors) {
+      const body = comvestPackageBodies[`../public/data/comvest/${descriptor.id}.json`];
+      if (body === undefined) throw new Error(`missing published package ${descriptor.id}`);
+      const questionPackage = questionPackageSchema.parse(JSON.parse(body));
+
+      expect(questionPackage.packageId).toBe(descriptor.id);
+      expect(questionPackage.institutionId).toBe('unicamp');
+      expect(questionPackage.examId).toBe('comvest');
+      expect(questionPackage.editionId).toBe(descriptor.id);
+      expect(descriptor.byteSize).toBe(new TextEncoder().encode(body).byteLength);
+      expect(descriptor.sha256).toBe(`sha256:${await sha256(body)}`);
+      expect(descriptor.questionCount).toBe(questionPackage.questions.length);
+      expect(questionPackage.questions.every(({ kind }) => kind === 'single-choice')).toBe(true);
+    }
+  });
+
+  it('keeps the 2021 day editions distinct and never collides with ENEM or within Comvest', () => {
+    const comvestQuestions = parsePublishedComvest().flatMap(({ questionPackage }) =>
+      questionPackage.questions,
+    );
+    const comvestIds = comvestQuestions.map(({ id }) => id);
+    const enemIds = [...publishedPackageBodies.values()].flatMap((body) =>
+      questionPackageSchema.parse(JSON.parse(body)).questions.map(({ id }) => id),
+    );
+
+    expect(comvestQuestions).toHaveLength(627);
+    expect(new Set(comvestIds).size).toBe(comvestIds.length);
+    expect(new Set([...comvestIds, ...enemIds]).size).toBe(comvestIds.length + enemIds.length);
+    expect(comvestIds).toContain('comvest-comvest-2021-day1-UNICAMP_2021_1');
+    expect(comvestIds).toContain('comvest-comvest-2021-day2-UNICAMP_2021_1');
+    expect(comvestIds).toContain('comvest-comvest-2019-UNICAMP_2019_53');
+  });
+
+  it('publishes every referenced asset locally, leaves no image marker and no orphan asset', () => {
+    const questions = parsePublishedComvest().flatMap(({ questionPackage }) =>
+      questionPackage.questions,
+    );
+    const referenced = new Set<string>();
+    for (const question of questions) {
+      for (const file of question.files) referenced.add(file);
+      for (const { file } of question.alternatives) if (file) referenced.add(file);
+      const texts = [question.context ?? '', ...question.alternatives.map(({ text }) => text ?? '')];
+      expect(texts.join('\n')).not.toContain('[IMAGE');
+    }
+
+    for (const file of referenced) {
+      expect(file.startsWith('/data/comvest/assets/')).toBe(true);
+      expect(existsSync(join('public', file))).toBe(true);
+    }
+
+    const publishedAssets = listPublishedAssets(join('public', 'data', 'comvest', 'assets')).map(
+      (file) => file.replace(/^public/, ''),
+    );
+    expect(publishedAssets).toHaveLength(referenced.size);
+    expect(publishedAssets.every((file) => referenced.has(file))).toBe(true);
   });
 });

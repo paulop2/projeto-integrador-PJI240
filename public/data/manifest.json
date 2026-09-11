@@ -1,13 +1,23 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-10T19:07:41.919Z",
+  "generatedAt": "2026-09-11T02:13:01.844Z",
   "institutions": [
     {
       "id": "inep",
       "name": "Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira"
+    },
+    {
+      "id": "unicamp",
+      "name": "Universidade Estadual de Campinas (Comvest)"
     }
   ],
   "exams": [
+    {
+      "id": "comvest",
+      "institutionId": "unicamp",
+      "name": "Comvest — Vestibular Unicamp",
+      "category": "vestibular"
+    },
     {
       "id": "enem",
       "institutionId": "inep",
@@ -16,6 +26,54 @@
     }
   ],
   "editions": [
+    {
+      "id": "comvest-2018",
+      "examId": "comvest",
+      "label": "Vestibular Unicamp 2018",
+      "year": 2018
+    },
+    {
+      "id": "comvest-2019",
+      "examId": "comvest",
+      "label": "Vestibular Unicamp 2019",
+      "year": 2019
+    },
+    {
+      "id": "comvest-2020",
+      "examId": "comvest",
+      "label": "Vestibular Unicamp 2020",
+      "year": 2020
+    },
+    {
+      "id": "comvest-2021-day1",
+      "examId": "comvest",
+      "label": "Vestibular Unicamp 2021 — dia 1",
+      "year": 2021
+    },
+    {
+      "id": "comvest-2021-day2",
+      "examId": "comvest",
+      "label": "Vestibular Unicamp 2021 — dia 2",
+      "year": 2021
+    },
+    {
+      "id": "comvest-2022",
+      "examId": "comvest",
+      "label": "Vestibular Unicamp 2022",
+      "year": 2022
+    },
+    {
+      "id": "comvest-2023",
+      "examId": "comvest",
+      "label": "Vestibular Unicamp 2023",
+      "year": 2023
+    },
+    {
+      "id": "comvest-2024",
+      "examId": "comvest",
+      "label": "Vestibular Unicamp 2024",
+      "year": 2024
+    },
     {
       "id": "enem-2022",
       "examId": "enem",
@@ -31,6 +89,14 @@
   ],
   "subjects": [
     {
+      "id": "biology",
+      "name": "Biologia"
+    },
+    {
+      "id": "chemistry",
+      "name": "Química"
+    },
+    {
       "id": "ciencias-humanas",
       "name": "Ciências Humanas e suas Tecnologias"
     },
@@ -39,15 +105,237 @@
       "name": "Ciências da Natureza e suas Tecnologias"
     },
     {
+      "id": "english",
+      "name": "Inglês"
+    },
+    {
+      "id": "geography",
+      "name": "Geografia"
+    },
+    {
+      "id": "history",
+      "name": "História"
+    },
+    {
       "id": "linguagens",
       "name": "Linguagens, Códigos e suas Tecnologias"
     },
     {
       "id": "matematica",
       "name": "Matemática e suas Tecnologias"
+    },
+    {
+      "id": "mathematics",
+      "name": "Matemática"
+    },
+    {
+      "id": "philosophy",
+      "name": "Filosofia"
+    },
+    {
+      "id": "physics",
+      "name": "Física"
+    },
+    {
+      "id": "portuguese",
+      "name": "Língua Portuguesa"
     }
   ],
   "packages": [
+    {
+      "id": "comvest-2018",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "url": "/data/comvest/comvest-2018.json",
+      "version": 1,
+      "sha256": "sha256:88c21129c752f5ef4bd56cb61db85745b7db4d0c56a6e0232d459306b3f34071",
+      "byteSize": 175975,
+      "questionCount": 90,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "comvest-2019",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2019",
+      "url": "/data/comvest/comvest-2019.json",
+      "version": 1,
+      "sha256": "sha256:896e49ccd16ade5143bc380b97942a42fdd23b0863d2085daec61173f6de71dc",
+      "byteSize": 182868,
+      "questionCount": 89,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "comvest-2020",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "url": "/data/comvest/comvest-2020.json",
+      "version": 1,
+      "sha256": "sha256:ca9c54792f22d93deab229e8947d40a992d96f3de70e12350053e6eab53b7a25",
+      "byteSize": 176293,
+      "questionCount": 90,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "philosophy",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "comvest-2021-day1",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day1",
+      "url": "/data/comvest/comvest-2021-day1.json",
+      "version": 1,
+      "sha256": "sha256:5cda20a57f53e0177d37812064f5469faaaaf584a3061ddefc2d2ef9aa1a0b75",
+      "byteSize": 139729,
+      "questionCount": 71,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "comvest-2021-day2",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "url": "/data/comvest/comvest-2021-day2.json",
+      "version": 1,
+      "sha256": "sha256:4c92826bea4aeba86c85c8159a0ad35cc7d3b22fe32bced175696aa2e9322082",
+      "byteSize": 143194,
+      "questionCount": 71,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "comvest-2022",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2022",
+      "url": "/data/comvest/comvest-2022.json",
+      "version": 1,
+      "sha256": "sha256:09cde68a5e65db0b5b2d818c45a903f45ba09943ac35625f2a082c571891f354",
+      "byteSize": 163219,
+      "questionCount": 72,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "comvest-2023",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2023",
+      "url": "/data/comvest/comvest-2023.json",
+      "version": 1,
+      "sha256": "sha256:6cf8b6bdde89f6c999d5280695cbda02c442e19a79463122ed3d2f3fd8def893",
+      "byteSize": 155395,
+      "questionCount": 72,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "comvest-2024",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "url": "/data/comvest/comvest-2024.json",
+      "version": 1,
+      "sha256": "sha256:3a7a79ae24edb0cb65385dc5a21a021ccb099eb91a29648f157ef4354bb82b5a",
+      "byteSize": 148718,
+      "questionCount": 72,
+      "subjectIds": [
+        "biology",
+        "chemistry",
+        "english",
+        "geography",
+        "history",
+        "mathematics",
+        "philosophy",
+        "physics",
+        "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
     {
       "id": "enem-2022",
       "institutionId": "inep",

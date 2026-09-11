@@ -1,0 +1,3174 @@
+{
+  "schemaVersion": 1,
+  "packageId": "comvest-2021-day2",
+  "institutionId": "unicamp",
+  "examId": "comvest",
+  "editionId": "comvest-2021-day2",
+  "questions": [
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_1",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "GÊNESIS (INTRO) \nDeus fez o mar, as árvore, as criança, o amor \nO homem me deu a favela, o crack, a trairagem \nAs arma, as bebida, as puta \nEu? \nEu tenho uma Bíblia velha, uma pistola automática \nUm sentimento de revolta \nEu tô tentando sobreviver no inferno \n(Racionais Mc's, Sobrevivendo no inferno. São Paulo: Companhia das Letras, \n2018, p. 45.) \n \n“Gênesis” é a segunda canção do álbum Sobrevivendo no \nInferno. É antecedida pela invocação de uma outra canção, \nintitulada “Jorge da Capadócia”, de Jorge Ben.  \nÉ  correto  afirmar  que  as  evocações  dos  elementos \nreligiosos nesse álbum",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "legitimam a violência social a que estão submetidos os \npobres.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "dificultam  a  tomada  de  consciência  da  população \nnegra.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "articulam  as  esferas  ética  e  estética  da  experiência \nhumana na poesia.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "dissimulam a hipocrisia moral das pessoas religiosas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_2",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Tradicionalmente, o palco pode apresentar uma variedade \nde  estilos  cênicos,  entre  os  quais  se  destacam  o  estilo \nrealista (põe em evidência detalhes ambientais para sugerir \nsensações e emoções vividas pelas personagens), o estilo \nexpressionista (os objetos são distorcidos ou estilizados, \ncom o fim de sugerir, mais que mostrar, o ambiente de \natuação das personagens), o estilo simbolista (os objetos \nconcretos sugerem ideias abstratas, segundo associações \nsinestéticas tradicionais: o verde, vestido pelos mágicos, \nindica a esperança; o vermelho, a cor do demônio, sugere \numa paixão violenta; a veste branca simboliza a candura, a \ncastidade). \n(Adaptado de Salvatore D´Onofrio, Teoria do texto 2: Teoria da lírica e do \ndrama. São Paulo: Ática, 1995, p. 138.) \n \nSem identidade, hierarquias no chão, estilos misturados, \na pós-modernidade é isto e aquilo, num presente aberto \npelo e.  \n(Jair Ferreira dos Santos, O que é o pós-moderno. São Paulo: Brasiliense, 2004, \np. 110.) \n \nCom  base  nas  indicações  cênicas  (as  didascálias)  que \nabrem  e  fecham  a  peça  O  marinheiro,  de  Fernando \nPessoa, é correto afirmar que o seu estilo é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "expressionista, dadas a ausência de ações dramáticas \ne  a  presença  de  sugestões  alegóricas  como,  por \nexemplo, o canto do galo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "simbolista, uma vez que os elementos que compõem a \ncena  dramática  sugerem  alguns  significados  de \nnatureza filosófica.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "realista,  porque  as  imagens  da  noite,  do  luar  e  do \nalvorecer indicam precisamente a passagem do tempo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "pós-modernista,  tendo  em  vista  que  os  objetos \ndescritos  criam  uma  atmosfera  mágica,  na  qual  a \nilusão não se distingue da realidade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_3",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia o poema e responda à questão que se segue. \n \nA fermosura desta fresca serra \ne a sombra dos verdes castanheiros, \no manso caminhar destes ribeiros, \ndonde toda a tristeza se desterra; \n \no rouco som do mar, a estranha terra, \no esconder do Sol pelos outeiros, \no recolher dos gados derradeiros, \ndas nuvens pelo ar a branda guerra; \n \nenfim, tudo o que a rara natureza \ncom tanta variedade nos oferece, \nse está, se não te vejo, magoando. \n \nSem ti, tudo me enoja e me aborrece; \nsem ti, perpetuamente estou passando, \nnas mores alegrias, mor tristeza. \n \nÉ correto afirmar que, no soneto de Camões,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a beleza natural aborrece o eu lírico, uma vez que se \ntransforma em objeto de suas maiores tristezas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a  variedade  da  paisagem  está  em  harmonia  com  o \nsentimento do eu lírico porque a relação amorosa é \nimperfeita.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a  harmonia  da  natureza  consola  o  eu  lírico  das \nimperfeições da vida e da ausência da pessoa amada.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a  singularidade  da  natureza  entristece  o  eu  lírico \nquando ele está distante da pessoa amada.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_4",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O conto “O espelho”, de Machado de Assis, apresenta o \nesboço  de  uma  teoria  sobre  a  alma  humana.  A  tese \napresentada defende a existência de duas almas (interior e \nexterior), que completam o homem. Contudo, o narrador \nfaz uma distinção entre as almas que mudam de natureza \ne  estado  e  aquelas  que  são  enérgicas.  Escolha  a \nalternativa que ilustra, no conto, a mutabilidade da alma \nexterior.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A liderança é a força sem a qual o poder político de \nOliver Cromwell se extingue.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A patente é a marca de distinção, sem a qual Jacobina \nse extingue.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Os versos de Luís de Camões são uma declaração de \namor à pátria, pela qual o poeta se dispõe a morrer.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "As  moedas  de  ouro  são  o  valor  visível  sem  o  qual \nShylock prefere morrer.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_5",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“ O vento da vida, por mais que cresça, nunca pode chegar \na  ser  bonança;  o  vento  da  fortuna  pode  chegar  a  ser \ntempestade, e tão grande tempestade, que se afogue nela \no mesmo vento da vida.”  \n(Antônio Vieira, “Sermão de quarta-feira de cinza do ano de 1672”, em A Arte de \nMorrer. São Paulo: Nova Alexandria, 1994, p. 56.)   \n \nNo  sermão  proferido  na  Igreja  de  Santo  Antônio  dos \nPortugueses,  em  Roma,  Vieira  recorre  a  uma  metáfora \npara chamar a atenção dos fiéis sobre a morte.  \nAssinale a alternativa que expressa a mensagem veiculada \npela imagem do vento.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A vida dos fiéis é comparável à tranquilidade da brisa \nem alto-mar.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A  fortuna  dos  fiéis  é  comparável  à  força  das \nintempéries marítimas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A fortuna dos fiéis é comparável à felicidade eterna.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A  vida  dos  fiéis  é  comparável  à  ventura  dos \nnavegadores.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_6",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“─ Reputação! Ora, mamãe, e é a senhora quem me fala \nnisso! \nCamila  estacou,  sem  atinar  com  a  resposta, \ncompreendendo o alcance das palavras do filho. \nA surpresa paralisou-lhe a língua; o sangue arrefeceu-se-\nlhe  nas  veias;  mas,  de  repente,  a  reação  sacudiu-a  e \nentão, num desatino, ferida no coração, ela achou para o \nMário admoestações mais ásperas. Percebeu que a língua \nmais dizia que a sua vontade; mas não poderia contê-la. A \ndor  atirava-a  para  diante,  contra  aquele  filho,  até  então \npoupado.” \n(Júlia Lopes de Almeida, A falência. Campinas: Editora da Unicamp, 2018, p. \n123.)   \nA passagem apresenta a reação de Camila às palavras de \nseu filho. Assinale a alternativa que explica corretamente o \ncomentário de Mário.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Mário contrapõe-se à censura materna com sentimento \nde compaixão.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Mário rejeita as reservas maternas com censura moral.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Mário contrapõe-se à censura materna com desdém \npela família.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Mário  rejeita  as  reservas  maternas  com  vergonha \npelas dívidas acumuladas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_7",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Num  mundo  dominado  por  homens,  a  mulher  é  tratada \ncomo um ser diferenciado, que merece uma designação \nespecial. Enquanto a expressão “o homem” pode equivaler \na “o ser humano”, como na frase “O homem é mortal”, a \nexpressão “a mulher” só se refere aos seres humanos do \ngênero  feminino. A  língua  também  revela  um  tratamento \ndiferente  dado  à  mulher  na  sociedade  ao  conter \ndesignações  específicas  para  ela,  inexistentes  para  o \nhomem.  Assim,  a  mulher  de  um  chefe  de  governo  é \nchamada de “primeira-dama”, mas o marido de uma mulher \nque  desempenha  aquele  cargo  não  é  chamado  de \n“primeiro-cavalheiro”.  \nConta-se que Cecília Meireles recusava a designação de \n“poetisa”, por achar que esse termo não tinha a mesma \nconotação  de  “poeta”  (usado  para  os  homens),  ao \ncontrário,  soava  até  pejorativo.  Por  outro  lado,  Dilma \nRousseff  exigia  que  a  tratassem  por  “presidenta”  para \nenfatizar que quem ocupava o cargo de chefe da nação \nbrasileira era finalmente uma mulher.  \n(Adaptado de Francisco Jardes Nobre de Araújo, O machismo na linguagem. \nDisponível  em  https://www.parabolablog.com.br/index.php/  blogs/o-machismo-\nna-linguagem?fbclid=IwAR0n7sVvu2mNioWa1Gpp0BZL4TP6Uo-hGK7DKyltgIxk \nd tRfoOaI6OEPCZE. Acessado em 05/06/2020.) \n \nSegundo o autor de “O machismo na linguagem”,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o  hábito  de  usar  “o  homem”  para  representar  a \nhumanidade  faz  com  que  o  feminino  se  torne  um \ngênero subalterno.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a prática da designação do gênero feminino na língua \nportuguesa leva ao fim do privilégio do masculino na \nlinguagem.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o  emprego  de  palavras  no  feminino  evita  o  viés \nmachista e incentiva uma menor diferenciação entre os \ngêneros.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a escolha de algumas palavras para marcar o gênero \nfeminino pode se relacionar com a valorização social da \nmulher.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_8",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A Amazônia em chamas, a censura voltando, a economia \nestagnada, e a pessoa quer falar de quê? Dos cafonas. Do \nimpério da cafonice que nos domina. O cafona fala alto e \nse orgulha de ser grosseiro e sem compostura. Acha que \npode tudo. Não há ética que caiba a ele. Enganar é ok. \nAgredir  é  ok.  Gentileza,  educação,  delicadeza,  para  um \nconvicto  e  ruidoso  cafona,  é  tudo  coisa  de  maricas.  O \ncafona fura filas, canta pneus e passa sermões. Despreza \na ciência, porque ninguém pode ser mais sabido que ele. O \ncafona  quer  ser  autoridade,  para  poder  dar  carteiradas. \nQuer bajular o poderoso e debochar do necessitado. Quer \nandar armado. Quer tirar vantagem em tudo. Unidos, os \ncafonas  fazem  passeatas  de  apoio  e  protestos  a  favor. \nAtacam como hienas e se escondem como ratos. Existe \nalgo  mais  brega  do  que  um  rico  roubando?  Algo  mais \nchique  do  que  um  pobre  honesto?  É  sobre  isso  que  a \npessoa quer falar, apesar de tudo que está acontecendo. \nPorque só o bom gosto pode salvar este país. \n(Adaptado  de  Fernanda  Young,  Bando  de  cafonas.  Publicado  em  https: \n//oglobo.globo.com/cultura/em-sua-ultima-coluna-fernanda-young-sent  encia-\ncafonice-detesta-arte-23903168. Acessado em 27/05/2020.) \n \n*cafona: quem tem ou revela mau gosto (roupa cafona); que \nrevela gosto ou atitude vulgares. (Adaptado de aulete.com.br.)  \n \nEssa releitura do significado de “cafona” salienta",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a  importância  das  atitudes  de  determinado  grupo  de \npessoas em relação aos problemas que o país de fato \nenfrenta.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o  controle  do  poder  político  nas  mãos  de  pessoas \ndesprovidas de ética e educação nas formas como se \nrelacionam com o meio ambiente.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a  incorporação  de  padrões  de  comportamento  e  de \nconvivência  social  baseada  na  vulnerabilidade  das \nclasses minoritárias.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o privilégio de uma parcela da sociedade em relação a \noutras  e  a  forma  como  isso  determina  os  dilemas \nenfrentados pelo país.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_9",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A Amazônia em chamas, a censura voltando, a economia \nestagnada, e a pessoa quer falar de quê? Dos cafonas. Do \nimpério da cafonice que nos domina. O cafona fala alto e \nse orgulha de ser grosseiro e sem compostura. Acha que \npode tudo. Não há ética que caiba a ele. Enganar é ok. \nAgredir  é  ok.  Gentileza,  educação,  delicadeza,  para  um \nconvicto  e  ruidoso  cafona,  é  tudo  coisa  de  maricas.  O \ncafona fura filas, canta pneus e passa sermões. Despreza \na ciência, porque ninguém pode ser mais sabido que ele. O \ncafona  quer  ser  autoridade,  para  poder  dar  carteiradas. \nQuer bajular o poderoso e debochar do necessitado. Quer \nandar armado. Quer tirar vantagem em tudo. Unidos, os \ncafonas  fazem  passeatas  de  apoio  e  protestos  a  favor. \nAtacam como hienas e se escondem como ratos. Existe \nalgo  mais  brega  do  que  um  rico  roubando?  Algo  mais \nchique  do  que  um  pobre  honesto?  É  sobre  isso  que  a \npessoa quer falar, apesar de tudo que está acontecendo. \nPorque só o bom gosto pode salvar este país. \n(Adaptado  de  Fernanda  Young,  Bando  de  cafonas.  Publicado  em  https: \n//oglobo.globo.com/cultura/em-sua-ultima-coluna-fernanda-young-sent  encia-\ncafonice-detesta-arte-23903168. Acessado em 27/05/2020.)\nEm relação aos recursos de coesão usados na construção \ndo texto, é correto afirmar que:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a  “economia  estagnada”  é  retomada  no  uso  da \nexpressão “dar carteiradas”.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o uso de “isso”, no final do texto, retoma as ideias de \ncafonice e honestidade.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "“apesar de tudo”, na penúltima linha, retoma o que a \nautora denomina “império da cafonice”.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o “porque”, na última linha, explica que o país precisa \ndo bom gosto dos cafonas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_10",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto 1 \n“Algumas  vozes  nacionais  estão  tentando  atualmente \nencaminhar a discussão em torno da identidade 'mestiça', \ncapaz  de  reunir  todos  os  brasileiros  (brancos,  negros  e \nmestiços).  Vejo  nesta  proposta  uma  nova  sutileza \nideológica para recuperar a ideia da unidade nacional não \nalcançada  pelo  fracassado  branqueamento  físico.  Essa \nproposta de uma nova identidade mestiça, única, vai na \ncontramão dos movimentos negros e de outras chamadas \nminorias,  que  lutam  pela  construção  de  uma  sociedade \nplural e de identidades múltiplas.”  \n(Kabengele  Munanga,  Rediscutindo  a  mestiçagem  no  Brasil:  Identidade \nNacional versus Identidade Negra. Petrópolis: Vozes, 1999, p. 16.) \n \nTexto 2 \n“Os  meus  olhos  coloridos/  Me  fazem  refletir/  Eu  estou \nsempre  na  minha/  E  não  posso  mais  fugir/  Meu  cabelo \nenrolado/  Todos  querem  imitar/  Eles  estão  baratinados/ \nTambém querem enrolar/ Você ri da minha roupa/ Você ri \ndo meu cabelo/ Você ri da minha pele/ Você ri do meu \nsorriso/ A verdade é que você,/ (Todo brasileiro tem!)/ Tem \nsangue crioulo/ Tem cabelo duro/ Sarará crioulo.” \n(Macau, “Olhos Coloridos”, 1981, gravada por Sandra de Sá. Álbum: “Sandra de \nSá”. RCA.) \n \nConsiderando o alerta de Munanga em relação a algumas \n“vozes nacionais”, a canção de Macau",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "resgata o antigo ideal da identidade nacional única.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "aponta a possibilidade de uma identidade múltipla.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "atesta que a pluralidade se opõe ao movimento negro.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "insiste nas lutas das minorias por uma unidade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_11",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dizer que Caetano falou \"X” porque \"é um leonino vaidoso\" \nquer  dizer  que:  a)  todo  leonino  é  vaidoso  (se  leonino, \nvaidoso),  ou  b)  que  ele  pertence  a  um  subconjunto  de \nleoninos,  os  vaidosos?  (o  que  dá,  no  primeiro  caso, \n\"leonino,  que  é  vaidoso\"  e  no  segundo,  \"leonino  que  é \nvaidoso\"). \n(Sírio Possenti, postagem na rede social Facebook, 8 de agosto de 2020.)   \n \nEntre  os  comentários  à  postagem,  qual  deles  responde \ncorretamente à pergunta do autor?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "“Em  um  determinado  universo  de  crenças,  leoninos \nsão vaidosos. Isso é um clichê, um senso comum.”",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "“'É um leonino vaidoso' = é como qualquer leonino, no \ncaso, vaidoso. É vaidoso porque é vaidoso. Alternativa \na.”",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "“Entendo como a opção 2. Para que eu entendesse \ncomo  opção  1,  deveria  ser:  'como  todo  leonino,  é \nvaidoso', ou algo do tipo.”",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "“Fico com a restritiva 'leonino que é vaidoso'. Entendo \nque, ao trazer vaidoso a leonino, acentua o vaidoso já \nimplicado em leonino.”",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_12",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "TEXTO 1 \nantipoema  \né preciso rasurar o cânone \ndistorcer as regras \nas rimas \nas métricas \n \no padrão \na norma que prende a língua \n \nos milionários que se beneficiam do nosso silêncio \n \ndo medo de se dizer poeta, \n \nsó assim será livre a palavra. \n \n(Ma Njanu é idealizadora do “Clube de Leitoras” na periferia de Fortaleza e da \n“Pretarau,  Sarau  das  Pretas”,  coletivo  de  artistas  negras.  Disponível  em \nhttp://recantodasletras.com.br/poesias/6903974. Acessado em 20/05/2020.) \n \n \nTEXTO 2 \n“O povo não é estúpido quando diz 'vou na escola', 'me \ndeixe',  'carneirada',  'mapear',  'farra',  'vagão',  'futebol'.  É \nantes inteligentíssimo nessa aparente ignorância porque, \nsofrendo as influências da terra, do clima, das ligações e \ncontatos com outras raças, das necessidades do momento \ne de adaptação, e da pronúncia, do caráter, da psicologia \nracial,  modifica  aos  poucos  uma  língua  que  já  não  lhe \nserve de expressão porque não expressa ou sofre essas \ninfluências e a transformará afinal numa outra língua que \nse adapta a essas influências.” \n(Carta de Mário a Drummond, 18 de fevereiro de 1925, em Lélia Coelho Frota, \nCarlos e Mário: correspondência completa entre Carlos Drummond de Andrade \ne Mário de Andrade. Rio de Janeiro: Bem-Te-Vi, 2002, p. 101.) \n \n \n \nApesar de passados quase 100 anos, a carta de Mário de \nAndrade ecoa no poema de Ma Njanu. Ambos os textos \nmanifestam",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a  ignorância  ratificada  do  povo  em  sua  luta  para  se \nexpressar.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a necessidade de diversificar a língua segundo outros \ncostumes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a inteligência do povo e dos poetas livres de influências.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a ingenuidade em se crer na possibilidade de escapar \nàs regras.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_13",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A situação abaixo ocorreu em uma entrevista com a atriz \nScarlett  Johansson  e  o  ator  Robert  Downey  Junior,  que \natuaram juntos em um filme. \n  \n(Disponível em https://www.cracked.com/blog/14-epic-comebacks-stars-gave-to-\nstupid-interview-questions/. Acessado em 25/06/20.) \n \nEm sua resposta, a atriz",
+      "files": [
+        "/data/comvest/assets/2021/day2/13/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "evidencia o seu descontentamento por meio de uma \nmudança de assunto.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "rechaça a pergunta e sugere que Robert Downey Jr. a \nresponda.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "desaprova a pergunta com um comentário sarcástico \ndirigido a Robert Downey Jr.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "critica o teor da pergunta e sugere uma mudança de \nassunto.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_14",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os  tweets  abaixo  remetem  ao  contexto  do  trabalho \n  \n(Disponível em https://twitter.com/ajdewerd/status/1237495536036581379. \nAcessado em 30/07/2020.) \n \nA resposta de Andrea ao tweet de Julieanne",
+      "files": [
+        "/data/comvest/assets/2021/day2/14/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "questiona a eficácia de reuniões online no período de \nisolamento social.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "complementa a crítica a comportamentos que devem \nser evitados em reuniões online.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "ilustra uma experiência que elas vivenciaram juntas em \numa reunião online.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "acrescenta  outro  tipo  de  dificuldade  vivenciado  em \nreuniões online.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_15",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  curious  item  was  found  among  Beethoven's  effects, \nlocked away in a drawer, at the time of his death: three \nletters, written but apparently never sent (they may have \nbeen sent but returned to him), to the “Immortal Beloved.” \nThe  content,  which  varies  from  high-flown \npoetic sentiments to banal complaints about his health and \ndiscomfort, makes it clear that this is no literary exercise but \nwas intended for a real person. The month and day of the \nweek are given, but not the year. The periods 1801-02, \n1806-07, and 1811-12 have been proposed, but the last is \nthe most probable. The most cogent arguments regarding \nthe  identity  of  the  person  addressed,  those  by  Maynard \nSolomon,  point  to  Antonie  Brentano,  a  native  Viennese, \nwho was the wife of a Frankfurt merchant and sister-in-law \nto Beethoven familiar Bettina Brentano. \n \n(Adaptado de https://www.britannica.com/biography/Ludwig-van-Beethoven. \nA partir do conteúdo do texto, pode-se afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "as cartas mencionadas foram enviadas por Beethoven, \nmas devolvidas a ele.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a  destinatária  das  cartas  de  Beethoven  seria  uma \ncunhada do próprio compositor.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "as cartas foram enviadas no período de 1801 a 1812.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a hipótese mais sólida é a de que a destinatária das \ncartas seria uma vienense.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_16",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Catherine Fletcher, Tue 4 Feb 2020 \nThe decision by a UK University to close history, modern \nlanguages and politics degrees in favour of more “career-\nfocused” courses has been widely criticised. The problem \nlies  in  reducing  university  education  to  what  sells  to \nemployers. A society – and a world – urgently needs people \nwho have the education to think about big issues, which \naren’t only scientific or technological: they’re also about the \nways  that  people  have  made,  and  continue  to  make, \ndecisions.  The  humanities  matter.  And  it  matters  that \nstudents from all backgrounds have the opportunity to join \nin these world-changing discussions. \n \nRoger Brown, Mon 10 Feb 2020 \nCatherine Fletcher is completely correct to warn about the \ndamage that current policies are doing to the humanities. \nBut  her  warning  comes  much  too  late.  As  I  and  other \nscholars  have  shown,  the  problem  started  with  a \ngovernment  green  paper  which  declared  that  the \nfundamental purpose of higher education was to serve the \neconomy. Until we recover the idea that higher education is \nas much about the public good as anything else, we will \nnever  be  able  to  sustain  the  humanities  as  an  essential \ncomponent of a balanced curriculum. Unfortunately, there is \nvery little sign that this has been grasped by any of our \ncurrent policymakers. \n \n(Adaptado de www.theguardian.com/education/2020/feb/10/humanities-are-not-\nthe-right-courses-to-cut. Acessado em 22/05/2019.) \n \nOs textos acima concordam quanto à identificação de \num problema nos cursos universitários no Reino Unido, \nmas divergem quanto",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "à função do ensino universitário nos dias de hoje.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "ao momento em que esse problema se originou.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "ao objetivo principal do ensino das Humanidades.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "à solução proposta para o problema.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_17",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "OUR WORD OF THE YEAR FOR 2019 IS THEY \n \nEnglish  lacks  a  gender-neutral  singular  pronoun  to \ncorrespond  with  singular  pronouns \nlike everyone or someone, and as a consequence they has \nbeen used for this purpose for over 600 years. Recently \nthough,  they has  also  been \nused  to  refer  to  a  person \nwhose  gender  identity \nis nonbinary,  a  sense  that  is \nincreasingly  common  in \npublished  text,  social  media, \nand  in  daily  personal \ninteractions between English speakers. There's no doubt \nthat its use is established in the English language, which is \nwhy  it  was  added  to  the  Merriam-Webster  dictionary  in \nSeptember of 2019. \nNonbinary they was  also  prominent  in  the  news  in  2019. \nCongresswoman  Pramila  Jayapal  (WA)  revealed  in  April \nthat her child is gender-nonconforming and uses they. And \nthe  American  Psychological  Association’s blog  officially \nrecommended that  singular they be  preferred  in \nprofessional writing over “he or she” when the reference is \nto a person whose gender is unknown or to a person who \nprefers they. \n(Adaptado de https://www.merriam-webster.com/words-at-play/word-of-the-year/ \nthey. Acessado em 29/04/2020.) \n \nDe acordo com o texto, o fato de uma palavra simples, \ncomo o pronome “they”, ter sido escolhida como a palavra \ndo ano de 2019 se justifica pela necessidade de",
+      "files": [
+        "/data/comvest/assets/2021/day2/17/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "fazer justiça a uma palavra que já é usada há mais de \n600 anos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "legitimar  os  sentidos  recentes  dessa  palavra  que \npermeiam diversas instâncias da vida social.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "esclarecer  dúvidas  quanto  ao  emprego  gramatical \nadequado dessa palavra em textos escritos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "atender às recomendações de órgãos oficiais quanto \nao uso dessa palavra em textos escritos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_18",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O cartaz reproduzido a seguir faz parte de uma campanha \nda Organização Pan-Americana da Saúde. \n  \n(Disponível em https://www.paho.org/en/topics/violence-against-women.\nQual das medidas abaixo é recomendada no cartaz?",
+      "files": [
+        "/data/comvest/assets/2021/day2/18/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Comunicar à polícia os casos de violência contra as \nmulheres.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Contratar  advogados  que  atuem  em  defesa  das \nmulheres agredidas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Estabelecer  programas  de  prevenção  aos  casos  de \nagressão contra mulheres.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Criar  unidades  de  saúde  especializadas  em  atender \nmulheres vítimas de agressão.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_19",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“There Will Come Soft Rains” (Sara Teasdale) \n \nThere will come soft rains and the smell of the ground, \nAnd swallows circling with their shimmering sound; \nAnd frogs in the pools singing at night, \nAnd wild plum trees in tremulous white; \nRobins will wear their feathery fire, \nWhistling their whims on a low fence-wire; \nAnd not one will know of the war, not one \nWill care at last when it is done. \nNot one would mind, neither bird nor tree, \nIf mankind perished utterly; \nAnd Spring herself, when she woke at dawn \nWould scarcely know that we were gone. \n \n(Disponível em https://poets.org/poem/there-will-come-soft-rains. Acessado em \n24/08/2020.) \n \n \nO poema destaca",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a  ilusão  da  centralidade  do  ser  humano  diante  da \nnatureza.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a fragilidade da natureza diante das ações nocivas dos \nseres humanos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a desesperança nos seres humanos provocada pelas \nguerras frequentes.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a destruição de todos os seres no ciclo natural que \ngoverna o mundo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_20",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "‘The Complete Stories,’ by Clarice Lispector \nBy Terrence Rafferty \nJuly 27, 2015 \n  \nThere’s  a  whiff  of  madness  in  the  fiction  of  Clarice \nLispector. The “Complete  Stories” of the Brazilian  writer, \nedited  by  Benjamin  Moser  and  sensitively  translated  by \nKatrina  Dodson,  is  a  dangerous  book  to  read  quickly  or \ncasually because it’s so consistently delirious. Sentence by \nsentence,  page  by  page,  Lispector  is  exhilaratingly, \narrestingly  strange, \nbut  her  perceptions \ncome so fast, veer so \nwildly  between  the \nmundane  and  the \nmetaphysical,  that \nafter a while you don’t \nknow  where  you  are, \neither in the book or in \nthe world. So it’s best \nto  approach  her  with \nsome caution. For the \nordinary reader — that \nis to say, for most of \nus — immersion in the \nteeming  mind  of \nClarice  Lispector  can \nbe  an  exhausting, \neven  a  deranging, \nexperience, not to be \nundertaken  lightly.  (Pack  food,  water,  a  first  aid  kit  and \nplenty of sunblock.) \n \nHer  stories  are  full  of  strange  words,  in  strange \ncombinations, and her “Complete Stories” is a remarkable \nbook, proof that she was — in the company of Jorge Luis \nBorges,  Juan  Rulfo  and  her  19th-century  countryman \nMachado  de  Assis  —  one  of  the  true  originals  of  Latin \nAmerican literature.\n\nTHE COMPLETE STORIES \nBy Clarice Lispector  \nEdited by Benjamin Moser \nTranslated by Katrina Dodson \n645 pp. New Directions. $28.95. \n \n(Adaptado de https://www.nytimes.com/2015/08/02/books/review/the-complete-\nstories-by-clarice-lispector.html. Acessado em 21/07/20.) \nNo texto acima, o livro de Clarice Lispector recebe uma \ncrítica",
+      "files": [
+        "/data/comvest/assets/2021/day2/20/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "positiva,  apesar  das  ressalvas  quanto  aos  cuidados \nque a leitura da obra exige.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "negativa, apesar dos elogios à originalidade da autora \ne à tradução para o inglês.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "positiva,  apesar  dos  alertas  quanto  às  temáticas \nperigosas da obra.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "negativa, apesar da comparação com grandes nomes \nda literatura latino-americana.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_21",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Plantas são organismos que interferem na composição da \natmosfera e regulam o ciclo de carbono em nosso planeta, \npermitindo a vida como a conhecemos. Enquanto a parte \naérea das plantas está exposta a variações de intensidade \nluminosa, as raízes têm íntimo contato com o solo, fonte de \nnutrientes  essenciais  ao  seu  desenvolvimento. \nConsiderando a figura a seguir e a biologia de uma planta \nterrestre mesófita na ausência de luz, assinale a alternativa \nque  identifica  corretamente  as  moléculas  nas  posições \nnumeradas (as setas indicam o sentido do movimento das \nmoléculas).",
+      "files": [
+        "/data/comvest/assets/2021/day2/21/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "(1) O2 ; (2) CO2 ; (3) amido; (4) sacarose.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "(1) CO2 ; (2) O2 ; (3) sacarose; (4) nitrogênio.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "(1) O2 ; (2) CO2 ; (3) sacarose; (4) nitrogênio.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "(1) CO2 ; (2) O2 ; (3) amido; (4) sacarose.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_22",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere  uma  comunidade  marinha  que  compreende \nmuitos  ancestrais  dos  filos  de  animais  modernos. \nConsidere  ainda  que  uma  adaptação  proficiente  foi \nintroduzida  em  uma  única  espécie.  O  resultado  da \nadaptação seria um rápido aumento tanto na abundância \nrelativa da espécie quanto no espaço explorado por ela. As \ninterações  bióticas  podem  ser  consideradas  agentes  de \nseleção, e a interação das comunidades de espécies em \nseus  próprios  ambientes  seletivos  é  uma  fonte  de \ndiversificação. O rápido aumento da espécie seria seguido \npor  uma  desaceleração  da  proliferação  de  novos  tipos \necológicos. A tragédia dos comuns, quando os interesses \nou ações de uma espécie são prejudiciais à comunidade \ncomo  um  todo,  deve  ser  evitada  para  o  sucesso  da \ncomunidade marinha.  \n(Adaptado de P. D. Roopnarine e K. D. Angielczyl. Biology Letters, Londres, v. 8, \np. 147-150, fev. 2012.) \n \nBaseado em seus conhecimentos em ecologia e evolução, \nassinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A população da espécie com a adaptação aumentaria \ninfinitamente, pois os recursos são ilimitados e haveria \naumento das interações bióticas interespecíficas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A  espécie  com  a  adaptação  seria  um  agente  de \nseleção de outras espécies pelo uso de um recurso \ncomum, impulsionando a evolução dos concorrentes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A  proliferação  da  espécie  com  a  adaptação  seria \nmotivada pela saturação ecológica e pela exaustão de \nrecursos pelas outras espécies.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A comunidade marinha permanecerá inalterada se a \nespécie com a nova adaptação apresentar abundantes \ninterações bióticas interespecíficas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_23",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  osteoporose  é  uma  doença  caracterizada  pela  baixa \ndensidade  de  massa  óssea  total  e  pela  deterioração  da \nmicroarquitetura  do  tecido,  levando  a  um  aumento  da \nfragilidade  óssea.  Algumas  células  presentes  no  tecido \nósseo são representadas na figura a seguir. \n  \n \n(Adaptado de G.M. Pagnotti e outros. Nature Reviews, Londres, v. 15, p. 339-\n355, jun. 2019.) \n Considerando  as  informações  apresentadas  e  os \nconhecimentos sobre o tecido ósseo, é correto afirmar que \nna osteoporose pode ocorrer",
+      "files": [
+        "/data/comvest/assets/2021/day2/23/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "aumento  da  degradação  da  matriz  óssea  pelos \nosteoclastos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "aumento  da  reabsorção  da  matriz  orgânica  pelos \nosteoblastos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "redução  da  degradação  da  matriz  óssea  pelos \nosteoblastos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "redução  da  reabsorção  da  matriz  orgânica  pelos \nosteoclastos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_24",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma equipe de paleontólogos descreveu recentemente um \npapagaio gigante a partir de fósseis encontrados na Nova \nZelândia.  O  Heracles  inexpectatus  viveu  no  Mioceno, \npesava aproximadamente 7 kg e não voava. Sabemos que \nas  aves  atuais  são  descendentes  dos  dinossauros  e \nherdaram  características  importantes  desses  seres  que \nviveram há milhões de anos. \n(T. H. Worthy e outros. Biology Letters, Londres, v. 15, 2019047, ago. 2019.) \n \nAssinale  a  alternativa  que  indica  corretamente \ncaracterísticas  das  aves  atuais  possivelmente  herdadas",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Viviparidade e bico.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Ectotermia e ossos pneumáticos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Oviparidade e dentes.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Endotermia e penas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_25",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O primeiro relatório do desmatamento no Brasil, publicado \npelo MapBiomas, apresentou dados preocupantes sobre a \nsituação no ano de 2019. Foram cortados cerca de 12.000 \nkm2 de vegetação nativa no país. Após sobreposição com \nbases de dados oficiais, constatou-se que 99,5% da área \nde  desmatamento  detectada  pelos  alertas  apresentaram \nirregularidades que incluem desde a localização em áreas \nprotegidas  ou  com  restrição  legal  até  a  ausência  de \nautorização para supressão da vegetação. \n(Adaptado de Relatório anual do desmatamento no Brasil 2019. São Paulo, SP, \nMapBiomas, 2020.) \n \nO  mapa  a  seguir  representa  os  biomas  brasileiros.  As \nbarras indicam as respectivas áreas desmatadas no ano de \n2019, conforme o relatório. \n  \n(Adaptado de M. Pivetta. Pesquisa Fapesp, São Paulo, v. 292, p. 73-75, jun. \n2020.) \n \nConsiderando  os  conhecimentos  sobre  os  biomas \nbrasileiros e as informações fornecidas, é correto afirmar:",
+      "files": [
+        "/data/comvest/assets/2021/day2/25/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O bioma com menor área de desmatamento apresenta \nplanície aluvial e é influenciado por rios que alagam a \nregião,  processo  fundamental  para  a  abundância  de \nnutrientes no solo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Um terço do total da área desmatada corresponde ao \nbioma  característico  de  savana,  com  floresta \nestacional e campo, e elevado potencial aquífero que \nfavorece a biodiversidade.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O  bioma  com  maior  área  de  desmatamento  é \nexclusivamente brasileiro, sendo o mais fragilizado em \nrazão  de  sua  grande  biodiversidade,  que  inclui \nvegetação típica de floresta tropical.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Dois terços da área desmatada representam o bioma \ncom  grande  reserva  de  madeira  tropical,  vegetação \nrica  em  espécies  de  plantas  suculentas  e  com \nespinhos, e fonte de riqueza natural.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_26",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As doenças tropicais negligenciadas afetam principalmente \nas populações que vivem em condições de pobreza, sem \nacesso ao saneamento básico e em contato com diversos \nvetores.  Nesse  contexto,  a  esquistossomose  é  uma  das \nmais  emblemáticas  doenças  parasitárias  causadas  por \nplatelmintos no Brasil. \n \nAssinale  a  alternativa  que  preenche  corretamente  as \nlacunas na frase a seguir. \n \nO ciclo de vida do Schistosoma mansoni envolve a fase \nadulta, com fecundação e produção de ovos principalmente \nnas  veias  do  fígado  e  mesentéricas  do  intestino  do  ser \nhumano,  considerado  o  hospedeiro  (i)  __________.  Os \novos são então excretados nas fezes e, em contato com a \nágua,  eclodem  e  liberam  os  (ii)  __________,  os  quais \npenetram  no  corpo  de  um  caramujo,  considerado  o \nhospedeiro (iii) __________. No caramujo, dão origem às \n(iv) __________, que se locomovem na água e penetram \nna  pele  humana,  migrando  para  os  vasos  sanguíneos \nviscerais, onde se tornam um esquistossomo adulto.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "(i)  definitivo;  (ii)  esporocistos;  (iii)  intermediário;  (iv) \nplanárias.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "(i)  intermediário;  (ii)  esporocistos;  (iii)  definitivo  (iv) \ncercárias.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "(i)  definitivo;  (ii)  miracídios;  (iii)  intermediário;  (iv) \ncercárias.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "(i)  intermediário;  (ii)  miracídios;  (iii)  definitivo;  (iv) \nplanárias.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_27",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  anemia  falciforme  é  uma  doença  hereditária  que  se \ncaracteriza pelo formato de foice adquirido pelas hemácias \ndepois que o oxigênio é liberado, resultando em anemia \ncrônica. \nApresenta-se a seguir parte do RNA mensageiro, com o \ncódon  de  iniciação,  da  subunidade  β  da  hemoglobina \nhumana  normal  (Hbb)  e  da  hemoglobina  mutada  na \nanemia falciforme (HbS).  \n \n \nConsidere a sequência de trincas apresentadas, em Hbb e \nHbS, e o código genético abaixo. \n  \nÉ correto afirmar que a mutação genética da doença",
+      "files": [
+        "/data/comvest/assets/2021/day2/27/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "altera a 11ª posição de aminoácidos, trocando leucina \npor histidina.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "altera  a  7ª  posição  de  aminoácidos,  trocando  ácido \nglutâmico por valina.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "altera a 11ª posição de aminoácidos, trocando ácido \nglutâmico por valina.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "altera a 7ª posição de aminoácidos, trocando leucina \npor histidina.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_28",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  partícula  viral  do  novo  coronavírus  (SARS-CoV-2), \nconhecida como vírion, é constituída por poucas proteínas, \numa fita de RNA e um envelope derivado de estruturas \ncelulares,  como  membrana  plasmática  e  organelas.  A \nOrganização  Mundial  de  Saúde  recomenda  hábitos  de \nhigiene para prevenção da contaminação ao SARS-CoV-2, \nincluindo lavar com frequência as mãos com água e sabão.  \n(Adaptado de https://www.bbc.com/portuguese/geral-52096406. Acessado em \n25/07/2020.) \n \nConsiderando seus conhecimentos sobre vírus, assinale a \nalternativa que justifica a recomendação apresentada no \ntexto.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "As poucas proteínas que compõem o nucleocapsídeo \nsão diluídas em contato com sabão e água, na qual \nexiste pouca tensão superficial, e, portanto, a partícula \nviral não é capaz de infectar a célula humana.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O  envelope  viral  é  formado  por  lipídios,  moléculas \nanfipáticas,  que,  em  contato  com  sabão  e  água \n(moléculas apolar e polar respectivamente), têm sua \nestrutura rompida, inativando assim a partícula viral.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A fita de RNA é formada por nucleotídeos que contêm \nribose, açúcar e fosfato, e, em contato com sabão e \nágua, têm sua capacidade de integração ao DNA da \ncélula humana bloqueada.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "As organelas, constituídas por lipídios, carboidratos e \nproteínas, em contato com sabão e água, são clivadas \ne  perdem  a  capacidade  de  produzir  moléculas \nessenciais ao metabolismo viral.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_29",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Massas molares em g mol-1: Na = 23; Mg = 24; Cl = 35,5;  \nK = 39; Ca = 40.\nImagine-se  como  um  dos  coautores  de  um  trabalho \ncientífico sobre a capacidade de dessalinização de fibras \nde  carbono  poroso  (PCF).  Ao  revisar  os  dados  da \npesquisa, você observa que os resultados apresentados no \ngráfico a seguir estão consistentes para MgCl  e CaCl , do \n2 2\nponto de vista do conhecimento químico. \n  \nNo  entanto,  você  também  observa  no  gráfico  que  a \napresentação dos dados está",
+      "files": [
+        "/data/comvest/assets/2021/day2/29/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "inconsistente para NaCl, mas consistente para KCl.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "inconsistente para KCl, mas consistente para NaCl.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "inconsistente para NaCl e KCl.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "consistente para NaCl e KCl.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_30",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A forma cristalina de um fármaco é fundamental para seu \nuso como medicamento. Assim, a indústria farmacêutica, \napós a síntese de determinado fármaco, deve verificar se \nele se apresenta como uma única forma cristalina ou se é \numa mistura polimórfica. Uma das formas de purificar um \nfármaco  nessas  condições  é  utilizar  um  processo  de \nrecristalização: dissolução do material sintetizado, seguida \nda cristalização da substância desejada. Observe na tabela \nabaixo os dados de solubilidade em água de uma dada \nforma de insulina. \n \nTemperatura (ºC)  Solubilidade (mg mL-1)\n15  0,30 \n25  0,63 \n35  0,92 \n \nA partir dessas informações, caso se queira purificar uma \namostra dessa insulina, seria recomendado dissolver essa \namostra em quantidade suficiente de água",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a  35  ºC  e  resfriar  lentamente  a  solução  até  15  ºC, \npromover uma filtração a 15 ºC e recuperar o sólido; \ntoda a insulina seria recuperada.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a 15 ºC e aquecer lentamente a solução até 35 ºC, \npromover uma filtração a 35 ºC e recuperar o sólido; \numa parte da insulina permaneceria em solução.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a  35  ºC  e  resfriar  lentamente  a  solução  até  15  ºC, \npromover uma filtração a 15 ºC e recuperar o sólido; \numa parte da insulina permaneceria em solução.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a 15 ºC e aquecer lentamente a solução até 35 ºC, \npromover uma filtração a 35 ºC e recuperar o sólido; \ntoda a insulina seria recuperada.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_31",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No início da pandemia da Covid-19, houve escassez de \nmáscaras  de  proteção.  Muitas  pessoas  passaram  a \nfabricar  suas  próprias  máscaras  com  tecidos  comuns. \nSeriam essas máscaras caseiras tão eficientes quanto a \nmáscara  recomendada,  a  N95?  Um  estudo  avaliou  a \neficiência de alguns tecidos na filtração de partículas de   \n10  nm  a  10  µm,  faixa  de  tamanho  importante  para  a \ntransmissão  de  vírus  baseada  em  aerossóis,  e  que \ncompreende  a  faixa  do  novo  coronavírus  (20-250  nm). \nAlgumas  informações  obtidas  pelos  pesquisadores \nencontram-se nos gráficos a seguir. \n  \n(Adaptado de A. Konda e outros. ACS Nano 14, 2020, 6339-6347.) \nCom  base  nessas  informações,  é  correto  afirmar  que  a \neficiência na filtração de uma máscara caseira é sempre",
+      "files": [
+        "/data/comvest/assets/2021/day2/31/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "maior para partículas abaixo de 300 nm quando uma \núnica camada de qualquer tecido é usada.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "menor para partículas abaixo de 300 nm quando uma \núnica camada de qualquer tecido é usada.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "maior que a da N95 para a faixa do novo coronavírus, \ndesde que se use uma camada dupla de diferentes \ntecidos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "menor que a da N95 para a faixa do novo coronavírus, \nmesmo que se use uma camada dupla de diferentes \ntecidos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_32",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O  oxímetro  é  usado  na \ntriagem  para  a  Covid-19. \nAcoplado  ao  dedo,  ele \nemite  luz  em  dois \ncomprimentos  de  onda  \n(660 nm e 940 nm) e mede \na  quantidade  de  luz \nabsorvida (A) em cada caso. A partir disso, determina a \nconcentração percentual de oxi-hemoglobina (HbO2 ) e de \ndesoxi-hemoglobina (Hb) no sangue. Valores entre 95 e \n100% para HbO2  indicam normalidade. Simplificadamente, \nas quantidades de luz absorvidas em cada comprimento de \nonda  (A)  se  relacionam  matematicamente  às \nconcentrações  [HbO2 ]  e  [Hb]  conforme  as  seguintes \nequações: \nHb (aq)   + O2 (aq)  -> HbO2 (aq) \nA (em 660 nm) = 320 [HbO2 ] + 3227 [Hb] \n \nA (em 940 nm)= 1214 [HbO2 ] + 693 [Hb]. \n \nConsidere que uma pessoa tenha chegado ao hospital com \nbaixa saturação de O  no sangue e, depois de submetida à \noxigenoterapia, começa a ter a saturação normalizada. Em \nrelação  às  medidas  iniciais,  quando  a  saturação  de  O  \ncomeça a subir, a absorção de luz indicada pelo oxímetro",
+      "files": [
+        "/data/comvest/assets/2021/day2/32/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "diminui em 660 nm e aumenta em 940 nm.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "aumenta em 660 nm e diminui em 940 nm.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "aumenta em ambos os comprimentos de onda.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "diminui em ambos os comprimentos de onda.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_33",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dados:  T/K  =  273  +  t/°C;  desconsiderar  a  variação  no \nvolume  dos  pneus;  o  sensor  de  pressão  não  indica \nvariações menores que 1 psi.\nA pressão insuficiente, em excesso ou desigual entre os \npneus coloca em risco a segurança na condução e afeta o \nrendimento do veículo. Pensando nisso, numa manhã fria \n(10 °C), um motorista efetuou corretamente a calibração \ndos pneus do seu carro para 29 e 31 psi, seguindo a tabela \nde calibragem dos pneus no manual do fabricante, como \nindica  a  figura  a  seguir.  Ao  meio-dia,  chegou  ao  seu \ndestino e, após um período de descanso, carregou o carro \ncom lotação máxima. \n  \nConsiderando  que  a  temperatura  ambiente  naquele \nmomento era de 30 °C, o motorista certamente precisaria",
+      "files": [
+        "/data/comvest/assets/2021/day2/33/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "encher os pneus dianteiros e traseiros.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "encher os pneus dianteiros e esvaziar os traseiros.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "encher apenas os pneus traseiros.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "encher apenas os pneus dianteiros.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_34",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O aumento dos casos da Covid-19 provocou a escassez de \nálcool etílico em gel no comércio, o que fez a população \nbuscar outros tipos de álcool para se prevenir. No entanto, \nas  opções  de  álcool  disponíveis  não  eram  eficazes.  O \nrecomendado é o álcool 70° INPM (% massa/massa). As \nopções de álcool disponíveis comercialmente à época da \nescassez aparecem na tabela abaixo. \n \nTipo de álcool  Concentração INPM \n(%massa/massa) \nAbsoluto  99,6 \nHidratado  92,6 \nCombustível  92,5 \nLimpeza  46,0 \n \nPara  produzir  álcool  70°  INPM  a  partir  dos  outros  tipos \ndisponíveis  comercialmente,  uma  opção  possível  seria \nmisturar",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "álcool  para  limpeza  com  álcool  hidratado,  utilizando \nmaior quantidade de álcool para limpeza.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "álcool  combustível  com  o  álcool  absoluto,  utilizando \nmaior quantidade de álcool combustível.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "álcool absoluto com álcool hidratado, utilizando maior \nquantidade de álcool absoluto.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "álcool  para  limpeza  com  álcool  hidratado,  utilizando \nmaior quantidade de álcool hidratado.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_35",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um estudo recente avaliou como determinados plásticos se \ndegradam  na  água  do  mar  quando  expostos  à  luz \nultravioleta. Os plásticos estudados foram: NPG (plásticos \ndiversos  do  Giro  do  Pacífico  Norte),  EPS  (poliestireno \nexpandido),  PP  (polipropileno)  e  PE  (polietileno).  \nConsiderando que somente 2% do plástico despejado no \nmar está à deriva, esse estudo tentou descobrir para onde \nvão  os  microplásticos  no  ambiente  marinho.  Um  dos \nresultados  do  estudo  é  mostrado  nos  gráficos  abaixo. \nNesses  gráficos,  observam-se  as  produções  de  carbono \norgânico  dissolvido  (DOC)  por  grama  de  carbono  na \namostra de plástico utilizado. O DOC foi identificado como \no maior subproduto da fotodegradação de plásticos. \n  \n(Adaptado  de  L. Zhu  e  outros.  Journal  of  Hazardous  Materials  383,  2020, \n121065.)\nOs resultados mostram que",
+      "files": [
+        "/data/comvest/assets/2021/day2/35/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "para os quatro plásticos, a velocidade de degradação \naumenta com o tempo de exposição; após 50 dias, a \nmaior degradação foi a do PP.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "para  três  plásticos,  a  velocidade  de  degradação \naumenta com o tempo de exposição; após 50 dias, a \nmaior degradação foi a do EPS.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "para apenas um plástico, a velocidade de degradação \nnão aumenta com o tempo de exposição; após 50 dias, \na maior degradação foi a do PP.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "duas  velocidades  de  degradação  aumentam  com  o \ntempo e duas permanecem constantes; após 50 dias, \na maior degradação foi a do EPS.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_36",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dados: 1.000 gramas de etanol combustível apresentam \n940 g de etanol e 60 g de água; massas molares (g mol-1): \nC2H6O = 46; CO2  = 44.\nO  Brasil  é  líder  mundial  na  produção  do  etanol,  que \nsubstitui  grande  parte  da  gasolina.  Um  dos  fatores  a \nconsiderar  nessa  substituição  é  a  geração  de  CO   no \nprocesso global de produção e uso. O impacto na etapa \nfinal de uso pode ser avaliado por um cálculo simplificado. \nPor exemplo, um carro médio consome 1.000 g de etanol \ncombustível ou 700 g de gasolina comercial para percorrer \n10 km. Nessas condições, a queima de 700 g de gasolina \ncomercial leva à formação de 1.962 g de CO . Assim, nas \ncondições apresentadas, a diferença em massa de dióxido \nde carbono emitido na combustão, quando se substitui a \ngasolina  comercial  por  etanol  combustível,  é  de \naproximadamente",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "164 g; a relação estequiométrica C2H6O:O2 é de 1:3,5.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "49 g; a relação estequiométrica C2H6O:O2 é de 1:3.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "164 g; a relação estequiométrica C2H6O:O2 é de 1:3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "49 g; a relação estequiométrica C2H6O:O2 é de 1:3,5.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_37",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Duas impressoras funcionando simultaneamente imprimem \ncerta  quantidade  de  páginas  em  36  segundos.  Sozinha, \numa delas imprime a mesma quantidade de páginas em 90 \nsegundos. Funcionando sozinha, para imprimir a mesma \nquantidade de páginas, a outra impressora gastaria",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "48 segundos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "54 segundos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "60 segundos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "72 segundos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_38",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sejam  a,b,c  termos  consecutivos  de  uma  progressão \ngeométrica sem nenhum termo nulo e p(x) o polinômio \nde grau 2 dado por a+bx+cx^2. Se a é positivo, \nqual das figuras abaixo pode representar corretamente \no gráfico de p(x)?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/comvest/assets/2021/day2/38/1.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/comvest/assets/2021/day2/38/2.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/comvest/assets/2021/day2/38/3.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/comvest/assets/2021/day2/38/4.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_39",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um número natural é escolhido ao acaso entre os números \nde 1 a 100, e depois dividido por 3. A probabilidade de que \no resto da divisão seja igual a 1 é de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "31/100.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "33/100.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "17/50.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "19/50.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_40",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Se θ ∈ (0,π/2), a expressão \n (((cos(θ) + sen(θ))/sen(θ)) + ((cos(θ) - sen(θ))/cos(θ)))/(((cos(θ) + sen(θ))/cos(θ)) + ((cos(θ) - sen(θ))/sen(θ))) \né equivalente a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "cos^2(θ) + sen^2(θ).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "cos(2θ) - sen(2θ).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "cos(2θ) + sen(2θ).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_41",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sabendo que 0 < 𝜃 <= 90° e que 2cos(2θ) + 5cos(θ) = 4, é \ncorreto afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0° < θ <= 30°.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "30° < θ <= 45°.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "45° < θ <= 60°.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "60° < θ <= 90°.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_42",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A figura abaixo exibe três círculos tangentes dois a dois e \nos três tangentes a uma mesma reta. Os raios dos círculos \nmaiores têm comprimento R e o círculo menor tem raio de \ncomprimento r. \n  \nA razão R/r é igual a",
+      "files": [
+        "/data/comvest/assets/2021/day2/42/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "√10.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "4.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2√5.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_43",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dados preliminares da pandemia do Covid-19 indicam que, \nno  início  da  disseminação,  em  determinada  região,  o \nnúmero de pessoas contaminadas dobrava a cada 3 dias. \nUsando que log 2 (cid:3406) 0,3 e log 5 (cid:3406) 0,7, após o primeiro \n(cid:2869)(cid:2868) (cid:2869)(cid:2868)\ncontágio, o número de infectados atingirá a marca de 4 mil \nentre",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o 18º dia e o 24º dia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o 25º dia e o 31º dia.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o 32º dia e o 38º dia.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o 39º dia e o 45º dia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_44",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Para qual valor de a a equação matricial \n[[a,-1],[a-2,a]] * [[x],[y]] = [[3],[a-4]]\nnão admite solução?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "-1.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "-2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_45",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sabendo  que  10^(0.3) < 2 < 10^(0.31) e que x é tal que \n,√(10^(3x+5)=20, e que o indice da raiz anterior é 2021, então",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "855 <= x < 870.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "870 <= x < 885.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "885 <= x < 900.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "900 <= x < 1005.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_46",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere  que  as  medidas  dos  lados  de  um  triângulo \nretângulo  estão  em  progressão  geométrica.  Sendo  a  a \nmedida do menor lado e A a área desse triângulo, é correto \nafirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A = a^2 * (√(2√(5) + 2)/4)",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A = a^2 * (√(2√(5) - 2)/4)",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A = a^2 * (√(2√(5) + 2)/2)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A = a^2 * (√(2√(5) - 2)/2)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_47",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sabendo que a é um número real, considere os polinômios \np(x) = x^3 - x^2 + a e q(x) = x^2 + x + 2. Se p(x) é divisível \npor q(x), então",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a = 3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a = 2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a = -1.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a = -4.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_49",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dados:   1 ano = 3,0x10^7 s\nVelocidade da luz: c = 3,0x10^8 m/s\nRecentemente,  uma  equipe  internacional  de  cientistas \ndetectou  a  explosão  de  uma  estrela  conhecida  como \nSN2016aps, que teria sido a explosão de supernova mais \nbrilhante já registrada.\nA  SN2016aps  dista  da  Terra  4,0  bilhões  de  anos-luz, \nenquanto  a  supernova  DES16C2nm,  localizada  a  10,5 \nbilhões de anos-luz de distância da Terra, é a mais distante \njá  descoberta.  Considere  que  uma  explosão  das  duas \nsupernovas  ocorra  simultaneamente.  Quando  o  sinal \nluminoso  da  explosão  da  supernova  mais  próxima  for \ndetectado  na  Terra,  a  radiação  luminosa  da  supernova \nDES16C2nm  estará  a  uma  distância  da  Terra \naproximadamente igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "6,5x10^9 km.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "9,0x10^15 km.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "3,6x10^16 km.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "5,9x10^22 km.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_50",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Recentemente,  uma  equipe  internacional  de  cientistas \ndetectou  a  explosão  de  uma  estrela  conhecida  como \nSN2016aps, que teria sido a explosão de supernova mais \nbrilhante já registrada.\nOs cientistas estimam que, no momento da explosão, a \nmassa da supernova SN2016aps era 50 a 100 vezes maior \nque  a  massa  do  Sol.  Se  o  Sol  tivesse  a  massa  dessa \nsupernova, mantendo-se a sua distância da Terra,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a velocidade de translação da Terra em torno do Sol \ndeveria aumentar e o período do ano terrestre diminuir.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a velocidade de translação da Terra em torno do Sol \ndeveria diminuir e o período do ano terrestre aumentar.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a velocidade de translação da Terra em torno do Sol e \no período do ano terrestre deveriam diminuir.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a velocidade de translação da Terra em torno do Sol e \no período do ano terrestre deveriam aumentar.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_51",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma  cápsula  destinada  a  levar  astronautas  à  Estação \nEspacial  Internacional  (ISS)  tem  massa  m = 7500 kg, \nincluindo as massas dos próprios astronautas. A cápsula é \nimpulsionada até a órbita da ISS por um foguete lançador e \npor propulsores próprios para os ajustes finais. O aumento \nda energia potencial gravitacional devido ao deslocamento \nda cápsula desde a superfície da Terra até a aproximação \ncom a ISS é dado por  ΔU = 3,0x10^10 J. A velocidade da \n ISS é v ≅ 8000 m/s. A velocidade inicial da cápsula em \nrazão  do  movimento  de  rotação  da  Terra  pode  ser \ndesprezada. Sem levar em conta a energia perdida pelo \natrito com o ar durante o lançamento, pode-se dizer que o \ntrabalho realizado pelo foguete e pelos propulsores sobre a \ncápsula é de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "2,1x10^11 J.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2,4x10^11 J.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2,7x10^11 J.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "5,1x10^11 J.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_52",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em  março  de  2020,  a  Unicamp  e  o  Fermi  National \nAccelerator  Laboratory  (Fermilab),  dos  Estados  Unidos, \nassinaram  um  acordo  de  cooperação  científica  com  o \nobjetivo  de  desenvolver  tanques  para  conter  argônio \nlíquido  a  baixíssimas  temperaturas  (criostatos).  Esses \ntanques abrigarão detectores para o estudo dos neutrinos.\nA temperatura do argônio nos tanques é  Tar = -184 °C.\nUsualmente,  a  grandeza  “temperatura”  em  física  é \nexpressa  na  escala  Kelvin  (K).  Sabendo-se  que  as \ntemperaturas aproximadas do ponto de ebulição (Te)  e do \nponto de solidificação (Ts) da água à pressão atmosférica\nsão,  respectivamente,Te = 373K e  Ts = 273K ,  a \ntemperatura do argônio nos tanques será igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "20 K",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "89 K",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "189 K",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "457 K",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_53",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em  março  de  2020,  a  Unicamp  e  o  Fermi  National \nAccelerator  Laboratory  (Fermilab),  dos  Estados  Unidos, \nassinaram  um  acordo  de  cooperação  científica  com  o \nobjetivo  de  desenvolver  tanques  para  conter  argônio \nlíquido  a  baixíssimas  temperaturas  (criostatos).  Esses \ntanques abrigarão detectores para o estudo dos neutrinos.\nA pressão exercida na base de certo tanque do Fermilab \npela  coluna  de  argônio  líquido  no  seu  interior  é \nP = 5,6x10^4 N/m^2. A  densidade  do  argônio  líquido  no \ntanque é  d  = 1400  kg/m^3. Assim, a altura do tanque será \nde",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "2,0m",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "4,0 m.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "7,8 m.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "25,0 m.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_54",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Lâmpadas  de  luz  ultravioleta  (UV)  são  indicadas  para \nhigienização  e  esterilização  de  objetos  e  ambientes  em \nrazão do seu potencial germicida.\nConsidere uma lâmpada UV de potência  P 100  W  que \nfuncione  por  Δt = 15  minutos   durante  o  processo  de \nesterilização de um objeto. A energia elétrica consumida \npela lâmpada nesse processo é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,0066 kWh.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0,015 kWh.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "0,025 kWh.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1,5 kWh.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_55",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Lâmpadas  de  luz  ultravioleta  (UV)  são  indicadas  para \nhigienização  e  esterilização  de  objetos  e  ambientes  em \nrazão do seu potencial germicida.\nEm outro processo de esterilização, uma lâmpada UV de \npotência  P = 60 W   funciona  sob  uma  diferença  de \npotencial elétrico U = 100 V. A potência elétrica pode ser \nexpressa  também  em  kVA,  sendo \n1 kVA = 1000 V x 1 A =1000 W. A  corrente  elétrica  i   do \ncircuito que alimenta a lâmpada é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,36 A.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0,60 A.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1,6 A.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "3,6 A.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_56",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dado: Velocidade da luz: c = 3,0x10^8 m/s.\nLâmpadas  de  luz  ultravioleta  (UV)  são  indicadas  para \nhigienização  e  esterilização  de  objetos  e  ambientes  em \nrazão do seu potencial germicida.\nA ação germicida da luz UV varia conforme o comprimento \nde  onda  (λ) da  radiação.  O  gráfico  a  seguir  mostra  a \neficiência germicida da luz UV em função de  λ, em sua \natuação durante certo tempo sobre um agente patogênico. \n  \nPode-se  afirmar  que  a  frequência  da  luz  UV  que  gera \neficiência germicida máxima neste caso é",
+      "files": [
+        "/data/comvest/assets/2021/day2/56/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,9x10^6 Hz.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "8,1x10^10 Hz.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "5,4x10^12 Hz.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1,1x10^15 Hz.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_57",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os aposentos comuns são aqueles aos quais o povo pode \nir,  como  os  vestíbulos  e  pátios.  Assim,  magníficos \nvestíbulos, aposentos e átrios não são necessários para as \npessoas  de  fortuna  comum,  pois  visitam,  mas  não  são \nvisitados.  As  casas  de  banqueiros  deveriam  ser  mais \nespaçosas  e  vistosas,  protegidas  contra  ladrões. \nAdvogados  e  retóricos  deveriam  morar  com  elegância. \nPara  aqueles  que  ocupam  cargos  e  magistraturas, \ndeveriam ser feitos vestíbulos reais, amplos e devidamente \ndecorados com grandeza. \n(Adaptado  de  Vitrúvio,  “Sobre  a  Arquitetura”,  em  Pedro  Paulo  Funari, \nAntiguidade Clássica. Campinas: Editora da Unicamp, 2003, p. 81.) \nO  arquiteto  romano  Vitrúvio  expressa,  em  seu  texto \nclássico sobre os princípios da Arquitetura,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a  naturalização  das  diferenças  sociais  impressas  na \nvida  material,  já  que  as  habitações  ditas  comuns \ndeveriam ser simples e as dos enriquecidos deveriam \nser espaçosas e vistosas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a resistência contra as diferenças sociais impressas na \nvida  material,  já  que  as  habitações  de  pessoas  de \nfortuna  comum,  magistrados  e  funcionários  públicos \ndeveriam ser iguais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a  percepção  das  diferenças  sociais  durante  todo  o \nImpério Romano, materializadas nas habitações, e a \nbusca  por  moradias  mais  belas  e  espaçosas  para \ntodos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a determinação em conservar as diferenças sociais no \nImpério  Romano,  a  partir  de  políticas  públicas  de \nconstrução  de  moradias  amplas  para  pessoas  de \nfortuna comum.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_58",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A epidemia de sífilis golpeou Nápoles, pela primeira vez, \nem  1494.  Os  ingleses  a  chamaram  de  “enfermidade \nfrancesa”,  os  franceses  disseram  que  era  um  “mal \nnapolitano”  e  os  napolitanos  achavam  que  vinha  da \nAmérica. O vírus, por definição, é o outro. Sexualmente \ntransmissível, a sífilis materializou nos corpos, dos séculos \nXVI ao XIX, as formas de repressão e exclusão social da \nmodernidade. \n(Adaptado de Paul B. Preciado, Aprendendo do vírus, em Sopa de Wuhan. \nAPOS, 2020, p. 184-187.)  \n \nConsiderando as referências acima sobre a epidemia de \nsífilis na época moderna, é possível afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A história da sífilis baseia-se em experiências mundiais \nunívocas.  Ela  transcorre  simultaneamente  em  toda \nparte  e  promove  uma  compreensão  tolerante  da \ndiversidade dos sujeitos a partir da noção de raça.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A  história  da  sífilis  a  descreve  como  uma  epidemia \nlocal. Ela implica uma percepção neutra do outro, na \nmedida em que ele seria considerado a fonte e o fator \nde transmissão da doença.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A história da sífilis teve longa duração na Euro-américa. \nO  medo  da  doença  contribuiu  para  a  formação  e  o \nfortalecimento  de  políticas  de  repressão  racial,  que \nincidiam nos corpos dos sujeitos sociais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A história da sífilis mostra um trajeto fixo de expansão \nda epidemia, que começou em Nápoles e alcançou a \n \n \n \nAmérica.  Ela  conta  uma  história  do  passado  de \nexclusão  dos  burgueses,  dos  médicos  e  dos \nengenheiros da sociedade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_59",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A questão da consciência ou autopercepção nacional nas \ncolônias da América tem sido frequentemente tratada de \nforma  desligada  do  seu  contexto  político  e  social.  \nPodemos, todavia, pensar em um sentimento de distinção \ne diferença, uma falta de identificação com a Europa e uma \nconsciência da realidade colonial que teria existido entre \npopulações mestiças. \n(Adaptado de Stuart B Schwartz, “A formação de uma identidade colonial no \nBrasil”, em Da América Portuguesa ao Brasil. Lisboa: Difel, 2003, p. 218.) \n Com base no texto acima sobre a formação da identidade \ncolonial, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "No  continente  ibero-americano,  prevaleceu  uma \npercepção  colonial  de  mestiços  distinta  daquela  das \nelites  coloniais,  nascidas  ou  não  nessa  região,  pois \nessas  elites  foram  formadas  nos  cânones \nuniversitários coloniais desde o século XVI.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Composta por imigrantes vindos da Europa e por seus \ndescendentes  brancos  nascidos  no  Brasil,  a  elite \ncolonial  e  os  mestiços  construíam  suas  identidades \ncalcadas  nas  tensões  sociais  e  hierarquias  sócio-\npolíticas da realidade colonial.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Em função de experiências sociais distintas, a noção \nde  pertencimento  era  similar  entre  os  sujeitos \nenvolvidos na realidade colonial ibero-americana. Por \nexemplo, os quilombolas tinham a mesma identidade \nnacional que os pardos livres.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Os  brasileiros  desenvolveram,  desde  o  período \ncolonial  ibero-americano,  uma  consciência  nacional \nhomogênea,  porque  o  modo  como  eram  vistos \nexteriormente e o modo como se viam influenciavam a \ncompreensão da relação liberal estabelecida entre a \ncolônia e a metrópole.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_60",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Quando um campesinato afro-brasileiro surgiu no final do \nséculo XVIII, os agricultores do litoral da Bahia misturaram \nconhecimentos agrícolas e etnobotânicos da África e do \nBrasil para fazer proliferar o dendê africano. Mosaicos de \nmata  atlântica  e  campos  de  mandioca  transformaram  o \nlitoral  da  Bahia  em  um  simulacro  transatlântico  do \ncomplexo de palmeiras da África Ocidental, criando uma \npaisagem  afro-brasileira.  A  Costa  do  Dendê,  no  sul  da \nBahia,  resultante  desse  processo,  permanece  como  um \ntestemunho  de  contribuições  africanas  e  de \nafrodescendentes  para  o  desenvolvimento  econômico, \necológico e cultural das Américas. \n(Adaptado  de  Case  Watkins,  \"African  Oil  Palms,  Colonial  Socioecological \nTransformation and the Making of an Afro-Brazilian Landscape in Bahia, Brazil.\" \nEnvironment and History. Winwick Cambridgeshire: The White Horse Press, \n2015, v. 21, p. 41.) \n \nCom  base  no  excerto  e  em  seus  conhecimentos  sobre  a \ncultura brasileira, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A formação histórica da paisagem da Costa do Dendê, na \nBahia, é resultado da produção em larga escala de azeite \nde  dendê  nos  grandes  latifúndios  monocultores  que \nutilizavam mão de obra escrava africana e indígena desde",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A desigualdade sócio-econômica que marcou a história da \nformação  do  campesinato  brasileiro  é  um  fator  que \ninviabiliza o desenvolvimento econômico e ambiental do \nBrasil com base na produção de combustível sustentável \na partir de dendê.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Os  dendezeiros  do  litoral  brasileiro  são  resultado  de \ntecnologias de cruzamento entre espécies de palmeiras \nafricanas,  asiáticas  e  nativas  que  eram  cultivadas \nsecularmente pelos indígenas em toda a América do Sul.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Os bosques de dendezeiros no litoral baiano formam uma \npaisagem que testemunha o protagonismo histórico dos \nafricanos e seus descendentes a partir de seus hábitos \nalimentares, conhecimentos sobre as plantas e práticas \nagrícolas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_61",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Pode-se  dizer  que  o  fascismo  italiano  foi  a  primeira \nditadura de direita que dominou um país europeu: ele era \numa colagem de diversas ideias políticas e filosóficas. É \npossível  conceber  um  movimento  totalitário  que  consiga \njuntar  monarquia  e  revolução,  exército  real  e  milícia \npessoal de Mussolini, os privilégios concedidos à Igreja e \numa educação estatal que exaltava a violência e o livre \nmercado?  \n(Adaptado de Umberto Eco, “O Fascismo Eterno”, em Cinco Escritos Morais. Rio \nde Janeiro: Record, 2010, p. 29-38.) \n \nA partir da leitura do texto do escritor italiano Umberto Eco \n(1932-2016), é correto afirmar que o fascismo italiano",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "era  marcado  pela  política  de  integração  europeia, \neliminação de fronteiras nacionais e produção regulada \npelo Estado.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "resultou da combinação de ideários político-filosóficos \ninicialmente  incompatíveis,  valendo-se  da  violência \ncomo instrumento político.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "era uma ditadura de direita que serviu de modelo para \npaíses  como  Espanha,  Portugal,  Brasil  e  Estados \nUnidos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "tinha como centro a figura de Mussolini, um homem \ncarismático que assumia o papel de líder religioso e \npolítico.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_62",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A  imagem  anterior  circulou  em  1964  e  faz  parte  de  um \nconjunto de propagandas do governo de Mao Tsé-Tung (1893-\n1976). Sobre o cartaz e o contexto, é correto afirmar:",
+      "files": [
+        "/data/comvest/assets/2021/day2/62/1.jpg",
+        "/data/comvest/assets/2021/day2/62/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A imagem do líder próximo à população camponesa e da \nfartura no campo era recorrente no Partido sob liderança \nde Mao Tsé-Tung e contrastava com a realidade marcada \npela baixa produtividade e pela fome.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A Revolução Cultural na China, liderada por Mao Tsé-\nTung, garantiu a alfabetização da população chinesa e a \nabertura econômica. A imagem retrata o apoio popular ao \nlíder.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A imagem é uma propaganda que buscava valorizar a \ntradição dos saberes do campo, conciliada com o Grande \nSalto para Frente, que visava a transformar a China em \numa potência tecnológica.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A  Revolução  Cultural  deu  início  a  uma  ditadura  que \nfuncionava  sobre  os  princípios  dos  comitês  locais.  Na \npropaganda,  Mao  Tsé-Tung  consulta  um  conselho  do \npovo sobre a produção de arroz.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_63",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Lélia  Gonzalez  (1935-1994)  teve  um  papel  pioneiro  na \ncriação  de  uma  teoria  do  feminismo  negro  brasileiro.  O \nmomento mais intenso de sua militância ocorreu durante a \nDitadura  Militar  (1964-1985),  que  coibiu  a  organização \npolítica da sociedade civil. A Lei de Segurança Nacional, \nde setembro de 1967, estabelecia que era crime “incitar \npublicamente ao ódio ou à discriminação racial”. O que, na \nverdade,  poderia  ser  usado  contra  o  movimento  negro, \numa  vez  que  denunciar  o  racismo  e  expor  o  mito  da \ndemocracia racial poderia ser considerado uma ameaça à \nordem social, um estímulo ao antagonismo e uma incitação \nao preconceito.  \n(Adaptado de Raquel Barreto, “Memória - Lélia Gonzalez”. Revista Cult 247. \nSão Paulo, julho, 2019. Disponível em https://revistacult.uol.com.br/home/ lelia-\ngonzalez-perfil/. Acessado em 01/05/2020.) \n \nA partir do excerto sobre Lélia Gonzalez e seu contexto \nhistórico, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A  Ditadura  Militar  perseguiu  o  feminismo  negro  no \nBrasil  por  ele  pregar  a  supremacia  das  mulheres \nnegras.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A  Ditadura  Militar  criou  mecanismos  para  recolher \ndenúncias  contra  a  discriminação  e  combater  o \nracismo estrutural no país.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A  Lei  de  Segurança  Nacional  criou  instrumentos \njurídicos  que  possibilitavam  a  criminalização  de \ndenúncias contra o racismo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A Lei de Segurança Nacional possibilitou a harmonia \ndas relações étnico-raciais e a igualdade de gênero no \nBrasil.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_64",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O SUS (Sistema Único de Saúde) foi definido a partir de \nprincípios  universalistas  e  igualitários,  quer  dizer,  para \ntodos e de forma igual, embasado na concepção de saúde \ncomo direito de todos e dever do Estado. Essa construção \ndo  SUS  rompeu  com  o  caráter  meritocrático  que \ncaracterizava  a  assistência  à  saúde  no  Brasil  até  a \nConstituição  de  1988.  Os  seus  princípios,  presentes  no \nartigo 196 da Constituição de 1988, foram implementados \ngradualmente. Um de seus marcos é a Lei Orgânica da \nSaúde (nº 8.080) de 19 de setembro de 1990, que fundou e \noperacionalizou o SUS.  \n(Adaptado de Telma Menicucci, História da reforma sanitária brasileira e do \nSistema Único de Saúde: mudanças, continuidades e a agenda atual. História, \nCiências, Saúde – Manguinhos. Rio de Janeiro, v. 21, n.1, jan-mar. 2014, p.77-\n92.) \n \nCom base no excerto e em seus conhecimentos sobre a \nhistória do Brasil, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Os  princípios  universais  e  inclusivos  do  SUS  foram \ndesmantelados durante década de 1990 em razão da \ncrise inflacionária que assolou o país e das reformas \nneoliberais que aumentaram os gastos do Estado com \na saúde e o saneamento.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A criação do SUS aconteceu no contexto de reabertura \npolítica e da expansão democrática que sucedeu ao \nregime  militar.  O  seu  funcionamento  mostra  as \ndificuldades de financiamento da saúde pública entre \nas décadas de 1990 e 2000.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O  modelo  que  inspirou  os  princípios  do  SUS  foi  o \nsistema  universal  de  saúde  de  Cuba,  cujos \nprofissionais prestaram consultoria ao Estado brasileiro \ndurante a formulação dos artigos referentes à saúde \nda Constituição de 1988.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Durante  o  governo  do  presidente  Fernando  Collor \n(1990-1992),  houve  a  suspensão  do  SUS  e  a \nexpansão dos sistemas de saúde baseados em planos \nprivados  oferecidos  por  instituições  estrangeiras  que \npassaram a atuar no país.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_65",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Mapa da eleição para Presidente. EUA, 2016 \n (Fonte:https://www.270towin.com/historical-presidentialelections/timeline/.) \n Nos EUA, a eleição para Presidente é indireta: o eleitor \nvota em um delegado estadual e este, se for eleito, votará \npara  Presidente  em  um  Colégio  Eleitoral.  O  número  de \ndelegados  é  proporcional  à  população  de  cada  Estado, \nmas há um sistema chamado winner-takes-all (o ganhador \nleva tudo) no qual o candidato a Presidente que conseguir \no maior número de delegados de um Estado fica com todos - á exceção do Maine e Nebraska. Observe o mapa e a\n tabela  com  os  resultados  eleitorais  de  2016:  a  segunda \ncolocada  nas  eleições  em  número  de  votos  (227)  por \ncolégio  eleitoral  obteve  um  número  maior  de  votos \nindividuais  (65.845.063),  o  que  leva  a  concluir  que  os \ncolégios eleitorais",
+      "files": [
+        "/data/comvest/assets/2021/day2/65/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "do primeiro colocado são mais populosos; ele obteve \ngrande concentração de votos na Costa Oeste.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "da segunda colocada são mais populosos; ela obteve \ngrande concentração de votos no Golfo do México.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "do primeiro colocado são menos populosos; ele obteve \nmaioria absoluta dos votos no Golfo do México.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "da  segunda  colocada  são  menos  populosos;  ela \nobteve  a  maioria  absoluta  dos  votos  nos  Grandes \nLagos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_66",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O ano de 2008 assistiu ao início de uma crise capitalista \nmundial que se prolonga até os dias atuais. É uma crise \nsimilar, em sua amplitude, à Grande Depressão de 1929. \nContudo, apesar de receber a mesma designação (crise), \nessa crise capitalista prolongada difere em seu contexto \nmundial  e  em  traços  específicos  daquela  de  1929, \nsobretudo pelo processo de financeirização que emergiu \nao final do século XX e que permite imensas acumulações \nde capitais. \n \nSobre essa crise capitalista financeirizada é correto afirmar \nque",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "é derivada da superprodução de bens manufaturados, \nespecialmente ligados à indústria de base, em crise \ncom a expansão dos financiamentos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "é produzida pela alta demanda do consumo nos países \npobres,  o  que  tem  levado  a  uma  ampliação  dos \nfinanciamentos para a compra de bens.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "resulta  de  especulações  financeiras  que,  sem \npassarem  pelos  sistemas  produtivos,  propiciam \nacumulações em capitais fictícios.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "procede  de  especulação  financeira,  gerando \nexcedentes na indústria de bens de capital e exigindo \nmaiores somas em financiamentos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_67",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As  cidades  em  que  vivemos  hoje  são  fechadas  de \nmaneiras  que  refletem  o  que  aconteceu  no  mundo  da \ntecnologia.  Na  imensa  explosão  urbana  que  ocorre \natualmente no Sul Global - na China, na Índia, no Brasil, no \nMéxico, nos países da África Central -, grandes empresas \ndas finanças e da construção estão padronizando a cidade; \nno  momento  em  que  o  avião  aterrissa,  talvez  não \npossamos distinguir Pequim de Nova York. Seja no Norte \nou no Sul, o crescimento das cidades não gerou grandes \nexperimentações  na  forma.  O  complexo  comercial,  o \ncampus  universitário,  a  torre  residencial  erguida  num \nrecanto  de  um  parque  não  são  formas  favoráveis  à \nexperimentação por serem autossuficientes, e não abertas \na influências e interações externas. \n(Adaptado  de  Richard  Sennett,  Construir  e  habitar. Ética  para uma  cidade aberta. Rio de Janeiro: Editora Record,2018 p. 22.)\nDe acordo com a visão do autor, podemos afirmar que:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O processo de urbanização é bastante diferenciado no \nmundo  todo,  promovendo  novas  experiências  que \nabrem os espaços à criatividade.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "As  formas  urbanas  autossuficientes  não \nhomogeneízam as cidades, pelo contrário, as tornam \nlugar de novas complexidades e interações.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A  cidade  fechada  deriva  de  sua  instrumentalização \npara  a  eficácia,  empobrecendo  experiências  e \ntornando o espaço habitado mais artificial.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A paisagem urbana é, cada vez mais, a expressão de \npotencialidades  locais,  demonstrando  a \ndespadronização das formas construídas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_68",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Brasil - Produção Agrícola Municipal - 2017 \nCana-de-açúcar \n  \nBrasil - Produção Agrícola Municipal - 2017 \nManga \n  \n(Fonte:  Atlas  Escolar  do  IBGE.  Disponível  em  https://mapas.ibge.gov.br/ \nescolares/ensino-medio/brasil.html). Acessado em 10/09/2020. \nA produção agrícola nacional, para os mercados interno e \nexterno, aparece como ponto fundamental para o Produto \nInterno  Bruto  nacional.  Sobre  as  culturas  de  cana-de-\naçúcar e manga é correto afirmar:",
+      "files": [
+        "/data/comvest/assets/2021/day2/68/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Pouco concentrada espacialmente, a cana-de-açúcar é \numa cultura permanente voltada para exportação.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A  manga  é  uma  cultura  permanente,  que  tem \nimportante produção nas áreas irrigadas no Nordeste.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A cana-de-açúcar é uma cultura temporária no litoral \nnordestino e permanente na região Sudeste.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Inteiramente voltada para o mercado interno, a cultura \nda manga é uma cultura temporária na região Sudeste.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_69",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Atmosfera é a camada gasosa que envolve a Terra. Ela \nnão  se  apresenta  de  forma  homogênea  em  toda  a  sua \nextensão, e sua composição varia de acordo com o local, \nmas nela podemos encontrar, além dos gases, partículas \nde pó, cinzas vulcânicas, microrganismos, vapor d' água, \nsais, etc. \n  \n(Adaptado  de  Robert  W.  Christoperson,  Geossistemas:  uma  introdução  à \nGeografia Física. Porto Alegre: Bookman, 2012, p. 63.) \n \nAssinale a alternativa que associa corretamente a camada \nda atmosfera a suas respectivas características.",
+      "files": [
+        "/data/comvest/assets/2021/day2/69/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Na Termosfera, a grande quantidade de gases faz \ncom que as temperaturas nesta porção da atmosfera \nsejam  elevadas.  Quanto  maior  a  concentração  de \ngases,  maior  a  absorção  da  radiação  solar  e, \nconsequentemente, maiores são as temperaturas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A Mesosfera é a camada da atmosfera em que há \npresença  do  gás  ozônio.  A  emissão  dos \nclorofluorcarbonetos (CFCs) tem aumentado o buraco \nna camada de ozônio, diminuindo sua função de filtrar \na radiação ultravioleta.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Na  Estratosfera  as  temperaturas  aumentam  com  a \naltitude. É nesta camada que se formam as nuvens, \nconstituídas pelo vapor de água aquecido proveniente \nda superfície terrestre; ao atingirem a Estratopausa, as \nnuvens se condensam ocasionando as precipitações.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A Troposfera, nas suas baixas altitudes, é a camada \nda atmosfera que tem mais calor, mesmo não sendo a \nporção da atmosfera com maior temperatura. Isto se \ndá  pela  maior  concentração  de  gases  próximos  à \nsuperfície, em razão da atração gravitacional.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_70",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O que se costuma chamar popularmente de “bioma Mata \nAtlântica”  e  de  “bioma  “Mata  Amazônica”  não  são,  na \nverdade, biomas, mas conjuntos de biomas, uma vez que \nnão  apresentam  a  condição  básica  do  conceito \ninternacional  de  biomas,  isto  é:  um  espaço  geográfico \nnatural que se caracteriza pela uniformidade de condições \nclimáticas, edáficas e de fitofisionomias. \n(Adaptado de Leopoldo Magno Coutinho, Biomas brasileiros. São Paulo: Oficina \nde Textos, 2016, p. 34.) \n \nA partir da leitura do texto e de seus conhecimentos sobre \nos biomas brasileiros, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A  ocorrência  de  savanas  no  Brasil  restringe-se  à \nregião  Centro-Oeste  e  a  porções  interioranas  da \nregião  Nordeste,  em  climas  que  apresentam  uma \nestação seca definida.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "As florestas no Brasil só ocorrem na zona intertropical, \npois esses biomas são adaptados a climas quentes, \ncom  precipitação  superior  a  2.000mm  anuais  e \ntemperaturas médias superiores a 25ºC.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O  Pantanal  tem  clima  uniforme  e  não  apresenta \nuniformidade  nas  suas  características  edáficas  e  na \nsua  fitofisionomia,  como  exige  o  conceito  de  bioma; \npor isso é considerado um sistema complexo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "No  clima  subtropical,  com  temperaturas  médias \nanuais de 10ºC a 18ºC, a região Sul do Brasil tem um \núnico bioma, caracterizado por apresentar um dossel \nformado exclusivamente pela Araucária.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_71",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Imagine  o  espanto  do  navegante  português  João  de \nCastro, vice-rei da Índia, quando, em 1538, viajando pelo \nMar  Arábico,  nas  proximidades  de  Bombaim,  tendo \natracado em uma pequena ilha, colocou sua bússola sobre \no rochedo e verificou que a agulha se inverteu: apontava \npara o sul em vez de apontar para o norte! \nA  única  coisa  que  o  bravo  navegador  poderia  fazer era \nanotar  o  incidente  em  seu  diário  de  bordo  e, \nprovavelmente, trocar de bússola. \n(Adaptado de Samuel M. Branco e Fábio C. Branco, A deriva dos continentes. \nSão Paulo: Moderna, 2004, p. 58.) \n \n \n \nA bússola é um instrumento de orientação na superfície \nterrestre que permite a localização a partir da posição dos \npolos magnéticos da Terra.  \n \nConsiderando o exposto, assinale a alternativa que explica \na inversão da agulha da bússola relatada no texto.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A bússola teve um problema de fabricação, o que fez \ncom que a agulha fosse desmagnetizada, gerando um \nmovimento oposto ao esperado.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A agulha da bússola se inverteu, pois o rochedo foi \nformado  em  um  momento  em  que  os  pólos \nmagnéticos da Terra estavam invertidos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A  bússola  não  é  um  mecanismo  confiável  de \nlocalização, tanto que, na atualidade, foi substituída \npelo GPS, instrumento preciso.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A bússola é um meio de orientação exclusivo para os \nnavios. O seu uso nos continentes sofre influência dos \nmateriais metálicos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2021-day2-UNICAMP_2021_72",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2021-day2",
+      "year": 2021,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Como justificar que somos uma humanidade, se mais \nde 70% estão totalmente alienados do mínimo exercício \nde ser? A modernização jogou essa gente do campo e \nda floresta para viver em favelas e em periferias, para \nvirar mão de obra em centros urbanos. Essas pessoas \nforam arrancadas de seus coletivos, de seus lugares de \norigem,  e  jogadas  nesse  liquidificador  chamado \nhumanidade.  Se  as  pessoas  não  tiverem  vínculos \nprofundos  com  sua  memória  ancestral,  com  as \nreferências que dão sustentação a uma identidade, vão \nficar loucas neste mundo maluco que compartilhamos. \n(Adaptado de Ailton Krenak, Ideias para adiar o fim do mundo. Apple Books, \n2018, p. 10.) \n \nCom base no texto e em seus conhecimentos, assinale \na alternativa que apresenta corretamente os conceitos \nde “alienação” e “identidade”, respectivamente.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "dissociação dos seres humanos de algum aspecto \nessencial  de  sua  natureza;  interações  coletivas \nconstruídas  sobre  heranças  espaciais  e \ntemporalidades vividas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "associação  dos  seres  humanos  com  a  natureza \nfundamental  das  sociedades;  enraizamentos  em \nespaços e temporalidades herdados que constroem \nnexos coletivos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "falta  de  controle  sobre  processos  sociais  capitais \npara a vida das pessoas; apagamento dos tempos e \ntemporalidades precedentes como forma de vínculo \ncoletivo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "consciência  e  controle  plenos  das  transformações \nnas  relações  sociais;  estranhamento  com  relação \naos  espaços  herdados  e  projetos  de  futuro  das \ncoletividades.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    }
+  ]
+}
