@@ -14,10 +14,10 @@
   },
   "summary": {
     "sourceQuestionCount": 630,
-    "publishedQuestionCount": 627,
-    "rejectedQuestionCount": 3,
-    "referencedAssetCount": 334,
-    "ignoredAssetCount": 20,
+    "publishedQuestionCount": 626,
+    "rejectedQuestionCount": 4,
+    "referencedAssetCount": 333,
+    "ignoredAssetCount": 21,
     "editions": [
       {
         "editionId": "comvest-2018",
@@ -88,7 +88,7 @@
         "editionId": "comvest-2021-day2",
         "year": 2021,
         "day": 2,
-        "questionCount": 71,
+        "questionCount": 70,
         "subjectIds": [
           "biology",
           "chemistry",
@@ -172,6 +172,13 @@
       "editionId": "comvest-2021-day2",
       "reason": "empty-answer",
       "detail": "the source question has an empty answer"
+    },
+    {
+      "sourceFile": "2021/day2/68.json",
+      "sourceId": "UNICAMP_2021_68",
+      "editionId": "comvest-2021-day2",
+      "reason": "unreferenced-associated-image",
+      "detail": "associated image not referenced by any [IMAGE n]: imgs/UNICAMP/2021/day2/68/2.jpg"
     }
   ],
   "ignoredAssets": [
@@ -252,8 +259,12 @@
       "reason": "rejected-question-image"
     },
     {
+      "path": "imgs/UNICAMP/2021/day2/68/1.jpg",
+      "reason": "rejected-question-image"
+    },
+    {
       "path": "imgs/UNICAMP/2021/day2/68/2.jpg",
-      "reason": "unreferenced-associated-image"
+      "reason": "rejected-question-image"
     }
   ]
 }

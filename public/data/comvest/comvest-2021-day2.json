@@ -2947,52 +2947,6 @@
       }
     },
     {
-      "id": "comvest-comvest-2021-day2-UNICAMP_2021_68",
-      "institutionId": "unicamp",
-      "examId": "comvest",
-      "editionId": "comvest-2021-day2",
-      "year": 2021,
-      "subjectId": "geography",
-      "language": null,
-      "kind": "single-choice",
-      "context": "Brasil - Produção Agrícola Municipal - 2017 \nCana-de-açúcar \n  \nBrasil - Produção Agrícola Municipal - 2017 \nManga \n  \n(Fonte:  Atlas  Escolar  do  IBGE.  Disponível  em  https://mapas.ibge.gov.br/ \nescolares/ensino-medio/brasil.html). Acessado em 10/09/2020. \nA produção agrícola nacional, para os mercados interno e \nexterno, aparece como ponto fundamental para o Produto \nInterno  Bruto  nacional.  Sobre  as  culturas  de  cana-de-\naçúcar e manga é correto afirmar:",
-      "files": [
-        "/data/comvest/assets/2021/day2/68/1.jpg"
-      ],
-      "alternativesIntroduction": null,
-      "alternatives": [
-        {
-          "id": "a",
-          "label": "A",
-          "text": "Pouco concentrada espacialmente, a cana-de-açúcar é \numa cultura permanente voltada para exportação.",
-          "file": null
-        },
-        {
-          "id": "b",
-          "label": "B",
-          "text": "A  manga  é  uma  cultura  permanente,  que  tem \nimportante produção nas áreas irrigadas no Nordeste.",
-          "file": null
-        },
-        {
-          "id": "c",
-          "label": "C",
-          "text": "A cana-de-açúcar é uma cultura temporária no litoral \nnordestino e permanente na região Sudeste.",
-          "file": null
-        },
-        {
-          "id": "d",
-          "label": "D",
-          "text": "Inteiramente voltada para o mercado interno, a cultura \nda manga é uma cultura temporária na região Sudeste.",
-          "file": null
-        }
-      ],
-      "answer": {
-        "optionIds": [
-          "b"
-        ]
-      }
-    },
-    {
       "id": "comvest-comvest-2021-day2-UNICAMP_2021_69",
       "institutionId": "unicamp",
       "examId": "comvest",

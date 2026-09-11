@@ -85,10 +85,10 @@ npm run import:comvest -- --source "<BLUEX>/extracted" \
 | Commit fixado | `6cdd69bd8dc8d0144e6bb01501ccae312720a0e6` |
 | SHA-256 do ZIP | `5A02D9FCD5714332EA14AFD2C412FB1839A7AF518B1C6BD29008AD9B8CCF55D2` |
 | Edições publicadas | 8 (2018, 2019, 2020, 2021 dia 1, 2021 dia 2, 2022, 2023, 2024) |
-| Questões publicadas | 627 de 630 |
-| Impressões/rejeições | 3 (ver abaixo) |
-| Assets publicados | 334, referenciados por enunciados e alternativas |
-| Assets ignorados | 20, explicitados no relatório de importação |
+| Questões publicadas | 626 de 630 |
+| Impressões/rejeições | 4 (ver abaixo) |
+| Assets publicados | 333, referenciados por enunciados e alternativas |
+| Assets ignorados | 21, explicitados no relatório de importação |
 
 O identificador global segue literalmente `{examId}-{editionId}-{sourceQuestionId}`,
 por exemplo `comvest-comvest-2021-day1-UNICAMP_2021_1`. A colisão de `id` de 2021 entre
@@ -106,18 +106,24 @@ por exemplo `comvest-comvest-2021-day1-UNICAMP_2021_1`. A colisão de `id` de 20
   alternativa, o que o contrato `single-choice` atual não representa sem perder
   informação. A questão foi rejeitada (`alternative-image-count-unsupported`) e suas 13
   imagens foram ignoradas de forma explícita.
+- **Imagem associada sem marcador.** `UNICAMP_2021_68` tem dois mapas no enunciado
+  ("Cana-de-açúcar" e "Manga"), ambos anotados como `[IMAGE 0]`, e dois arquivos em
+  `associated_images`; o segundo nunca é referenciado. Como publicar mostraria a figura
+  errada para um dos mapas, a questão foi rejeitada
+  (`unreferenced-associated-image`) em vez de representar o conteúdo incorretamente.
 - **Disciplina única.** O contrato carrega um único `subjectId`; uma questão
   multidisciplinar mantém apenas a primeira matéria declarada pelo BLUEX
   (`subject[0]`), preservando a disciplina primária do anotador. A lista completa
   permanece no inventário de metadados.
 - **Assets ignorados.** Seis arquivos de imagem órfãos de `2021/day1` (diretórios
-  `33`, `35` e `38`) não são referenciados por nenhuma questão; um asset associado de
-  `2021/day2/68` não é referenciado por nenhum marcador `[IMAGE n]`; e as 13 imagens da
-  questão rejeitada de 2021 também não são publicadas. A decisão está registrada em
+  `33`, `35` e `38`) não são referenciados por nenhuma questão; as 13 imagens de
+  `UNICAMP_2021_41` e as 2 de `UNICAMP_2021_68` pertencem a questões rejeitadas e
+  também não são publicadas. A decisão está registrada em
   `docs/research/data/comvest-unicamp-import-report.json`.
 - **Marcadores de imagem.** Todo `[IMAGE n]` é resolvido para o asset local
-  correspondente; nenhum marcador permanece no texto publicado e nenhuma imagem
-  referenciada fica órfã.
+  correspondente; nenhum marcador permanece no texto publicado, nenhuma imagem
+  referenciada fica órfã e toda imagem associada precisa ser referenciada por um
+  marcador ou a questão é rejeitada.
 
 ## Atribuição e licenciamento
 
@@ -125,7 +131,8 @@ O conteúdo das questões é de titularidade da **Comvest / Vestibular Unicamp**
 publicação segue a regra documentada em
 [`docs/research/comvest-unicamp-inventory.md`](../../docs/research/comvest-unicamp-inventory.md):
 reprodução parcial com atribuição. Os pacotes publicados reproduzem, por edição,
-grande parte da 1ª fase objetiva; a manutenção da atribuição e a checagem de obras de
-terceiros embutidas em cada questão permanecem pendentes de revisão editorial antes de
+quase a totalidade da 1ª fase objetiva (por exemplo, 90/90 em 2018 e 72/72 em 2022);
+a manutenção da atribuição e a checagem de obras de terceiros embutidas em cada
+questão permanecem pendentes de revisão editorial/sign-off do mantenedor antes de
 qualquer uso público amplo. A proveniência do dataset BLUEX é registrada por commit e
 SHA-256 e o relatório de importação acompanha as contagens e rejeições.

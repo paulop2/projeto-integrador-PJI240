@@ -309,7 +309,7 @@ describe('Comvest published package', () => {
       ['comvest-2019', 89],
       ['comvest-2020', 90],
       ['comvest-2021-day1', 71],
-      ['comvest-2021-day2', 71],
+      ['comvest-2021-day2', 70],
       ['comvest-2022', 72],
       ['comvest-2023', 72],
       ['comvest-2024', 72],
@@ -345,12 +345,13 @@ describe('Comvest published package', () => {
       questionPackageSchema.parse(JSON.parse(body)).questions.map(({ id }) => id),
     );
 
-    expect(comvestQuestions).toHaveLength(627);
+    expect(comvestQuestions).toHaveLength(626);
     expect(new Set(comvestIds).size).toBe(comvestIds.length);
     expect(new Set([...comvestIds, ...enemIds]).size).toBe(comvestIds.length + enemIds.length);
     expect(comvestIds).toContain('comvest-comvest-2021-day1-UNICAMP_2021_1');
     expect(comvestIds).toContain('comvest-comvest-2021-day2-UNICAMP_2021_1');
     expect(comvestIds).toContain('comvest-comvest-2019-UNICAMP_2019_53');
+    expect(comvestIds).not.toContain('comvest-comvest-2021-day2-UNICAMP_2021_68');
   });
 
   it('publishes every referenced asset locally, leaves no image marker and no orphan asset', () => {

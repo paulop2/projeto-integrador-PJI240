@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import { copyFile, mkdir, readFile, rename, writeFile } from 'node:fs/promises';
-import { basename, dirname, join, resolve } from 'node:path';
+import { basename, dirname, join, resolve, sep } from 'node:path';
 
 import { catalogManifestSchema, type CatalogManifest } from '../src/contracts/catalog';
 import {
@@ -110,20 +110,29 @@ interface ZipProvenance {
 const verifyZip = async (options: CliOptions): Promise<ZipProvenance | null> => {
   if (!options.zipPath) return null;
   const sha256 = await sha256File(options.zipPath);
-  const verified = options.expectedZipSha256 === null || sha256 === options.expectedZipSha256;
-  if (!verified) {
-    throw new Error(`SHA-256 do ZIP não confere: ${sha256} != ${options.expectedZipSha256}`);
+  const expected = options.expectedZipSha256;
+  if (expected !== null && sha256 !== expected) {
+    throw new Error(`SHA-256 do ZIP não confere: ${sha256} != ${expected}`);
   }
   return {
     fileName: basename(options.zipPath),
     sha256,
-    expected: options.expectedZipSha256,
-    verified,
+    expected,
+    verified: expected !== null,
   };
 };
 
+const resolveInside = (root: string, relativePath: string): string => {
+  const base = resolve(root);
+  const target = resolve(base, relativePath);
+  if (target !== base && !target.startsWith(`${base}${sep}`)) {
+    throw new Error(`caminho fora do diretório de dados: ${relativePath}`);
+  }
+  return target;
+};
+
 const assetDestination = (outputRoot: string, assetUrl: string): string =>
-  join(outputRoot, assetUrl.replace(`/data/`, ''));
+  resolveInside(outputRoot, assetUrl.replace(/^\/data\//, ''));
 
 export interface ImportReport {
   readonly generatedBy: 'scripts/import-comvest.ts';
@@ -197,7 +206,7 @@ export const run = async (options: CliOptions): Promise<void> => {
   }
 
   for (const assetUrl of result.referencedAssets) {
-    const sourcePath = join(options.source, toComvestSourceImagePath(assetUrl));
+    const sourcePath = resolveInside(options.source, toComvestSourceImagePath(assetUrl));
     const destination = assetDestination(options.outputRoot, assetUrl);
     await mkdir(dirname(destination), { recursive: true });
     await copyFile(sourcePath, destination);

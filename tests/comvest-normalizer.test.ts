@@ -171,6 +171,35 @@ describe('Comvest question normalization', () => {
     if (result.ok) return;
     expect(result.rejection.reason).toBe('invalid-source-question');
   });
+
+  it('rejects a question whose associated image is never referenced by a marker', () => {
+    const result = normalize('2021/day2/68.json', {
+      id: 'UNICAMP_2021_68',
+      question: 'Cana-de-açúcar [IMAGE 0]. Manga [IMAGE 0].',
+      associated_images: [
+        'imgs/UNICAMP/2021/day2/68/1.jpg',
+        'imgs/UNICAMP/2021/day2/68/2.jpg',
+      ],
+    });
+    expect(result.ok).toBe(false);
+    if (result.ok) return;
+    expect(result.rejection).toMatchObject({
+      reason: 'unreferenced-associated-image',
+      sourceId: 'UNICAMP_2021_68',
+    });
+  });
+
+  it('rejects an associated image path that escapes the dataset root', () => {
+    const result = normalize('2019/53.json', {
+      id: 'UNICAMP_2019_53',
+      question: 'Veja [IMAGE 0].',
+      associated_images: ['imgs/UNICAMP/../../../../evil.jpg'],
+      alternatives: ['a) [IMAGE 0]', 'b) segunda'],
+    });
+    expect(result.ok).toBe(false);
+    if (result.ok) return;
+    expect(result.rejection.reason).toBe('invalid-image-path');
+  });
 });
 
 describe('Comvest package generation', () => {
@@ -220,6 +249,23 @@ describe('Comvest package generation', () => {
     expect(result.referencedAssets).toEqual(['/data/comvest/assets/2019/53/1.jpg']);
     expect(result.ignoredAssets).toEqual([
       { path: 'imgs/UNICAMP/2021/day1/33/0.jpg', reason: 'orphan-file' },
+    ]);
+  });
+
+  it('rejects a duplicate global id instead of aborting the whole batch', () => {
+    const result = createComvestPackages([
+      { file: '2024/1.json', raw: sourceQuestion({ id: 'UNICAMP_2024_1', number: 1 }) },
+      { file: '2024/2.json', raw: sourceQuestion({ id: 'UNICAMP_2024_1', number: 2 }) },
+    ]);
+
+    expect(result.packages).toHaveLength(1);
+    expect(result.packages[0]?.package.questions).toHaveLength(1);
+    expect(result.rejections).toEqual([
+      expect.objectContaining({
+        reason: 'duplicate-question-id',
+        sourceFile: '2024/2.json',
+        sourceId: 'UNICAMP_2024_1',
+      }),
     ]);
   });
 });

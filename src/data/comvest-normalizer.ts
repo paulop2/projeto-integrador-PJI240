@@ -45,6 +45,12 @@ export const comvestEditionId = (year: number, day: number | null): string =>
 export const comvestAssetUrl = (sourceImagePath: string): string =>
   `/data/${comvestExamId}/assets/${normalizeSourcePath(sourceImagePath).replace(/^imgs\/UNICAMP\//, '')}`;
 
+const isSafeDatasetPath = (path: string): boolean =>
+  path.length > 0 &&
+  !path.startsWith('/') &&
+  !/^[A-Za-z]:/.test(path) &&
+  !path.split('/').some((segment) => segment === '..');
+
 /** Reverses {@link comvestAssetUrl} back to the BLUEX image path. */
 export const toComvestSourceImagePath = (assetUrl: string): string =>
   `imgs/UNICAMP/${normalizeSourcePath(assetUrl).replace(`/data/${comvestExamId}/assets/`, '')}`;
@@ -58,6 +64,9 @@ export type ComvestRejectionReason =
   | 'alternative-without-content'
   | 'alternative-image-count-unsupported'
   | 'image-reference-missing'
+  | 'unreferenced-associated-image'
+  | 'invalid-image-path'
+  | 'duplicate-question-id'
   | 'contract-violation';
 
 export interface ComvestRejection {
@@ -183,6 +192,7 @@ const parseAlternative = (
 
 export interface NormalizedComvestQuestion {
   readonly question: Question;
+  readonly sourceFile: string;
   readonly sourceId: string;
   readonly number: number;
   readonly editionId: string;
@@ -242,6 +252,11 @@ export const normalizeComvestQuestion = (
   }
 
   const associatedImages = source.associated_images.map(normalizeSourcePath);
+  const unsafeImage = associatedImages.find((image) => !isSafeDatasetPath(image));
+  if (unsafeImage !== undefined) {
+    return reject('invalid-image-path', `unsafe associated image path "${unsafeImage}"`);
+  }
+
   const questionText = parseText(source.question, associatedImages);
   if (questionText.invalidMarkerIndex !== null) {
     return reject(
@@ -257,6 +272,15 @@ export const normalizeComvestQuestion = (
     if (!parsed.ok) return reject(parsed.reason, parsed.detail);
     alternatives.push(parsed.value.alternative);
     referencedImages.push(...parsed.value.imageRefs);
+  }
+
+  const referencedSet = new Set(referencedImages);
+  const unreferenced = associatedImages.filter((image) => !referencedSet.has(image));
+  if (unreferenced.length > 0) {
+    return reject(
+      'unreferenced-associated-image',
+      `associated image not referenced by any [IMAGE n]: ${unreferenced.join(', ')}`,
+    );
   }
 
   const answerId = normalizeIdentifier(record.answer);
@@ -292,6 +316,7 @@ export const normalizeComvestQuestion = (
     ok: true,
     value: {
       question: validated.data,
+      sourceFile: normalizedFile,
       sourceId: record.sourceId,
       number: record.number,
       editionId,
@@ -319,11 +344,28 @@ export const createComvestPackages = (
 ): ComvestNormalizationResult => {
   const rejections: ComvestRejection[] = [];
   const accepted: NormalizedComvestQuestion[] = [];
+  const seenIds = new Map<string, string>();
 
   for (const entry of entries) {
     const result = normalizeComvestQuestion(entry.file, entry.raw);
-    if (result.ok) accepted.push(result.value);
-    else rejections.push(result.rejection);
+    if (!result.ok) {
+      rejections.push(result.rejection);
+      continue;
+    }
+    const { question, sourceFile, sourceId, editionId } = result.value;
+    const prior = seenIds.get(question.id);
+    if (prior !== undefined) {
+      rejections.push({
+        sourceFile,
+        sourceId,
+        editionId,
+        reason: 'duplicate-question-id',
+        detail: `duplicate of ${prior}`,
+      });
+      continue;
+    }
+    seenIds.set(question.id, sourceFile);
+    accepted.push(result.value);
   }
 
   const byEdition = new Map<string, NormalizedComvestQuestion[]>();
