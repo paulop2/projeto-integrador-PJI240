@@ -1,4 +1,4 @@
-import type { Question, QuestionPackage } from '../contracts/question';
+import type { ForeignLanguage, Question, QuestionPackage } from '../contracts/question';
 import { questionPackageSchema } from '../contracts/question';
 import type { EnemApiQuestion } from './enem-api';
 import { enemApiQuestionSchema } from './enem-api';
@@ -53,6 +53,64 @@ export const normalizeEnemQuestion = (input: EnemApiQuestion): Question => {
     alternatives,
     answer: { optionIds: [declaredAnswer] },
   };
+};
+
+export interface EnemRejection {
+  readonly index: number;
+  readonly language: ForeignLanguage | null;
+  readonly reason: 'incomplete-alternatives' | 'invalid-question';
+  readonly detail: string;
+}
+
+/**
+ * Splits the source questions into importable and rejected records so an
+ * edition can publish every usable question and still report the rest.
+ */
+export const partitionEnemQuestions = (
+  questions: readonly EnemApiQuestion[],
+): { importable: EnemApiQuestion[]; rejections: EnemRejection[] } => {
+  const importable: EnemApiQuestion[] = [];
+  const rejections: EnemRejection[] = [];
+
+  for (const question of questions) {
+    if (!isCompleteEnemQuestion(question)) {
+      rejections.push({
+        index: question.index,
+        language: question.language ?? null,
+        reason: 'incomplete-alternatives',
+        detail: `question ${question.index}${question.language ? ` (${question.language})` : ''} has alternatives without text or file`,
+      });
+      continue;
+    }
+    try {
+      normalizeEnemQuestion(question);
+      importable.push(question);
+    } catch (error) {
+      rejections.push({
+        index: question.index,
+        language: question.language ?? null,
+        reason: 'invalid-question',
+        detail: error instanceof Error ? error.message : String(error),
+      });
+    }
+  }
+
+  return { importable, rejections };
+};
+
+/**
+ * Question indexes absent from the observed range. The source omits some
+ * positions (e.g. 34 and 174 in 2023); they are reported instead of invented.
+ */
+export const findMissingQuestionIndexes = (questions: readonly EnemApiQuestion[]): number[] => {
+  const indexes = [...new Set(questions.map(({ index }) => index))].sort((left, right) => left - right);
+  const first = indexes[0];
+  const last = indexes[indexes.length - 1];
+  if (first === undefined || last === undefined) return [];
+  const present = new Set(indexes);
+  const missing: number[] = [];
+  for (let index = first; index <= last; index += 1) if (!present.has(index)) missing.push(index);
+  return missing;
 };
 
 export const createEnemPackage = (

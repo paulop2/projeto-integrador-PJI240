@@ -1,6 +1,7 @@
 import { describe, expect, it, vi } from 'vitest';
 
 import manifestBody from '../../public/data/manifest.json?raw';
+import enem2021Body from '../../public/data/enem/enem-2021.json?raw';
 import comvest2024Body from '../../public/data/comvest/comvest-2024.json?raw';
 import fuvest2024Body from '../../public/data/fuvest/fuvest-2024.json?raw';
 
@@ -162,6 +163,32 @@ describe('offline package lifecycle integration', () => {
       throw new Error('offline');
     });
     expect(await reloadedOffline.loadQuestions()).toHaveLength(72);
+  });
+
+  it('installs and studies a newly published ENEM edition offline, caching its remote media', async () => {
+    const storage = new MemoryOfflineStorage();
+    const cache = new MemoryPackageCache();
+    const fetcher = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input);
+      if (url.includes('manifest')) return new Response(manifestBody);
+      if (url.includes('/data/enem/enem-2021.json')) return new Response(enem2021Body);
+      if (url.startsWith('https://enem.dev/')) return new Response('media-bytes');
+      return new Response(null, { status: 404 });
+    });
+    const manager = new OfflinePackageManager(storage, cache, fetcher, () => 100);
+
+    await manager.refreshCatalog();
+    await manager.install('enem-2021');
+    await manager.selectActiveExam('enem-2021', 'enem-2021');
+    const questions = await manager.loadQuestions();
+    expect(questions).toHaveLength(185);
+    expect(questions.every(({ examId, institutionId }) => examId === 'enem' && institutionId === 'inep')).toBe(true);
+    expect([...cache.assets.keys()].some((url) => url.startsWith('https://enem.dev/'))).toBe(true);
+
+    const reloadedOffline = new OfflinePackageManager(storage, cache, async () => {
+      throw new Error('offline');
+    });
+    expect(await reloadedOffline.loadQuestions()).toHaveLength(185);
   });
 
   it('installs and studies a real published Fuvest edition without a network', async () => {

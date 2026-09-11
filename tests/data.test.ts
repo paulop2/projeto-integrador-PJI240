@@ -3,8 +3,7 @@ import { join } from 'node:path';
 
 import { describe, expect, it, vi } from 'vitest';
 
-import package2022Body from '../public/data/enem/enem-2022.json?raw';
-import package2023Body from '../public/data/enem/enem-2023.json?raw';
+import enemImportReportBody from '../docs/research/data/enem-import-report.json?raw';
 import manifestBody from '../public/data/manifest.json?raw';
 
 import { catalogManifestSchema } from '../src/contracts/catalog';
@@ -13,9 +12,17 @@ import { packageDescriptor, serializePackage, upsertEnemManifest } from '../src/
 import { EnemApiClient, type EnemApiQuestion } from '../src/data/enem-api';
 import {
   createEnemPackage,
+  findMissingQuestionIndexes,
   isCompleteEnemQuestion,
   normalizeEnemQuestion,
+  partitionEnemQuestions,
 } from '../src/data/enem-normalizer';
+
+const enemPackageBodies = import.meta.glob('../public/data/enem/*.json', {
+  query: '?raw',
+  import: 'default',
+  eager: true,
+}) as Record<string, string>;
 
 const comvestPackageBodies = import.meta.glob('../public/data/comvest/*.json', {
   query: '?raw',
@@ -55,10 +62,15 @@ const sha256 = async (body: string): Promise<string> => {
     .join('');
 };
 
-const publishedPackageBodies = new Map([
-  ['enem-2022', package2022Body],
-  ['enem-2023', package2023Body],
-]);
+const parsePublishedEnem = () =>
+  [...Object.entries(enemPackageBodies)].map(([file, body]) => {
+    const questionPackage = questionPackageSchema.parse(JSON.parse(body));
+    return { file, body, questionPackage };
+  });
+
+const publishedPackageBodies = new Map(
+  parsePublishedEnem().map(({ body, questionPackage }) => [questionPackage.packageId, body]),
+);
 
 describe('ENEM normalization', () => {
   it('normalizes source fields without assuming five alternatives', () => {
@@ -101,6 +113,31 @@ describe('ENEM normalization', () => {
 
     expect(isCompleteEnemQuestion(incomplete)).toBe(false);
     expect(() => normalizeEnemQuestion(incomplete)).toThrow(/without text or file/);
+  });
+
+  it('partitions importable questions from explicit rejections and reports gaps', () => {
+    const importable = sourceQuestion({ index: 2 });
+    const incomplete = sourceQuestion({
+      index: 3,
+      alternatives: [
+        { letter: 'A', text: null, file: null, isCorrect: false },
+        { letter: 'B', text: 'Conteúdo', file: null, isCorrect: true },
+      ],
+    });
+
+    const result = partitionEnemQuestions([importable, incomplete]);
+
+    expect(result.importable.map(({ index }) => index)).toEqual([2]);
+    expect(result.rejections).toEqual([
+      {
+        index: 3,
+        language: null,
+        reason: 'incomplete-alternatives',
+        detail: expect.stringContaining('without text or file'),
+      },
+    ]);
+    expect(findMissingQuestionIndexes([sourceQuestion({ index: 1 }), sourceQuestion({ index: 3 })])).toEqual([2]);
+    expect(findMissingQuestionIndexes([sourceQuestion({ index: 1 }), sourceQuestion({ index: 2 })])).toEqual([]);
   });
 });
 
@@ -231,6 +268,60 @@ describe('ENEM API client', () => {
     expect(fetchMock.mock.calls[1]?.[0].toString()).toContain('language=ingles');
     expect(fetchMock.mock.calls[2]?.[0].toString()).toContain('language=espanhol');
   });
+
+  it('discovers every listed edition without a hardcoded year list', async () => {
+    const fetchMock = vi.fn<typeof fetch>().mockResolvedValueOnce(
+      Response.json([
+        { title: 'ENEM 2023', year: 2023, disciplines: [], languages: [] },
+        { title: 'ENEM 2009', year: 2009, disciplines: [], languages: [] },
+      ]),
+    );
+    const client = new EnemApiClient({ fetch: fetchMock, minIntervalMs: 0 });
+
+    const exams = await client.listExams();
+
+    expect(exams.map(({ year }) => year)).toEqual([2009, 2023]);
+    expect(fetchMock.mock.calls[0]?.[0].toString()).toContain('/exams');
+  });
+
+  it('drops identical duplicate listing rows and rejects conflicting ones', async () => {
+    const row = sourceQuestion({ index: 1, language: null });
+    const duplicateMock = vi.fn<typeof fetch>().mockResolvedValueOnce(
+      Response.json({
+        metadata: { limit: 50, offset: 0, total: 2, hasMore: false },
+        questions: [row, row],
+      }),
+    );
+    const duplicateClient = new EnemApiClient({ fetch: duplicateMock, minIntervalMs: 0 });
+    await expect(duplicateClient.listQuestions(2024)).resolves.toEqual([row]);
+
+    const conflictingMock = vi.fn<typeof fetch>().mockResolvedValueOnce(
+      Response.json({
+        metadata: { limit: 50, offset: 0, total: 2, hasMore: false },
+        questions: [row, sourceQuestion({ index: 1, language: null, title: 'Outro título' })],
+      }),
+    );
+    const conflictingClient = new EnemApiClient({ fetch: conflictingMock, minIntervalMs: 0 });
+    await expect(conflictingClient.listQuestions(2024)).rejects.toThrow(/conflicting duplicates/);
+  });
+
+  it('reports a missing language variant instead of aborting the edition', async () => {
+    const spanish = sourceQuestion({ index: 1, language: 'espanhol' });
+    const fetchMock = vi
+      .fn<typeof fetch>()
+      .mockResolvedValueOnce(Response.json({
+        metadata: { limit: 50, offset: 0, total: 1, hasMore: false },
+        questions: [spanish],
+      }))
+      .mockResolvedValueOnce(new Response('not found', { status: 404 }))
+      .mockResolvedValueOnce(Response.json(spanish));
+    const client = new EnemApiClient({ fetch: fetchMock, minIntervalMs: 0 });
+
+    const listing = await client.listEdition(2024);
+
+    expect(listing.questions.map(({ index, language }) => [index, language])).toEqual([[1, 'espanhol']]);
+    expect(listing.missingLanguageVariants).toEqual([{ index: 1, language: 'ingles' }]);
+  });
 });
 
 describe('package and catalog generation', () => {
@@ -245,47 +336,121 @@ describe('package and catalog generation', () => {
     expect(() => upsertEnemManifest(null, descriptor, 2024)).not.toThrow();
   });
 
-  it('ships both real imported editions with valid manifest hashes, sizes, and counts', async () => {
+  it('ships the fifteen ENEM editions with valid manifest hashes, sizes and counts', async () => {
     const manifest = catalogManifestSchema.parse(JSON.parse(manifestBody));
     const enemDescriptors = manifest.packages.filter(({ examId }) => examId === 'enem');
-    expect(enemDescriptors.map(({ id, questionCount }) => [id, questionCount])).toEqual([
+    const expectedCounts = new Map([
+      ['enem-2009', 179],
+      ['enem-2010', 185],
+      ['enem-2011', 180],
+      ['enem-2012', 184],
+      ['enem-2013', 185],
+      ['enem-2014', 185],
+      ['enem-2015', 183],
+      ['enem-2016', 184],
+      ['enem-2017', 185],
+      ['enem-2018', 184],
+      ['enem-2019', 181],
+      ['enem-2020', 181],
+      ['enem-2021', 185],
       ['enem-2022', 185],
       ['enem-2023', 182],
     ]);
 
+    expect(enemDescriptors.map(({ id, questionCount }) => [id, questionCount])).toEqual([
+      ...expectedCounts.entries(),
+    ]);
+
     for (const descriptor of enemDescriptors) {
       const body = publishedPackageBodies.get(descriptor.id);
-      if (body === undefined) throw new Error(`missing test fixture for ${descriptor.id}`);
+      if (body === undefined) throw new Error(`missing published package ${descriptor.id}`);
       const questionPackage = questionPackageSchema.parse(JSON.parse(body));
 
       expect(questionPackage.packageId).toBe(descriptor.id);
-      expect(questionPackage.institutionId).toBe(descriptor.institutionId);
-      expect(questionPackage.examId).toBe(descriptor.examId);
-      expect(questionPackage.editionId).toBe(descriptor.editionId);
+      expect(questionPackage.institutionId).toBe('inep');
+      expect(questionPackage.examId).toBe('enem');
+      expect(questionPackage.editionId).toBe(descriptor.id);
       expect(descriptor.byteSize).toBe(new TextEncoder().encode(body).byteLength);
       expect(descriptor.sha256).toBe(`sha256:${await sha256(body)}`);
       expect(descriptor.questionCount).toBe(questionPackage.questions.length);
+      expect(questionPackage.questions.every(({ kind }) => kind === 'single-choice')).toBe(true);
     }
   });
 
-  it('keeps question ids unique across the published editions', () => {
-    const questionIds = [...publishedPackageBodies.values()].flatMap((body) =>
-      questionPackageSchema.parse(JSON.parse(body)).questions.map(({ id }) => id),
+  it('keeps question ids unique across ENEM, Comvest and Fuvest', () => {
+    const enemIds = parsePublishedEnem().flatMap(({ questionPackage }) =>
+      questionPackage.questions.map(({ id }) => id),
     );
+    const comvestIds = parsePublishedComvest().flatMap(({ questionPackage }) =>
+      questionPackage.questions.map(({ id }) => id),
+    );
+    const fuvestIds = parsePublishedFuvest().flatMap(({ questionPackage }) =>
+      questionPackage.questions.map(({ id }) => id),
+    );
+    const allIds = [...enemIds, ...comvestIds, ...fuvestIds];
 
-    expect(questionIds).toHaveLength(367);
-    expect(new Set(questionIds).size).toBe(questionIds.length);
+    expect(enemIds).toHaveLength(2748);
+    expect(new Set(allIds).size).toBe(allIds.length);
   });
 
-  it('publishes one common copy plus both language variants for positions 1-5', () => {
-    for (const [packageId, body] of publishedPackageBodies) {
-      const questions = questionPackageSchema.parse(JSON.parse(body)).questions;
-      const languageQuestions = questions.filter(({ language }) => language !== null);
-      expect(languageQuestions.filter(({ language }) => language === 'ingles')).toHaveLength(5);
-      expect(languageQuestions.filter(({ language }) => language === 'espanhol')).toHaveLength(5);
-      expect(questions.filter(({ language }) => language === null).map(({ id }) => id))
-        .not.toContain(`${packageId.replace('enem-', 'enem-enem-')}-1`);
-      expect(new Set(questions.map(({ id }) => id)).size).toBe(questions.length);
+  it('isolates English ids and preserves the legacy Spanish id for every language position', () => {
+    for (const { questionPackage } of parsePublishedEnem()) {
+      const english = questionPackage.questions.filter(({ language }) => language === 'ingles');
+      const spanish = questionPackage.questions.filter(({ language }) => language === 'espanhol');
+
+      expect(english.length).toBeLessThanOrEqual(spanish.length);
+      for (const question of english) {
+        expect(question.id).toMatch(/-ingles$/);
+        const spanishId = question.id.replace(/-ingles$/, '');
+        expect(spanish.some(({ id }) => id === spanishId)).toBe(true);
+      }
+      for (const question of spanish) expect(question.id.endsWith('-ingles')).toBe(false);
+      expect(new Set(questionPackage.questions.map(({ id }) => id)).size)
+        .toBe(questionPackage.questions.length);
+    }
+  });
+
+  it('records source rejections, missing indexes and missing language variants per edition', () => {
+    const manifest = catalogManifestSchema.parse(JSON.parse(manifestBody));
+    const report = JSON.parse(enemImportReportBody) as {
+      summary: Record<string, number>;
+      editions: Array<{
+        year: number;
+        status: string;
+        packageId: string;
+        questionCount: number;
+        byteSize: number;
+        sha256: string;
+        rejections: Array<{ index: number; language: string | null; reason: string }>;
+        missingIndexes: number[];
+        missingLanguageVariants: Array<{ index: number; language: string }>;
+      }>;
+    };
+
+    expect(report.summary).toMatchObject({
+      editionCount: 15,
+      publishedCount: 15,
+      skippedCount: 0,
+      questionCount: 2748,
+      rejectionCount: 1,
+      missingIndexCount: 11,
+      missingLanguageVariantCount: 1,
+    });
+
+    const edition = (year: number) => report.editions.find((item) => item.year === year)!;
+    expect(edition(2023).rejections).toEqual([
+      { index: 132, language: null, reason: 'incomplete-alternatives', detail: expect.any(String) },
+    ]);
+    expect(edition(2023).missingIndexes).toEqual([34, 174]);
+    expect(edition(2019).missingIndexes).toEqual([98, 100, 128]);
+    expect(edition(2019).missingLanguageVariants).toEqual([{ index: 5, language: 'ingles' }]);
+
+    for (const item of report.editions) {
+      const descriptor = manifest.packages.find(({ id }) => id === item.packageId);
+      expect(descriptor).toBeDefined();
+      expect(item.sha256).toBe(descriptor?.sha256);
+      expect(item.byteSize).toBe(descriptor?.byteSize);
+      expect(item.questionCount).toBe(descriptor?.questionCount);
     }
   });
 });

@@ -1,0 +1,209 @@
+{
+  "source": "https://api.enem.dev/v1",
+  "generatedBy": "scripts/import-enem.ts",
+  "summary": {
+    "editionCount": 15,
+    "publishedCount": 15,
+    "skippedCount": 0,
+    "questionCount": 2748,
+    "rejectionCount": 1,
+    "missingIndexCount": 11,
+    "missingLanguageVariantCount": 1
+  },
+  "editions": [
+    {
+      "year": 2009,
+      "status": "published",
+      "packageId": "enem-2009",
+      "questionCount": 179,
+      "byteSize": 393698,
+      "sha256": "sha256:a6d067cc85046b4bcf2a23bab96afd231cec06d55bca8511304e90349c1012aa",
+      "rejections": [],
+      "missingIndexes": [
+        101
+      ],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2010,
+      "status": "published",
+      "packageId": "enem-2010",
+      "questionCount": 185,
+      "byteSize": 385708,
+      "sha256": "sha256:69baf7d67e7993ad456ea0af08425a956ea55feff7a06be1f384b972cd022c4c",
+      "rejections": [],
+      "missingIndexes": [],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2011,
+      "status": "published",
+      "packageId": "enem-2011",
+      "questionCount": 180,
+      "byteSize": 355701,
+      "sha256": "sha256:01e75aeff882c3a2a097bf9151fb56072fc394330b0401fb873c2504f0ec4e8b",
+      "rejections": [],
+      "missingIndexes": [],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2012,
+      "status": "published",
+      "packageId": "enem-2012",
+      "questionCount": 184,
+      "byteSize": 361446,
+      "sha256": "sha256:692ce922fa1c272c6eefb76242b64b2ac1a0c0cd44d36e49d8f7f442f2c44db2",
+      "rejections": [],
+      "missingIndexes": [],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2013,
+      "status": "published",
+      "packageId": "enem-2013",
+      "questionCount": 185,
+      "byteSize": 343801,
+      "sha256": "sha256:d0611f2a969cb232fd2377bfe9597170ae8b7ea4ae2ee6ee4c1e2d7f76c4beea",
+      "rejections": [],
+      "missingIndexes": [],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2014,
+      "status": "published",
+      "packageId": "enem-2014",
+      "questionCount": 185,
+      "byteSize": 334619,
+      "sha256": "sha256:8f1d951a7008fa4d14e3348887d8e813fb6798c3ceeea537055aba0fff36c82a",
+      "rejections": [],
+      "missingIndexes": [],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2015,
+      "status": "published",
+      "packageId": "enem-2015",
+      "questionCount": 183,
+      "byteSize": 329947,
+      "sha256": "sha256:b8e5bebea0245c7fc2f757a85285c847b11b5b7e6caf34f43fb0e38f377e9058",
+      "rejections": [],
+      "missingIndexes": [
+        145
+      ],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2016,
+      "status": "published",
+      "packageId": "enem-2016",
+      "questionCount": 184,
+      "byteSize": 335865,
+      "sha256": "sha256:652400551df3ba174effac725b3950072b13285c951854a87549d80e6230bb2f",
+      "rejections": [],
+      "missingIndexes": [],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2017,
+      "status": "published",
+      "packageId": "enem-2017",
+      "questionCount": 185,
+      "byteSize": 365042,
+      "sha256": "sha256:12d96d285d26b82e98a0f01c2fffd5a187834f2f2e9973c6adf5db723b934a18",
+      "rejections": [],
+      "missingIndexes": [],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2018,
+      "status": "published",
+      "packageId": "enem-2018",
+      "questionCount": 184,
+      "byteSize": 376978,
+      "sha256": "sha256:a69ec8999bd5c8cff96d005e75d078baa705704935b59f57c4a30be753262f5a",
+      "rejections": [],
+      "missingIndexes": [
+        62
+      ],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2019,
+      "status": "published",
+      "packageId": "enem-2019",
+      "questionCount": 181,
+      "byteSize": 359275,
+      "sha256": "sha256:43d16a24f35bff2172a7bab7f6392262dad0f871dda2bea01cdc4055e0494136",
+      "rejections": [],
+      "missingIndexes": [
+        98,
+        100,
+        128
+      ],
+      "missingLanguageVariants": [
+        {
+          "index": 5,
+          "language": "ingles"
+        }
+      ]
+    },
+    {
+      "year": 2020,
+      "status": "published",
+      "packageId": "enem-2020",
+      "questionCount": 181,
+      "byteSize": 362778,
+      "sha256": "sha256:9aeae679276b6caf9afb3473ce6a583d85419c13e83484f9d02874dc815adcd5",
+      "rejections": [],
+      "missingIndexes": [
+        144,
+        168,
+        179
+      ],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2021,
+      "status": "published",
+      "packageId": "enem-2021",
+      "questionCount": 185,
+      "byteSize": 377325,
+      "sha256": "sha256:3bee9a0237ed4e5bd07733222c534d039d9e53c7176914f5be6e16918adddf2f",
+      "rejections": [],
+      "missingIndexes": [],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2022,
+      "status": "published",
+      "packageId": "enem-2022",
+      "questionCount": 185,
+      "byteSize": 381816,
+      "sha256": "sha256:9b22b2d3e6c1e9e85d650797861927729d24de85c8a445e62afaf117726f9af9",
+      "rejections": [],
+      "missingIndexes": [],
+      "missingLanguageVariants": []
+    },
+    {
+      "year": 2023,
+      "status": "published",
+      "packageId": "enem-2023",
+      "questionCount": 182,
+      "byteSize": 369981,
+      "sha256": "sha256:cf2114451a64cee1082075d0d5bb2dcb09e4522e4d7e887ea9b89449502a6e9b",
+      "rejections": [
+        {
+          "index": 132,
+          "language": null,
+          "reason": "incomplete-alternatives",
+          "detail": "question 132 has alternatives without text or file"
+        }
+      ],
+      "missingIndexes": [
+        34,
+        174
+      ],
+      "missingLanguageVariants": []
+    }
+  ]
+}
