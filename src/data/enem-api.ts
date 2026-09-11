@@ -37,7 +37,32 @@ export const enemQuestionsPageSchema = z.object({
   questions: z.array(enemApiQuestionSchema),
 });
 
+export const enemExamSchema = z.object({
+  title: z.string().trim().min(1),
+  year: z.number().int().min(1998).max(3000),
+  disciplines: z.array(
+    z.object({ label: z.string().trim().min(1), value: z.string().trim().min(1) }),
+  ),
+  languages: z.array(
+    z.object({ label: z.string().trim().min(1), value: foreignLanguageSchema }),
+  ),
+});
+
+export const enemExamsResponseSchema = z.array(enemExamSchema);
+
 export type EnemApiQuestion = z.infer<typeof enemApiQuestionSchema>;
+
+export type EnemExam = z.infer<typeof enemExamSchema>;
+
+export interface EnemMissingLanguageVariant {
+  readonly index: number;
+  readonly language: ForeignLanguage;
+}
+
+export interface EnemEditionListing {
+  readonly questions: readonly EnemApiQuestion[];
+  readonly missingLanguageVariants: readonly EnemMissingLanguageVariant[];
+}
 
 export interface EnemApiClientOptions {
   baseUrl?: string;
@@ -90,7 +115,7 @@ export class EnemApiClient {
     this.#lastRequestAt = this.#now();
   }
 
-  async #request(url: URL): Promise<unknown> {
+  async #request(url: URL, options: { allowNotFound?: boolean } = {}): Promise<unknown | null> {
     let attempt = 0;
     for (;;) {
       await this.#throttle();
@@ -107,6 +132,8 @@ export class EnemApiClient {
 
       if (response.ok) return response.json();
 
+      if (options.allowNotFound && response.status === 404) return null;
+
       if (!RETRYABLE_STATUS.has(response.status) || attempt >= this.#maxRetries) {
         const detail = (await response.text()).slice(0, 500);
         throw new Error(`enem.dev returned HTTP ${response.status}${detail ? `: ${detail}` : ''}`);
@@ -118,12 +145,31 @@ export class EnemApiClient {
     }
   }
 
-  async getQuestion(year: number, index: number, language?: string | null): Promise<EnemApiQuestion> {
+  async listExams(): Promise<EnemExam[]> {
+    const exams = enemExamsResponseSchema.parse(await this.#request(new URL(`${this.#baseUrl}/exams`)));
+    return [...exams].sort((left, right) => left.year - right.year);
+  }
+
+  async getQuestionOrNull(
+    year: number,
+    index: number,
+    language?: string | null,
+  ): Promise<EnemApiQuestion | null> {
     const url = new URL(`${this.#baseUrl}/exams/${year}/questions/${index}`);
     if (language) url.searchParams.set('language', language);
-    const question = enemApiQuestionSchema.parse(await this.#request(url));
+    const payload = await this.#request(url, { allowNotFound: true });
+    if (payload === null) return null;
+    const question = enemApiQuestionSchema.parse(payload);
     if (question.year !== year || question.index !== index || (language && question.language !== language)) {
       throw new Error(`enem.dev returned a question that does not match ${year}/${index}${language ? `/${language}` : ''}`);
+    }
+    return question;
+  }
+
+  async getQuestion(year: number, index: number, language?: string | null): Promise<EnemApiQuestion> {
+    const question = await this.getQuestionOrNull(year, index, language);
+    if (question === null) {
+      throw new Error(`enem.dev has no ${year}/${index}${language ? `/${language}` : ''}`);
     }
     return question;
   }
@@ -137,7 +183,7 @@ export class EnemApiClient {
     }
 
     const questions: EnemApiQuestion[] = [];
-    const indexes = new Set<number>();
+    const byIndex = new Map<number, EnemApiQuestion>();
     let offset = 0;
 
     for (;;) {
@@ -155,10 +201,17 @@ export class EnemApiClient {
         )
           ? await this.getQuestion(year, listedQuestion.index, listedQuestion.language)
           : listedQuestion;
-        if (indexes.has(question.index)) {
-          throw new Error(`enem.dev returned duplicate question index ${question.index}`);
+        const previous = byIndex.get(question.index);
+        if (previous !== undefined) {
+          // Some editions repeat an identical row in the listing (e.g. ENEM
+          // 2011). Repeating the same record is harmless; two divergent records
+          // for the same index are ambiguous and abort the edition.
+          if (JSON.stringify(previous) !== JSON.stringify(question)) {
+            throw new Error(`enem.dev returned conflicting duplicates for question index ${question.index}`);
+          }
+          continue;
         }
-        indexes.add(question.index);
+        byIndex.set(question.index, question);
         questions.push(question);
       }
 
@@ -174,19 +227,33 @@ export class EnemApiClient {
     return questions;
   }
 
-  async listQuestionsWithLanguageVariants(year: number, pageSize = 50): Promise<EnemApiQuestion[]> {
+  /**
+   * Loads every listed question plus both official language variants for the
+   * positions that declare a foreign language. A variant the source does not
+   * serve (HTTP 404) is reported instead of aborting the whole edition.
+   */
+  async listEdition(year: number, pageSize = 50): Promise<EnemEditionListing> {
     const listed = await this.listQuestions(year, pageSize);
     const languageIndexes = [...new Set(
       listed.filter(({ language }) => language !== null && language !== undefined).map(({ index }) => index),
     )].sort((left, right) => left - right);
     const languages: readonly ForeignLanguage[] = foreignLanguageSchema.options;
     const variants: EnemApiQuestion[] = [];
+    const missingLanguageVariants: EnemMissingLanguageVariant[] = [];
 
     for (const index of languageIndexes) {
-      for (const language of languages) variants.push(await this.getQuestion(year, index, language));
+      for (const language of languages) {
+        const question = await this.getQuestionOrNull(year, index, language);
+        if (question === null) missingLanguageVariants.push({ index, language });
+        else variants.push(question);
+      }
     }
 
     const common = listed.filter(({ language }) => language === null || language === undefined);
-    return [...variants, ...common];
+    return { questions: [...variants, ...common], missingLanguageVariants };
+  }
+
+  async listQuestionsWithLanguageVariants(year: number, pageSize = 50): Promise<EnemApiQuestion[]> {
+    return [...(await this.listEdition(year, pageSize)).questions];
   }
 }

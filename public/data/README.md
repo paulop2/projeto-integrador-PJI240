@@ -1,51 +1,75 @@
 # Proveniência dos dados
 
-Os pacotes `enem/enem-2022.json` e `enem/enem-2023.json` foram gerados pelo
-importador `scripts/import-enem.ts`, consumindo exclusivamente a API pública do
-projeto enem.dev:
+Os pacotes `enem/enem-{ano}.json` cobrem todas as edições publicadas pela API
+pública do projeto enem.dev e foram gerados pelo importador
+`scripts/import-enem.ts`. O comando lê o catálogo de edições diretamente da API,
+sem lista fixa de anos no código:
 
-- catálogo de provas: `https://api.enem.dev/v1/exams`;
+- catálogo de edições: `https://api.enem.dev/v1/exams`;
 - listagem paginada: `https://api.enem.dev/v1/exams/{ano}/questions`;
 - detalhe usado para reidratar registros incompletos:
   `https://api.enem.dev/v1/exams/{ano}/questions/{index}`;
 - variantes oficiais de língua estrangeira:
   `https://api.enem.dev/v1/exams/{ano}/questions/{index}?language={ingles|espanhol}`.
 
-Comandos de reprodução:
+Comando de reprodução (modo "todas"):
 
 ```sh
-npm run import:enem -- --year 2022 --version 2 --force
-npm run import:enem -- --year 2023 --version 2 --force
+npm run import:enem -- --all --force --version 2 \
+  --report docs/research/data/enem-import-report.json
 ```
 
-| Edição | Importada em | Questões publicadas | Questões rejeitadas |
-| ------- | ------------ | -------------------- | -------------------- |
-| 2022    | 2026-09-10   | 185                  | 0                    |
-| 2023    | 2026-09-10   | 182                  | 1 (questão 132)     |
+O modo `--all` descobre as edições no catálogo da API, importa uma edição por
+pacote e grava `public/data/manifest.json` ao final. Sem `--force`, uma edição já
+publicada é ignorada; com `--force`, o pacote é regerado. Uma edição específica
+continua disponível com `--year ANO`.
+
+| Edição | Questões publicadas | Rejeitadas | Índices ausentes na fonte | Variante ausente     |
+| ------ | ------------------- | ---------- | ------------------------- | -------------------- |
+| 2009   | 179                 | 0          | 101                       | —                    |
+| 2010   | 185                 | 0          | —                         | —                    |
+| 2011   | 180                 | 0          | —                         | —                    |
+| 2012   | 184                 | 0          | —                         | —                    |
+| 2013   | 185                 | 0          | —                         | —                    |
+| 2014   | 185                 | 0          | —                         | —                    |
+| 2015   | 183                 | 0          | 145                       | —                    |
+| 2016   | 184                 | 0          | —                         | —                    |
+| 2017   | 185                 | 0          | —                         | —                    |
+| 2018   | 184                 | 0          | 62                        | —                    |
+| 2019   | 181                 | 0          | 98, 100, 128              | inglês da posição 5  |
+| 2020   | 181                 | 0          | 144, 168, 179             | —                    |
+| 2021   | 185                 | 0          | —                         | —                    |
+| 2022   | 185                 | 0          | —                         | —                    |
+| 2023   | 182                 | 1 (132)    | 34, 174                   | —                    |
+
+Ao todo são 2748 questões publicadas, 1 rejeição, 11 lacunas e 1 variante de
+idioma ausente, registradas por edição em
+[`docs/research/data/enem-import-report.json`](../../docs/research/data/enem-import-report.json).
 
 O manifesto registra o instante exato da geração, o SHA-256 e o tamanho em bytes
 do corpo publicado. O teste `tests/data.test.ts` recalcula esses valores a partir
-dos arquivos servidos.
+dos arquivos servidos e confere o relatório de importação contra o manifesto.
 
 ## Limitações conhecidas da fonte
 
-- Em 2026-08-23, o catálogo da API disponibilizava edições de 2009 a 2023; a
-  tentativa de consultar 2024 retornou `404 not_found`. Por isso, 2023 é a edição
-  real mais recente publicada neste MVP.
-- Em 2026-09-10, a listagem sem filtro de idioma retornou Espanhol nas posições
-  1 a 5. O importador consulta também o detalhe oficial com `language=ingles` e
-  `language=espanhol`, publica as duas variantes nessas posições e mantém uma só
-  cópia das demais questões comuns.
-- As 180 questões retornadas para 2022 tinham conteúdo utilizável em todas as
-  alternativas, inclusive após a reidratação pelo endpoint de detalhe; nenhuma
-  precisou ser rejeitada.
-- A API não possui as questões 34 e 174 da edição 2023: tanto a listagem quanto o
-  endpoint de detalhe retornam ausência desses registros.
-- A questão 132 possui quatro alternativas sem texto ou arquivo inclusive no
-  endpoint de detalhe. Ela foi rejeitada pelo importador para não inventar dados e
-  para preservar o contrato que exige conteúdo utilizável em cada alternativa.
-- O pacote de 2023 contém, portanto, 177 das 180 posições da prova, mais as cinco
-  variantes adicionais de Inglês das posições 1 a 5.
+- Em 2026-09-11, o catálogo da API disponibilizava as edições de 2009 a 2023. Uma
+  edição futura passa a ser importada automaticamente por `--all` assim que
+  aparecer em `/v1/exams`.
+- Algumas edições repetem linhas idênticas na listagem paginada (por exemplo, as
+  posições 91 a 95 em 2011 e a posição 95 em 2015). O importador descarta
+  repetições idênticas e aborta apenas quando duas linhas divergem para o mesmo
+  índice, para não escolher conteúdo arbitrariamente.
+- A variante em inglês da posição 5 de 2019 retorna `404` na API. O importador
+  registra a ausência e publica a variante em espanhol, em vez de falhar a edição
+  inteira.
+- A listagem sem filtro de idioma pode retornar apenas uma das variantes nas
+  posições de língua estrangeira. O importador consulta o detalhe oficial com
+  `language=ingles` e `language=espanhol` e publica cada variante disponível.
+- A API omite posições em algumas edições (por exemplo, 101 em 2009, 62 em 2018 e
+  34 e 174 em 2023). As lacunas são registradas no relatório e nada é inventado.
+- A questão 132 de 2023 possui quatro alternativas sem texto ou arquivo inclusive
+  no endpoint de detalhe. Ela é rejeitada (`incomplete-alternatives`) para
+  preservar o contrato que exige conteúdo utilizável em cada alternativa.
 
 ## Compatibilidade de IDs e progresso
 
@@ -55,7 +79,8 @@ explicitamente `language: "espanhol"`, portanto o progresso existente continua
 ligado ao mesmo conteúdo. As variantes em Inglês usam
 `enem-enem-{ano}-{posição}-ingles`, impedindo que respostas, sessões ou progresso
 de uma língua sejam atribuídos à outra. Questões comuns preservam seus IDs e usam
-`language: null`.
+`language: null`. Os identificadores incluem o ano, portanto não colidem entre
+edições do ENEM nem com a Comvest/Unicamp ou a Fuvest/USP.
 
 Os enunciados, gabaritos e URLs de mídia não foram alterados editorialmente; o
 importador apenas normaliza identificadores e valida a consistência estrutural.

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-11T04:41:04.535Z",
+  "generatedAt": "2026-09-11T05:10:48.050Z",
   "institutions": [
     {
       "id": "inep",
@@ -83,6 +83,84 @@
       "examId": "comvest",
       "label": "Vestibular Unicamp 2024",
       "year": 2024
+    },
+    {
+      "id": "enem-2009",
+      "examId": "enem",
+      "label": "ENEM 2009",
+      "year": 2009
+    },
+    {
+      "id": "enem-2010",
+      "examId": "enem",
+      "label": "ENEM 2010",
+      "year": 2010
+    },
+    {
+      "id": "enem-2011",
+      "examId": "enem",
+      "label": "ENEM 2011",
+      "year": 2011
+    },
+    {
+      "id": "enem-2012",
+      "examId": "enem",
+      "label": "ENEM 2012",
+      "year": 2012
+    },
+    {
+      "id": "enem-2013",
+      "examId": "enem",
+      "label": "ENEM 2013",
+      "year": 2013
+    },
+    {
+      "id": "enem-2014",
+      "examId": "enem",
+      "label": "ENEM 2014",
+      "year": 2014
+    },
+    {
+      "id": "enem-2015",
+      "examId": "enem",
+      "label": "ENEM 2015",
+      "year": 2015
+    },
+    {
+      "id": "enem-2016",
+      "examId": "enem",
+      "label": "ENEM 2016",
+      "year": 2016
+    },
+    {
+      "id": "enem-2017",
+      "examId": "enem",
+      "label": "ENEM 2017",
+      "year": 2017
+    },
+    {
+      "id": "enem-2018",
+      "examId": "enem",
+      "label": "ENEM 2018",
+      "year": 2018
+    },
+    {
+      "id": "enem-2019",
+      "examId": "enem",
+      "label": "ENEM 2019",
+      "year": 2019
+    },
+    {
+      "id": "enem-2020",
+      "examId": "enem",
+      "label": "ENEM 2020",
+      "year": 2020
+    },
+    {
+      "id": "enem-2021",
+      "examId": "enem",
+      "label": "ENEM 2021",
+      "year": 2021
     },
     {
       "id": "enem-2022",
@@ -383,6 +461,266 @@
         "philosophy",
         "physics",
         "portuguese"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2009",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2009",
+      "url": "/data/enem/enem-2009.json",
+      "version": 2,
+      "sha256": "sha256:a6d067cc85046b4bcf2a23bab96afd231cec06d55bca8511304e90349c1012aa",
+      "byteSize": 393698,
+      "questionCount": 179,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2010",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2010",
+      "url": "/data/enem/enem-2010.json",
+      "version": 2,
+      "sha256": "sha256:69baf7d67e7993ad456ea0af08425a956ea55feff7a06be1f384b972cd022c4c",
+      "byteSize": 385708,
+      "questionCount": 185,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2011",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2011",
+      "url": "/data/enem/enem-2011.json",
+      "version": 2,
+      "sha256": "sha256:01e75aeff882c3a2a097bf9151fb56072fc394330b0401fb873c2504f0ec4e8b",
+      "byteSize": 355701,
+      "questionCount": 180,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2012",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2012",
+      "url": "/data/enem/enem-2012.json",
+      "version": 2,
+      "sha256": "sha256:692ce922fa1c272c6eefb76242b64b2ac1a0c0cd44d36e49d8f7f442f2c44db2",
+      "byteSize": 361446,
+      "questionCount": 184,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2013",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2013",
+      "url": "/data/enem/enem-2013.json",
+      "version": 2,
+      "sha256": "sha256:d0611f2a969cb232fd2377bfe9597170ae8b7ea4ae2ee6ee4c1e2d7f76c4beea",
+      "byteSize": 343801,
+      "questionCount": 185,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2014",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2014",
+      "url": "/data/enem/enem-2014.json",
+      "version": 2,
+      "sha256": "sha256:8f1d951a7008fa4d14e3348887d8e813fb6798c3ceeea537055aba0fff36c82a",
+      "byteSize": 334619,
+      "questionCount": 185,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2015",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2015",
+      "url": "/data/enem/enem-2015.json",
+      "version": 2,
+      "sha256": "sha256:b8e5bebea0245c7fc2f757a85285c847b11b5b7e6caf34f43fb0e38f377e9058",
+      "byteSize": 329947,
+      "questionCount": 183,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2016",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2016",
+      "url": "/data/enem/enem-2016.json",
+      "version": 2,
+      "sha256": "sha256:652400551df3ba174effac725b3950072b13285c951854a87549d80e6230bb2f",
+      "byteSize": 335865,
+      "questionCount": 184,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2017",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2017",
+      "url": "/data/enem/enem-2017.json",
+      "version": 2,
+      "sha256": "sha256:12d96d285d26b82e98a0f01c2fffd5a187834f2f2e9973c6adf5db723b934a18",
+      "byteSize": 365042,
+      "questionCount": 185,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2018",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2018",
+      "url": "/data/enem/enem-2018.json",
+      "version": 2,
+      "sha256": "sha256:a69ec8999bd5c8cff96d005e75d078baa705704935b59f57c4a30be753262f5a",
+      "byteSize": 376978,
+      "questionCount": 184,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2019",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2019",
+      "url": "/data/enem/enem-2019.json",
+      "version": 2,
+      "sha256": "sha256:43d16a24f35bff2172a7bab7f6392262dad0f871dda2bea01cdc4055e0494136",
+      "byteSize": 359275,
+      "questionCount": 181,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2020",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2020",
+      "url": "/data/enem/enem-2020.json",
+      "version": 2,
+      "sha256": "sha256:9aeae679276b6caf9afb3473ce6a583d85419c13e83484f9d02874dc815adcd5",
+      "byteSize": 362778,
+      "questionCount": 181,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
+      ],
+      "questionKinds": [
+        "single-choice"
+      ]
+    },
+    {
+      "id": "enem-2021",
+      "institutionId": "inep",
+      "examId": "enem",
+      "editionId": "enem-2021",
+      "url": "/data/enem/enem-2021.json",
+      "version": 2,
+      "sha256": "sha256:3bee9a0237ed4e5bd07733222c534d039d9e53c7176914f5be6e16918adddf2f",
+      "byteSize": 377325,
+      "questionCount": 185,
+      "subjectIds": [
+        "ciencias-humanas",
+        "ciencias-natureza",
+        "linguagens",
+        "matematica"
       ],
       "questionKinds": [
         "single-choice"
