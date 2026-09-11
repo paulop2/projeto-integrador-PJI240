@@ -1,5 +1,8 @@
 import { describe, expect, it, vi } from 'vitest';
 
+import manifestBody from '../../public/data/manifest.json?raw';
+import comvest2024Body from '../../public/data/comvest/comvest-2024.json?raw';
+
 import type { CatalogManifest, ProgressEvent, QuestionPackage } from '../../src/contracts';
 import { MemoryOfflineStorage, MemoryPackageCache, OfflineActiveExamPort, OfflinePackageManager } from '../../src/offline';
 
@@ -133,5 +136,30 @@ describe('offline package lifecycle integration', () => {
     await enoughCapacity.install('enem-2024');
     await cache.putPackage(manifest.packages[0]!, new Response('corrupted'));
     expect(await enoughCapacity.loadQuestions()).toEqual([]);
+  });
+
+  it('installs and studies a real published Comvest edition without a network', async () => {
+    const storage = new MemoryOfflineStorage();
+    const cache = new MemoryPackageCache();
+    const fetcher = vi.fn(async (input: RequestInfo | URL) => {
+      const url = String(input);
+      if (url.includes('manifest')) return new Response(manifestBody);
+      if (url.includes('/data/comvest/comvest-2024.json')) return new Response(comvest2024Body);
+      if (url.includes('/data/comvest/assets/')) return new Response('asset-bytes');
+      return new Response(null, { status: 404 });
+    });
+    const manager = new OfflinePackageManager(storage, cache, fetcher, () => 100);
+
+    await manager.refreshCatalog();
+    await manager.install('comvest-2024');
+    await manager.selectActiveExam('comvest-2024', 'comvest-2024');
+    const questions = await manager.loadQuestions();
+    expect(questions).toHaveLength(72);
+    expect(questions.every(({ examId, institutionId }) => examId === 'comvest' && institutionId === 'unicamp')).toBe(true);
+
+    const reloadedOffline = new OfflinePackageManager(storage, cache, async () => {
+      throw new Error('offline');
+    });
+    expect(await reloadedOffline.loadQuestions()).toHaveLength(72);
   });
 });

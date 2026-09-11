@@ -1,0 +1,4039 @@
+{
+  "schemaVersion": 1,
+  "packageId": "comvest-2020",
+  "institutionId": "unicamp",
+  "examId": "comvest",
+  "editionId": "comvest-2020",
+  "questions": [
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_1",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "There are approximately\n70 million pet dogs and\n74 million pet cats in the\nU.S., a country where 20\nmen and women are\nassaulted per minute. In\none survey, 71 percent\nof domestic violence\nvictims reported that their abuser also targeted pets. In one\nstudy of families under investigation for suspected child\nabuse, researchers found that pet abuse had occurred in\n88 percent of these families.\n(Adaptado de https://www.humanesociety.org/resources/animal-cruelty-facts-and-stats. Aces-\nsado em 11/05/2019.)\nO objetivo do texto é destacar a relação entre",
+      "files": [
+        "/data/comvest/assets/2020/1/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "aumento do número de animais domésticos e de casos\nde crueldade contra os animais.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "violência doméstica e famílias investigadas por\ncrueldade contra os animais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "condenações por abuso infantil e crueldade contra os\nanimais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "casos de violência doméstica e crueldade contra os\nanimais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_2",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "(Disponível em https://licensing.andrewsmcmeel.com/features/ba?date=2004-08-03. Acessa-\ndo em 22/05/2019.)\nA tirinha apresentada",
+      "files": [
+        "/data/comvest/assets/2020/2/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "ironiza uma ideia de liberdade de expressão.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "critica políticas de imigração do governo dos EUA.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "defende uma visão de inglês como língua mundial.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "desaprova o uso da língua materna de imigrantes nos\nEUA.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_3",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O site “Urban Dictionary” apresenta definições de palavras\ne expressões que, apesar de serem usadas popularmente,\nainda não foram oficialmente dicionarizadas. O exemplo\nabaixo faz alusão ao Brexit, isto é, à saída do Reino Unido\nda União Europeia.\n\n\n(Disponível em https://www.urbandictionary.com/define.php?term=Doing%20the%20Brexit.\nAcessado em 11/05/2019.)\nCom relação ao exemplo apresentado, entende-se que\nTaylor estava “fazendo o Brexit” porque",
+      "files": [
+        "/data/comvest/assets/2020/3/2.jpg",
+        "/data/comvest/assets/2020/3/3.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "se despediu, mas demorou a ir embora da festa.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "saiu “à francesa” da festa, isto é, saiu discretamente.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "se despediu, mas anunciou que demoraria a sair da\nfesta.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "saiu “à francesa” da festa, isto é, saiu depois de muito\ntempo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_4",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "When 24-year-old fashion blogger Scarlett Dixon posted a\npicture of herself having breakfast, the internet turned\nnasty. “The best of days start with a smile and positive\nthoughts. And pancakes. And strawberries”, Dixon wrote on\nher Instagram feed. The post was reposted on Twitter.\n“Instagram is a ridiculous lie factory made to make us all\nfeel inadequate”, wrote Nathan from Cardiff. His post, which\nhas garnered more than 111,000 likes (22 times as many\nas Dixon’s original) and almost 25,000 retweets, prompted\na wave of criticism, with comments going like “Fakelife!”.\nInstagram looks like the friendliest social network\nimaginable. But, for a growing number of users – and\nmental health experts – the very positivity of Instagram is\nprecisely the problem. The site encourages its users to\npresent an upbeat, attractive image that others may find at\nbest misleading and at worse harmful. Instagram makes\nyou worry that everyone is perfect – except you.\n(Adaptado de https://www.theguardian.com/technology/2018/sep/17. Acessado em\n19/04/2019).\nO texto anterior apresenta uma crítica",
+      "files": [
+        "/data/comvest/assets/2020/4/4.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a Scarlett Dixon, por propagar uma autoimagem\nexcessivamente positiva e irreal.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "ao Instagram, por propiciar postagens que veiculam\numa autoimagem irreal das pessoas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "ao post de Scarlett Dixon, por gerar uma onda de\ncomentários negativos em outras mídias sociais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "à exposição excessiva da vida íntima das pessoas no\nInstagram e em outras mídias sociais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_5",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A Associação Canadense de Saúde Mental é uma\norganização sem fins lucrativos que combate o estigma\nsobre a saúde mental, promovendo ações em favor de\npessoas que sofrem com doenças dessa natureza. O\ncartaz abaixo, direcionado à população em geral, foi\npublicado no site dessa associação.\n\n(Disponível em https://ontario.cmha.ca/documents. Acessado em 22/08/2019.)\nO cartaz apresentado tem o intuito de",
+      "files": [
+        "/data/comvest/assets/2020/5/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "motivar a população a parar de reconhecer os\nestereótipos negativos associados à saúde mental.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "encorajar empresários a oferecer melhores condições\nde emprego a pessoas com doenças mentais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "estimular o combate aos estereótipos que atingem\npessoas com doenças mentais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "incentivar um tratamento diferenciado a pessoas com\ndoenças mentais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_6",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "To me, science is one way\nof connecting with the\nmystery of existence. And if\nyou think of it that way, the\nmystery of existence is\nsomething that we have\nwondered about ever since\npeople began asking\nquestions about who we are and where we come from. So\nwhile those questions are now part of scientific research,\nthey are much, much older than science. I’m talking about\nscience as part of a much grander and older sort of\nquestioning about who we are in the big picture of the\nuniverse. To me, as a theoretical physicist and also\nsomeone who spends time out in the mountains, this sort of\nquestioning offers a deeply spiritual connection with the\nworld, through my mind and through my body. Einstein\nwould have said the same thing, I think, with his cosmic\nreligious feeling.\nMarcelo Gleiser, March 20, 2019.\n(Adaptado de https://www.scientificamerican.com/article/atheism-is-inconsistent-with-the-scien\ntific-method-prizewinning-physicist-says/?redirect=1. Acessado em 15/05/2019.)\nQual das frases abaixo mais se aproxima das palavras de\nGleiser reproduzidas acima?",
+      "files": [
+        "/data/comvest/assets/2020/6/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "“O bom da ciência é que ela é verdadeira, quer se\nacredite nela ou não.” (Neil deGrasse Tyson)",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "“Ciência é a única religião da humanidade.” (Arthur\nClarke)",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "“Ciência é a chave do nosso futuro.” (Bill Nye)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "“Ciência não é apenas compatível com espiritualidade;\né uma profunda fonte de espiritualidade.” (Carl Sagan)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_7",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "John Milton and Freedom of Speech on Campus\nBy Daniel F. Sullivan\nA few years ago, at a seminar meant to help college\npresidents think about the issues they face as campus\nleaders, I read John Milton's Areopagitica: A speech for the\nliberty of unlicensed printing to the parliament of England.\nOriginally published in 1644, Areopagitica makes a\npowerful argument for freedom of speech and against\ncensorship in publishing. After twenty years as a college\npresident, having experienced and observed many calls to\ncensor, I've come to believe that there is not much to know\non the topic beyond what Milton wrote over 350 years ago.\nAreopagitica was published in response “to Parliament's\nordinance for licensing the press of June 14, 1643.” The\neffect of the ordinance against which Milton wrote “was to\ngive Archbishop Laud, who was also Chancellor of the\nUniversity of Oxford, control over every press in England,\nwith power to stop publication of any book contrary to the\nDoctrine of the Church of England.” This was disturbing to\nMilton, who wrote, “as good almost kill a man as kill a good\nbook: [he] who kills a man kills a reasonable creature; but\nhe who destroys a good book, kills reason itself.”\n(Adaptado de https://www.questia.com/magazine/1P3-1048971311/milton-s-areopagitica-freed\nom-of-speech-on-campus. Acessado em 15/05/2019.)\nA relação entre o posicionamento do autor do texto e o de\nJohn Milton na publicação mencionada é de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "divergência, pois o autor julga que as ideias de Milton\nsobre liberdade de expressão parecem ultrapassadas\nem relação ao que ocorre hoje nas universidades.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "divergência, pois diferentemente de Milton, o autor\ncritica o fato de haver, nas universidades inglesas,\napelos para que a censura seja exercida no campus.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "concordância, pois o autor apoia a mesma linha de\npensamento de Milton quanto às críticas ao controle da\nliberdade de imprensa.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "concordância, pois o autor alinha-se a Milton quanto à\nideia de que destruir um bom livro é o mesmo que\ndestruir uma criatura racional.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_8",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "(Disponível em https://www.bbc.com/portuguese/internacional-46502709. Acessado em 30/09/\n2019.)\nA peça publicitária",
+      "files": [
+        "/data/comvest/assets/2020/8/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "questiona se aquele seria o melhor momento para os\npais estarem cientes das ameaças fascistas\ncombatidas pelo Macarthismo. Essa política alterou a\nvida em instituições de ensino norte-americanas,\nproibindo a divulgação de temas ligados à Guerra Fria\ne às ameaças nucleares, de acordo com as diretrizes\ndo Comitê de Atividades Antiamericanas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "defende a “injeção” vermelha e comunista nas escolas\ndurante o Macarthismo. Essa política, implementada\nnos Estados Unidos de 1950 a 1957, e inserida no\ncontexto da Guerra Fria, é caracterizada por uma\nacentuada repressão ao comunismo, com a\nparticipação direta do FBI.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "denuncia a ameaça da “injeção” vermelha e comunista\nnas escolas na Era McCarthy. Essa política foi\nmarcada pela instauração de investigações pelo\ngoverno e por indústrias privadas norte-americanas\ncontra funcionários públicos e da indústria do\nentretenimento acusados de serem liberais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "defende que já passou da hora de os pais estarem\ncientes da ameaça comunista combatida pelo\nMacarthismo. Essa política, instaurada no contexto da\nGuerra Fria, foi marcada por violações dos direitos\nindividuais e instauração de inquéritos por parte do\nComitê de Atividades Antiamericanas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_9",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Nuclear fusion is a reaction in which atomic nuclei merge to\nform the nucleus of a new atom. The mass of the new\natom’s nucleus is lower than the sum of the merging\nnuclei’s masses, a difference that is released as energy.\nThis is, for instance, the reaction that occurs in the Sun.\nThe energy released during fusion can be calculated by the\nequation E = Δmc^2, where Δm is the difference between the\ninitial and final masses in the reaction, and c is the speed of\nlight. When calculating the aforementioned energy, nucleus\nmass can be conveniently quantified using the atomic mass\nunit (u), which is roughly equivalent to 900 MeV\n(1 u ➞ 900 MeV). Consider the hypothetical nuclear fusion\nreaction  ²²²X + ⁴Y  ➞  ²²¹Z. Note that the masses of ²²²X, ⁴Y,\nand ²²¹Z are 222 u, 4 u, and 221 u, respectively. The\namount of energy released in this reaction is",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "5 MeV.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "450 MeV.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "900 MeV.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "4500 MeV.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_10",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Antibiotic resistance is possible because bacteria are able\nto exchange genetic material through a process known as\nbacterial conjugation. In one experiment, resistance to\ntetracycline (a commonly used antibiotic) was studied in\nEscherichia coli by introducing a tetracycline-resistant\nbacterium to a tetracycline-sensitive strain. The resistant\nbacterium’s genome contained a protein called an “efflux\npump”, a polypeptide that localizes to the cell membrane\nand expels certain small molecules from the cell.\nUsing fluorescent marking, researchers observed the DNA\nencoding one specific efflux pump in between a resistant\nbacterium and a sensitive bacterium. With live-cell\nmicroscopy, they tracked the fluorescence to see how the\nDNA migrated from one cell to another and how it was\nincorporated and expressed in the recipient bacterium.\n(Fonte: Sophie Nolivos e outros, Science, Washington, v. 364, n. 6442, p. 778-782, maio\n2019.)\nCom base no texto e em seus conhecimentos, assinale a\nalternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A fusão transmembrana do genoma que confere\nresistência antibiótica é facilitada pela presença da\ntetraciclina.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A proteína envolvida na resistência antibiótica à\ntetraciclina é transferida diretamente por conjugação\nbacteriana.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O gene da proteína de resistência antibiótica é\ntransferido através da fusão transmembrana na\npresença de tetraciclina.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O DNA codificador da proteína que confere resistência\nantibiótica à tetraciclina é transferido por conjugação\nbacteriana.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_11",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Graças às campanhas de vacinação, a poliomielite foi\nconsiderada erradicada no Brasil: o último caso foi\nregistrado em 1989. Contudo, o Ministério da Saúde\nconstatou cobertura vacinal alarmante (abaixo de 50%) em\n312 municípios brasileiros em 2018. A vacinação é a única\nforma de prevenção da poliomielite; é uma questão de\nresponsabilidade social contemplada no Programa\nNacional de Imunizações do Ministério da Saúde.\n(Fonte: portalms.saude.gov.br/noticias/agencia-saude/43797-ministerio-da-saude-alerta-para-\nbaixas-coberturas-vacinais-para-polio.)\nAssinale a alternativa que caracteriza corretamente a\npoliomielite.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "É uma doença viral contagiosa, que pode ser\ntransmitida através da ingestão de água ou alimentos\ncontaminados por fezes de doentes.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A transmissão do vírus ocorre por meio de vetores\nhematófagos que tenham picado uma pessoa\ncontaminada na fase aguda da doença.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "É uma doença bacteriana transmitida por gotículas de\nsaliva ou de sangue de pessoas contaminadas, com\nalto risco de contágio.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A transmissão da bactéria ocorre por meio de vetores\nartrópodes que tenham picado uma pessoa\ncontaminada na fase crônica da doença.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_12",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em um estudo, foram avaliadas quatro amostras\nencontradas em diferentes locais, representados na figura\nabaixo.\n\n(Adaptado de http://wiki.aapg.org/Temporal_and_environmental_distribution_of_microfossils.\nAcessado em 15/05/2019.)\nAmostra A: há foraminíferos, algas e dinoflagelados.\nAmostra B: há pólen e não existem seres marinhos.\nAmostra C: há grande concentração de plâncton.\nAmostra D: há grande concentração de bentos.\nAssinale a alternativa que associa corretamente o local de\ncoleta com a característica da amostra.",
+      "files": [
+        "/data/comvest/assets/2020/12/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A amostra A contém seres típicos da plataforma\nabissal, onde há menor concentração de sal e não há\nluz solar.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A amostra B foi encontrada em plataforma abissal,\nsendo que ventos teriam levado pólen até essa área,\nonde não há seres vivos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A amostra C foi retirada da plataforma continental, já\nque contém seres que se movimentam ativamente e\nvivem entre ambientes terrestre e marinho.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A amostra D contém espécies encontradas no declive\ncontinental, que se fixam no substrato dos\necossistemas aquáticos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_13",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um grande incêndio consumiu uma floresta inteira e deixou\napenas os troncos das árvores em pé. Algumas plantas\nconseguiram rebrotar e produzir uma folhagem exuberante\napós alguns meses. Considerando a relação entre\nestrutura e função dos tecidos vegetais, as plantas\nmencionadas tiveram um bom desempenho logo após a\nqueimada por serem dotadas de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "tecido esclerenquimático desenvolvido, capaz de\npromover alta atividade fotossintética.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "periderme pluriestratificada, capaz de isolar\ntermicamente os feixes vasculares.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "aerênquimas, capazes de promover a difusão interna\nde gases e o metabolismo das raízes.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "epiderme foliar espessa, com cutícula rica em ceras\ncapazes de reduzir a temperatura da planta.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_14",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Durante uma visita ao Museu de Zoologia do Instituto de\nBiologia da UNICAMP, alunos do ensino médio puderam\nobservar a diversidade de formas de vida e a classificação\ndos vertebrados.\n\nAssinale a alternativa que indica corretamente as\ncaracterísticas (i), (ii), (iii) e (iv) apresentadas no\ncladograma acima.",
+      "files": [
+        "/data/comvest/assets/2020/14/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "(i) fase larval e adulta no meio terrestre; (ii) cório e\nalantoide; (iii) quatro câmaras cardíacas; (iv) presença\nde pelos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "(i) respiração cutânea; (ii) quatro câmaras cardíacas;\n(iii) ausência de dentes; (iv) presença de glândulas\nmamárias.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "(i) fase larval e adulta no meio aquático; (ii) respiração\npulmonar; (iii) ausência de dentes; (iv) presença de\npelos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "(i) respiração cutânea; (ii) cório e alantoide; (iii) três\ncâmaras cardíacas; (iv) presença de glândulas\nmamárias.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_15",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A descoberta do processo celular de interferência por RNA\n(RNAi) rendeu aos cientistas Andrew Fire e Craig Mello o\nprêmio Nobel de Fisiologia ou Medicina em 2006. O RNAi\nintercepta e destrói as informações celulares conduzidas\npelo RNA dentro da célula antes que sejam processadas\nem proteínas. Com os avanços da biotecnologia, foram\ndesenvolvidas moléculas sintéticas de RNAi de aplicação\ntópica, que, pulverizadas nas lavouras, conferem proteção\nagrícola, reduzindo perdas.\nAssinale a alternativa que preenche corretamente as\nlacunas nas frases a seguir.\nO (i) __________ entra em contato com o RNAi\npulverizado, que atua em seu processo celular, impedindo\nque o (ii) __________ seja traduzido como proteína. Como\no (iii) __________ está associado a uma função essencial,\nao ser silenciado, ocasiona a morte do organismo.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "(i) fungo; (ii) códon; (iii) RNAm.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "(i) inseto; (ii) RNAt; (iii) DNA.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "(i) inseto; (ii) RNAm; (iii) gene.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "(i) fungo; (ii) RNAr; (iii) código genético.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_16",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O uso de cigarros eletrônicos é crescente entre jovens. Na\ncomposição desses cigarros encontramos propilenoglicol,\nglicerol, água, nicotina e flavorizantes, que são aquecidos e\nvaporizados para inalação.\nUm estudo foi desenvolvido com animais experimentais\nexpostos a três fatores distintos: ar ambiente, nicotina e\ncigarro eletrônico. Constatou-se que a exposição à nicotina\ne ao cigarro eletrônico causa aumento da área de espaço\naéreo alveolar e redução das paredes alveolares, em\ncomparação com o grupo exposto ao ar ambiente.\nAdicionalmente, o grupo exposto ao cigarro eletrônico\napresentou maior redução no número de capilares\nalveolares, mesmo quando comparado ao grupo exposto à\nnicotina. A conclusão indicou um prejuízo mais significativo\npara as trocas gasosas e perfusão de sangue pulmonar no\ngrupo exposto ao cigarro eletrônico.\nAs imagens a seguir são fotomicrografias que representam,\nem mesma escala, os alvéolos pulmonares dos animais\ndos grupos estudados, mostrando o espaço aéreo alveolar;\nas setas representam o número de capilares alveolares.\n\n\nO gráfico abaixo mostra dados quantitativos referentes à\nárea de espaço aéreo alveolar e à contagem de capilar.\n\n(Fonte: Viktorija Reinikovaite e outros, European Respiratory Journal, Sheffield, v. 51, n. 4, p.\n1701661, abr. 2018.)\nConsiderando os resultados mencionados acima, assinale\na alternativa que relaciona corretamente o painel da\nfotomicrografia e os dados gráficos do grupo exposto ao\ncigarro eletrônico.",
+      "files": [
+        "/data/comvest/assets/2020/16/3.jpg",
+        "/data/comvest/assets/2020/16/4.jpg",
+        "/data/comvest/assets/2020/16/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "II-B.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "II-C.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "III-B.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "III-C.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_17",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Na construção de tecidos biológicos, as células se\nancoram em uma rede de microfibras tridimensional (3D),\nem uma matriz extracelular. Interessados em recriar\ntecidos biológicos em laboratório utilizando técnicas de\nengenharia genética e de tecidos, cientistas confirmaram\ndivisões e ligações celulares nas construções 3D obtidas a\npartir de proteínas de seda recombinantes. Ao observarem\ncélulas interfásicas e em divisão, formação de actina\nfilamentosa e pontos de adesão focal, os cientistas\nverificaram que o conjunto de células e matriz extracelular\napresentou viabilidade e força biomecânica muito\nsemelhantes às da parede arterial humana.\n(Fonte: https://phys.org/news/2019-04-ecm-like-fibers-bioactive-silk-d.html. Acessado em\n20/05/ 2019.)\nConsiderando as informações referentes ao estudo\nmencionado, e as relações entre célula e seu ambiente, é\ncorreto afirmar que as condições experimentais permitiram",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a respiração aeróbica e anaeróbica para conservar as\ntrocas gasosas e as fases do ciclo celular durante a\nformação da parede arterial humana.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a síntese, o transporte e o armazenamento de\nmacromoléculas no citoplasma para fortalecer a\nestrutura celular, como na parede arterial humana.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a presença de cromossomos alinhados na placa\nequatorial das células estacionadas na fase interfásica,\ntal como na parede arterial humana.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a adesão e a proliferação celular para sustentar o\nmetabolismo e a funcionalidade semelhantes aos das\nartérias humanas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_18",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Relatório publicado em 2019 alertou que um número\ncrescente de espécies de animais polinizadores está\nameaçado de extinção em todo o mundo em decorrência\nde fatores como desmatamento, uso indiscriminado de\nagrotóxicos e alterações climáticas. Importantes medidas\ndevem ser adotadas para prevenir as consequências\neconômicas, a redução na produção de alimentos e o\ndesequilíbrio dos ecossistemas. Entre as espécies\ncultivadas no Brasil que dependem de polinização animal,\ndestacam-se o maracujá, a maçã, a acerola e a castanha-\ndo-brasil.\n(Fonte: Marina Wolowski e outros, Relatório temático sobre polinização, polinizadores e\nprodução de alimentos no Brasil. BPBES e REBIPP, 2019. Acessado em 23/05/2019.)\nConsiderando as informações fornecidas no texto e os\nconhecimentos sobre botânica e ecologia, é correto afirmar\nque a polinização pode ser beneficiada",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "por insetos que transportam o pólen da antera para o\nestigma nas eudicotiledôneas mencionadas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "por pequenos vertebrados que transferem pólen do\nestigma para o estame nas monocotiledôneas\nmencionadas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "por insetos que transferem pólen do estigma para o\nestame nas eudicotiledôneas mencionadas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "por pequenos mamíferos que transportam o pólen da\nantera para o estigma nas monocotiledôneas\nmencionadas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_19",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Matriz energética é o conjunto de fontes de energia\ndisponíveis. Os gráficos a seguir representam a matriz\nenergética no mundo e no Brasil, mostrando as fontes de\nenergia renováveis e não renováveis.\n\n[1] Carvão.\n[2] Petróleo e derivados.\n[3] Gás natural.\n[4] Nuclear.\n[5] Energia hidráulica.\n[6] Biomassa.\n[7] Energia solar, eólica e geotérmica.\n[8] Derivados de cana-de-açúcar.\n[9] Lenha e carvão vegetal.\n[10] Outras fontes não renováveis.\n[11] Lixívia (líquido resultante do processamento da madeira para\nextração da celulose) e outras fontes renováveis.\n(Fonte: http://www.epe.gov.br/pt/abcdenergia/matriz-energetica-e-eletrica. Acessado em\n02/05/2019.)\nConsiderando seus conhecimentos sobre meio ambiente e\nas informações fornecidas, assinale a alternativa correta.",
+      "files": [
+        "/data/comvest/assets/2020/19/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A matriz energética brasileira utiliza menor\nporcentagem de energia renovável que a mundial, com\no uso predominante de combustíveis fósseis.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Gás natural, biomassa, energia hidráulica, energia\nsolar, eólica e geotérmica são as fontes renováveis de\nenergia utilizadas na matriz mundial.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A matriz energética brasileira é mais dependente de\nfontes renováveis de energia do que a matriz mundial,\ncomo alternativa ao uso de combustíveis fósseis.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Os biocombustíveis derivados da cana-de-açúcar e do\ngás natural são as principais fontes renováveis nas\nmatrizes brasileira e mundial, respectivamente.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_20",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As concentrações de arsênio no oceano se alteraram ao\nlongo do tempo geológico. No período Pré-Cambriano, os\noceanos receberam grandes quantidades de arsênio, em\nconsequência do intemperismo de minerais continentais de\nsulfeto de arsênio. Recentemente foram identificados\nmicro-organismos com expressão proteica das enzimas\narsenito oxidase e arsenato redutase no Oceano Pacífico\nNorte Oriental, nas zonas deficientes de oxigênio em\nregiões pelágicas, sugerindo que a comunidade\nmicrobiológica é capaz de utilizar arsênio para respiração\ncelular.\n(Fonte: Jaclyn Saunders e outros, PNAS, Washington, v. 116, n. 20, p. 9925-9930, maio\n2019.)\nAssinale a alternativa que preenche corretamente as\nlacunas nas frases a seguir.\nAssim como as formas oxidadas de nitrogênio e enxofre, o\narsênio pode ser utilizado como aceptor (i) __________ na\nrespiração celular desses micro-organismos nas zonas\ndeficientes de oxigênio. No período (ii) __________,\nsurgiram as cianobactérias, os primeiros seres\nfotossintetizantes.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "(i) final de elétrons; (ii) arqueano.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "(i) intermediário de elétrons; (ii) arqueano.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "(i) final de elétrons; (ii) fanerozoico.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "(i) intermediário de elétrons; (ii) fanerozoico.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_21",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No período da Guerra Fria, os conflitos geopolíticos\nimplicavam riscos nucleares e ataques físicos a\ninfraestruturas como estradas, redes elétricas ou\ngasodutos. Hoje, além dessas implicações, a Ciberguerra\nou Guerra Fria Digital",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "representa uma possibilidade real de interferência em\nsistemas informacionais nacionais, mas seu uso\nefetivo mantém-se apenas como uma ameaça.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "baseia-se na capacidade integrada de sistemas\ncomputacionais espionarem governos antagônicos,\ncom o objetivo de manipular informações de todo tipo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "envolve o uso de softwares (malwares) e programas\nrobôs para invadir redes sociais e computadores, mas\nnunca interferiu em processos eleitorais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "visa ao controle da informação como uma forma de\npoder político, mas inexistem, no mundo,\ncibercomandos, ou seja, a quarta força armada.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_22",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O chamado Triângulo Norte da América Central (TNAC) é\numa das regiões mais violentas do planeta, equiparando-se\nàs zonas de guerra. Grupos organizados praticam\ndiariamente extorsão, perseguição, sequestros,\nassassinatos, abuso sexual, entre outros crimes. Em 2018,\nsob condições extremas de pobreza e violência, sem\nescolha, milhares de pessoas do TNAC abandonaram suas\ncasas, deslocando-se por perigosas rotas em direção ao\nMéxico e aos EUA.\nConsiderando essa situação geográfica, indique os países\nque compõem a região do TNAC e a atual estratégia\nadotada pela população emigrante.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Venezuela, Costa Rica, Nicarágua; pequenos grupos\ndeslocam-se por trens para fugir da violência dos guias\nilegais (coyotes).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "El Salvador, Honduras, Guatemala; os emigrantes\ndeslocam-se a pé em grandes caravanas por ser mais\nseguro e para se beneficiarem de apoio mútuo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Cuba, Haiti, República Dominicana; pequenos grupos\ndeslocam-se em barcos, por ser mais seguro e para\ndiminuir os custos da travessia.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Belize, Nicarágua, Guatemala; os emigrantes\ndeslocam-se a pé em grandes caravanas para diminuir\nos custos com os guias ilegais (coyotes).",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_23",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Moçambique foi atingido por três ciclones tropicais entre\nmarço e abril de 2019. Ciclone tropical é um termo geral\npara grandes e complexas tempestades que giram em\ntorno de uma área de baixa pressão formada em águas\noceânicas tropicais ou subtropicais quentes. A formação de\num ciclone tropical requer enormes quantidades de calor\nna superfície da água, que devem atingir no mínimo\n26,5°C, e ventos de pelo menos 119 km/h em algum ponto\nda tempestade.\nA partir do exposto, assinale a alternativa que explica a\ngênese dos ciclones tropicais na costa de Moçambique.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A corrente marítima das Agulhas foi responsável pelo\ndeslocamento das águas superficiais aquecidas para\náreas de baixa pressão situadas no canal de\nMoçambique.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O clima semiárido e desértico no litoral de\nMoçambique faz com que as águas de sua costa\nestejam sempre aquecidas, favorecendo assim a\nformação dos ciclones.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Os ciclones que atingem o litoral de Moçambique têm\norigem no encontro das águas quentes do Oceano\nAtlântico com o Oceano Índico, no cabo da Boa\nEsperança.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A corrente marítima de Benguela foi responsável pelo\ndeslocamento das águas aquecidas do Oceano Índico\npara o canal que separa Moçambique de Madagascar.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_24",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A origem da sociedade em rede decorre do\ndesenvolvimento dos meios de transporte, das\ncomunicações e da transmissão de energia, característica\nessencial da organização espacial da sociedade moderna\n– uma sociedade umbilicalmente ligada à evolução da\ntécnica, à aceleração das interligações e da movimentação\ndas pessoas, de objetos e de capitais sobre os territórios.\nNesse contexto, tem lugar a mudança, associada à rapidez\ndo aumento da densidade e da escala da circulação.\n(Adaptado de Ruy Moreira, Da região à rede e ao lugar: a nova realidade e o novo olhar\ngeográfico sobre o mundo. etc...,espaço, tempo e crítica. n. 1(3), p. 57,2007.)\nNo mundo contemporâneo, as redes configuram uma nova\nforma de organização geográfica das sociedades porque",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "colocam todos os lugares em conexão, garantem\nfluidez ao processo global de produção e\nhomogeneízam os espaços.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "anulam a importância dos territórios e fronteiras\nnacionais na articulação da geopolítica mundial,\nreconfigurando a geografia do poder.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "constituem sistemas usados livremente pelas\nsociedades em busca de projetos emancipatórios,\nampliando os conflitos e as disputas políticas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "sobrepõem-se, na escala mundo, às configurações\nregionais do passado, impondo um novo\nfuncionamento reticular e hierárquico aos territórios.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_25",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A esculturação das diferentes formas de relevo é resultado\nda interação entre diferentes agentes exógenos na\npaisagem, tal como ocorre com as falésias.\nA partir do exposto e da ilustração abaixo, indique a\nalternativa que descreve os processos de recuo da falésia.\n\nLegenda:\nA: deslizamento; B: queda; C: fluxo de lama; D: água\nsubterrânea; E: deriva litorânea (sentido das ondas).\n(Adaptado de Paul R. Pinet, Fundamentos de Oceanografia. São Paulo: LTC, 2017, p. 269.)",
+      "files": [
+        "/data/comvest/assets/2020/25/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A evolução das falésias resulta de processos\ngeomorfológicos marinhos responsáveis pela erosão\nda base das escarpas e pelo transporte do material.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A ação da erosão marinha não interfere na evolução\ndas escarpas das falésias, pois a variação dos níveis\nde água subterrânea é o principal agente dessa forma\nde relevo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "As falésias são escarpas esculpidas em rochas\nmetamórficas, alteradas intempericamente por agentes\nexógenos pluviais e marinhos em áreas tropicais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "As falésias são formas de relevo tipicamente costeiras\ne sua evolução se dá a partir da interação de\nprocessos geomorfológicos marinhos e continentais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_26",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As condições atuais do clima global são responsáveis pela\ndiferenciação da salinidade dos oceanos em diferentes\nlatitudes, conforme a ilustração abaixo.\n\n(Adaptado de Paul R. Pinet, Fundamentos de Oceanografia. São Paulo: LTC, 2017, p. 97.)\nA partir do texto e do gráfico, é correto afirmar que:",
+      "files": [
+        "/data/comvest/assets/2020/26/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Os baixos teores de sais dos oceanos são observados\nem toda a faixa de baixas latitudes, em decorrência do\nbalanço existente entre o excesso de precipitação e o\ndeclínio da evaporação ao longo de todo o ano.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O excesso de precipitação nas áreas de médias\nlatitudes e na proximidade dos polos é responsável\npela ocorrência de maior salinidade nos oceanos do\nHemisfério Sul.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Nas áreas próximas a 90º de latitude, a salinidade dos\noceanos é similar, pois as condições climáticas\nfavorecem a ocorrência de grandes volumes de chuva\ne um grande deficit de evaporação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O percentual mais baixo de salinidade dos oceanos\nnas altas latitudes tem relação com a maior entrada de\nágua doce nos oceanos, que ocorre em razão do\nderretimento de geleiras.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_27",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O petróleo continua sendo a fonte de energia mais\nimportante do mundo. A posse de reservas, o transporte e\na capacidade de refino figuram como elementos de\nsoberania nacional e estratégicos em um mundo\nextremamente competitivo. Em relação ao petróleo no\nBrasil, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "As descobertas das reservas nacionais ocorreram a\npartir dos anos 1980 e a Bacia de Campos (RJ) é hoje\na principal produtora do país.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A extração nacional é cada dia maior, mas a\ninexistência de oleodutos exige que o transporte seja\nrealizado por meio rodoviário.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A maior produção em terra provém do Estado do Rio\nGrande do Norte e, em mar, do pré-sal situado entre\nos Estados de São Paulo e Rio de Janeiro.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Apesar de possuir grandes reservas, especialmente\ncom as descobertas do pré-sal, não há refino no país,\npor isso os derivados são importados.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_28",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Região Integrada de Desenvolvimento Econômico (RIDE) -\nDistrito Federal.\n\n(Fonte: SUDECO - Ministério do Desenvolvimento Regional.)\nObservando o mapa acima e considerando o conhecimento\nsobre o tema, é correto afirmar que a área representada é\numa região de planejamento composta por",
+      "files": [
+        "/data/comvest/assets/2020/28/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "três entes federativos, instituída nos anos 1990 para\npromover o desenvolvimento econômico e melhorias\nem políticas públicas; tem sua origem no processo de\nmetropolização de Brasília-DF.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "dois entes federativos, instituída nos anos 1970 para\nordenar a política de transportes face à elevada oferta\nde trabalho existente nos municípios do entorno do\nDistrito Federal.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "três entes federativos, instituída nos anos 1980 para\npromover o desenvolvimento sustentável com\npreservação do patrimônio histórico e natural face ao\nelevado crescimento demográfico regional.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "dois entes federativos, instituída nos anos 1960 para\npromover setores da agroindústria e dos serviços; tem\nsua origem nas estratégias de integração previstas no\nplanejamento regional.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_29",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "philosophy",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Da perspectiva do senso comum, dizer que uma ideia ou\numa declaração é “ideológica” implica sugerir sua\nfalsidade, o que logicamente leva à conclusão de que seu\noposto é a verdade. Esse binarismo é uma forma de\nconstruir visões de mundo simplistas e manipuláveis, que\nocultam interesses sociais.\nSobre o conceito de ideologia, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "desde o seu nascimento, ele se mantém inalterado, e\ntem o mesmo significado para as diferentes classes\nsociais.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o aspecto útil do conceito é que ele permite associar\nideias e produtos ao exercício do poder.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a neutralidade é a chave de sua definição, já que,\nentre o falso e o verdadeiro, está o posicionamento\nsocial neutro.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a tendência é o seu fim como instrumento de análise\nsocial, privilegiando a objetividade no tratamento da\nrealidade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_30",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma cidade viva não é obra de um gênio: é obra de\ntrabalhadores simples e de suas constantes conversas\nconsigo própria. Uma cidade é um tecido em contínua\nevolução, retocado e reparado para nosso uso, no qual a\nordem emerge através de uma “mão invisível” proveniente do\ndesejo das pessoas em se relacionar bem com seus vizinhos.\n(Adaptado de Roger Scruton, Confissões de um herético. Belo Horizonte: Âyiné, 2017, p.133.)\nNo trecho acima, a figura de linguagem “mão invisível”",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "estabelece uma intertextualidade com a expressão “a\nmão invisível do mercado”, de Adam Smith, sendo a\ncidade a expressão plena do planejamento.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "sugere que a organização de uma cidade não se limita\nao planejamento de um gestor, mas diz respeito às\nrelações éticas construídas no cotidiano.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "indica a submissão dos moradores de uma cidade aos\ninteresses ocultos de uma administração que promove,\nno espaço urbano, a vida cotidiana.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "associa-se à gestão pública, que é mantenedora da\nordem e do bem-estar nas relações econômicas de\numa cidade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_31",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As coordenadas geográficas são um sistema de linhas\nimaginárias traçadas sobre o globo terrestre ou um mapa.\nAtravés da interseção de um meridiano com um paralelo,\npodemos localizar cada ponto da superfície da Terra.\nComo a Terra apresenta uma superfície quase esférica, é\npossível determinar dois pontos diametralmente opostos,\ndenominados antípodas. Apenas algumas cidades\nbrasileiras têm uma cidade antípoda, como Coari (AM) e\nPontes e Lacerda (MT). Assinale a alternativa que indica\nduas cidades antípodas.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Pontes e Lacerda (Brasil) – 15º latitude S e 60º\nlongitude W; Candelária (Filipinas) – 15º latitude N e\n60º longitude E.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Coari (Brasil) – 4º latitude S e 63° longitude W; Temon\n(Malásia) – 4º latitude N e 63º longitude E.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Coari (Brasil) – 4º latitude S e 63° longitude W; Temon\n(Malásia) – 4º latitude N e 117º longitude E.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Pontes e Lacerda (Brasil) – 15º latitude S e 60º\nlongitude W; Candelária (Filipinas) – 75º latitude N e\n120º longitude E.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_32",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em uma família, cada filha tem o mesmo número de irmãs\ne irmãos, e cada filho tem um número de irmãs igual ao\ndobro do número de irmãos. O número total de filhos e\nfilhas dessa família é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "11.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "9.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "7.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "5.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_33",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Cinco pessoas devem ficar em pé, uma ao lado da outra,\npara tirar uma fotografia, sendo que duas delas se recusam\na ficar lado a lado. O número de posições distintas para as\ncinco pessoas serem fotografadas juntas é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "48.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "72.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "96.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "120.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_34",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um atleta participa de um torneio composto por três\nprovas. Em cada prova, a probabilidade de ele ganhar é de\n2⁄3, independentemente do resultado das outras provas.\nPara vencer o torneio, é preciso ganhar pelo menos duas\nprovas. A probabilidade de o atleta vencer o torneio é igual\na",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "2⁄3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "4⁄9.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "20⁄27.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "16⁄81.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_35",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sabendo que 𝑎 é um número real, considere a função\n𝑓(𝑥)=𝑎𝑥+2, definida para todo número real 𝑥. Se\n𝑓(𝑓(1))=1, então",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "𝑎 = -1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "𝑎 = -1⁄2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "𝑎 = 1⁄2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "𝑎 = 1.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_36",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sabendo que 𝑎 é um número real, considere a equação\nquadrática 2𝑥^2 + 𝑎𝑥 + 10 = 0. Se as soluções dessa\nequação são números inteiros, o módulo da soma das\nsoluções é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "4.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "5.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "6.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_37",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere que (𝑎,𝑏,3,𝑐) é uma progressão aritmética de\nnúmeros reais, e que a soma de seus elementos é igual a\n8. O produto dos elementos dessa progressão é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "30.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "10.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "-15.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "-20.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_38",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Tendo em vista que 𝑎 e 𝑏 são números reais positivos,\n𝑎 ≠ 𝑏, considere a função 𝑓(𝑥) = 𝑎𝑏^x, definida para todo\nnúmero real 𝑥. Logo, 𝑓(2) é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "√(𝑓(1)𝑓(3)).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "𝑓(3)/𝑓(0).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "𝑓(0)𝑓(1).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "𝑓(0)^3.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_39",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sabendo que 𝑝 é um número real, considere a matriz\nA = [[𝑝, 2], [0, 𝑝]] e sua transposta 𝐴^T. Se 𝐴+𝐴^T é singular (não\ninvertível), então",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "𝑝 = 0.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "|𝑝| = 1.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "|𝑝| = 2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "𝑝 = 3.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_40",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A figura abaixo exibe o triângulo 𝐴𝐵𝐶, em que 𝐴𝐵 = 𝐵𝐶 e\n⁻(AD) é uma altura de comprimento ℎ. A área do triângulo\n𝐴𝐵𝐶 é igual a",
+      "files": [
+        "/data/comvest/assets/2020/40/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "ℎ^2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "√2ℎ^2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "√3ℎ^2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2ℎ^2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_41",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A figura abaixo exibe o triângulo retângulo 𝐴𝐵𝐶, em que\n𝐴𝐵 = 𝐴𝑀 = 𝑀𝐶. Então, tg𝜃 é igual a",
+      "files": [
+        "/data/comvest/assets/2020/41/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1⁄2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1⁄3.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1⁄4.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1⁄5.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_42",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Seja a função polinomial do terceiro grau 𝑓(𝑥) = 𝑥³-𝑥²-\n2𝑥 +1, definida para todo número real 𝑥. A figura abaixo\nexibe o gráfico de 𝑦 = 𝑓(𝑥), no plano cartesiano, em que\nos pontos 𝐴, 𝐵 e 𝐶 têm a mesma ordenada. A distância\nentre os pontos 𝐴 e 𝐶 é igual a",
+      "files": [
+        "/data/comvest/assets/2020/42/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2√2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "3√2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_43",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sabendo que 𝑐 é um número real, considere, no plano\ncartesiano, a circunferência de equação 𝑥² + 𝑦² = 2𝑐𝑥. Se\no centro dessa circunferência pertence à reta de equação\n𝑥+2𝑦=3, então seu raio é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "√2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "√3.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "3.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_44",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Se um tetraedro regular e um cubo têm áreas de superfície\niguais, a razão entre o comprimento das arestas do\ntetraedro e o comprimento das arestas do cubo é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "√2√3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "∜2√3.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "√2∜3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "∜2∜3.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_45",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em 15 de abril de 2019, a Catedral de Notre-Dame de\nParis ardeu em chamas, atingindo temperaturas de 800°C.\nEstima-se que, na construção da catedral, foram\nempregadas pelo menos 300 toneladas de chumbo.\nMaterial usual à época, o chumbo é um metal pesado com\nelevado potencial de contaminação em altas temperaturas.\nSabendo que o ponto de fusão do chumbo é de 327,5°C e\nseu ponto de ebulição é de 1750°C, identifique a curva que\npode representar o histórico da temperatura de uma porção\nde chumbo presente na catedral ao longo do incêndio, bem\ncomo o fenômeno corretamente relacionado ao potencial\nde contaminação.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O potencial de contaminação estaria associado à\nevaporação do chumbo em alta temperatura.",
+          "file": "/data/comvest/assets/2020/45/0.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O potencial de contaminação estaria associado à ebulição\ndo chumbo em alta temperatura.",
+          "file": "/data/comvest/assets/2020/45/1.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O potencial de contaminação estaria associado à ebulição\ndo chumbo em alta temperatura.",
+          "file": "/data/comvest/assets/2020/45/2.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O potencial de contaminação estaria associado à\nevaporação do chumbo em alta temperatura.",
+          "file": "/data/comvest/assets/2020/45/3.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_46",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O “Ebulidor de Franklin” é um brinquedo constituído de dois\nbulbos de vidro conectados por um tubo espiralado,\npreenchido com líquido colorido. Seu uso consiste em\nencostar a mão na base do bulbo inferior, fazendo com que\no líquido seja aquecido e ascenda para o bulbo superior.\nPopularmente, a libido de uma pessoa é avaliada com\nbase na quantidade de líquido que ascende. O sucesso de\nvenda, obviamente, é maior quanto mais positivamente o\nbrinquedo indicar uma “alta libido”. Abaixo apresenta-se um\ngráfico da pressão de vapor em função da temperatura\npara dois líquidos, A e B, que poderiam ser utilizados para\npreencher o “Ebulidor de Franklin”.\n\n\nConsiderando essas informações, é correto afirmar que a\npressão no interior do brinquedo",
+      "files": [
+        "/data/comvest/assets/2020/46/0.jpg",
+        "/data/comvest/assets/2020/46/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "não se altera durante o seu uso, e o ebulidor com o\nlíquido A teria mais sucesso de vendas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "aumenta durante o seu uso, e o ebulidor com o líquido\nA teria mais sucesso de vendas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "não se altera durante o seu uso, e o ebulidor com o\nlíquido B teria mais sucesso de vendas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "aumenta durante o seu uso, e o ebulidor com o líquido\nB teria mais sucesso de vendas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_47",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O Termômetro de Galileu (Figura A) é uma forma criativa\nde se estimar a temperatura ambiente. Ele consiste em\numa coluna de vidro preenchida com um líquido. Em seu\ninterior, são colocadas várias bolas de vidro colorido\ncalibradas e marcadas para a leitura da temperatura. As\nbolas de vidro sobem ou descem em função da\ntemperatura. A sensibilidade do Termômetro de Galileu\nreside na sua capacidade de separar duas leituras de\ntemperaturas. A figura B é um gráfico de densidade em\nfunção da temperatura para água e etanol, dois líquidos\nque poderiam ser usados no termômetro.\nFigura A\n\nFiguraB\n\nDe acordo com essas informações e os conhecimentos de\nquímica, a leitura correta da temperatura do termômetro\nrepresentado na Figura A pode ser indicada pela bola de\nvidro que se situa",
+      "files": [
+        "/data/comvest/assets/2020/47/0.jpg",
+        "/data/comvest/assets/2020/47/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "mais abaixo entre as que se encontram na parte de\ncima do tubo, sendo que a água proporcionaria um\ntermômetro mais sensível.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "mais acima entre as que se encontram na parte de\nbaixo do tubo, sendo que a água proporcionaria um\ntermômetro mais sensível.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "mais acima entre as que se encontram na parte de\ncima do tubo, sendo que o etanol proporcionaria um\ntermômetro mais sensível.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "mais abaixo entre as que se encontram na parte de\ncima do tubo, sendo que o etanol proporcionaria um\ntermômetro mais sensível.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_48",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As caldeiras são utilizadas para alimentar máquinas nos\nmais diversos processos industriais, para esterilização de\nequipamentos e instrumentos em hospitais, hotéis,\nlavanderias, entre outros usos. A temperatura elevada da\nágua da caldeira mantém compostos solubilizados na água\nde alimentação que tendem a se depositar na superfície de\ntroca térmica da caldeira. Esses depósitos, ou\nincrustações, diminuem a eficiência do equipamento e,\nalém de aumentar o consumo de combustível, podem\nainda resultar em explosões. A tabela e a figura a seguir\napresentam, respectivamente, informações sobre alguns\ntipos de incrustações em caldeiras, e a relação entre a\nespessura da incrustação e o consumo de combustível\npara uma eficiência constante.\n\n\nConsiderando as informações apresentadas, é correto\nafirmar que as curvas A e B podem representar,\nrespectivamente, informações sobre incrustações",
+      "files": [
+        "/data/comvest/assets/2020/48/1.jpg",
+        "/data/comvest/assets/2020/48/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "de sulfato e de carbonato.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "de sulfato e de sílica.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "de sílica e de carbonato.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "de carbonato e de sílica.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_49",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Balões de Mylar metalizados são bastante comuns em\nfestas, sendo comercializados em lojas e parques.\nAscendem na atmosfera quando preenchidos com gás\nhélio e só murcham definitivamente se apresentarem\nalgum vazamento. Imagine que um cliente tenha comprado\num desses balões e, após sair da loja, retorna para\nreclamar, dizendo: “não bastasse a noite fria que está lá\nfora, ainda tenho que voltar para trocar o balão com\ndefeito”. O vendedor da loja, depois de conversar um\npouco com o cliente, sugere não trocá-lo e afirma que o\nbalão está",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "como saiu da loja; garante que estará normal na casa\ndo cliente, pois as moléculas do gás irão aumentar de\ntamanho, voltando ao normal num ambiente mais\nquente.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "como saiu da loja; garante que não há vazamento e\nque o balão estará normal na casa do cliente,\nconsiderando que o gás irá se expandir num ambiente\nmais quente.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "murcho; propõe enchê-lo com ar, pois o balão é menos\npermeável ao ar, o que garantirá que ele não irá\nmurchar lá fora e, na casa do cliente, irá se comportar\ncomo se estivesse cheio com hélio.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "murcho; propõe enchê-lo novamente com hélio e\ngarante que o balão não voltará a murchar quando for\nretirado da loja, mantendo o formato na casa do\ncliente.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_50",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um medicamento se apresenta na forma de comprimidos\nde 750 mg ou como suspensão oral na concentração de\n100 mg/mL. A bula do remédio informa que o comprimido\nnão pode ser partido, aberto ou mastigado e que, para\ncrianças abaixo de 12 anos, a dosagem máxima é de 15\nmg/kg/dose. Considerando apenas essas informações,\nconclui-se que uma criança de 11 anos, pesando 40 kg,\npoderia ingerir com segurança, no máximo,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "6,0 mL da suspensão oral em uma única dose.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "7,5 mL da suspensão oral, ou um comprimido em uma\núnica dose.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "um comprimido em uma única dose.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "4,0 mL da suspensão oral em uma única dose.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_51",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A atividade humana tem grande impacto na biosfera; um\nexemplo é o que vem ocorrendo na água dos oceanos nas\núltimas décadas. Assinale a alternativa que corretamente\nevidencia a influência da atividade humana no pH da água\ndos oceanos e como ela se acentua em função da região\ndo planeta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Essa influência se acentua na região dos polos, em razão\nda temperatura da água do mar.",
+          "file": "/data/comvest/assets/2020/51/0.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Essa influência se acentua na região dos trópicos, em\nrazão da temperatura da água do mar.",
+          "file": "/data/comvest/assets/2020/51/1.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Essa influência se acentua na região dos polos, em razão\nda temperatura da água do mar.",
+          "file": "/data/comvest/assets/2020/51/2.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Essa influência se acentua na região dos trópicos, em\nrazão da temperatura da água do mar.",
+          "file": "/data/comvest/assets/2020/51/3.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_52",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um dos pilares da nanotecnologia é o fato de as\npropriedades dos materiais dependerem do seu tamanho e\nda sua morfologia. Exemplo: a maior parte do H₂ produzido\nindustrialmente advém da reação de reforma de\nhidrocarbonetos: CH₄ (g) + H₂O(g)  ➞ 3H₂ (g) + CO(g). Uma\nforma de promover a descontaminação do hidrogênio é\nreagir o CO com largo excesso de água:\nCO(g) + H₂O(g)  ➞ CO₂(g) + H₂(g); ΔH = -41,6 kJ mol^(-1).\nA figura abaixo mostra resultados da velocidade (em\nunidade arbitrária, ua) dessa conversão em função da\ntemperatura, empregando-se um nanocatalisador com\nduas diferentes morfologias.\n\nConsiderando essas informações, é correto afirmar que,\ncom essa tecnologia, a descontaminação do hidrogênio por\nCO é mais eficiente na presença do catalisador em forma\nde",
+      "files": [
+        "/data/comvest/assets/2020/52/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "nanobastão, pois a transformação do CO ocorreria em\ntemperaturas mais baixas, o que também favoreceria o\nequilíbrio da reação no sentido dos produtos, uma vez\nque a reação é exotérmica.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "nanobastão, pois a transformação do CO ocorreria em\ntemperaturas mais baixas, o que também favoreceria o\nequilíbrio da reação no sentido dos produtos, uma vez\nque a reação é endotérmica.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "nanocubo, pois a transformação do CO ocorreria em\ntemperaturas mais elevadas, o que também\nfavoreceria o equilíbrio da reação no sentido dos\nprodutos, uma vez que a reação é exotérmica.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "nanocubo, pois a transformação do CO ocorreria em\ntemperaturas mais elevadas, o que também\nfavoreceria o equilíbrio da reação no sentido dos\nprodutos, uma vez que a reação é endotérmica.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_53",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“O sal faz a água ferver mais rápido?” Essa é uma\npergunta frequente na internet, mas não tente responder\ncom os argumentos lá apresentados. Seria muito difícil\nresponder à pergunta tal como está formulada, pois isso\nexigiria o conhecimento de vários parâmetros\ntermodinâmicos e cinéticos no aquecimento desses\nlíquidos. Do ponto de vista termodinâmico, entre tais\nparâmetros, caberia analisar os valores de calor específico\ne de temperatura de ebulição da solução em comparação\ncom a água pura. Considerando massas iguais (água pura\ne solução), se apenas esses parâmetros fossem levados\nem consideração, a solução ferveria mais rapidamente se o\nseu calor específico fosse",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "menor que o da água pura, observando-se ainda que a\ntemperatura de ebulição da solução é menor.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "maior que o da água pura, observando-se ainda que a\ntemperatura de ebulição da solução é menor.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "menor que o da água pura, observando-se, no entanto,\nque a temperatura de ebulição da solução é maior.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "maior que o da água pura, observando-se, no entanto,\nque a temperatura de ebulição da solução é maior.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_54",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Para ser usado em um implante dentário, um metal ou liga\nprecisa apresentar excelente compatibilidade com o\norganismo, alta resistência mecânica e boa flexibilidade,\nentre outros atributos. Imagine que dois metais, A e B,\ntenham sido testados quanto à sua aplicação em um\nimplante, e o metal A foi considerado a melhor opção.\n\nEsse resultado é compatível com o fato de que o metal A\ntem",
+      "files": [
+        "/data/comvest/assets/2020/54/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "menor densidade, embora seja menos resistente à\ncorrosão.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "menor densidade e é mais resistente à corrosão.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "maior densidade, embora seja menos resistente à\ncorrosão.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "maior densidade e é mais resistente à corrosão.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_55",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A catástrofe de Tchernóbil (1986) foi o mais grave desastre\ntecnológico do século XX. As explosões lançaram na\natmosfera diversos elementos radioativos. Hoje, uma em\ncada cinco pessoas nas fronteiras da Bielorússia vive em\nterritório contaminado. Em consequência da ação\nconstante de pequenas doses de radiação, a cada ano,\ncresce no país o número de doentes de câncer, de\ndeficientes mentais, de pessoas com disfunções\nneuropsicológicas e com mutações genéticas.\n(Adaptado de Svetlana Aleksiévitch, Vozes de Tchernóbil. São Paulo: Companhia das Letras,\n1997, p.10.)\nA partir do documento acima e de seus conhecimentos,\nassinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A construção da Central Elétrica Atômica de Tchernóbil\nocorreu em um momento de embate da URSS com o\nmundo ocidental capitalista. Tendo em vista que os\nelementos lançados ao ambiente têm tempos de meia-\nvida curtos, novas tecnologias químicas conseguiram\nsanar os danos ambientais e humanos gerados pelo\nacidente.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O acidente de Tchernóbil é um marco do\ndesmantelamento da URSS. O acidente gerou danos\nambientais e humanos que não foram solucionados até\nhoje, uma vez que os elementos lançados ao ambiente\ntêm tempos de meia-vida longos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O acidente de Tchernóbil é um marco do\nfortalecimento da URSS. Ele gerou danos ambientais e\nhumanos que não foram solucionados até hoje, uma\nvez que os elementos lançados ao ambiente têm\ntempos de meia-vida longos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A construção da Central Elétrica Atômica de Tchernóbil\nocorreu em um contexto de expansão das relações da\nURSS com a Coreia do Norte e a China. Tendo em\nvista que os elementos lançados ao ambiente têm\ntempos de meia-vida curtos, novas tecnologias\nquímicas conseguiram sanar os danos ambientais e\nhumanos gerados pelo acidente.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_56",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Numa fritadeira a ar com potência de 1400 W, um pedaço\nde carne ficou pronto para ser consumido após 18 minutos\nde funcionamento do equipamento. Um cozimento\nsemelhante foi realizado em menor tempo em um fogão a\ngás. Nesse caso, foram consumidos 16 gramas de gás\npropano, cuja reação de combustão é dada por:\nC₃H₈(g) + O₂(g) ➞ 3CO₂(g) + 4H₂O(g); ΔH= –2046 kJ mol^(-1).\nComparando os dois processos de cozimento, o consumo\nde energia foi maior empregando-se",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o fogão a gás, sendo cerca de 1,5 vezes maior que o\nconsumo da fritadeira a ar.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o fogão a gás, sendo cerca de 12 vezes maior que o\nconsumo da fritadeira a ar.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a fritadeira a ar, sendo cerca de 6 vezes maior que o\nconsumo do fogão a gás.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a fritadeira a ar, sendo cerca de 2 vezes maior que o\nconsumo do fogão a gás.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_57",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“O que é então o verossímil? Para encurtar: tudo aquilo em\nque a confiança é presumida. Por exemplo, os juízes nem\nsempre são independentes, os médicos nem sempre\ncapazes, os oradores nem sempre sinceros. Mas presume-\nse que o sejam; e, se alguém afirmar o contrário, cabe-lhe\no ônus da prova. Sem esse tipo de presunção, a vida seria\nimpossível; e é a própria vida que rejeita o ceticismo.”\n(Olivier Reboul, Introdução à retórica. São Paulo: Martins Fontes, 1998, p. 97-98.)\nConsiderando o segundo “Sermão da Quarta-feira de\nCinza” (1673), de Antonio Vieira, é correto afirmar que a\npresunção de confiança por parte do auditório cristão do\nséculo XVII decorre da",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "habilidade política do pregador.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "atenção disciplinada dos ouvintes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "crença na salvação e na danação eternas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "defesa institucional da Igreja Católica feita pelo clero.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_58",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Ao descrever a rotina do protagonista Raimundo Silva, o\nnarrador da História do Cerco de Lisboa afirma que só\nrestaram fragmentos dos sonhos noturnos, “imagens\ninsensatas aonde a luz não chega, indevassáveis até para\nos narradores, que as pessoas mal informadas acreditam\nterem todos os direitos e disporem de todas as chaves.”\n(José Saramago, História do Cerco de Lisboa. São Paulo: Companhia das Letras, 1989,\np.122.)\nCom base nesse excerto e relacionando-o ao conjunto do\nromance, é correto afirmar que o narrador é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "polifônico, pois, ao considerar todos os pontos de vista\ndas personagens, relativiza a visão de mundo e\nrespeita a privacidade delas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "observador, pois dissimula sua avaliação política da\nrealidade ao se mostrar empático ao mundo das\npersonagens.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "protagonista, pois, ao fazer parte da própria narrativa,\nassemelha-se às demais personagens e não pode\nduvidar dos protocolos necessários para contar a\nhistória de Portugal.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "onisciente, pois simula ser tolerante com a pluralidade\nde vozes narrativas, mas é a singularidade de seu\nmodo de narrar que produz a coesão e a autonomia da\nnarração.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_59",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As palavras organizadas comunicam sempre alguma coisa,\nque nos toca porque obedece a certa ordem. Quando\nrecebemos o impacto de uma produção literária, oral ou\nescrita, ele é devido à fusão inextricável da mensagem com a\nsua organização. Em palavras usuais: o conteúdo de uma\nobra literária só atua por causa da forma.\n(Adaptado de Antonio Candido, “O direito à literatura”, em Vários escritos. São Paulo: Ouro\nsobre azul e Duas Cidades, 2004, p.178.)\n\nA obra Sobrevivendo no inferno do grupo Racionais Mc’s é\ncomposta pelas canções e pelo projeto editorial da capa e\ncontracapa do CD. Nesse projeto editorial, encontram-se\nelementos visuais e verbais que estabelecem um jogo de\nformas e sentidos. Com base na afirmação de Antonio\nCandido, é correto afirmar que a organização desses\nelementos",
+      "files": [
+        "/data/comvest/assets/2020/59/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "produz uma simetria entre som e sentido, sendo que\ntal simetria indica que os símbolos religiosos são uma\nresposta à violência.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "configura um sistema de oposições, uma vez que\nimagens e palavras estabelecem tensões materiais e\nespirituais, constitutivas do sentido das canções.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "configura uma sintaxe poética de ordem espiritual.\nEssa sintaxe espelha o caos e as injustiças vividos na\nperiferia das grandes cidades.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "produz uma lógica poética racional. Essa lógica se\nexplicita na vitória do crime sobre a visão de mundo\npresente nos versículos bíblicos transcritos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_60",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No conto “O espelho”, de Machado de Assis, o esboço de\numa nova teoria sobre a dupla natureza da alma humana é\napresentado por Jacobina. A personagem narra a situação\nem que se viu sozinha na casa da tia Marcolina.\n“As horas batiam de século a século no velho relógio da\nsala, cuja pêndula, tic-tac, tic-tac, feria-me a alma interior\ncomo um piparote contínuo da eternidade.”\nConsiderando os indicadores da passagem do tempo na\ncitação, é correto afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o movimento oscilante do pêndulo do relógio expressa\na duplicidade da alma interior.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o som do velho relógio da sala materializa\nacusticamente a longevidade da alma interior.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a sonoridade repetitiva do pêndulo intensifica as\naflições da alma interior.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o contínuo batimento das horas sugere o vigor da alma\ninterior.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_61",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“Para inaugurar é preciso ter um defunto. Mas, por\ndesgraça, nenhum turista se afoga, nenhuma calamidade\nse abate sobre a cidade e os moribundos têm o desplante\nde ressuscitarem. Na ordem estabelecida por Odorico, o\nbem vira mal e o mal, bem.”\n(Anatol Rosenfeld, “A obra de Dias Gomes”, em Teatro de Dias Gomes. Rio de Janeiro:\nCivilização Brasileira, 1972, p. xxvii.)\nA comicidade de O Bem-amado, de Dias Gomes, deriva\nem grande medida da inversão de valores que a peça\nencena. Considerando os propósitos satíricos da obra,\nassinale a alternativa que evidencia tal inversão.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A destinação de recursos para a construção de um\ncemitério público confere dignidade aos mortos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A hospitalidade dada aos doentes ilustra o uso do\norçamento em prol do sistema público de saúde.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A promoção do pistoleiro a delegado de polícia visa à\nreinserção social do criminoso.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A inauguração do cemitério dá oportunidade a que se\nreverencie a memória do benfeitor da cidade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_62",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No livro A cabra vadia: novas confissões, Nelson\nRodrigues inicia a crônica “Os dois namorados” com a\nseguinte afirmação:\n“há coisas que um grã-fino só confessa num terreno baldio,\nà luz de archotes, e na presença apenas de uma cabra\nvadia.”\nNa crônica “Terreno baldio” ele recorre ao mesmo animal\npara explicar a ideia que teve de criar “entrevistas\nimaginárias”:\n“Não podia ser um gabinete, nem uma sala. Lembrei-me,\nentão, do terreno baldio. Eu e o entrevistado e, no máximo,\numa cabra vadia. Além do valor plástico da figura, a cabra\nnão trai. Realmente, nunca se viu uma cabra sair por aí\nfazendo inconfidências.”\n(Nelson Rodrigues, A cabra vadia: novas confissões. Rio de Janeiro: Nova Fronteira, 2016, p.\n52 e160.)\nO caráter confessional associado à figura da cabra nas\ncrônicas tem relação com",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a veracidade dos depoimentos que o cronista\ntestemunha nas entrevistas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a impostura dos contemporâneos que são objeto dos\ncomentários do cronista.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a antipatia do jornalista no que diz respeito à busca de\nidentidade dos artistas entrevistados.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a sinceridade dos intelectuais que são objeto das\ncrônicas dos jornalistas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_63",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O poema abaixo vem impresso na orelha do livro Psia, de\nArnaldo Antunes.\nPsia é feminino\nde psiu;\nque serve para chamar a atenção\nde alguém, ou para pedir\nsilêncio.\nEu berro as palavras\nno microfone\nda mesma maneira com que\nas desenho, com cuidado,\nna página.\nPara transformá-las em coisas,\nem vez de substituírem \nas coisas. Calos na língua; de calar.\nAlguma coisa entre a piscina e a pia.\nUm hiato a menos.\n(Arnaldo\nAntunes, Psia.\nSão Paulo:\nIluminuras,\n2012.)\nNa orelha do livro, Antunes apresenta ao leitor seu\nprocesso de criação poética. É correto dizer que o autor se\npropõe a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "revelar a primazia da comunicação oral sobre a escrita\ndas palavras.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "discutir a flexão de gênero, que torna a palavra “psia”\num substantivo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "defender a conversão das palavras em coisas,\nmudando seu estatuto.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "explorar o poder de representação da interjeição\nexclamativa “psiu!”.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_64",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto I\nOs idiomas e suas regras são coisas vivas, que vão se\nmodificando de maneira dinâmica, de acordo com o\nmomento em que a sociedade vive. Um exemplo disso é a\nadoção do termo “maratonar”, quando os telespectadores\npodem assistir a vários ou a todos os episódios de uma\nsérie de uma só vez. Contudo, ao que parece, a plataforma\nNetflix não quer mais estar associada à “maratona” de\nséries. A maior razão seria a tendência atual que as\ngigantes da tecnologia têm seguido para evitar o consumo\nexcessivo e melhorar a saúde dos usuários.\n(Adaptado de Claudio Yuge, “Você notou? Netflix parece estar evitando o termo ‘maratonar’.”\nDisponível em https://www.tecmundo.com.br/ internet/133690-voce-notou-net flix-parece-\nevitando-termo-maratonar.htm. Acessado em 01/06/2019.)\nTexto II\n\n(Disponível em http://www.willtirando.com.br/anesia-417/. Acessado em 01/06/ 2019.)\nEmbora os dois textos tratem do termo “maratonar” a partir\nde perspectivas distintas, é possível afirmar que o Texto II\nretoma aspectos apresentados no Texto I porque",
+      "files": [
+        "/data/comvest/assets/2020/64/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "esclarece o significado do neologismo “maratonar”\ncomo esforço físico exaustivo, derivado de “maratona”.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "deprecia a definição de “maratona” como ação\ncontínua de superação de dificuldades e melhoria da\nsaúde.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "reflete sobre o impacto que a falta de exercícios físicos\ne a permanência em casa provocam na saúde.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "menospreza o uso do termo “maratonar” relacionado a\num estilo de vida sedentário, antagônico a maratona.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_65",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia o texto a seguir e responda às questões 65 e 66.\nO telejornalismo é um dos principais produtos televisivos.\nSejam as notícias boas ou ruins, ele precisa garantir uma\nexperiência esteticamente agradável para o espectador.\nEm suma, ser um “infotenimento”, para atrair prestígio,\nanunciante e rentabilidade. Porém, a atmosfera pesada do\ninício do ano baixou nos telejornais: Brumadinho, jovens\natletas mortos no incêndio do CT do Flamengo, notícias\ndiárias de feminicídios, de valentões armados matando em\nbrigas de trânsito e supermercados. Conjunções\nadversativas e adjuntos adverbiais já não dão mais conta\nde neutralizar o tsunami de tragédias e violência, e de\namenizar as más notícias para garantir o “infotenimento”.\nNo jornal, é apresentada matéria sobre uma mulher\nbrutalmente espancada, internada com diversas fraturas no\nrosto. Em frente ao hospital, uma repórter fala: “mas a boa\nnotícia é que ela saiu da UTI e não precisará mais de\ncirurgia reparadora na face...”. Agora, repórteres repetem a\nexpressão “a boa notícia é que...”, buscando alguma\nbrecha de esperança no “outro lado” das más notícias.\n(Adaptado de Wilson R. V. Ferreira, Globo adota “a boa notícia é que...” para tentar se salvar\ndo baixo astral nacional. Disponível em https://cinegnose. Blogs pot.com/2019/02/globo-adota-\nboa-noticia-e-que-para.html. Acessado em 01/03 /2019.)\nConsiderando a matéria apresentada no jornal, o uso da\nconjunção adversativa seguido da expressão “a boa notícia\né que” permite ao jornalista",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "apontar a gravidade da notícia e compensá-la.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "expor a neutralidade da notícia e reforçá-la.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "minimizar a relevância da notícia e acentuá-la.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "revelar a importância da notícia e enfatizá-la.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_66",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia o texto a seguir e responda às questões 65 e 66.\nO telejornalismo é um dos principais produtos televisivos.\nSejam as notícias boas ou ruins, ele precisa garantir uma\nexperiência esteticamente agradável para o espectador.\nEm suma, ser um “infotenimento”, para atrair prestígio,\nanunciante e rentabilidade. Porém, a atmosfera pesada do\ninício do ano baixou nos telejornais: Brumadinho, jovens\natletas mortos no incêndio do CT do Flamengo, notícias\ndiárias de feminicídios, de valentões armados matando em\nbrigas de trânsito e supermercados. Conjunções\nadversativas e adjuntos adverbiais já não dão mais conta\nde neutralizar o tsunami de tragédias e violência, e de\namenizar as más notícias para garantir o “infotenimento”.\nNo jornal, é apresentada matéria sobre uma mulher\nbrutalmente espancada, internada com diversas fraturas no\nrosto. Em frente ao hospital, uma repórter fala: “mas a boa\nnotícia é que ela saiu da UTI e não precisará mais de\ncirurgia reparadora na face...”. Agora, repórteres repetem a\nexpressão “a boa notícia é que...”, buscando alguma\nbrecha de esperança no “outro lado” das más notícias.\n(Adaptado de Wilson R. V. Ferreira, Globo adota “a boa notícia é que...” para tentar se salvar\ndo baixo astral nacional. Disponível em https://cinegnose. Blogs pot.com/2019/02/globo-adota-\nboa-noticia-e-que-para.html. Acessado em 01/03 /2019.)\nPara se referir a matérias jornalísticas televisivas que\ninformam e, ao mesmo tempo, entretêm os espectadores,\no autor cria um neologismo por meio de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "derivação prefixal.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "composição por justaposição.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "composição por aglutinação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "derivação imprópria.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_67",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto I\n\nTexto II\nO que levou Marta, seis vezes a melhor do mundo, a enfrentar\na Austrália de chuteiras pretas? Adianto, não foi o futebol\n“raiz”. Marta não fechou patrocínio com nenhuma das gigantes\ndo mercado esportivo. Não recebeu nenhuma proposta à\naltura do seu futebol. Isso diz muito sobre o machismo no\nesporte. A partir disso, a atleta decidiu calçar a luta pela\ndiversidade.\n(Fonte: https://www.hypeness.com.br/2019/06/chuteira-sem-logo-e-com-simbolo-de-igualdade\n-de-genero-foi-mais-um-golaco-de-marta/. Acessado em 18/06/2019.)\nConsiderando o tweet e o texto acima, é correto afirmar\nque a atleta",
+      "files": [
+        "/data/comvest/assets/2020/67/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "enfrentou o time adversário com chuteiras pretas,\nmesmo que não tenha sido influenciada pelo futebol\n“raiz”.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "usou chuteiras sem logotipo e luta pela igualdade de\ngênero no esporte, mesmo sendo considerada seis\nvezes a melhor do mundo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "não recebeu patrocínio de nenhuma grande empresa,\nembora a chuteira preta sem logotipo simbolize o\nfutebol “raiz”.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "optou por lutar contra o machismo no esporte, embora\nas propostas de patrocínio não tenham considerado\nseu valor.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_68",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "– Pela milionésima vez, por favor, “se amostrar” não existe.\nNão pega bem usar uma expressão incorreta como essa.\n– Ora veja, incorreto para mim é o que não faz sentido, “se\namostrar” faz sentido para boa parte do país.\n– Por que você não usa um sinônimo mais simples da\npalavra? Que tal “exibido”? Todo mundo conhece.\n– Não dá, porque quem se exibe é exibido, quem se\namostra é amostrado. Por exemplo: quando os vendedores\nde shopping olham com desprezo para os meninos dos\nrolezinhos e moram no mesmo bairro deles, são exibidos.\nEles acham que a roupa de vendedor faz deles seres\nsuperiores. Por outro lado, as meninas e os meninos dos\nrolezinhos vão para os shoppings para se amostrar uns\npara outros, e são, portanto, amostrados. Percebeu a\nsutileza da diferença?\n– Entendo, mas está errado.\n– Como é que está errado se você entende? Você não\naceita a inventividade linguística do povo. “Amostrar” é\nverbo torto no manual das conjugações e “amostrado” é\nparticípio de amostra grátis! Captou?\n(Adaptado de Cidinha da Silva, Absurdada. Disponível em http://notarodape. blogspot. com/\nsearch/label/Cotidiano. Acessado em 22/05/2019.)\nConsiderando que a comparação entre modos de falar\npode ser fonte de preconceito, o exemplo citado por uma\ndas personagens da crônica",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "reforça o preconceito em relação às turmas de jovens\nde um mesmo bairro, com base nos significados de\n“amostrado” e “exibido”.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "explicita o preconceito, valendo-se de “amostrado” e\n“exibido” para distinguir dois grupos de jovens do\nmesmo bairro.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "dissimula o preconceito e reconhece que “se amostrar”\né, de fato, um verbo que não está de acordo com as\nnormas gramaticais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "refuta o preconceito e confirma o desconhecimento da\nregra de formação do particípio passado do verbo “se\namostrar”.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_69",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto I\nLeia os versos iniciais da peça Se correr o bicho pega, se\nficar o bicho come (1966), de Oduvaldo Vianna Filho e\nFerreira Gullar. Em formato de cordel, os versos são\ncantados por todos os atores.\nSe corres, bicho te pega, amô.\nSe ficas, ele te come.\nAi, que bicho será esse, amô?\nQue tem braço e pé de homem?\nCom a mão direita ele rouba, amô,\ne com a esquerda ele entrega;\njaneiro te dá trabalho, amô,\ndezembro te desemprega;\nde dia ele grita \"avante”, amô,\nde noite ele diz: \"não vá\":\nSerá esse bicho um homem, amô,\nou muitos homens será?\n(Oduvaldo Vianna Filho e Ferreira Gullar, Se correr o bicho pega, se ficar o bicho come. Rio\nde Janeiro: Civilização Brasileira, 1966, p. 3.)\nTexto II\nObserve a charge de Laerte que fez parte da mostra Maio\nna Paulista, em 2019.\n\n(Laerte, Exposição Maio na Paulista, de Laerte e Angeli, 2019. Disponível em\nhttps://gq.globo.com/Cultura/ noticia/2019/05/ laerte-e-angeli-participam-de-exposicao-ao-ar-\nlivre-na-avenida-paulista.html. Acessado em 02/06/2019.)\nConsiderando a relação entre os textos I e II, conclui-se\nque a charge",
+      "files": [
+        "/data/comvest/assets/2020/69/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "resgata a temática do cordel, rompendo com o\nimpasse vivido pelos personagens.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "reafirma o dilema dos personagens da peça,\nparafraseando os versos iniciais do cordel.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "evidencia a tradição popular nordestina, utilizando a\nimagem para sofisticar os versos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "confirma a força transformadora da versificação\npopular, reproduzindo-a em imagens.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_70",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Obs.: para as questões de 70 a 79, aproxime π = 3,0\nsempre que necessário. A volta da França é uma das maiores competições do\nciclismo mundial. Num treino, um ciclista entra num circuito\nreto e horizontal (movimento em uma dimensão) com\nvelocidade constante e positiva. No instante t1 , ele acelera\nsua bicicleta com uma aceleração constante e positiva até\no instante t2. Entre t2 e t3, ele varia sua velocidade com\numa aceleração também constante, porém negativa. Ao\nfinal do percurso, a partir do instante t3, ele se mantém em\nmovimento retilíneo uniforme. De acordo com essas\ninformações, o gráfico que melhor descreve a velocidade\ndo atleta em função do tempo é",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/comvest/assets/2020/70/1.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/comvest/assets/2020/70/2.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/comvest/assets/2020/70/3.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/comvest/assets/2020/70/4.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_71",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Obs.: para as questões de 70 a 79, aproxime π = 3,0\nTexto comum às questões 71, 72 e 73.\nAs agências espaciais NASA (norte-americana) e ESA\n(europeia) desenvolvem um projeto para desviar a\ntrajetória de um asteroide através da colisão com uma\nsonda especialmente enviada para esse fim. A previsão é\nque a sonda DART (do inglês, “Teste de Redirecionamento\nde Asteroides Duplos”) será lançada com a finalidade de se\nchocar, em 2022, com Didymoon, um pequeno asteroide\nque orbita um asteroide maior chamado Didymos.\nA massa da sonda DART será de m sonda = 300 kg, e ela\ndeverá ter a velocidade v sonda = 6 km/s imediatamente\nantes de atingir Didymoon. Assim, a energia cinética da\nsonda antes da colisão será igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1,8X10^3 J.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "5,4X10^3 J.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1,8X10^6 J.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "5,4X10^9 J.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_72",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Obs.: para as questões de 70 a 79, aproxime π = 3,0\nTexto comum às questões 71, 72 e 73.\nAs agências espaciais NASA (norte-americana) e ESA\n(europeia) desenvolvem um projeto para desviar a\ntrajetória de um asteroide através da colisão com uma\nsonda especialmente enviada para esse fim. A previsão é\nque a sonda DART (do inglês, “Teste de Redirecionamento\nde Asteroides Duplos”) será lançada com a finalidade de se\nchocar, em 2022, com Didymoon, um pequeno asteroide\nque orbita um asteroide maior chamado Didymos.\nNuma colisão inelástica da sonda DART com o asteroide\nDidymoon,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a energia cinética do conjunto sonda + asteroide é\nconservada e o momento linear do conjunto também é\nconservado.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a energia cinética do conjunto sonda + asteroide não é\nconservada; já o momento linear do conjunto é\nconservado.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a energia cinética do conjunto sonda + asteroide é\nconservada; já o momento linear do conjunto não é\nconservado.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a energia cinética do conjunto sonda + asteroide não é\nconservada e o momento linear do conjunto também\nnão é conservado.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_73",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Obs.: para as questões de 70 a 79, aproxime π = 3,0\nTexto comum às questões 71, 72 e 73.\nAs agências espaciais NASA (norte-americana) e ESA\n(europeia) desenvolvem um projeto para desviar a\ntrajetória de um asteroide através da colisão com uma\nsonda especialmente enviada para esse fim. A previsão é\nque a sonda DART (do inglês, “Teste de Redirecionamento\nde Asteroides Duplos”) será lançada com a finalidade de se\nchocar, em 2022, com Didymoon, um pequeno asteroide\nque orbita um asteroide maior chamado Didymos.\nO asteroide satélite Didymoon descreve uma órbita circular\nem torno do asteroide principal Didymos. O raio da órbita é\nr=1,6 km e o período é T=12 h. A aceleração\ncentrípeta do satélite vale",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "8,0x10^-1 km/h^2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "4,0x10^-1 km/h^2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "3,125x10^-1 km/h^2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "6,667x10^-2 km/h^2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_74",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Obs.: para as questões de 70 a 79, aproxime π = 3,0\nAs escadas flutuantes em cascata feitas em concreto\narmado são um elemento arquitetônico arrojado, que\nconfere leveza a uma estrutura intrinsecamente massiva.\nEssas escadas são apoiadas somente na extremidade\nsuperior (normalmente em uma parede) e no chão. O\nesquema abaixo mostra as forças aplicadas na escada\npela parede (Fp) e pelo chão (Fc), além da força peso\n(mg) aplicada pela Terra, todas pertencentes a um plano\nvertical.\n\nCom base nesse esquema, é correto afirmar que",
+      "files": [
+        "/data/comvest/assets/2020/74/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Fp cosθp = Fc cosθc e Fp senθp + Fc senθc =mg.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Fp senθp = Fc senθc e Fp cosθp + Fc cosθc = mg.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Fp cosθp = Fc cosθc e Fp + Fc = mg.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Fp = Fc e Fp senθp+Fc senθc = mg.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_75",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Obs.: para as questões de 70 a 79, aproxime π = 3,0\nO CO₂ dissolvido em bebidas carbonatadas, como\nrefrigerantes e cervejas, é o responsável pela formação da\nespuma nessas bebidas e pelo aumento da pressão\ninterna das garrafas, tornando-a superior à pressão\natmosférica. O volume de gás no “pescoço” de uma garrafa\ncom uma bebida carbonatada a 7°C é igual a 24 ml, e a\npressão no interior da garrafa é de 2,8x10^5Pa. Trate o\ngás do “pescoço” da garrafa como um gás perfeito.\nConsidere que a constante universal dos gases é de\naproximadamente 8 J/mol.K e que as temperaturas nas\nescalas Kelvin e Celsius relacionam-se da forma\nT(K) = (0°C)+273. O número de moles de gás no\n“pescoço” da garrafa é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1,2x10^5.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "3,0x10^3.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1,2x10^-1.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "3,0x10^-3.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_76",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Obs.: para as questões de 70 a 79, aproxime π = 3,0\nExistem na natureza forças que podemos observar em\nnosso cotidiano. Dentre elas, a força gravitacional da Terra\ne a força elétrica. Num experimento, solta-se uma bola com\ncarga elétrica positiva, a partir do repouso, de uma\ndeterminada altura, numa região em que há um campo\nelétrico dirigido verticalmente para baixo, e mede-se a\nvelocidade com que ela atinge o chão. O experimento é\nrealizado primeiramente com uma bola de massa m e\ncarga q, e em seguida com uma bola de massa 2m e\nmesma carga q.\n\nDesprezando a resistência do ar, é correto afirmar que, ao\natingir o chão,",
+      "files": [
+        "/data/comvest/assets/2020/76/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "as duas bolas terão a mesma velocidade.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a velocidade de cada bola não depende do campo\nelétrico.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a velocidade da bola de massa m é maior que a\nvelocidade da bola de massa 2m.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a velocidade da bola de massa m é menor que a\nvelocidade da bola de massa 2m.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_77",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Obs.: para as questões de 70 a 79, aproxime π = 3,0\nEm 2019 foi divulgada a primeira imagem de um buraco\nnegro, obtida pelo uso de vários radiotelescópios. Também\nrecentemente, uma equipe da NASA propôs a utilização de\ntelescópios de infravermelho para detectar\nantecipadamente asteroides que se aproximam da Terra.\nConsidere que um radiotelescópio detecta ondas\neletromagnéticas provenientes de objetos celestes\ndistantes na frequência de f rádio = 1,5 GHz, e que um\ntelescópio de infravermelho detecta ondas\neletromagnéticas originadas em corpos do sistema solar na\nfrequência de f infravermelho = 30THz. Qual é a razão entre os\ncorrespondentes comprimentos de onda no vácuo,\n ⋋ rádio / ⋋ infravermelho?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "5,0x10^-5.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "6,7x10^-5.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2,0x10^4.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "6,0x10^12.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_78",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A lupa é um instrumento óptico simples formado por uma\núnica lente convergente. Ela é usada desde a\nAntiguidade para observar pequenos objetos e detalhes de\nsuperfícies. A imagem formada pela lupa é direta e virtual.\nQual figura abaixo representa corretamente o traçado dos\nraios luminosos principais provenientes de um determinado\nponto de um objeto observado por uma lupa? Nessas\nfiguras, (f) e (f’) representam os pontos focais, (o) o\nobjeto e (i) a imagem.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/comvest/assets/2020/78/1.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/comvest/assets/2020/78/2.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/comvest/assets/2020/78/3.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/comvest/assets/2020/78/4.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_79",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em analogia com um circuito elétrico, a transpiração foliar\né regulada pelo conjunto de resistências (medidas em\nsegundos/metro) existentes na rota do vapor d’água entre\nos sítios de evaporação próximos à parede celular no\ninterior da folha e a atmosfera. Simplificadamente, há as\nresistências dos espaços intercelulares de ar (r eia), as\ninduzidas pela presença dos estômatos (r est) e da cutícula\n(r cut) e a promovida pela massa de ar próxima à superfície\ndas folhas (r cl). O esquema abaixo representa as\nresistências mencionadas.\n\nA tabela a seguir apresenta os valores das resistências de\nduas espécies de plantas (espécie 1 e espécie 2).\n\nTendo em vista os dados apresentados e considerando\nque a condutância é o inverso da resistência, assinale a\nalternativa que indica a espécie com menor transpiração e\nsua respectiva condutância total à difusão do vapor d’água\nentre os sítios de evaporação e a atmosfera.",
+      "files": [
+        "/data/comvest/assets/2020/79/0.jpg",
+        "/data/comvest/assets/2020/79/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "espécie 1; 48 x 10^-4 m/s.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "espécie 1; 125 x 10^-4 m/s.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "espécie 2; 30 x 10^-4 m/s.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "espécie 2; 200 x 10^-4 m/s.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_80",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“(...) as palavras tomam significados distintos daqueles\nutilizados no cotidiano. Por exemplo, utiliza-se, com\nfrequência, nas aulas sobre frações, a frase reduzir ao\nmesmo denominador.\"\n(Edi Jussara Candido Lorensatti, Linguagem matemática e Língua Portuguesa: diálogo\nnecessário na resolução de problemas matemáticos. Conjectura: Filosofia e Educação.\nCaxias do Sul, v. 14, n. 2, p. 91, maio/ago. 2009.)\nCada ciência usa uma linguagem própria e com um grau\nde precisão terminológica necessário para o seu exercício.\nTendo em vista os significados distintos que as palavras\nassumem nas situações concretas em que são\nempregadas, o verbo “reduzir”, no uso cotidiano, significa",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "limitar alguma coisa, ao passo que na linguagem\nmatemática é sinônimo de restringir.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "moderar alguma coisa, ao passo que na linguagem\nmatemática implica aumentar as relações entre os\nnúmeros.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "eliminar alguma coisa, ao passo que na linguagem\nmatemática implica reverter as relações entre os\nnúmeros.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "diminuir alguma coisa, ao passo que na linguagem\nmatemática é sinônimo de converter.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_81",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Que dizer das personagens? Creio que têm a força e ao\nmesmo tempo a fraqueza da caricatura. Mas, pensando\nmelhor, não poderemos também alegar em defesa do\nromancista que a caricatura é uma tendência reconhecida\ne aceita da arte moderna, principalmente da pintura? Não\nhaverá muito de deformação na obra de grandes pintores\ncomo Portinari, Di Cavalcante e Segall – todos eles\ninconformados com a sociedade em que vivem?\n(Adaptado de Erico Verissimo, Prefácio, em Caminhos Cruzados. São Paulo: Companhia das\nLetras, 2016, p. 20-21.)\n\nTarsila do Amaral, A negra, 1923.\nColeção Museu de Arte\nContemporânea da Universidade\nde São Paulo, São Paulo.\nA ideia de deformação aplica-\nse ao quadro de Tarsila e ao\nromance Caminhos cruzados,\nde Érico Veríssimo, porque tal\nprocedimento artístico acentua",
+      "files": [
+        "/data/comvest/assets/2020/81/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a crítica do modernismo à violência da escravidão e às\ndesigualdades sociais, presentes no quadro e nas\npersonagens do romance, respectivamente.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o imaginário da burguesia nacional, pois tanto as\nprotagonistas do romance quanto a imagem da mulher\nnegra retratam os traços característicos das reformas\nsociais do Estado Novo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "os princípios estéticos do movimento modernista, pois\nas duas expressões artísticas apresentam-se como\nreflexo dos valores da elite cafeeira paulista.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a moral implícita da modernidade, pois o narrador do\nlivro e a representação do corpo negro criticam o\ncomportamento social das personagens femininas no\nséculo XX.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_82",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os imperadores romanos que reinaram no século II\nadministraram um vasto império. Eles se tornaram mais\nabertamente monárquicos e dinásticos, particularmente\nfora de Roma, onde não precisavam se preocupar com os\nhumores do Senado. Emergiu uma corte itinerante que\ncompetia por influência. Comunidades provinciais\nenviavam um embaixador atrás do outro para acompanhar\no imperador onde quer que ele pudesse estar. Poderiam\nencontrar Adriano às margens do Nilo ou supervisionando\na construção da grande muralha que cruzava o norte da\nBritânia; ajudando a projetar seu templo de Vênus diante\ndo Coliseu; fazendo um discurso para soldados na África.\nO império era governado de onde o imperador estivesse.\n(Adaptado de Greg Woolf, Roma. São Paulo: Cultrix, 2017, p. 204.)\nA partir da leitura do texto, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O Senado, composto por notáveis, fazia oposição à\ncentralização do poder do Imperador e garantia a\ncentralidade do governo em Roma e a democratização\ndas decisões governamentais.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O Império romano foi marcado pelas disputas de poder\nentre o Imperador e o Senado. Os conflitos entre eles\nacabaram por resultar na diminuição do poder do\nSenado no que diz respeito à administração pública.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O Senado, composto por notáveis, apoiava a\ncentralização do poder nas mãos do Imperador. A nova\nestrutura política do Império permitia a mobilidade da\nadministração pública representada pelo Imperador.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O Império, governado por militares, opunha-se às\ncomunidades provinciais. Isso levou ao\ndesaparecimento do Senado como instituição\nresponsável pela administração pública.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_83",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O surgimento das primeiras universidades, nos séculos XII\ne XIII, marca um momento capital da história do Ocidente\nmedieval. Em relação à época anterior, esse momento\ncomportou elementos de continuidade e de ruptura. Os\nprimeiros devem ser buscados na localização urbana das\nuniversidades, no conteúdo dos ensinamentos, no papel\nsocial dos homens de saber. Já os elementos de ruptura\nforam inicialmente de ordem institucional. No âmbito das\ninstituições educativas, este sistema era novo e original. As\ncomunidades autônomas dos mestres e dos estudantes\neram protegidas pelas mais altas autoridades leigas e\nreligiosas daquele tempo, permitindo tanto progressos no\ndomínio dos métodos intelectuais e em sua difusão como\numa inserção mais eficiente das pessoas de saber na\nsociedade da época.\n(Adaptado de J. Verger, Cultura, ensino e sociedade no ocidente nos séculos XII e XIII. Bauru:\nEDUSC, 2001, p.189-190.)\nConsiderando o texto e seus conhecimentos sobre o\nperíodo medieval, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A Igreja Católica apoiava a estruturação das\nuniversidades medievais, que representavam o avanço\ndas ciências e a superação de dogmas e das teorias\nteocêntricas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A organização institucional diferencia as universidades\nmedievais das corporações de ofícios, visto que seu\nmétodo de estudo estava calcado na escolástica,\ncaracterizando o atraso do mundo medieval.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Uma ruptura trazida pelas universidades medievais foi\no início da atuação dos copistas nas bibliotecas, que\ncopiavam sistematicamente a produção de autores\nlatinos críticos aos dogmas religiosos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A institucionalização das universidades medievais era\num dado novo no período; essas instituições se\ncaracterizavam pelo apoio das autoridades de dentro e\nde fora da Igreja, e pela maior autonomia e inserção\nsocial de seus membros.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_84",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em 1516, Thomas Morus criou a ideia de utopia, ao\ndescrever uma ilha imaginária. Surgia um gênero literário,\nassociado à história, à filosofia e à política. A lógica dessa\nideia levou à construção de critérios universalmente válidos\npara cada atividade, com normas e códigos. Surgiram\nassim os tratados sobre o perfeito cortesão, sobre o\nperfeito homem do mundo, sobre a cidade perfeita.\n(Adaptado de Carlos Eduardo O. Berriel, “Cidades Utópicas do Renascimento”. Ciência e\nCultura, São Paulo, v. 56, n. 2. abr./jun. 2004. Disponível em http://cienciaecultura.bvs.br\n/scielo.php? script=sci_arttext&pid=S0009-67252004000200021.)\nConsiderando o texto acima e seus conhecimentos,\nassinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A obra de Morus, escrita na Inglaterra, baseou-se na\nexperiência de soberanos da Itália e da Alemanha que\nconstruíram novas cidades no século XV, planejadas\ngeometricamente.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Grão-chanceler da Inglaterra, Morus exerceu uma\nação humanista em um mundo renascentista de crises\ne instabilidades contínuas. Neste contexto publicou\nsua obra Utopia.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A partir do princípio filosófico da utopia, foram escritos\nvários tratados renascentistas. O Príncipe, de\nMaquiavel, ilustra a melhor versão do cortesão atuante\nno mundo utópico.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A ilha da Utopia, perfeitamente racionalizada, marcou\no urbanismo renascentista na Europa e no Novo\nMundo. O esgotamento dessa ideia de utopia ocorreu\ncom a ideia de distopia, no século XX.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_85",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Na América Portuguesa do século XVI, a política europeia\npara os indígenas pressupunha também a existência de\numa política indígena frente aos europeus, já que os\nTamoios e os Tupiniquins tinham seus próprios motivos\npara se aliarem aos franceses ou aos portugueses.\n(Adaptado de Manuela Carneiro da Cunha, Introdução a uma história indígena. São Paulo:\nCompanhia das Letras/Fapesp, 1992, p. 18.)\nCom base no excerto e nos seus conhecimentos sobre os\nprimeiros contatos entre europeus e indígenas no Brasil,\nassinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A população ameríndia era heterogênea e os conflitos\nentre diferentes grupos étnicos ajudaram a definir, de\nacordo com suas próprias lógicas e interesses, a\ndinâmica dos seus contatos com os europeus.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O fato de Tamoios e Tupiniquins serem grupos aliados\ncontribuiu para neutralizar as disputas entre franceses\ne portugueses pelo controle do Brasil, pelo papel\nmediador que os nativos exerciam.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Os indígenas, agentes de sua história, desde cedo\nsouberam explorar as rivalidades entre os europeus e\nmantê-los afastados dos seus conflitos interétnicos,\nanulando o impacto da presença portuguesa.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "As etnias indígenas viviam em harmonia umas com as\noutras e em equilíbrio com a natureza. Esse quadro foi\nalterado com a chegada dos europeus, que passaram\na incentivar os conflitos interétnicos para estabelecer o\ndomínio colonial.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_86",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Jean-Baptiste Debret, Retrato de\nEl Rei Dom João VI,1817.\nMuseu Nacional de Belas Artes,\nRio de Janeiro.\n\nHyacinthe Rigaud, Retrato de\nLuís XIV, 1701. Museu do\nLouvre, Paris.\nA partir das fontes visuais reproduzidas e de seus\nconhecimentos, assinale a alternativa correta.",
+      "files": [
+        "/data/comvest/assets/2020/86/0.jpg",
+        "/data/comvest/assets/2020/86/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A única monarquia americana precisou afirmar a figura\ndo governante e sua memória política, recorrendo à\nimagética da autoridade real francesa do Antigo\nRegime. Este mecanismo foi enaltecido pela imprensa\ndo liberalismo constitucional.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Debret usou o quadro de Rigaud como referência\nvisual e preparou retratos em seu estúdio no Rio de\nJaneiro. Isto era importante, pois a autoridade\nmonárquica joanina assentou-se na liturgia política e\nno pouco uso da violência.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O retrato de D. João não foi pintado para ser exposto,\nembora existisse no Rio de Janeiro da época um\ncircuito expositivo de salões de belas artes,\npinacotecas, museus, onde pudesse ser visto. Tais\nespaços foram renomeados na República.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O projeto de europeização da corte do Rio de Janeiro\ne a necessidade de afirmar a autoridade de D. João VI\nlevaram a uma política de fomento à imagética do\npoder baseada, aqui, na da monarquia francesa.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_87",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os números indicam que antes da abolição de 1888\nrestavam pouco mais de setecentos mil escravos no Brasil.\nConforme estimativa do censo de 1872, elaborada pelo\nIBGE, a população total do país era de 9.930.478\nhabitantes. Isso indica que grande parte da população de\ncor (pretos e pardos) já havia adquirido a liberdade por\nseus próprios meios antes da Lei Áurea.\n(Adaptado de Wlamyra Albuquerque, A vala comum da ‘raça emancipada’: abolição e\nracialização no Brasil, breve comentário. História Social, Campinas, n. 19, p. 99, 2010.)\nCom base no excerto e nos conhecimentos sobre a história\nda liberdade no Brasil, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A maioria da população negra já era liberta antes de\n1888, porque as províncias escravistas do Sudeste,\nalmejando abrirem-se para a imigração italiana,\nvinham adotando medidas abolicionistas desde o fim\ndo tráfico, em 1850.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Em termos globais, o grande percentual da população\nlivre de cor reflete o peso demográfico da população\nliberta concentrada nas províncias pouco dependentes\nda escravidão, como Santa Catarina e Paraná.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A maioria da população africana e seus descendentes\njá era livre quando a Lei Áurea foi aprovada, porque\nvinha obtendo alforrias através de uma multiplicidade\nde estratégias, desde o período colonial.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O alto número de libertos antes de 1888 reflete o\nimpacto da abolição dos escravos por parte do\nImperador D. Pedro II, pois a família real era a maior\nproprietária de cativos durante o século XIX, na região\ndo Vale do Paraíba.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_88",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Na Era da Catástrofe (1914-1945), com a Grande\nDepressão desencadeada pela crise de 1929, tornava-se\ncada vez mais claro que a paz, a estabilidade social, a\neconomia, as instituições políticas e os valores intelectuais\nda sociedade liberal burguesa entraram em decadência ou\ncolapso.\n(Adaptado de E. J. Hobsbawm, Era dos extremos: o breve século XX, 1914-1991. São Paulo:\nCompanhia das Letras, 1995, p. 112.)\nA partir do excerto acima e dos conhecimentos sobre o\nperíodo histórico que vai de 1914 a 1945, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A crise de 1929 e as guerras mundiais levaram ao\ncolapso do liberalismo político e econômico na Europa\ne, ao mesmo tempo, à expansão das democracias\nliberais em países africanos e do Oriente Médio.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "As soluções para a crise de 1929 centraram-se em um\naprofundamento das políticas liberais do New Deal,\nque promoviam responsabilidade fiscal e diminuição do\npapel do Estado como motor de desenvolvimento.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "São marcos da crise do liberalismo na Europa: o\ncolapso das principais democracias, a ascensão de\ngovernos totalitários e autoritários e a descrença no\nlivre-mercado após a crise de 1929.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Verificou-se nesse período o colapso das democracias\nliberais, com a ascensão do totalitarismo na Europa, e\no aumento das liberdades econômicas, com a\ndiminuição do papel do Estado como solução para a\ncrise de 1929.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_89",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A partir da segunda metade da década de 1960, a\nprodução de um gênero cinematográfico extravagante\nganha força no Brasil: a pornochanchada. Num primeiro\nmomento esta se mostrou como uma comédia leve, apesar\nde algumas cenas de nudez parcial, mas logo evoluiu para\no que já era praticado pelo resto do mundo: a exploração\ndo erotismo e da sensualidade no Cinema para atender a\num crescente mercado de consumo.\n(Adaptado de Ildembergue Leite de Souza e André Luiz Maranhão de Souza Leão, A\ntransposição de mitos na intertextualidade entre Cinema e Publicidade. Intercom, Revista\nBrasileira de Ciências da Comunicação, São Paulo, v. 37, n. 2, p. 242-262, dez. 2014.)\nSobre a vida cultural no Brasil das décadas de 1960 e\n1970, é correto afirmar que:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O período ficou marcado pelo esvaziamento da cena\ncultural, com baixo dinamismo nos campos da\nprodução teatral, musical e cinematográfica. Apenas\nos gêneros ligados ao erotismo se expandiram, por\nnão serem considerados transgressores.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A pornochanchada foi financiada pelo capital\nestrangeiro no Brasil durante o regime militar, pois a\nindústria cinematográfica, em razão dos seus altos\ncustos, passou a ser fomentada sobretudo por\nempresas norte-americanas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O gênero pornochanchada pode ser considerado um\nmovimento de contracultura por seu caráter de\ncontestação política, através da linguagem chula, e por\nsuas estreitas conexões com produtores culturais\nligados à Tropicália.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A explosão dos filmes do ciclo da pornochanchada e\nseu sucesso de público ocorreram em um contexto\nmarcado, de um lado, pela revolução sexual, e, de\noutro, pela censura ao conteúdo veiculado no cinema e\nna TV.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2020-UNICAMP_2020_90",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2020",
+      "year": 2020,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Nas últimas três décadas, vimos o fim de velhas unidades\npolíticas e a emergência de novas: as unificações da\nAlemanha e do Iêmen, a desintegração da\nChecoslováquia, da Iugoslávia e da União Soviética, a\nsecessão de países como Eritreia, Timor-Leste e Kosovo.\nVimos também a expansão de esforços de integração\npolítica e econômica, a absorção de antigos membros do\nPacto de Varsóvia na Otan, o envolvimento de exércitos\nnacionais em esforços da ONU pela manutenção da paz e\na mobilização de outros tantos exércitos na tentativa de\nconter e definir o terrorismo como fenômeno político.\n(Adaptado de Sebastião Nascimento, Vinte anos sem muro em Berlim: novas faces da\nviolência política. Revista Brasileira de Ciências Sociais, São Paulo, v.26, n. 77, out. 2011.)\nSobre esta nova condição histórica e geopolítica\ninternacional, é correto afirmar:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "As décadas que nos separam da queda do Muro de\nBerlim e do fim da Guerra Fria representam um\nperíodo de continuidade das formas e demandas\npolíticas no plano internacional e de manutenção da\ncartografia mundial.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A reunificação alemã foi decisiva nesse processo\nglobal. Ela fez desaparecer o maior símbolo da Guerra\nFria na Europa, a Alemanha dividida. A queda do Muro\nde Berlim em 1989 e o 11 de setembro de 2001 são\nmarcos desse processo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Após a descolonização nos anos de 1950 e 1960, a\ndessovietização do mundo nos anos de 1990 reforçou\no imperialismo, compreendido como um sistema de\nEstados nacionais iguais sob o direito internacional.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Desde 1989, o Estado nacional democrático alcançou\ntodo o globo com eleições livres, não apenas no Leste\nEuropeu, mas também nos países orientais. Na\nretórica política comum, destaca-se o fenômeno do\nterrorismo atlântico.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    }
+  ]
+}

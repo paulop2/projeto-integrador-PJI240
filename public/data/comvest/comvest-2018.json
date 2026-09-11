@@ -1,0 +1,4043 @@
+{
+  "schemaVersion": 1,
+  "packageId": "comvest-2018",
+  "institutionId": "unicamp",
+  "examId": "comvest",
+  "editionId": "comvest-2018",
+  "questions": [
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_1",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Glossário: \nBug:  falha  devido  ao  mau  funcionamento  em  um  programa  de \ninformática. \nComputar: contar, incluir.  \nDar load: carregar. \nLolking: site da Internet sobre o jogo \nRanked: partida que dá pontos ao jogador \nServer: servidor; em informática, é um programa ou um computador \nque fornece serviços a uma rede de computadores. \nUpar: subir de nível, recarregar.\nEstrangeirismos  são  palavras  e  expressões  de  outras \nlínguas usadas correntemente em nosso cotidiano. Sobre o \nemprego de palavras estrangeiras no português, o linguista \nSírio Possenti comenta: \n \nTomamos alguns verbos do inglês e os adaptamos a nosso \nsistema  verbal  exclusivamente  segundo  regras  do \nportuguês.  Se  adotarmos  start,  logo  teremos  estartar  (e \ntodas as suas flexões), pois nossa língua não tem sílabas \niniciais  como  st-,  que  imediatamente  se  tornam  est-.  A \nforma nunca será startar,  nem ostartar ou ustartar, nem \nestarter ou estartir, nem printer ou printir, nem atacher ou \natachir etc., etc., etc. \n \n(Adaptado de Sírio Possenti, “A questão dos estrangeirismos”, em \nCarlos Alberto Faraco, Estrangeirismos: guerras em torno da língua. \nSão Paulo: Parábola, 2001, p. 173-174.) \n \nAs alternativas abaixo reproduzem trechos de um fórum de \ndiscussão  na  Internet  sobre  um  jogo  eletrônico.  Nessa \ndiscussão, um jogador queixa-se por não ter conseguido se \nconectar  a  uma  partida  e  ter  perdido  pontos.  Escolha  a \nalternativa  que  contém  um  exemplo  do  processo  de \nadaptação de verbos do inglês para o sistema verbal do \nportuguês, como descreve Sírio Possenti.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "“Aconteceu  logo  na  manhã  deste  domingo,  quando \niniciei uma ranked.”",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "“Ela não deu load e pensei que era um bug no site.”",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "“Entrei no lolking para ver se a partida estava sendo \ncomputada.”",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "“Nem  upei  meu  personagem  de  tanto  problema  no \nserver.”",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_2",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia,  a  seguir,  um  excerto  de  “Terrorismo  Literário”,  um \nmanifesto do escritor Ferréz. \n \nA capoeira não vem mais, agora reagimos com a palavra, \nporque  pouca  coisa  mudou,  principalmente  para  nós.  A \nliteratura  marginal  se  faz  presente  para  representar  a \n \n \ncultura de um povo composto de minorias, mas em seu \ntodo uma maioria. \nA Literatura Marginal, sempre é bom frisar, é uma literatura \nfeita por minorias, sejam elas raciais ou socioeconômicas. \nLiteratura feita à margem dos núcleos centrais do saber e \nda  grande  cultura  nacional,  isto  é,  de  grande  poder \naquisitivo.  Mas  alguns  dizem  que  sua  principal \ncaracterística é a linguagem, é o jeito que falamos, que \ncontamos a história, bom, isso fica para os estudiosos.  \nCansei de ouvir:   “Mas o que cês tão fazendo é separar \na literatura, a do gueto e a do centro”. E nunca cansarei de \nresponder:   “O barato já tá separado há muito tempo, foi \nfeito todo um mundo de teses e de estudos do lado de lá, e \ndo de cá mal terminamos o ensino dito básico.” \n \n(Adaptado  de  Ferréz,  “Terrorismo  literário”,  em  Ferréz  (Org.), \nLiteratura marginal: talentos da escrita periférica. Rio de Janeiro: Agir, \n2005, p. 9,12,13.) \n \nFerréz defende sua proposta literária como uma",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "descoberta de que é preciso reagir com a palavra para \nque não haja separação entre a grande cultura nacional e \na literatura feita por minorias.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "comprovação  de  que,  sendo  as  minorias  de  fato  uma \nmaioria, não faz sentido distinguir duas literaturas, uma do \ncentro e outra da periferia.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "manifestação de que a literatura marginal tem seu modo \npróprio de falar e de contar histórias, já reconhecido pelos \nestudiosos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "constatação  de  que  é  preciso  reagir  com  a  palavra  e \nmostrar-se nesse lugar marginal como literatura feita por \nminorias que juntas formam uma maioria.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_3",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "(Disponível em http://www.psyche.com.br/taxonomy/term/4. Acessado \nem 02/06/2017.) \n \nNo  contexto  deste  grafite,  as  frases  “menos  presos \npolíticos” e “mais políticos presos” expressam",
+      "files": [
+        "/data/comvest/assets/2018/3/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "uma  relação  de  contradição,  uma  vez  que  indicam \nsentidos opostos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "uma relação de consequência, já que a diminuição de \num grupo conduz ao aumento de outro.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "uma relação de contraste, pois reivindicam o aumento \nde um tipo de presos e a redução de outro.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "uma relação de complementaridade, porque remetem \na subconjuntos de uma mesma categoria.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_4",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Numa  entrevista  ao  jornal  El  País  em  26  de  agosto  de \n2016, o jornalista Caco Barcellos comenta uma afirmação \nsua  anterior,  feita  em  um  congresso  de  jornalistas \ninvestigativos,  de  que  novos  profissionais  não  deveriam \n“atuar como porta-vozes de autoridades”.  \n \n“Tenho  o  maior  encanto  e  admiração  e  respeito  pelo \njornalismo de opinião. O que critiquei lá é quando isso vai \npara a reportagem. Não acho legítimo. O repórter tem o \ndever de ser preciso. Pode ser até analítico, mas não emitir \njuízo.  Na  reportagem  de  rua,  fico  imbuído,  inclusive,  de \nmelhor informar o meu colega de opinião. Se eu não fizer \nisso  de  modo  preciso  e  correto,  ele  vai  emitir  um  juízo \nerrado sobre aquele universo que estou retratando. E não \nsó  ele,  mas  também  o  advogado,  o  sociólogo,  o \nantropólogo  e  mais  para  frente  o  historiador  (...)  Por \nexemplo, essa matança que a polícia militar provoca no \ncotidiano das grandes cidades brasileiras – isso é muito \nmal reportado pela mídia no seu conjunto. Quem sabe, lá \nno  futuro,  o  historiador  não  passe  em  branco  por  esse \nmomento da história. Não vai poder dizer ‘olha, os negros \npobres  do  estado  mais  rico  da  federação  estão  sendo \neliminados com a frequência de três por dia, um a cada \noito horas’. Se o repórter não fizer esse registro preciso e \ncontundente, a cadeia toda pode falhar, a começar pelo \njornalista de opinião.” \n \n(“Caco Barcelos: ‘Erros históricos nascem da imprecisão jornalística’ ”. El País. \n26/08/2016. Entrevista concedida a Camila Moraes. Disponível em \nhttps://brasil.elpais.com/brasil/2016/07/19/cultura/1468956578_924541.html.  \nAcessado em 13/07/2017.) \n \nDe acordo com a posição defendida por Caco Barcellos \ncom  relação  a  seus  leitores,  uma  reportagem  exige  do \njornalista",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "conhecimento preciso do assunto, uma vez que seu \nobjetivo é convencer o leitor a concordar com o que \nescreve para evitar que ele cometa erros.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "investigação  e  precisão  no  tratamento  do  assunto, \nporque  ela  vai  servir  de  base  a  outros  artigos, \npermitindo que o leitor tire suas próprias conclusões.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "investigação  e  precisão  na  abordagem  dos  fatos,  já \nque  ele  também  emite  seu  juízo  sobre  o  assunto, \nconduzindo o leitor a aceitar a história que narra.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "conhecimento preciso dos fatos tratados, para que, no \nfuturo,  o  leitor  seja  levado  a  crer  que  o  repórter \nregistrou sua opinião de forma equilibrada.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_5",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "(Bruno Fonseca. Facebook. Disponível em \nhttps://www.facebook.com/museumazzaropi/. Acessado em \n31/08/2017.) \n \nConsiderando os sentidos produzidos pela tirinha, é correto \nafirmar que o autor explora o fato de que palavras como \n“ontem”, “hoje” e “amanhã”",
+      "files": [
+        "/data/comvest/assets/2018/5/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "mudam de sentido dependendo de quem fala.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "adquirem sentido no contexto em que são enunciadas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "deslocam-se de um sentido concreto para um abstrato.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "evidenciam o sentido fixo dos advérbios de tempo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_6",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "(“Caneta  Desmanipuladora.”  Facebook.  17/10/2016.  Disponível  em \nhttps://www.facebook.com/canetadesmanipuladora/.  Acessado  em \n15/07/2017.)   \nEm  relação  ao  post  adaptado  da  página  do  Facebook \n“Caneta  Desmanipuladora”,  é  correto  afirmar  que  a \n“desmanipulação” (substituição de “já” por “só” e acréscimo \nde “até agora”) explicita a tentativa do jornal de levar o \nleitor a pensar que",
+      "files": [
+        "/data/comvest/assets/2018/6/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "ainda falta muito a ser pago pela mineradora e há atrasos \nno pagamento.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a Samarco teria pago uma grande parte do que devia  e o \nprazo provavelmente está sendo cumprido.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a  Samarco  já  quitou  o  que  devia  ,  conforme  valor \nhomologado na justiça.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a mineradora não deveria arcar sozinha com a despesa \nda tragédia de Mariana.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_7",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em maio deste ano, uma festa do 3º ano do Ensino Médio de \numa escola do Rio Grande do Sul propôs aos alunos que se \npreparavam  para  o  vestibular  uma  atividade  chamada  “Se \nnada der certo”. O objetivo era “trabalhar o cenário de não \naprovação  no  vestibular”,  e  como  “lidar  melhor  com  essa \nfase”.  Os  alunos  compareceram  à  festa  “fantasiados”  de \nfaxineiros,  garis,  domésticas,  agricultores,  entre  outras \nprofissões consideradas de pessoas “fracassadas”. O evento \nteve  repercussão  nacional  e  acirrou  o  debate  sobre  a \nmeritocracia.  Para  Luis  Felipe  Miguel,  professor  de  ciência \npolítica, “o tom de chacota da festa-recreio era óbvio”, e teria \nsido mais interessante “discutir como se constrói a hierarquia \nque  define  algumas  ocupações  como  subalternas  e  outras \ncomo superiores; discutir como alguns podem desprezar os \nsaberes  incorporados  nas  práticas  dessas  profissões \n(subalternas apenas porque contam com quem as faça por \neles); discutir como o que realmente ‘deu certo’ para eles foi a \nloteria do nascimento, que, na nossa sociedade, determina a \nparte do leão das trajetórias individuais”. \n \n(Adaptado de Fernanda Valente, Dia do ’se nada der certo’ acende debate sobre \nmeritocracia  e  privilégio.  Carta  Capital,  06/06/2017.  Disponível  em \nhttp://justificando.cartacapital.com.br/2017/06/06/dia-do-se-nada-der-certo-\nacende-debate-sobre-meritocracia-e-privilegio/. Acessado em 08/06/2017.)  \n \nAs  alternativas  a  seguir  reproduzem  trechos  de  uma \nentrevista  do  professor  Sidney  Chalhoub  (Unicamp  e \nHarvard) sobre o mito da meritocracia.  \n(Manuel  Alves  Filho,  A  meritocracia  é  um  mito  que  alimenta  as \ndesigualdades, diz Sidney Chalhoub. Jornal da Unicamp, 07/06/2017.) \n \nAssinale  aquela  que  dialoga  diretamente  com  a  notícia \nacima.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "É  preciso  promover  a  inclusão  “e  fazer  com  que  o \nconhecimento  que  essas  pessoas  trarão  à \nUniversidade seja reconhecido e disseminado”.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Com a adesão da Unicamp ao sistema de cotas, um \n“novo  contingente  de  alunos  colocará  em  cheque \nvários hábitos da universidade”.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "“As melhores universidades do mundo (que servem de \nreferência)  adotam  a  diversidade  no  ingresso  dos \nestudantes há bastante tempo”.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "“O  ideal  seria  que  todos  aqueles  que  tivessem \ncondições  intelectuais  e  interesse  em  entrar  na \nuniversidade obtivessem uma vaga”.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_8",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O  título  do  romance  Caminhos  cruzados,  de  Érico \nVeríssimo,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "alude às dificuldades vividas pelas personagens mais \nrepresentativas da elite urbana, além de sugerir que \nnenhum homem é uma ilha.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "sugere  que  a  vida  social  das  personagens  é \nconstituída  pelo  conjunto  de  relações  econômicas  e \npsicológicas dos indivíduos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "remete à técnica narrativa do romance, no qual várias \nhistórias são relacionadas, sem o estabelecimento de \num protagonista principal.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "simboliza  as  relações  de  poder  da  classe  burguesa \nemergente  e o seu desejo de controlar a conduta ética \nda sociedade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_9",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“Sapo não pula por boniteza, mas porém por percisão.”  \n \n(“Provérbio capiau” citado em epígrafe no conto “A hora e a \nvez  de  Augusto  Matraga”,  em  João  Guimarães  Rosa, \nSagarana. Rio de Janeiro: Nova Fronteira, 2015, p.287.) \n \nElementos textuais que antecedem a narrativa como, por \nexemplo,  o  provérbio  citado,  funcionam,  em  alguns \nautores, como pista para se entender o sentido das ações \nficcionais.  No  excerto  acima,  as  ideias  de  beleza  e \nnecessidade são contrapostas com vistas à produção de \num  sentido  de  ordem  moral.  Considerando-se  a  jornada \nheroica  de  Augusto  Matraga,  é  correto  afirmar  que  a \nnarrativa",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "contradiz o sentido moral do provérbio, uma vez que o \nprotagonista não é fiel ao seu propósito de mudar os \nhábitos antigos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "confirma o sentido moral do provérbio, uma vez que o \nprotagonista  realiza  uma  série  de  ações  para  corrigir \nseu caráter e reordenar eticamente sua vida.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "ratifica  o  sentido  moral  do  provérbio,  uma  vez  que  o \nprotagonista é seduzido pelos encantos da natureza e \npelos prazeres da bebida e do fumo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "refuta  o  sentido  moral  do  provérbio,  uma  vez  que  o \nprotagonista não consegue agir sem as motivações da \nbeleza física e do afeto femininos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_10",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A fim de dar exemplos de sua teoria da “alma exterior”, o \nnarrador-personagem do conto “O espelho”, de Machado \nde  Assis,  refere-se  a  uma  senhora  conhecida  sua  “que \nmuda de alma exterior cinco, seis vezes por ano”.  \nE, questionado sobre a identidade dessa mulher, afirma: \n“Essa senhora é parenta do diabo, e tem o mesmo nome: \nchama-se Legião...” Considerando o contexto dessa frase \nno conto, pode-se dizer que ela constitui",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "uma crítica à noção de alma exterior como resultante \nda influência do mal.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "uma  consideração  cômica  que  ressalta  o  nome \ninusitado da senhora.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "uma condenação do comportamento moral da senhora \nem questão.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "uma  ironia  com  a  inconstância  dos  valores  sociais \nassociados à alma exterior.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_11",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia abaixo  duas passagens do poema “Olá! Negro”, de \nJorge de Lima. \n \n“A raça que te enforca, enforca-se de tédio, negro! \nE és tu que a alegras ainda com os teus jazzes. \nCom os teus songs, com os teus lundus!” \n(...) \n“Não basta iluminares hoje as noites dos brancos com teus \njazzes. \nOlá, Negro! O dia está nascendo! \nO  dia  está  nascendo  ou  será  a  tua  gargalhada  que  vem \nvindo?” \n \n(Jorge de Lima, Poesias completas. v. I, Rio de Janeiro / Brasília: J. \nAguilar / INL, 1974, p.180-181.) \n \nConsiderando o livro Poemas negros como um todo e a \npoética de Jorge de Lima, é correto afirmar que o último \nverso citado",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "manifesta  o  desprezo  do  negro  pela  situação \ndecadente da cultura do branco.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "realiza a aproximação entre a alegria do negro e uma \nideia de futuro.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "remete à vingança do negro contra a violência a que \nfoi submetido pelo branco.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "funciona como um lamento, já que o nascer do dia não \ntraz justiça social.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_12",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Transforma-se o amador na coisa amada, \nPor virtude do muito imaginar; \nNão tenho, logo, mais que desejar, \nPois em mim tenho a parte desejada. \n \nSe nela está minha alma transformada, \nQue mais deseja o corpo de alcançar? \nEm si somente pode descansar, \nPois com ele tal alma está liada. \n \n \nMas esta linda e pura semideia, \nQue, como o acidente em seu sujeito, \nAssim como a alma minha se conforma, \n \nEstá no pensamento como ideia; \nE o vivo e puro amor de que sou feito, \nComo a matéria simples busca a forma. \n \n(Luís  de  Camões,  Lírica:  redondilhas  e  sonetos,  Rio  de  Janeiro: \nEdiouro / São Paulo: Publifolha, 1997, p. 85.) \n \nUm dos aspectos mais importantes da lírica de Camões é a \nretomada renascentista de ideias do filósofo grego Platão. \nConsiderando  o  soneto  citado,  pode-se  dizer  que  o \nchamado “neoplatonismo” camoniano",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "é afirmado nos dois primeiros quartetos, uma vez que a \nunião  entre  amador  e  pessoa  amada  resulta  em  uma \nalma única e perfeita.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "é confirmado nos dois últimos tercetos, uma vez que a \nbeleza  e  a  pureza  reúnem-se  finalmente  na  matéria \nsimples que deseja.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "é negado nos dois primeiros quartetos, uma vez que a \nconsequência da união entre amador e coisa amada é a \nausência de desejo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "é contrariado nos dois últimos tercetos, uma vez que a \npureza  e  a  beleza  mantêm-se  em  harmonia  na  sua \ncondição de ideia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_13",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Durante  dois  anos  o  cortiço  prosperou  de  dia  para  dia, \nganhando forças, socando-se de gente. E ao lado o Miranda \nassustava-se, inquieto com aquela exuberância brutal de vida, \naterrado defronte daquela floresta implacável que lhe crescia \njunto da casa (...). \nÀ  noite  e  aos  domingos  ainda  mais  recrudescia  o  seu \nazedume,  quando  ele,  recolhendo-se  fatigado  do  serviço, \ndeixava-se ficar estendido numa preguiçosa, junto à mesa da \nsala de jantar e ouvia, a contragosto, o grosseiro rumor que \nvinha  da  estalagem  numa  exalação  forte  de  animais \ncansados. Não podia chegar à janela sem receber no rosto \naquele bafo, quente e sensual, que o embebedava com o seu \nfartum de bestas no coito. \n(Aluísio de Azevedo, O cortiço. 14. ed. São Paulo: Ática, 1983, p. 22.) \n \nLevando em conta o excerto, bem como o texto integral do \nromance, é correto afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o grosseiro rumor, a sexualidade desregrada e a exalação \nforte  que  provinham  do  cortiço  decorriam,  segundo \nMiranda, do abandono daquela população pelo governo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "os termos “grosseiro rumor”, “animais”, “bestas no coito”, \nque  fazem  referência  aos  moradores  do  cortiço, \nfuncionam  como  metáforas  da  vida  pulsante  dos  seus \nhabitantes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o nivelamento sociológico na obra O Cortiço se dá não \nsomente entre os moradores da habitação coletiva e o \nseu  senhorio,  mas  também  entre  eles  e  o  vizinho \nMiranda.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a presença portuguesa, exemplificada nas personagens \nJoão  Romão  e  Miranda,  não  é  relevante  para  o \ndesenvolvimento da narrativa nem para a compreensão \ndo sentido da obra.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_14",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O brasileiro João Guimarães Rosa e o irlandês James Joyce \nsão  autores  reverenciados  pela  inventividade  de  sua \nlinguagem  literária,  em  que  abundam  neologismos.  Muitas \nvezes, por essa razão, Guimarães Rosa e Joyce são citados \ncomo  exemplos  de  autores  \"praticamente  intraduzíveis\". \nMesmo sem ter lido os autores, é possível identificar alguns \ndos seus neologismos, pois são baseados em processos de \nformação de palavras comuns ao português e ao inglês. \n \nEntre  os  recursos  comuns  aos  neologismos  de  Guimarães \nRosa e de James Joyce, estão: \n \ni.  Onomatopeia  (formação  de  uma  palavra  a  partir  de \numa  reprodução  aproximada  de  um  som  natural, \nutilizando-se os recursos da língua); e \nii.  Derivação (formação de novas palavras pelo acréscimo \nde  prefixos  ou  sufixos  a  palavras  já  existentes  na \nlíngua). \n \nOs  neologismos  que  aparecem  nas  opções  abaixo  foram \nextraídos de obras de Guimarães Rosa (GR) e James Joyce \n(JJ). Assinale a opção em que os processos (i) e (ii) estão \npresentes:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Quinculinculim (GR, No Urubuquaquá, no Pinhém) \ne tattarrattat (JJ, Ulisses).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Transtrazer  (GR,  Grande  sertão:  veredas)  e  monoideal \n(JJ, Ulisses).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Rtststr  (JJ,  Ulisses)  e  quinculinculim  (GR,  No \nUrubuquaquá, no Pinhém).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Tattarrattat  (JJ,  Ulisses)  e  inesquecer-se  (GR,  Ave, \nPalavra).",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_15",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O  poema  abaixo  é  de  autoria  do  poeta  Augusto  de \nCampos, integrante do movimento concretista. \n  \n(Augusto de Campos, Viva Vaia. Poesia: 1949-1979. São Paulo: Ateliê Editorial, \n2000, p. 116-117.)\n \n \nNesse  poema,  nota-se  uma  técnica  de  composição  que \nconsiste",
+      "files": [
+        "/data/comvest/assets/2018/15/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "na disposição arbitrária de anagramas, sem produzir uma \nrelação de sentido com o título do poema.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "na disposição exaustiva de anagramas, sem produzir uma \nrelação de sentido com o título do poema.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "na disposição arbitrária de anagramas, para produzir uma \nrelação de sentido com o título do poema.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "na  disposição  exaustiva  de  anagramas,  para  produzir \numa relação de sentido com o título do poema.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_16",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“ODORICO \nEu sei. É um movimento subversivo procurando me intrigar \ncom  a  opinião  pública  e  criar  problemas  à  minha \nadministração. Sei, sim. É uma conspiração. Eles não queriam \no cemitério. Desde o princípio foram contra. E agora que o \ncemitério  está  pronto  caem  de  pau  em  cima  de  mim,  me \nchamam de demagogo, de tudo..”  \n(...) \n“ODORICO \nPois eu quero que depois o senhor soletre esta gazeta de \nponta a ponta. Neco Pedreira o senhor conhece? \nZECA \nConheço não sinhô. \nODORICO \nÉ o dono do jornal. Elemento perigoso. Sua primeira missão \ncomo delegado é dar uma batida na redação dessa gazeta \nsubversiva  e  sacudir  a  marreta  em  nome  da  lei  e  da \ndemocracia...” \n \n(Dias Gomes, O bem amado. 12.ed. Rio de Janeiro: Bertrand Brasil, \n2014, p. 40 e 68.) \n \nA  peça  de  Dias  Gomes  é  uma  crítica  a  um  momento \nhistórico  e  político  da  sociedade  brasileira.  Odorico \nParaguassu tornou-se um personagem emblemático desse \nperíodo porque por meio dele",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "simbolizou-se a defesa da democracia a qualquer custo. \nEssa defesa resultou em uma sociedade cindida entre o \nrespeito  à  lei  e  o  seu  uso  particular,  temas  políticos \ncomuns  aos  países  latino-americanos  nos  anos  de \n1970.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "representaram-se  o  atropelo  da  lei  constitucional,  a \nrelativização da liberdade de imprensa e a construção \nde  um  inimigo  interno  que  justificasse  o  arbítrio  das \ndecisões do executivo, próprios aos Anos de Chumbo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "explicitaram-se as leis que regiam a vida política e social \nde uma nação subdesenvolvida da América Latina na \ndécada  de  1970,  marcada  pela  inércia  e  pela \ncumplicidade dos cidadãos com a corrupção sistêmica \ndo país.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "fez-se a defesa da democracia e do respeito irrestrito à \nlei constitucional para um projeto de nação brasileira da \ndécada  1970,  que  enfrentava  o  espírito  demagógico \ndos políticos latino-americanos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_17",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere três números inteiros cuja soma é um número \nímpar. Entre esses três números, a quantidade de números \nímpares é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0 ou 1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1 ou 2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2 ou 3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1 ou 3.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_18",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dois anos atrás certo carro valia R$ 50.000,00 e atualmente \nvale R$ 32.000,00. Supondo que o valor do carro decresça \na uma taxa anual constante, daqui um ano o valor do \ncarro será",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "R$ 25.600,00.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "R$ 24.400,00.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "R$ 23.000,00.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "R$ 18.000,00.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_19",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Lançando-se  determinada  moeda  tendenciosa,  a \nprobabilidade de sair cara é o dobro da probabilidade de \nsair  coroa.  Em  dois  lançamentos  dessa  moeda,  a \nprobabilidade de sair o mesmo resultado é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1/2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "5/9.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2/3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "3/5",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_20",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Seja a função h(x)  definida para todo número real por  \n h(x) = 2^(x+1) se x<=1,\n h(x) = x-1 se x>1 \nEntão,  h(h(h(0))) é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "4.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "8.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_21",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A figura a seguir exibe o gráfico de uma função y=f(x) para 0 <= x <= 3. \n  \nO gráfico de y=[f(x)]^2 é dado por",
+      "files": [
+        "/data/comvest/assets/2018/21/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/comvest/assets/2018/21/2.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/comvest/assets/2018/21/3.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/comvest/assets/2018/21/4.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/comvest/assets/2018/21/5.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_22",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A figura abaixo exibe um setor circular dividido em duas \nregiões de mesma área. A razão a/b  é igual a",
+      "files": [
+        "/data/comvest/assets/2018/22/6.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "√3+1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "√2+1.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "√3",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "√2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_23",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere que o quadrado  ABCD, representado na figura \nabaixo, tem lados de comprimento de 1cm, e que C é o \nponto  médio  do  segmento AE.  Consequentemente,  a \ndistância entre os pontos  D e E será igual a",
+      "files": [
+        "/data/comvest/assets/2018/23/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "√3 cm.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2 cm.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "√5 cm.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "√6 cm",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_24",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Seja x um número real tal que sen(x) + cos(x) = 0,2. Logo, \n |sen(x) - cos(x)| \n igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,5.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0,8.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1,1.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1,4.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_25",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sejam a e b números reais tais que a matriz  A = [[1,2],[0,1]]satisfaz  a  equaçã A^2 = aA+bI,  em  que  I  é a  matriz \nidentidade de ordem 2. Logo, o produto ab \n é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "-2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "-1.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_26",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sabendo que k é um número real, considere o sistema linear nas variáveis reais x e y,\nx+ky=1\nx+y=k\né Correto afirmar que esse sistema",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "tem solução para todo k.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "não tem solução para nenhum k.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "não tem solução se k=1",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "tem infinitas soluções se k > 1.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_27",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No plano cartesiano, sejam C a circunferência de centro na \norigem e raio r > 0  e s a reta de equação x+3y=10. A \nreta s intercepta a circunferência C em dois pontos distintos \nse e somente se",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "r > 2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "r > 5.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "r > 3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "r > 10.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_28",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sejam p(x) e q(x) polinômios  com  coeficientes  reais. \nDividindo-se p(x) por q(x), obtém-se  quociente  e  resto \niguais a x^2 + 1.Nessas condições,  \ncorreto afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o grau de p(x)  menor que 5.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o grau de q(x)  menor que 3.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "p(x) tem raízes complexas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "q(x) tem raízes reais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_29",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sejam a e b números  reais  não  nulos.  Se  o  número \ncomplexo z= a+bi  uma  raiz  da  equação  quadrática \n x^2 + bx + a = 0 então  o  valor  de  |z| é  igual  a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "|z| = 1/√3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "|z| = 1/√5.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "|z| = √3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "|z| = √5.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_30",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "FIGURA 1 \n    \nFIGURA 2 \n  \n(Adaptado de 16 Traduções hilárias de placas e avisos em inglês feitos para a copa. Mega Curioso, 07/06/2014. Disponível em http://www.megacurioso.com.br/copa-do-mundo-2014/44531-16-traducoes-hilarias-de-placas-e-avisos-em-ingles-feitos-para-a-copa.htm. Acessado em 10/07/2017.) \n \nEntre as inadequações no uso do inglês observadas nas figuras 1 e 2, podemos citar:",
+      "files": [
+        "/data/comvest/assets/2018/30/0.jpg",
+        "/data/comvest/assets/2018/30/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "erros no emprego dos tempos verbais em inglês.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "equívoco  quanto  à  classe  gramatical  de  certas \npalavras.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "desconhecimento  das  diferenças  entre  inglês  oral  e \nescrito",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "erros de tradução causados por falsos cognatos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_31",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Elderly flight passenger throws coins into engine for \n‘luck’, delays take-off for hours \n \nChina  Southern  Airlines  Flight  380  was  held  up  at  the \nShanghai  Pudong  International  Airport  after  an  elderly \nwoman  passenger  caused  a  disruption,  according  to  the \nairline’s official WeChat account. An investigation into the \nincident is under way. \nPassengers boarding the flight reportedly saw an elderly \nwoman throwing coins at the engine for “blessings” from the \nmiddle of the boarding staircase and alerted the crew. \nGround staff said the woman, who appeared to be about 80 \nand had limited mobility, was accompanied by her husband, \ndaughter and son-in-law. \n \n \nThe captain was quoted as saying the metal, if sucked up \nby  the  engine,  could  have  caused  serious  damage, \nincluding failure.  \nThe  flight  was  later  given  a  green  light  and  took  off  at \n5.52pm, more than five hours late. It is scheduled to arrive \nin Guangzhou at 8.14pm. \n \n(Adaptado de Sarah Zheng, Elderly flight passenger throws coins into engine for \n‘luck’,  delays  take-off  for  hours.  South  China  Morning  Post,  27/06/2017. \nDisponível em http://www.scmp.com/news/china/society/article/2100242/elderly-\nflight-passenger-throws-coins-engine-luck-delays-take.  Acessado  em \n10/07/2017.) \n \nO  que  é  correto  afirmar  sobre  o  incidente  relatado  na \nnotícia anterior?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Por  causa  do  incidente,  o  avião  chegou  a  seu \ndestino com cinco horas de atraso, às 17h52.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Segundo o piloto, moedas atiradas na turbina do \navião causaram sérios danos à aeronave.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Uma idosa chinesa, seu marido, sua filha e seu \ngenro quase provocaram um acidente aéreo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A ação de alguns passageiros evitou o risco de um \ngrave acidente aéreo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_32",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "(A)  \n(B) \nOs panfletos acima foram distribuídos na entrada de uma \nassembleia  de  estudantes  universitários,  reunidos  para \ndiscutir um pedido de reforma nos banheiros do campus. \nAssinale a opção correta.",
+      "files": [
+        "/data/comvest/assets/2018/32/1.jpg",
+        "/data/comvest/assets/2018/32/3.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O panfleto (A) defende, de maneira irônica, a criação \nde mais banheiros públicos unissex.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O  panfleto  (B)  recomenda  bater  na  porta  ou  avisar \nverbalmente antes de entrar em um banheiro unissex.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O  panfleto  (A)  critica  pessoas  que  se  preocupam \nexcessivamente com questões de assédio sexual.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O  panfleto  (B)  argumenta  a  favor  de  banheiros \nunissex ao expor um dilema de pessoas transgênero.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_33",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "ZOMBIE NEUROSCIENCE \n \nI don’t know if cockroaches dream, but I imagine if they do, \njewel wasps feature prominently in their nightmares. These \nsmall,  solitary  tropical  wasps  are  of  little  concern  to  us \nhumans; after all, they don’t manipulate our minds so that \nthey  can  serve  us  up  as  willing,  living  meals  to  their \nnewborns, as they do to unsuspecting cockroaches. The \nstory is simple, if grotesque: the female wasp controls the \nminds of the cockroaches she feeds to her offspring, taking \naway their sense of fear or will to escape their fate. What \nturns a once healthy cockroach into a mindless zombie it’s \nvenom. Not just any venom, either: a specific venom that \nacts like a drug, targeting the cockroach's brain. \n \n(Adaptado  de  Christie  Wilcox,  Zombie  Neuroscience.  Scientific \nAmerican, New York, v. 315, n. 2, p. 70–73, 2016.) \n \nDe acordo com o autor,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "certas  baratas  conseguem  escapar  de  ataques  de \nvespas comportando-se como zumbis.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "baratas  são  capazes  de  ações  predatórias  que  mal \npodemos imaginar.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "vespas fêmeas de uma certa espécie podem controlar \na mente das baratas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "uma barata pode inocular um veneno que transforma \numa outra barata em um zumbi.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_34",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Figure 1: Therapeutic areas in emerging markets\nThe colour of the dots represents the relative \nintensity of therapeutic area research within a \nspecific country across each row. The size of the \ndots represents the relative proportions of research \nacross different countries within a specific therapeutic \narea in each column. \n \n \n(Adaptado de Ajay Gautam, Lily Li e Kumar Srinivasan, Market watch: \nTherapeutic area ‘heat map’ for emerging markets. Nature Reviews \nDrug Discovery 14, p. 518, jul. 2015.) \n \nDe acordo com o gráfico apresentado,",
+      "files": [
+        "/data/comvest/assets/2018/34/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "doença  autoimune  é  um  tema  pesquisado \nintensamente em todos os países.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a China é o país com o menor mercado potencial para \ntratamentos médicos, apesar de ser populosa.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Índia e África do Sul dão importância semelhante às \npesquisas sobre doenças infecciosas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "no  Brasil,  na  Rússia  e  na  Índia,  a  quantidade  de \ndoentes de câncer é aproximadamente a mesma.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_35",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Olaudah Equiano's Biography \n \nOlaudah Equiano (1745 –1797) foi um escritor abolicionista \nafricano do século XVIII que viveu na pele os horrores da \nescravidão nas Américas. Leia o trecho abaixo, retirado da \nsua autobiografia. \nHitherto  I  had  thought  only \nslavery dreadful; but the state \nof  a  free  negro  appeared  to \nme  now  equally  so  at  least, \nand  in  some  respects  even \nworse,  for  they  live  in \nconstant  alarm  for  their \nliberty;  and  even  this  is  but \nnominal,  for  they  are \nuniversally  insulted  and \nplundered  without  the \npossibility of redress; for such \nis  the  equity  of  the  West \nIndian  laws,  that  no  free \nnegro's  evidence  will  be \nadmitted  in  their  courts  of \njustice.  In  this  situation  is  it \nsurprising  that  slaves,  when \nfairly  treated,  should  prefer \neven the misery of slavery to \nsuch a mockery of freedom? \n \n(Adaptado de Olaudah Equiano, The Interesting Narrative of the Life of \nOlaudah Equiano or Gustavus Vassa, the African. Peterborough, Canada: \nBroadview Press, 2001, p. 250.) \n \nSegundo o testemunho de Olaudah Equiano,",
+      "files": [
+        "/data/comvest/assets/2018/35/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "embora tivessem direitos assegurados no tribunal, os \nex-escravos não podiam requerer indenizações pelo \ntempo passado no cativeiro.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "os ex-escravos eram, em princípio, protegidos pelas \nleis  das  Índias  Ocidentais  Britânicas,  que  previam \ntratamento igualitário aos cidadãos livres.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "os  escravos  libertos  dispunham  de  uma  falsa \nliberdade, pois não gozavam dos mesmos direitos nos \ntribunais que os cidadãos nascidos livres.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "muitos ex-escravos preferiam voltar à antiga condição, \nmesmo  sob  patrões  severos,  levando  em  conta  a \nmaneira como viviam depois de libertos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_36",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Should Twitter entertain millions with public \narguments? \n \nComedian Janey Godley's tweets of a couple's train-bound \nrow raise questions of how to protect our privacy in public \nplaces. \n  \n \n   \nIf the troubles of the two travellers had made it on to a \nnewspaper  first  rather  than  a  comedian's  Twitter  feed, \nwould  we  be  so  relaxed  about  loss  of  privacy?  I  think \nperhaps not. \nSocial media has done so much for freedom of expression, \nit would be cruel if it actually leads to less social freedom \nfor  fear  of  having  our  every  misstep,  angry  word  or \nmisbehaviour broadcast there for all to see. \n \n(Adaptado de David Banks, Should Twitter entertain millions with \npublic rows? The Guardian, 13/07/2012. Disponível em \nhttps://www.theguardian.com/commentisfree/2012/jul/13/twitter-\nmillions-public-rows. Acessado em 10/07/2017.) \n \nNo artigo de opinião acima, o autor",
+      "files": [
+        "/data/comvest/assets/2018/36/0.jpg",
+        "/data/comvest/assets/2018/36/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "critica a perda da liberdade de expressão provocada \npelo abuso nas mídias sociais por certos usuários.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "aponta um dilema ético suscitado pelo uso das mídias \nsociais, envolvendo dois tipos de liberdade.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "diz que a invasão de privacidade por parte de jornais é \nmais aceita do que aquela praticada pelo Twitter.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "argumenta que a liberdade dos cidadãos é um valor \nmais importante do que o direito à privacidade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_37",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Coral reefs are colorful underwater forests which teem with \nlife  and  act  as  a  natural  protective  barrier  for  coastal \nregions.  The  fishes  and  plants  which  call  them  home \nbelong  to  some  of  the  most  diverse  ―  and  fragile  ― \necosystems on the planet. Higher sea temperatures from \nglobal warming have already caused major coral bleaching \nevents. Bleaching occurs when corals respond to the stress \nof warmer temperatures by expelling the colorful algae that \nlive  within  them.  Increased  levels  of  atmospheric  carbon \ndioxide result in higher levels of CO2  in the water, leading to ocean acidification, which is also a threat to coral. As the \noceans  become  more  acidic,  the  corals'  ability  to  form \nskeletons  through  calcification  is  inhibited,  causing  their \ngrowth to slow. Increasing  sea levels caused by  melting \nsea  ice  could  also  cause  problems  for  some  reefs  by \nmaking  them  too  deep  to  receive  adequate  sunlight, \nanother factor important for survival. \n \n(Adaptado  de  Coral  Reefs,  The  National  Wildlife  Federation. \nDisponível  em  https://www.nwf.org/Wildlife/Threats-to-Wildlife/Global-\nWarming/Effects-on-Wildlife-and-Habitat/Coral-Reefs.aspx.  Acessado \nem 26/07/2017.) \n \nConsiderando  o  texto  e  seus  conhecimentos,  assinale  a \nalternativa correta.  \n \nOs  recifes  de  corais  estão  seriamente  ameaçados  pela \ncombinação dos seguintes fatores:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "branqueamento das esponjas calcáreas pela exalação \nde  suas  algas  simbiontes;  acidificação  marinha  em \nvirtude da elevação do nível do mar; e menor taxa \nfotossintética pelo aumento do CO2  nos oceanos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "bloqueio das conchas dos cnidários pela expulsão de \nsuas  algas  parasíticas;  acidificação  marinha  em \nvirtude  dos  maiores  níveis  de  CO2 no  ar;  e  maior incidência  de  luz  solar  por  causa  do  degelo  das \ncalotas polares.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "branqueamento  dos  pólipos  de  cnidários  pela \nexpulsão  de  suas  algas  simbiontes;  acidificação \nmarinha em virtude dos maiores níveis de CO2 no ar; e  menor  taxa  fotossintética  em  razão  dos  níveis \noceânicos elevados.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "bloqueio  das  esponjas  calcáreas  pela  aquisição  de \nalgas comensalistas; acidificação marinha em virtude \ndos maiores níveis de CO2  no ar; e maior incidência de luz solar por causa do degelo das calotas polares",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_38",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "The  modern  F=ma  form  of  Newton's  second  law  occurs \nnowhere in any edition of the Principia even though he had \nseen his second law formulated in this way in print during \nthe interval between the second and third editions in Jacob \nHermann's  Phoronomia  of  1716.  Instead,  it  has  the \nfollowing formulation in all three editions: A change in (1) \n________  is  proportional  to  the  motive  (2)  ________ \nimpressed and takes place along the (3) _________ line in \nwhich that force is (4)________. In the body of the Principia \nthis law is applied both to (5) _______  cases, in which an \ninstantaneous impulse such as from impact is effecting the \nchange in motion, and to cases of (6) _______ action, such \nas the change in motion in the continuous deceleration of a \nbody moving in a resisting medium. Newton thus appears \nto  have  intended  his  second  law  to  be  neutral  between \ndiscrete forces (that is, what we now call impulses) and \ncontinuous forces. \n \n(Adaptado  de  George  Smith,  \"Newton's  Philosophiae  Naturalis  Principia \nMathematica\",  em  Edward  N.  Zalta  (ed.),  The  Stanford  Encyclopedia  of \nPhilosophy  (Winter  2008  Edition).  Disponível  em \nhttps://plato.stanford.edu/archives/win2008/entries/newton-principia/.  Acessado \nem 24/10/2017.) \n \nAssinale  a  alternativa  que  apresenta  a  sequência \nadequada de palavras que preenchem as lacunas do texto \nacima, para que os conceitos utilizados estejam corretos.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Motion, force, straight, impressed, discrete, continuous.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Force, motion, impressed, straight, discrete, continuous.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Motion, force, impressed, straight, continuous, discrete.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Force, motion, straight, impressed, continuous, discrete.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_39",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sempre que necessário, use aceleração da gravidade \ng = 10 m/s^2\nA figura abaixo ilustra uma alavanca que gira em torno do \nponto O. Dois triângulos, do mesmo material e de mesma \nespessura, estão presos por fios de massa desprezível nos \nextremos da alavanca. Um triângulo é equilátero; o outro é \nretângulo  e  isósceles,  e  sua  hipotenusa  tem  o  mesmo \ncomprimento  que  os  lados  do  triângulo  equilátero.  Note \nque, neste caso, o peso dos objetos é proporcional à sua \nárea.  Conclui-se  que,  na  condição  de  equilíbrio  da \nalavanca, a razão das distâncias, i/e, é igual a",
+      "files": [
+        "/data/comvest/assets/2018/39/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "√3,",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "√3/3",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "3.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_40",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Situado  na  costa  peruana,  Chankillo,  o  mais  antigo \nobservatório das Américas, é composto por treze torres que se \nalinham de norte a sul ao longo de uma colina. Em 21 de \ndezembro, quando ocorre o solstício de verão no Hemisfério \nSul, o Sol nasce à direita da primeira torre (sul), na extrema \ndireita, a partir de um ponto de observação definido. À medida \nque os dias passam, a posição em que o Sol nasce se desloca \nentre as torres rumo à esquerda (norte). Pode-se calcular o \ndia do ano, observando-se qual torre coincide com a posição \ndo Sol ao amanhecer. Em 21 de junho, solstício de inverno no \nHemisfério Sul, o Sol nasce à esquerda da última torre na \nextrema esquerda e, à medida que os dias passam, vai se \nmovendo rumo à direita, para reiniciar o ciclo no dezembro \nseguinte.  Sabendo que as torres de Chankillo se posicionam \nao longo de 300 metros no eixo norte-sul, a velocidade escalar \nmédia com a qual a posição do nascer do Sol se desloca \natravés das torres é de aproximadamente",
+      "files": [
+        "/data/comvest/assets/2018/40/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,8 m/dia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1,6 m/dia.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "25 m/dia.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "50 m/dia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_41",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Recentemente,  a  agência  espacial  americana  anunciou  a \ndescoberta de um planeta a trinta e nove anos-luz da Terra, \norbitando  uma  estrela  anã  vermelha  que  faz  parte  da \nconstelação de Cetus. O novo planeta possui dimensões e \nmassa pouco maiores do que as da Terra e se tornou um dos \nprincipais  candidatos  a  abrigar  vida  fora  do  sistema  solar. \nConsidere  este  novo  planeta  esférico  com  um  raio  igual  a \nRp = 2Rt  e massa Mp = 8Mt , em que Rt  e Mt são o raio\ne a massa da Terra, respectivamente. Para planetas esféricos \nde  massa  M   e  raio  R ,  a  aceleração  da  gravidade  na \nsuperfície do planeta é dada por  = GM/R^2, , em que G  é uma \nconstante universal. Assim, considerando a Terra esférica e \nusando a aceleração da gravidade na sua superfície, o valor \nda  aceleração  da  gravidade  na  superfície  do  novo  planeta \nserá de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "5 m/s^2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "20 m/s^2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "40 m/s^2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "80 m/s^2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_42",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O primeiro satélite geoestacionário brasileiro foi lançado ao \nespaço  em  2017  e  será  utilizado  para  comunicações \nestratégicas  do  governo  e  na  ampliação  da  oferta  de \ncomunicação  de  banda  larga.  O  foguete  que  levou  o \nsatélite  ao  espaço  foi  lançado  do  Centro  Espacial  de \nKourou,  na  Guiana  Francesa.  A  massa  do  satélite  é \nconstante desde o lançamento até a entrada em órbita e \nvale  m = 6,0 x 10^3. O módulo de dua velocidade orbital \n é V_or = 3,0 x10^3 m/s.  Desprezando  a  velocidade \ninicial do satélite em razão do movimento de rotação da \nTerra, o trabalho da força resultante sobre o satélite para \nlevá-lo até a sua órbita é igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "2 MJ.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "18 MJ.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "27 GJ.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "54 GJ.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_43",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em junho de 2017 uma intensa onda de calor atingiu os \nEUA, acarretando uma série de cancelamentos de voos do \naeroporto  de  Phoenix  no  Arizona.  A  razão  é  que  o  ar \natmosférico se torna muito rarefeito quando a temperatura \nsobe  muito,  o  que  diminui  a  força  de  sustentação  da \naeronave em voo. Essa força, vertical de baixo para cima, \nestá associada à diferença de pressão ∆P  entre as partes \ninferior e superior do avião. Considere um avião de massa \ntotal  m = 3x10^5 kg em  voo  horizontal.  Sendo  a  área \nefetiva de sustentação do avião  A = 500 m^2 , na situação \nde voo horizontal ∆P  vale",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "5x10^3 N/m^2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "6x10^3 N/m^2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1,5x10^6 N/m^2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1,5x10^8 N/m^2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_44",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“Gelo  combustível”  ou  “gelo  de  fogo”  é  como  são \nchamados  os  hidratos  de  metano  que  se  formam  a \ntemperaturas muito baixas, em condições de pressão elevada. \nSão geralmente encontrados em sedimentos do fundo do mar ou \nsob  a  camada  de  solo  congelada  dos  polos.  A  considerável \nreserva  de  gelo  combustível  no  planeta  pode  se  tornar  uma \npromissora  fonte  de  energia  alternativa  ao  petróleo. \nConsiderando que a combustão completa de certa massa \nde gelo combustível libera uma quantidade de energia igual \na  E = 7,2 MJ, é correto afirmar que essa energia é capaz \nde  manter  aceso  um  painel  de  LEDs  de  potência \nP = 2  kW  por um intervalo de tempo igual a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1 minuto.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "144 s.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1 hora.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1 dia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_45",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um  conjunto  de  placas  de  aquecimento  solar  eleva  a \ntemperatura da água de um reservatório de 500 litros de \n20 oC  para  47  oC  em  algumas  horas.  Se  no  lugar  das \nplacas solares fosse usada uma resistência elétrica, quanta \nenergia elétrica seria consumida para produzir o mesmo \naquecimento?  Adote  1,0  kg/litro  para  a  densidade  e \n4,0 kJ/(kg∙oC) para o calor específico da água. Além disso, \nuse 1 kWh = 10^3 W x 3.600 s = 3,6 x 10^6 J.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "15 kWh.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "26 kWh.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "40.000 kWh.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "54.000 kWh.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_46",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Nos  últimos  anos,  materiais  exóticos  conhecidos  como \nisolantes  topológicos  se  tornaram  objeto  de  intensa \ninvestigação  científica  em  todo  o  mundo.  De  forma \nsimplificada,  esses  materiais  se  caracterizam  por  serem \nisolantes elétricos no seu interior, mas condutores na sua \nsuperfície.  Desta  forma,  se  um  isolante  topológico  for \nsubmetido a uma diferença de potencial U , teremos uma \nresistência efetiva na superfície diferente da resistência do \nseu volume, como mostra o circuito equivalente da figura \nabaixo. Nessa situação, a razão  F = Is/Iv  entre a corrente Is que  \natravessa  a  porção  condutora  na  superfície  e  a corrente  Iv  que atravessa a porção isolante no interior do material vale \n,",
+      "files": [
+        "/data/comvest/assets/2018/46/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,002.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0,2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "100,2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "500.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_47",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Materias termoelétricos são aqueles com alto potencial de \ntransformar  calor  em  energia  elétrica.  A  capacidade  de \nconversão  de  calor  em  eletricidade  é  quantificada  pela \ngrandeza  F = (S^2 * T)/ρk ,  que  é  adimensional  e  função  da \ntemperatura  T   e  das  propriedades  do  material: \nresistividade  elétrica  ρ,  condutividade  térmica  κ, \ncoeficiente Seebeck  S . O gráfico a seguir mostra  ρ em \nfunção de T  para certo material termoelétrico.  Analisando \no  gráfico  e  considerando  κ = 2,0 W/(mxK)  e \nS = 300 µV/K  para  esse  material,  a  uma  temperatura \nT = 300 K , conclui-se que a grandeza F  desse material a \nessa temperatura vale",
+      "files": [
+        "/data/comvest/assets/2018/47/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,003.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0,6.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "0,9.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "90.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_48",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma  lente  de  Fresnel  é  composta  por  um  conjunto  de \nanéis  concêntricos  com  uma  das  faces  plana  e  a  outra \ninclinada,  como  mostra  a  figura  (a).  Essas  lentes, \ngeralmente mais finas que as convencionais, são usadas \nprincipalmente  para  concentrar  um  feixe  luminoso  em \ndeterminado  ponto,  ou  para  colimar  a  luz  de  uma  fonte \nluminosa,  produzindo  um  feixe  paralelo,  como  ilustra  a \nfigura (b). Exemplos desta última aplicação são os faróis de \nautomóveis e os faróis costeiros. O diagrama da figura (c) \nmostra um raio luminoso que passa por um dos anéis de \numa lente de Fresnel de acrílico e sai paralelamente ao \nseu eixo. Se sen(θ1) = 0,5 e sen(θ2) = 0,75, o valor do índice de refração do acrílico é de\n (a)  \n (b)  \n (c)",
+      "files": [
+        "/data/comvest/assets/2018/48/3.jpg",
+        "/data/comvest/assets/2018/48/4.jpg",
+        "/data/comvest/assets/2018/48/5.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1,50.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1,41.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1,25.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "0,66.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_49",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os  gregos  sentiram  paixão  pelo  humano,  por  suas \ncapacidades,  por  sua  energia  construtiva.  Por  isso, \ninventaram a polis: a comunidade cidadã em cujo espaço \nartificial,  antropocêntrico,  não  governa  a  necessidade  da \nnatureza, nem a vontade dos deuses, mas a liberdade dos \nhomens, isto é, sua capacidade de raciocinar, de discutir, \nde escolher e de destituir dirigentes, de criar problemas e \npropor soluções. O nome pelo qual hoje conhecemos essa \ninvenção  grega,  a  mais  revolucionária,  politicamente \nfalando,  que  já  se  produziu  na  história  humana,  é \ndemocracia.  \n \n(Adaptado de Fernando Savater, Política para meu filho. São Paulo: \nMartins Fontes, 1996, p. 77.) \n \nAssinale a alternativa correta, considerando o texto acima \ne seus conhecimentos sobre a Grécia Antiga.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Para os gregos, a cidade era o espaço do exercício da \nliberdade dos homens e da tirania dos deuses.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Os gregos inventaram a democracia, que tinha então \no mesmo funcionamento do sistema político vigente \natualmente no Brasil.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Para os gregos, a liberdade dos homens era exercida \nna  polis  e  estava  relacionada  à  capacidade  de \ninvenção da política.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A  democracia  foi  uma  invenção  grega  que  criou \nproblemas em função do excesso de liberdade dos \nhomens.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_50",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Estamos  acostumados  a  considerar  que  o  sistema \ncentro/periferia,  ao  menos  no  Ocidente,  é  um  eixo \nessencial da estrutura e do funcionamento no espaço das \neconomias, das sociedades, das civilizações. O historiador \nFernand  Braudel  estimou  que  tal  sistema  só  existiu  e \nfuncionou plenamente a partir do século XV. Essa definição \nnão  se  aplica  à  Cristandade  Medieval  sem  importantes \ncorreções. A noção de centro e a oposição centro/periferia \nsão  menos  decisivas  que outros  sistemas  de  orientação \nespacial. O principal sistema é o que opõe o baixo ao alto, \nquer dizer, o Aqui, esse “mundo” imperfeito e marcado pelo \nPecado Original, ao céu, morada de Deus.  \n \n(Adaptado  de  Jacques  Le  Goff  e  Jean-Claude  Schmitt, \n“Centro/Periferia”, em Dicionário temático do ocidente medieval, v. 2. \nSão Paulo: Edusc, 2002, p. 203.) \n \nA partir do texto acima, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Usada nas Ciências Humanas para a compreensão \nde períodos históricos desde a Antiguidade, a noção \nde centro/periferia perdura até a atualidade e estrutura \no sistema econômico global contemporâneo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "As noções de baixo e alto têm um sentido histórico \nmais  preciso  para  a  compreensão  da  Cristandade \nMedieval do que o sistema centro/periferia.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O  sistema  centro/periferia  é  aplicável  ao  estudo  da \nCristandade Medieval, já que os feudos constituíam o \ncentro da vida econômica e cultural naquele contexto.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O  sistema  centro/periferia  aplicado  durante  a  Era \nMedieval espelhava o sistema de orientação baixo e \nalto, sendo o baixo o mundo do pecado e o alto o \nmundo da virtude cristã.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_51",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Na  formação  das  monarquias  confessionais  da  Época \nModerna  houve  reforço  das  identidades  territoriais,  em \nfunção  de  critérios  de  caráter  religioso  ou  confessional. \nSimultaneamente, houve uma progressiva incorporação da \nIgreja ao corpo do Estado, através de medidas de caráter \npatrimonial  e  jurisdicional  que  procuravam  uma  maior \nsujeição das estruturas e agentes eclesiásticos ao poder \ndo príncipe. Na busca pela homogeneização da fé dentro \nde  um  território  político,  a  Igreja  cumpria  também  papel \nfundamental na formação do Estado moderno por meio de \nseus  mecanismos  de  disciplinamento  social  dos \ncomportamentos.  \n \n(Adaptado  de  Frederico  Palomo,  A  Contra-Reforma  em  Portugal, \n1540-1700. Lisboa: Livros Horizonte, 2006, p.52.) \n \nConsiderando o texto acima e seus conhecimentos sobre a \nEuropa Moderna, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Cada monarquia confessional adotou uma identidade \nreligiosa  e  medidas  repressivas  em  relação  às \ndissidências  religiosas  que  poderiam  ameaçar  tal \nunidade.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Monarquias  confessionais  são  aquelas  unidades \npolíticas  nas  quais  havia  a  convivência  pacífica  de \nduas  ou  mais  confissões  religiosas,  num  mesmo \nterritório.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "São  consideradas  monarquias  confessionais  os \nterritórios  protestantes  que  se  mostravam  mais \npropícios  ao  desenvolvimento  do  capitalismo \ncomercial, tornando-se, assim, nações enriquecidas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "As  monarquias  confessionais  contavam  com  a \ninstituição do Tribunal do Santo Ofício da Inquisição \nem seu território, uma forma de controle cultural sobre \nreligiões politeístas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_52",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As  plantações  de  mandioca  encontradas  pelas  saúvas \ncortadeiras nas roças indígenas eram apenas uma entre \nvárias outras. Em muitas situações, a composição química \ndas  folhas  favorecia  a  escolha  de  outras  plantas  e  a \nfolhagem  da  mandioca  era  cortada  apenas  quando  as \npreferidas  das  saúvas  não  eram  suficientes.  Já  na \nagricultura  comercial,  machados  e  foices  de  ferro \npermitiam abrir clareiras em uma escala maior, resultando \nem  grande  homogeneidade  da  flora.  Nas  lavouras  de \nmandioca de finais do século XVII e do início do século \nXVIII, as folhas da mandioca tornavam-se uma das poucas \nopções das formigas. Depois de mais algumas colheitas, a \ninfestação das formigas tornava-se insuportável, por vezes \ncausando o completo despovoamento humano da área.  \n \n(Adaptado  de  Diogo  Cabral,  'O  Brasil  é  um  grande  formigueiro’: \nterritório, ecologia e a história ambiental da América Portuguesa – \nparte 2. HALAC - História Ambiental Latinoamericana y Caribeña. Belo \nHorizonte, v. IV, n. 1, p. 87-113, set. 2014-fev. 2015.) \n \nA partir da leitura do texto e de seus conhecimentos sobre \nHistória do Brasil Colônia, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A  principal  diferença  entre  as  lavouras  indígenas  e  a \nagricultura  comercial  colonial  estava  no  uso  de \nqueimadas  pelos  europeus,  o  que  não  era  praticado \npelas populações autóctones.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Comparadas à mandioca cultivada pelos indígenas, as \nnovas espécies de mandioca trazidas da Europa eram \nmenos  resistentes  às  formigas  cortadeiras,  e  por  isso \nmais susceptíveis à infestação.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Os colonizadores introduziram no território colonial novas \nespécies de mandioca e milho, que desequilibraram o \nsistema agrícola ameríndio, baseado no sistema rotativo \nde plantação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A agricultura comercial tendia à homogeneização da flora \nnas  lavouras  da  América  Portuguesa,  combinando \ntradições europeias de plantio com práticas indígenas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_53",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Consideramos  estas  verdades  como  autoevidentes:  que \ntodos os homens e mulheres foram criados iguais; que são \ndotados pelo Criador de certos direitos inalienáveis. Entre \nos direitos inalienáveis estão a vida, a liberdade e a busca \nda felicidade. Para garantir esses direitos, os governos são \ninstituídos.  Os  poderes  do  governo  emanam  do \nconsentimento  daqueles  que  são  governados.  Qualquer \ngoverno  que  se  torna  destrutivo  para  os  direitos \ninalienáveis pode ser destituído por aqueles que sofrem. \nOs  que  sofrem  podem  recusar  lealdade  e  exigir  a \ninstituição  de  um  novo  governo.  E  assim  tem  sido  o \nsofrimento das mulheres sob este governo. E, por isso, é \nnecessário exigir uma mudança.  \n \n(Adaptado de Elizabeth Cady Stanton, A History of Woman Suffrage, \nv. 1. Rochester: Fowler and Wells, 1889, p. 70-71.) \n \nAssinale a alternativa correta.  \n \nO documento acima integra",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a Declaração de Independência dos Estados Unidos \nda América, baseada nos princípios de Jean-Jacques \nRousseau e do Pacto Social.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a Declaração da primeira Convenção dos Direitos das \nMulheres  nos  Estados  Unidos  da  América,  que \nreconhece os princípios liberais de John Locke e o \ndireito à propriedade privada, ampliando-os.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a Declaração de Independência dos Estados Unidos \nda  América,  baseada  nos  princípios  de  Thomas \nPaine,  que  reconhece  como  direitos  inalienáveis  a \nvida, a liberdade e a busca da felicidade.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a Declaração da primeira Convenção dos Direitos das \nMulheres nos Estados Unidos da América, baseada \nnos princípios de Alexis de Tocqueville, que se \nopunha à democracia na América.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_54",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em julho de 1917, convocou-se, em São Paulo, uma greve \ngeral,  com  adesão  de  45.000  trabalhadores,  para  pedir \naumento salarial. A greve se estendeu ao Rio de Janeiro e \nlevou o governo a reforçar o aparato repressivo e decretar \nestado de sítio em 1918. Nos anos de 1917-1919, o Chile \nregistrou o recrudescimento da agitação sindical. Mobilizavam-\nse  com  facilidade  100.000  trabalhadores,  como  durante  as \nmanifestações contra o custo dos alimentos em 1918 e 1919. \nA Argentina foi outro país que teve um movimento sindical \npoderoso. Entre 1917 e 1921, o movimento sindical conheceu \nseu apogeu. Apenas durante o ano de 1919, registraram-se \n367 greves na capital Buenos Aires.  \n \n(Adaptado  de  Olivier  Dabène,  América  Latina  no  século  XX.  Porto  Alegre: \nEDIPUCRS, 2003, p. 64-65.) \n \nConsiderando o texto acima e seus conhecimentos sobre o \ntema, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Os  movimentos  grevistas  foram  espontâneos  e \napartidários nos anos de 1910, rejeitando a infiltração \nideológica  das  lideranças  sindicais,  de  maioria \nmarxista  e  comunista,  pouco  mobilizadoras  no \nperíodo.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Os  movimentos  sindicais  estavam  em  processo  de \nfortalecimento,  entre  outras  razões,  pela  intensa \nruralização dos países latino-americanos na década \nde 1900.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O  processo  de  fortalecimento  dos  movimentos \nsindicais enfrentou um forte aparato repressivo, nos \nanos  de  1920,  marcado  pela  colaboração  entre  os \nEstados latino-americanos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Os  movimentos  sindicais  latino-americanos \napresentavam, em 1917, especificidades em relação \naos da Europa quanto às pautas reivindicatórias dos \ntrabalhadores.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_55",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Vistas  em  conjunto,  as  aspirações  ruralistas  não  eram \ncontraditórias  ou  incompatíveis  com  o  programa \ndesenvolvimentista  de  Juscelino  Kubitschek.  A  ideia  de \nincompatibilidade  entre  o  projeto  nacional-\ndesenvolvimentista  e  os  interesses  agrários  era  uma \nficção.  \n \n(Adaptado de Vânia Moreira, “Os Anos JK: industrialização e modelo oligárquico \nde desenvolvimento rural”, em Jorge Ferreira e Lucília Delgado (Orgs.), O Brasil \nRepublicano. v. 3. Rio de Janeiro: Civilização Brasileira, 2003, p. 169-170.) \n \nConsiderando  a  composição  do  setor  rural  nacional  e  o \nprograma  desenvolvimentista  do  governo  JK,  é  correto \nafirmar que:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A \"Marcha para o Oeste\" obteve grande êxito porque, \nalém dos grandes ruralistas, conseguia atender também \naos  interesses  dos  pequenos  posseiros,  trabalhadores \nsem terra e indígenas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O desenvolvimentismo atendia às ambições da oligarquia \nrural,  em  função  das  políticas  de  modernização  da \nagricultura,  permitindo  que  ela  se  beneficiasse  da \nexpansão  do  mercado  consumidor,  um  dos \ndesdobramentos da industrialização.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O Plano de Metas do governo JK fracassou porque os \ninteresses do agronegócio se mostraram posteriormente \ninconciliáveis com as demandas da velha oligarquia rural \ndas regiões Norte e Centro-Oeste.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Os interesses agrários e o projeto de industrialização do \nnacional-desenvolvimentismo eram compatíveis porque o \nPartido  Trabalhista  Brasileiro  era  composto \nprincipalmente pela oligarquia rural.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_56",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A foto mostra, da esquerda para a direita, os atletas Peter \nNorman  (australiano),  John  Carlos  e  Tommie  Smith  (norte-\namericanos), no pódio dos 200 metros rasos das Olimpíadas \nde 1968, no México. \n(Disponível em http://www.gettyimages.co.uk/detail/news-photo/the-american-\nsprinters-tommie-smith-john-carlos-and-peter-news-photo/186173327#the-\namerican-sprinters-tommie-smithjohn-carlos-and-peter-norman-the-picture-\nid186173327. Acessado em 01/08/2017.) \n \nConsiderando a imagem acima e seus conhecimentos acerca \ndos  Movimentos  de  Direitos  Civis,  assinale  a  alternativa \ncorreta.",
+      "files": [
+        "/data/comvest/assets/2018/56/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A  fotografia  registra  o  ato  de  resistência  de  atletas \nnegros  que  defendiam  as  propostas  de  Martin  Luther \nKing e a ação pacifista como caminho para a constituição \nda igualdade racial.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A  fotografia  registra  a  manifestação  política  de  três \natletas que defendiam a Nação Islã e a implementação \nda Ku Klux Klan em todo o território nacional.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A  fotografia  registra  a  manifestação  de  atletas \ndefensores dos Panteras Negras e das ações violentas, \nse necessárias, para a conquista da igualdade racial.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A fotografia registra a resistência de atletas e do Comitê \nOlímpico  Internacional,  que  combatiam  o  sistema  de \ndiscriminação  racial  existente  nos  Estados  Unidos  da \nAmérica.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_57",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“Como  na  Argentina:  Os  corpos brotam  do  chão, como na \nArgentina. Corpo não é reciclável. Corpo não é reduzível. Dá \npara dissolver os corpos em ácido, mas não haveria ácido que \nchegasse para os assassinados do século. Valas mais fundas, \nmais  escombros,  nada  adianta.  Sempre  sobra  um  dedo \nacusando. O corpo é como o nosso passado, não existe mais \ne não vai embora. Tentaram largar o corpo no meio do mar e \nnão deu certo. O corpo boia. O corpo volta. Tentaram forjar o \nprotocolo – foi suicídio, estava fugindo – e o corpo desmentia \ntudo.  O  corpo  incomoda.  O  corpo  faz  muito  silêncio. \nConsciência não é biodegradável. Memórias não apodrecem. \nFicam os dentes.”  \n \n(Luís Fernando Veríssimo, “Como na Argentina”, em A mãe do Freud. Porto \nAlegre: L&PM Editores, 1985, p. 46.) \n \nO texto se refere",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "ao trauma coletivo das políticas repressivas e crimes de \nEstado  praticados  pelos  regimes  ditatoriais  latino-\namericanos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "à memória dos exilados fugidos dos regimes ditatoriais \nlatino-americanos da segunda metade do século XX.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "ao movimento dos Montoneros, em busca de seus filhos \ne  netos  desaparecidos  no  período  da  ditadura  na \nArgentina.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "aos julgamentos em andamento contra o clientelismo do \nregime peronista praticada na Argentina.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_58",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "(Edgar Fahs Memorial Collection, Department of Special Collections, \nUniversity  of  Pennsylvania  Library.  Disponível  em \nsceti.library.upenn.edu. Acessado em 14/08/2017.) \n \nA ilustração anterior, com Marie Lavoisier representada à \ndireita, foi produzida nas últimas décadas do século XVIII, \ne  mostra  uma  experiência  para  entender  a  fisiologia  da \nrespiração  e  o  papel  do  oxigênio  nela.  Considerando  o \ncontexto  histórico  e  o  seu  conhecimento  de  química, \nassinale a alternativa correta.",
+      "files": [
+        "/data/comvest/assets/2018/58/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "No século XVIII, Marie Lavoisier, como outras mulheres, \nnão participava da produção do conhecimento científico. \nPor  outro  lado,  seu  marido,  Antoine  Lavoisier,  ficou \nfamoso pela frase “na natureza nada se cria, nada se \nperde,  tudo  se  transforma”,  conhecida  como  a  lei  de \nconservação da quantidade de matéria.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A Revolução Francesa favoreceu cientistas e intelectuais \nfranceses  independentemente  de  suas  posições \nideológicas e das questões de gênero. É o caso de Marie \nLavoisier e de Antoine Lavoisier, este último famoso pela \nfrase “na natureza nada se cria, nada se perde, tudo se \ntransforma”, conhecida como a lei de conservação das \nmassas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "No século XVIII, as mulheres participavam da produção \ndo conhecimento científico. Marie Lavoisier registrou e \npublicou muitos dos experimentos feitos pela equipe de \nseu  marido,  Antoine  Lavoisier,  famoso  pela  frase  “na \nnatureza  nada  se  cria,  nada  se  perde,  tudo  se \ntransforma”, conhecida como a lei de conservação das \nmassas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A Revolução Francesa garantiu às mulheres a cidadania \ne a participação na produção do conhecimento científico. \nMarie  Lavoisier  registrou  e  publicou  muitos  dos \nexperimentos feitos pela equipe de seu marido, Antoine \nLavoisier, famoso pela frase “na natureza nada se cria, \nnada se perde, tudo se transforma”, conhecida como a lei \nde conservação da quantidade de matéria.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_59",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O pastor norte-americano Pat Robertson, dono do canal de \ncomunicação Christian Broadcasting Network, afirmou que a \ntragédia  provocada  pelo  terremoto  no  Haiti,  em  janeiro  de \n2010, foi decorrente do “pacto com o diabo” que setores da \npopulação haitiana teriam feito para que o país se tornasse \nindependente. Nas palavras do Pastor, \"Os haitianos estavam \nsob o jugo da França. Eles se uniram e fizeram um pacto com \no  diabo.  Disseram:  'Serviremos  a  ti  caso  nos  liberte  da \nFrança'\".  \n \n(Adaptado de Haroldo Ceravolo Sereza, “Pastor americano atribui terremoto a \n'pacto com o Diabo' e provoca protestos; país se libertou da França em 1804”. \nUol  notícias.  14/01/2010.  Disponível  em  https://noticias.uol.com.br/ \nespeciais/terremoto-haiti/ultnot/2010/01/14/ult9967u9.jhtm.  Acessado  em \n30/08/2017.) \n \nA partir da leitura do texto e de seus conhecimentos, assinale \na alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A independência do Haiti foi decisiva para que o Império \nBrasileiro,  que  projetava  a  construção  de  um  Estado \nNação  reconhecido  internacionalmente,  reprimisse \nmovimentos como a Revolta Malês, em Salvador (1835).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A declaração do Pastor é pautada em preconceitos em \nrelação às práticas religiosas dos afrodescendentes no \nHaiti.  A  conquista  espiritual,  parte  dos  projetos \nimperialistas,  garantiu  a  eliminação  de  religiões \nconsideradas pagãs nas Américas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Colônia francesa nas Antilhas, Saint Domingue tornou-se \nresponsável por 40% da produção mundial de cacau no \nséculo  XVIII.  A  mão  de  obra  empregada  era \nmajoritariamente escrava, com a exploração de africanos \nou de seus descendentes.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O processo de independência do Haiti foi apoiado por \noutras  colônias,  interrompendo  o  projeto  imperialista \neuropeu no Novo Mundo. Após 1804, os EUA conduzem \nas  ações  imperialistas  na  América,  tornando-se  a \nprincipal referência cultural no continente.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_60",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dados: 1 mol de elétrons corresponde a uma carga de 96.500 \nC; Sn: 119 g∙mol-1.\n A galvano-plastia consiste em revestir um metal por outro a fim \nde protegê-lo contra a corrosão ou melhorar sua aparência. O \nestanho, por exemplo, é utilizado como revestimento do aço \nempregado em embalagens de alimentos. Na galvanoplastia, \na espessura da camada pode ser controlada com a corrente \nelétrica  e  o  tempo  empregados.  A  figura  abaixo  é  uma \nrepresentação esquemática desse processo. \n \nConsiderando  a  aplicação  de  uma  corrente  constante  com \nintensidade  igual  a  9,65  x  10^(-3) A,  a  massa  depositada  de \nestanho após 1 min 40 s será de aproximadamente",
+      "files": [
+        "/data/comvest/assets/2018/60/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,6 mg e ocorre, no processo, a transformação de energia \nquímica em energia elétrica.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "0,6 mg e ocorre, no processo, a transformação de energia \nelétrica em energia química.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1,2 mg e ocorre, no processo, a transformação de energia \nelétrica em energia química.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1,2 mg e ocorre, no processo, a transformação de energia \nquímica em energia elétrica.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_61",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Mesmo  em  manhãs  bem  quentes,  é  comum  ver  um  cão \ntomando sol. O pelo do animal esquenta e sua língua do lado \nde fora sugere que ele está cansado. O pelo do animal está \nmuito quente, mas mesmo assim o cão permanece ao sol, \ngarantindo  a  produção  de  vitamina  D3.  Durante  essa \nexposição ao sol, ocorrem transferências de energia entre o \ncão e o ambiente, por processos indicados por números na \nfigura abaixo. \n \n(Adaptado de KHAN ACADEMY, Endotherms and ectotherms. Disponível em \nwww.khanacademy.org. Acessado em 26/07/17.) \nEm  ordem  crescente,  os  números  correspondem, \nrespectivamente, aos processos de",
+      "files": [
+        "/data/comvest/assets/2018/61/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "convecção,  evaporação,  radiação,  condução  e \nradiação.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "convecção,  radiação,  condução,  radiação  e \nevaporação.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "condução,  evaporação,  convecção,  radiação  e \nradiação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "condução,  radiação,  convecção,  evaporação  e \nradiação.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_62",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Com a crise hídrica de 2015 no Brasil, foi necessário ligar \nas  usinas  termoelétricas  para  a  geração  de  eletricidade, \nmedida  que  fez  elevar  o  custo  da  energia  para  os \nbrasileiros. O governo passou então a adotar bandeiras de \ncores diferentes na conta de luz para alertar a população. \nA bandeira vermelha indicaria que a energia estaria mais \ncara. O esquema a seguir representa um determinado tipo \nde usina termoelétrica. \n  \n(Adaptado  de  BITESIZE.  Thermal  power  stations.  Disponível  em \nhttp://www.bbc.co.uk/bitesize/standard/physics/energy_matters/genera\ntion_of_electricity/revision/1/. Acessado em 26/07/17.) \n \nConforme o esquema apresentado, no funcionamento da \nusina há",
+      "files": [
+        "/data/comvest/assets/2018/62/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "duas  transformações  químicas,  uma  transformação \nfísica e não mais que três tipos de energia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "uma transformação química, uma transformação física \ne não mais que dois tipos de energia.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "duas transformações químicas, duas transformações \nfísicas e pelo menos dois tipos de energia.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "uma  transformação  química,  duas  transformações \nfísicas e pelo menos três tipos de energia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_63",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Icebergs flutuam na água do mar, assim como o gelo em \num copo com água potável. Imagine a situação inicial de \num  copo  com  água  e  gelo,  em  equilíbrio  térmico  à \ntemperatura de 0 °C. Com o passar do tempo o gelo vai \n \nderretendo.  Enquanto  houver  gelo,  a  temperatura  do \nsistema",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "permanece  constante,  mas  o  volume  do  sistema \naumenta.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "permanece  constante,  mas  o  volume  do  sistema \ndiminui.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "diminui e o volume do sistema aumenta.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "diminui, assim como o volume do sistema.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_64",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O livro O Pequeno Príncipe, de Antoine de Saint-Exupéry, \numa das obras literárias mais traduzidas no mundo, traz \nilustrações  inspiradas  na  experiência  do  autor  como \naviador no norte da África. Uma delas, a figura (a), parece \nrepresentar um chapéu ou um elefante engolido por uma \njiboia, dependendo de quem a interpreta. \n  \nPara  um  químico,  no  entanto,  essa  figura  pode  se \nassemelhar  a  um  diagrama  de  entalpia,  em  função  da \ncoordenada  da  reação  (figura  b).  Se  a  comparação  for \nválida, a variação de entalpia dessa reação seria",
+      "files": [
+        "/data/comvest/assets/2018/64/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "praticamente nula, com a formação de dois produtos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "altamente  exotérmica,  com  a  formação  de  dois \nprodutos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "altamente exotérmica,  mas nada se poderia afirmar \nsobre a quantidade de espécies no produto.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "praticamente nula, mas nada se poderia afirmar sobre \na quantidade de espécies no produto.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_65",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em 12 de maio de 2017 o Metrô de São Paulo trocou 240 \nmetros de trilhos de uma de suas linhas, numa operação \nfeita de madrugada, em apenas três horas. Na solda entre \no trilho novo e o usado empregou-se uma reação química \ndenominada  térmita,  que  permite  a  obtenção  de  uma \ntemperatura local de cerca de 2.000 °C. A reação utilizada \nfoi  entre  um  óxido  de  ferro  e  o  alumínio  metálico.  De \nacordo  com  essas  informações,  uma  possível  equação \ntermoquímica do processo utilizado seria",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Fe2O3 + 2AI -> 2Fe + AI2O3; H = +852 kJ mol^(-1)",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "FeO3 + AI -> Fe + AIO3; H = -852 kJ mol^(-1)",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "FeO3 + AI -> Fe + AIO3; H = +852 kJ mol^(-1)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Fe2O3 + 2AI -> 2Fe + AI2O3; H = -852 kJ mol^(-1)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_66",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No  Brasil,  cerca  de  12  milhões  de  pessoas  sofrem  de \ndiabetes mellitus, uma doença causada pela incapacidade \ndo  corpo  em  produzir  insulina  ou  em  utilizá-la \nadequadamente.  No  teste  eletrônico  para  determinar  a \nconcentração  da  glicose  sanguínea,  a  glicose  é \ntransformada em ácido glucônico e o hexacianoferrato(III) é \ntransformado em hexacianoferrato(II), conforme mostra o \nesquema a seguir. \n  \nEm relação ao teste eletrônico, é correto afirmar que",
+      "files": [
+        "/data/comvest/assets/2018/66/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a  glicose  sofre  uma  reação  de  redução  e  o \nhexacianoferrato(III) sofre uma reação de oxidação.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a  glicose  sofre  uma  reação  de  oxidação  e  o \nhexacianoferrato(III) sofre uma reação de redução.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "ambos, glicose e hexacianoferrato(III), sofrem reações \nde oxidação.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "ambos, glicose e hexacianoferrato(III), sofrem reações \nde redução.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_67",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dados de massas atômicas em Dalton: C = 12 e H = 1.\nMais de 2.000 plantas produzem látex, a partir do qual se \nproduz  a  borracha  natural.  A  Hevea  brasiliensis \n(seringueira)  é  a  mais  importante  fonte  comercial  desse \nlátex.  O  látex  da  Hevea  brasiliensis  consiste  em  um \npolímero  do  cis-1,4-isopreno,  fórmula  C5H8 ,  com  uma \n5 8\nmassa molecular média de 1.310 kDa (quilodaltons). De \nacordo com essas informações, a seringueira produz um \npolímero que tem em média",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "19 monômeros por molécula.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "100 monômeros por molécula.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1.310 monômeros por molécula.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "19.000 monômeros por molécula.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_68",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A calda bordalesa é uma das formulações mais antigas e mais \neficazes que se conhece. Ela foi descoberta na França no final \ndo  século  XIX,  quase  por  acaso,  por  um  agricultor  que \naplicava  água  de  cal  nos  cachos  de  uva  para  evitar  que \nfossem roubados; a cal promovia uma mudança na aparência \ne  no  sabor  das  uvas.  O  agricultor  logo  percebeu  que  as \nplantas  assim  tratadas  estavam  livres  de  antracnose. \nEstudando-se  o  caso,  descobriu-se  que  o  efeito  estava \nassociado ao fato de a água de cal ter sido preparada em \ntachos de cobre. Atualmente, para preparar a calda bordalesa, \ncoloca-se o sulfato de cobre em um pano de algodão que é \nmergulhado  em  um  vasilhame  plástico  com  água  morna. \nParalelamente, coloca-se cal em um balde e adiciona-se água \naos poucos. Após quatro horas, adiciona-se aos poucos, e \nmexendo sempre, a solução de sulfato de cobre à água de cal.  \n \n(Adaptado de Gervásio Paulus, André Muller e Luiz Barcellos, Agroecologia \naplicada: práticas e métodos para uma agricultura de base ecológica. Porto \nAlegre: EMATER-RS, 2000, p. 86.)\n Dados de massas molares em g∙mol-1: sulfato de cobre (II) \npentaidratado = 250; hidróxido de cálcio = 74.\nNa preparação da calda bordalesa são usados 100 g de \nsulfato de cobre(II) pentaidratado e 100 g de hidróxido de \ncálcio (cal extinta). Para uma reação estequiométrica entre \nos  íons  cobre  e  hidroxila,  há  um  excesso  de \naproximadamente",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1,9 mol de hidroxila.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2,3 mol de hidroxila.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "2,5 mol de cobre.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "3,4 mol de cobre.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_69",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A calda bordalesa é uma das formulações mais antigas e mais \neficazes que se conhece. Ela foi descoberta na França no final \ndo  século  XIX,  quase  por  acaso,  por  um  agricultor  que \naplicava  água  de  cal  nos  cachos  de  uva  para  evitar  que \nfossem roubados; a cal promovia uma mudança na aparência \ne  no  sabor  das  uvas.  O  agricultor  logo  percebeu  que  as \nplantas  assim  tratadas  estavam  livres  de  antracnose. \nEstudando-se  o  caso,  descobriu-se  que  o  efeito  estava \nassociado ao fato de a água de cal ter sido preparada em \ntachos de cobre. Atualmente, para preparar a calda bordalesa, \ncoloca-se o sulfato de cobre em um pano de algodão que é \nmergulhado  em  um  vasilhame  plástico  com  água  morna. \nParalelamente, coloca-se cal em um balde e adiciona-se água \naos poucos. Após quatro horas, adiciona-se aos poucos, e \nmexendo sempre, a solução de sulfato de cobre à água de cal.  \n \n(Adaptado de Gervásio Paulus, André Muller e Luiz Barcellos, Agroecologia \naplicada: práticas e métodos para uma agricultura de base ecológica. Porto \nAlegre: EMATER-RS, 2000, p. 86.)\nNa formulação da calda bordalesa fornecida pela EMATER, \nrecomenda-se um teste para verificar se a calda ficou ácida: \ncoloca-se  uma  faca  de  aço  carbono  na  solução  por  três \nminutos. Se a lâmina da faca adquirir uma coloração marrom \nao ser retirada da calda, deve-se adicionar mais cal à mistura. \nSe  não  ficar  marrom,  a  calda  está  pronta  para  o  uso.  De \nacordo com esse teste, conclui-se que a cal deve promover",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "uma diminuição do pH, e o sulfato de cobre(II), por sua \nvez,  um  aumento  do  pH  da  água  devido  à  reação SO4^(-2) + H2O -> HSO4^(-) + OH^(-).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "um aumento do pH, e o sulfato de cobre(II), por sua vez, \numa  diminuição  do  pH  da  água  devido  à  reação Cu^(+2) + H2O -> Cu(OH)^(+) + H^(+).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "uma diminuição do pH, e o sulfato de cobre(II), por sua \nvez,  um  aumento  do  pH  da  água  devido  à  reação Cu^(+2) + H2O -> Cu(OH)^(+) + H^(+).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "um aumento do pH, e o sulfato de cobre(II), por sua vez, \numa  diminuição  do  pH  da  água  devido  à  reação SO4^(-2) + H2O -> HSO4^(-) + OH^(-).",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_70",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Ao  percorrer  a  Ferrovia  Transiberiana,  de  Moscou  a \nVladivostok, em uma extensão de 9.289 km, atravessamos \ndiferentes unidades do relevo russo:",
+      "files": [
+        "/data/comvest/assets/2018/70/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Montes Urais, Planície Russa, Planalto da Anatólia e \nPlanalto Central Siberiano.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Planalto do Decã, Planalto Central Siberiano, Montes \nUrais e Planície Russa.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Planalto  Central  Siberiano,  Planície  Russa,  Montes \nUrais e Planalto dos Bálcãs.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Planície  Russa,  Montes  Urais,  Planalto  Central \nSiberiano e Planalto de Aldan.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_71",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O referendo realizado no Reino Unido em junho de 2016 \nconduziu  ao  Brexit,  após  43  anos  de  adesão  à  União \nEuropeia.  São  potenciais  consequências  dessa  decisão, \nnos níveis nacional e continental, respectivamente,",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o pedido da Irlanda do Norte por um novo referendo \npara  decidir  sua  permanência  no  Reino  Unido  e  a \ncontinuidade da livre circulação da moeda europeia, o \neuro, no Reino Unido.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "o pedido da Inglaterra por  um novo referendo para \ndecidir  sua  permanência  no  Reino  Unido  e  a \ncontinuidade da livre circulação da moeda europeia, o \neuro, no Reino Unido.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o  pedido  da  Escócia  por  um  novo  referendo  para \ndecidir  sua  permanência  no  Reino  Unido  e  o \ncomprometimento  da  livre  circulação  de  cidadãos \neuropeus no Reino Unido.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o pedido do País de Gales por um novo  referendo \npara  decidir  sua  permanência  no  Reino  Unido  e  o \ncomprometimento  da  livre  circulação  de  cidadãos \neuropeus no Reino Unido.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_72",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em  junho  de  2017,  o  governo  dos  Estados  Unidos  da \nAmérica (EUA) se retirou do “Acordo de Paris”, assinado \nem 2015 por 195 países. Sobre as medidas previstas no \nAcordo  para  a  redução  da  emissão  de  gases  do  efeito \nestufa, e o motivo da saída dos Estados Unidos do referido \nacordo, é correto afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "são  medidas  deliberativas  e  os  países  signatários \npagarão multas pelo descumprimento das metas; os \nEUA  não  aceitam  o  papel  da  ONU  na  função  de \nagente fiscalizador.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "são  medidas  propositivas  e  os  países  signatários \ndeverão definir metas para os próximos anos; os EUA \nnão  concordam  com  o  controle  externo  sobre  suas \nfontes poluidoras.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "são  medidas  restritivas  e  os  países  signatários \nsofrerão  punições  políticas  e  econômicas  se  não \natingirem as metas; os EUA não aprovam a presença \nda Rússia no acordo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "são  medidas  normativas  e  os  países  signatários \ndeverão definir as estratégias a serem adotadas; os \nEUA  não  aceitam  assumir  as  mesmas \nresponsabilidades  da  Índia,  o  maior  poluidor  do \nplaneta.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_73",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Detroit  foi  símbolo  mundial  da  indústria  automotiva. \nChegou a abrigar quase 2 milhões de habitantes entre as \ndécadas de 1960 e 1970. Em 2010, porém, havia perdido \nmais de um milhão de habitantes. O espaço urbano entrou \nem colapso, com fábricas em ruínas, casas abandonadas, \nsupressão de serviços públicos essenciais, crescimento da \npobreza  e  do  desemprego.  Em  2013,  foi  decretada  a \nfalência  da  cidade.  Essa  crise  urbana  vivida  por  Detroit \nresulta dos seguintes processos:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "ascensão do taylorismo; protecionismo econômico e \nconcorrência com capitais europeus; deslocamento de \nindústrias para cidades vizinhas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "consolidação  do  regime  de  acumulação  fordista; \nprotecionismo econômico e concorrência com capitais \neuropeus;  deslocamento  de  indústrias  para  outros \npaíses;",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "declínio  do  toyotismo;  liberalização  econômica  e \nconcorrência com capitais asiáticos; deslocamento de \nindústrias para cidades vizinhas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "ascensão  do  regime  de  acumulação  flexível; \nliberalização econômica e concorrência com capitais \nasiáticos;  deslocamento  de  indústrias  para  outros \npaíses.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_74",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A figura anterior destaca um domínio natural marcado por \nespecificidades  físicas  e  de  ocupação  pela  população. \nAssinale  a  alternativa  que  indica  corretamente  as \ncaracterísticas naturais e humanas predominantes nesse \ndomínio.  \n \n(Adaptado  de  Azis  Ab´Saber,  Os  domínios  de  natureza  no  Brasil: \npotencialidades paisagísticas. São Paulo: Ateliêr Editorial, 2003, p. 159.)",
+      "files": [
+        "/data/comvest/assets/2018/74/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Relevo de Mares de Morro; solos de tipo latossolos; \ngrande  concentração  da  população  ao  longo  dos \ncursos d’água da região.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Relevo  de  Altiplanos  Basálticos;  solos  de  tipo \npodzólicos;  grande  dispersão  da  população  pelos \ndiversos ecossistemas regionais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Relevo Residual de Colinas com afloramento rochoso; \nsolos de tipo litólicos; grande dispersão da população \npelo espaço regional.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Relevo  de  Terras  Baixas;  solos  de  tipo  gleissolos; \ngrande  concentração  da  população  nas  áreas \ninundáveis sazonalmente.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_75",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Santa  Catarina  exemplifica  um  fenômeno  nacional:  a \ncriação de Regiões Metropolitanas (RMs). Considerando a \naplicação desse instrumento de planejamento territorial no \nEstado em questão, assinale a alternativa correta.",
+      "files": [
+        "/data/comvest/assets/2018/75/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Está em curso a formação de uma cidade-região no \nEstado, impulsionando profundas transformações na \nrede urbana, o que justificou a criação das onze RMs \npara viabilizar o planejamento e a gestão territorial.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O  real  processo  de  metropolização  em  Santa \nCatarina,  dinamizado  nas  últimas  décadas,  não \nabrange a totalidade do Estado, permitindo concluir \nque  a  criação  das  onze  RMs  obedeceu  a  critérios \nmais políticos do que técnicos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O  adensamento  populacional,  com  a  formação  de \ngrandes cidades conurbadas em todas as regiões do \nEstado, levou ao diagnóstico de que há um processo \ngeneralizado de metropolização e justificou a criação \ndas onze RMs.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Em função de intensa urbanização regional foi criada \na RM de Florianópolis nos anos 1970; já as demais \nRMs somente se justificaram a partir das mudanças \ndemográficas e econômicas da década passada.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_76",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "(Fonte: https://pt.climate-data.org/location/714809/. Acessado em 21/08/2017.) \n \nO climograma acima refere-se a uma região",
+      "files": [
+        "/data/comvest/assets/2018/76/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "subtropical,  onde  as  temperaturas  mais  altas  estão \nconcentradas  no  verão  e  as  precipitações  estão \nconcentradas no outono.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "polar,  onde  as  temperaturas  mais  baixas  estão \nconcentradas no inverno e as precipitações estão bem \ndistribuídas ao longo do ano.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "tropical,  onde  as  altas  temperaturas  estão  bem \ndistribuídas ao longo de todo o ano e as precipitações \nestão concentradas no verão.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "temperada, onde as temperaturas médias mantêm-se \nao  longo  de  todo  o  ano  e  as  precipitações  estão \nconcentradas no inverno.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_77",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Assinale  a  alternativa  correta  sobre  a  presença  de \nagrotóxicos  e  de  sementes  transgênicas  na  agricultura \nbrasileira.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O  uso  de  agrotóxicos  e  sementes  transgênicas \nassocia-se à busca de maior produtividade, sobretudo \nem áreas de fronteira agrícola.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "As  sementes  transgênicas  e  o  uso  de  agrotóxicos \nadequados ampliaram o interesse de países da União \nEuropeia pelos produtos agrícolas brasileiros.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O uso de agrotóxicos no Brasil reduziu a necessidade \nde  aproveitamento  das  sementes  transgênicas  nos \ncultivos agrícolas de grãos no país.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Por ser signatário de acordos internacionais, o Brasil \nreduziu o uso de agrotóxicos e sementes transgênicas \nem áreas próximas a mananciais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_78",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Frequentemente o terrorismo recorre a ações de grande \nimpacto. Contudo, seu objetivo maior é o de influenciar os \nespíritos;  antes  de  tudo,  ele  visa  a  aterrorizar,  e  se \ndistingue  da  criminalidade.  Invocando  reivindicações \npolíticas,  de  natureza  social,  econômica  ou  religiosa,  o \nterrorismo",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "realiza-se apenas no âmbito internacional, enquanto a \ncriminalidade  é  marcada  pelo  objetivo  primeiro  do \nganho financeiro.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "realiza-se nacional e internacionalmente, enquanto a \ncriminalidade  é  marcada  pelo  objetivo  primeiro  do \nganho financeiro.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "realiza-se apenas no âmbito internacional, enquanto a \ncriminalidade  é  marcada  basicamente  por  objetivos \nideológicos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "realiza-se nacional e internacionalmente, enquanto a \ncriminalidade  é  marcada  basicamente  por  objetivos \nideológicos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_79",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A figura a seguir exibe uma representação estilizada do \nmapa  do  Estado  de  São  Paulo.  As  linhas  pontilhadas \nhorizontais  e  verticais  indicam  intervalos  iguais  de \nlongitude e latitude, e o ponto preto representa a cidade de \nCampinas.  \n  \nConsidere  que  o  Estado  de  São  Paulo  está, \naproximadamente, entre as latitudes   e   Sul e entre \nas longitudes   e   Oeste. A partir da representação \nacima, conclui-se que Campinas se localiza entre",
+      "files": [
+        "/data/comvest/assets/2018/79/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "as latitudes 24° e 25° Sul.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "as latitudes 21° e 22° Sul.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "as longitudes 46° e 48° Oeste.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "as longitudes 50° e 52° Oeste.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_80",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "(Fonte: Fabio R. Marin e Daniel S. P. Nassif “Mudanças climáticas e a cana-de-\naçúcar no Brasil: fisiologia, conjuntura e cenário futuro”. Revista Brasileira de \nEngenharia Agrícola e Ambiental. v. 17, n 2, 2013, p. 233.) \n \nA  figura  acima  indica  a  distribuição  de  usinas \nsucroenergéticas  no  Brasil  em  2010.  Essas  usinas \nprovocaram  aumento  da  produção  de  vinhaça,  resíduo \npastoso e malcheiroso resultante da destilação do caldo de \ncana-de-açúcar fermentado.  \n \nAssinale a alternativa correta.",
+      "files": [
+        "/data/comvest/assets/2018/80/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "No Centro-Oeste, as usinas estão concentradas em \náreas anteriormente ocupadas pelo Cerrado; quando \na  vinhaça  atinge  os  rios,  ocorre  aumento  na \nquantidade de micro-organismos nocivos aos peixes.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O  processamento  da  cana  no  Sudeste  está \nconcentrado no Vale do Paraíba; a vinhaça é rica em \ncompostos sulfurados, leva à contaminação ambiental \ne não serve como fertilizante.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "As usinas do Nordeste concentram-se no Agreste; a \nvinhaça  é  rica  em  matéria  orgânica  e  pode  ser \nutilizada como adubo para o solo.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Na região Norte há poucas usinas, situadas apenas \nnas  Terras  Altas  amazônicas;  a  vinhaça  é  rica  em \nmatéria  orgânica,  mas  o  processo  de  destilação \nelimina seus nutrientes.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_81",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os eixos do gráfico a seguir representam duas variáveis, \numa  delas  não  identificada  no  gráfico.  Uma  curva \nrepresenta  animais  endotérmicos  e  a  outra,  animais \nectotérmicos.  \n \n(Adaptado  de  KHAN  ACADEMY,  Endotherms  and  ectotherms. \nDisponível em www.khanacademy.org. Acessado em 10/08/17.) \n \nA curva que corretamente se aplica ao ser humano é",
+      "files": [
+        "/data/comvest/assets/2018/81/0.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a curva A, sendo que o eixo horizontal representa a \ntemperatura externa e o eixo vertical, o consumo de \nO2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a curva A, sendo que o eixo horizontal representa a \ntemperatura interna e o eixo vertical, o consumo de \nO2",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "a curva B, sendo que o eixo horizontal representa a \ntemperatura externa e o eixo vertical, a liberação de \nCO2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a curva B, sendo que o eixo horizontal representa a \ntemperatura interna e o eixo vertical, a liberação de \nCO2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_82",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os  anfíbios  constituem  um  dos  grupos  de  animais  com \nmaior número de espécies ameaçadas de extinção. Entre \noutras razões, isso ocorre porque eles são suscetíveis à \ncontaminação  por  substâncias  nocivas  e  à  infecção  por \nfungos. Os anfíbios apresentam tal suscetibilidade porque \ntêm",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "hábitos  aquáticos,  que  os  tornam  suscetíveis  a \npredadores.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "pulmões  bem  desenvolvidos,  que  acumulam \nimpurezas e fungos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "sangue  frio,  que  diminui  a  atividade  de  enzimas \nhepáticas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "pele úmida e permeável, que possibilita a respiração \ncutânea.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_83",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em  alguns  casos,  as  organelas  celulares  podem \ntransformar-se e perder a funcionalidade, como acontece \ncom  os  cloroplastos.  Em  plantas  com  alta  atividade  de \nfotossíntese,  mas  com  crescimento  paralisado  e  sem \ndrenos ativos (como flores e frutos), os cloroplastos podem \ndar origem a",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "protoplastos ― células vegetais desprovidas de parede \ncelular.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "amiloplastos  ―  organelas  em  que  ocorre  acúmulo  de \namido.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "proplastos  ―  organelas  imaturas  que  dão  origem  a \ncloroplastos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "cromoplastos  ―  organelas  em  que  ocorre  acúmulo  de \npigmentos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_84",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em  2016,  a  Organização  Mundial  de  Saúde  (OMS) \napresentou  novas  diretrizes  para  o  tratamento  de  três \ndoenças  sexualmente  transmissíveis:  sífilis,  gonorreia  e \nclamidíase. As três doenças citadas são causadas por",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "microrganismos  (bactérias  ou  vírus),  que  passaram \ndos  macacos  para  o  ser  humano  há  muitos  anos, \nlevando ao surgimento de epidemias e pandemias.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "bactérias,  que  podem  se  tornar  resistentes  a \nantibióticos,  se  utilizados  em  excesso  ou  de  forma \ninapropriada, dificultando o tratamento.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "bactérias, que podem ser tratadas e eliminadas pelo \nuso  diligente  de  preservativos  (masculinos  ou \nfemininos) durante as relações sexuais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "protozoários,  que  podem  ser  tratados  e  eliminados \npelo  uso  diligente  de  preservativos  (masculinos  ou \nfemininos) durante as relações sexuais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_85",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Fósseis do organismo Spriggina (em vista dorsal na figura \na  seguir),  que  viveu  há  550  milhões  de  anos,  foram \ndescobertos nas montanhas de Ediacara, na Austrália. Tais \nfósseis  estão  entre  os  mais  antigos  vestígios  de  seres \nmulticelulares já encontrados.\n  \n(Fonte: https://museumvictoria.com.au/melbournemuseum/ \ndiscoverycentre/600-million-years/timeline/ediacaran/spriggina. \nAcessado em 10/07/2017.) \n \nEsse  animal  primitivo,  cuja  classificação  desafia  os \npesquisadores,  possui  algumas  características  ainda \nencontradas na maioria dos animais existentes hoje. Esse \nanimal apresenta",
+      "files": [
+        "/data/comvest/assets/2018/85/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "simetria  bilateral,  com  eixo  ântero-posterior  bem \ndefinido, características não encontradas em cnidários, \nporíferos e equinodermos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "simetria  radial,  com  eixo  dorsoventral  bem  definido, \ncaracterísticas  não  encontradas  em  cnidários, \nmoluscos e equinodermos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "simetria  dorsoventral,  com  eixo  ântero-posterior  bem \ndefinido, características não encontradas em cordados, \nporíferos e cnidários.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "simetria  pentarradial,  com  eixo  dorsoventral  bem \ndefinido, características não encontradas em cnidários, \ncordados e equinodermos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_86",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Assinale  a  alternativa  que  preenche  corretamente  as \nlacunas nas definições a seguir. \n \n(i)  ____________  é  o  conjunto  de  toda  a  informação \ngenética de um organismo.  \n \n(ii) _____________ é um trecho do material genético que \nfornece  instruções  para  a  fabricação  de  um  produto \ngênico.  \n \n(iii)  _____________  é  a  constituição  de  alelos  que  um \nindivíduo possui em um determinado loco gênico. \n \n(iv) _____________ é a correspondência que existe entre \ncódons  e  aminoácidos,  relativa  a  uma  sequência \ncodificadora no DNA.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "(i)  Código  genético;  (ii)  Alelo;  (iii)  Homozigoto;  (iv) Gene.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "(i)  Genoma;  (ii)  Gene;  (iii)  Genótipo;  (iv)  Código genético.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "(i) Código genético; (ii) DNA; (iii) Genótipo; (iv) tRNA.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "(i) Genoma; (ii) Código genético; (iii) Homozigoto; (iv) tRNA.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_87",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Para  um  determinado  caráter,  fenótipo  é  o  conjunto  de \ncaracterísticas  que  o  organismo  exibe  como  fruto  de  seu \ngenótipo.  No  entanto,  no  molusco  hermafrodita  Lymnaea \nperegra, ocorre algo diferente. Neste animal, há dois tipos de \nfenótipo  da  concha  (ver  figura  a  seguir),  que  não  são \ndeterminados  pelo  genótipo  do  próprio  indivíduo.  A  prole \nformada pela fertilização de óvulos vindos de um parental com \ngenótipos  AA  ou  Aa  tem  conchas  dextrógiras;  já  a  prole \nformada pela fertilização de óvulos vindos de um parental aa \ntem conchas levógiras.  \n  Concha dextrógira  \n Concha levógira  \nSe  óvulos  de  um  molusco  Aa  forem  fertilizados  por \nespermatozoides de um molusco aa, as probabilidades de \nocorrência de indivíduos Aa dextrógiros, Aa levógiros, aa \ndextrógiros  e  aa  levógiros  na  prole  resultante  são, \nrespectivamente,",
+      "files": [
+        "/data/comvest/assets/2018/87/1.jpg",
+        "/data/comvest/assets/2018/87/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1/4, 1/4, 1/4 e 1/4.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1/2, 0, 0 e 1/2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1/2, 0, 1/2 e 0.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "1, 0, 0 e 0.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_88",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O mapa a seguir mostra duas áreas oceânicas, A e B. \n  \n(Fonte: Google Maps. Acessado em 10/07/2017.) \n \nUm estudo mostrou que na localidade A são encontradas sete \n(7)  espécies  de  camarões-pistola.  Na  localidade  B  são \nencontradas outras sete (7) espécies, sendo que cada espécie \ndo local A tem uma espécie-irmã correspondente no local B \n(espécies-irmãs  são  espécies  originadas  de  um  mesmo \nancestral comum recente). É correto afirmar que",
+      "files": [
+        "/data/comvest/assets/2018/88/3.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "o  canal  do  Panamá  permitiu  que  camarões-pistola \nmigrassem  de  A  para  B,  adaptando-se  ao  novo \nambiente,  diferenciando-se  e  originando  novas \nespécies semelhantes às do lado A.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "vulcões expeliram substâncias mutagênicas durante o \nTerciário,  o  que  aumentou  a  variabilidade  genética \ndos  camarão-pistola,  originando  espécies-irmãs  nas \náreas oceânicas A e B.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o istmo do Panamá interpôs uma barreira geográfica, \nformando  dois  grupos  isolados  para  cada  espécie \nancestral,  que  puderam  então  se  diferenciar, \noriginando espécies-irmãs nos oceanos A e B.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "o impacto de um asteroide no final do Cretáceo levou \na uma extinção em massa, fornecendo as condições \npara a radiação adaptativa dos camarões-pistola, com \nconsequente formação de espécies-irmãs.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_89",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Altas concentrações de metais pesados foram encontradas \nnas  águas  de  inúmeras  bacias  hidrográficas  brasileiras. \nEsses  poluentes  podem  rapidamente  se  acumular  em \nseres vivos. Por exemplo, peixes podem absorver metais \npesados da água e pela ingestão de alimentos, retendo-os \nem seu tecido muscular. \n \n(Adaptado de Daniel P. de Lima e outros, Contaminação por metais \npesados em peixes e água da bacia do rio Cassiporé, Estado do \nAmapá, Brasil. Acta Amazonica, Manaus, 45, pp. 405-414, 2015.)  \n \nAssinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Metais pesados, como o urânio, são encontrados em \nmaiores concentrações em herbívoros longevos ou do \nmeio  da  teia  alimentar,  como  tartarugas  marinhas  e \npeixes de fundo de rio.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Metais  pesados,  como  o  mercúrio,  são  encontrados \nem maiores concentrações em carnívoros do meio da \nteia  alimentar,  como  aves  de  rapina  e  peixes \npredatórios.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Metais  pesados,  como  o  ferro,  são  encontrados  em \nmaiores concentrações em herbívoros e carnívoros do \ntopo da teia alimentar, como aves de rapina e peixes \npredatórios.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Metais pesados, como o chumbo, são encontrados em \nmaiores concentrações em predadores longevos ou do \ntopo da teia alimentar, como aves de rapina e peixes \npredatórios.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2018-UNICAMP_2018_90",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2018",
+      "year": 2018,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Algumas  plantas  de  ambientes  áridos  apresentam  o \nchamado \"metabolismo ácido das crassuláceas\", em que \nhá captação do CO  atmosférico durante a noite, quando \n2\nos estômatos estão abertos. Como resultado, as plantas \nproduzem ácidos orgânicos, que posteriormente fornecem \nsubstrato para a principal enzima fotossintética durante o \nperíodo diurno. É correto afirmar que essas plantas",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "respiram e fotossintetizam apenas durante o período \ndiurno.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "respiram e fotossintetizam apenas durante o período \nnoturno.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "respiram o dia todo e fotossintetizam apenas durante o \nperíodo diurno.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "respiram e fotossintetizam o dia todo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

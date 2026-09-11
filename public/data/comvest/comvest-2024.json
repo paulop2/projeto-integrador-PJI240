@@ -1,0 +1,3231 @@
+{
+  "schemaVersion": 1,
+  "packageId": "comvest-2024",
+  "institutionId": "unicamp",
+  "examId": "comvest",
+  "editionId": "comvest-2024",
+  "questions": [
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_1",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "‘Nevou’ no Rio\nEm pleno verão, o fenômeno que vem chamando atenção nas \nruas do Rio é conhecido como “nevada carioca”, ou apenas \n“nevou”. Trata-se da mania de descolorir, platinando os cabelos \naté os fios ficarem completamente brancos, que tomou conta \ndas cabeças dos jovens de Norte a Sul e virou a febre do mo-\nmento. A onda começou às vésperas do Natal, ganhou força \nno réveillon e entrou em janeiro lotando os salões. Nascida nas \ncomunidades e nos subúrbios, a tendência ultrapassou fronteiras geográficas e sociais da cidade, principalmente depois de \nganhar as redes e de ter conquistado artistas e atletas. Cabeleireiros e donos de salão apostam que o modismo resiste com \nforça até os dias de folia.\n(Adaptado  de:  https://oglobo.globo.com/rio/noticia/2023/01/nevou-no-rio-mania-de-\n-descolorir-o-cabelo-ate-ficar-quase-branco-vira-moda-entre-os-cariocas.ghtml.  Acesso \nem 22/06/2023.)\nNo texto, o verbo nevar apresenta sentido",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "literal e é sinônimo de descolorir.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "figurado e quer dizer embranquecer.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "metafórico e é antônimo de escurecer.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "metonímico e significa cabelos brancos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_2",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "‘Nevou’ no Rio\nEm pleno verão, o fenômeno que vem chamando atenção nas \nruas do Rio é conhecido como “nevada carioca”, ou apenas \n“nevou”. Trata-se da mania de descolorir, platinando os cabelos \naté os fios ficarem completamente brancos, que tomou conta \ndas cabeças dos jovens de Norte a Sul e virou a febre do mo-\nmento. A onda começou às vésperas do Natal, ganhou força \nno réveillon e entrou em janeiro lotando os salões. Nascida nas \ncomunidades e nos subúrbios, a tendência ultrapassou fronteiras geográficas e sociais da cidade, principalmente depois de \nganhar as redes e de ter conquistado artistas e atletas. Cabeleireiros e donos de salão apostam que o modismo resiste com \nforça até os dias de folia.\n(Adaptado  de:  https://oglobo.globo.com/rio/noticia/2023/01/nevou-no-rio-mania-de-\n-descolorir-o-cabelo-ate-ficar-quase-branco-vira-moda-entre-os-cariocas.ghtml.  Acesso \nem 22/06/2023.)\nAssinale a alternativa em que todas as palavras listadas têm um \nmesmo referente dentro do texto.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "fenômeno – onda – tendência – modismo",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "mania – onda – febre – força",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "fenômeno – momento – mania – febre",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "modismo – tendência – força – momento",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_3",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto 1\nVivemos no limiar de uma transição, em que a automação ocu-\npará cada vez mais espaços na sociedade. Neste novo cenário, \nhá um componente atuando com desenvoltura entre nós. Suas \nações e decisões, invisíveis e muitas vezes autônomas, estão \ncada vez mais presentes no dia a dia da vida contemporânea. \nSeu comportamento, no entanto, é opaco e pouco compreen-\ndido. Trata-se dos algoritmos. São eles que, muitas vezes, deci-\ndem se você é contratado ou demitido, se você vai ter acesso a \num benefício social, se seu visto de imigração vai ser concedido \nou negado, quais notícias você vai ver nas redes sociais, qual o \nmelhor trajeto do trabalho para casa ou qual o parceiro mais \napropriado para um relacionamento.\n(Adaptado de: MENDONÇA, R.F.; FIGUEIRAS, F.; ALMEIDA, V. Algoritmos controlam socie-\ndade e tomam decisões de vida ou morte. Folha de S. Paulo, 7 abr. 2021.)\nTexto 2\n\n(Quadrinhos com o personagem laranja e amarelo, que representa um algoritmo, da série criada por André Dahmer. Disponível em: https://diplomatique.org.br/novas-tirinhas-\n-de-andre-dahmer-transformam-algoritmo-em-personagem-intrometido/.  Acesso  em \n28/07/2023.)\nA partir do texto 1, é possível afirmar que o texto 2 explora o \nfato de que os algoritmos",
+      "files": [
+        "/data/comvest/assets/2024/3/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "definem o que é melhor ou mais apropriado para cada pessoa.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "são opacos porque aleatoriamente expõem às pessoas produtos para compra.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "se servem dos nossos dados para nos oferecer continuamente produtos a serem consumidos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "controlam a vida humana para aperfeiçoar as nossas tomadas de decisão.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_4",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O anúncio (Texto 1) reproduzido a seguir foi postado nas redes \nsociais da Portela, escola de samba carioca, para divulgar uma \nfesta literária. A escola, que traz a águia como símbolo em to-\ndos os seus desfiles (Texto 2), completou 100 anos em 2023.\nTexto 1\n\nTexto 2\n\nConsiderando a imagem no texto 2, podemos afirmar que o \ntexto 1 promove uma",
+      "files": [
+        "/data/comvest/assets/2024/4/3.jpg",
+        "/data/comvest/assets/2024/4/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "fusão entre o símbolo da escola e o produto da expressão \nliterária, que aparece materializado no desenho das asas da \náguia.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "relação entre a festa literária, mencionada em segundo pla-\nno, e o desenho do símbolo da escola, que passa a personi-\nficar a literatura.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "associação das asas da águia com o título atribuído à fes-\nta literária, que mostra o nome da escola antecedido pelo \nprefixo fli.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "ressignificação do símbolo da Portela, cujo desenho faz re-\nferência direta à arte literária, para destacar o centenário da \nescola como tema da festa.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_5",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O texto a seguir é um trecho da canção Pantanal, que foi tema \nde abertura da novela com o mesmo nome, exibida originalmente pela TV Manchete em 1990 e regravada pela TV Globo \nem 2022.\nLendas de raças, cidades perdidas nas selvas do coração do Brasil.\nContam os índios de deuses que descem do espaço no coração \ndo Brasil.\nRedescobrindo as Américas quinhentos anos depois,\nLutar com unhas e dentes pra termos direito a um depois.\nFim do milênio, resgate da vida, do sonho, do bem.\nA terra é tão verde e azul.\nOs filhos dos filhos dos filhos dos nossos filhos verão.\n(Pantanal, letra de Marcus Viana, gravada pelo grupo Sagrado Coração da Terra na coletânea em LP Sagrado – Farol da Liberdade, lançada em 1991 pelo selo Sonhos & Sons.) \nNesse trecho da canção, podemos identificar",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "repetição de advérbios que indicam as mesmas circunstâncias de tempo e de lugar, para produzir um efeito de redundância a respeito da luta pela terra.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "indeterminação de sujeito com verbo na terceira pessoa do \nplural, para produzir um efeito de incerteza quanto ao papel \ndas futuras gerações.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "atribuição de características positivas por meio de substantivos que indicam cores, para produzir um efeito de otimismo \nna preservação da natureza.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "encadeamento sucessivo de termos ligados por preposição, \npara produzir um efeito de continuidade temporal quanto à \ncondição do planeta.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_6",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "je ne parle pas bien*\nje ne parle pas bien\nje ne parle pas bien\nje ne parle pas bien\neu tenho uma língua solta\nque não me deixa esquecer\nque cada palavra minha\né resquício da colonização\ncada verbo que aprendi conjugar\nfoi ensinado com a missão\nde me afastar de quem veio antes\nnossas escolas não nos ensinam\na dar voos\n [...]\nreinvenção\nnossa revolução surge e urge\ndas nossas bocas\ndas falas aprendidas\nque são ensinadas\ne muitas não compreendidas\nsalve, a cada gíria\nje ne parle pas bien\n[...]\no que era pra ser arma de colonizador\nestá virando revide de ex colonizado\nestamos aprendendo as suas línguas\ne descolonizando os pensamento\n* Je ne parle pas bien, do francês, significa “Eu não falo direito”.\nPodemos afirmar que o uso repetido do verso Je ne parle pas \nbien no poema slam de Luz Ribeiro",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "expressa a necessidade de repetir muitas vezes uma mesma \nsentença como forma de resistir ao esquecimento de uma \nlíngua.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "enfatiza a ideia de que a língua francesa do colonizador ain-\nda não foi aprendida e precisa ser repetida várias vezes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "é uma constatação de que, na posição de ex-colônia, não \nconseguimos aprender línguas estrangeiras.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "indica um posicionamento de resistência por meio de uma \ncrítica à aprendizagem forçada da língua do colonizador.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_7",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto 1\n“Que século, meus Deus! – exclamaram os ratos\nE começaram a roer o edifício”.\n(“Edifício Esplendor” (1955), de Carlos Drummond de Andrade, epígrafe do conto “Seminário dos Ratos”, de Lygia Fagundes Telles.)\nTexto 2\nEpígrafe é um paratexto (um texto que acompanha o texto \nprincipal), que pode justificar ou comentar um título ou texto; \nreferenciar a relação entre o autor do texto e o da epígrafe; criar \num efeito por meio do qual a presença da epígrafe já evoca a \nidentificação do autor do texto com uma época ou movimento.\n(Adaptado de: GENETTE, G. Paratextos Editoriais. Tradução de Álvaro Faleiros. Cotia: Ateliê Editorial, 2009.)\nConsiderando os textos 1 e 2, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A epígrafe associa o conto de Lygia ao “sentimento do mundo” drummondiano.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A epígrafe mostra que os versos de Drummond são imprescindíveis à escrita do conto.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A epígrafe justifica o título do conto e comenta os possíveis \nsentidos críticos dele.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A epígrafe identifica Lygia à geração de 30 do Modernismo, \nao lado de Drummond.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_8",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia o trecho da reportagem:\n“Mulher espancada após boatos em rede social morre no Guarujá, SP\n(...)\nA dona de casa Fabiane Maria de Jesus, de 33 anos, morreu na \nmanhã desta segunda-feira (5), dois dias após ter sido espancada por dezenas de moradores do Guarujá, no litoral de São \nPaulo. Segundo a família, ela foi agredida a partir de um boato \ngerado por uma página em uma rede social (...)”\n(G1, Santos, 05/05/2014. Disponível em: https://g1.globo.com/sp/santos-regiao/noticia/2014/05/mulher-espancada-apos-boatos-em-rede-social-morre-em-guaruja-sp.html. \nAcessado em 04/07/2023.) \nAssinale o trecho de um dos contos a seguir – extraídos de EVARISTO, Conceição. Olhos d’Água. Rio de Janeiro: Pallas; Fundação Biblioteca Nacional, 2016 –, trecho este que relaciona o \nacontecimento da reportagem ao texto de ficção:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "“Os mais velhos, acumulados de tanto sofrimento, olhavam \npara trás e do passado nada reconheciam no presente. Suas \nlutas, seu fazer e saber, tudo parecia ter se perdido no tempo (...) Deram de clamar pela morte. E a todo instante eles \npartiam” (p. 112).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "“Vi só lágrimas e lágrimas. Entretanto, ela sorria feliz. Mas \neram tantas lágrimas, que eu me perguntei se minha mãe \ntinha olhos ou rios caudalosos sobre a face. E só então compreendi. Minha mãe trazia, serenamente em si, águas correntezas (...). Águas de Mamãe Oxum!” (p. 18-19).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "“Os assaltantes desceram rápido. Maria olhou saudosa e \ndesesperada para o primeiro. (...) Alguém gritou que aquela \nputa safada lá da frente conhecia os assaltantes (...). A primeira voz, a que acordou a coragem de todos, (...) levantou \ne se encaminhou em direção à Maria (...)” (p. 41-42).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "“Nos últimos tempos na favela, os tiroteios aconteciam com \nfrequência e a qualquer hora. Os componentes dos grupos \nrivais brigavam para garantir seus espaços e freguesias. Havia ainda o confronto constante com os policiais que invadiam a área” (p. 76).",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_9",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No início da novela Casa Velha, de Machado de Assis, o cônego \nda Capela Imperial, um personagem da história, assumindo a \nvoz narrativa dela, conta a seus interlocutores:\n“– Não desejo ao meu maior inimigo o que me aconteceu no \nmês de abril de 1839.” \n(MACHADO DE ASSIS. Casa Velha. Rio de Janeiro: Paz e Terra, 1986, p. 11.)\nDe acordo com o texto, o acontecimento desagradável que vitimou o religioso faz com que ele possa ser considerado, ao final \nda narrativa, como",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "um boêmio que se sente entediado na presença dos convivas da Casa Velha: “Disseram-me que era amiga da família, \ne se chamava Mafalda. (...) Creio que disseram ainda outras \ncoisas; mas não me interessando nada, nem a conversação, \nnem a hóspeda, (...) deixei-me estar comigo” (p. 29-30).",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "um antiescravista, obrigado a conviver, na mesma casa grande, com senhores, agregados e escravos: “Lalau (...) com as \nmãos no ombro do moleque, ora fitava os olhos na carapinha deste, ouvindo somente as palavras de Félix; ora erguia-os para o moço (...)” (p. 67).",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "um republicano que suporta um velho Coronel de posições \nconservadoras: “Reverendíssimo, (...) os farrapos invadiram \nSanta Catarina, entraram na Laguna, e os legais fugiram. \nEu, se fosse o governo, mandava fuzilar a todos estes para \nescarmento...” (p. 89).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "um ingênuo que se deixa iludir em suas relações pessoais: \n“nem por sombras me acudiu que a revelação de Dona Antônia podia não ser verdadeira (...) Não adverti sequer na \nminha cumplicidade. Em verdade, eu é que proferira as palavras que ela trazia na mente (...)” (p. 89).",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_10",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“Um deles viu umas contas brancas de rosário, acenou que lhas \ndessem e divertiu-se muito com elas. Enrolou-as ao pescoço, \ndepois tirou-as e embrulhou-as no braço, e acenava para a terra \ne depois para as contas, e em seguida para o colar do capitão, \ndando a entender que eles dariam ouro por aquilo. Isto nós \nentendíamos assim porque queríamos. Mas se ele queria dizer \nque levaria as contas e mais o colar, isto nós não queríamos \nentender, porque não lho daríamos.\"\n(CAMINHA, Pero Vaz de. Carta de Achamento do Brasil. Campinas: Editora da UNICAMP, \np. 108, 2001.)\nEm seu relato de viagem, Pero Vaz de Caminha",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "descreve a natureza e as pessoas que os portugueses encontraram no Novo Mundo, inventariando os detalhes da \nviagem, com vistas à preservação da História Colonial.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "descreve e interpreta os fatos, mostrando que a compreensão dos portugueses sobre os povos originários era mediada \npelos interesses do colonizador.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "descreve como os povos originários do Novo Mundo auxiliaram os colonizadores na prospecção por riquezas, antevendo a realização do projeto colonizador.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "descreve e interpreta os fatos, sugerindo que, na visão dos \npovos originários, era possível a convivência pacífica com o \ncolonizador, já que compartilhavam os mesmos interesses.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_11",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em 1921, Mário de Andrade, escrevendo a série de artigos \n“Mestres do passado”, publicados no Jornal do Comércio (edição de São Paulo), observou: \n\"Tarde [de Olavo Bilac] foi uma promessa de anos seguidos. Tais \nsão, tão salientes os artifícios e tão repetidos que muito bem \nprovam o esforço do poeta decaído da poesia e a sua parca \ninspiração (...).” \n(ANDRADE, M. Mestres do passado – Olavo Bilac. In: BRITO, M.S. História do modernismo brasileiro. Antecedentes da Semana de Arte Moderna. 5.ed. Rio de Janeiro: Civilização Brasileira, p. 288-289, 1978.) \nRelacione, ao poema a seguir, o trecho da crítica anterior, assinalando a alternativa que coincide com a ideia geral de Mário \nsobre a obra de Bilac.\nAs estrelas\nOlavo Bilac\nDesenrola-se a sombra no regaço \nDa morna tarde, no esmaiado anil; \nDorme, no ofego do calor febril, \nA natureza, mole de cansaço. \nVagarosas estrelas! passo a passo,       \nO aprisco desertando, às mil e às mil,     \nVindes do ignoto seio do redil       \nNum compacto rebanho, e encheis o espaço...    \nE, enquanto, lentas, sobre a paz terrena,      \nVos tresmalhais tremulamente a flux,\n– Uma divina música serena \nDesce rolando pela vossa luz:\nCuida-se ouvir, ovelhas de ouro: a avena \nDo invisível pastor que vos conduz...\n(BILAC, Olavo. Tarde. Rio de Janeiro: Livraria Francisco Alves, p. 42-43, 1919.)\nEsmaiado: esmaecido, pálido\nAprisco: curral\nRedil: curral para o gado ovino ou caprino; rebanho de ovelhas\nTresmalhar: Afastar-se, perder-se do rebanho\nFlux: fluxo\nAvena: flauta pastoril",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O crítico lamenta o espaçamento da criação poética de Bilac, o que se expressa no poema pela imagem das estrelas \nque se afastam umas das outras.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "O crítico elogia os salientes artifícios da linguagem poética \nde Tarde, o que se pode perceber, por exemplo, pela variedade de sinônimos para a palavra “curral”.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O crítico evoca, como resultado da pouca inspiração artística \ndo poeta, a sobrecarga de investimento formal (os hipérbatos ou inversões, por exemplo).",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O crítico associa a poesia de Bilac ao estilo decadentista, o \nque é reforçado pelas imagens de esgotamento, como se \nvê nas palavras “morna”, “esmaiado”, “ofego”, “mole”, \n“lentas”.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_12",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Leia as duas citações a seguir, extraídas do início e do final de \nO Ateneu:\n“Lembramo-nos, entretanto, com saudade hipócrita, dos feli-\nzes tempos; como se a mesma incerteza de hoje, sob outro \naspecto, não nos houvesse perseguido outrora e não viesse de \nlonge a enfiada das decepções que nos ultrajam. Eufemismo, \nos felizes tempos, eufemismo apenas, igual aos outros que nos \nalimentam, a saudade dos dias que correram como melhores. \nBem considerando, a atualidade é a mesma em todas as datas. \nFeita a compensação dos desejos que variam, das aspirações \nque se transformam, alentadas perpetuamente do mesmo ar-\ndor, sobre a mesma base fantástica de esperanças, a atualidade \né uma (...)”.\n“Aqui suspendo a crônica das saudades. Saudades verdadei-\nramente? Puras recordações, saudades talvez, se ponderarmos \nque o tempo é a ocasião passageira dos fatos, mas sobretudo \n— o funeral para sempre das horas.”\n(POMPEIA, Raul. O Atheneu (Chronica de saudades).  Rio de Janeiro: Tipografia de Gaze-\nta de Notícias, p 3-4 e 368, 1888.)\nCom base nessas duas citações, é possível afirmar que, ao fim \nda narrativa de Sérgio sobre sua vida no colégio, o narrador",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "idealiza a felicidade experimentada na infância, suas aspira-\nções, seu ardor e suas esperanças.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "considera que a felicidade passada não era maior que a do \npresente, pois os tempos são iguais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "duvida da própria saudade, separando as lembranças relati-\nvas ao passado daquele sentimento associado a elas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "denuncia a hipocrisia da saudade que sente, por saber que \na passagem do tempo é incerta.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_13",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Estudos, publicados na Nature Geoscience e na revista Science, \napontam para a queda acentuada das temperaturas na Europa \ne na Ásia a partir do ano de 536, gerando a chamada “Pequena Idade do Gelo da Antiguidade Tardia”. As mudanças nas \ntemperaturas podem ter sido causadas por erupções vulcânicas, cujos efeitos foram reforçados pelas correntes oceânicas, \npela expansão do gelo e pela coincidência de um mínimo solar \n(século VI). A conjugação desses fatores teria gerado mudanças \nefetivas na história, já que a agricultura e a pastagem teriam \nsido diretamente atingidas. Exemplos dessas relações entre o \nclima e a história humana podem ser encontrados na Antiguidade, como a invasão da Europa por vários povos das estepes, \na queda do segundo império persa, a entrada dos turcos na \nAnatólia, o início da expansão árabe, entre outros.\n(Adaptado de: CRIADO, M.l Á. “Uma pequena ‘idade do gelo’ pode ter mudado a história \nda Antiguidade (...)”. El País, fev, 2016.)\nCom base em seus conhecimentos sobre a Antiguidade e tendo \nem vista o excerto anterior, é correto afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "a história do planeta Terra e a história humana são indissociáveis; eventos do século VI são bons exemplos disso: \nmudanças nos ecossistemas teriam gerado peste, fome e \nescassez, levando aos deslocamentos de povos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "a “Pequena Idade do Gelo da Antiguidade Tardia”, assim \ncomo as mudanças climáticas dos séculos XX e XXI, foram \nprovocadas, em especial, pela ação humana e também pelas \nmudanças nas paisagens dos campos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "os efeitos das mudanças climáticas no passado eram locais; \nos eventos históricos citados se desconectavam das mudanças nos ecossistemas encontrados na Europa e na Ásia.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "os estudos sobre as mudanças nas temperaturas no século VI apresentam uma visão sobre o passado, destacando \ncomo grupamentos humanos controlavam as mudanças na \nnatureza.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_14",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“Dos pretos é tão própria e natural a união que a todos os que \ntêm a mesma cor, chamam parentes; a todos os que servem na \nmesma casa, chamam parceiros; e a todos os que se embarcam \nno mesmo navio, chamam malungos.” \n(VIEIRA, Padre  Antônio. Sermão XX. Parte II. Lisboa: Impressão Craesbeeckiana, p. 165, \n1688.) \nSobre as comunidades de malungos no período da escravidão, \né correto afirmar, de acordo com o texto, que são formadas",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "nos laços entre africanos de múltiplas etnias, os quais ha-\nviam atravessado juntos o Atlântico.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "no encontro dos africanos nas senzalas, no exercício de ofí-\ncios e no trabalho da lavoura.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "no Novo Mundo por pessoas de uma mesma etnia que se \nreconheciam como iguais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "nos quilombos rurais e urbanos, formados por escravizados \nfugidos de muitas etnias.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_15",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No processo de Independência, várias tropas indígenas foram \nrecrutadas para proteger o território contra uma possível invasão portuguesa no litoral cearense entre setembro e novembro de 1822. Já os índios da vila de Cimbres, em Pernambuco, \nse posicionaram em 1824 a favor de Dom João VI, opondo-se \nà Independência e à Constituição. No entanto, o que parecia \nser mais comum era o engajamento dos índios no projeto de \nBrasil independente, identificando-se como “brasileiros”. Nas \nrevoltas, buscavam muito menos se contrapor aos europeus e, \nassim, lutar por uma nova posição social que não mais os obrigasse ao trabalho forçado. \n(Adaptado de: COSTA, J. P. P. “Povos indígenas e a Independência”. Disponível em:  https://bicentenario2022.com.br/textos/. Acesso em 21/05/2023.)\nTendo em vista seus conhecimentos sobre a participação dos \npovos indígenas no processo de Independência, e considerando \no texto do blog citado, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "As disputas dos ameríndios em torno do “ser brasileiro” visavam à manutenção da ordem social vigente.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "As populações indígenas participaram, com projetos políticos específicos, dos processos da Independência.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A independência era entendida pelos indígenas como uma \nameaça a Dom João VI, símbolo da nação brasileira.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A diversidade da ação indígena se relacionava à distribuição \nde terras e títulos estabelecidos pela Corte portuguesa.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_16",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Muitos fotógrafos no século XIX registraram obras de engenharia. O francês Édouard Baldus (1813-1889) atuou, primeiro \ncomo pintor e depois como fotógrafo, no inventário de monumentos arquitetônicos da Comissão dos Monumentos Históricos (1851) na França. Suas fotografias sobre esses monumentos \nrenderam-lhe fama de fotógrafo de arquitetura. Sob encomenda, Baldus editou um álbum para a Companhia dos Caminhos \nFérreos do Norte (1855) e registrou estações, instalações ferroviárias, portos e cidades, ao longo desta via entre Paris e a cidade de Boulogne-sur-Mer. A rainha Vitória ganhou um exemplar \ndessa publicação.\n(Adaptado de: OLIVEIRA, E. R. Vistas fotográficas das ferrovias: a produção de registros \nde obra pública no Brasil do século XIX. Hist cienc saude-Manguinhos [Internet], 25(3), \np. 695-723, 2018.) \nTendo em vista seus conhecimentos sobre mundo contemporâneo e considerando o texto, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Na Europa do século XIX, a difusão social das fotografias das \nobras públicas se dava por meio de jornais impressos com \nbaixa circulação social e restrita aos estudiosos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "No século XIX, a dissociação entre as fotografias de obras \npúblicas e a vida política europeia expressa a desvalorização \nda técnica e do conhecimento científico positivista.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A fotografia teve vários usos e funções no século XIX, entre \neles, o de compor inventários arquitetônicos e retratar obras \nde engenharia.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O álbum fotográfico dado à rainha Vitória era um gesto diplomático que mostrava o descontentamento francês com \na política inglesa.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_17",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Legenda: Imagens de “mulheres de conforto”**, em 1944, na Coreia do Sul.\n** Termo usado para designar coreanas, filipinas e chinesas, \nobrigadas a se prostituírem em bordéis usados por militares japoneses.\nÉ correto afirmar que a fotografia anterior",
+      "files": [
+        "/data/comvest/assets/2024/17/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "foi produzida durante a Guerra Fria e documenta o seques-\ntro, no sudeste asiático, da parte dos soldados norte-ameri-\ncanos, de mulheres. O estupro e a prostituição forçada são \naceitos pelas cortes internacionais como estratégia de guer-\nra, já que os crimes de guerra referem-se apenas às armas \nusadas nos campos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "comprova a ação dos soldados norte-americanos, durante \na Guerra do Vietnã, em relação às mulheres e às crianças \nfotografadas. A prostituição consensual era usada como es-\ntratégia de criação de novos laços sociais e o povoamento \ndos territórios conquistados.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "traz a imagem de mulheres enfileiradas, capturadas e obri-\ngadas a se prostituírem durante a II Guerra Mundial. A vio-\nlação sexual tem sido usada historicamente como arma para \nfragilizar os supostos inimigos, já que as vítimas da violência \nsexual trazem marcas da humilhação e da limpeza étnica e \ntem os laços sociais destruídos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "registra mulheres que, durante a Guerra das Coreias, esco-\nlheram se casar e migrar com os soldados japoneses. A vio-\nlação sexual é uma das marcas dos conflitos entre nações, \natingindo em especial mulheres e crianças que, entendidas \ncomo vulneráveis, se tornam vítimas do domínio masculino.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_18",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Prisões e torturas igualmente triplicaram, principalmente as de \njornalistas. Dentre elas, a mais emblemática foi a de Vladimir \nHerzog, diretor da TV Cultura, que, embora fosse militante \ndo  PCB,  não  desenvolvia  atividade  clandestina  nem  perten-\ncia aos quadros do partido. Herzog foi assassinado dentro do  \nDOI-CODI, sendo a versão oficial de sua morte falsamente atri-\nbuída a um enforcamento. Em sua Autobiografia, Rita Lee pu-\nblicou o bilhete de Elis Regina que fazia menção a uma música \nfeita para “Vlado” e que, obviamente, fora censurada. \n(Adaptado de: LIMA, N. Ditadura no Brasil e Censura nas Canções de Rita Lee. Curitiba: \nAppris, 2019, p.17.)\nA partir da leitura do texto e de seus conhecimentos a respeito \ndesse período da História do Brasil, é correto afirmar, sobre os \neventos narrados, que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Rita Lee, Elis Regina, Caetano Veloso, Chico Buarque, entre \noutros artistas nacionais, tiveram suas músicas censuradas \npela Ditadura Militar, apesar da manutenção da garantia \nconstitucional da liberdade de expressão.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A Ditadura Militar permitiu a continuidade do Partido Co-\nmunista Brasileiro e perseguia sua atuação revolucionária \nvinculada a Stalin e à União Soviética; por conta disso, pren-\ndia e torturava seus filiados.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Centros de detenção da Ditadura Militar, como o DOI-CODI, \noperaram  dentro da legalidade constitucional, sendo que \nos presos, políticos ou não, eram fichados e tinham direito à \ndefesa garantido por lei.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Vladimir Herzog e outros jornalistas foram vítimas de perse-\nguição política, prisões, torturas e execuções realizadas por \nmilitares, com apoio de parte da sociedade civil, em nome \nda ideologia da segurança nacional.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_19",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "history",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Imagem  postada em março de 2023 \nno  Reddit, uma comunidade de fóruns,\n na página específica do Midjourney. Essa página reúne criações feitas na ferramenta de Inteligência Artificial, ferramenta que\n permite criar imagens hiper-realistas a partir de uma descrição em texto. A imagem viralizou a partir do Twitter. O Papa nunca usou aquele\n casaco branco.\n\nTradução da legenda: Eu apenas respiro por você.\n Um beijo, meu belo anjo! \nPanfleto anônimo produzido na França \npré-revolucionária do final do século\nXVIII retratando a rainha Maria Antonieta em um \nromance com a sua amiga, a duquesa Yolande de Polignac.\nCom propósitos diferentes, ambas as imagens promovem a desinformação. Comparando historicamente os dois exemplos de \ndesinformação, é correto afirmar que",
+      "files": [
+        "/data/comvest/assets/2024/19/2.jpg",
+        "/data/comvest/assets/2024/19/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "as campanhas de desinformação podem ser encontradas \nem diferentes contextos, como visto no uso do panfleto da \nrainha pela coroa francesa – com o objetivo de defender a \nmonarquia – e na imagem do Papa – que explora a contradição entre a riqueza do Vaticano e os excluídos defendidos \npor ele.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "no século XVIII e no século XXI, a produção e a circulação de \nfake news e desinformação são controladas pelos aparelhos \nde censura que revisam conteúdos orais e impressos, ainda \nque estruturados a partir de tecnologias diferenciadas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "na era digital, a ruptura causada pelo uso de Inteligência \nArtificial e seu potencial na produção de desinformação está \nao alcance do público, na instantaneidade e no realismo da \nimagem. No início da contemporaneidade, as manipulações \nem imagens e em notícias eram acessadas pelo público através de jornais e panfletos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "os dispositivos de Inteligência Artificial representam uma \nruptura no combate à desinformação ao possibilitar o rastreio e a eliminação instantânea de fake news. No século \nXVIII, o público era refém de notícias falsas pela ausência \ndesta tecnologia.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_20",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto 1\nA OMS (Organização Mundial de Saúde) recomenda que a ingestão de açúcares livres esteja abaixo de 5% da ingestão total \nde energia diária para o nosso organismo. Como alternativa aos \naçúcares livres, tem-se intensificado o uso de adoçantes não \nnutritivos, como, por exemplo, sacarina, sucralose, stevia e aspartame. A própria OMS atualmente recomenda que adoçantes \nnão sejam utilizados para controlar a massa corporal, pois não \noferecem benefício na redução da gordura corporal. Uma bebida muito consumida no cotidiano, o refrigerante, apresenta \nesses dois aspectos para os quais a OMS chama atenção: os \ncomuns têm cerca de 11 g de açúcar por 100 mL e os diets \ncontêm adoçantes não nutritivos.\nO gráfico a seguir apresenta o consumo médio de refrigerante \npor habitante por ano, no período de 2010 a 2021, no Brasil.\n\nDados:  \ni) ingestão total de energia diária para adultos: 8400 kJ (recomendação da OMS).\nii) energia por grama de açúcar: 16,5 kJ.\nDe acordo com as informações do gráfico e do texto 1, pode-se \nafirmar que a média de consumo diário de açúcar, por habitante, para cada ano, devido somente à ingestão de refrigerante,",
+      "files": [
+        "/data/comvest/assets/2024/20/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "foi sempre superior à recomendada pela OMS, o que pode \nindicar uma baixa conscientização da população sobre o \nconsumo de açúcar.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "foi sempre inferior à recomendada pela OMS, o que pode \nindicar uma alta conscientização da população sobre o consumo de açúcar.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "foi superior; porém, mais recentemente, tornou-se inferior \nà recomendada pela OMS, o que pode indicar uma melhora na conscientização da população sobre o consumo de \naçúcar.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "foi inferior; porém, mais recentemente, tornou-se superior \nà recomendada pela OMS, o que pode indicar uma piora na \nconscientização da população sobre o consumo de açúcar.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_21",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "exto 1\nA OMS (Organização Mundial de Saúde) recomenda que a ingestão de açúcares livres esteja abaixo de 5% da ingestão total \nde energia diária para o nosso organismo. Como alternativa aos \naçúcares livres, tem-se intensificado o uso de adoçantes não \nnutritivos, como, por exemplo, sacarina, sucralose, stevia e aspartame. A própria OMS atualmente recomenda que adoçantes \nnão sejam utilizados para controlar a massa corporal, pois não \noferecem benefício na redução da gordura corporal. Uma bebida muito consumida no cotidiano, o refrigerante, apresenta \nesses dois aspectos para os quais a OMS chama atenção: os \ncomuns têm cerca de 11 g de açúcar por 100 mL e os diets \ncontêm adoçantes não nutritivos.\nA resposta glicêmica é a curva da concentração de glicose, em \nfunção do tempo, no sangue. Ela é utilizada como uma forma \nde classificar os alimentos \ncom base em seu potencial \nde elevar a glicose (açúcar) \nno sangue. Pesquisadores da \nUniversidade Johns Hopkins \n(EUA) testaram os efeitos de \nquatro adoçantes na resposta glicêmica de indivíduos \nsaudáveis. Cada grupo foi \nexposto a uma condição, \nconforme a figura abaixo, \nacompanhando-se a resposta glicêmica.\n\n Com base nas \ninformações da figura e do \ntexto 1, pode-se concluir \nque a preocupação da OMS \nquanto ao uso de adoçantes \nnão nutritivos",
+      "files": [
+        "/data/comvest/assets/2024/21/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "precisaria ser complementada com um alerta sobre um risco \naumentado de diabetes tipo 2, pois os adoçantes provocam \no aparecimento de glicose no sangue.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "não precisaria ser complementada com um alerta sobre um \nrisco aumentado de diabetes tipo 2, pois os adoçantes não \nprovocaram o aumento de glicose no sangue.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "não  precisaria  ser  complementada  com  um  alerta  sobre \num risco aumentado de diabetes tipo 2, pois apenas dois \nadoçantes não provocaram o aparecimento de glicose no \nsangue.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "precisaria ser complementada com um alerta sobre um risco \naumentado de diabetes tipo 2, pois dois adoçantes provocaram um aumento de glicose no sangue.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_22",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um refrigerante comum é uma formulação de vários ingredientes: açúcar (11 g por 100 mL), água (88 g por 100 mL) – componentes majoritários –, além de acidulantes, antioxidantes, \nconservantes, adoçantes e CO_2  (componentes em pequenas\nquantidades). O acidulante tem como finalidade regular a doçura do açúcar, realçar o paladar e reduzir o pH do refrigerante, \nque deve estar entre 2,7 e 3,5. Assim, para se usar uma pequena massa de acidulante que proporcione a redução do pH para \no valor desejado, a massa molar do acidulante deve ser",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "pequena e seu pKa deve estar abaixo da faixa de pH do \nrefrigerante.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "pequena e seu pKa deve estar acima da faixa de pH do refrigerante.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "grande e seu pKa deve estar abaixo da faixa de pH do refrigerante.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "grande e seu pKa deve estar acima da faixa de pH do refrigerante.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_23",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O mau gerenciamento da produção das baterias automotivas \nchumbo-ácido e de sua reciclagem após uso pode ocasionar \ncontaminação do meio ambiente e de pessoas. Para minimizar \nesses problemas, a indústria pode levar em conta a “hierarquia \nde resíduos”, uma ordem de preferência nas ações de combate \nà contaminação. A figura a seguir, incompleta, mostra duas \nações possíveis dessa hierarquia. Para minimizar os problemas, \nas ações a serem adotadas, em ordem de preferência e conside-\nrando a direcionalidade indicada na figura, seriam",
+      "files": [
+        "/data/comvest/assets/2024/23/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "descarte adequado; reciclagem; prevenção.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "prevenção; descarte adequado; reciclagem.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "descarte adequado; prevenção; reciclagem.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "prevenção; reciclagem; descarte adequado.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_24",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No  início  de  2023, \num  grupo  de  pesquisadores  estudou \no  desenvolvimento \nde  uma  poliamina \nsólida contendo cobre,  capaz  de  adsorver  CO_2 na fase \n2\ngasosa e em baixas \nconcentrações. A figura abaixo mostra \no esquema de adsorção com a representação do sólido:\n\nDe acordo com os autores do estudo, 1 kg de poliamina contendo cobre é capaz de adsorver até 5 mols de CO_2 , uma quantidade bem superior ao que se conhece até então. Com base \nnessas informações, pode-se concluir que a porcentagem em \nmassa de cobre no sólido é cerca de",
+      "files": [
+        "/data/comvest/assets/2024/24/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "16% e que 1 kg do sólido é capaz de absorver até 110 g de \ngás carbônico.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "32% e que 1 kg do sólido é capaz de absorver até 110 g de \ngás carbônico.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "16% e que 1 kg do sólido é capaz de absorver até 220 g de \ngás carbônico.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "32% e que 1 kg do sólido é capaz de absorver até 220 g de \ngás carbônico.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_25",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "chemistry",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Algumas baterias transformam certas substâncias em outras, \ngerando energia elétrica. Isso permite, por exemplo, o funciona-\nmento de equipamentos tendo como base essa energia (carros \nelétricos) ou então auxilia o funcionamento de equipamentos \n(carros de combustão interna). É por isso que os carros elétricos \nprecisam se abastecer de energia elétrica de tempos em tempos \ne os de combustão não, já que a bateria desses últimos é carre-\ngada durante seu funcionamento. Na descarga da bateria, dois \ncomportamentos são importantes: curva de tensão (Figura A) e \nciclo de vida (Figura B), sendo esse último a quantidade de vezes \nque a bateria pode ser recarregada em função da profundidade \nde sua descarga.\n \nLevando em conta essas informações, seria apropriado escolher \npara equipar um carro",
+      "files": [
+        "/data/comvest/assets/2024/25/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "elétrico uma bateria com as características da curva Y e da \ncurva II; para o carro de combustão interna qualquer com-\nbinação serviria.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "elétrico uma bateria com as características da curva X e da \ncurva I; para o carro de combustão interna, qualquer com-\nbinação serviria.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "de combustão interna uma bateria com as características da \ncurva X e da curva I; para  o carro elétrico, qualquer combi-\nnação serviria.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "de combustão interna uma bateria com as características da \ncurva Y e da curva II; para o carro elétrico qualquer combi-\nnação serviria.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_26",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um grupo de pesquisadores estudou a atividade antibacteriana – em ação sobre duas bactérias, a saber,  Escherichia coli \ne Staphylococcus aureus – da curcumina livre e da curcumina \ncombinada  com  octaarginina.  Os  pesquisadores  observaram \nque a curcumina livre apresenta atividade antibacteriana frente \na uma das bactérias. Na forma combinada, a curcumina foi mais \neficiente – em comparação com a forma livre – no combate \naos dois microrganismos. Tendo em vista essas informações, os \ngráficos que melhor representam os resultados do estudo são \nos seguintes:",
+      "files": [
+        "/data/comvest/assets/2024/26/4.png"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/comvest/assets/2024/26/0.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/comvest/assets/2024/26/1.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/comvest/assets/2024/26/2.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/comvest/assets/2024/26/3.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_27",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Povos e comunidades tradicionais são grupos culturalmente diferenciados e que se reconhecem como tais. Esses grupos contam com formas próprias de organização social, além de ocuparem e usarem territórios e recursos naturais como condição para \nsua reprodução cultural, social, religiosa, ancestral e econômica. \nPara tanto, utilizam conhecimentos, inovações e práticas gerados e transmitidos pela tradição (Inciso I, Art. 3º, Decreto 6.040 \n/ 2007). Estima-se que cerca de 4,5 milhões de pessoas fazem \nparte de comunidades tradicionais atualmente no Brasil.\n(Adaptado de: Populações Tradicionais – Instituto Chico Mendes de Conservação da \nBiodiversidade.  Disponível  em:  https://www.gov.br/icmbio/pt-br/assuntos/populacoes-tradicionais. Acesso em 12/06/2023.)\nAssinale a alternativa que faz a correspondência correta dos povos e comunidades tradicionais com a sua região de atuação e \ncom as suas práticas específicas de organização socioterritorial.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Mulheres quebradeiras de coco babaçu da região do Meio-norte aproveitam as matas de cocais e fazem uso comunitário dos babaçuais para a coleta de coco e de outros produtos das palmeiras.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Geraizeiros da região da Amazônia Ocidental se beneficiam \ndos rios para a pesca e praticam o extrativismo de frutos utilizados na culinária regional e transformados em produtos \nalimentícios.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Caiçaras da região litorânea do Ceará praticam a pesca artesanal, utilizam as riquezas naturais da Mata Atlântica para o \nextrativismo de frutos e fazem uso dos roçados para atividades agrícolas de subsistência.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Faxinalenses do norte de Minas Gerais usufruem dos campos para o desenvolvimento do extrativismo vegetal da erva \nmate e do pinhão, do cultivo agrícola em pequena escala e \nda criação de animais soltos.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_28",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O litoral brasileiro tem uma história fisiográfica e ecológica rica \ne complexa, influenciada por uma variedade de fatores e processos interligados. O Brasil conta com um litoral intertropical e \nsubtropical onde é possível observar uma diversidade de ocorrências geomorfológicas e paisagísticas que se sucedem ao longo de sua costa. \n(Adaptado de: AB'SABER, A. Litoral do Brasil/Brazilian coast. São Paulo: Metalivros,  \np. 281, 2005.)\nA partir de seus conhecimentos sobre o litoral brasileiro, assinale a alternativa correta.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Os manguezais localizam-se nas planícies marinhas recobertas por espécies herbáceas e arbóreas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Os campos de dunas associam-se aos depósitos argilosos e \narenosos, fixados por vegetação pioneira.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "As falésias ativas evoluem de processos continentais e marinhos, com ausência de vegetação na sua base.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Os deltas são formados por sedimentos fluviais e cobertos \npor espécies arbóreas de grande porte.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_29",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Moradores em situação de rua em São Paulo/SP\n\n(Ronaldo  Silva/Photopress/Estadão  Conteúdo.  https://www.cnnbrasil.com.br/nacional/\nprefeitura-faz-moradores-de-rua-desmontarem-barracas-durante-o-dia/  –  Acesso em 18/06/2023.)\nNas grandes cidades de todo o planeta, com maior ou menor \nintensidade, cresce o número de pessoas em situação de rua. \nNo caso brasileiro, todavia, essa é uma realidade urbana perene, \nagravada em momentos de crise. Segundo estimativa do Instituto de Pesquisa Econômica Aplicada (IPEA), em 2022, existiam \n281.472 pessoas em situação de rua no Brasil. \n(MONTFERRE, H., População em situação de rua supera 281,4 mil pessoas no Brasil. \nIPEA, 08/12/2022)\nO fenômeno descrito no excerto, e reportado na imagem, se \nconstituiu historicamente nas cidades brasileiras em função",
+      "files": [
+        "/data/comvest/assets/2024/29/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "da crise conjuntural da última década, agravada com a pandemia de covid-19; muitas vezes, a gestão urbana impõe a \nessa população a precariedade da circulação sem fim pela \ncidade e mesmo pela rede urbana.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "do processo de modernização-urbanização excludente; as \nações de política urbana implementam programas de habitação popular nas áreas centrais para viabilizar a gentrificação e o direito à cidade a essa população.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "da crise conjuntural da última década, agravada pela pandemia de covid-19; a gestão urbana busca formas de integrar \nessa população aos espaços urbanos por meio das casas de \nacolhimento e de programas de emprego e renda.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "do  processo  de  modernização-urbanização  excludente;  a \ngestão urbana promove, muitas vezes, práticas de “higienização” do espaço, isto é, de expulsão, com o apoio de \nsetores da sociedade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_30",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As projeções de população são importantes para o cálculo dos \nindicadores sociodemográficos que fornecem subsídios para a \nformulação de políticas públicas. Segundo as Nações Unidas, \no mundo atingiu a cifra de 8 bilhões de habitantes em 2022, \ndevendo atingir 9,7 bilhões em 2050. Ainda que a população \nmundial continue a aumentar, a dinâmica demográfica varia \nentre as regiões do mundo. Nesse contexto, Estados Unidos da \nAmérica (EUA) e Nigéria passam por mudanças demográficas \ncom reflexos socioeconômicos significativos.\n\n(United Nations, Department of Economic and Social Affairs, Population Division (2022). \nProbabilistic Population Projections based on the World Population Prospects 2022. Disponível em: http://population.un.org/wpp/. Acesso em 25/08/2023.)\nTendo em vista seus conhecimentos sobre dinâmica populacional e considerando o gráfico, assinale a alternativa correta.",
+      "files": [
+        "/data/comvest/assets/2024/30/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Nigéria e EUA têm trajetórias demográficas distintas, ainda \nque ambos apresentem  taxas de natalidade semelhantes. \nIsso afetará seus sistemas de saúde.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Os EUA, ao contrário da Nigéria, apresentam, pela primeira \nvez, crescimento vegetativo negativo. Isso afetará a oferta \nde mão-de-obra no território norte-americano.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A Nigéria, ao contrário dos EUA, manterá elevada a taxa de \nfecundidade. Haverá maior pressão sobre as políticas públicas de educação e de saúde.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Nigéria e EUA enfrentam expressiva redução da população \nem idade adulta ativa. Ambos os países terão problemas \ncom a seguridade social.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_31",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Dentro de um território nacional, as regiões são hoje atingidas \npor complexos vetores de ordem técnica e política, típicos do \nperíodo da globalização. Neste sentido, as regiões, tanto quanto são internamente construídas, seguem as oscilações econômicas nacionais e internacionais. Isso as torna, diferentemente \ndo passado, mais instáveis e sujeitas a frequentes crises. E, conforme se especializam em diferentes tipos de produção para \natender os mercados internacionais, suas fronteiras tornam-se \nmais cambiáveis. \n(Adaptado de: SMITH, N. Contorno de uma política espacializada: veículos dos sem-teto \ne produção da escala geográfica. In: ARANTES, A. A. (Org.) O espaço da diferença. Campinas: Papirus, p. 152, 2000.)\nTendo em vista seus conhecimentos sobre a dinâmica das regiões no mundo contemporâneo e considerando o texto anterior, \né correto afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "desapareceram os laços internos de construção regional, \numa vez que a escala de comando internacional regula as \nespecializações produtivas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "múltiplas escalas de ações perpassam e dinamizam a coesão \nregional, ocasionando instabilidade socioeconômica e mutações aceleradas em suas fronteiras.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o comando externo da produção vinculado aos mercados \ninternacionais torna as fronteiras regionais estáveis e duradouras na escala do território nacional.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "a conformação de arranjos produtivos regionais nesse contexto homogeniza o espaço nacional, apagando as antigas \nidentidades e as desigualdades socioterritoriais.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_32",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Por se situar em uma região limítrofe entre diferentes placas \ntectônicas, a Turquia tem histórico de terremotos de grande \nmagnitude  e  poder  destrutivo.  Em  1939,  um  terremoto  de \nmagnitude 7,8 provocou a morte de cerca de 30.000 pessoas. \nEm fevereiro de 2023, registrou-se um terremoto de magnitude \n7,8 às 4h17 (horário local) e, nove horas depois, registrou-se \nnovo abalo sísmico, dessa vez de magnitude 7,6, o que levou \n50.000 pessoas à morte. \nA figura a seguir mostra a localização do sistema de falhas da \nplaca da Anatólia e indica as áreas atingidas pelos respectivos \nterremotos.\n\n(How the February 2023 Türkiye Earthquakes Ruptured and Produced Damaging Shaking. \nDisponível em: https://www.seismosoc.org/news/how-the-february-2023-turkiye-earthquakes-ruptured-and-produced-damaging-shaking/. Acesso em 12/06/2023.)\nOs tremores de 1939 e de 2023 foram gerados, respectivamente, pelo deslocamento entre a Placa da Anatólia e as placas",
+      "files": [
+        "/data/comvest/assets/2024/32/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Euroasiática e Arábica; o sentido de deslocamento das placas forma falhas transcorrentes.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Indiana e Africana; o sentido de deslocamento forma falhas \nnormais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Arábica e Euroasiática; o sentido de deslocamento das placas forma falhas normais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Africana e Indiana; o sentido de deslocamento forma falhas \ntranscorrentes.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_33",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As convenções cartográficas utilizam símbolos pontuais, lineares, areais, bem como representações proporcionais e gradação \nde cores (coroplética) que permitem certo grau de compreensão \ne intuição de seu significado, possibilitando a leitura da informação contida no mapa por diferentes pessoas.\n\n(Adaptado  de:  https://atlasescolar.ibge.gov.br/conceitos-gerais/o-que-e-cartografia/\nconvenc-o-es-cartogra-ficas.html. Acesso em: 25/08/2023.)\nCom base no excerto e na figura, assinale a alternativa correta.",
+      "files": [
+        "/data/comvest/assets/2024/33/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Os símbolos pontuais se prestam a representar fenômenos \nnão hierárquicos, a exemplo da rede urbana e da tipologia \nde cidades.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "As representações lineares qualificam os fenômenos, não \npermitindo a sua hierarquização, a exemplo da tipologia dos \nsistemas de transportes.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O uso do gradiente de cores serve para diferenciar fenômenos espaciais com variação contínua, a exemplo da altitude \ne da profundidade.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Um mesmo fenômeno pode ser representado por meio de \ndiferentes formas e de variadas cores, a exemplo dos cursos \ne corpos de água.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_34",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Use os valores aproximados: g = 10 m/s^2 e π = 3. \nUma das etapas mais difíceis de um voo espacial tripulado é a \nreentrada na atmosfera terrestre. Ao reencontrar as camadas \nmais altas da atmosfera, a nave sofre forte desaceleração e sua \ntemperatura externa atinge milhares de graus Celsius. Caso a \nreentrada não ocorra dentro das condições apropriadas, há risco de graves danos à nave, inclusive de explosão, e até mesmo \nrisco de ela ser lançada de volta ao espaço.\nLogo ao reentrar na atmosfera terrestre, uma cápsula espacial \npassa a descrever, durante certo tempo, um movimento retilíneo uniformemente variado em que ela é freada com aceleração  a A = 5,0 m/s^2. Se no início dessa etapa (t = 0) do movimento a velocidade da cápsula é  v_0 = 7000 m/s, qual é a \ndistância percorrida até o tempo t = 200 s?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1300 km.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "1400 km.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "1500 km.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "4900 km.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_35",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Use os valores aproximados: g = 10 m/s^2 e π = 3. \nUma das etapas mais difíceis de um voo espacial tripulado é a \nreentrada na atmosfera terrestre. Ao reencontrar as camadas \nmais altas da atmosfera, a nave sofre forte desaceleração e sua \ntemperatura externa atinge milhares de graus Celsius. Caso a \nreentrada não ocorra dentro das condições apropriadas, há risco de graves danos à nave, inclusive de explosão, e até mesmo \nrisco de ela ser lançada de volta ao espaço.\nApós  viajar  pela  atmosfera  por  determinado  tempo,  o \nmódulo  da  velocidade  da  cápsula,  que  inicialmente  era \nv_0 = 7000 m/s, fica reduzido a v = 5000 m/s. Sendo a massa da \n0 \ncápsula m = 3000 kg, qual foi o trabalho da força resultante \nsobre a cápsula durante esse tempo?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "-11,1 x 10^10 J.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "-3,60 x 10^10 J.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "-6,00 x 10^6 J.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "-3,00 x 10^6 J.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_36",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Use os valores aproximados: g = 10 m/s^2 e π = 3. \nUma das etapas mais difíceis de um voo espacial tripulado é a \nreentrada na atmosfera terrestre. Ao reencontrar as camadas \nmais altas da atmosfera, a nave sofre forte desaceleração e sua \ntemperatura externa atinge milhares de graus Celsius. Caso a \nreentrada não ocorra dentro das condições apropriadas, há risco de graves danos à nave, inclusive de explosão, e até mesmo \nrisco de ela ser lançada de volta ao espaço.\nO ar atmosférico comporta-se como um gás perfeito. Sendo a \npressão e a temperatura do ar, numa determinada posição da \nalta atmosfera, dadas por p = 2,0 Pa e T = 180 K (sem a presen-\nça da cápsula na vizinhança), e sendo a constante universal dos \ngases perfeitos  R ≈ 8 J/mol.K, qual é o volume ocupado por \num mol de ar naquela posição?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1,38 x 10^-3 m^3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "9,00 x 10^1 m^3.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "7,20 x 10^2 m^3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2,88 x 10^3 m^3.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_37",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Use os valores aproximados: g = 10 m/s^2 e π = 3. \nUma das etapas mais difíceis de um voo espacial tripulado é a \nreentrada na atmosfera terrestre. Ao reencontrar as camadas \nmais altas da atmosfera, a nave sofre forte desaceleração e sua \ntemperatura externa atinge milhares de graus Celsius. Caso a \nreentrada não ocorra dentro das condições apropriadas, há risco de graves danos à nave, inclusive de explosão, e até mesmo \nrisco de ela ser lançada de volta ao espaço.\nA temperatura extremamente elevada no exterior da cápsula \nioniza o ar atmosférico à sua volta. Esses íons blindam a cápsula \ncomo uma gaiola de Faraday, impedindo, por alguns minutos, \na comunicação por ondas eletromagnéticas de rádio (conversas \nentre a tripulação e a base na Terra, comandos à distância para \najustes de navegação, etc.). O gráfico da figura a seguir mostra \nque, quanto maior a temperatura do ar externo, T , maior é a \nar \nfrequência limite da onda eletromagnética, f , abaixo da qual \n0 \nnão se pode estabelecer comunicação com a cápsula. Se a tem-\nperatura do ar for T  = 4800 K, qual é o comprimento de onda \nar\nλ correspondente à frequência limite f ?\n0\nDado: Velocidade da luz no vácuo: c = 3,0 x10^8 m/s.",
+      "files": [
+        "/data/comvest/assets/2024/37/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,06 m.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "16,7 m.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "0,05 m.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "20 m.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_38",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Um corpo em queda nas proximidades da superfície terrestre sofre a ação da força gravitacional e da força de resistência do ar, \nF_ar; essa última atua em sentido oposto à força gravitacional.\nNos primeiros instantes, F_ar ≈ 0 se o corpo parte do repouso. À \nmedida que a velocidade aumenta, F_ar  também aumenta. Com isso, a aceleração do corpo diminui gradativamente, tornando-se praticamente nula a partir de certo momento. Desse ponto \nem diante, o corpo passa a cair com velocidade constante, chamada de velocidade terminal. Um objeto de massa m = 200 g  é \nsolto a partir de certa altura e atinge a velocidade terminal após \ndeterminado tempo. Qual é o módulo da força de resistência do \nar depois que o objeto atinge a velocidade terminal?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "0,20 N.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2,0 N.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "200 N.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "2000 N.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_39",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A neurotransmissão no organismo humano pode ter origem \nquímica  ou  elétrica.  O  entendimento  das  sinapses  elétricas \nocorreu só mais recentemente, graças a estudos avançados das \npropriedades elétricas dos neurônios. As propriedades mecâni-\ncas dos neurônios - como a elasticidade - são, por seu turno, \nimportantes para a compreensão do desenvolvimento deles.\nEm um estudo do comportamento elétrico de neurônios, apli-\nca-se uma diferença de potencial elétrico (ddp, da ordem de  \n10 ^(-3) V) e mede-se a corrente elétrica (da ordem de 10^(-12) A) que \npassa pelo sistema. A partir dos resultados desse experimento, \nrepresentados no gráfico da figura a seguir, conclui-se que a \nresistência elétrica do sistema é igual a",
+      "files": [
+        "/data/comvest/assets/2024/39/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "14 Ω.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "70 mΩ.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "70 MΩ.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "14 GΩ.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_40",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "physics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A neurotransmissão no organismo humano pode ter origem \nquímica  ou  elétrica.  O  entendimento  das  sinapses  elétricas \nocorreu só mais recentemente, graças a estudos avançados das \npropriedades elétricas dos neurônios. As propriedades mecânicas dos neurônios - como a elasticidade - são, por seu turno, \nimportantes para a compreensão do desenvolvimento deles.\nEm um experimento destinado a investigar propriedades elásticas, uma diminuta ponta aplica uma força F na superfície do \nneurônio, produzindo uma deformação ∆L de forma análoga a \numa mola (ver figura). Foram estudados dois neurônios distintos, designados pelos índices 1 e 2, que foram submetidos à \nação de forças idênticas (F_1 = F_2). As deformações observadas \nforam  ∆L_1 = 20 nm e ∆L_2 = 30 nm.  Se k_1 = 9,0 x 10^(-6) N/m é a constante elástica para o neurônio 1, pode-se deduzir que o \nvalor de k_2 é",
+      "files": [
+        "/data/comvest/assets/2024/40/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "4,0 x 10^(-6) N/m.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "6,0 x 10^(-6) N/m.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "13,5 x 10^(-6) N/m.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "20,25 x 10^(-6) N/m.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_41",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A região à margem do rio Guaporé em Rondônia é considerada  uma  das  mais  importantes  do  planeta  para  a  espécie  \nPodocnemis expansa, popularmente conhecida como tartaruga-da-amazônia.\nAssinale a alternativa que apresenta corretamente uma característica importante para a vida de quelônios fluviais no ambiente \nterrestre.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A pele é seca e completamente impermeável, recoberta por \numa espessa camada, em forma de espículas, composta da \nproteína quitina.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Os alvéolos com grande superfície de troca gasosa permitem a respiração pulmonar e cutânea mesmo nas espécies \naquáticas.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A principal excreta nitrogenada liberada é a ureia, que se \ncaracteriza por ser pouco tóxica e que requer mínima quantidade de água para ser eliminada.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "A fecundação é interna e há formação de ovo amniótico; \nesse ovo possui uma bolsa contendo líquido que envolve o \nembrião.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_42",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O conceito apresentado na figura a seguir é importante para \nfundamentar a classificação biológica baseada nas relações evolutivas entre os organismos.\n\n(Adaptado de: https://evolution.berkeley.edu/similarities-and-differences-understanding-homology-and-analogy-ms/.../. Acesso em 22/8/2023.)\nÉ correto afirmar que as estruturas anatômicas indicadas",
+      "files": [
+        "/data/comvest/assets/2024/42/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "no humano e no lagarto são consideradas análogas; trata-se \nde um caso de evolução convergente.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "na baleia e no pássaro são consideradas homólogas; trata-se \nde um caso de evolução divergente.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "no lagarto e no pássaro são consideradas homólogas; trata-se de um caso de evolução convergente.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "no humano e na baleia são consideradas análogas; trata-se \nde um caso de evolução divergente.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_43",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sabe-se que o uso indiscriminado e irregular de anabolizantes \ngera consequências negativas significativas à saúde humana, \ntais como: tremores, acne severa, hipertensão arterial sistêmica, \ntumores no fígado e pâncreas, distúrbios de coagulação, distúrbios testiculares e menstruais, insônia, entre outros. \n(Adaptado de: https://bvsms.saude.gov.br/anabolizantes/. Acesso em 12/4/2023.)\nAssinale a alternativa que preenche corretamente as lacunas no \nexcerto a seguir.\nA testosterona desempenha importante função no desenvolvimento de tecidos e órgãos do sistema reprodutor masculino, \ncomo (i) ___________ e testículos, além de atuar na promoção \nde características sexuais secundárias, como aumento de massa \nmuscular, crescimento dos pelos corporais, espessamento das \npregas vocais e (ii) ____________. Esse hormônio anabolizante \né sintetizado em várias etapas a partir (iii) __________ e é convertido para metabólitos inativos no (iv) __________.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "(i) próstata; (ii) maturação dos ossos; (iii) do colesterol; (iv) \nfígado.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "(i) vesícula seminal; (ii) maturação dos ossos; (iii) da creatina; \n(iv) fígado.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "(i) próstata; (ii) produção de esperma; (iii) da creatina; (iv) \npâncreas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "(i) vesícula seminal; (ii) produção de esperma; (iii) do colesterol; (iv) pâncreas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_44",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Os lisossomos são organelas centrais que desempenham funções importantes para a homeostase celular. \nAssinale a alternativa que descreve corretamente a função dos \nlisossomos representada na figura a seguir.\n\n(Adaptado de: YANG, C.; WANG, X. Journal of Cell Biology, Nova Iorque, v. 220, \np.e202102001, mai. 2021.)",
+      "files": [
+        "/data/comvest/assets/2024/44/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Heterofagia por pinocitose, o que permite à célula degradar \nfragmentos de microrganismos, fragmentos esses importantes na apresentação de antígenos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Autofagia, que permite à célula empacotar, modificar e exportar proteínas sintetizadas no lúmen das cisternas do retículo endoplasmático.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Autofagia, que permite à célula eliminar porções envelhecidas ou danificadas do citoplasma, incluindo organelas e \nmoléculas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Heterofagia por fagocitose, o que permite à célula capturar \nmacromoléculas, utilizando-as nas diferentes vias biossintéticas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_45",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Uma quimera é um indivíduo formado por dois ou mais tipos de \ncélulas, em que cada tipo contém um genoma distinto. Os machos da espécie de formiga Anoplolepis gracilipes são quimeras \nformadas por dois tipos de células haploides, bastante distintas \ndo ponto de vista genético; essas células são provenientes de \nduas linhagens de formigas, podendo ser chamadas de linhagem 1 e linhagem 2. As rainhas (fêmeas capazes de produzir \nóvulos) desta espécie são indivíduos formados pela fusão entre um óvulo com genoma característico da linhagem 1 e um \nespermatozoide com genoma característico da linhagem 1. Já \nas fêmeas operárias (não reprodutivas) são indivíduos formados pela fusão entre um óvulo com genoma característico da \nlinhagem 1 e um espermatozoide com genoma característico \nda linhagem 2. \n(Adaptado de: DARRAS, H. et al. Science, Washington, v. 380, p.55-58, abr. 2023.)\nCom base em seus conhecimentos e considerando o texto apresentado, pode-se dizer que as diferenças genéticas entre rainhas e operárias se explicam pelo fato de",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "os gametas se fundirem nos machos e operárias.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "os machos conterem células haploides das linhagens 1 e 2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "os machos serem homozigotos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "os machos serem diploides oriundos das linhagens 1 e 2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_46",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A dinâmica populacional de duas espécies que compartilham o \nmesmo habitat é representada na figura a seguir. O tamanho \nmáximo da população de cada espécie é limitado pela disponibilidade de recursos no habitat.\n\nConsiderando seus conhecimentos e os dados apresentados, é \ncorreto afirmar que as espécies",
+      "files": [
+        "/data/comvest/assets/2024/46/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "competem por recursos e apresentam diferenças na eficiência de utilização do alimento disponível.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "ocupam nichos ecológicos distintos e têm crescimento populacional até o limite imposto pela resistência ambiental.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "são generalistas e assim têm nichos ecológicos mais restritos, o que diminui a competição entre elas.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "apresentam uma relação de cooperação, facilitando o crescimento populacional na ausência da resistência ambiental.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_47",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "biology",
+      "language": null,
+      "kind": "single-choice",
+      "context": "A partir da organização tecidual, é possível reconhecer o estágio de desenvolvimento das plantas e mesmo diferenciar monocotiledôneas e eudicotiledôneas. Nas figuras A \ne  B  são  apresentados \nesquemas de raízes em \ncrescimento  primário, \ncom a indicação dos tecidos 1 e 2.\n\nAssinale a alternativa que, de maneira correta, indica, respectivamente, a espécie eudicotiledônea e seus tecidos 1 e 2.",
+      "files": [
+        "/data/comvest/assets/2024/47/2.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Figura A, floema e endoderme.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Figura B, floema e periciclo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Figura A, xilema e endoderme.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Figura B, xilema e periciclo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_48",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "philosophy",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Quando desempenho minha tarefa de irmão, de marido ou de \ncidadão, quando executo os compromissos que assumi, eu cumpro deveres que estão definidos fora de mim e de meus atos, no \ndireito e nos costumes. Ainda que eles estejam de acordo com \nos meus sentimentos próprios e que eu sinta interiormente a \nrealidade deles, tal realidade não deixa de ser objetiva, pois não \nfui eu que os fiz, mas os recebi pela educação. Eis aí, portanto, \nmaneiras de agir, de pensar e de sentir que apresentam essa notável propriedade de existirem fora das consciências individuais.\n(Adaptado de: DURKHEIM, E. As regras do método sociológico. São Paulo: Martins Fontes, 2014.)\nÉmile Durkheim é um dos fundadores da Sociologia e analisa a \nrelação entre indivíduo e sociedade. A partir do texto, podemos \nafirmar que os modos de agir, de pensar e de sentir, em uma \nsociedade, são definidos",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "pelo livre-arbítrio dos indivíduos.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "pelos sentimentos próprios dos indivíduos e independem do \nmeio social.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "pelo direito e pelos costumes, que são, por sua vez, definidos livremente pelos indivíduos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "pela própria sociedade, que constitui uma realidade objetiva \nque exerce coerção sobre o indivíduo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_49",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "geography",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto 1\n\nManifesto de lançamento da “Coalizão Negra Por Direitos”, \nreunião de entidades e coletivos do movimento negro brasileiro, 2020.\nTexto 2\nO sociólogo Octavio Ianni afirmou que democracia e cidadania \nsão processos políticos marcados por dificuldades e retrocessos, \npois a participação social – especialmente a de grupos como \nmulheres, negros, indígenas – é uma luta penosa e que, no \nBrasil, vem sendo realizada precariamente ao longo da história. \n(Adaptado de: “Entrevista com Octavio Ianni: Comunicação e Globalização”. Revista \nNovos Olhares, n. 4, p. 25, 1999.)\nDe acordo com os textos 1 e 2, é possível dizer que, no caso \nbrasileiro, os conceitos de democracia e de cidadania",
+      "files": [
+        "/data/comvest/assets/2024/49/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "são limitados pela persistência histórica do racismo, pois os \nmovimentos sociais pouco se ocupam dessa temática, reduzindo a possibilidade da conquista de igualdade.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "podem ser tomados como conceitos relacionados, relativos \nà esfera do indivíduo, e marcados por processos lineares de \nconquistas de direitos sociais.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "podem ser tomados como conceitos relacionados, próprios \nda esfera coletiva, e marcados por processos não lineares de \nconquistas e perdas de direitos sociais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "são marcados por disputas sociais e históricas, e influenciam, de modo secundário, o exercício da igualdade, especialmente para grupos como mulheres, negros e indígenas.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_50",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "philosophy",
+      "language": null,
+      "kind": "single-choice",
+      "context": "As sociólogas Patrícia Hill Collins e Sirma Bilge procuram explicar as relações entre mérito, oportunidade e desigualdades \nutilizando a metáfora de um campo de futebol. Elas imaginam \numa situação na qual o campo seria um terreno levemente em \ndeclive, na qual o gol do Time 1 fica no topo e o do Time 2, na \nparte baixa. Quando o Time 1 tenta marcar um gol, a topografia do campo ajuda, o que não ocorre com o Time 2, que pode \nter talento e disciplina, mas sempre trava uma batalha morro \nacima para marcar um gol. No caso de uma partida de futebol, \ntorcedores ficariam indignados se os campos de verdade fossem inclinados dessa maneira. No entanto, é isso que fazem \nas divisões sociais de classe, gênero e raça, ou seja, achamos \nque estamos jogando em igualdade de condições quando, na \nverdade, não estamos. \n(Adaptado de: HILL COLLINS, P.; BILGE, S. Interseccionalidades. São Paulo: Boitempo, p. \n32-33, 2016.)\nA partir do texto, é correto afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "divisões sociais de classe, gênero e raça permitem que todas as pessoas tenham acesso às mesmas oportunidades e \npossam igualmente desenvolver suas habilidades e aptidões.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "condições de competição individual são marcadas por divisões de classe, gênero e raça, e são influenciadas pelo contexto social, político e econômico.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "o mérito e o esforço individual podem ser isolados das divisões de classe, gênero e raça e considerados como parâmetros justos para a dinâmica da vida social.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "divisões de classe, gênero e raça estão presentes na vida \nem sociedade e têm relação marginal com o fenômeno da \ndesigualdade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_51",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "portuguese",
+      "language": null,
+      "kind": "single-choice",
+      "context": "\"A negação da plena humanidade do Outro, o seu enclausura-\nmento em categorias que lhe são estranhas, a afirmação de sua \nincapacidade inata para o desenvolvimento e aperfeiçoamento \nhumano, a destituição da sua capacidade de produzir cultura \ne civilização prestam-se a afirmar uma razão racializada, que \nhegemoniza e naturaliza a superioridade europeia.\" \n(CARNEIRO, Sueli. Dispositivo de racialidade. A construção do outro como não ser como \nfundamento do ser.  São Paulo: Zahar, p. 91, 2023.)\nEscolha a alternativa que apresenta crítica semelhante à de Sueli \nCarneiro.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "\"Tão essencial é a diferença entre essas duas raças humanas \n[branca e negra], que parece ser tão grande em relação às \ncapacidades mentais quanto às diferenças de cores.\" (E. Kant. \nObservações sobre o sentimento do belo e do sublime. Campinas: Papirus, p. 75-\n76,1993.)",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "\"É na brutalidade e na selvageria que vemos o homem afri-\ncano, na medida em que o podemos observar; e assim per-\nmanece hoje.\" (Hegel. A razão na história. Lisboa: Edições 70, p. 218.)",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "“A  nossa  solução  foi  medíocre.  Estragou  as  duas  raças, \nfundindo-as. O negro perdeu as suas admiráveis qualidades \nfísicas de selvagem, e o branco sofreu a inevitável piora de \ncaráter, consequente a todos os cruzamentos entre raças \ndíspares\".  (Personagem Miss Jane, do livro O Presidente Negro, de Monteiro \nLobato. São Paulo: Editora Lafonte, p. 82, 2019.)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "\"Na medida em que o racismo, enquanto discurso, se situa \nentre os discursos de exclusão, o grupo por ele excluído é \ntratado como objeto e não como sujeito.\" (Lélia Gonzales. Cultu-\nra, etnicidade e trabalho: efeitos linguísticos e políticos da exploração da mulher\". \nIn: RIOS, F.; LIMA, M. Por um feminismo afro-latino-americano. São Paulo: Zahar,  \np. 43, 2020.)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_52",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "philosophy",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Excerto 1\nQuase todos estão de acordo que a felicidade é o maior de \ntodos os bens que se pode alcançar pela ação; diferem, porém, \nquanto ao que seja a felicidade. A julgar pela vida que os homens levam em geral, a maioria deles, e os homens de tipo mais \nvulgar, parecem identificar o bem ou a felicidade com o prazer, \ne por isso amam a vida dos gozos.\n(Adaptado de: Aristóteles. Ética a Nicomaco, Livro I, seções 4 e 5.)\nExcerto 2\nO conhecimento seguro dos desejos leva a direcionar toda a escolha e toda recusa para a saúde do corpo e para a serenidade \ndo espírito, visto que essa é a finalidade da vida feliz. O prazer \né o início e o fim de uma vida feliz. Embora o prazer seja nosso \nprimeiro bem inato, nem por isso escolhemos qualquer prazer.  \n(Adaptado de: Epicuro. Carta sobre a felicidade. São Paulo: Editora UNESP, p. 35-37, \n2002.)\nConsiderando os excertos dos filósofos gregos Aristóteles e Epicuro, ambos do século IV a.C., é possível afirmar que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Aristóteles e Epicuro sustentam a ideia de que há relação \nentre a felicidade e o prazer, pois ambos entendem que o \nprazer é o início e o fim de uma vida feliz.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "diferentemente de Aristóteles, Epicuro defende que a felicidade consiste na realização irrestrita dos nossos desejos, \numa vez que o prazer é o início e o fim de uma vida feliz.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "tanto Aristóteles quanto Epicuro – ainda que com concepções éticas distintas – entendem que não há uma identificação imediata entre felicidade e prazer.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Aristóteles e Epicuro concordam entre si e discordam daqueles que pensam que a felicidade seja o maior dos bens que \nse possa alcançar pela ação.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_53",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "philosophy",
+      "language": null,
+      "kind": "single-choice",
+      "context": "\"Apesar de sua presumida evidência, a articulação entre liber-\ndade e igualdade é mais complicada do que parece. Sua reunião \nem um mesmo indivíduo, que seria, ao mesmo tempo, livre e \nigual a seus semelhantes, esconde tensões significativas. Como, \npor exemplo, alguém poderia ser livre em um contexto no qual \nprevalecem desigualdades aberrantes? Em contrapartida, o que \nresta da liberdade se os indivíduos não puderem singularizar-se \ne diferenciar-se uns dos outros?\" \n(FIGUEIREDO, V. A paixão da Igualdade: uma genealogia do indivíduo moral na França. \nBelo Horizonte: Relicário, p. 9, 2021.)\nEscolha, dentre as alternativas a seguir, aquela que sintetiza \nmelhor a ideia expressa na citação de Figueiredo:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "A realização da liberdade e da igualdade independe da su-\npressão de desigualdades profundas.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "A articulação entre liberdade e igualdade é um ideal que \nnão contrasta com regimes políticos antidemocráticos.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "A articulação entre liberdade e igualdade é complexa porque \nexige tanto a supressão de desigualdades extremas quanto \na possibilidade da afirmação das diferenças individuais.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "O desenvolvimento pleno do capitalismo e da livre concor-\nrência são condições suficientes para a concretização da li-\nberdade e da igualdade.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_54",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Sr. Gauss tem uma pizzaria, chamada π-zzaria, que vende dois \ntipos de pizzas circulares: uma individual, de diâmetro d; e uma \nde 20 cm de diâmetro, partida em quatro pedaços iguais.\nConsiderando que o preço de uma pizza é proporcional à sua \nárea, qual precisa ser o valor de d para que quatro pizzas individuais custem o mesmo que a pizza mencionada, de quatro \npedaços?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "6 cm.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "8 cm.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "10 cm.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "12 cm.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_55",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Todo final de semana, as amigas Ana, Bruna e Carol se encontram em um parque para andar de bicicleta ou de patins. Nesta \nbrincadeira, a escolha entre patins e bicicleta é feita usando a \nseguinte regra:\nSe Ana anda de patins, então  Carol também anda de patins.\nBruna anda de patins apenas quando Carol anda de bicicleta. \nSabendo que neste final de semana Carol andou de patins, então é necessariamente verdade que",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Ana andou de patins.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Ana não andou de patins.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Bruna andou de patins.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Bruna não andou de patins.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_56",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Luísa estava conversando com seu irmão ao telefone quando \npassou perto de uma feira de adoção de animais. Ela comentou \nque, na feira, havia cachorros, gatos e pintinhos.\nO  irmão,  curioso,  perguntou-lhe  quantos  gatos  havia.  Luí-\nsa, que adora charadas matemáticas, limitou-se a dizer que a \nquantidade de gatos somada à quantidade de pintinhos era 4 a \nmais do que a quantidade de cachorros, e que a quantidade de \ngatos somada à quantidade de cachorros era 6 a mais do que a \nquantidade de pintinhos.\nO irmão de Luísa, que adora as aulas de matemática, rapida-\nmente chegou à resposta correta. Havia quantos gatos para \nadoção?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "4.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "5.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "6.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "7.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_57",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Laura é geóloga e está fazendo pesquisa numa caverna cuja entrada tem o formato de uma parábola invertida. Essa entrada, \nno nível do chão, tem 2m de largura e seu ponto mais alto está \na 2,5m do chão, conforme figura a seguir.\n\nPara realizar sua pesquisa, ela precisa entrar na caverna com um \nequipamento guardado em uma caixa de 1m de largura. Qual \né a altura máxima, em metros, que a caixa pode ter para passar \npela entrada da caverna?",
+      "files": [
+        "/data/comvest/assets/2024/57/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "11/8.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "13/8.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "15/8.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "17/8.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_58",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Joaquim estava brincando com um graveto, quando acertou \numa parede e o graveto se partiu em três pedaços, de comprimentos a,b,c, com a ≤ b ≤ c. Ele recolheu os pedaços e tentou \nconstruir um triângulo cujos lados seriam exatamente os pedaços do graveto: não foi possível. Sabendo que o graveto tinha \n50 cm de comprimento e que b = a + 2, qual é o maior valor \npossível de a?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "9,5 cm.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "10,5 cm.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "11,5 cm.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "12,5 cm.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_59",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere os conjuntos\nA = {x ∈ ℝ | x^2 - 2x - 24 < 0} e\nB = {x ∈ ℝ | 2x - 7 ≤ 0}.\nQuantos números inteiros pertencem à interseção A ∩ B?.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "3.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "5.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "7.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "9.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_60",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Terminado o almoço, Ana foi à cozinha para a escolha das sobremesas. A garota estava decidida a pegar dois itens. Seu pai, \npreocupado com a alimentação dela, instruiu-a da seguinte forma: \"Escolha o que quiser, mas, se você pegar algum pirulito, \npegue também alguma fruta\". Na cozinha, tinha 5 frutas diferentes, 3 pirulitos diferentes e 2 pedaços de bolos de sabores \ndiferentes. De quantas formas Ana poderia escolher seus dois \nitens?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "34.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "36.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "45.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "47.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_61",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "João e Maria estão passeando pela floresta. Para não se perderem no caminho, levaram consigo uma sacola com 100 pedrinhas, sendo 60 pedrinhas brancas e 40 pedrinhas pretas. A \ncada 5 passos eles retiram aleatoriamente uma pedrinha da sacola e jogam-na no chão para marcar o caminho.\nQuando eles pararam para fazer um lanche, notaram que já tinham sido jogadas 35 pedrinhas brancas e 25 pedrinhas pretas.\nQual a probabilidade de as próximas duas pedrinhas jogadas \nserem brancas?.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "7/13.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "5/13.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "11/52.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "7/52.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_62",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Seja p (x) = x + 2024. A equação\np(x) + p(2x) + p(3x) + ... + p (2023x) + p(2024x) = 0\ntem uma solução x que satisfaz:",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "x  < -2.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "-2 < x < 0.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "0 < x < 2.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "x  > 2.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_63",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Na figura a seguir, ABCD é um trapézio com AB=1 e CD=5.  Os \npontos M e N são pontos médios de AB e BC, respectivamente.\n  \nSabendo que a área de MBN é 1, a área do trapézio é:",
+      "files": [
+        "/data/comvest/assets/2024/63/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "18.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "20.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "22.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "24.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_64",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Considere as funções f(x) = 2x + c e g(x) = 5 - 6x, com c > 0. \nSejam P e Q os pontos de interseção, com o eixo y, dos gráficos \nde y = f(g(x)) e y = g( f(x)), respectivamente.  \nPara que a origem seja o ponto médio do segmento PQ, qual \ndeverá ser o valor de c?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "1.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "2.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "3.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "4.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_65",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "mathematics",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No losango abaixo, qual é a medida do comprimento do segmento BE?",
+      "files": [
+        "/data/comvest/assets/2024/65/0.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "√(26)",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "√(27)",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "√(28)",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "√(29)",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_66",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Texto 1\nI have a dream that one day down in Alabama, with its vicious \nracists, with its governor having his lips dripping with the words \nof interposition and nullification; that one day right down in \nAlabama little black boys and black girls will be able to join  \nhands  with  little  white  boys  and  white  girls  as  sisters  and  \nbrothers (Martin Luther King, 1963).\n(Adaptado  de:  https://kr.usembassy.gov/martin-luther-king-jr-dream-speech-1963/. \nAcesso em 26/05/2023.)\nTexto 2\n\nConsidere os dois textos e assinale a alternativa correta.",
+      "files": [
+        "/data/comvest/assets/2024/66/1.jpg"
+      ],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "O texto 2 apresenta uma consequência social advinda do \nfato de que o “sonho” mencionado no texto 1 tornou-se \nrealidade.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Os textos 1 e 2 são complementares porque usam diferentes \nlinguagens para ilustrar a natureza velada do racismo.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "O texto 2 funciona como um indício de que aquilo que se \nalmejava em 1 ainda não se tornou realidade em todos os \ncontextos.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Os textos 1 e 2 são contraditórios porque empregam diferentes recursos de linguagem para tratar do racismo.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_67",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em uma visita a um museu de arte indígena, um estudante observou uma obra seguida de uma placa explicativa:\nIn  some  indigenous  cultures,  headdresses  represent  \nNative peoples’ right to govern themselves according to their \nown laws. The materials they are constructed with can vary  \ngreatly, including wood, iron, feathers, and ivory. Rather than \nusing gridded designs (symbols of spiritual beliefs) or putting \nbirds or mammals at center stage, as several others do, horns \nwere attached to this headdress, an emblem of power reserved \nfor those “whose exceeding worth and power is admitted by \nall the nation”.\n(Imagens (nas alternativas) e texto (acima) adaptados de: https://americanindian.si.edu/\nexhibitions/infinityofnations/introduction.html. Acesso em 31/05/2023.)\nQual das imagens corresponde à descrição da placa?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": null,
+          "file": "/data/comvest/assets/2024/67/1.jpg"
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": null,
+          "file": "/data/comvest/assets/2024/67/2.jpg"
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": null,
+          "file": "/data/comvest/assets/2024/67/3.jpg"
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": null,
+          "file": "/data/comvest/assets/2024/67/4.jpg"
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_68",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "O texto a seguir é parte de uma chamada para publicação de \nartigos em uma edição especial da revista Nature.\nThe  environmental  and  ethical  implications  of  traditional  \nlivestock  rearing,  combined  with  an  increasing  global  \npopulation and demand for protein-rich nutrition, has led to \ninvestments  in  alternative  protein  research.  One  emerging  \napproach  is  cellular  agriculture,  in  which  traditional  ‘meat’  \ntissues,  such  as  muscle  and  fat  cells  from  cows,  chicken \nand  fish,  or  alternative  protein  sources,  such  as  algae,  are  \ncultivated under controlled laboratory conditions. However, the  \noptimisation of these protocols is highly dependent on cell types, \nand further development is required to make cellular agricul- \nture an economically viable alternative to traditional sources of  \nprotein. This special issue welcomes research on improvements to  \ncellular agriculture protocols to maximize sustainable protein \nproduction.\n(Adaptado de: https://www.nature.com/collections/chhdggaffd. Acesso em 12/05/2023.)\nQual seria o tópico específico da edição especial ao qual o texto \nse refere?",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "Alternativas economicamente viáveis dentro da agricultura \ntradicional.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "Desafios éticos e ambientais da pecuária.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "Sustentabilidade na pesquisa de novos protocolos para agricultura tradicional.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "Agricultura celular de diversas fontes de proteína.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "d"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_69",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Em uma matéria para um site, jornalistas fizeram interações \ncom o ChatGPT a fim de analisar sua capacidade de criar textos \npossivelmente problemáticos. Para tanto, eles pediram que o \nprograma de inteligência artificial reescrevesse um e-mail que \nseria, hipoteticamente, usado como golpe. Eis o texto reescrito \npelo ChatGPT:\n“Hey there. You're probably wondering why you're getting this \ne-mail. The truth is, I put some malware on a website that you \nvisited. My malware took control of your browser and recorded  \neverything, including your contacts from your messenger, Face- \nbook, and e-mail account. To top it all off, I also took videos \nof you. So I'll give you the option to make a deal before I do \nanything with it.”\n(Adaptado de: https://mashable.com/article/chatgpt-scary-uses. Acesso em 12/05/2023.)\nO e-mail criado pelo programa chama a atenção",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "pelo uso de linguagem agressiva, pois se apoia em expressões violentas para tentar extorquir o usuário.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "por reproduzir a sintaxe da comunicação humana à medida \nque recorre ao humor para acusar o usuário.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "pelo emprego de um tom sarcástico, pois se apoia em linguagem informal para ameaçar o usuário.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "por infringir questões éticas, uma vez que informa ter tornado públicas informações privadas do usuário.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_70",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "Netflix’s “Wednesday” draws many real-world parallels. It features unusual creatures (werewolves and psychics) collectively \nreferred to as Outcasts, while they refer to non-supernatural \nhumans  as  Normies.  The  Outcasts  are  stand-ins  for  anyone  \nothered  by  society,  such  as  indigenous  people,  People  of  \nColor, the LGBT+, and the neurodivergent. Every so often, the  \nNormies’ distrust in the Outcasts boils over into hatred and  \nviolence,  and  the  othering  and  dehumanization  normalizes  \nviolence against the Outcasts in day-to-day life. In the show, the \ntown’s colonial era saw Outcasts not only being “othered”, but \nalso murdered by Pilgrims. These acts of butchery were all but \nerased from their history books. It’s a distressingly familiar story.\n(Adaptado  de:  https://atribecalledgeek.com/woe-to-the-colonizer-an-indigenous-perspective-of-wednesday/. Acesso em 12/05/2023.)\nA análise do autor sobre “Wednesday” se apoia em",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "paralelos entre ficção e realidade para discutir como a existência de grupos marginalizados tem sido historicamente \napagada dos livros de história.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "elementos fictícios presentes na série para aludir ao modo \ncomo a desumanização da alteridade é um processo histórico e violento.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "fatos históricos para traçar a origem da exploração de povos \nindígenas e o modo como foram violentamente desumanizados na série.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "comparações históricas sobre os conflitos entre colonizadores e peregrinos para criticar o modo como esse conflito é \nretratado na série.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "b"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_71",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "“Guardians of the Galaxy Vol.3” does something few movies \nhave ever done: it tells a compassionate story about testing on \nanimals to a Marvel-size audience. The film features gorgeously \nanimated animals who take moviegoers on an emotional rollercoaster while exposing the evils of animal testing. The strength \nof James Gunn’s screenplay lies in the fact that it doesn’t back \naway from the tough subject matter, and we’re thrilled by a \nstory about having empathy for all animals. For his compelling \nportrayal of Rocket and for reminding moviegoers that animals \ntortured in laboratories are not the numbers tattooed on them, \nPETA (People for the Ethical Treatment of Animals) is honoring \nGunn with the “Not a Number” Award.\n(Adaptado  de:  https://www.peta.org/blog/guardians-of-the-galaxy-vol-3/. Acesso  em \n19/05/2023.)\nPara a autora dessa crítica, o diferencial do filme está",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "na coragem do roteiro em dar destaque à polêmica de experimentação em animais para testes.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "no ineditismo da abordagem do tema em produções de \ngrande alcance, como os filmes da Marvel.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "no retrato das emoções de animais usados em experimentos \nem laboratórios.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "no impacto da abordagem do tema para órgãos de grande \nrepercussão, como a PETA.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "a"
+        ]
+      }
+    },
+    {
+      "id": "comvest-comvest-2024-UNICAMP_2024_72",
+      "institutionId": "unicamp",
+      "examId": "comvest",
+      "editionId": "comvest-2024",
+      "year": 2024,
+      "subjectId": "english",
+      "language": null,
+      "kind": "single-choice",
+      "context": "No trecho a seguir, observa-se o uso de uma variedade linguís-\ntica de inglês conhecida como African American Vernacular  \nEnglish  (AAVE).  Ainda  que  tão  diversa  e  sofisticada  quanto \nquaisquer outras variedades, a AAVE ainda é estigmatizada por \nter características linguísticas diferentes daquelas que marcam a \nvariedade de prestígio, isto é, a padrão. \n“– Listen, God love everything you love – and a mess of \nstuff you don't. (…) It always making little surprises and  \nspringing them on us when us least expect. (…) Man corrupt \neverything (…) He try to make you think he everywhere (…), \nyou think he God. But he ain't. (…) I start to wonder why \nus suffer. Why us black. It didn’t take long to realize I didn’t \nhardly know nothing.”\n(Adaptado de: WALKER, Alice. The Color Purple. London: The Orion Publishing Group, \n1983.)\nAssinale a alternativa que preenche corretamente as lacunas no \ntrecho a seguir:\nÉ correto dizer que o excerto apresenta aspectos linguísticos \n– que diferem dos observados na variedade padrão – como (i) \n_________, e que sua temática central é a (ii) ________.",
+      "files": [],
+      "alternativesIntroduction": null,
+      "alternatives": [
+        {
+          "id": "a",
+          "label": "A",
+          "text": "(i) a repetição do verbo de ligação; (ii) corrupção e o sofri-\nmento inerentes ao homem.",
+          "file": null
+        },
+        {
+          "id": "b",
+          "label": "B",
+          "text": "(i) a possibilidade de dupla negação; (ii) previsibilidade da \nvontade de Deus.",
+          "file": null
+        },
+        {
+          "id": "c",
+          "label": "C",
+          "text": "(i) a concordância verbal não padrão; (ii) ilusão do homem \nquanto à sua superioridade.",
+          "file": null
+        },
+        {
+          "id": "d",
+          "label": "D",
+          "text": "(i) a omissão de sujeito em orações; (ii) ganância do homem \nem se sobrepor a Deus.",
+          "file": null
+        }
+      ],
+      "answer": {
+        "optionIds": [
+          "c"
+        ]
+      }
+    }
+  ]
+}

@@ -1,4 +1,11 @@
-import type { CatalogManifest, PackageDescriptor, Subject } from '../contracts/catalog';
+import type {
+  CatalogManifest,
+  Exam,
+  ExamEdition,
+  Institution,
+  PackageDescriptor,
+  Subject,
+} from '../contracts/catalog';
 import { catalogManifestSchema } from '../contracts/catalog';
 import type { QuestionPackage } from '../contracts/question';
 import { questionPackageSchema } from '../contracts/question';
@@ -34,19 +41,24 @@ export const packageDescriptor = async (
   };
 };
 
-const SUBJECT_NAMES: Readonly<Record<string, string>> = {
-  'ciencias-humanas': 'Ciências Humanas e suas Tecnologias',
-  'ciencias-natureza': 'Ciências da Natureza e suas Tecnologias',
-  linguagens: 'Linguagens, Códigos e suas Tecnologias',
-  matematica: 'Matemática e suas Tecnologias',
-};
+const replaceById = <T extends { id: string }>(items: readonly T[], value: T): T[] =>
+  [...items.filter(({ id }) => id !== value.id), value].sort((a, b) => a.id.localeCompare(b.id));
 
-const subject = (id: string): Subject => ({ id, name: SUBJECT_NAMES[id] ?? id });
+export interface CatalogEntry {
+  readonly institution: Institution;
+  readonly exam: Exam;
+  readonly edition: ExamEdition;
+  readonly subjects: readonly Subject[];
+}
 
-export const upsertEnemManifest = (
+/**
+ * Inserts or replaces one exam's institution, exam, edition, subjects and
+ * package descriptor in a catalog manifest, keeping every other exam intact.
+ */
+export const upsertCatalogManifest = (
   current: CatalogManifest | null,
   descriptor: PackageDescriptor,
-  year: number,
+  entry: CatalogEntry,
   generatedAt = new Date().toISOString(),
 ): CatalogManifest => {
   const base = current ?? {
@@ -58,23 +70,104 @@ export const upsertEnemManifest = (
     subjects: [],
     packages: [],
   };
-  const institution = { id: 'inep', name: 'Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira' };
-  const exam = { id: 'enem', institutionId: 'inep', name: 'ENEM', category: 'vestibular' as const };
-  const edition = { id: `enem-${year}`, examId: 'enem', label: `ENEM ${year}`, year };
-
-  const replace = <T extends { id: string }>(items: readonly T[], value: T): T[] =>
-    [...items.filter(({ id }) => id !== value.id), value].sort((a, b) => a.id.localeCompare(b.id));
 
   let subjects = base.subjects;
-  for (const id of descriptor.subjectIds) subjects = replace(subjects, subject(id));
+  for (const subject of entry.subjects) subjects = replaceById(subjects, subject);
 
   return catalogManifestSchema.parse({
     ...base,
     generatedAt,
-    institutions: replace(base.institutions, institution),
-    exams: replace(base.exams, exam),
-    editions: replace(base.editions, edition),
+    institutions: replaceById(base.institutions, entry.institution),
+    exams: replaceById(base.exams, entry.exam),
+    editions: replaceById(base.editions, entry.edition),
     subjects,
-    packages: replace(base.packages, descriptor),
+    packages: replaceById(base.packages, descriptor),
   });
 };
+
+const SUBJECT_NAMES: Readonly<Record<string, string>> = {
+  'ciencias-humanas': 'Ciências Humanas e suas Tecnologias',
+  'ciencias-natureza': 'Ciências da Natureza e suas Tecnologias',
+  linguagens: 'Linguagens, Códigos e suas Tecnologias',
+  matematica: 'Matemática e suas Tecnologias',
+};
+
+const enemCatalogEntry = (year: number): CatalogEntry => ({
+  institution: {
+    id: 'inep',
+    name: 'Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira',
+  },
+  exam: { id: 'enem', institutionId: 'inep', name: 'ENEM', category: 'vestibular' },
+  edition: { id: `enem-${year}`, examId: 'enem', label: `ENEM ${year}`, year },
+  subjects: [],
+});
+
+export const upsertEnemManifest = (
+  current: CatalogManifest | null,
+  descriptor: PackageDescriptor,
+  year: number,
+  generatedAt = new Date().toISOString(),
+): CatalogManifest => {
+  const entry = enemCatalogEntry(year);
+  return upsertCatalogManifest(
+    current,
+    descriptor,
+    {
+      ...entry,
+      subjects: descriptor.subjectIds.map((id) => ({ id, name: SUBJECT_NAMES[id] ?? id })),
+    },
+    generatedAt,
+  );
+};
+
+const COMVEST_SUBJECT_NAMES: Readonly<Record<string, string>> = {
+  mathematics: 'Matemática',
+  portuguese: 'Língua Portuguesa',
+  history: 'História',
+  physics: 'Física',
+  geography: 'Geografia',
+  biology: 'Biologia',
+  english: 'Inglês',
+  chemistry: 'Química',
+  philosophy: 'Filosofia',
+};
+
+export const comvestCatalogEntry = (
+  editionId: string,
+  year: number,
+  day: number | null,
+  subjectIds: readonly string[],
+): CatalogEntry => ({
+  institution: { id: 'unicamp', name: 'Universidade Estadual de Campinas (Comvest)' },
+  exam: {
+    id: 'comvest',
+    institutionId: 'unicamp',
+    name: 'Comvest — Vestibular Unicamp',
+    category: 'vestibular',
+  },
+  edition: {
+    id: editionId,
+    examId: 'comvest',
+    label:
+      day === null
+        ? `Vestibular Unicamp ${year}`
+        : `Vestibular Unicamp ${year} — dia ${day}`,
+    year,
+  },
+  subjects: [...subjectIds]
+    .sort()
+    .map((id) => ({ id, name: COMVEST_SUBJECT_NAMES[id] ?? id })),
+});
+
+export const upsertComvestManifest = (
+  current: CatalogManifest | null,
+  descriptor: PackageDescriptor,
+  edition: { readonly year: number; readonly day: number | null },
+  generatedAt = new Date().toISOString(),
+): CatalogManifest =>
+  upsertCatalogManifest(
+    current,
+    descriptor,
+    comvestCatalogEntry(descriptor.editionId, edition.year, edition.day, descriptor.subjectIds),
+    generatedAt,
+  );
