@@ -1,0 +1,87 @@
+{
+  "generatedBy": "scripts/inventory-bluexv2-unicamp.py",
+  "provenance": {
+    "dataset": "BLUEXv2",
+    "commit": "9284b8cc1bf97abe9eb99bc915e6d390b560fe39",
+    "parquet": {
+      "fileName": "train-00000-of-00001.parquet",
+      "byteSize": 102819592,
+      "sha256": "9f976ddeabeb1d223043f2529024c866a7e98b62547393230d47010c810320d6",
+      "expected": "9F976DDEABEB1D223043F2529024C866A7E98B62547393230D47010C810320D6",
+      "verified": true
+    }
+  },
+  "university": "unicamp",
+  "phase": "second",
+  "questionKind": "open-ended",
+  "totalRows": 919,
+  "subquestions": 419,
+  "parentQuestions": 210,
+  "byYear": [
+    {
+      "year": 2022,
+      "parents": 51,
+      "subquestions": 102
+    },
+    {
+      "year": 2023,
+      "parents": 51,
+      "subquestions": 101
+    },
+    {
+      "year": 2024,
+      "parents": 53,
+      "subquestions": 106
+    },
+    {
+      "year": 2025,
+      "parents": 55,
+      "subquestions": 110
+    }
+  ],
+  "subquestionLabels": {
+    "a": 209,
+    "b": 210
+  },
+  "subjects": {
+    "biologia": 136,
+    "filosofia": 24,
+    "fisica": 85,
+    "geografia": 120,
+    "historia": 128,
+    "matematica": 107,
+    "portugues": 62,
+    "quimica": 60,
+    "sociologia": 136
+  },
+  "subquestionsWithImages": 225,
+  "parentQuestionsWithImages": 113,
+  "imageAssets": 338,
+  "distinctImagePaths": 137,
+  "subquestionsWithExpectedAnswer": 419,
+  "subquestionsWithMarkingCriteria": 419,
+  "overlap": {
+    "bluexYears": [
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "bluexv2Years": [
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "sharedYears": [
+      2022,
+      2023,
+      2024
+    ],
+    "sharedRawQuestionIds": 0,
+    "note": "BLUEX e BLUEXv2 cobrem fases distintas: múltipla escolha de 1ª fase versus discursiva de 2ª fase. Não há questão importável em comum; a sobreposição é apenas de anos/institution."
+  }
+}
