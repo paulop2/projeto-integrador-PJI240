@@ -352,7 +352,7 @@ foreach ($issue in @($openIssuesConnection.nodes)) {
 $priorityOrder = @{ P0 = 0; P1 = 1; P2 = 2; P3 = 3 }
 $issues = @($issues | Sort-Object `
     @{ Expression = { if ($priorityOrder.ContainsKey([string]$_.priority)) { $priorityOrder[[string]$_.priority] } else { 99 } } },
-    @{ Expression = { $_.milestone.dueOn } },
+    @{ Expression = { if ($null -ne $_.milestone) { $_.milestone.dueOn } } },
     @{ Expression = { $_.number } })
 foreach ($issue in $issues) {
     $groups[$issue.group] += $issue.number
