@@ -198,7 +198,7 @@ describe('active edition feed', () => {
     const spanish = { ...question('enem-enem-2023-1', 'enem-2023', 2023, 'linguagens', 'Resposta em espanhol'), language: 'espanhol' as const };
     const english = { ...question('enem-enem-2023-1-ingles', 'enem-2023', 2023, 'linguagens', 'Answer in English'), language: 'ingles' as const };
     const sessions = new MemoryStudySessionPort();
-    await sessions.save(spanish.id, { elapsedMs: 0, startedAt: 1, selectedOptionId: 'c', outcome: 'correct' });
+    await sessions.save(spanish.id, { elapsedMs: 0, startedAt: 1, selectedOptionId: 'c', outcome: 'correct', struckOptionIds: [] });
     const activeExamPort: ActiveExamPort = {
       initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2023', editionId: 'enem-2023' }),
       select: vi.fn(),
@@ -219,7 +219,7 @@ describe('active edition feed', () => {
 
   it('restores accumulated active time from the session and reports it when answering', async () => {
     const sessions = new MemoryStudySessionPort();
-    await sessions.save('enem-2023-matematica', { elapsedMs: 42_000, startedAt: null, selectedOptionId: null, outcome: null });
+    await sessions.save('enem-2023-matematica', { elapsedMs: 42_000, startedAt: null, selectedOptionId: null, outcome: null, struckOptionIds: [] });
     const activeExamPort: ActiveExamPort = {
       initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2023', editionId: 'enem-2023' }),
       select: vi.fn(),
@@ -239,5 +239,41 @@ describe('active edition feed', () => {
       expect(stored?.elapsedMs).toBeGreaterThanOrEqual(42_000);
       expect(stored?.elapsedMs).toBeLessThanOrEqual(180_000);
     });
+  });
+
+  it('persists a per-question strike draft across reload without recording progress', async () => {
+    const sessions = new MemoryStudySessionPort();
+    const progress = new MemoryProgressPort();
+    const append = vi.spyOn(progress, 'append');
+    const activeExamPort: ActiveExamPort = {
+      initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2023', editionId: 'enem-2023' }),
+      select: vi.fn(),
+    };
+    const props = {
+      progressPort: progress, sessionPort: sessions,
+      questionSource: { load: vi.fn().mockResolvedValue(editions['enem-2023']) } as QuestionSourcePort,
+      activeExamPort, authPort, authRuntime,
+    };
+
+    const first = render(<App {...props} />);
+    const card = (await screen.findByText('Matemática da edição 2023')).closest('article');
+    if (!card) throw new Error('Question card was not rendered');
+    await userEvent.click(within(card).getByRole('button', { name: 'Riscar alternativa A' }));
+    expect(within(card).getByRole('button', { name: 'Desmarcar rascunho da alternativa A' })).toHaveAttribute('aria-pressed', 'true');
+    await waitFor(async () => {
+      const stored = (await sessions.load())['enem-2023-matematica'];
+      expect(stored?.struckOptionIds).toEqual(['a']);
+      expect(stored).toMatchObject({ selectedOptionId: null, outcome: null });
+    });
+    expect(append).not.toHaveBeenCalled();
+
+    first.unmount();
+    render(<App {...props} />);
+    const reloaded = (await screen.findByText('Matemática da edição 2023')).closest('article');
+    if (!reloaded) throw new Error('Question card was not rendered after reload');
+    expect(within(reloaded).getByRole('button', { name: 'Desmarcar rascunho da alternativa A' })).toHaveAttribute('aria-pressed', 'true');
+    const other = screen.getByText('Humanas da edição 2023').closest('article');
+    if (!other) throw new Error('Second question card was not rendered');
+    expect(within(other).getByRole('button', { name: 'Riscar alternativa A' })).toHaveAttribute('aria-pressed', 'false');
   });
 });

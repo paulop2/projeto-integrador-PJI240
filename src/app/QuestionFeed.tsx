@@ -13,9 +13,10 @@ interface Props {
   onAnswer: (question: Question, optionId: string, elapsedMs: number) => void;
   onTimeout: (question: Question) => void;
   onViewed: (question: Question) => void;
+  onToggleStrike: (questionId: string, optionId: string) => void;
 }
 
-const blankSession: QuestionSession = { elapsedMs: 0, startedAt: null, selectedOptionId: null, outcome: null };
+const blankSession: QuestionSession = { elapsedMs: 0, startedAt: null, selectedOptionId: null, outcome: null, struckOptionIds: [] };
 
 export function QuestionFeed({ questions, activeIndex, sessions, onActiveIndex, ...actions }: Props) {
   const feedRef = useRef<HTMLElement>(null);

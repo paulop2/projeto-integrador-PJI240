@@ -51,6 +51,7 @@ export interface StudySession {
   startedAt: number | null;
   selectedOptionId: string | null;
   outcome: 'correct' | 'incorrect' | 'timed_out' | null;
+  struckOptionIds: string[];
 }
 
 /** Persisting elapsedMs and startedAt lets a timer resume the accumulated active time after reload. */

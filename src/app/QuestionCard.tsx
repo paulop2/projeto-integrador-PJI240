@@ -19,9 +19,10 @@ interface QuestionCardProps {
   onAnswer: (question: Question, optionId: string, elapsedMs: number) => void;
   onTimeout: (question: Question) => void;
   onViewed: (question: Question) => void;
+  onToggleStrike: (questionId: string, optionId: string) => void;
 }
 
-export function QuestionCard({ question, position, total, active, session, onStart, onPause, onAnswer, onTimeout, onViewed }: QuestionCardProps) {
+export function QuestionCard({ question, position, total, active, session, onStart, onPause, onAnswer, onTimeout, onViewed, onToggleStrike }: QuestionCardProps) {
   const isSupported = question.kind === 'single-choice';
   useEffect(() => {
     if (!isSupported || session.outcome !== null) return;
@@ -79,21 +80,35 @@ export function QuestionCard({ question, position, total, active, session, onSta
             const selected = session.selectedOptionId === alternative.id;
             const correct = locked && question.answer.optionIds?.includes(alternative.id);
             const wrong = selected && session.outcome === 'incorrect';
+            const struck = session.struckOptionIds.includes(alternative.id);
             return (
-              <label key={alternative.id} className={`alternative ${selected ? 'is-selected' : ''} ${correct ? 'is-correct' : ''} ${wrong ? 'is-wrong' : ''}`}>
-                <input
-                  type="radio"
-                  name={question.id}
-                  value={alternative.id}
-                  checked={selected}
-                  onChange={() => onAnswer(question, alternative.id, activeElapsedMs(session.elapsedMs, session.startedAt, Date.now()))}
-                />
-                <span className="alternative-label">{alternative.label}</span>
-                <span className="alternative-content">
-                  {alternative.text}
-                  {alternative.file && <img src={alternative.file} alt={`Imagem da alternativa ${alternative.label}`} loading="lazy" />}
-                </span>
-              </label>
+              <div key={alternative.id} className="alternative-row">
+                <label className={`alternative ${selected ? 'is-selected' : ''} ${correct ? 'is-correct' : ''} ${wrong ? 'is-wrong' : ''} ${struck ? 'is-struck' : ''}`}>
+                  <input
+                    type="radio"
+                    name={question.id}
+                    value={alternative.id}
+                    checked={selected}
+                    onChange={() => onAnswer(question, alternative.id, activeElapsedMs(session.elapsedMs, session.startedAt, Date.now()))}
+                  />
+                  <span className="alternative-label">{alternative.label}</span>
+                  <span className="alternative-content">
+                    {alternative.text}
+                    {struck && <span className="strike-badge" aria-hidden="true">riscada</span>}
+                    {alternative.file && <img src={alternative.file} alt={`Imagem da alternativa ${alternative.label}`} loading="lazy" />}
+                  </span>
+                </label>
+                <button
+                  type="button"
+                  className="alternative-strike"
+                  aria-pressed={struck}
+                  disabled={locked}
+                  aria-label={struck ? `Desmarcar rascunho da alternativa ${alternative.label}` : `Riscar alternativa ${alternative.label}`}
+                  onClick={(event) => { event.preventDefault(); event.stopPropagation(); onToggleStrike(question.id, alternative.id); }}
+                >
+                  {struck ? 'Desmarcar' : 'Riscar'}
+                </button>
+              </div>
             );
           })}
         </fieldset>

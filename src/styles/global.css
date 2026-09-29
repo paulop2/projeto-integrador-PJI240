@@ -85,6 +85,14 @@ button:focus-visible, select:focus-visible, input:focus-visible + span { outline
 .alternative.is-wrong { border-color: var(--coral); background: rgba(255,128,103,.08); }
 .alternative.is-wrong .alternative-label { color: var(--bg); background: var(--coral); border-color: var(--coral); }
 .alternatives:disabled .alternative { cursor: default; transform: none; }
+.alternative-row { position: relative; }
+.alternative-row .alternative { padding-right: 92px; }
+.alternative.is-struck { border-style: dashed; border-color: #65708d; }
+.alternative.is-struck .alternative-content { opacity: .6; text-decoration: line-through; }
+.strike-badge { display: inline-block; margin-left: 7px; padding: 1px 7px; border: 1px solid var(--line); border-radius: 999px; color: var(--muted); font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; text-decoration: none; }
+.alternative-strike { position: absolute; z-index: 2; top: 9px; right: 9px; min-height: 32px; padding: 0 10px; border: 1px solid var(--line); border-radius: 9px; background: var(--surface-raised); color: var(--muted); font-size: 11px; font-weight: 700; }
+.alternative-strike[aria-pressed="true"] { color: #11151d; background: var(--acid); border-color: var(--acid); }
+.alternative-strike:disabled { cursor: not-allowed; opacity: .55; }
 .feedback, .unsupported { margin-top: 13px; padding: 12px 14px; border-radius: 12px; font-size: 13px; line-height: 1.45; }
 .feedback--correct { color: #d7ffac; background: rgba(181,243,107,.1); }
 .feedback--incorrect, .feedback--timed_out { color: #ffc1b5; background: rgba(255,128,103,.1); }

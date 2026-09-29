@@ -61,6 +61,8 @@ export function App({
   const [online, setOnline] = useState(() => navigator.onLine);
   const viewedKeys = useRef(new Set<string>());
   const terminalQuestions = useRef(new Set<string>());
+  const sessionsRef = useRef(sessions);
+  sessionsRef.current = sessions;
   const authProbeGeneration = useRef(0);
   const authProbeInFlight = useRef<{ port: AuthPort; source: 'boot' | 'online'; promise: Promise<void> } | null>(null);
   const loggingOut = useRef(false);
@@ -137,7 +139,7 @@ export function App({
     return () => { active = false; };
   }, [progressPort, questions]);
   useEffect(() => { void sessionPort.load().then((stored) => {
-    const loaded = Object.fromEntries(Object.entries(stored).map(([id, session]) => [id, { ...session, elapsedMs: session.elapsedMs ?? 0 }]));
+    const loaded = Object.fromEntries(Object.entries(stored).map(([id, session]) => [id, { ...session, elapsedMs: session.elapsedMs ?? 0, struckOptionIds: session.struckOptionIds ?? [] }]));
     setSessions(loaded);
     terminalQuestions.current = new Set(Object.entries(loaded).filter(([, session]) => session.outcome !== null).map(([id]) => id));
     setSessionsReady(true);
@@ -188,7 +190,7 @@ export function App({
     setSessions((current) => {
       const existing = current[questionId];
       if (existing && (existing.startedAt !== null || existing.outcome !== null)) return current;
-      const session = { elapsedMs: existing?.elapsedMs ?? 0, startedAt: Date.now(), selectedOptionId: existing?.selectedOptionId ?? null, outcome: existing?.outcome ?? null };
+      const session = { elapsedMs: existing?.elapsedMs ?? 0, startedAt: Date.now(), selectedOptionId: existing?.selectedOptionId ?? null, outcome: existing?.outcome ?? null, struckOptionIds: existing?.struckOptionIds ?? [] };
       void sessionPort.save(questionId, session);
       return { ...current, [questionId]: session };
     });
@@ -209,7 +211,7 @@ export function App({
     if (terminalQuestions.current.has(question.id)) return;
     terminalQuestions.current.add(question.id);
     const outcome = outcomeFor(question, optionId);
-    const session = { elapsedMs: Math.min(QUESTION_TIME_LIMIT_MS, Math.max(0, elapsedMs)), startedAt: null, selectedOptionId: optionId, outcome };
+    const session = { elapsedMs: Math.min(QUESTION_TIME_LIMIT_MS, Math.max(0, elapsedMs)), startedAt: null, selectedOptionId: optionId, outcome, struckOptionIds: sessionsRef.current[question.id]?.struckOptionIds ?? [] };
     void sessionPort.save(question.id, session);
     setSessions((current) => current[question.id]?.outcome ? current : {
       ...current, [question.id]: session,
@@ -220,7 +222,7 @@ export function App({
   const onTimeout = useCallback((question: Question) => {
     if (terminalQuestions.current.has(question.id)) return;
     terminalQuestions.current.add(question.id);
-    const session = { elapsedMs: QUESTION_TIME_LIMIT_MS, startedAt: null, selectedOptionId: null, outcome: 'timed_out' as const };
+    const session = { elapsedMs: QUESTION_TIME_LIMIT_MS, startedAt: null, selectedOptionId: null, outcome: 'timed_out' as const, struckOptionIds: sessionsRef.current[question.id]?.struckOptionIds ?? [] };
     void sessionPort.save(question.id, session);
     setSessions((current) => {
       if (current[question.id]?.outcome) return current;
@@ -228,6 +230,18 @@ export function App({
     });
     record({ type: 'question_timed_out', eventId: makeId(), deviceId: DEVICE_ID, questionId: question.id, occurredAt: Date.now(), elapsedMs: QUESTION_TIME_LIMIT_MS }, 'timed_out');
   }, [record, sessionPort]);
+
+  const onToggleStrike = useCallback((questionId: string, optionId: string) => {
+    setSessions((current) => {
+      const existing = current[questionId] ?? { elapsedMs: 0, startedAt: null, selectedOptionId: null, outcome: null, struckOptionIds: [] };
+      const struckOptionIds = existing.struckOptionIds.includes(optionId)
+        ? existing.struckOptionIds.filter((id) => id !== optionId)
+        : [...existing.struckOptionIds, optionId];
+      const session = { ...existing, struckOptionIds };
+      void sessionPort.save(questionId, session);
+      return { ...current, [questionId]: session };
+    });
+  }, [sessionPort]);
 
   const onViewed = useCallback((question: Question) => {
     const day = localDay(Date.now());
@@ -303,7 +317,7 @@ export function App({
       {authOpen && <AuthPanel user={authUser} initialMode={initialAuthMode} busy={authBusy} error={authError} message={authMessage} online={online} onClose={() => setAuthOpen(false)} onEmailLogin={emailLogin} onSignUp={signUp} onGoogle={googleLogin} onLogout={logout} onForgot={forgotPassword} onReset={resetPassword} onVerify={resendVerification} />}
       {examsOpen && packagePort && activeExamPort && <div id="exams-panel"><ExamsPanel packagePort={packagePort} activeExamPort={activeExamPort} online={online} onClose={() => setExamsOpen(false)} onContentChange={reloadQuestions} /></div>}
 
-      {sessionsReady && questionsReady && languageReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onPause={onPause} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} /> : sessionsReady && questionsReady && languageReady && activeExam?.status === 'empty' ? (
+      {sessionsReady && questionsReady && languageReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onPause={onPause} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} onToggleStrike={onToggleStrike} /> : sessionsReady && questionsReady && languageReady && activeExam?.status === 'empty' ? (
         <main className="empty-state" aria-label="Nenhuma prova baixada"><span aria-hidden="true">↓</span><h1>Baixe uma prova para começar a estudar.</h1><p>Escolha uma edição e ela ficará disponível também offline.</p>{packagePort && activeExamPort && <button className="primary-button" type="button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen(false); setExamsOpen(true); }}>Ver provas disponíveis</button>}</main>
       ) : sessionsReady && questionsReady && languageReady && activeExam?.status === 'selection-required' ? (
         <main className="empty-state" aria-label="Escolha de prova necessária"><span aria-hidden="true">→</span><h1>Escolha uma prova baixada para continuar estudando.</h1><p>Nenhuma edição será combinada ou escolhida sem sua confirmação.</p>{packagePort && activeExamPort && <button className="primary-button" type="button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen(false); setExamsOpen(true); }}>Escolher prova</button>}</main>

@@ -6,7 +6,7 @@ import { demoQuestions } from './demoQuestions';
 import type { QuestionSession } from './QuestionCard';
 import { QuestionFeed } from './QuestionFeed';
 
-const actions = { onActiveIndex: vi.fn(), onStart: vi.fn(), onPause: vi.fn(), onAnswer: vi.fn(), onTimeout: vi.fn(), onViewed: vi.fn() };
+const actions = { onActiveIndex: vi.fn(), onStart: vi.fn(), onPause: vi.fn(), onAnswer: vi.fn(), onTimeout: vi.fn(), onViewed: vi.fn(), onToggleStrike: vi.fn() };
 
 describe('QuestionFeed', () => {
   it('windows cards to the active item plus two neighbors on each side', () => {
@@ -33,7 +33,7 @@ describe('QuestionFeed', () => {
     const onPause = vi.fn();
     const questions: Question[] = Array.from({ length: 4 }, (_, index) => ({ ...demoQuestions[0]!, id: `q-${index}`, context: `Enunciado ${index}` }));
     const sessions: Record<string, QuestionSession> = {
-      'q-0': { elapsedMs: 30_000, startedAt: Date.now(), selectedOptionId: null, outcome: null },
+      'q-0': { elapsedMs: 30_000, startedAt: Date.now(), selectedOptionId: null, outcome: null, struckOptionIds: [] },
     };
 
     const { rerender } = render(<QuestionFeed questions={questions} activeIndex={0} sessions={sessions} {...actions} onStart={onStart} onPause={onPause} />);
@@ -43,5 +43,21 @@ describe('QuestionFeed', () => {
 
     expect(onPause).toHaveBeenCalledWith('q-0');
     expect(onStart).toHaveBeenCalledWith('q-1');
+  });
+
+  it('keeps a struck draft on a question when the active question changes', () => {
+    const questions: Question[] = Array.from({ length: 4 }, (_, index) => ({ ...demoQuestions[0]!, id: `q-${index}`, context: `Enunciado ${index}` }));
+    const sessions: Record<string, QuestionSession> = {
+      'q-0': { elapsedMs: 0, startedAt: null, selectedOptionId: null, outcome: null, struckOptionIds: ['b'] },
+    };
+
+    const { rerender } = render(<QuestionFeed questions={questions} activeIndex={0} sessions={sessions} {...actions} />);
+    expect(screen.getByRole('button', { name: 'Desmarcar rascunho da alternativa B' })).toHaveAttribute('aria-pressed', 'true');
+
+    rerender(<QuestionFeed questions={questions} activeIndex={3} sessions={sessions} {...actions} />);
+    expect(screen.queryByRole('button', { name: 'Desmarcar rascunho da alternativa B' })).not.toBeInTheDocument();
+
+    rerender(<QuestionFeed questions={questions} activeIndex={0} sessions={sessions} {...actions} />);
+    expect(screen.getByRole('button', { name: 'Desmarcar rascunho da alternativa B' })).toHaveAttribute('aria-pressed', 'true');
   });
 });
