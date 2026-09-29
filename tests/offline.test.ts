@@ -264,14 +264,14 @@ describe('active exam preference', () => {
       questionId: 'enem-enem-2022-1', occurredAt: 10, localDay: '2026-09-10',
     };
     await storage.appendProgress(progress);
-    await storage.putSession(progress.questionId, { startedAt: 10, selectedOptionId: null, outcome: null });
+    await storage.putSession(progress.questionId, { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null });
 
     expect((await source.load()).map(({ editionId }) => editionId)).toEqual(['enem-2022']);
     await manager.selectActiveExam(entries[1]!.packageId, entries[1]!.editionId);
     expect((await source.load()).map(({ editionId }) => editionId)).toEqual(['enem-2023']);
     expect(await storage.listProgress()).toEqual([progress]);
     expect(await storage.getSessions()).toEqual({
-      [progress.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null },
+      [progress.questionId]: { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null },
     });
 
     await storage.deleteActiveExamPreference();
@@ -333,7 +333,7 @@ describe('active exam preference', () => {
       questionId: 'enem-enem-2022-1', occurredAt: 10, localDay: '2026-09-09',
     };
     await storage.appendProgress(event);
-    await storage.putSession(event.questionId, { startedAt: 10, selectedOptionId: null, outcome: null });
+    await storage.putSession(event.questionId, { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null });
 
     await manager.remove(entries[0]!.packageId);
 
@@ -341,7 +341,7 @@ describe('active exam preference', () => {
     expect((await storage.listDownloads()).map(({ packageId }) => packageId)).toEqual(['enem-2023-completo']);
     expect(await storage.listProgress()).toEqual([event]);
     expect((await storage.listOutbox(10))[0]?.event).toEqual(event);
-    expect(await storage.getSessions()).toEqual({ [event.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null } });
+    expect(await storage.getSessions()).toEqual({ [event.questionId]: { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null } });
   });
 
   it('removes a non-active exam without changing the feed, preference, progress, or sessions', async () => {
@@ -352,7 +352,7 @@ describe('active exam preference', () => {
       questionId: 'enem-enem-2023-1', occurredAt: 10, localDay: '2026-09-10',
     };
     await storage.appendProgress(event);
-    await storage.putSession(event.questionId, { startedAt: 10, selectedOptionId: null, outcome: null });
+    await storage.putSession(event.questionId, { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null });
     const previousPreference = await storage.getActiveExamPreference();
 
     await manager.remove(entries[1]!.packageId);
@@ -360,7 +360,7 @@ describe('active exam preference', () => {
     expect((await source.load()).map(({ editionId }) => editionId)).toEqual(['enem-2022']);
     expect(await storage.getActiveExamPreference()).toEqual(previousPreference);
     expect(await storage.listProgress()).toEqual([event]);
-    expect(await storage.getSessions()).toEqual({ [event.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null } });
+    expect(await storage.getSessions()).toEqual({ [event.questionId]: { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null } });
   });
 
   it('keeps the active package intact when removal storage fails and succeeds on retry', async () => {

@@ -85,7 +85,7 @@ describe('offline package lifecycle integration', () => {
       questionId: 'enem-enem-2024-1', occurredAt: 10, localDay: '2026-09-10',
     };
     await storage.appendProgress(progress);
-    await storage.putSession(progress.questionId, { startedAt: 10, selectedOptionId: null, outcome: null });
+    await storage.putSession(progress.questionId, { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null });
     const activePreference = await storage.getActiveExamPreference();
 
     const reloadedOffline = new OfflinePackageManager(storage, cache, async () => {
@@ -108,14 +108,14 @@ describe('offline package lifecycle integration', () => {
     expect((await manager.loadQuestions())[0]?.context).toBe('Versão atualizada');
     expect(await storage.getActiveExamPreference()).toEqual(activePreference);
     expect(await storage.listProgress()).toEqual([progress]);
-    expect(await storage.getSessions()).toEqual({ [progress.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null } });
+    expect(await storage.getSessions()).toEqual({ [progress.questionId]: { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null } });
     expect(cache.packages.has(manifestV1.packages[0]!.sha256)).toBe(false);
 
     await manager.remove('enem-2024');
     expect(await manager.loadQuestions()).toEqual([]);
     expect(await storage.listDownloads()).toEqual([]);
     expect(await storage.listProgress()).toEqual([progress]);
-    expect(await storage.getSessions()).toEqual({ [progress.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null } });
+    expect(await storage.getSessions()).toEqual({ [progress.questionId]: { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null } });
   });
 
   it('does not install when capacity is insufficient and ignores a corrupted cache on reload', async () => {

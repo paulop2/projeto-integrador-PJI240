@@ -13,8 +13,8 @@ const question: Question = {
     { id: 'c', label: 'C', text: 'Três', file: null }, { id: 'd', label: 'D', text: 'Quatro', file: null },
   ], answer: { optionIds: ['b'] },
 };
-const session: QuestionSession = { startedAt: 1, selectedOptionId: null, outcome: null };
-const actions = { onStart: vi.fn(), onAnswer: vi.fn(), onTimeout: vi.fn(), onViewed: vi.fn() };
+const session: QuestionSession = { elapsedMs: 0, startedAt: 1, selectedOptionId: null, outcome: null };
+const actions = { onStart: vi.fn(), onPause: vi.fn(), onAnswer: vi.fn(), onTimeout: vi.fn(), onViewed: vi.fn() };
 
 describe('QuestionCard', () => {
   it('renders however many alternatives the contract provides and answers by id', async () => {
@@ -34,5 +34,38 @@ describe('QuestionCard', () => {
     render(<QuestionCard question={question} position={1} total={1} active session={{ ...session, selectedOptionId: 'a', outcome: 'incorrect' }} {...actions} />);
     expect(screen.getByRole('group')).toBeDisabled();
     expect(screen.getByText(/resposta correta está destacada/i)).toBeInTheDocument();
+  });
+
+  it('pauses the timer as soon as it stops being the active question', () => {
+    const onPause = vi.fn();
+    const running: QuestionSession = { elapsedMs: 0, startedAt: Date.now(), selectedOptionId: null, outcome: null };
+    const { rerender } = render(<QuestionCard question={question} position={1} total={1} active session={running} {...actions} onPause={onPause} />);
+    expect(onPause).not.toHaveBeenCalled();
+
+    rerender(<QuestionCard question={question} position={1} total={1} active={false} session={running} {...actions} onPause={onPause} />);
+    expect(onPause).toHaveBeenCalledWith(question.id);
+  });
+
+  it('resumes from the accumulated time when it becomes active and shows the remaining time', () => {
+    const onStart = vi.fn();
+    const paused: QuestionSession = { elapsedMs: 42_000, startedAt: null, selectedOptionId: null, outcome: null };
+    const { rerender } = render(<QuestionCard question={question} position={1} total={1} active={false} session={paused} {...actions} onStart={onStart} />);
+    expect(screen.getByRole('timer')).toHaveAccessibleName('2:18 restantes');
+    expect(onStart).not.toHaveBeenCalled();
+
+    rerender(<QuestionCard question={question} position={1} total={1} active session={paused} {...actions} onStart={onStart} />);
+    expect(onStart).toHaveBeenCalledWith(question.id);
+  });
+
+  it('reports the active elapsed time when answering, excluding pauses', async () => {
+    const onAnswer = vi.fn();
+    const partial: QuestionSession = { elapsedMs: 10_000, startedAt: Date.now() - 5_000, selectedOptionId: null, outcome: null };
+    render(<QuestionCard question={question} position={1} total={1} active session={partial} {...actions} onAnswer={onAnswer} />);
+
+    await userEvent.click(screen.getByLabelText(/Dois/));
+
+    const elapsed = onAnswer.mock.calls[0]![2] as number;
+    expect(elapsed).toBeGreaterThanOrEqual(15_000);
+    expect(elapsed).toBeLessThan(15_500);
   });
 });

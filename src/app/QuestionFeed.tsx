@@ -9,12 +9,13 @@ interface Props {
   sessions: Record<string, QuestionSession>;
   onActiveIndex: (index: number) => void;
   onStart: (questionId: string) => void;
+  onPause: (questionId: string) => void;
   onAnswer: (question: Question, optionId: string, elapsedMs: number) => void;
   onTimeout: (question: Question) => void;
   onViewed: (question: Question) => void;
 }
 
-const blankSession: QuestionSession = { startedAt: null, selectedOptionId: null, outcome: null };
+const blankSession: QuestionSession = { elapsedMs: 0, startedAt: null, selectedOptionId: null, outcome: null };
 
 export function QuestionFeed({ questions, activeIndex, sessions, onActiveIndex, ...actions }: Props) {
   const feedRef = useRef<HTMLElement>(null);
