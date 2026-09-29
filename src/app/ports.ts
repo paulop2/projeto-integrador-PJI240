@@ -45,12 +45,15 @@ export interface ActiveExamPort {
 }
 
 export interface StudySession {
+  /** Active time accumulated before the current run, excluding pauses. */
+  elapsedMs: number;
+  /** Start of the current active run, or null while paused, not started or finished. */
   startedAt: number | null;
   selectedOptionId: string | null;
   outcome: 'correct' | 'incorrect' | 'timed_out' | null;
 }
 
-/** Persisting startedAt lets a timer resume from its real deadline after reload. */
+/** Persisting elapsedMs and startedAt lets a timer resume the accumulated active time after reload. */
 export interface StudySessionPort {
   load(): Promise<Record<string, StudySession>>;
   save(questionId: string, session: StudySession): Promise<void>;

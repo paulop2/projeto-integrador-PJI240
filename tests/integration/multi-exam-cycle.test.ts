@@ -91,7 +91,7 @@ describe('multi-exam catalog, cache and persistence', () => {
     await world.manager.selectActiveExam('enem-2022-completo', 'enem-2022');
     const event = progressEvent('enem-enem-2022-1', '00000000-0000-4000-8000-0000000000a1');
     await world.storage.appendProgress(event);
-    await world.storage.putSession(event.questionId, { startedAt: 10, selectedOptionId: null, outcome: null });
+    await world.storage.putSession(event.questionId, { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null });
 
     await world.manager.remove('enem-2022-completo');
 
@@ -100,7 +100,7 @@ describe('multi-exam catalog, cache and persistence', () => {
     expect((await world.storage.listDownloads()).map(({ packageId }) => packageId)).toEqual(['enem-2023-completo']);
     expect(await world.storage.listProgress()).toEqual([event]);
     expect(await world.storage.getSessions()).toEqual({
-      [event.questionId]: { startedAt: 10, selectedOptionId: null, outcome: null },
+      [event.questionId]: { elapsedMs: 0, startedAt: 10, selectedOptionId: null, outcome: null },
     });
   });
 

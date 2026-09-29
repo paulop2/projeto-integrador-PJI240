@@ -198,7 +198,7 @@ describe('active edition feed', () => {
     const spanish = { ...question('enem-enem-2023-1', 'enem-2023', 2023, 'linguagens', 'Resposta em espanhol'), language: 'espanhol' as const };
     const english = { ...question('enem-enem-2023-1-ingles', 'enem-2023', 2023, 'linguagens', 'Answer in English'), language: 'ingles' as const };
     const sessions = new MemoryStudySessionPort();
-    await sessions.save(spanish.id, { startedAt: 1, selectedOptionId: 'c', outcome: 'correct' });
+    await sessions.save(spanish.id, { elapsedMs: 0, startedAt: 1, selectedOptionId: 'c', outcome: 'correct' });
     const activeExamPort: ActiveExamPort = {
       initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2023', editionId: 'enem-2023' }),
       select: vi.fn(),
@@ -215,5 +215,29 @@ describe('active edition feed', () => {
     const spanishCard = (await screen.findByText('Resposta em espanhol')).closest('article');
     if (!spanishCard) throw new Error('Spanish question card was not rendered');
     expect(within(spanishCard).getByRole('radio', { name: /9 km/ })).toBeChecked();
+  });
+
+  it('restores accumulated active time from the session and reports it when answering', async () => {
+    const sessions = new MemoryStudySessionPort();
+    await sessions.save('enem-2023-matematica', { elapsedMs: 42_000, startedAt: null, selectedOptionId: null, outcome: null });
+    const activeExamPort: ActiveExamPort = {
+      initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2023', editionId: 'enem-2023' }),
+      select: vi.fn(),
+    };
+    const questionSource: QuestionSourcePort = { load: vi.fn().mockResolvedValue(editions['enem-2023']) };
+
+    render(<App progressPort={new MemoryProgressPort()} sessionPort={sessions} questionSource={questionSource} activeExamPort={activeExamPort} authPort={authPort} authRuntime={authRuntime} />);
+
+    const first = await screen.findByRole('region', { name: 'Questão 1 de 2' });
+    expect(within(first).getByRole('timer')).toHaveAccessibleName('2:18 restantes');
+
+    await userEvent.click(within(first).getAllByRole('radio')[0]!);
+
+    await waitFor(async () => {
+      const stored = (await sessions.load())['enem-2023-matematica'];
+      expect(stored).toMatchObject({ startedAt: null, selectedOptionId: 'a', outcome: 'incorrect' });
+      expect(stored?.elapsedMs).toBeGreaterThanOrEqual(42_000);
+      expect(stored?.elapsedMs).toBeLessThanOrEqual(180_000);
+    });
   });
 });

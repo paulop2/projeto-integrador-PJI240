@@ -1,10 +1,9 @@
-import { useCallback, useEffect } from 'react';
+import { useCallback, useEffect, useRef } from 'react';
 
-import { QUESTION_TIME_LIMIT_MS } from '../contracts';
 import type { Question } from '../contracts';
 import type { LocalOutcome } from './progress';
 import type { StudySession } from './ports';
-import { formatTimer, useQuestionTimer } from './useQuestionTimer';
+import { activeElapsedMs, formatTimer, useQuestionTimer } from './useQuestionTimer';
 import { useViewTracking } from './useViewTracking';
 
 export interface QuestionSession extends StudySession { outcome: LocalOutcome | null }
@@ -16,19 +15,31 @@ interface QuestionCardProps {
   active: boolean;
   session: QuestionSession;
   onStart: (questionId: string) => void;
+  onPause: (questionId: string) => void;
   onAnswer: (question: Question, optionId: string, elapsedMs: number) => void;
   onTimeout: (question: Question) => void;
   onViewed: (question: Question) => void;
 }
 
-export function QuestionCard({ question, position, total, active, session, onStart, onAnswer, onTimeout, onViewed }: QuestionCardProps) {
+export function QuestionCard({ question, position, total, active, session, onStart, onPause, onAnswer, onTimeout, onViewed }: QuestionCardProps) {
   const isSupported = question.kind === 'single-choice';
   useEffect(() => {
-    if (isSupported && active && session.startedAt === null && session.outcome === null) onStart(question.id);
-  }, [active, isSupported, onStart, question.id, session.outcome, session.startedAt]);
+    if (!isSupported || session.outcome !== null) return;
+    if (active && session.startedAt === null) onStart(question.id);
+    else if (!active && session.startedAt !== null) onPause(question.id);
+  }, [active, isSupported, onPause, onStart, question.id, session.outcome, session.startedAt]);
+
+  const sessionRef = useRef(session);
+  sessionRef.current = session;
+  const pauseRef = useRef(onPause);
+  useEffect(() => { pauseRef.current = onPause; }, [onPause]);
+  useEffect(() => () => {
+    const current = sessionRef.current;
+    if (current.startedAt !== null && current.outcome === null) pauseRef.current(question.id);
+  }, [question.id]);
 
   const timeout = useCallback(() => onTimeout(question), [onTimeout, question]);
-  const remaining = useQuestionTimer(session.startedAt, !isSupported || session.outcome !== null, timeout);
+  const remaining = useQuestionTimer(session.elapsedMs, session.startedAt, active, !isSupported || session.outcome !== null, timeout);
   const viewRef = useViewTracking(active, useCallback(() => onViewed(question), [onViewed, question]));
   const locked = session.outcome !== null;
 
@@ -75,7 +86,7 @@ export function QuestionCard({ question, position, total, active, session, onSta
                   name={question.id}
                   value={alternative.id}
                   checked={selected}
-                  onChange={() => onAnswer(question, alternative.id, Math.min(QUESTION_TIME_LIMIT_MS, Math.max(0, Date.now() - (session.startedAt ?? Date.now()))))}
+                  onChange={() => onAnswer(question, alternative.id, activeElapsedMs(session.elapsedMs, session.startedAt, Date.now()))}
                 />
                 <span className="alternative-label">{alternative.label}</span>
                 <span className="alternative-content">
