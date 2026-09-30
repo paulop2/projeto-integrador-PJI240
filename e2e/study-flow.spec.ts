@@ -21,6 +21,7 @@ async function installEditionFromCleanCatalog(page: Page) {
   await expect(language.getByRole('radio', { name: /Todos/i })).toHaveCount(0);
   await language.getByRole('radio', { name: 'Espanhol' }).focus();
   await page.keyboard.press('Space');
+  await page.getByRole('button', { name: 'Começar agora' }).click();
   await expect(page.getByRole('region', { name: /Questão 1 de 177/ })).toBeVisible();
 }
 
@@ -100,6 +101,7 @@ test('carrega uma prova acessível, responde por teclado e persiste no reload', 
   });
 
   await page.reload();
+  await page.getByRole('button', { name: 'Começar agora' }).click();
   await expect(page.getByRole('region', { name: /Questão 1 de/ }).getByRole('group')).toHaveAttribute('disabled', '');
 });
 
@@ -149,6 +151,7 @@ test('baixa pelo catálogo limpo, usa após reload offline e remove a edição',
   await context.setOffline(true);
   await expect(page.locator('.connection')).toHaveText('Offline');
   await page.reload();
+  await page.getByRole('button', { name: 'Começar agora' }).click();
   await expect(page.getByText(installedContext, { exact: true }).first()).toBeVisible();
   await expect.poll(() => readActiveExamPreference(page)).toEqual({
     selectionRequired: false,
