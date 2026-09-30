@@ -54,6 +54,7 @@ describe('active edition feed', () => {
     };
 
     render(<App progressPort={new MemoryProgressPort()} sessionPort={new MemoryStudySessionPort()} questionSource={questionSource} packagePort={packages} activeExamPort={activeExamPort} authPort={authPort} authRuntime={authRuntime} />);
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     await screen.findByText('Matemática da edição 2022');
     expect(screen.queryByText(/edição 2023/)).not.toBeInTheDocument();
 
@@ -65,6 +66,7 @@ describe('active edition feed', () => {
     await userEvent.click(screen.getByRole('button', { name: 'Provas' }));
     await userEvent.click(await screen.findByRole('button', { name: 'Estudar ENEM 2023' }));
 
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     await waitFor(() => expect(screen.getByText('Matemática da edição 2023')).toBeInTheDocument());
     expect(activeExamPort.select).toHaveBeenCalledWith('enem-2023', 'enem-2023');
     expect(screen.queryByText(/edição 2022/)).not.toBeInTheDocument();
@@ -131,6 +133,7 @@ describe('active edition feed', () => {
 
     await userEvent.click(screen.getByRole('button', { name: 'Escolher prova' }));
     await userEvent.click(await screen.findByRole('button', { name: 'Estudar ENEM 2022' }));
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     expect(await screen.findByText('Matemática da edição 2022')).toBeInTheDocument();
     expect(screen.queryByText(/edição 2023/)).not.toBeInTheDocument();
   });
@@ -162,6 +165,7 @@ describe('active edition feed', () => {
     expect(screen.queryByText(/Questão em inglês|Questão em espanhol|Questão comum/)).not.toBeInTheDocument();
 
     await userEvent.click(screen.getByRole('radio', { name: 'Inglês' }));
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     expect(await screen.findByText('Questão em inglês')).toBeInTheDocument();
     expect(screen.getByText('Questão comum de matemática')).toBeInTheDocument();
     expect(screen.queryByText('Questão em espanhol')).not.toBeInTheDocument();
@@ -176,6 +180,7 @@ describe('active edition feed', () => {
 
     first.unmount();
     render(<App {...props} />);
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     expect(await screen.findByText('Questão em espanhol')).toBeInTheDocument();
     expect(screen.queryByRole('heading', { name: 'Escolha o idioma estrangeiro para estudar.' })).not.toBeInTheDocument();
   });
@@ -189,6 +194,7 @@ describe('active edition feed', () => {
 
     render(<App progressPort={new MemoryProgressPort()} sessionPort={new MemoryStudySessionPort()} questionSource={questionSource} activeExamPort={activeExamPort} foreignLanguagePreferencePort={new MemoryForeignLanguagePreferencePort('ingles')} authPort={authPort} authRuntime={authRuntime} />);
 
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     expect(await screen.findByText('Matemática da edição 2022')).toBeInTheDocument();
     await userEvent.click(screen.getByRole('button', { name: /Filtros/ }));
     expect(screen.queryByRole('group', { name: 'Idioma estrangeiro' })).not.toBeInTheDocument();
@@ -206,6 +212,7 @@ describe('active edition feed', () => {
 
     render(<App progressPort={new MemoryProgressPort()} sessionPort={sessions} questionSource={{ load: vi.fn().mockResolvedValue([spanish, english]) }} activeExamPort={activeExamPort} foreignLanguagePreferencePort={new MemoryForeignLanguagePreferencePort('ingles')} authPort={authPort} authRuntime={authRuntime} />);
 
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     const englishCard = (await screen.findByText('Answer in English')).closest('article');
     if (!englishCard) throw new Error('English question card was not rendered');
     expect(within(englishCard).getAllByRole('radio').every((radio) => !(radio as HTMLInputElement).checked)).toBe(true);
@@ -228,6 +235,7 @@ describe('active edition feed', () => {
 
     render(<App progressPort={new MemoryProgressPort()} sessionPort={sessions} questionSource={questionSource} activeExamPort={activeExamPort} authPort={authPort} authRuntime={authRuntime} />);
 
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     const first = await screen.findByRole('region', { name: 'Questão 1 de 2' });
     expect(within(first).getByRole('timer')).toHaveAccessibleName('2:18 restantes');
 
@@ -256,6 +264,7 @@ describe('active edition feed', () => {
     };
 
     const first = render(<App {...props} />);
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     const card = (await screen.findByText('Matemática da edição 2023')).closest('article');
     if (!card) throw new Error('Question card was not rendered');
     await userEvent.click(within(card).getByRole('button', { name: 'Riscar alternativa A' }));
@@ -269,11 +278,76 @@ describe('active edition feed', () => {
 
     first.unmount();
     render(<App {...props} />);
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     const reloaded = (await screen.findByText('Matemática da edição 2023')).closest('article');
     if (!reloaded) throw new Error('Question card was not rendered after reload');
     expect(within(reloaded).getByRole('button', { name: 'Desmarcar rascunho da alternativa A' })).toHaveAttribute('aria-pressed', 'true');
     const other = screen.getByText('Humanas da edição 2023').closest('article');
     if (!other) throw new Error('Second question card was not rendered');
     expect(within(other).getByRole('button', { name: 'Riscar alternativa A' })).toHaveAttribute('aria-pressed', 'false');
+  });
+
+  it('hides the feed and starts no timer until Começar agora is acionado', async () => {
+    const sessions = new MemoryStudySessionPort();
+    const progress = new MemoryProgressPort();
+    const append = vi.spyOn(progress, 'append');
+    const activeExamPort: ActiveExamPort = {
+      initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2023', editionId: 'enem-2023' }),
+      select: vi.fn(),
+    };
+    const questionSource: QuestionSourcePort = { load: vi.fn().mockResolvedValue(editions['enem-2023']) };
+
+    render(<App progressPort={progress} sessionPort={sessions} questionSource={questionSource} activeExamPort={activeExamPort} authPort={authPort} authRuntime={authRuntime} />);
+
+    const start = await screen.findByRole('button', { name: 'Começar agora' });
+    expect(screen.queryByText('Matemática da edição 2023')).not.toBeInTheDocument();
+    expect(screen.queryByRole('timer')).not.toBeInTheDocument();
+    await waitFor(async () => expect(await sessions.load()).toEqual({}));
+    expect(append).not.toHaveBeenCalled();
+
+    await userEvent.click(start);
+    expect(await screen.findByText('Matemática da edição 2023')).toBeInTheDocument();
+    expect(screen.getAllByRole('timer').length).toBeGreaterThan(0);
+  });
+
+  it('returns to the start screen after a reload', async () => {
+    const activeExamPort: ActiveExamPort = {
+      initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2023', editionId: 'enem-2023' }),
+      select: vi.fn(),
+    };
+    const props = {
+      progressPort: new MemoryProgressPort(), sessionPort: new MemoryStudySessionPort(),
+      questionSource: { load: vi.fn().mockResolvedValue(editions['enem-2023']) } as QuestionSourcePort,
+      activeExamPort, authPort, authRuntime,
+    };
+
+    const first = render(<App {...props} />);
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
+    expect(await screen.findByText('Matemática da edição 2023')).toBeInTheDocument();
+
+    first.unmount();
+    render(<App {...props} />);
+    expect(await screen.findByRole('button', { name: 'Começar agora' })).toBeInTheDocument();
+    expect(screen.queryByText('Matemática da edição 2023')).not.toBeInTheDocument();
+  });
+
+  it('keeps the session started when a different downloaded exam is removed', async () => {
+    const activeExamPort: ActiveExamPort = {
+      initialize: vi.fn().mockResolvedValue({ status: 'active', packageId: 'enem-2022', editionId: 'enem-2022' }),
+      select: vi.fn(),
+    };
+
+    render(<App progressPort={new MemoryProgressPort()} sessionPort={new MemoryStudySessionPort()} questionSource={{ load: vi.fn().mockResolvedValue(editions['enem-2022']) }} packagePort={packages} activeExamPort={activeExamPort} authPort={authPort} authRuntime={authRuntime} />);
+
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
+    expect(await screen.findByText('Matemática da edição 2022')).toBeInTheDocument();
+
+    await userEvent.click(screen.getByRole('button', { name: 'Provas' }));
+    await userEvent.click(await screen.findByRole('button', { name: 'Remover ENEM 2023 do dispositivo' }));
+    await userEvent.click(screen.getByRole('button', { name: 'Confirmar remoção' }));
+    await userEvent.click(screen.getByRole('button', { name: 'Fechar provas' }));
+
+    expect(screen.getByText('Matemática da edição 2022')).toBeInTheDocument();
+    expect(screen.queryByRole('button', { name: 'Começar agora' })).not.toBeInTheDocument();
   });
 });

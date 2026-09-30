@@ -86,6 +86,26 @@ pacotes cuja instalação local esteja íntegra e aplica esta ordem:
 A prova ativa e o estado **Escolha necessária** são preferências locais do
 dispositivo. Eles não dependem de login nem de conexão.
 
+## Início do estudo
+
+O feed não começa a contar tempo sozinho. Enquanto não houver uma prova ativa
+com idioma resolvido e o estudante não acionar **Começar agora**, nenhuma
+questão é exibida e nenhum timer avança.
+
+- A tela de início aparece depois de baixar ou atualizar uma prova que vira
+  ativa, de acionar **Estudar esta prova** e também ao abrir ou recarregar o app
+  com uma prova ativa.
+- Acionar **Começar agora** revela o feed na primeira questão e inicia o tempo
+  da questão ativa. A partir daí, vale o comportamento normal por questão.
+- Trocar a prova ativa — quando outra edição passa a ser a ativa — volta à tela
+  de início. Baixar, atualizar ou remover uma prova que não é a ativa não
+  interrompe a sessão em andamento.
+- O acionamento não registra progresso. Sessões persistidas (tempo acumulado,
+  rascunhos e respostas) são restauradas normalmente.
+- O idioma estrangeiro, quando exigido, é escolhido antes da tela de início.
+- Sem prova ativa, valem os estados já descritos (ausência de download, escolha
+  necessária ou ausência de questões).
+
 ## Transições
 
 ### Baixar
@@ -141,6 +161,9 @@ dispositivo. Eles não dependem de login nem de conexão.
 | Segunda prova baixada | Manter a ativa e mostrar **{prova} foi baixada. Sua prova ativa continua sendo {ativa}.** |
 | Reload com seleção válida | Restaurar a mesma prova sem pedir nova escolha. |
 | Reload offline com seleção válida | Restaurar a mesma prova a partir do armazenamento local. |
+| Prova ativa pronta para estudar | Mostrar a tela de início; nenhum timer avança até **Começar agora**. |
+| Reload com prova ativa | Mostrar a tela de início antes do feed. |
+| Troca de prova ativa | Voltar à tela de início antes de exibir o novo feed. |
 | Uma prova baixada, sem seleção e sem remoção anterior | Ativá-la automaticamente. |
 | Várias provas baixadas, sem seleção válida | Não carregar feed; mostrar **Escolha uma prova baixada para continuar estudando.** |
 | Escolha manual | Ativar somente a escolhida e mostrar **{prova} é sua prova ativa.** |

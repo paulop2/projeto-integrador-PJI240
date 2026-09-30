@@ -64,6 +64,7 @@ describe('multi-exam feed', () => {
       authRuntime={authRuntime}
     />);
 
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     await screen.findByText('Matemática ENEM 2022');
 
     await userEvent.click(screen.getByRole('button', { name: /Filtros/ }));
@@ -75,6 +76,7 @@ describe('multi-exam feed', () => {
     await userEvent.click(screen.getByRole('button', { name: 'Provas' }));
     await userEvent.click(await screen.findByRole('button', { name: 'Estudar ENEM 2023' }));
 
+    await userEvent.click(await screen.findByRole('button', { name: 'Começar agora' }));
     expect(await screen.findByText('Matemática ENEM 2023')).toBeInTheDocument();
     expect(activeExamPort.select).toHaveBeenCalledWith('enem-2023-completo', 'enem-2023');
     expect(screen.queryByText('Matemática ENEM 2022')).not.toBeInTheDocument();

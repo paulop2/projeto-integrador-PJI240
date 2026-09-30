@@ -36,6 +36,10 @@ async function selectRequiredLanguage(page: Page, name: 'Espanhol' | 'Inglês') 
   await page.keyboard.press('Space');
 }
 
+async function startStudying(page: Page) {
+  await page.getByRole('button', { name: 'Começar agora' }).click();
+}
+
 function readActiveExamPreference(page: Page) {
   return page.evaluate(async () => {
     const database = await new Promise<IDBDatabase>((resolve, reject) => {
@@ -99,6 +103,7 @@ test('jornada multi-edição: baixa 2022 e 2023, alterna, restaura offline, remo
   // A edição ativa filtra o feed: ENEM 2022 (+ idioma estrangeiro escolhido).
   await page.getByRole('button', { name: 'Fechar provas' }).click();
   await selectRequiredLanguage(page, 'Espanhol');
+  await startStudying(page);
   await expect(page.getByRole('region', { name: `Questão 1 de ${EDITIONS['ENEM 2022'].total}` })).toBeVisible();
   await expect(page.locator('.question-slide')).toHaveCount(EDITIONS['ENEM 2022'].total);
   await expect(page.locator('.question-meta .eyebrow').first()).toContainText('2022');
@@ -115,6 +120,7 @@ test('jornada multi-edição: baixa 2022 e 2023, alterna, restaura offline, remo
     selection: { packageId: 'enem-2023', editionId: 'enem-2023' },
   });
   await page.getByRole('button', { name: 'Fechar provas' }).click();
+  await startStudying(page);
   await expect(page.getByRole('region', { name: `Questão 1 de ${EDITIONS['ENEM 2023'].total}` })).toBeVisible();
   await expect(page.locator('.question-slide')).toHaveCount(EDITIONS['ENEM 2023'].total);
   await expect(page.locator('.question-meta .eyebrow').first()).toContainText('2023');
@@ -128,6 +134,7 @@ test('jornada multi-edição: baixa 2022 e 2023, alterna, restaura offline, remo
 
   // Restaurar a prova ativa após reload offline.
   await page.reload();
+  await startStudying(page);
   await expect(page.getByRole('region', { name: `Questão 1 de ${EDITIONS['ENEM 2023'].total}` })).toBeVisible();
   await expect(page.locator('.question-slide')).toHaveCount(EDITIONS['ENEM 2023'].total);
   await expect.poll(() => readActiveExamPreference(page)).toEqual({
@@ -163,6 +170,7 @@ test('jornada multi-edição: baixa 2022 e 2023, alterna, restaura offline, remo
   await page.keyboard.press('Enter');
   await expect(page.getByText('ENEM 2022 é sua prova ativa.')).toBeVisible();
   await page.getByRole('button', { name: 'Fechar provas' }).click();
+  await startStudying(page);
   const firstQuestion = page.getByRole('region', { name: `Questão 1 de ${EDITIONS['ENEM 2022'].total}` });
   await expect(firstQuestion).toBeVisible();
   await firstQuestion.getByRole('radio').first().focus();
@@ -170,6 +178,7 @@ test('jornada multi-edição: baixa 2022 e 2023, alterna, restaura offline, remo
   await expect(firstQuestion.getByRole('group')).toHaveAttribute('disabled', '');
 
   await page.reload();
+  await startStudying(page);
   await expect(page.getByRole('region', { name: `Questão 1 de ${EDITIONS['ENEM 2022'].total}` }).getByRole('group')).toHaveAttribute('disabled', '');
   await expect.poll(() => readActiveExamPreference(page)).toEqual({
     selectionRequired: false,

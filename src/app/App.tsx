@@ -40,6 +40,7 @@ export function App({
   const [questionsReady, setQuestionsReady] = useState(() => !questionSource);
   const [activeExam, setActiveExam] = useState<ActiveExamState | null>(null);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [studyStarted, setStudyStarted] = useState(false);
   const [sessions, setSessions] = useState<Record<string, QuestionSession>>({});
   const [sessionsReady, setSessionsReady] = useState(false);
   const [records, setRecords] = useState<LocalRecord[]>([]);
@@ -61,6 +62,7 @@ export function App({
   const [online, setOnline] = useState(() => navigator.onLine);
   const viewedKeys = useRef(new Set<string>());
   const terminalQuestions = useRef(new Set<string>());
+  const startedExamKeyRef = useRef<string | null>(null);
   const sessionsRef = useRef(sessions);
   sessionsRef.current = sessions;
   const authProbeGeneration = useRef(0);
@@ -115,6 +117,11 @@ export function App({
       activeExamPort?.initialize() ?? Promise.resolve(null),
       foreignLanguagePreferencePort.load(),
     ]);
+    const nextExamKey = nextActiveExam?.status === 'active' ? `${nextActiveExam.packageId}:${nextActiveExam.editionId}` : null;
+    if (startedExamKeyRef.current !== nextExamKey) {
+      startedExamKeyRef.current = nextExamKey;
+      setStudyStarted(false);
+    }
     setQuestions(nextActiveExam && nextActiveExam.status !== 'active' ? [] : loaded);
     setActiveExam(nextActiveExam);
     const available = new Set(loaded.map(({ language }) => language).filter((value): value is ForeignLanguage => value !== null));
@@ -317,7 +324,9 @@ export function App({
       {authOpen && <AuthPanel user={authUser} initialMode={initialAuthMode} busy={authBusy} error={authError} message={authMessage} online={online} onClose={() => setAuthOpen(false)} onEmailLogin={emailLogin} onSignUp={signUp} onGoogle={googleLogin} onLogout={logout} onForgot={forgotPassword} onReset={resetPassword} onVerify={resendVerification} />}
       {examsOpen && packagePort && activeExamPort && <div id="exams-panel"><ExamsPanel packagePort={packagePort} activeExamPort={activeExamPort} online={online} onClose={() => setExamsOpen(false)} onContentChange={reloadQuestions} /></div>}
 
-      {sessionsReady && questionsReady && languageReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onPause={onPause} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} onToggleStrike={onToggleStrike} /> : sessionsReady && questionsReady && languageReady && activeExam?.status === 'empty' ? (
+      {sessionsReady && questionsReady && languageReady && filtered.length && activeExam?.status === 'active' && !studyStarted ? (
+        <main className="empty-state start-screen" aria-label="Começar a estudar"><span aria-hidden="true">▶</span><h1>Pronto para começar?</h1><p>O tempo de cada questão só começa a contar quando você iniciar.</p><button className="primary-button" type="button" onClick={() => setStudyStarted(true)}>Começar agora</button></main>
+      ) : sessionsReady && questionsReady && languageReady && filtered.length ? <QuestionFeed questions={filtered} activeIndex={activeIndex} sessions={sessions} onActiveIndex={setActiveIndex} onStart={onStart} onPause={onPause} onAnswer={onAnswer} onTimeout={onTimeout} onViewed={onViewed} onToggleStrike={onToggleStrike} /> : sessionsReady && questionsReady && languageReady && activeExam?.status === 'empty' ? (
         <main className="empty-state" aria-label="Nenhuma prova baixada"><span aria-hidden="true">↓</span><h1>Baixe uma prova para começar a estudar.</h1><p>Escolha uma edição e ela ficará disponível também offline.</p>{packagePort && activeExamPort && <button className="primary-button" type="button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen(false); setExamsOpen(true); }}>Ver provas disponíveis</button>}</main>
       ) : sessionsReady && questionsReady && languageReady && activeExam?.status === 'selection-required' ? (
         <main className="empty-state" aria-label="Escolha de prova necessária"><span aria-hidden="true">→</span><h1>Escolha uma prova baixada para continuar estudando.</h1><p>Nenhuma edição será combinada ou escolhida sem sua confirmação.</p>{packagePort && activeExamPort && <button className="primary-button" type="button" onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen(false); setExamsOpen(true); }}>Escolher prova</button>}</main>
