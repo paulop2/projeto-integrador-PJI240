@@ -18,7 +18,7 @@ Cada questão:
 - Informa se a resposta está certa ou errada.
 - Permite avançar deslizando para a próxima questão.
 
-O usuário também pode filtrar as questões por matéria e prova.
+O usuário também pode filtrar as questões por matéria e prova e escolher entre o tema claro, o escuro ou seguir a preferência do sistema.
 
 ### Funcionamento offline
 
