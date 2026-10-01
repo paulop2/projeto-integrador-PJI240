@@ -6,7 +6,9 @@ import { offlineRuntime } from '../offline/runtime';
 import { demoQuestions } from './demoQuestions';
 import { ExamsPanel } from './ExamsPanel';
 import { ForeignLanguageSelector } from './ForeignLanguageSelector';
-import type { ActiveExamPort, ActiveExamState, ForeignLanguagePreferencePort, PackagePort, ProgressPort, QuestionSourcePort, StudySessionPort } from './ports';
+import type { ActiveExamPort, ActiveExamState, ForeignLanguagePreferencePort, PackagePort, ProgressPort, QuestionSourcePort, StudySessionPort, ThemePreferencePort } from './ports';
+import { applyTheme, initialTheme, watchSystemTheme, type ThemePreference } from './theme';
+import { ThemeSelector } from './ThemeSelector';
 import { calculateStats, localDay, makeId, outcomeFor, type LocalRecord } from './progress';
 import { QuestionFeed } from './QuestionFeed';
 import type { QuestionSession } from './QuestionCard';
@@ -33,9 +35,10 @@ export function App({
   packagePort = offlineRuntime.packagePort,
   activeExamPort = offlineRuntime.activeExamPort,
   foreignLanguagePreferencePort = offlineRuntime.foreignLanguagePreferencePort,
+  themePreferencePort = offlineRuntime.themePreferencePort,
   authPort = httpAuthPort,
   authRuntime = accountRuntime,
-}: { progressPort?: ProgressPort; sessionPort?: StudySessionPort; questionSource?: QuestionSourcePort; packagePort?: PackagePort; activeExamPort?: ActiveExamPort; foreignLanguagePreferencePort?: ForeignLanguagePreferencePort; authPort?: AuthPort; authRuntime?: AccountRuntime }) {
+}: { progressPort?: ProgressPort; sessionPort?: StudySessionPort; questionSource?: QuestionSourcePort; packagePort?: PackagePort; activeExamPort?: ActiveExamPort; foreignLanguagePreferencePort?: ForeignLanguagePreferencePort; themePreferencePort?: ThemePreferencePort; authPort?: AuthPort; authRuntime?: AccountRuntime }) {
   const [questions, setQuestions] = useState<Question[]>(() => questionSource ? [] : demoQuestions);
   const [questionsReady, setQuestionsReady] = useState(() => !questionSource);
   const [activeExam, setActiveExam] = useState<ActiveExamState | null>(null);
@@ -51,6 +54,7 @@ export function App({
   const [filtersOpen, setFiltersOpen] = useState(false);
   const [examsOpen, setExamsOpen] = useState(false);
   const [statsOpen, setStatsOpen] = useState(false);
+  const [theme, setTheme] = useState<ThemePreference>(() => initialTheme());
   const resetToken = useMemo(() => new URLSearchParams(window.location.search).get('token'), []);
   const initialAuthMode: AuthMode = resetToken ? 'reset' : 'login';
   const [authOpen, setAuthOpen] = useState(Boolean(resetToken));
@@ -100,6 +104,16 @@ export function App({
   }, [authPort, authRuntime]);
 
   useEffect(() => { void offlineRuntime.prepareStorage(); }, []);
+  useEffect(() => {
+    let active = true;
+    void themePreferencePort.load().then((stored) => { if (active && stored) setTheme(stored); }).catch(() => undefined);
+    return () => { active = false; };
+  }, [themePreferencePort]);
+  useEffect(() => {
+    applyTheme(theme);
+    if (theme !== 'system') return;
+    return watchSystemTheme(window, () => applyTheme('system'));
+  }, [theme]);
   useEffect(() => {
     void probeSession();
   }, [probeSession]);
@@ -174,6 +188,11 @@ export function App({
   const filtered = useMemo(() => languageQuestions.filter((question) =>
     subject === 'all' || question.subjectId === subject,
   ), [languageQuestions, subject]);
+
+  const selectTheme = useCallback((next: ThemePreference) => {
+    setTheme(next);
+    void themePreferencePort.save(next).catch(() => undefined);
+  }, [themePreferencePort]);
 
   const selectForeignLanguage = useCallback((language: ForeignLanguage) => {
     setLanguageError(null);
@@ -310,6 +329,7 @@ export function App({
         <div className="topbar-actions">
           <span className={`connection ${online ? '' : 'is-offline'}`} role="status" aria-label={online ? 'Conectado à internet' : 'Sem conexão; estudando offline'}><i /><span>{online ? 'Online' : 'Offline'}</span></span>
           {authUser && <span className="sync-status" role="status">{syncStatus === 'syncing' ? 'Sincronizando…' : syncStatus === 'pending' ? 'Sync pendente' : syncStatus === 'synced' ? 'Sincronizado' : ''}</span>}
+          <ThemeSelector value={theme} onChange={selectTheme} />
           <button className="icon-button" onClick={() => { setAuthOpen(false); setExamsOpen(false); setFiltersOpen(false); setStatsOpen((open) => !open); }} aria-label="Ver estatísticas" aria-expanded={statsOpen}>↗</button>
           <button className="account-button" onClick={() => { setStatsOpen(false); setExamsOpen(false); setFiltersOpen(false); setAuthOpen(true); }} aria-label={authUser ? `Conta de ${authUser.name}` : 'Entrar ou criar conta'}>{authUser ? authUser.name.slice(0, 1).toUpperCase() : 'Entrar'}</button>
           <button className="exams-button" disabled={!packagePort || !activeExamPort} onClick={() => { setAuthOpen(false); setStatsOpen(false); setFiltersOpen(false); setExamsOpen((open) => !open); }} aria-expanded={examsOpen} aria-controls="exams-panel">Provas</button>

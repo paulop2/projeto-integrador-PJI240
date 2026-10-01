@@ -1,4 +1,4 @@
-const CACHE = 'maratona-shell-v4';
+const CACHE = 'maratona-shell-v5';
 const SHELL = ['/', '/index.html', '/manifest.webmanifest', '/icon.svg', '/data/manifest.json'];
 
 self.addEventListener('install', (event) => {

@@ -1,4 +1,5 @@
 import type { ActiveExamSelection, ForeignLanguage, ProgressEvent, Question } from '../contracts';
+import type { ThemePreference } from './theme';
 
 /** Boundary implemented in memory here and by IndexedDB in the offline layer. */
 export interface ProgressPort {
@@ -13,6 +14,11 @@ export interface QuestionSourcePort {
 export interface ForeignLanguagePreferencePort {
   load(): Promise<ForeignLanguage | null>;
   save(language: ForeignLanguage): Promise<void>;
+}
+
+export interface ThemePreferencePort {
+  load(): Promise<ThemePreference | null>;
+  save(theme: ThemePreference): Promise<void>;
 }
 
 export interface PackageSummary {
@@ -84,4 +90,10 @@ export class MemoryForeignLanguagePreferencePort implements ForeignLanguagePrefe
   constructor(private language: ForeignLanguage | null = null) {}
   async load() { return this.language; }
   async save(language: ForeignLanguage) { this.language = language; }
+}
+
+export class MemoryThemePreferencePort implements ThemePreferencePort {
+  constructor(private theme: ThemePreference | null = null) {}
+  async load() { return this.theme; }
+  async save(theme: ThemePreference) { this.theme = theme; }
 }

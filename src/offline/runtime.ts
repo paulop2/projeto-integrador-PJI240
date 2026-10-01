@@ -5,6 +5,7 @@ import { IndexedProgressPort, IndexedStudySessionPort, OfflineActiveExamPort, Of
 import { MemoryOfflineStorage } from './memory-storage';
 import { requestPersistentStorage } from './capacity';
 import { FetchSyncTransport, OnlineSyncCoordinator, SyncQueue } from './sync-queue';
+import { LocalThemePreferencePort } from '../app/theme';
 
 const hasOfflineApis = typeof indexedDB !== 'undefined' && typeof caches !== 'undefined';
 const storage = hasOfflineApis ? new IndexedDbOfflineStorage() : new MemoryOfflineStorage();
@@ -17,6 +18,7 @@ export const offlineRuntime = {
   progressPort: new IndexedProgressPort(storage),
   sessionPort: new IndexedStudySessionPort(storage),
   foreignLanguagePreferencePort: new OfflineForeignLanguagePreferencePort(storage),
+  themePreferencePort: new LocalThemePreferencePort(),
   questionSource: manager ? new OfflineQuestionSourcePort(manager) : undefined,
   packagePort: manager ? new OfflinePackagePort(manager) : undefined,
   activeExamPort: manager ? new OfflineActiveExamPort(manager) : undefined,
