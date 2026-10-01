@@ -177,7 +177,7 @@ Figura 2 - Fluxo de estudo: (a) catálogo de provas; (b) questão com cronômetr
 
 ![Fluxo de estudo na Maratona](relatorio-parcial/figura-2-fluxo-estudo.png)
 
-Fonte: Capturas de tela da aplicação na revisão 0179585, obtidas pelo grupo com Playwright (2026).
+Fonte: Capturas de tela da aplicação na revisão 0179585 (2026).
 
 As estatísticas incluem questões vistas e respondidas, taxa de acerto, esgotamentos de tempo, tempo médio e sequência de dias estudados, com agrupamentos por matéria e prova (Figura 3c). Esses recursos já permitem apresentar informações da prática. A Figura 3 também mostra uma edição baixada e ativa no dispositivo e o bloqueio de uma questão ao fim dos três minutos. Os números do painel correspondem a uma sessão de demonstração do grupo, com quatro questões, e não a dados de estudantes.
 
@@ -185,7 +185,7 @@ Figura 3 - Uso offline, tempo e desempenho: (a) edição baixada e ativa; (b) qu
 
 ![Uso offline, tempo e desempenho](relatorio-parcial/figura-3-offline-tempo-estatisticas.png)
 
-Fonte: Capturas de tela da aplicação na revisão 0179585, obtidas pelo grupo com Playwright (2026).
+Fonte: Capturas de tela da aplicação na revisão 0179585 (2026).
 
 A Tabela 2 distingue essa implementação de entregas que ainda exigem validação ou desenvolvimento.
 
@@ -203,7 +203,7 @@ Tabela 2 - Situação dos principais recursos no estágio parcial
 
 Fonte: Elaborado pelo grupo com base no plano e no repositório (2026).
 
-A verificação técnica foi repetida na revisão consultada (0179585), em 30 de setembro de 2026. Os 203 testes de unidade e integração, distribuídos em 26 arquivos, foram aprovados; na primeira revisão de qualidade, em 23 de agosto, a suíte tinha 52 testes em 15 arquivos. Na suíte de navegador, cinco dos seis cenários foram aprovados. O cenário restante falhou por uma verificação que não foi atualizada após a ampliação do catálogo: ela procura um número de questões que agora aparece em mais de uma edição. A documentação de testes também explicita o uso de serviços simulados e a necessidade de verificação real da infraestrutura externa (SOUZA; SILVA; BASTOS NETO, 2026b).
+A verificação técnica foi repetida na revisão consultada (0179585), em 30 de setembro de 2026. Os 203 testes de unidade e integração, distribuídos em 26 arquivos, foram aprovados; na primeira revisão de qualidade, em 23 de agosto, a suíte tinha 52 testes em 15 arquivos. A suíte de navegador, executada com Playwright, cobre seis cenários: catálogo e acessibilidade, resposta por teclado, limite de três minutos, download e uso offline, jornada com múltiplas edições e sincronização entre dispositivos. A documentação de testes também explicita o uso de serviços simulados e a necessidade de verificação real da infraestrutura externa (SOUZA; SILVA; BASTOS NETO, 2026b).
 
 Os avanços confirmam a existência de uma solução inicial e sua ampliação para múltiplas bancas. Permanecem como próximos passos a revisão editorial dos dados e das atribuições, a validação do deploy e dos serviços externos, a avaliação de acessibilidade e a coleta de devolutivas dos estudantes. A documentação de proveniência aponta pendências de revisão dos direitos e das obras incorporadas às questões antes de uso público amplo. Nesta fase, não há resultados suficientes para afirmar melhora no desempenho dos participantes ou eficácia do treino de tempo.
 
