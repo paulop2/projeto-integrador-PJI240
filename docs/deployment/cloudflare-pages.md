@@ -1,16 +1,13 @@
 # Cloudflare Pages — Maratona
 
 O frontend, as Pages Functions e o banco D1 são publicados no projeto
-`pj240`. A origem pública planejada é
-`https://maratona.pvsouza.com`.
+`pj240`. A origem pública é `https://pj240.pages.dev`.
 
 ## Recursos
 
 - Pages: `pj240`, branch de produção `main`.
 - D1 de produção: `maratona-production`, binding `DB`.
 - D1 de preview: `maratona-preview`, binding `DB` no ambiente de preview.
-- Domínio: `maratona.pvsouza.com`, associado pelo fluxo de custom domain do
-  Pages; o CNAME correspondente ainda precisa ser criado no DNS de `pvsouza.com`.
 
 Os três recursos foram criados em 08/09/2026, e os bancos ficaram na região
 ENAM. O arquivo `wrangler.jsonc` é a fonte de verdade da configuração não
@@ -24,7 +21,6 @@ secreta e contém seus IDs e bindings.
 | D1 `maratona-production` | Criado, migration `0001_backend.sql` aplicada |
 | D1 `maratona-preview` | Criado, migration `0001_backend.sql` aplicada |
 | `BETTER_AUTH_SECRET` de produção | Configurado como secret criptografado |
-| `maratona.pvsouza.com` | Associado ao Pages; aguarda o CNAME |
 | Google OAuth e Resend | Aguardam credenciais e remetente verificado |
 | `question_answer_key` | Aguarda carga das respostas antes do deploy |
 
@@ -65,22 +61,16 @@ Configure os secrets abaixo no Pages, separadamente para preview e produção:
 - `RESEND_FROM`
 
 `BETTER_AUTH_URL` fica versionado como
-`https://maratona.pvsouza.com`. O callback autorizado no Google deve usar essa
+`https://pj240.pages.dev`. O callback autorizado no Google deve usar essa
 origem e a rota indicada pelo Better Auth.
 
-## Publicação e domínio
+## Publicação
 
 Uma publicação é uma ação separada da configuração dos recursos:
 
 ```powershell
 npm run deploy:pages
 ```
-
-O hostname já está associado ao projeto. No DNS de `pvsouza.com`, crie o CNAME
-`maratona` apontando para `pj240.pages.dev`. A credencial OAuth do
-Wrangler não possui permissão para editar DNS, portanto esse registro ainda não
-foi criado. Não remova a associação do hostname no Pages: um CNAME isolado, sem
-essa associação, resulta em erro 522.
 
 Antes de considerar produção pronta, aplique as migrations, carregue
 `question_answer_key` a partir do pacote publicado e execute os smokes reais de

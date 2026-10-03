@@ -5,7 +5,7 @@
   "compatibility_date": "2026-09-08",
   "compatibility_flags": ["nodejs_compat"],
   "vars": {
-    "BETTER_AUTH_URL": "https://maratona.pvsouza.com"
+    "BETTER_AUTH_URL": "https://pj240.pages.dev"
   },
   "d1_databases": [
     {
