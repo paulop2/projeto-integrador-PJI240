@@ -1,3 +1,0 @@
-[submodule "infra/zitadel"]
-	path = infra/zitadel
-	url = git@github.com:eriksonssilva/zitadel-kit.git
