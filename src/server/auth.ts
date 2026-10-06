@@ -1,3 +1,6 @@
+import type { BetterAuthOptions } from 'better-auth';
+import { genericOAuth } from 'better-auth/plugins/generic-oauth';
+
 import type { BackendEnv } from './cloudflare';
 import { HttpError } from './http';
 
@@ -20,71 +23,50 @@ function required(env: BackendEnv, key: keyof BackendEnv): string {
   return value;
 }
 
-function escapeHtml(value: string): string {
-  return value.replace(/[&<>'"]/g, (character) => {
-    const entities: Record<string, string> = {
-      '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;',
-    };
-    return entities[character] ?? character;
-  });
-}
-
-async function sendResendEmail(
-  env: BackendEnv,
-  message: { to: string; subject: string; action: string; url: string },
-): Promise<void> {
-  const response = await fetch('https://api.resend.com/emails', {
-    method: 'POST',
-    headers: {
-      authorization: `Bearer ${required(env, 'RESEND_API_KEY')}`,
-      'content-type': 'application/json',
-    },
-    body: JSON.stringify({
-      from: required(env, 'RESEND_FROM'),
-      to: [message.to],
-      subject: message.subject,
-      html: `<p>${escapeHtml(message.action)}</p><p><a href="${escapeHtml(message.url)}">Continuar</a></p>`,
-    }),
-  });
-  if (!response.ok) {
-    throw new Error(`Resend recusou o envio (${response.status})`);
+export function buildBetterAuthOptions(env: BackendEnv): BetterAuthOptions {
+  const issuer = new URL(required(env, 'MARATONA_ZITADEL_ISSUER_URL'));
+  const baseURL = new URL(required(env, 'BETTER_AUTH_URL'));
+  for (const url of [issuer, baseURL]) {
+    const local = ['localhost', '127.0.0.1', '[::1]'].includes(url.hostname);
+    if ((url.protocol !== 'https:' && !(url.protocol === 'http:' && local))
+      || url.username || url.password || url.search || url.hash || url.pathname !== '/') {
+      throw new Error('A origem de autenticação deve usar HTTPS, sem caminho ou credenciais.');
+    }
   }
-}
-
-export function buildBetterAuthOptions(env: BackendEnv): Record<string, unknown> {
   return {
-    database: env.DB,
+    // The local binding interface is intentionally narrower than Cloudflare's
+    // full D1 type, which Better Auth accepts directly at runtime.
+    database: env.DB as BetterAuthOptions['database'],
     secret: required(env, 'BETTER_AUTH_SECRET'),
-    baseURL: required(env, 'BETTER_AUTH_URL'),
-    emailAndPassword: {
-      enabled: true,
+    baseURL: baseURL.origin,
+    basePath: '/api/auth',
+    trustedOrigins: [baseURL.origin],
+    onAPIError: { errorURL: `${baseURL.origin}/login?error=login_failed` },
+    emailAndPassword: { enabled: false },
+    account: {
+      encryptOAuthTokens: true,
+      accountLinking: { enabled: true, requireLocalEmailVerified: true, trustedProviders: [] },
+    },
+    user: {
+      validateUserInfo: ({ source }) => {
+        if (source.oauth?.providerId === 'zitadel' && source.oauth.profile?.email_verified !== true) {
+          return { error: 'email_not_verified', errorDescription: 'Verifique seu e-mail antes de entrar.' };
+        }
+      },
+    },
+    plugins: [genericOAuth({ config: [{
+      providerId: 'zitadel',
+      discoveryUrl: `${issuer.origin}/.well-known/openid-configuration`,
+      clientId: required(env, 'MARATONA_ZITADEL_WEB_CLIENT_ID'),
+      clientSecret: required(env, 'MARATONA_ZITADEL_WEB_CLIENT_SECRET'),
+      tokenEndpointAuth: { method: 'client_secret_basic' },
+      pkce: true,
+      requireIdTokenVerification: true,
       requireEmailVerification: true,
-      sendResetPassword: async ({ user, url }: { user: { email: string }; url: string }) => {
-        await sendResendEmail(env, {
-          to: user.email,
-          subject: 'Redefina sua senha',
-          action: 'Use o link abaixo para redefinir sua senha.',
-          url,
-        });
-      },
-    },
-    emailVerification: {
-      sendOnSignUp: true,
-      sendVerificationEmail: async ({ user, url }: { user: { email: string }; url: string }) => {
-        await sendResendEmail(env, {
-          to: user.email,
-          subject: 'Verifique seu e-mail',
-          action: 'Use o link abaixo para verificar seu e-mail.',
-          url,
-        });
-      },
-    },
-    socialProviders: {
-      google: {
-        clientId: required(env, 'GOOGLE_CLIENT_ID'),
-        clientSecret: required(env, 'GOOGLE_CLIENT_SECRET'),
-      },
-    },
+      scopes: ['openid', 'profile', 'email', `urn:zitadel:iam:org:id:${required(env, 'MARATONA_ZITADEL_LOGIN_ORG_ID')}`],
+      postLogoutRedirectURI: `${baseURL.origin}/`,
+      mapProfileToUser: (profile) => ({ name: profile.name || String(profile.preferred_username || profile.email) }),
+    }] })],
   };
 }
 

@@ -13,7 +13,7 @@ import { calculateStats, localDay, makeId, outcomeFor, type LocalRecord } from '
 import { QuestionFeed } from './QuestionFeed';
 import type { QuestionSession } from './QuestionCard';
 import { StatsPanel } from './StatsPanel';
-import { AuthPanel, type AuthMode } from './AuthPanel';
+import { AuthPanel } from './AuthPanel';
 import { httpAuthPort, type AuthPort, type AuthUser } from './auth';
 
 const DEVICE_ID = makeId();
@@ -55,13 +55,11 @@ export function App({
   const [examsOpen, setExamsOpen] = useState(false);
   const [statsOpen, setStatsOpen] = useState(false);
   const [theme, setTheme] = useState<ThemePreference>(() => initialTheme());
-  const resetToken = useMemo(() => new URLSearchParams(window.location.search).get('token'), []);
-  const initialAuthMode: AuthMode = resetToken ? 'reset' : 'login';
-  const [authOpen, setAuthOpen] = useState(Boolean(resetToken));
+  const [authOpen, setAuthOpen] = useState(false);
   const [authUser, setAuthUser] = useState<AuthUser | null>(null);
   const [authBusy, setAuthBusy] = useState(true);
   const [authError, setAuthError] = useState<string | null>(null);
-  const [authMessage, setAuthMessage] = useState<string | null>(() => new URLSearchParams(window.location.search).has('verified') ? 'E-mail verificado. Você já pode entrar.' : null);
+  const [authMessage, setAuthMessage] = useState<string | null>(null);
   const [syncStatus, setSyncStatus] = useState<'idle' | 'syncing' | 'synced' | 'pending'>('idle');
   const [online, setOnline] = useState(() => navigator.onLine);
   const viewedKeys = useRef(new Set<string>());
@@ -284,40 +282,19 @@ export function App({
     try { await action(); } catch (error) { setAuthError(error instanceof Error ? error.message : String(error)); }
     finally { setAuthBusy(false); }
   }, []);
-  const emailLogin = useCallback((email: string, password: string) => authAction(async () => {
-    const user = await authPort.signInEmail(email, password) ?? await authPort.getSession();
-    if (!user) throw new Error('A sessão não foi iniciada. Verifique seu e-mail e senha.');
-    authProbeGeneration.current += 1; authProbeInFlight.current = null;
-    authenticatedUser.current = user;
-    setAuthUser(user); setAuthMessage('Conta conectada. Sincronizando seu progresso…');
-  }), [authAction, authPort]);
-  const signUp = useCallback((name: string, email: string, password: string) => authAction(async () => {
-    await authPort.signUpEmail(name, email, password);
-    setAuthMessage('Conta criada. Enviamos um link de verificação para seu e-mail.');
-  }), [authAction, authPort]);
-  const googleLogin = useCallback(() => authAction(() => authPort.signInGoogle()), [authAction, authPort]);
-  const forgotPassword = useCallback((email: string) => authAction(async () => {
-    await authPort.requestPasswordReset(email); setAuthMessage('Se a conta existir, enviaremos um link para redefinir a senha.');
-  }), [authAction, authPort]);
-  const resetPassword = useCallback((password: string) => authAction(async () => {
-    if (!resetToken) throw new Error('Link de recuperação inválido ou incompleto.');
-    await authPort.resetPassword(resetToken, password); setAuthMessage('Senha alterada. Você já pode entrar.');
-    window.history.replaceState({}, '', '/');
-  }), [authAction, authPort, resetToken]);
-  const resendVerification = useCallback((email: string) => authAction(async () => {
-    await authPort.sendVerification(email); setAuthMessage('Enviamos um novo link de verificação.');
-  }), [authAction, authPort]);
+  const login = useCallback(() => authAction(() => authPort.signIn()), [authAction, authPort]);
   const logout = useCallback(() => authAction(async () => {
     loggingOut.current = true;
     authProbeGeneration.current += 1; authProbeInFlight.current = null;
     try {
       authRuntime.coordinator?.stop();
-      await authPort.signOut();
+      const redirect = await authPort.signOut();
       await authRuntime.clear();
       authenticatedUser.current = null;
       setAuthUser(null); setRecords([]); setSessions({}); setSyncStatus('idle');
       terminalQuestions.current.clear(); viewedKeys.current.clear();
       setAuthMessage('Você saiu. As provas baixadas continuam disponíveis.');
+      if (redirect) window.location.assign(redirect);
     } finally { loggingOut.current = false; }
   }), [authAction, authPort, authRuntime]);
 
@@ -341,7 +318,7 @@ export function App({
       </section>}
       </header>
       {statsOpen && <StatsPanel stats={stats} onClose={() => setStatsOpen(false)} />}
-      {authOpen && <AuthPanel user={authUser} initialMode={initialAuthMode} busy={authBusy} error={authError} message={authMessage} online={online} onClose={() => setAuthOpen(false)} onEmailLogin={emailLogin} onSignUp={signUp} onGoogle={googleLogin} onLogout={logout} onForgot={forgotPassword} onReset={resetPassword} onVerify={resendVerification} />}
+      {authOpen && <AuthPanel user={authUser} busy={authBusy} error={authError} message={authMessage} online={online} onClose={() => setAuthOpen(false)} onLogin={login} onLogout={logout} />}
       {examsOpen && packagePort && activeExamPort && <div id="exams-panel"><ExamsPanel packagePort={packagePort} activeExamPort={activeExamPort} online={online} onClose={() => setExamsOpen(false)} onContentChange={reloadQuestions} /></div>}
 
       {sessionsReady && questionsReady && languageReady && filtered.length && activeExam?.status === 'active' && !studyStarted ? (

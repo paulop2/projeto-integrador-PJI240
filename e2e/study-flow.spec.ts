@@ -176,10 +176,24 @@ async function mockAccountAndSync(context: BrowserContext, server: { enabled: bo
   const user = { id: 'user-e2e', email: 'aluna@example.test', name: 'Aluna E2E' };
   await context.route('**/api/auth/**', async (route) => {
     const path = new URL(route.request().url()).pathname;
-    if (path.endsWith('/sign-in/email')) auth.authenticated = true;
+    if (path.endsWith('/sign-in/social')) {
+      await route.fulfill({ status: 200, json: { url: new URL('/login?authRequest=e2e-request', route.request().url()).toString() } });
+      return;
+    }
     if (path.endsWith('/sign-out')) auth.authenticated = false;
     const hasUser = auth.authenticated && !path.endsWith('/sign-out');
     await route.fulfill({ status: 200, json: hasUser ? { user } : {} });
+  });
+  await context.route('**/api/login/**', async (route) => {
+    const path = new URL(route.request().url()).pathname;
+    if (path.endsWith('/context')) {
+      await route.fulfill({ status: 200, json: { googleEnabled: false } });
+    } else if (path.endsWith('/password')) {
+      auth.authenticated = true;
+      await route.fulfill({ status: 200, json: { url: new URL('/', route.request().url()).toString() } });
+    } else {
+      await route.fulfill({ status: 400, json: { error: { code: 'invalid_input', message: 'invalid request' } } });
+    }
   });
   await context.route('**/api/sync', async (route: Route) => {
     if (!server.enabled) {
@@ -224,10 +238,13 @@ test('sincroniza progresso anônimo após login/reconexão, replica no segundo d
   await expect(firstQuestion.getByRole('group')).toHaveAttribute('disabled', '');
 
   await page.getByRole('button', { name: 'Entrar ou criar conta' }).click();
+  await page.getByRole('dialog').getByRole('button', { name: 'Entrar ou criar conta', exact: true }).click();
+  await expect(page).toHaveURL(/\/login\?authRequest=e2e-request/);
   await page.getByLabel('E-mail').fill('aluna@example.test');
   await page.getByLabel('Senha').fill('senha-segura');
   await page.getByRole('button', { name: 'Entrar', exact: true }).click();
-  await expect(page.getByText(/Conta conectada/)).toBeVisible();
+  await expect(page).toHaveURL(/\/$/);
+  await expect(page.getByRole('button', { name: 'Conta de Aluna E2E' })).toBeVisible();
   await expect(page.getByText('Sync pendente')).toBeVisible();
 
   await page.waitForTimeout(2_100);
@@ -259,6 +276,7 @@ test('sincroniza progresso anônimo após login/reconexão, replica no segundo d
   await expect(answered).toContainText('1');
   await secondContext.close();
 
+  await page.getByRole('button', { name: 'Conta de Aluna E2E' }).click();
   await page.getByRole('button', { name: 'Sair' }).click();
   await expect(page.getByText(/As provas baixadas continuam disponíveis/)).toBeVisible();
   await page.getByRole('button', { name: 'Fechar conta' }).click();

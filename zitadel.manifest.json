@@ -1,0 +1,31 @@
+{
+  "env_prefix": "MARATONA_ZITADEL_",
+  "apps": [
+    {
+      "key": "web",
+      "project": "Maratona",
+      "name": "Maratona Web",
+      "redirect_path": "/api/auth/callback/zitadel",
+      "post_logout_path": "/",
+      "login": { "custom_path": "/login" },
+      "primary": true
+    }
+  ],
+  "machine_users": [
+    {
+      "key": "login",
+      "username": "maratona-login",
+      "role": "IAM_LOGIN_CLIENT",
+      "name": "Maratona Login",
+      "description": "Session and OIDC APIs for the Maratona login pages"
+    },
+    {
+      "key": "management",
+      "username": "maratona-users",
+      "role": "ORG_USER_MANAGER",
+      "name": "Maratona Users",
+      "description": "Registration, email verification and password recovery"
+    }
+  ],
+  "google_idp": { "name": "Google" }
+}

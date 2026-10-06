@@ -1,4 +1,4 @@
-const CACHE = 'maratona-shell-v5';
+const CACHE = 'maratona-shell-v6';
 const SHELL = ['/', '/index.html', '/manifest.webmanifest', '/icon.svg', '/data/manifest.json'];
 
 self.addEventListener('install', (event) => {
@@ -25,6 +25,12 @@ self.addEventListener('fetch', (event) => {
   if (event.request.method !== 'GET') return;
   const url = new URL(event.request.url);
   if (url.pathname.startsWith('/api/')) return;
+  // Email links carry single-use codes. Never cache their navigation response.
+  // The generic shell can still show the offline notice without storing codes.
+  if (url.pathname === '/login' || url.pathname === '/login/') {
+    event.respondWith(fetch(event.request).catch(() => caches.match('/index.html')));
+    return;
+  }
   if (url.pathname === '/data/manifest.json') {
     event.respondWith((async () => {
       try {
