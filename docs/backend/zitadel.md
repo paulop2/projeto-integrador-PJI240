@@ -44,8 +44,11 @@ daquela identidade no D1. Uma sessão temporária que validou a senha anterior
 
 ## Kit e manifesto
 
-O submódulo está fixado no commit `01b26c2c619a033ff33f1bdad28a281853dc3cf8` do
-kit fornecido. `zitadel.manifest.json` declara um cliente confidencial `web`,
+O kit (`eriksonssilva/zitadel-kit`) é privado e não faz parte deste repositório:
+a integração Git do Cloudflare Pages não consegue clonar submódulos privados.
+Quem opera o Zitadel clona o kit em `infra/zitadel`, caminho ignorado pelo Git e
+usado por padrão no `Makefile`. A versão validada é o commit
+`01b26c2c619a033ff33f1bdad28a281853dc3cf8`. `zitadel.manifest.json` declara um cliente confidencial `web`,
 com authorization code, PKCE e `client_secret_basic`, e dois usuários de serviço:
 
 | Chave | Papel | Finalidade |
@@ -53,15 +56,18 @@ com authorization code, PKCE e `client_secret_basic`, e dois usuários de servi�
 | `login` | `IAM_LOGIN_CLIENT` | Sessões, políticas e conclusão OIDC |
 | `management` | `ORG_USER_MANAGER` | Cadastro, e-mail e recuperação na organização |
 
-O manifesto usa `MARATONA_ZITADEL_` como prefixo. Não altere o código dentro do
-submódulo para configurar esta aplicação. O kit privado precisa ser acessível
-para quem executar `git submodule update --init infra/zitadel`; a compilação do
-frontend e das Functions não depende de baixar esse submódulo.
+O manifesto usa `MARATONA_ZITADEL_` como prefixo. Não altere o código do kit
+para configurar esta aplicação. A compilação do frontend e das Functions não
+depende do kit; ele só é necessário para os alvos `make zitadel-*`.
 
 ```sh
-git submodule update --init infra/zitadel
+git clone git@github.com:eriksonssilva/zitadel-kit.git infra/zitadel
+git -C infra/zitadel checkout 01b26c2c619a033ff33f1bdad28a281853dc3cf8
 make zitadel-check
 ```
+
+Para manter o kit em outro diretório, passe o caminho em cada comando, por
+exemplo `make zitadel-check ZITADEL_KIT=../zitadel-kit`.
 
 ## Desenvolvimento com Pages Functions
 
