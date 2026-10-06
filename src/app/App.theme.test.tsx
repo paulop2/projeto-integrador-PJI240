@@ -7,8 +7,7 @@ import type { AuthPort } from './auth';
 import { MemoryProgressPort, MemoryStudySessionPort, MemoryThemePreferencePort } from './ports';
 
 const authPort: AuthPort = {
-  getSession: vi.fn().mockResolvedValue(null), signInEmail: vi.fn(), signUpEmail: vi.fn(), signInGoogle: vi.fn(), signOut: vi.fn(),
-  requestPasswordReset: vi.fn(), resetPassword: vi.fn(), sendVerification: vi.fn(),
+  getSession: vi.fn().mockResolvedValue(null), signIn: vi.fn(), signOut: vi.fn(),
 };
 const authRuntime = { coordinator: undefined, sync: vi.fn().mockResolvedValue(true), clear: vi.fn() };
 

@@ -7,17 +7,17 @@ import { AuthPanel } from './AuthPanel';
 import { emptyMetrics } from './progress';
 import { StatsPanel } from './StatsPanel';
 
-const actions = { onEmailLogin: vi.fn(), onSignUp: vi.fn(), onGoogle: vi.fn(), onLogout: vi.fn(), onForgot: vi.fn(), onReset: vi.fn(), onVerify: vi.fn() };
+const actions = { onLogin: vi.fn(), onLogout: vi.fn() };
 
 describe('modal panels', () => {
   it('focuses the dialog, traps tab and closes with Escape', async () => {
     const close = vi.fn();
     render(<AuthPanel user={null} busy={false} error={null} message={null} online onClose={close} {...actions} />);
-    const dialog = screen.getByRole('dialog', { name: 'Entrar' });
+    const dialog = screen.getByRole('dialog', { name: 'Entrar na Maratona' });
     expect(dialog).toHaveAttribute('aria-modal', 'true');
     expect(screen.getByRole('button', { name: 'Fechar conta' })).toHaveFocus();
     await userEvent.tab({ shift: true });
-    expect(screen.getByRole('button', { name: 'Reenviar verificação' })).toHaveFocus();
+    expect(screen.getByRole('button', { name: 'Entrar ou criar conta' })).toHaveFocus();
     await userEvent.keyboard('{Escape}');
     expect(close).toHaveBeenCalledOnce();
   });

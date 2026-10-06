@@ -184,27 +184,34 @@ describe('backend auth boundary', () => {
     ).rejects.toMatchObject({ status: 401, code: 'unauthorized' });
   });
 
-  it('configures D1, Google, password auth, verification and reset callbacks', () => {
+  it('configures server-side Zitadel OIDC with D1 and no local password provider', () => {
     const db = {} as BackendEnv['DB'];
     const options = buildBetterAuthOptions({
       DB: db,
       BETTER_AUTH_SECRET: 'a'.repeat(32),
       BETTER_AUTH_URL: 'https://questions.example',
-      GOOGLE_CLIENT_ID: 'google-id',
-      GOOGLE_CLIENT_SECRET: 'google-secret',
-      RESEND_API_KEY: 're_test',
-      RESEND_FROM: 'Questões <login@example.test>',
+      MARATONA_ZITADEL_ISSUER_URL: 'https://auth.example/',
+      MARATONA_ZITADEL_WEB_CLIENT_ID: 'zitadel-id',
+      MARATONA_ZITADEL_WEB_CLIENT_SECRET: 'zitadel-secret',
+      MARATONA_ZITADEL_LOGIN_ORG_ID: 'org-id',
+      MARATONA_ZITADEL_LOGIN_PAT: 'login-pat',
+      MARATONA_ZITADEL_MANAGEMENT_PAT: 'management-pat',
     });
     expect(options.database).toBe(db);
-    expect(options.socialProviders).toMatchObject({ google: { clientId: 'google-id' } });
-    expect(options.emailAndPassword).toMatchObject({
-      enabled: true,
-      requireEmailVerification: true,
-      sendResetPassword: expect.any(Function),
-    });
-    expect(options.emailVerification).toMatchObject({
-      sendOnSignUp: true,
-      sendVerificationEmail: expect.any(Function),
-    });
+    expect(options.emailAndPassword).toMatchObject({ enabled: false });
+    expect(options.socialProviders).toBeUndefined();
+    expect(options.plugins).toEqual([expect.objectContaining({
+      id: 'generic-oauth',
+      options: { config: [expect.objectContaining({
+        providerId: 'zitadel',
+        discoveryUrl: 'https://auth.example/.well-known/openid-configuration',
+        clientId: 'zitadel-id',
+        clientSecret: 'zitadel-secret',
+        tokenEndpointAuth: { method: 'client_secret_basic' },
+        pkce: true,
+        requireIdTokenVerification: true,
+        scopes: ['openid', 'profile', 'email', 'urn:zitadel:iam:org:id:org-id'],
+      })] },
+    })]);
   });
 });

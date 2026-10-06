@@ -37,7 +37,7 @@ Criar uma conta é opcional. O estudante pode usar o aplicativo anonimamente.
 
 Com uma conta, ele pode:
 
-- Entrar com Google ou e-mail e senha.
+- Entrar com Google ou e-mail e senha pelas páginas da Maratona, usando Zitadel.
 - Verificar seu e-mail e recuperar a senha.
 - Sincronizar o progresso entre dispositivos.
 - Continuar estudando offline e sincronizar quando a conexão voltar.
@@ -63,8 +63,9 @@ O frontend foi desenvolvido como uma PWA usando React e TypeScript. A arquitetur
 - Cache Storage para provas e imagens offline.
 - Cloudflare Pages e Pages Functions para hospedagem e backend.
 - Cloudflare D1 como banco de dados.
-- Better Auth para autenticação.
-- Resend para verificação e recuperação de senha.
+- Zitadel para identidade, com páginas de conta na Maratona.
+- Better Auth para sessões locais e OIDC no backend.
+- SMTP do Zitadel para verificação e recuperação de senha.
 - API oficial do enem.dev como fonte das questões.
 
 ### Escopo atual
@@ -101,7 +102,7 @@ O D1 não possui todos os recursos de um PostgreSQL e pode deixar de ser a melho
 ## Desenvolvimento
 
 ```sh
-npm install
+npm ci
 npm run dev
 ```
 
@@ -116,7 +117,7 @@ O catálogo fica em `public/data/manifest.json`. Consulte o
 [catálogo de provas disponíveis](docs/product/catalogo-de-provas.md), a
 documentação de [arquitetura](docs/architecture/README.md), a
 [política de seleção entre edições](docs/product/prova-ativa.md), a configuração
-de [backend](docs/backend/README.md) e a matriz de
+de [backend](docs/backend/README.md), o [setup de autenticação Zitadel](docs/backend/zitadel.md) e a matriz de
 [testes](docs/testing/README.md).
 
 ## Testes
@@ -128,7 +129,7 @@ npm run test:e2e:install # somente na primeira execução
 npm run test:e2e
 ```
 
-Os testes de navegador usam o build de produção e um viewport mobile. Integrações de login e sincronização usam fakes locais, portanto a suíte padrão não depende de credenciais Google, Resend ou Cloudflare.
+Os testes de navegador usam o build de produção e um viewport mobile. Os testes de autenticação usam respostas controladas do Zitadel e D1 local, portanto a suíte padrão não depende de credenciais externas de Google, Zitadel ou Cloudflare.
 
 ## Roadmap
 
@@ -151,7 +152,7 @@ Antes de disponibilizar o MVP publicamente:
 
 1. Criar os ambientes de preview e produção no Cloudflare Pages.
 2. Criar o banco D1, aplicar as migrações e configurar os bindings.
-3. Configurar as credenciais do Google OAuth, Better Auth e Resend.
+3. Provisionar o Zitadel pelo kit, configurar SMTP/Google na instância e preencher os secrets de Pages conforme o [runbook](docs/backend/zitadel.md).
 4. Executar smoke tests reais de cadastro, verificação de e-mail, recuperação de senha e sincronização entre dispositivos.
 5. Configurar domínio, monitoramento de erros, métricas e política de privacidade.
 
