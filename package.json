@@ -5,10 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:pages": "npm run build && wrangler pages dev",
+    "dev:pages": "pnpm run build && wrangler pages dev",
     "build": "tsc --noEmit && vite build",
     "build:functions": "wrangler pages functions build functions --outdir .wrangler/functions-build --compatibility-date 2026-09-08 --compatibility-flag nodejs_compat",
-    "deploy:pages": "npm run build && wrangler pages deploy",
+    "deploy:pages": "pnpm run build && wrangler pages deploy",
     "db:migrate:local": "wrangler d1 migrations apply DB --local",
     "db:migrate:remote": "wrangler d1 migrations apply DB --remote",
     "db:migrate:preview": "wrangler d1 migrations apply DB --remote --env preview",
@@ -60,5 +60,6 @@
     "better-auth": {
       "vitest": "$vitest"
     }
-  }
+  },
+  "packageManager": "pnpm@12.11.2"
 }

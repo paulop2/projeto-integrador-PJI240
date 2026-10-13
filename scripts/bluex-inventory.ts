@@ -17,7 +17,7 @@ export interface BluexInventoryOptions {
 }
 
 export const bluexInventoryUsage = (board: BluexBoard): string =>
-  `Uso: npm run inventory:${board.id} -- --source <raiz-extraida-do-BLUEX> [opções]
+  `Uso: pnpm run inventory:${board.id} -- --source <raiz-extraida-do-BLUEX> [opções]
 
 Opções:
   --source DIR                Raiz extraída do BLUEX (com questions/${board.sourceUniversityDir} e imgs/${board.sourceUniversityDir}).

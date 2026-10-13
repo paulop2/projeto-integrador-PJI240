@@ -80,7 +80,7 @@ export const parseBluexImportArgs = (args: readonly string[]): BluexImportOption
 export const bluexImportUsage = (
   command: string,
   board: BluexBoard,
-): string => `Uso: npm run import:${board.id} -- --source <raiz-extraida-do-BLUEX> [opções]
+): string => `Uso: pnpm run import:${board.id} -- --source <raiz-extraida-do-BLUEX> [opções]
 
 ${command}
 

@@ -102,15 +102,15 @@ O D1 não possui todos os recursos de um PostgreSQL e pode deixar de ser a melho
 ## Desenvolvimento
 
 ```sh
-npm ci
-npm run dev
+pnpm install --frozen-lockfile
+pnpm run dev
 ```
 
 Para gerar o build de produção:
 
 ```sh
-npm run typecheck
-npm run build
+pnpm run typecheck
+pnpm run build
 ```
 
 O catálogo fica em `public/data/manifest.json`. Consulte o
@@ -123,10 +123,10 @@ de [backend](docs/backend/README.md), o [setup de autenticação Zitadel](docs/b
 ## Testes
 
 ```sh
-npm test
-npm run test:integration
-npm run test:e2e:install # somente na primeira execução
-npm run test:e2e
+pnpm test
+pnpm run test:integration
+pnpm run test:e2e:install # somente na primeira execução
+pnpm run test:e2e
 ```
 
 Os testes de navegador usam o build de produção e um viewport mobile. Os testes de autenticação usam respostas controladas do Zitadel e D1 local, portanto a suíte padrão não depende de credenciais externas de Google, Zitadel ou Cloudflare.
