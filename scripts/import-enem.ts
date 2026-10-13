@@ -29,8 +29,8 @@ interface CliOptions {
   report: string | null;
 }
 
-const usage = `Uso: pnpm run import:enem -- --all [opções]
-      pnpm run import:enem -- --year 2024 [opções]
+const usage = `Uso: pnpm run import:enem --all [opções]
+      pnpm run import:enem --year 2024 [opções]
 
 Modos:
   --all               Descobre todas as edições em ${DEFAULT_API_BASE_URL}/exams e importa cada uma.

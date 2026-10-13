@@ -15,7 +15,7 @@ sem lista fixa de anos no código:
 Comando de reprodução (modo "todas"):
 
 ```sh
-pnpm run import:enem -- --all --force --version 2 \
+pnpm run import:enem --all --force --version 2 \
   --report docs/research/data/enem-import-report.json
 ```
 
@@ -97,7 +97,7 @@ pacotes e as imagens efetivamente referenciadas são publicados.
 Comando de reprodução:
 
 ```sh
-pnpm run import:comvest -- --source "<BLUEX>/extracted" \
+pnpm run import:comvest --source "<BLUEX>/extracted" \
   --zip "<BLUEX>/data/bluex_dataset.zip" \
   --expected-sha256 5A02D9FCD5714332EA14AFD2C412FB1839A7AF518B1C6BD29008AD9B8CCF55D2 \
   --commit 6cdd69bd8dc8d0144e6bb01501ccae312720a0e6 \
@@ -176,7 +176,7 @@ conferido antes de normalizar e o dataset bruto nunca é copiado para `public/da
 Comando de reprodução:
 
 ```sh
-pnpm run import:fuvest -- --source "<BLUEX>/extracted" \
+pnpm run import:fuvest --source "<BLUEX>/extracted" \
   --zip "<BLUEX>/data/bluex_dataset.zip" \
   --expected-sha256 5A02D9FCD5714332EA14AFD2C412FB1839A7AF518B1C6BD29008AD9B8CCF55D2 \
   --commit 6cdd69bd8dc8d0144e6bb01501ccae312720a0e6 \
