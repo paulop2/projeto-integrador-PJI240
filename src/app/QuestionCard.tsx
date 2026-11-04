@@ -3,6 +3,7 @@ import { useCallback, useEffect, useRef } from 'react';
 import type { Question } from '../contracts';
 import type { LocalOutcome } from './progress';
 import type { StudySession } from './ports';
+import { questionContextText } from './questionContext';
 import { activeElapsedMs, formatTimer, useQuestionTimer } from './useQuestionTimer';
 import { useViewTracking } from './useViewTracking';
 
@@ -43,6 +44,7 @@ export function QuestionCard({ question, position, total, active, session, onSta
   const remaining = useQuestionTimer(session.elapsedMs, session.startedAt, active, !isSupported || session.outcome !== null, timeout);
   const viewRef = useViewTracking(active, useCallback(() => onViewed(question), [onViewed, question]));
   const locked = session.outcome !== null;
+  const context = questionContextText(question.context);
 
   return (
     <article ref={viewRef} className="question-card" aria-labelledby={`title-${question.id}`}>
@@ -63,7 +65,7 @@ export function QuestionCard({ question, position, total, active, session, onSta
 
       <div className="question-copy">
         <span className="question-number" id={`title-${question.id}`}>Questão {position}</span>
-        {question.context && <p>{question.context}</p>}
+        {context && <p>{context}</p>}
         {question.files.map((file) => <img key={file} src={file} alt="Material de apoio da questão" loading="lazy" />)}
         {question.alternativesIntroduction && <p className="introduction">{question.alternativesIntroduction}</p>}
       </div>

@@ -36,6 +36,22 @@ describe('QuestionCard', () => {
     expect(screen.getByText(/resposta correta está destacada/i)).toBeInTheDocument();
   });
 
+  it('does not show the raw Markdown image that enem.dev embeds in the context', () => {
+    const context = 'Analise a figura.\n\n![](https://enem.dev/2009/questions/2/image.png)';
+    render(<QuestionCard question={{ ...question, context, files: ['https://enem.dev/2009/questions/2/image.png'] }} position={1} total={1} active session={session} {...actions} />);
+
+    expect(screen.getByText('Analise a figura.')).toBeInTheDocument();
+    expect(screen.queryByText(/!\[/)).not.toBeInTheDocument();
+    expect(screen.getByRole('img', { name: 'Material de apoio da questão' })).toHaveAttribute('src', 'https://enem.dev/2009/questions/2/image.png');
+  });
+
+  it('skips the context paragraph when it only contained an image', () => {
+    render(<QuestionCard question={{ ...question, context: '![](https://enem.dev/broken-image.svg)' }} position={1} total={1} active session={session} {...actions} />);
+
+    expect(screen.queryByText(/!\[/)).not.toBeInTheDocument();
+    expect(document.querySelector('.question-copy p')).not.toBeInTheDocument();
+  });
+
   it('pauses the timer as soon as it stops being the active question', () => {
     const onPause = vi.fn();
     const running: QuestionSession = { elapsedMs: 0, startedAt: Date.now(), selectedOptionId: null, outcome: null, struckOptionIds: [] };
