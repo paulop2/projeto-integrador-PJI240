@@ -14,8 +14,11 @@ Zitadel e não são armazenadas no D1.
 
 1. O estudante inicia o acesso na área Conta. O Better Auth cria o estado OIDC,
    o nonce e o desafio PKCE e abre o endpoint de autorização do Zitadel.
-2. O cliente OIDC do kit aponta a Login V2 para `/login`. O Zitadel retorna à
-   Maratona com `authRequest`.
+2. O cliente OIDC do kit configura `/login` como a base da Login V2. O Zitadel
+   acrescenta `/login` e retorna à Maratona em `/login/login?authRequest=...`.
+   A aplicação aceita esse caminho e `/login`, inclusive com barra final,
+   usando a mesma tela e as mesmas proteções de cache e referrer. Links de
+   verificação e recuperação continuam usando `/login`.
 3. As Functions validam o cliente e o callback desse pedido antes de usar as
    APIs Session e User V2. O navegador nunca recebe os PATs ou tokens da sessão
    temporária do Zitadel.

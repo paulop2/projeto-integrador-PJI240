@@ -5,9 +5,12 @@ import { App } from './app/App';
 import { AuthPage } from './app/AuthPage';
 import './styles/global.css';
 
+// Login V2 appends /login to the kit's configured /login base URI.
+const loginPath = /^\/login(?:\/login)?\/?$/.test(window.location.pathname);
+
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    {window.location.pathname === '/login' || window.location.pathname === '/login/' ? <AuthPage /> : <App />}
+    {loginPath ? <AuthPage /> : <App />}
   </StrictMode>,
 );
 
