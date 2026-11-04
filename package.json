@@ -31,7 +31,7 @@
     "typecheck:contracts": "tsc --noEmit"
   },
   "dependencies": {
-    "better-auth": "1.7.1",
+    "better-auth": "1.7.7",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "zod": "^3.24.2"
